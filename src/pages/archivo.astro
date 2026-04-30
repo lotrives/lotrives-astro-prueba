@@ -1,0 +1,114 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+const posts = await getCollection('blog');
+
+const sortedPosts = posts
+	.filter((post) => !post.data.draft)
+	.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
+
+const postsByYear = sortedPosts.reduce((groups, post) => {
+	const year = new Date(post.data.pubDate).getFullYear();
+
+	if (!groups[year]) {
+		groups[year] = [];
+	}
+
+	groups[year].push(post);
+	return groups;
+}, {});
+
+const years = Object.keys(postsByYear).sort((a, b) => Number(b) - Number(a));
+
+const formatDate = (date) =>
+	new Intl.DateTimeFormat('es-ES', {
+		day: '2-digit',
+		month: '2-digit',
+		year: 'numeric',
+	}).format(new Date(date));
+
+const postUrl = (post) => `/blog/${post.id.replace(/\.md$/, '')}/`;
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead
+			title="Archivo | Lotrives"
+			description="Archivo cronológico de artículos publicados en Lotrives."
+		/>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="page">
+				<h1>Archivo</h1>
+
+				{
+					years.map((year) => (
+						<section>
+							<h2 class="archivo-anio">{year}</h2>
+							<ul class="archivo-lista">
+								{postsByYear[year].map((post) => (
+									<li>
+										<a href={postUrl(post)}>{post.data.title}</a>
+										<span class="archivo-fecha">{formatDate(post.data.pubDate)}</span>
+									</li>
+								))}
+							</ul>
+						</section>
+					))
+				}
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.page {
+		max-width: 760px;
+		margin: 0 auto;
+		padding: 4rem 1.5rem;
+	}
+
+	h1 {
+		margin: 0 0 2rem;
+		font-size: clamp(2.5rem, 8vw, 4rem);
+		line-height: 1;
+	}
+
+	.archivo-anio {
+		margin-top: 1.5em;
+		margin-bottom: 0.5em;
+		font-size: 1.75rem;
+		line-height: 1.2;
+	}
+
+	.archivo-lista {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+	.archivo-lista li {
+		margin-bottom: 0.5em;
+		font-size: 1.05rem;
+		line-height: 1.6;
+	}
+
+	.archivo-fecha {
+		font-size: 0.75em;
+		color: #999;
+		margin-left: 0.4em;
+		letter-spacing: 0.04em;
+	}
+
+	a {
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.15em;
+	}
+</style>
