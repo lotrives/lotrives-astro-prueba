@@ -7,12 +7,17 @@ import HeaderLink from './HeaderLink.astro';
 	<nav>
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
-			<HeaderLink href="/">Inicio</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">Acerca</HeaderLink>
+			<HeaderLink href="/acerca/">Acerca</HeaderLink>
+			<HeaderLink href="/archivo/">Archivo</HeaderLink>
+			<HeaderLink href="/publicaciones/">Otras publicaciones</HeaderLink>
+			<HeaderLink href="/libros/">Libros</HeaderLink>
+			<HeaderLink href="/etiquetas/">Etiquetas</HeaderLink>
+			<HeaderLink href="/buscar/">Buscar</HeaderLink>
+			<HeaderLink href="/newsletter/">Newsletter</HeaderLink>
 		</div>
 	</nav>
 </header>
+
 <style>
 	header {
 		margin: 0;
@@ -20,28 +25,65 @@ import HeaderLink from './HeaderLink.astro';
 		background: white;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
 	}
+
 	h2 {
 		margin: 0;
-		font-size: 1em;
+		font-size: 1.6rem;
+		font-weight: 400;
 	}
 
 	h2 a,
 	h2 a.active {
+		color: var(--black);
 		text-decoration: none;
 	}
+
 	nav {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		gap: 2rem;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
+
 	nav a {
-		padding: 1em 0.5em;
+		display: inline-block;
+		padding: 1.2rem 0;
 		color: var(--black);
-		border-bottom: 4px solid transparent;
 		text-decoration: none;
+		border-bottom: 3px solid transparent;
 	}
+
 	nav a.active {
-		text-decoration: none;
 		border-bottom-color: var(--accent);
+	}
+
+	.internal-links {
+		display: flex;
+		align-items: center;
+		gap: 1.5rem;
+		font-size: 1.1rem;
+		white-space: nowrap;
+	}
+
+	@media (max-width: 900px) {
+		nav {
+			align-items: flex-start;
+			flex-direction: column;
+			gap: 0.25rem;
+			padding: 1rem 0;
+		}
+
+		.internal-links {
+			flex-wrap: wrap;
+			gap: 0.75rem 1rem;
+			font-size: 1rem;
+			white-space: normal;
+		}
+
+		nav a {
+			padding: 0.25rem 0;
+		}
 	}
 </style>
