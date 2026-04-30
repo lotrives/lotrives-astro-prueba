@@ -1,0 +1,196 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+
+const posts = await getCollection('blog');
+
+const postUrl = (post) => `/blog/${post.id.replace(/\.md$/, '')}/`;
+
+const slugify = (text) =>
+	text
+		.toString()
+		.normalize('NFD')
+		.replace(/[\u0300-\u036f]/g, '')
+		.toLowerCase()
+		.trim()
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-+|-+$/g, '');
+
+const tagsMap = new Map();
+for (const post of posts) {
+	const tags = post.data.tags ?? [];
+	for (const tag of tags) {
+		if (!tagsMap.has(tag)) tagsMap.set(tag, []);
+		tagsMap.get(tag).push(post);
+	}
+}
+
+const LETRAS = ['0-9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+
+function letraDeTag(tagName) {
+	const primera = tagName.normalize('NFD').replace(/[\u0300-\u036f]/g, '').charAt(0).toUpperCase();
+	return /[0-9]/.test(primera) ? '0-9' : primera;
+}
+
+const tagsPorLetra = new Map();
+for (const [tagName, tagPosts] of tagsMap.entries()) {
+	const letra = letraDeTag(tagName);
+	if (!tagsPorLetra.has(letra)) tagsPorLetra.set(letra, []);
+	tagsPorLetra.get(letra).push({
+		name: tagName,
+		id: `tag-${slugify(tagName)}`,
+		posts: tagPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
+	});
+}
+
+for (const [letra, tags] of tagsPorLetra.entries()) {
+	tagsPorLetra.set(letra, tags.sort((a, b) => a.name.localeCompare(b.name, 'es')));
+}
+
+const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead title={`Etiquetas | ${SITE_TITLE}`} description="Índice de etiquetas de Lotrives." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="page">
+				<h1>Etiquetas</h1>
+
+				{letrasConTags.length === 0 ? (
+					<p>Todavía no hay etiquetas disponibles.</p>
+				) : (
+					<>
+						<div id="nav-letras" class="nav-letras">
+							{letrasConTags.map((letra) => (
+								<a href={`#letra-${slugify(letra)}`}>{letra}</a>
+							))}
+						</div>
+
+						{letrasConTags.map((letra) => {
+							const tags = tagsPorLetra.get(letra)!;
+							return (
+								<>
+									<div class="letra-header">
+										<h2 id={`letra-${slugify(letra)}`}>{letra}</h2>
+										<a href="#nav-letras">↑</a>
+									</div>
+
+									<div class="tags-columnas">
+										{tags.map((tag) => (
+											<div>
+												<a href={`#${tag.id}`}>{tag.name}</a>{' '}
+												<span class="post-fecha">({tag.posts.length})</span>
+											</div>
+										))}
+									</div>
+
+									{tags.map((tag) => (
+										<div class="tag-posts">
+											<h4 id={tag.id}>{tag.name}</h4>
+											<ul>
+												{tag.posts.map((post) => (
+													<li>
+														<a href={postUrl(post)}>{post.data.title}</a>
+														<span class="post-fecha">
+															{new Date(post.data.pubDate).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' })}
+														</span>
+													</li>
+												))}
+											</ul>
+										</div>
+									))}
+								</>
+							);
+						})}
+					</>
+				)}
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+.page {
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 4rem 1.5rem;
+}
+h1 {
+	margin: 0 0 1.5rem;
+	font-size: clamp(2rem, 6vw, 3rem);
+	line-height: 1;
+}
+.nav-letras {
+	display: grid;
+	grid-template-columns: repeat(9, auto);
+	gap: 0.4em;
+	margin-bottom: 2em;
+	width: fit-content;
+}
+.nav-letras a {
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+	color: inherit;
+	font-size: 0.95em;
+}
+.nav-letras a:hover {
+	text-decoration: underline;
+}
+.letra-header {
+	display: flex;
+	align-items: baseline;
+	gap: 0.4em;
+	margin-top: 1.5em;
+}
+.letra-header h2 {
+	margin: 0;
+}
+.letra-header a {
+	font-size: 0.85em;
+	text-decoration: none;
+	color: #999;
+}
+.letra-header a:hover {
+	color: inherit;
+}
+.tags-columnas {
+	columns: 2;
+	column-gap: 2em;
+	margin-bottom: 2em;
+}
+.tag-posts {
+	margin-bottom: 1.5em;
+}
+.tag-posts h4 {
+	margin-bottom: 0.3em;
+}
+.tag-posts ul {
+	margin: 0;
+	padding-left: 1.2em;
+}
+.tag-posts li {
+	margin-bottom: 0.2em;
+}
+.post-fecha {
+	font-size: 0.85em;
+	color: #999;
+	margin-left: 0.4em;
+}
+@media (max-width: 600px) {
+	.tags-columnas {
+		columns: 1;
+	}
+	.nav-letras {
+		grid-template-columns: repeat(6, auto);
+	}
+}
+</style>
