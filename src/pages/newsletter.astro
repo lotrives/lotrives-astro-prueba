@@ -1,0 +1,57 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead
+			title="Newsletter | Lotrives"
+			description="Suscríbete a Lotrives, la newsletter de José Manuel Grau Navarro sobre el mundo que somos."
+		/>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="page">
+				<h1>Newsletter</h1>
+
+				<p>
+					Textos sobre el mundo que somos. Artículos de José Manuel Grau Navarro. Suscríbete para recibirlos.
+				</p>
+
+				<iframe
+					src="https://lotrives.substack.com/embed"
+					width="480"
+					height="320"
+					style="border: 1px solid #EEE; background: white; max-width: 100%;"
+					frameborder="0"
+					scrolling="no">
+				</iframe>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.page {
+		max-width: 760px;
+		margin: 0 auto;
+		padding: 4rem 1.5rem;
+	}
+
+	h1 {
+		margin: 0 0 2rem;
+		font-size: clamp(2.5rem, 8vw, 4rem);
+		line-height: 1;
+	}
+
+	p {
+		margin: 0 0 1.4rem;
+		font-size: 1.125rem;
+		line-height: 1.75;
+	}
+</style>

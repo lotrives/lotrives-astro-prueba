@@ -1,0 +1,189 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead
+			title="Buscar | Lotrives"
+			description="Buscar en Lotrives."
+		/>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="page">
+				<h1>Buscar</h1>
+
+				<input type="search" id="buscador-q" placeholder="Busca títulos, textos, etiquetas…" autocomplete="off" disabled style="width:100%;max-width:480px;padding:0.75rem 1rem;font-size:1rem;box-sizing:border-box;margin-top:1rem;">
+
+				<div id="buscador-status" style="font-size:0.8rem;color:#888;margin:0.75rem 0 1rem;min-height:1.2em;"></div>
+				<div id="buscador-results"></div>
+			</section>
+		</main>
+		<Footer />
+
+		<script>
+		(function () {
+		  var posts = [];
+		  var input   = document.getElementById('buscador-q');
+		  var status  = document.getElementById('buscador-status');
+		  var results = document.getElementById('buscador-results');
+
+		  function esc(str) {
+		    return (str||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+		  }
+
+		  function normalizeEs(str) {
+		    if (!str) return '';
+		    return str
+		      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+		      .toLowerCase();
+		  }
+
+		  function normalizeFull(str) {
+		    if (!str) return '';
+		    return str
+		      .replace(/ł/g, 'l').replace(/Ł/g, 'l')
+		      .replace(/ą/g, 'a').replace(/Ą/g, 'a')
+		      .replace(/ę/g, 'e').replace(/Ę/g, 'e')
+		      .replace(/ś/g, 's').replace(/Ś/g, 's')
+		      .replace(/ź/g, 'z').replace(/Ź/g, 'z')
+		      .replace(/ż/g, 'z').replace(/Ż/g, 'z')
+		      .replace(/ć/g, 'c').replace(/Ć/g, 'c')
+		      .replace(/ń/g, 'n').replace(/Ń/g, 'n')
+		      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+		      .toLowerCase();
+		  }
+
+		  function matchEs(p, qn) {
+		    return normalizeEs(p.title).indexOf(qn) !== -1 ||
+		           normalizeEs(p.content).indexOf(qn) !== -1 ||
+		           normalizeEs(p.excerpt).indexOf(qn) !== -1 ||
+		           normalizeEs(p.tags).indexOf(qn) !== -1;
+		  }
+
+		  function matchFull(p, qn) {
+		    return normalizeFull(p.title).indexOf(qn) !== -1 ||
+		           normalizeFull(p.content).indexOf(qn) !== -1 ||
+		           normalizeFull(p.excerpt).indexOf(qn) !== -1 ||
+		           normalizeFull(p.tags).indexOf(qn) !== -1;
+		  }
+
+		  function hl(text, q) {
+		    if (!q) return esc(text);
+		    var safe = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+		    return esc(text).replace(new RegExp('(' + esc(safe) + ')', 'gi'), '<mark>$1</mark>');
+		  }
+
+		  function excerpt(text, q, normFn) {
+		    var src = text || '';
+		    var srcNorm = normFn(src);
+		    var qNorm = normFn(q);
+		    var idx = q ? srcNorm.indexOf(qNorm) : -1;
+		    var s = idx > 60 ? idx - 60 : 0;
+		    var chunk = src.slice(s, s + 220);
+		    if (s > 0) chunk = '…' + chunk;
+		    if (s + 220 < src.length) chunk += '…';
+		    return hl(chunk, q);
+		  }
+
+		  function fmtDate(raw) {
+		    if (!raw) return '';
+		    var d = new Date(raw);
+		    return isNaN(d) ? raw : d.toLocaleDateString('es-ES', { year:'numeric', month:'long', day:'numeric' });
+		  }
+
+		  function renderCards(matched, q, normFn) {
+		    return matched.map(function(p) {
+		      return '<div class="b-card">' +
+		        '<a href="' + esc(p.url) + '">' + hl(p.title||'', q) + '</a>' +
+		        '<div class="b-date">' + fmtDate(p.date) + '</div>' +
+		        '<div class="b-excerpt">' + excerpt(p.content||p.excerpt||'', q, normFn) + '</div>' +
+		        (p.tags ? '<div class="b-tags">' + (p.tags).split(', ').map(function(t){ return '#' + esc(t.trim()); }).join(' ') + '</div>' : '') +
+		        '</div>';
+		    }).join('');
+		  }
+
+		  function search(query) {
+		    var q = query.trim();
+		    if (!q) {
+		      results.innerHTML = '';
+		      status.innerHTML = posts.length + ' entradas indexadas';
+		      return;
+		    }
+
+		    var qEs = normalizeEs(q);
+		    var matched = posts.filter(function(p) { return matchEs(p, qEs); });
+
+		    if (matched.length > 0) {
+		      var n = matched.length;
+		      status.innerHTML = n + ' resultado' + (n !== 1 ? 's' : '') + ' para "<strong>' + esc(q) + '</strong>"';
+		      results.innerHTML = renderCards(matched, q, normalizeEs);
+		      return;
+		    }
+
+		    var qFull = normalizeFull(q);
+		    var matchedFull = posts.filter(function(p) { return matchFull(p, qFull); });
+
+		    var nFull = matchedFull.length;
+		    if (nFull > 0) {
+		      status.innerHTML = nFull + ' resultado' + (nFull !== 1 ? 's' : '') + ' aproximado' + (nFull !== 1 ? 's' : '') + ' para "<strong>' + esc(q) + '</strong>"';
+		      results.innerHTML =
+		        '<div class="b-aproximado">No se encontraron resultados exactos. Se muestran resultados aproximados (con caracteres equivalentes).</div>' +
+		        renderCards(matchedFull, q, normalizeFull);
+		    } else {
+		      status.innerHTML = '0 resultados para "<strong>' + esc(q) + '</strong>"';
+		      results.innerHTML = '<p class="b-nada">No se encontró nada.</p>';
+		    }
+		  }
+
+		  fetch('/search.json')
+		    .then(function(r) { return r.json(); })
+		    .then(function(data) {
+		      posts = data;
+		      input.disabled = false;
+		      input.focus();
+		      status.innerHTML = posts.length + ' entradas indexadas';
+		    })
+		    .catch(function() {
+		      status.innerHTML = 'Error al cargar el índice.';
+		    });
+
+		  var timer;
+		  input.addEventListener('input', function(e) {
+		    clearTimeout(timer);
+		    timer = setTimeout(function() { search(e.target.value); }, 250);
+		  });
+		})();
+		</script>
+	</body>
+</html>
+
+<style>
+	.page {
+		max-width: 760px;
+		margin: 0 auto;
+		padding: 4rem 1.5rem;
+	}
+
+	h1 {
+		margin: 0 0 2rem;
+		font-size: clamp(2.5rem, 8vw, 4rem);
+		line-height: 1;
+	}
+
+	.b-card { border:1px solid #e0e0e0; border-radius:4px; padding:1rem 1.2rem; margin-bottom:0.8rem; }
+	.b-card:hover { border-color:#aaa; }
+	.b-card a { font-weight:bold; display:block; margin-bottom:0.2rem; color:#3273dc; text-decoration:none; }
+	.b-card a:hover { text-decoration:underline; }
+	.b-date { font-size:0.75rem; color:#888; margin-bottom:0.4rem; }
+	.b-excerpt { font-size:0.9rem; color:#555; line-height:1.5; }
+	.b-excerpt mark { background:#ffeaa0; border-radius:2px; padding:0 2px; }
+	.b-tags { margin-top:0.5rem; font-size:0.75rem; color:#888; }
+	.b-nada { font-style:italic; color:#888; }
+	.b-aproximado { font-size:0.85rem; color:#888; font-style:italic; margin-bottom:1rem; padding:0.5rem 0.75rem; border-left:3px solid #e0e0e0; }
+</style>
