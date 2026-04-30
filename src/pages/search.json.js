@@ -7,6 +7,10 @@ function stripHtml(value = '') {
 		.trim();
 }
 
+function postUrl(post) {
+	return `/blog/${post.id.replace(/\.md$/, '').replace(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/, '$1/$2/$3/$4')}/`;
+}
+
 export async function GET() {
 	const posts = await getCollection('blog');
 
@@ -17,11 +21,12 @@ export async function GET() {
 			const description = post.data.description || '';
 			const body = stripHtml(post.body || '');
 			const tags = Array.isArray(post.data.tags) ? post.data.tags.join(', ') : '';
+			const url = postUrl(post);
 
 			return {
-				id: `/blog/${post.slug}/`,
+				id: url,
 				title,
-				url: `/blog/${post.slug}/`,
+				url,
 				date: post.data.pubDate || '',
 				excerpt: description,
 				content: body,

@@ -4,10 +4,15 @@ import BlogPost from '../../layouts/BlogPost.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
-	return posts.map((post) => ({
-		params: { slug: post.id },
-		props: post,
-	}));
+	return posts.map((post) => {
+		const id = post.id.replace(/\.md$/, '');
+		const [year, month, day, ...rest] = id.split('-');
+		const slug = rest.join('-');
+		return {
+			params: { slug: `${year}/${month}/${day}/${slug}` },
+			props: post,
+		};
+	});
 }
 type Props = CollectionEntry<'blog'>;
 
