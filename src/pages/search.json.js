@@ -7,8 +7,10 @@ function stripHtml(value = '') {
 		.trim();
 }
 
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
 function postUrl(post) {
-	return `/${post.id.replace(/\.md$/, '').replace(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/, '$1/$2/$3/$4')}/`;
+	return `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/, '$1/$2/$3/$4')}/`;
 }
 
 export async function GET() {
