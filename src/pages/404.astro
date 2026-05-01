@@ -1,0 +1,28 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead
+			title="404 · Página no encontrada | Lotrives"
+			description="No hemos podido encontrar el recurso solicitado en Lotrives."
+		/>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>404 Página no encontrada :(</h1>
+
+			<p>No hemos podido encontrar el recurso solicitado.</p>
+
+			<p>
+				<a href="/lotrives-astro-prueba/">Volver a la portada</a>
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
