@@ -2,7 +2,7 @@
   The CSS in this style tag is based off of Bear Blog's default CSS.
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
-*/
+ */
 
 :root {
 	--accent: #2337ff;
@@ -32,7 +32,7 @@ main {
 	width: 720px;
 	max-width: calc(100% - 2em);
 	margin: auto;
-	padding: 1em 1em 3em 1em;
+	padding: 3em 1em;
 }
 h1,
 h2,
@@ -45,13 +45,13 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 2.5em;
+	font-size: 2em;
 }
 h2 {
-	font-size: 1.6em;
+	font-size: 1.4em;
 }
 h3 {
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 h4 {
 	font-size: 1.05em;
@@ -108,9 +108,8 @@ pre > code {
 blockquote {
 	border-left: 4px solid var(--accent);
 	padding: 0 0 0 20px;
-	margin: 0 0 1em 0;
-	font-size: 1em;
-	line-height: 1.6;
+	margin: 0;
+	font-size: 1.1em;
 }
 hr {
 	border: none;
