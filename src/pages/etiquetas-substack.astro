@@ -1,0 +1,163 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+const etiquetasPath = path.join(process.cwd(), 'src', 'data', 'etiquetas.tsv');
+const etiquetasTexto = fs.readFileSync(etiquetasPath, 'utf-8').trim();
+const [, ...lineas] = etiquetasTexto.split(/\r?\n/);
+
+const etiquetas = lineas
+  .map((linea) => {
+    const [Etiqueta, URL] = linea.split('\t');
+    return { Etiqueta, URL };
+  })
+  .filter((item) => item.Etiqueta && item.URL)
+  .sort((a, b) => a.Etiqueta.localeCompare(b.Etiqueta, 'es', { sensitivity: 'base' }));
+
+const letras = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+const digitos = '0123456789';
+
+function inicialNormalizada(etiqueta) {
+  return etiqueta
+    .charAt(0)
+    .toUpperCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+}
+
+const etiquetasPorDigito = etiquetas.filter((item) => digitos.includes(inicialNormalizada(item.Etiqueta)));
+const etiquetasPorLetra = letras
+  .map((letra) => ({
+    letra,
+    items: etiquetas.filter((item) => inicialNormalizada(item.Etiqueta) === letra),
+  }))
+  .filter((grupo) => grupo.items.length > 0);
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <BaseHead
+      title="Etiquetas de Lotrives (Substack)"
+      description="Índice alfabético de etiquetas de Lotrives en Substack."
+    />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Etiquetas de Lotrives (Substack)</h1>
+
+      <p>
+        Este índice recoge todos los temas tratados en
+        <a href="https://lotrives.substack.com" target="_blank" rel="noopener">Lotrives (Substack)</a>.
+      </p>
+
+      <p>Puedes explorar los contenidos haciendo clic en cada etiqueta.</p>
+
+      <p><strong>Total de etiquetas:</strong> {etiquetas.length}</p>
+
+      <h2 id="navegacion">Navegación</h2>
+
+      <div class="etiquetas-nav">
+        {etiquetasPorDigito.length > 0 && <a href="#0-9">0-9</a>}
+        {etiquetasPorLetra.map(({ letra }) => <a href={`#${letra.toLowerCase()}`}>{letra}</a>)}
+      </div>
+
+      {etiquetasPorDigito.length > 0 && (
+        <>
+          <div class="letra-cabecera">
+            <h2 id="0-9">0-9</h2>
+            <a class="volver" href="#navegacion">↑</a>
+          </div>
+          <ul class="etiquetas-lista">
+            {etiquetasPorDigito.map((item) => (
+              <li><a href={item.URL} target="_blank" rel="noopener">{item.Etiqueta}</a></li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      {etiquetasPorLetra.map(({ letra, items }) => (
+        <>
+          <div class="letra-cabecera">
+            <h2 id={letra.toLowerCase()}>{letra}</h2>
+            <a class="volver" href="#navegacion">↑</a>
+          </div>
+          <ul class="etiquetas-lista">
+            {items.map((item) => (
+              <li><a href={item.URL} target="_blank" rel="noopener">{item.Etiqueta}</a></li>
+            ))}
+          </ul>
+        </>
+      ))}
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .etiquetas-nav {
+    display: grid;
+    grid-template-columns: repeat(9, 2rem);
+    gap: 0.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .etiquetas-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.9rem;
+  }
+
+  .etiquetas-nav a:hover {
+    text-decoration: underline;
+  }
+
+  .etiquetas-lista {
+    columns: 2;
+    column-gap: 2rem;
+    margin-top: 0.4rem;
+    padding-left: 1.2rem;
+  }
+
+  .etiquetas-lista li {
+    margin: 0 0 0.15rem 0;
+    break-inside: avoid;
+  }
+
+  @media screen and (max-width: 700px) {
+    .etiquetas-nav {
+      grid-template-columns: repeat(7, 2rem);
+    }
+
+    .etiquetas-lista {
+      columns: 1;
+    }
+  }
+
+  .letra-cabecera {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+  }
+
+  .letra-cabecera a.volver {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #aaa;
+    text-decoration: none;
+    line-height: 1;
+  }
+
+  .letra-cabecera a.volver:hover {
+    color: #333;
+  }
+</style>
