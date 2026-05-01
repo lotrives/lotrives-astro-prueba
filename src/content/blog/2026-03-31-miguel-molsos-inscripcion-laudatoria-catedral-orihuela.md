@@ -3,10 +3,10 @@ title: "La inscripción laudatoria a Miguel Molsos en la catedral de Orihuela"
 pubDate: 2026-03-31
 tags: [Catedral de Orihuela, Orihuela]
 description: Transcripción en latín y traducción al castellano de la dedicatoria a Miguel Molsos, primer pavorde de la entonces colegiata de Orihuela, que se encuentra en la capilla de la Comunión de la catedral de Orihuela.
-heroImage: /assets/images/molsos-catedral-orihuela-portada.webp
+heroImage: /lotrives-astro-prueba/assets/images/molsos-catedral-orihuela-portada.webp
 ---
 
-![Estatua orante de Miguel Molsos en la catedral de Orihuela]({{ "/assets/images/molsos-catedral-orihuela-portada.webp" | relative_url }})
+![Estatua orante de Miguel Molsos en la catedral de Orihuela](/lotrives-astro-prueba/assets/images/molsos-catedral-orihuela-portada.webp)
 
 Orihuela, martes, 31 de marzo de 2026. En la [catedral de Orihuela](https://catedraldeorihuela.com), en **la capilla de la Comunión**, nada más entrar a la izquierda, destaca una escultura de **Miguel Molsos**. He visto el apellido escrito a veces también así: **Molsós**. 
 
@@ -28,7 +28,7 @@ Aclaraciones lingüísticas:
  
 **D. O. M.** es la abreviatura de *Deo Optimo Maximo*, que significa literalmente *A Dios óptimo máximo* [es decir: «Dedicado a Dios, el mejor y el más grande»]. **D. D.**, en este contexto, es la abreviatura del título académico latino [doctor decretorum](https://www.newadvent.org/cathen/05072b.htm), el título universitario medieval equivalente a doctor en Derecho Canónico.
 
-![Estatua orante de Miguel Molsos en la catedral de Orihuela]({{ "/assets/images/molsos-catedral-orihuela.webp" | relative_url }})
+![Estatua orante de Miguel Molsos en la catedral de Orihuela](/lotrives-astro-prueba/assets/images/molsos-catedral-orihuela.webp)
 
 ### Trama histórica
 

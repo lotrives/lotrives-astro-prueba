@@ -3,10 +3,10 @@ title: "Del letrero ruso de una parroquia de Madrid a Cirilo y Metodio"
 pubDate: 2026-04-28
 tags: ["Cirilo y Metodio", "Juan Pablo II", Comunismo, Europa, Iglesia, Madrid, Checoslovaquia, "František Tomášek"]
 description: "Un respostero en ruso en la Parroquia María Virgen Madre de Madrid y el eco de la multitudinaria peregrinación a Velehrad en 1985."
-heroImage: "/assets/images/cirilo-metodio-velehrad-respostero.webp"
+heroImage: "/lotrives-astro-prueba/assets/images/cirilo-metodio-velehrad-respostero.webp"
 ---
 
-![Respostero con la inscripción КРЕЩЕНИЕ ГОСПОДНЕ en la Parroquia María Virgen Madre, Madrid, abril de 2026. Foto: © José Manuel Grau Navarro](/assets/images/cirilo-metodio-velehrad-respostero.webp)
+![Respostero con la inscripción КРЕЩЕНИЕ ГОСПОДНЕ en la Parroquia María Virgen Madre, Madrid, abril de 2026. Foto: © José Manuel Grau Navarro](/lotrives-astro-prueba/assets/images/cirilo-metodio-velehrad-respostero.webp)
 
 En la [Parroquia María Virgen Madre](https://open.substack.com/pub/lotrives/p/santiago-martin-de-abc-a-franciscanos?utm_campaign=post-expanded-share&utm_medium=web), mi parroquia, en Madrid, acaban de colgar el repostero que se ve en la imagen. No sé todavía a qué se ha debido pero me ha llamado mucho la atención y seguro que nuestro párroco lo explicará en breve. 
 

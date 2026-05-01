@@ -2,11 +2,11 @@
 title: "El ajedrez y la humildad. Una tarde con Leontxo García"
 description: "Leontxo García explica en una conferencia los valores educativos del ajedrez"
 pubDate: 2025-12-03
-heroImage: "/assets/images/ajedrez-humildad-leontxo-garcia-portada.webp"
+heroImage: "/lotrives-astro-prueba/assets/images/ajedrez-humildad-leontxo-garcia-portada.webp"
 tags: [Ajedrez, Leontxo García, Humildad]
 ---
 
-![Leontxo García en el Foro Nueva Revista, Universidad Villanueva (Madrid), el 3/12/2025. © José Manuel Grau Navarro](/assets/images/ajedrez-humildad-leontxo-garcia-portada.webp)
+![Leontxo García en el Foro Nueva Revista, Universidad Villanueva (Madrid), el 3/12/2025. © José Manuel Grau Navarro](/lotrives-astro-prueba/assets/images/ajedrez-humildad-leontxo-garcia-portada.webp)
 
 [Leontxo García](https://elpais.com/autor/leontxo-garcia/) es vasco, alto, corpulento, tranquilo y sencillo. Contesta con precisión y cortesía a cualquier pregunta que tenga que ver con el mundo del ajedrez, al que se dedica ya desde hace más de cincuenta años, primero como jugador semiprofesional y luego como periodista.
 

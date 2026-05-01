@@ -4,11 +4,11 @@ description: "Impresiones tras un encuentro con Pedro García Cuartango, por su 
 canonical_url: "https://lotrives.github.io/2025/11/19/sobre-pedro-garcia-cuartango-enigma-de-dios/"
 pubDate: 2025-11-19
 last_modified_at: 2025-11-30
-heroImage: "/assets/images/sobre-pedro-garcia-cuartango-portada.webp"
+heroImage: "/lotrives-astro-prueba/assets/images/sobre-pedro-garcia-cuartango-portada.webp"
 tags: [Dios, Jesucristo, "Bertrand Russell", "Frederick C. Copleston", Isaías]
 ---
 
-![Pedro García Cuartango en el Foro Nueva Revista, Madrid, 19 de noviembre de 2025]({{ "/assets/images/sobre-pedro-garcia-cuartango-portada.webp" | relative_url }})
+![Pedro García Cuartango en el Foro Nueva Revista, Madrid, 19 de noviembre de 2025](/lotrives-astro-prueba/assets/images/sobre-pedro-garcia-cuartango-portada.webp)
 
 Hemos celebrado esta mañana el Foro Nueva Revista en la sede de la Universidad Villanueva. Nuestro invitado hoy era **Pedro García Cuartango**, y hemos dialogado, algunos de forma presencial, otros *online*, sobre su libro *El enigma de Dios*, publicado por Ediciones B en este 2025. Una reseña a su ensayo se puede leer [aquí](https://www.nuevarevista.net/el-enigma-de-dios-de-pedro-garcia-cuartango/).
 
