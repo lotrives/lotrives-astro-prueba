@@ -3,14 +3,14 @@ title: "Marcin Romanowski, un político polaco, numerario del Opus Dei y refugia
 pubDate: 2026-04-17
 tags: ["Marcin Romanowski", "Opus Dei", "Numerario", "San Josemaría Escrivá de Balaguer", Lecturas, "Eugenio Trías"]
 description: "Marcin Romanowski se encuentra refugiado en Hungría y la prensa polaca se pregunta si con el cambio de Gobierno en Budapest será extraditado y cómo actuará el Opus Dei"
-heroImage: "/lotrives-astro-prueba/assets/images/marcin-romanowski.webp"
+heroImage: "/assets/images/marcin-romanowski.webp"
 canonical_url: "https://lotrives.github.io/2026/04/17/marcin-romanowski-opus-dei/"
 last_modified_at: 2026-04-24
 ---
 
 #### La prensa polaca se pregunta si con el cambio de Gobierno en Hungría, Romanowski será extraditado a Polonia y cómo actuará el Opus Dei al respecto
 
-![Marcin Romanowski en Hungría, en 2025. Foto: © Elekes Andor. Licencia CC BY 4.0. Archivo de [Wikimedia Commons]](/lotrives-astro-prueba/assets/images/marcin-romanowski.webp)
+![Marcin Romanowski en Hungría, en 2025. Foto: © Elekes Andor. Licencia CC BY 4.0. Archivo de [Wikimedia Commons]](/assets/images/marcin-romanowski.webp)
 
 **Marcin Romanowski**, nacido el 20 de enero de 1976 en Skrwilno (Polonia), doctor en Derecho, es un político polaco poco conocido en España pero famoso en Polonia.
 

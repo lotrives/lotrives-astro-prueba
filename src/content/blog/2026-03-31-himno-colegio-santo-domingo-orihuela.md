@@ -16,8 +16,8 @@ Estos días, del 27 de marzo al 20 de abril, se puede visitar la exposición *Te
 
 Aquí descubro que el **Colegio Santo Domingo** disponía de un himno y que ese himno lo compusieron los jesuitas cuando esa orden religiosa dirigía el colegio, antes y después de la Guerra Civil. Lo transcribo.
 
-<a href="/lotrives-astro-prueba/assets/images/himno-del-colegio-partitura.webp" target="_blank">
-  <img src="/lotrives-astro-prueba/assets/images/himno-del-colegio-partitura.webp" alt="Himno del Colegio Santo Domingo (Orihuela), partitura">
+<a href="/assets/images/himno-del-colegio-partitura.webp" target="_blank">
+  <img src="/assets/images/himno-del-colegio-partitura.webp" alt="Himno del Colegio Santo Domingo (Orihuela), partitura">
 </a>
 
 ### Letra del himno.
@@ -102,8 +102,8 @@ Y ofrendarán a tu gloría
 Sus recuerdos mi memoria;
 Sus fibras, mi corazón.
 
-<a href="/lotrives-astro-prueba/assets/images/himno-del-colegio-letra.webp" target="_blank">
-  <img src="/lotrives-astro-prueba/assets/images/himno-del-colegio-letra.webp" alt="Himno del Colegio Santo Domingo (Orihuela), letra">
+<a href="/assets/images/himno-del-colegio-letra.webp" target="_blank">
+  <img src="/assets/images/himno-del-colegio-letra.webp" alt="Himno del Colegio Santo Domingo (Orihuela), letra">
 </a>
 
 ---

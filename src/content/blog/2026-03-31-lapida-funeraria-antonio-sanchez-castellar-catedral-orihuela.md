@@ -9,7 +9,7 @@ Orihuela, martes, 31 de marzo de 2026.
 
 Visito la [catedral de Orihuela](https://catedraldeorihuela.com).
 
-![Reja renacentista de la catedral de Orihuela](/lotrives-astro-prueba/assets/images/catedral-orihuela-reja.webp)
+![Reja renacentista de la catedral de Orihuela](/assets/images/catedral-orihuela-reja.webp)
 
 ### Orihuela y la corona de Aragón
 
@@ -23,7 +23,7 @@ En el acceso a **la capilla de la Comunión**, justo detrás del presbiterio, de
 
 D.O.M. HIC IACET ILLUSTRISSIMVS ET REVERENDISSIMVS D. D. ANTONIVS SANCHEZ DEL CASTELLAR, VAL[ENTIAE] NATVS, ANNO MDCXXIII, IVRISPRVDENTIAE SPLENDORE MAXIME ENITVIT; INTER VARIA QVAE OBIVIT MVNERA ET MVNIA ALEXANDRVM VII REGIS CATHOL. IVSSV IMMACVLATAE DEIPARAE CVLTVM EXOPTANS PATRONVS ADIVIT; EPISCOPALI MVNERE IAM MATVRVS ORCELLIS ANTISTES INGREDITVR VI KAL. NOVEMB. MDCLXXVI; OBIIT ORCELLI IX KAL. SEPTEMB. MDCC. AT VIRTVTVM OMNIVM, PRAESERTIM LARGITATIS PROFVSAE IN PAVPERES, FAMA SVPERSTES.
 
-![Lápida de Antonio Sánchez del Castellar en la capilla de la Comunión de la catedral de Orihuela](/lotrives-astro-prueba/assets/images/catedral-orihuela-lapida-antonio-sanchez.webp)
+![Lápida de Antonio Sánchez del Castellar en la capilla de la Comunión de la catedral de Orihuela](/assets/images/catedral-orihuela-lapida-antonio-sanchez.webp)
 
 *A Dios óptimo máximo. Aquí yace el ilustrísimo y reverendísimo señor don Antonio Sánchez del Castellar, doctor en Derecho, nacido en Valencia en el año 1623, sobresalió extraordinariamente en la jurisprudencia; entre los varios cargos y funciones que desempeñó, acudió como defensor a Alejandro VII, por mandato del rey católico, para interceder por [anhelando] el culto de la Inmaculada Madre de Dios; ya maduro para el cargo episcopal, entra como obispo en Orihuela el sexto día antes de las calendas de noviembre de 1676; murió en Orihuela el noveno día antes de las calendas de septiembre de 1700. Pero sobrevive la fama de todas sus virtudes, especialmente la de su largueza derramada sobre los pobres.*
 

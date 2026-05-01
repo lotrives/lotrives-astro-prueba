@@ -3,10 +3,10 @@ title: "Aprender del sufrimiento. Arthur Brooks actualiza a Carl Gustav Jung"
 pubDate: 2026-04-22
 tags: ["Arthur Brooks", "Carl Gustav Jung", Sufrimiento, Dolor, Lecturas]
 description: "En la terapia junguiana se trata de aprender del dolor y de lo vivido para comprender hasta qué punto nos engaña, según Brooks."
-heroImage: "/lotrives-astro-prueba/assets/images/aprender-sufrimiento-portada.webp"
+heroImage: "/assets/images/aprender-sufrimiento-portada.webp"
 ---
 
-![El niño enfermo. Óleo de Edvard Munch. National Museum of Art, Architecture and Design. Dominio público. Vía Wikimedia Commons](/lotrives-astro-prueba/assets/images/aprender-sufrimiento-portada.webp)
+![El niño enfermo. Óleo de Edvard Munch. National Museum of Art, Architecture and Design. Dominio público. Vía Wikimedia Commons](/assets/images/aprender-sufrimiento-portada.webp)
 
 
 **Arthur Brooks**, profesor en la Universidad de Harvard y  autor de superventas, es también un católico practicante. Su última obra (2026) se llama *[The Meaning of Your Life](https://www.arthurbrooks.com/the-meaning-of-your-life): Finding Purpose in an Age of Emptiness* ('El significado de la vida. Encontrar propósito en una era de vacío').

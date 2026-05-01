@@ -7,7 +7,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://lotrives.com',
-	base: '/lotrives-astro-prueba',
+	base: '/',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{

@@ -3,10 +3,10 @@ title: "Tobarra, su fábrica de harinas y su antigua estación de ferrocarril. R
 pubDate: 2026-03-30
 tags: [Tobarra, Niños, Recuerdos, Memorias]
 description: "El edificio de la fábrica de harinas, en la zona donde estaba la estación de ferrocarril de Tobarra, en el recuerdo de viajeros, padres e hijos"
-heroImage: "/lotrives-astro-prueba/assets/images/tobarra-fabrica-harinas-portada.webp"
+heroImage: "/assets/images/tobarra-fabrica-harinas-portada.webp"
 ---
 
-![Antigua fábrica de harinas. Estación de ferrocarril de Tobarra. 30 de marzo de 2026](/lotrives-astro-prueba/assets/images/tobarra-fabrica-harinas-portada.webp)
+![Antigua fábrica de harinas. Estación de ferrocarril de Tobarra. 30 de marzo de 2026](/assets/images/tobarra-fabrica-harinas-portada.webp)
 
 Durante bastantes años, cuando Lotrives, su mujer y sus tres hijos pequeños viajaban de Madrid a Orihuela en fines de semana y fiestas, en un Golf GT TDI verde, paraban frente a la antigua estación de ferrocarril de Tobarra, justo en el lugar de la imagen de arriba, que era parte de la [línea Chinchilla-Cartagena](https://es.wikipedia.org/w/index.php?title=L%C3%ADnea_Chinchilla-Cartagena&oldid=169990635). Su puesta en marcha en 1865, he leído en algún lugar, contribuyó al desarrollo económico de toda la región. Tobarra y Hellín fueron dos de las localidades más beneficiadas en la provincia de Albacete por ese motivo.
 
@@ -16,7 +16,7 @@ Frente a la fábrica de harinas, cuando paraban en aquel lugar abandonado, tranq
 
 Mientras los pequeños se esforzaban en superar el tiro rival y ganar, Lotrives miraba a la fábrica de harinas y pensaba en Auschwitz, quizás por la combinación de vías de tren y ruinas ante sus ojos. Pensaba también en los pueblos arrasados que los nazis dejaron en Polonia y en Ucrania, durante la Segunda Guerra Mundial. Pensaba que un cineasta como Steven Spielberg, si viera esa fábrica de harinas, se pondría de inmediato a rodar un película con ella como motivo central.
 
-![Gálibo junto a la fábrica de harinas. Estación de ferrrocarril de Tobarra, 30 de marzo de 2026.](/lotrives-astro-prueba/assets/images/tobarra-galibo.webp)
+![Gálibo junto a la fábrica de harinas. Estación de ferrrocarril de Tobarra, 30 de marzo de 2026.](/assets/images/tobarra-galibo.webp)
 
 A la derecha de la fábrica de harinas se observa un gálibo, en el centro de la imagen de arriba. Es ese arco de hierro en forma de U al revés. Se colocaba en las estaciones para comprobar que un vagón, con su carga, podía circular por túneles y bajo los pasos elevados sin chocarse. A Lotrives el gálibo le traía a la cabeza la imagen de polacos ahorcados por los nazis en las calles de Varsovia, durante la Segunda Guerra Mundial.
 
