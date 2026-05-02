@@ -1,0 +1,85 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const notes = await getCollection('notes');
+
+const sortedNotes = notes.sort(
+	(a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+);
+
+const formatDateTime = (str) => {
+	const [date, time] = str.split('T');
+	const [y, m, d] = date.split('-');
+	const [h, min] = (time || '00:00').split(':');
+	return `${d}/${m}/${y}, ${h}:${min}`;
+};
+
+const noteSlug = (note) => note.id.replace(/\.md$/, '');
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead
+			title="Notas | Lotrives"
+			description="Apuntes breves y observaciones."
+		/>
+		<link rel="alternate" type="application/rss+xml" title="Notas — Lotrives" href="/notas-feed.xml" />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="page">
+				<h1>Notas</h1>
+
+				{sortedNotes.map((note) => (
+					<article class="nota">
+						<div class="nota-cuerpo" set:html={note.body} />
+						{note.data.image && <img src={note.data.image} alt="" class="nota-imagen" />}
+						<a href={`/notas/${noteSlug(note)}`} class="nota-fecha">
+							{formatDateTime(note.data.pubDate)}
+						</a>
+						<hr class="nota-separador" />
+					</article>
+				))}
+
+				<p class="rss-pie"><a href="/notas-feed.xml">Feed RSS de notas</a></p>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.page {
+		max-width: 600px;
+		margin: 0 auto;
+		padding: 1.5rem 1.5rem;
+	}
+	h1 {
+		margin: 0 0 2rem;
+		font-size: 2.5rem;
+		line-height: 1;
+	}
+	.nota { margin-bottom: 0; }
+	.nota-cuerpo { font-size: inherit; line-height: 1.7; }
+	.nota-imagen { margin: 0.8em 0; max-width: 100%; border-radius: 8px; }
+	.nota-fecha {
+		display: inline-block;
+		margin-top: 0.6em;
+		font-size: 0.8em;
+		color: rgb(var(--gray));
+		text-decoration: none;
+		letter-spacing: 0.03em;
+	}
+	.nota-fecha:hover { color: var(--accent); }
+	.nota-separador { margin: 1.5rem 0; }
+	.rss-pie {
+		margin-top: 1rem;
+		font-size: 0.8em;
+		color: rgb(var(--gray));
+	}
+</style>
