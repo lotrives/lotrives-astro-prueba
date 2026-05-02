@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
@@ -13,6 +13,7 @@ export async function getStaticPaths() {
 }
 
 const { note } = Astro.props;
+const { Content } = await render(note);
 
 const formatDateTime = (date) =>
 	new Intl.DateTimeFormat('es-ES', {
@@ -39,7 +40,9 @@ const excerpt = note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 120);
 		<main>
 			<section class="page">
 				<article class="nota">
-					<div class="nota-cuerpo" set:html={note.body} />
+					<div class="nota-cuerpo">
+						<Content />
+					</div>
 					{note.data.image && <img src={note.data.image} alt="" class="nota-imagen" />}
 					<p class="nota-fecha">{formatDateTime(note.data.pubDate)}</p>
 				</article>

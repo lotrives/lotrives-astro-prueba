@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
@@ -8,6 +8,13 @@ const notes = await getCollection('notes');
 
 const sortedNotes = notes.sort(
 	(a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+);
+
+const renderedNotes = await Promise.all(
+	sortedNotes.map(async (note) => {
+		const { Content } = await render(note);
+		return { note, Content };
+	})
 );
 
 const formatDateTime = (str) => {
@@ -35,9 +42,11 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 			<section class="page">
 				<h1>Notas</h1>
 
-				{sortedNotes.map((note) => (
+				{renderedNotes.map(({ note, Content }) => (
 					<article class="nota">
-						<div class="nota-cuerpo" set:html={note.body} />
+						<div class="nota-cuerpo">
+							<Content />
+						</div>
 						{note.data.image && <img src={note.data.image} alt="" class="nota-imagen" />}
 						<a href={`/notas/${noteSlug(note)}`} class="nota-fecha">
 							{formatDateTime(note.data.pubDate)}
