@@ -25,11 +25,11 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: 17px;
+	font-size: 19px;
 	line-height: 1.7;
 }
 main {
-	width: 720px;
+	width: 600px;
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 1em 1em 3em 1em;
@@ -118,7 +118,7 @@ hr {
 }
 @media (max-width: 720px) {
 	body {
-		font-size: 16px;
+		font-size: 19px;
 	}
 	main {
 		padding: 1em;
