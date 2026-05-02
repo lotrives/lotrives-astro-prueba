@@ -29,7 +29,7 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 600px;
+	max-width: 600px;
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 1em 1em 3em 1em;
