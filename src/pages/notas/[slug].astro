@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
 
 export async function getStaticPaths() {
 	const notes = await getCollection('notes');
@@ -15,16 +16,12 @@ export async function getStaticPaths() {
 const { note } = Astro.props;
 const { Content } = await render(note);
 
-const formatDateTime = (date) =>
-	new Intl.DateTimeFormat('es-ES', {
-		day: '2-digit',
-		month: '2-digit',
-		year: 'numeric',
-		hour: '2-digit',
-		minute: '2-digit',
-		timeZone: 'Europe/Madrid',
-	}).format(new Date(date));
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
+const slugify = (text) =>
+	text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+const pubDate = new Date(note.data.pubDate);
 const excerpt = note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 120);
 ---
 
@@ -32,7 +29,7 @@ const excerpt = note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 120);
 <html lang="es">
 	<head>
 		<BaseHead
-			title={`Nota ${formatDateTime(note.data.pubDate)} | Lotrives`}
+			title={`Nota ${pubDate.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })} | Lotrives`}
 			description={excerpt}
 		/>
 	</head>
@@ -45,11 +42,14 @@ const excerpt = note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 120);
 						<Content />
 					</div>
 					{note.data.image && <img src={note.data.image} alt="" class="nota-imagen" />}
-					<p class="nota-fecha">{formatDateTime(note.data.pubDate)}</p>
+					<p class="nota-fecha"><FormattedDate date={pubDate} /></p>
 					{note.data.tags && note.data.tags.length > 0 && (
 						<div class="nota-tags">
-							{note.data.tags.map((tag) => (
-								<span class="nota-tag">{tag}</span>
+							{note.data.tags.map((tag, i) => (
+								<>
+									{i > 0 && ' · '}
+									<a href={`${base}/etiquetas/#tag-${slugify(tag)}`} class="nota-tag">{tag}</a>
+								</>
 							))}
 						</div>
 					)}
@@ -66,13 +66,8 @@ const excerpt = note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 120);
 	.nota-cuerpo { font-size: inherit; line-height: 1.7; }
 	.nota-imagen { margin: 0.8em 0; max-width: 100%; border-radius: 8px; }
 	.nota-fecha { margin-top: 1em; font-size: 0.8em; color: rgb(var(--gray)); letter-spacing: 0.03em; }
-	.nota-tags { margin-top: 0.4em; }
-	.nota-tag {
-		display: inline-block;
-		font-size: 0.75em;
-		color: rgb(var(--gray));
-		margin-right: 0.4em;
-	}
-	.nota-tag::before { content: '#'; }
+	.nota-tags { margin-top: 0.4em; font-size: 0.85em; color: rgb(var(--gray)); }
+	.nota-tag { color: rgb(var(--gray)); text-decoration: none; }
+	.nota-tag:hover { color: var(--accent); }
 	.volver { margin-top: 2rem; font-size: 0.9em; }
 </style>
