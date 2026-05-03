@@ -39,9 +39,7 @@ import Header from '../components/Header.astro';
 
 		  function normalizeEs(str) {
 		    if (!str) return '';
-		    return str
-		      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-		      .toLowerCase();
+		    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 		  }
 
 		  function normalizeFull(str) {
@@ -99,8 +97,11 @@ import Header from '../components/Header.astro';
 
 		  function renderCards(matched, q, normFn) {
 		    return matched.map(function(p) {
+		      var typeTag = (p.type === 'nota' || p.type === 'página')
+		        ? '<span class="b-type">' + esc(p.type) + '</span>'
+		        : '';
 		      return '<div class="b-card">' +
-		        '<a href="' + esc(p.url) + '">' + hl(p.title||'', q) + '</a>' +
+		        '<div class="b-card-header"><a href="' + esc(p.url) + '">' + hl(p.title||'', q) + '</a> ' + typeTag + '</div>' +
 		        '<div class="b-date">' + fmtDate(p.date) + '</div>' +
 		        '<div class="b-excerpt">' + excerpt(p.content||p.excerpt||'', q, normFn) + '</div>' +
 		        (p.tags ? '<div class="b-tags">' + (p.tags).split(', ').map(function(t){ return '#' + esc(t.trim()); }).join(' ') + '</div>' : '') +
@@ -133,7 +134,7 @@ import Header from '../components/Header.astro';
 		    if (nFull > 0) {
 		      status.innerHTML = nFull + ' resultado' + (nFull !== 1 ? 's' : '') + ' aproximado' + (nFull !== 1 ? 's' : '') + ' para "<strong>' + esc(q) + '</strong>"';
 		      results.innerHTML =
-		        '<div class="b-aproximado">No se encontraron resultados exactos. Se muestran resultados aproximados (con caracteres equivalentes).</div>' +
+		        '<div class="b-aproximado">No se encontraron resultados exactos. Se muestran resultados aproximados.</div>' +
 		        renderCards(matchedFull, q, normalizeFull);
 		    } else {
 		      status.innerHTML = '0 resultados para "<strong>' + esc(q) + '</strong>"';
@@ -169,17 +170,17 @@ import Header from '../components/Header.astro';
 		margin: 0 auto;
 		padding: 4rem 1.5rem;
 	}
-
 	h1 {
 		margin: 0 0 2rem;
 		font-size: 2.5rem;
 		line-height: 1;
 	}
-
 	.b-card { border:1px solid #e0e0e0; border-radius:4px; padding:1rem 1.2rem; margin-bottom:0.8rem; }
 	.b-card:hover { border-color:#aaa; }
-	.b-card a { font-weight:bold; display:block; margin-bottom:0.2rem; color:#3273dc; text-decoration:none; }
-	.b-card a:hover { text-decoration:underline; }
+	.b-card-header { display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.2rem; }
+	.b-card-header a { font-weight:bold; color:#3273dc; text-decoration:none; }
+	.b-card-header a:hover { text-decoration:underline; }
+	.b-type { font-size:0.7em; color:#fff; background:#888; border-radius:3px; padding:1px 6px; white-space:nowrap; }
 	.b-date { font-size:0.75rem; color:#888; margin-bottom:0.4rem; }
 	.b-excerpt { font-size:0.9rem; color:#555; line-height:1.5; }
 	.b-excerpt mark { background:#ffeaa0; border-radius:2px; padding:0 2px; }

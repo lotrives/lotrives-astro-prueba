@@ -1,7 +1,11 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
+import { getEntry, render } from 'astro:content';
 import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import BaseHead from '../components/BaseHead.astro';
+
+const entry = await getEntry('pages', 'acerca');
+const { Content } = await render(entry);
 ---
 
 <!doctype html>
@@ -9,41 +13,21 @@ import Header from '../components/Header.astro';
 	<head>
 		<BaseHead
 			title="Acerca | Lotrives"
-			description="Lotrives es la web de José Manuel Grau Navarro. Artículos y notas de trabajo para comprender mejor a las personas, la sociedad y la Iglesia."
+			description={entry.data.description}
 		/>
 	</head>
 	<body>
 		<Header />
 		<main style="max-width: 600px; margin: 0 auto; padding: 1.5rem;">
 			<h1>Acerca</h1>
-
-			<p>
-				<strong>Lotrives</strong> es la web de <strong>José Manuel Grau Navarro</strong>. Ofrece su «mirada al mundo que somos» para comprender mejor a las personas, la sociedad y la Iglesia.
-			</p>
-
-			<p>
-				Lotrives publica artículos y notas de trabajo: apuntes, ideas, lecturas y observaciones.
-			</p>
-
-			<p>
-				Lotrives es el <em>alter ego</em> de José Manuel Grau Navarro, doctor en Periodismo por la Universidad de Navarra y licenciado en Ciencias Físicas por la Universidad Complutense de Madrid. Ha sido corresponsal de <em>ABC</em> en Viena y Varsovia, director de Comunicación del Ministerio de Educación y Cultura, director de la Escuela de Humanidades de UNIR (Universidad Internacional de La Rioja) y director de <em>Nueva Revista</em>.
-			</p>
-
-			<p>
-				A lo largo de su trayectoria ha publicado con distintos nombres en diferentes etapas. En <em>ABC</em>, <em>Aceprensa</em> y otros medios firmó como <strong>José Grau</strong>; en <em>La Vanguardia</em>, como <strong>José Manuel Navarro</strong>. Desde hace ya bastante tiempo utiliza su nombre completo: <strong>José Manuel Grau Navarro</strong>.
-			</p>
-
+			<Content />
 			<hr />
-
 			<p>
 				<strong>Publicaciones en otros medios</strong><br />
 				<a href="https://www.nuevarevista.net/autor/jose-manuel-grau-navarro/" target="_blank" rel="noopener"><em>Nueva Revista</em></a> · <a href="/abc/"><em>ABC</em></a> · <a href="/aceprensa/"><em>Aceprensa</em></a> · <a href="/la-vanguardia/"><em>La Vanguardia</em></a> · <a href="/publicaciones/">Otros</a>
 			</p>
-
 			<p><a href="/libros/">Libros</a></p>
-
 			<p>Contacto: <a href="https://x.com/jmgraunavarro" target="_blank" rel="noopener">X</a></p>
-
 			<p><a href="/newsletter/">Newsletter</a></p>
 		</main>
 		<Footer />
