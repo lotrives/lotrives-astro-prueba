@@ -1,35 +1,19 @@
 ---
 import { getEntry, render } from 'astro:content';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import BaseHead from '../components/BaseHead.astro';
+import Page from '../layouts/Page.astro';
 
 const entry = await getEntry('pages', 'acerca');
 const { Content } = await render(entry);
 ---
-
-<!doctype html>
-<html lang="es">
-	<head>
-		<BaseHead
-			title="Acerca | Lotrives"
-			description={entry.data.description}
-		/>
-	</head>
-	<body>
-		<Header />
-		<main style="max-width: 600px; margin: 0 auto; padding: 1.5rem;">
-			<h1>Acerca</h1>
-			<Content />
-			<hr />
-			<p>
-				<strong>Publicaciones en otros medios</strong><br />
-				<a href="https://www.nuevarevista.net/autor/jose-manuel-grau-navarro/" target="_blank" rel="noopener"><em>Nueva Revista</em></a> · <a href="/abc/"><em>ABC</em></a> · <a href="/aceprensa/"><em>Aceprensa</em></a> · <a href="/la-vanguardia/"><em>La Vanguardia</em></a> · <a href="/publicaciones/">Otros</a>
-			</p>
-			<p><a href="/libros/">Libros</a></p>
-			<p>Contacto: <a href="https://x.com/jmgraunavarro" target="_blank" rel="noopener">X</a></p>
-			<p><a href="/newsletter/">Newsletter</a></p>
-		</main>
-		<Footer />
-	</body>
-</html>
+<Page title={entry.data.title} description={entry.data.description}>
+	<h1>Acerca</h1>
+	<Content />
+	<hr />
+	<p>
+		<strong>Publicaciones en otros medios</strong><br />
+		<a href="https://www.nuevarevista.net/autor/jose-manuel-grau-navarro/" target="_blank" rel="noopener"><em>Nueva Revista</em></a> · <a href="/abc/"><em>ABC</em></a> · <a href="/aceprensa/"><em>Aceprensa</em></a> · <a href="/la-vanguardia/"><em>La Vanguardia</em></a> · <a href="/publicaciones/">Otros</a>
+	</p>
+	<p><a href="/libros/">Libros</a></p>
+	<p>Contacto: <a href="https://x.com/jmgraunavarro" target="_blank" rel="noopener">X</a></p>
+	<p><a href="/newsletter/">Newsletter</a></p>
+</Page>
