@@ -28,7 +28,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 		padding: 0 1em;
 		background: white;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-		position: relative;
+		position: sticky;
+		top: 0;
 		z-index: 100;
 	}
 
@@ -92,7 +93,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 		transition: all 0.2s;
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 640px) {
 		.hamburger {
 			display: flex;
 		}
