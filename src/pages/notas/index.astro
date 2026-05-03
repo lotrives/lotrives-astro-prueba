@@ -18,9 +18,9 @@ const renderedNotes = await Promise.all(
 );
 
 const formatDateTime = (str) => {
-	const [date, time] = str.split('T');
-	const [y, m, d] = date.split('-');
-	const [h, min] = (time || '00:00').split(':');
+	const parts = str.split('T');
+	const [y, m, d] = parts[0].split('-');
+	const [h, min] = (parts[1] || '00:00').split(':');
 	return `${d}/${m}/${y}, ${h}:${min}`;
 };
 
@@ -39,7 +39,7 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 	<body>
 		<Header />
 		<main>
-			<section class="page">
+			<section class="notas-wrap">
 				<h1>Notas</h1>
 
 				{renderedNotes.map(({ note, Content }) => (
@@ -51,6 +51,13 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 						<a href={`/notas/${noteSlug(note)}`} class="nota-fecha">
 							{formatDateTime(note.data.pubDate)}
 						</a>
+						{note.data.tags && note.data.tags.length > 0 && (
+							<div class="nota-tags">
+								{note.data.tags.map((tag) => (
+									<span class="nota-tag">{tag}</span>
+								))}
+							</div>
+						)}
 						<hr class="nota-separador" />
 					</article>
 				))}
@@ -63,16 +70,11 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 </html>
 
 <style>
-	.page {
+	.notas-wrap {
 		max-width: 600px;
 		margin: 0 auto;
-		padding: 1.5rem 1.5rem;
 	}
-	h1 {
-		margin: 0 0 2rem;
-		font-size: 2.5rem;
-		line-height: 1;
-	}
+	h1 { margin: 0 0 2rem; font-size: 2.5rem; line-height: 1; }
 	.nota { margin-bottom: 0; }
 	.nota-cuerpo { font-size: inherit; line-height: 1.7; }
 	.nota-imagen { margin: 0.8em 0; max-width: 100%; border-radius: 8px; }
@@ -85,10 +87,14 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 		letter-spacing: 0.03em;
 	}
 	.nota-fecha:hover { color: var(--accent); }
-	.nota-separador { margin: 1.5rem 0; }
-	.rss-pie {
-		margin-top: 1rem;
-		font-size: 0.8em;
+	.nota-tags { margin-top: 0.4em; }
+	.nota-tag {
+		display: inline-block;
+		font-size: 0.75em;
 		color: rgb(var(--gray));
+		margin-right: 0.4em;
 	}
+	.nota-tag::before { content: '#'; }
+	.nota-separador { margin: 1.5rem 0; }
+	.rss-pie { margin-top: 1rem; font-size: 0.8em; color: rgb(var(--gray)); }
 </style>
