@@ -10,7 +10,12 @@ type Props = CollectionEntry<'blog'>['data'] & {
 	next?: { title: string; url: string } | null;
 };
 
-const { title, description, pubDate, updatedDate, heroImage, prev, next } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, tags, prev, next } = Astro.props;
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const slugify = (text: string) =>
+	text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
 const truncate = (str: string, max: number) =>
 	str.length > max ? str.slice(0, max).trimEnd() + '…' : str;
@@ -54,8 +59,22 @@ const truncate = (str: string, max: number) =>
 	.last-updated-on {
 		font-style: italic;
 	}
+	.tags {
+		margin-top: 2em;
+		padding-top: 1em;
+		border-top: 1px solid rgb(var(--gray-light));
+		font-size: 0.85em;
+		color: rgb(var(--gray));
+	}
+	.tags a {
+		color: rgb(var(--gray));
+		text-decoration: none;
+	}
+	.tags a:hover {
+		color: var(--accent);
+	}
 	.nav-posts {
-		margin-top: 2.5em;
+		margin-top: 2em;
 		padding-top: 1em;
 		border-top: 1px solid rgb(var(--gray-light));
 		display: flex;
@@ -94,6 +113,16 @@ const truncate = (str: string, max: number) =>
 						<hr />
 					</div>
 					<slot />
+					{tags && tags.length > 0 && (
+						<div class="tags">
+							{tags.map((tag, i) => (
+								<>
+									{i > 0 && ' · '}
+									<a href={`${base}/etiquetas/#tag-${slugify(tag)}`}>{tag}</a>
+								</>
+							))}
+						</div>
+					)}
 					<nav class="nav-posts">
 						{prev && (
 							<span class="nav-prev">
