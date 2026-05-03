@@ -5,6 +5,6 @@ import Page from '../layouts/Page.astro';
 const entry = await getEntry('pages', 'la-vanguardia');
 const { Content } = await render(entry);
 ---
-<Page title={entry.data.title} description={entry.data.description}>
+<Page title={entry.data.title} description={entry.data.description} wide>
 	<Content />
 </Page>
