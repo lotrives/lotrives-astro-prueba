@@ -29,7 +29,7 @@ const excerpt = note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 120);
 <html lang="es">
 	<head>
 		<BaseHead
-			title={`Nota ${pubDate.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })} | Lotrives`}
+			title={`${note.data.title} | Lotrives`}
 			description={excerpt}
 		/>
 	</head>
@@ -38,6 +38,7 @@ const excerpt = note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 120);
 		<main>
 			<section class="notas-wrap">
 				<article class="nota">
+					{note.data.title && <h1 class="nota-titulo">{note.data.title}</h1>}
 					<div class="nota-cuerpo">
 						<Content />
 					</div>
@@ -63,6 +64,12 @@ const excerpt = note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 120);
 
 <style>
 	.notas-wrap { max-width: 600px; margin: 0 auto; }
+	.nota-titulo {
+		font-size: 1.35rem;
+		line-height: 1.25;
+		margin: 0 0 0.9rem;
+		font-weight: 600;
+	}
 	.nota-cuerpo { font-size: inherit; line-height: 1.7; }
 	.nota-imagen { margin: 0.8em 0; max-width: 100%; border-radius: 8px; }
 	.nota-fecha { margin-top: 1em; font-size: 0.8em; color: rgb(var(--gray)); letter-spacing: 0.03em; }
