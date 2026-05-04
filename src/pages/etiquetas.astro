@@ -116,6 +116,15 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 														</span>
 													</li>
 												))}
+									{tag.notes.map((note) => (
+									<li>
+									<a href={noteUrl(note)}>{note.data.title}</a>
+									<span class="post-fecha">
+									{new Date(note.data.pubDate).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' })}
+									</span>
+									<span class="post-fecha"> · nota</span>
+									</li>
+									))}
 											</ul>
 										</div>
 									))}
