@@ -44,13 +44,16 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 
 				{renderedNotes.map(({ note, Content }) => (
 					<article class="nota">
+						<h2 class="nota-titulo">
+							<a href={`/notas/${noteSlug(note)}`}>{note.data.title}</a>
+						</h2>
 						<div class="nota-cuerpo">
 							<Content />
 						</div>
 						{note.data.image && <img src={note.data.image} alt="" class="nota-imagen" />}
-						<a href={`/notas/${noteSlug(note)}`} class="nota-fecha">
+						<p class="nota-fecha">
 							{formatDateTime(note.data.pubDate)}
-						</a>
+						</p>
 						{note.data.tags && note.data.tags.length > 0 && (
 							<div class="nota-tags">
 								{note.data.tags.map((tag) => (
@@ -76,17 +79,26 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 	}
 	h1 { margin: 0 0 2rem; font-size: 2.5rem; line-height: 1; }
 	.nota { margin-bottom: 0; }
+	.nota-titulo {
+		margin: 0 0 0.6rem;
+		font-size: 1.15em;
+		line-height: 1.25;
+	}
+	.nota-titulo a {
+		color: rgb(var(--black));
+		text-decoration: none;
+	}
+	.nota-titulo a:hover {
+		color: var(--accent);
+	}
 	.nota-cuerpo { font-size: inherit; line-height: 1.7; }
 	.nota-imagen { margin: 0.8em 0; max-width: 100%; border-radius: 8px; }
 	.nota-fecha {
-		display: inline-block;
-		margin-top: 0.6em;
+		margin: 0.6em 0 0;
 		font-size: 0.8em;
 		color: rgb(var(--gray));
-		text-decoration: none;
 		letter-spacing: 0.03em;
 	}
-	.nota-fecha:hover { color: var(--accent); }
 	.nota-tags { margin-top: 0.4em; }
 	.nota-tag {
 		display: inline-block;
