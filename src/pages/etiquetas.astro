@@ -6,8 +6,10 @@ import Footer from '../components/Footer.astro';
 import { SITE_TITLE } from '../consts';
 
 const posts = await getCollection('blog');
+const notes = await getCollection('notes');
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const noteUrl = (note) => `${base}/notas/${note.id.replace(/\.md$/, '')}/`;
 const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/, '$1/$2/$3/$4')}/`;
 
 const slugify = (text) =>
@@ -24,8 +26,8 @@ const tagsMap = new Map();
 for (const post of posts) {
 	const tags = post.data.tags ?? [];
 	for (const tag of tags) {
-		if (!tagsMap.has(tag)) tagsMap.set(tag, []);
-		tagsMap.get(tag).push(post);
+		if (!tagsMap.has(tag)) tagsMap.set(tag, { posts: [], notes: [] });
+		tagsMap.get(tag).posts.push(post);
 	}
 }
 
@@ -36,14 +38,23 @@ function letraDeTag(tagName) {
 	return /[0-9]/.test(primera) ? '0-9' : primera;
 }
 
+for (const note of notes) {
+	const tags = note.data.tags ?? [];
+	for (const tag of tags) {
+		if (!tagsMap.has(tag)) tagsMap.set(tag, { posts: [], notes: [] });
+		tagsMap.get(tag).notes.push(note);
+	}
+}
+
 const tagsPorLetra = new Map();
-for (const [tagName, tagPosts] of tagsMap.entries()) {
+for (const [tagName, { posts: tagPosts, notes: tagNotes }] of tagsMap.entries()) {
 	const letra = letraDeTag(tagName);
 	if (!tagsPorLetra.has(letra)) tagsPorLetra.set(letra, []);
 	tagsPorLetra.get(letra).push({
 		name: tagName,
 		id: `tag-${slugify(tagName)}`,
-		posts: tagPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
+		posts: tagPosts.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()),
+		notes: tagNotes.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()),
 	});
 }
 
@@ -88,7 +99,7 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 										{tags.map((tag) => (
 											<div>
 												<a href={`#${tag.id}`}>{tag.name}</a>{' '}
-												<span class="post-fecha">({tag.posts.length})</span>
+												<span class="post-fecha">({tag.posts.length + tag.notes.length})</span>
 											</div>
 										))}
 									</div>
@@ -188,6 +199,15 @@ h1 {
 	font-size: 0.85em;
 	color: #999;
 	margin-left: 0.4em;
+}
+.nota-badge {
+	font-size: 0.75em;
+	color: #fff;
+	background: rgb(var(--gray));
+	border-radius: 3px;
+	padding: 0.1em 0.4em;
+	margin-left: 0.4em;
+	vertical-align: middle;
 }
 @media (max-width: 600px) {
 	.tags-columnas {
