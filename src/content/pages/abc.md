@@ -104,8 +104,21 @@ Grau Navarro, José Manuel. (1985, 25 de abril). [Los nuevos nombramientos en el
 
 —. (1985, 28 de julio). [Campaña del KGB contra la disidencia en Letonia, Lituania y Estonia.](https://www.abc.es/archivo/periodicos/abc-madrid-19850728-27.html) *ABC*. Madrid, p. 27.
 
+—. (1985, 22 de agosto). [Historiador yugoslavo afirma que Tito fue masón.](https://www.abc.es/archivo/periodicos/abc-madrid-19850822-27.html) *ABC*. Madrid, p. 27.
 
+—. (1985, 28 de agosto). [La Iglesia polaca trata de desarrollar la agricultura.](https://www.abc.es/archivo/periodicos/abc-madrid-19850828-20.html) *ABC*. Madrid, p. 20.
 
+—. (1985, 1 de septiembre). [Austria, principal refugio de los huidos de países del Este.](https://www.abc.es/archivo/periodicos/abc-madrid-19850901-27.html) *ABC*. Madrid, p. 27.
+
+—. (1985, 2 de septiembre). [Nuevas arbitrariedades de la justicia yugoslava.](https://www.abc.es/archivo/periodicos/abc-madrid-19850902-22.html) *ABC*. Madrid, p. 22.
+
+—. (1985, 2 de septiembre). [El escritor soviético exiliado Kopelev recuerda a Sajarov.](https://www.abc.es/archivo/periodicos/abc-madrid-19850902-29.html) *ABC*. Madrid, p. 29.
+
+—. (1985, 2 de septiembre). [Graves consecuencias políticas y económicas en Austria por el escándalo del vino adulterado](https://www.abc.es/archivo/periodicos/abc-madrid-19850902-36.html). [Posible destitución de los ministros socialistas de Agricultura y Salud](https://www.abc.es/archivo/periodicos/abc-madrid-19850902-37.html). *ABC*. Madrid, p. 36-7.
+
+—. (1985, 5 de septiembre). [Ceausescu pretende que los rumanos trabajen gratis.](https://www.abc.es/archivo/periodicos/abc-madrid-19850905-26.html) *ABC*. Madrid, p. 26.
+
+—. (1985, 6 de septiembre). [Condenado a prisión el presidente del Comité de católicos ucranios.](https://www.abc.es/archivo/periodicos/abc-madrid-19850906-36.html) *ABC*. Madrid, p. 36.
 
 
 ---
