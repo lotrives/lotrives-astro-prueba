@@ -1,14 +1,14 @@
 ---
-title: "No olvidemos que los campos de concentración siguen existiendo"
+title: "Ludmiła Dąbrowska: «No olvidemos que los campos de concentración siguen existiendo»"
 pubDate: 2026-05-06
 description: "Carta de 1965 de Ludmiła Dąbrowska (1917-2012), polaca, prisionera del campo de concrentración de Auschwitz"
 tags: ["Ludmiła Dąbrowska", "Stefan Moszoro-Dąbrowski", Auschwitz, Polonia]
-heroImage: "/images/ludmila-dabrowska.webp"
+heroImage: "/assets/images/ludmila-dabrowska.webp"
 ---
 
 #### Ludmiła Dąbrowska (1917-2012), polaca, prisionera del campo de concrentración de Auschwitz, expone a la posteridad en esta carta de 1965 su lucha exitosa para volver a confiar en las personas y advierte contra la repetición de errores
 
- ![Ludmiła Dąbrowska](/ludmila-dabrowska.webp)
+ ![Ludmiła Dąbrowska](/assets/images/ludmila-dabrowska.webp)
 
 [Ludmiła Dąbrowska](https://open.substack.com/pub/lotrives/p/ludmila-maria-dabrowski-de-moszoro) (1917-2012), en la imagen, fue arrestada por los nazis en Cracovia y enviada al campo de concentración de Auschwitz-Birkenau, pero milagrosamente, y gracias a Dios, sobrevivió. Tras la Segunda Guerra Mundial, Ludmiła emigró a Londres, donde conoció a su esposo, el también polaco Kazimierz Moszoro (1911-1998). Se establecieron en Rosario (Argentina).
 
