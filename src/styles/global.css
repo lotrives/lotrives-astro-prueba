@@ -25,7 +25,7 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: 19px;
+	font-size: 21px;
 	line-height: 1.7;
 }
 main {
@@ -116,7 +116,7 @@ hr {
 }
 @media (max-width: 720px) {
 	body {
-		font-size: 19px;
+		font-size: 21px;
 	}
 	main {
 		padding: 1em;
