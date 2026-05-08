@@ -4,15 +4,33 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig, fontProviders } from 'astro/config';
 import rehypeExternalLinks from 'rehype-external-links';
+import { visit } from 'unist-util-visit';
 
-// https://astro.build/config
+const SITE = 'https://lotrives.com';
+
+const rehypeFixExternalLinks = () => (tree) => {
+	visit(tree, 'element', (node) => {
+		if (
+			node.tagName === 'a' &&
+			node.properties?.href &&
+			typeof node.properties.href === 'string' &&
+			/^https?:\/\//.test(node.properties.href) &&
+			!node.properties.href.startsWith(SITE)
+		) {
+			node.properties.target = '_blank';
+			node.properties.rel = ['noopener', 'noreferrer'];
+		}
+	});
+};
+
 export default defineConfig({
-	site: 'https://lotrives.com',
+	site: SITE,
 	base: '/',
 	integrations: [mdx(), sitemap()],
 	markdown: {
 		rehypePlugins: [
 			[rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],
+			rehypeFixExternalLinks,
 		],
 	},
 	fonts: [
