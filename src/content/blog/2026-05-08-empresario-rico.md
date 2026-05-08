@@ -14,11 +14,11 @@ heroImage: "/assets/images/empresario-rico.webp"
 
 Al cabo de unos años, Martín amplió el negocio. Ofreció servicios informáticos en la nube y de seguridad cibernética. Contrató a más personal. Hace dos años, Tecnologías Paraíso entró en el negocio de la inteligencia artificial (IA). Una de las ramas más pujantes que toca es la instalación de agentes de IA en las empresas que se lo solicitan. Sigue triunfando. Emplea ya a mil personas con nóminas competitivas.
  
-Martín es multimillonario desde hace diez años. Pero vive en la misma casa en que residía y con el mismo Golf rojo GTI de cuando trabajaba de moderador de redes sociales en Hirsch & Escabajo. Le gusta la velocidad, pero es sobrio hasta decir basta consigo mismo y da todo el dinero que le sobra a Cáritas.
+Martín es multimillonario desde hace diez años. Pero vive en la misma casa en que residía y con el mismo Golf rojo GTI de cuando trabajaba de moderador de redes sociales en Hirsch & Escarabajo. Le gusta la velocidad, pero es sobrio hasta decir basta consigo mismo y da todo el dinero que le sobra a Cáritas.
 
-Martín es católico y va a misa los domingos. La gente en su parroquia lo critica. Es rico. Y es más difícil a un rico entrar en el reino de los cielos que a un camello pasar por el ojo de una aguja. Martín, sin embargo, está tranquilo. 
+Martín es católico y va a misa los domingos. La gente en su parroquia lo mira mal. Es rico. Y es más difícil a un rico entrar en el reino de los cielos que a un camello pasar por el ojo de una aguja. Martín, sin embargo, está tranquilo. 
 
-Lotrives conoce Martín y su mera evocación le trae a la mente que el criterio para determinar si un hombre es o no egoísta viene dado sobre todo por la finalidad que persiga y el destino de sus ganancias.
+Lotrives conoce a Martín y la mera evocación de su nombre le trae a la mente que el criterio para determinar si un hombre es o no egoísta viene dado sobre todo por la finalidad que persiga y el destino de sus ganancias.
 
 «¿Necesita España, necesita el mundo, muchas personas como Martín?», se pregunta Lotrives. Contesta: «Sí. Porque como Martín, además de su afán legítimo por obtener ingresos, crean ocupación y con ello mejoran la situación general del país. Aun suponiendo que un empresario obrara solo por ambición, los efectos colaterales positivos que produce dan a alas a la economía».
 
