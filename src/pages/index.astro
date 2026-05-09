@@ -43,15 +43,23 @@ const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{
         color: var(--accent);
         text-decoration-color: var(--accent);
       }
+          .intro {
+        font-size: 0.95em;
+        font-style: italic;
+        color: rgb(var(--gray-dark));
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid rgb(var(--gray-light));
+      }
     </style>
   </head>
   <body>
     <Header />
-    <main style="max-width: 600px; margin: 0 auto; padding: 1.5rem;">
-      <p>
-        Artículos y notas de trabajo de <strong>José Manuel Grau Navarro</strong>, donde ofrece su mirada al mundo que somos para comprender mejor a las personas, la sociedad y la Iglesia.
+    <main style="max-width: 700px; margin: 0 auto; padding: 1.5rem;">
+      <p class="intro">
+        Artículos y notas de trabajo de José Manuel Grau Navarro, donde ofrece su mirada al mundo que somos para comprender mejor a las personas, la sociedad y la Iglesia.
       </p>
-      <hr />
       <ul class="post-list">
         {posts.map((post) => (
           <li>
