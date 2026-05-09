@@ -148,10 +148,13 @@ sup {
 
 /* Bullets con interlineado comprimido */
 .prose ul,
+.nota-cuerpo ul,
+.nota-cuerpo ol,
 .prose ol {
 	padding-left: 1.4em;
 	margin-bottom: 1.2em;
 }
+.nota-cuerpo li,
 .prose li {
 	line-height: 1.4;
 	margin-bottom: 0.4em;
@@ -185,7 +188,9 @@ blockquote {
 
 /* Bibliografía compacta */
 #bibliografía ~ p,
+.nota-cuerpo #bibliografía ~ p,
 h2#bibliografía ~ p,
+.nota-cuerpo #bibliografía ~ p,
 h3#bibliografía ~ p {
 	font-size: 0.88em;
 	line-height: 1.45;
