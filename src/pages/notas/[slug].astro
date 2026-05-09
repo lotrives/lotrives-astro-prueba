@@ -22,7 +22,7 @@ const slugify = (text) =>
 	text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
 const pubDate = new Date(note.data.pubDate);
-const excerpt = note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 120);
+const description = note.data.description ?? note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 160);
 ---
 
 <!doctype html>
@@ -30,7 +30,8 @@ const excerpt = note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 120);
 	<head>
 		<BaseHead
 			title={`${note.data.title} | Lotrives`}
-			description={excerpt}
+			description={description}
+			image={note.data.heroImage}
 		/>
 	</head>
 	<body>
@@ -42,7 +43,7 @@ const excerpt = note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 120);
 					<div class="nota-cuerpo">
 						<Content />
 					</div>
-					{note.data.image && <img src={note.data.image} alt="" class="nota-imagen" />}
+					{note.data.heroImage && <img src={note.data.heroImage} alt="" class="nota-imagen" />}
 					<p class="nota-fecha"><FormattedDate date={pubDate} /></p>
 					{note.data.tags && note.data.tags.length > 0 && (
 						<div class="nota-tags">
