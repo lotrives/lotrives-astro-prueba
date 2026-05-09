@@ -182,3 +182,12 @@ blockquote {
 .footnotes p {
 	margin: 0;
 }
+
+/* Bibliografía compacta */
+#bibliografía ~ p,
+h2#bibliografía ~ p,
+h3#bibliografía ~ p {
+	font-size: 0.88em;
+	line-height: 1.45;
+	margin-bottom: 0.6em;
+}
