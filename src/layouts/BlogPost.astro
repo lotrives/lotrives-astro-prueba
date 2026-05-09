@@ -145,3 +145,12 @@ const truncate = (str: string, max: number) =>
 		<Footer />
 	</body>
 </html>
+<script>
+document.querySelectorAll("a[href]").forEach((a) => {
+  const href = a.getAttribute("href") ?? "";
+  if (/^https?:\/\//.test(href) && !href.startsWith("https://lotrives.com")) {
+    a.setAttribute("target", "_blank");
+    a.setAttribute("rel", "noopener noreferrer");
+  }
+});
+</script>

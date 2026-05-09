@@ -196,3 +196,31 @@ h3#bibliografía ~ p {
 	line-height: 1.45;
 	margin-bottom: 0.6em;
 }
+
+/* Pies de foto y créditos de imagen */
+.pie-foto,
+.credito-imagen {
+	font-size: 0.82em;
+	line-height: 1.45;
+	color: rgb(var(--gray));
+	margin-top: 0.4em;
+	margin-bottom: 1em;
+}
+
+.pie-foto,
+.credito-imagen {
+	margin-top: -0.8em;
+}
+
+/* Imagen pegada al pie de foto */
+.pie-foto {
+	margin-top: -2.1em;
+}
+
+.pie-foto a,
+.credito-imagen a {
+	color: inherit;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	text-decoration-color: rgb(var(--gray-light));
+}
