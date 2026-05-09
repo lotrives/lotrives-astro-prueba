@@ -3,30 +3,35 @@ import rss from '@astrojs/rss';
 
 const SITE = 'https://lotrives.com';
 
-const escapeHtml = (str) =>
-	String(str)
-		.replaceAll('&', '&amp;')
-		.replaceAll('<', '&lt;')
-		.replaceAll('>', '&gt;')
-		.replaceAll('"', '&quot;')
-		.replaceAll("'", '&#39;');
-
 const plainText = (body) =>
 	body
+		.replace(/!\[[^\]]*\]\([^)]+\)/g, '')
 		.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
 		.replace(/[#*`>\-]/g, '')
 		.replace(/\s+/g, ' ')
 		.trim();
 
 const markdownToFeedHtml = (body) => {
-	const escaped = escapeHtml(body.trim());
+	let html = body.trim();
 
-	const withLinks = escaped.replace(
+	// Imágenes (antes que los enlaces)
+	html = html.replace(
+		/!\[([^\]]*)\]\((https?:\/\/[^)]+)\)/g,
+		'<img src="$2" alt="$1" style="max-width:100%">'
+	);
+
+	// Cursivas y negritas
+	html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+	html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+
+	// Enlaces Markdown
+	html = html.replace(
 		/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
 		'<a href="$2">$1</a>'
 	);
 
-	return `<p>${withLinks
+	// Párrafos
+	return `<p>${html
 		.replace(/\n{2,}/g, '</p><p>')
 		.replace(/\n/g, '<br />')}</p>`;
 };
@@ -46,7 +51,7 @@ export async function GET(context) {
 				const excerpt = plainText(note.body).slice(0, 200);
 
 				return {
-					title: excerpt.slice(0, 60) + (excerpt.length > 60 ? '…' : ''),
+					title: note.data.title,
 					pubDate: note.data.pubDate,
 					description: excerpt,
 					content: markdownToFeedHtml(note.body),
