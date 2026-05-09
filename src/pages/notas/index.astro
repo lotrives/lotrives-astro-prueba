@@ -110,3 +110,12 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 	.nota-separador { margin: 1.5rem 0; }
 	.rss-pie { margin-top: 1rem; font-size: 0.8em; color: rgb(var(--gray)); }
 </style>
+<script>
+document.querySelectorAll(".nota-cuerpo a[href]").forEach((a) => {
+  const href = a.getAttribute("href") ?? "";
+  if (/^https?:\/\//.test(href) && !href.startsWith("https://lotrives.com")) {
+    a.setAttribute("target", "_blank");
+    a.setAttribute("rel", "noopener noreferrer");
+  }
+});
+</script>
