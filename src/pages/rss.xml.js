@@ -9,12 +9,18 @@ export async function GET(context) {
 		description: SITE_DESCRIPTION,
 		site: context.site,
 		items: posts
+			.filter((p) => !p.data.draft)
 			.sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
-			.map((post) => ({
-				title: post.data.title,
-				pubDate: post.data.pubDate,
-				description: post.data.description,
-				link: `/blog/${post.id.replace(/\.md$/, '')}/`,
-			})),
+			.map((post) => {
+				const pid = post.id.replace(/\.md$/, '');
+				const [y, m, d, ...r] = pid.split('-');
+				const link = `/${y}/${m}/${d}/${r.join('-')}/`;
+				return {
+					title: post.data.title,
+					pubDate: post.data.pubDate,
+					description: post.data.description,
+					link,
+				};
+			}),
 	});
 }
