@@ -68,7 +68,9 @@ const truncate = (str: string, max: number) =>
 	}
 	.tags a {
 		color: rgb(var(--gray));
-		text-decoration: none;
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		text-decoration-color: rgb(var(--gray-light));
 	}
 	.tags a:hover {
 		color: var(--accent);
@@ -85,7 +87,9 @@ const truncate = (str: string, max: number) =>
 	}
 	.nav-posts a {
 		color: rgb(var(--gray));
-		text-decoration: none;
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		text-decoration-color: rgb(var(--gray-light));
 	}
 	.nav-posts a:hover {
 		color: var(--accent);
