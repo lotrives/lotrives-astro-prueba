@@ -1,7 +1,5 @@
 ---
-layout: page
 title: "La Vanguardia"
-permalink: /la-vanguardia/
 description: "Artículos de José Manuel Grau Navarro publicados en La Vanguardia, firmados como José Manuel Navarro."
 ---
 

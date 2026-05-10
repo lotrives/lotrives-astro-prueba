@@ -1,7 +1,5 @@
 ---
-layout: page
 title: "Libros"
-permalink: /libros/
 description: "Libros de José Manuel Grau Navarro."
 ---
 

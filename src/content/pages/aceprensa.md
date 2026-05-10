@@ -1,7 +1,5 @@
 ---
-layout: page
 title: "Aceprensa"
-permalink: /aceprensa/
 description: "Artículos de José Manuel Grau Navarro publicados en Aceprensa, firmados como José Grau."
 ---
 

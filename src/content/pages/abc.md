@@ -1,7 +1,5 @@
 ---
-layout: page
 title: "Artículos en ABC"
-permalink: /abc/
 description: "Artículos publicados por José Manuel Grau Navarro (firmados como José Grau) en ABC entre 1985 y 2013."
 ---
 

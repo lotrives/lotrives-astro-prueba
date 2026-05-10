@@ -1,7 +1,5 @@
 ---
-layout: page
 title: "Otros medios"
-permalink: /otros/
 description: "Artículos y colaboraciones de José Manuel Grau Navarro en otros medios, firmados en distintas etapas como José Grau."
 ---
 
