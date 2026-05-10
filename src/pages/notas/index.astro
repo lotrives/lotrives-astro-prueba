@@ -21,7 +21,8 @@ const renderedNotes = await Promise.all(
 	})
 );
 
-const formatDateTime = (str) => {
+const formatDateTime = (input) => {
+	const str = input instanceof Date ? input.toISOString() : input;
 	const parts = str.split('T');
 	const [y, m, d] = parts[0].split('-');
 	const [h, min] = (parts[1] || '00:00').split(':');
