@@ -6,7 +6,8 @@ updatedDate: 2026-05-10
 heroImage: ""
 tags: ["Biblia", "Lecturas", "Religión", "Política", "Cristianismo", "Dios"]
 ---
-Rafael Aguirre Monasterio: *La utilización política de la Biblia*. Epílogo de Julio Trebolle. Estella (Navarra, España): Editorial Verbo Divino, 2024.
+
+Rafael Aguirre Monasterio, Rafael. (2024). *[La utilización política de la Biblia](https://www.nuevarevista.net/rafael-aguirre-monasterio-la-utilizacion-politica-de-la-biblia/)*. Epílogo de Julio Trebolle. Estella (Navarra, España): Editorial Verbo Divino.
 
 ## Citas y notas de lectura
 
@@ -20,7 +21,7 @@ No estoy nada seguro de que la columna vertebral sea esa y no la puramente relig
 
 >«El terrible ataque de Hamás del 7 de octubre de 2023, en el sur de Israel junto a la franja de Gaza, y la consiguiente y bárbara guerra con que reaccionó Israel […] va a marcar un hito en la historia del Estado de Israel, solo comparable con la fundación del Estado y con la guerra de los Seis Días de 1967. Ben-Gurion, al establecer el Estado de Israel en 1948, leía la Biblia como un libro de historia y la conocía muy bien. En 1967 se contraponían lecturas de la Biblia a cuenta de la actitud a tomar con los territorios ocupados. En 2018 se ha impuesto políticamente una lectura de la Biblia que no deja lugar a dudas sobre la anexión de los territorios ocupados» (Aguirre, 2024, p. 81).
 
-Ese es el problema: leer la Biblia exclusivamente como uno libro de historia.
+Ese es el problema: leer la Biblia exclusivamente como un libro de historia.
 
 >«La agrupación de los judíos en Israel fue un proyecto que, contra lo que se suele pensar, tiene un origen cristiano. Es una terminología discutible, pero creemos que se puede hablar de un “protosionismo cristiano”, basado en una interpretación bíblica. Este hecho está muy relacionado con el fundamentalismo bíblico (aunque no solo con él) y es un factor clave para entender la estrecha relación que se estableció entre el Estado de Israel y los Estados Unidos. Es un fenómeno de la primera mitad del siglo XIX» (Aguirre, 2024, p. 85).
 
