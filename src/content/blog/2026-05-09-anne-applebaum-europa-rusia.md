@@ -11,7 +11,7 @@ heroImage: "/assets/images/anne-applebaum.webp"
 
 ![Anne Applebaum en 2024](/assets/images/anne-applebaum.webp)
 
-<p class="pie-foto">Anne Applebaum en 2024. Foto: Mateusz Skwarczek. Licencia de Creative Commons vía <a href="https://commons.wikimedia.org/w/index.php?title=File:MS241015_304_(cropped).jpg&oldid=1195087910" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+<p class="pie-foto">Anne Applebaum en 2024. Foto: Mateusz Skwarczek. Creative Commons. <a href="https://commons.wikimedia.org/w/index.php?title=File:MS241015_304_(cropped).jpg&oldid=1195087910" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
 
 
 Anne Applebaum, estadounidense, nacida en 1964, es una famosa periodista e historiadora, premio Pulitzer, especialista en la historia del comunismo y en la de Europa central y oriental. Tiene la nacionalidad polaca desde 2013. Está casada desde 1992 con Radosław Sikorski, actual ministro de Exteriores de Polonia.
