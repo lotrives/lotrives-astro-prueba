@@ -16,7 +16,7 @@ heroImage: "/assets/images/anne-applebaum.webp"
 
 Anne Applebaum, estadounidense, nacida en 1964, es una famosa periodista e historiadora, premio Pulitzer, especialista en la historia del comunismo y en la de Europa central y oriental. Tiene la nacionalidad polaca desde 2013. Está casada desde 1992 con Radosław Sikorski, actual ministro de Exteriores de Polonia.
 
-Benjamin Stolz conversado con ella y ha publicado la entrevista en *[Die Presse](https://www.diepresse.com/21923675/die-russen-schauen-sich-nach-anderen-marionetten-um-anne-applebaum-im)*, Viena, 7 de mayo de 2026.
+Benjamin Stolz ha conversado con ella y ha publicado la entrevista en *[Die Presse](https://www.diepresse.com/21923675/die-russen-schauen-sich-nach-anderen-marionetten-um-anne-applebaum-im)*, Viena, 7 de mayo de 2026.
 
 Mensaje central de Applebaum: Europa atraviesa un momento de ruptura comparable a 1989: la amenaza rusa opera tanto desde dentro, mediante financiación de partidos extremistas, como desde fuera, con sabotajes y asesinatos políticos. La UE tiene capacidad económica y militar suficiente para resistir, pero debe decidir si quiere ejercerla.
 
