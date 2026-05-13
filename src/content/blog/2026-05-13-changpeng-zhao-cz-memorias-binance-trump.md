@@ -1,5 +1,5 @@
 ---
-title: "Changpeng Zhao publica sus memorias. El _Financial Times_ las destruye"
+title: "Changpeng Zhao publica sus memorias. El Financial Times las destruye"
 pubDate: 2026-05-10
 description: "El fundador de Binance publica sus memorias. El FT las destruye. Aquí, los hechos."
 tags: ["Binance", "Changpeng Zhao", "Criptomonedas", "Donald Trump", "Lecturas"]
@@ -13,7 +13,10 @@ Nikou Asgari publicó el pasado 8 de mayo este artículo en el *Financial Times*
 De momento, Lotrives se ha detenido en el artículo de Asgari, que le parece sesgado. Una muestra:
 
 >«It is awful. Completely vapid, contradictory, egotistical and at some points just plain wrong». (Es terrible. Completamente insustancial, contradictorio, egocéntrico y en algunos puntos simplemente erróneo).
+>
+
 >«The 364 page, roughly chronological read is at times a notes-app-esque, sometimes bullet-pointed telling of stories, lists of countries CZ travelled to, ministers he met, and how his company has changed the world — with a heavy-handed emphasis on staying humble». (Las 364 páginas, de orden más o menos cronológico, consisten a veces en un relato al estilo de una aplicación de notas, con viñetas, listas de países visitados, ministros conocidos y reflexiones sobre cómo su empresa ha cambiado el mundo, todo ello con un énfasis exagerado en la humildad).
+>
 >—Nikou Asgari
 
 Asgari arremete en su texto contra este libro de memorias recién publicado (en inglés y en chino):
@@ -27,8 +30,8 @@ Le reprocha el *FT* a Changpeng Zhao (CZ), uno de los hombres más ricos del mun
 ¿Quién es Changpeng Zhao? Él se presenta así en la web que promueve su libro: 
 
 <figure style="float: right; margin: 0 0 1rem 1.5rem; width: 40%; max-width: 180px;">
-  <img src="/assets/images/changpeng-zhao-memorias.webp" alt="Portada de Freedom of Money, de Changpeng Zhao" style="width: 100%; display: block;" />
-  <figcaption style="font-size: 0.8em; color: #666; margin-top: 0.4rem;">Changpeng Zhao. <em>Freedom of Money</em>. Freedom of Money Foundation, 2026.</figcaption>
+  <img src="/assets/images/changpeng-zhao-portada-memorias.webp" alt="Portada de Freedom of Money, de Changpeng Zhao" style="width: 100%; display: block;" />
+  <figcaption style="font-size: 0.8em; color: #666; margin-top: 0.4rem; line-height: 1.3;">Changpeng Zhao. <i>Freedom of Money</i>. Freedom of Money Foundation, 2026.</figcaption>
 </figure>
 
 >«Changpeng Zhao, conocido como CZ, es el fundador y ex consejero delegado de Binance, la mayor plataforma de intercambio de criptomonedas del mundo. Nació en Jiangsu, China, creció en la pobreza y emigró a Canadá en su adolescencia. Estudió Informática en la Universidad McGill y trabajó en finanzas tradicionales antes de dedicarse por completo a las criptomonedas. Fundó Binance en 2017, que se convirtió en la mayor plataforma de intercambio de criptomonedas del mundo en menos de 180 días, alcanzando los 300 millones de usuarios y una valoración máxima de cien millardos de dólares. En 2023, se declaró culpable de una única infracción de la Ley de Secreto Bancario y cumplió aproximadamente cuatro meses de cárcel en una prisión federal estadounidense. No fue acusado de fraude» ([Who is Changpeng Zhao (CZ)?](https://freedomofmoney.net)).
@@ -55,8 +58,4 @@ El 21 de octubre de 2025, Trump indultó de forma completa e incondicional a CZ 
 
 Según reconoce el mismo CZ, «fue uno de los indultos más discutidos de la presidencia de Trump. Generó una gran controversia en diversos sectores». También señala CZ: «Meses antes del indulto, MGX, una firma de inversión respaldada por los Emiratos Árabes Unidos, acordó invertir 2.000 millones de dólares en Binance utilizando USD1, una criptomoneda estable asociada con World Liberty Financial, la empresa de criptomonedas de Trump. Los críticos argumentaron que esta conexión financiera hacía que el indulto pareciera una transacción». CZ «reconoció las relaciones comerciales», pero afirma que «habían sido "malinterpretadas" y que no había presionado para obtener un indulto por medios económicos» ([Trump Pardoned CZ: What Happened and What It Means](https://freedomofmoney.net/post.php?slug=trump-pardoned-cz-what-happened-and-what-it-means)).
 
-![Changpeng Zhao (CZ) en una conferencia](/assets/images/changpeng-zhao-portada.webp)
-{.credito-imagen}
-Changpeng Zhao en Vietnam en 2022. Foto (autor) Aevozer. CC vía <a href="https://commons.wikimedia.org/w/index.php?title=File:CZ_at_Vietnam_NFT_Summit.jpg&oldid=844974302" target="_blank">Wikimedia Commons</a>.
-
-
+<p style="font-size: 0.8em; color: #666; margin-top: 0.3rem;">Changpeng Zhao en Vietnam en 2022. Foto (autor): Aevozer. CC vía <a href="https://commons.wikimedia.org/w/index.php?title=File:CZ_at_Vietnam_NFT_Summit.jpg&oldid=844974302" target="_blank">Wikimedia Commons</a>.</p>
