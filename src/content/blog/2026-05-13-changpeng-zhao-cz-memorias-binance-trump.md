@@ -30,7 +30,7 @@ Le reprocha el *FT* a Changpeng Zhao (CZ), uno de los hombres más ricos del mun
 ¿Quién es Changpeng Zhao? Él se presenta así en la web que promueve su libro: 
 
 <figure style="float: right; margin: 0 0 1rem 1.5rem; width: 40%; max-width: 180px;">
-  <img src="/assets/images/changpeng-zhao-portada-memorias.webp" alt="Portada de Freedom of Money, de Changpeng Zhao" style="width: 100%; display: block;" />
+  <img src="/assets/images/changpeng-zhao-memorias.webp" alt="Portada de Freedom of Money, de Changpeng Zhao" style="width: 100%; display: block;" />
   <figcaption style="font-size: 0.8em; color: #666; margin-top: 0.4rem; line-height: 1.3;">Changpeng Zhao. <i>Freedom of Money</i>. Freedom of Money Foundation, 2026.</figcaption>
 </figure>
 
