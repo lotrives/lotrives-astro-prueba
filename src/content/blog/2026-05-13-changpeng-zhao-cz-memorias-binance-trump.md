@@ -4,7 +4,7 @@ pubDate: 2026-05-10
 description: "El fundador de Binance publica sus memorias. El FT las destruye. Aquí, los hechos."
 tags: ["Binance", "Changpeng Zhao", "Criptomonedas", "Donald Trump", "Lecturas"]
 heroImage: "/assets/images/changpeng-zhao-portada.webp"
-last_modified_at: 2026-05-14
+updatedDate: 2026-05-14
 ---
 
 ![Changpeng Zhao (CZ) en una conferencia en 2022](/assets/images/changpeng-zhao-portada.webp)
@@ -61,17 +61,15 @@ Según reconoce el mismo CZ, «fue uno de los indultos más discutidos de la pre
 
 ## Una observación al margen: el bitcoin
 
-Satoshi Nakamoto publicó el documento fundacional del bitcoin (BTC) en 2008 ([Bitcoin: A peer-to-peer electronic cash system](https://bitcoin.org/en/bitcoin-paper)). Una de las ideas clave detrás de su invento es que habrá 21 millones de bitcoines, exactamente esa cifra. Al no estar controlado el BTC por ningún gobierno ni banco central, y al ser imposible la creación adicional de bitcoines por encima de esos 21 millones, estaría libre de inflación, como no lo están ni el dólar, ni el euro, ni el resto de las monedas llamadas *fiat* (no respaldadas por oro), manipuladas a placer de los que mandan y para daño sobre todo de las clases más desfavorecidas económicamente.
+**Satoshi Nakamoto** publicó el documento fundacional del bitcoin (BTC) en 2008 ([Bitcoin: A peer-to-peer electronic cash system](https://bitcoin.org/en/bitcoin-paper)). Una de las ideas clave detrás de su invento es que habrá 21 millones de bitcoines, exactamente esa cifra. Al no estar controlado el BTC por ningún gobierno ni banco central, y al ser imposible la creación adicional de bitcoines por encima de esos 21 millones, estaría libre de inflación, como no lo están ni el dólar, ni el euro, ni el resto de las monedas llamadas *fiat* (no respaldadas por oro), manipuladas a placer de los que mandan y para daño sobre todo de las clases más desfavorecidas económicamente.
 
 En teoría, si todo el mundo adoptara el bitcoin, sería maravilloso porque borraría de golpe la inflación, provocada por las adulteraciones de los gobiernos. En la práctica eso no está ocurriendo. Se ve al BTC en general como algo complicado y ámbito para el blanqueo de dinero. Lo más positivo a que se asocia es a la especulación bursátil, como si fuera (no lo es) una acción de una empresa muy volátil, no una moneda valiosa libre de inflación y apta para acumular riqueza. El bitcoin está lejos de convertirse en el sustituto del oro, a fecha de hoy, como desearían CZ y otros. Veremos lo que el futuro depara.
 
 Binance tienen su propia criptomoneda, el BNB, lanzada en julio de 2017 ([BNB](https://www.binance.com/es/research/projects/bnb)). Y ese es otro de los problemas del mundo cripto: han surgido criptomonedas como setas en otoño.
 
-Que el dinero *fiat* es uno de los mayores males del mundo, al margen de que se promueva o no en el bitcoin, está bastante demostrado ([Ludwig von Mises: «La teoría del dinero y del crédito»](https://www.nuevarevista.net/ludwig-von-mises-la-teoria-del-dinero-y-del-credito/)). 
+Que el dinero *fiat* es uno de los mayores males del mundo, al margen de que se promueva o no el bitcoin, está bastante demostrado ([Ludwig von Mises: «La teoría del dinero y del crédito»](https://www.nuevarevista.net/ludwig-von-mises-la-teoria-del-dinero-y-del-credito/)). 
 
 Barry Eichengreen señaló el 11 de mayo el hecho de que las compras y la repatriación de oro por parte de los bancos centrales están aumentando ([Gold’s Grim Message](https://www.project-syndicate.org/commentary/rising-official-gold-reserves-symptom-of-deglobalization-by-barry-eichengreen-2026-05)). Es una muestra más de lo que cuenta para los poderosos: acumulación de oro, no de billetes de papel.
-
----
 
 
 <p class="credito-imagen">Crédito de la imagen: Changpeng Zhao en Vietnam en 2022. Autor: Aevozer. Creative Commons vía <a href="https://commons.wikimedia.org/w/index.php?title=File:CZ_at_Vietnam_NFT_Summit.jpg&oldid=844974302" target="_blank">Wikimedia Commons</a>.</p>
