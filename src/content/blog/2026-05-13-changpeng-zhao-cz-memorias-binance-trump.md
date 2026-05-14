@@ -2,7 +2,7 @@
 title: "Changpeng Zhao publica sus memorias. El Financial Times las destruye"
 pubDate: 2026-05-10
 description: "El fundador de Binance publica sus memorias. El FT las destruye. Aquí, los hechos."
-tags: ["Binance", "Changpeng Zhao", "Criptomonedas", "Donald Trump", "Lecturas"]
+tags: ["Binance", "Changpeng Zhao", "Criptomonedas", "Donald Trump", "Lecturas", "Bitcoin"]
 heroImage: "/assets/images/changpeng-zhao-portada.webp"
 updatedDate: 2026-05-14
 ---

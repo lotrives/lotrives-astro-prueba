@@ -1,8 +1,8 @@
 ---
 title: "Cartera de valores permanente"
 pubDate: 2025-11-23
-tags: [Inversión, Cartera de valores, ETF, Bitcóin, Finanzas personales]
-description: "Relato práctico de la cartera de valores permanente de Lotrives: advertencias, inversión inicial en ETF, seguimiento de resultados y actualización con bitcóin."
+tags: [Inversión, Cartera de valores, ETF, "Bitcoin", Finanzas personales]
+description: "Relato práctico de la cartera de valores permanente de Lotrives: advertencias, inversión inicial en ETF, seguimiento de resultados y actualización con bitcoines"
 canonical_url: "https://lotrives.github.io/2025/11/23/cartera-permanente-valores-lotrives/"
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Coca_Cola_1929.JPG/960px-Coca_Cola_1929.JPG
 ---
@@ -49,9 +49,9 @@ Me da la impresión de que Gita Gopinath anuncia el apocalipsis pero en la forma
 
 ### 2025-11-23 Cartera actualizada
 
-Lotrives decide empezar a especular con el bitcóin (BTC).
+Lotrives decide empezar a especular con el bitcoin (BTC).
 
-**Invierte 1000 € en bitcóines.**
+**Invierte 1000 € en bitcoines.**
 
 Véase 👉 [aquí](https://drive.google.com/file/d/1sOyayqm0FBYH7du28OQbnRzxSaHbmlql/view).
 
