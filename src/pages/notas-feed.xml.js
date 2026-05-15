@@ -53,8 +53,10 @@ const markdownToFeedHtml = (body) => {
 	// Cursivas con asterisco
 	html = html.replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
 
-	// Cursivas con guión bajo
-	html = html.replace(/_([^_\n]+)_/g, '<em>$1</em>');
+	// Cursivas con guión bajo (protegiendo URLs)
+	html = html.replace(/(!?\[[^\]]*\]\([^)]*\)|https?:\/\/[^\s<>"]+)/g, (m) => '\x00' + Buffer.from(m).toString('base64') + '\x00');
+	html = html.replace(/(?<![%\w])_([^_\n]+)_(?![%\w])/g, '<em>$1</em>');
+	html = html.replace(/\x00([A-Za-z0-9+/=]+)\x00/g, (_, b) => Buffer.from(b, 'base64').toString());
 
 	// Encabezados ### → <h3>
 	html = html.replace(/^###\s+(.+)$/gm, '<h3>$1</h3>');
