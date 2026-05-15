@@ -12,6 +12,7 @@ const blog = defineCollection({
 		heroImage: z.string().optional(),
 		last_modified_at: z.coerce.date().optional(),
 		draft: z.boolean().optional(),
+		canonical: z.string().optional(),
 		tags: z.array(z.string()).optional(),
 	}),
 });
@@ -25,6 +26,7 @@ const notes = defineCollection({
 		heroImage: z.string().optional(),
 		last_modified_at: z.coerce.date().optional(),
 		draft: z.boolean().optional(),
+		canonical: z.string().optional(),
 		tags: z.array(z.string()).optional(),
 	}),
 });
@@ -36,6 +38,9 @@ const pages = defineCollection({
 		description: z.string().optional(),
 		permalink: z.string().optional(),
 		layout: z.string().optional(),
+		tags: z.array(z.string()).optional(),
+		canonical: z.string().optional(),
+		draft: z.boolean().optional(),
 	}),
 });
 
