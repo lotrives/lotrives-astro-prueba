@@ -4,11 +4,11 @@ description: "En el improbable caso de que lo hiciera, por el enorme empobrecimi
 pubDate: 2023-05-01
 updatedDate: 2026-05-15
 tags: ["Economía", "Ludwig von Mises", "Joseph Ratzinger", "Benedicto XVI"]
-heroImage: "https://substackcdn.com/image/fetch/$s_!2nOv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ca88bae-85de-401c-94db-7f31e1e209de_2048x1118.jpeg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/United_States_one_dollar_bill%2C_obverse.jpg/1280px-United_States_one_dollar_bill%2C_obverse.jpg"
 canonical: "https://lotrives.substack.com/p/tendria-que-pedirnos-perdon-el-gobierno"
 ---
 
-![Un dólar estadounidense](https://substackcdn.com/image/fetch/$s_!2nOv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ca88bae-85de-401c-94db-7f31e1e209de_2048x1118.jpeg)
+![Un dólar estadounidense](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/United_States_one_dollar_bill%2C_obverse.jpg/1280px-United_States_one_dollar_bill%2C_obverse.jpg)
 
 <p class="pie-foto">Un dólar estadounidense. Foto: © <a href="https://commons.wikimedia.org/wiki/File:United_States_one_dollar_bill,_obverse.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
 
