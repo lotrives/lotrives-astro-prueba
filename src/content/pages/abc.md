@@ -1,5 +1,6 @@
 ---
 title: "Artículos en ABC"
+tags: ["ABC"]
 description: "Artículos publicados por José Manuel Grau Navarro (firmados como José Grau) en ABC entre 1985 y 2013."
 ---
 
