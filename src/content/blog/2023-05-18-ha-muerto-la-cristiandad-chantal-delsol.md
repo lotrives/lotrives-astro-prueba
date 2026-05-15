@@ -29,11 +29,3 @@ Con ocasión de la publicación de la reseña al libro de Delsol en *[Nueva Revi
 «La Iglesia oficial se ha olvidado de los valores espirituales trascendentales y ahora solo se dedica al más acá»; «Hoy día es más importante para la Iglesia cuidar el planeta que salvar un alma»; «Mientras la Iglesia se ocupe de temas terrenales abdica de su primera misión y se reduce a una especie de partido político más».
 
 Expresan sobre todo el **desencanto** con una institución que no brilla por lo propiamente suyo. Es lo mismo que transmite Delsol.
-
-Más sobre *Historia de Occidente*:
-
-<https://www.nuevarevista.net/historia-de-occidente/>
-
-Más sobre *El cristianismo en la era de la posverdad*:
-
-<https://www.nuevarevista.net/el-cristianismo-en-la-era-de-la-posverdad/>
