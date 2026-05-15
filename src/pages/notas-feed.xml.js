@@ -5,6 +5,7 @@ const SITE = 'https://lotrives.com';
 
 const plainText = (body) =>
 	body
+		.replace(/<[^>]+>/g, '')
 		.replace(/!\[[^\]]*\]\([^)]+\)/g, '')
 		.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
 		.replace(/[#*`>\-]/g, '')
@@ -36,6 +37,9 @@ const markdownToFeedHtml = (body) => {
 	if (inBlockquote) output.push('</blockquote>');
 
 	let html = output.join('\n');
+
+	// Rutas de imagen locales → absolutas
+	html = html.replace(/!\[([^\]]*)\]\((\/[^)]+)\)/g, `![$1](https://lotrives.com$2)`);
 
 	// Imágenes
 	html = html.replace(
