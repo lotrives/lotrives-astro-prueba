@@ -1,0 +1,31 @@
+---
+title: "Libertad de conciencia y verdad"
+description: "Martha C. Nussbaum: «No entiendo cómo una mujer puede querer hacerse monja, pero esto no me lleva a concluir que se debería ilegalizar a las monjas»"
+pubDate: 2023-04-20
+updatedDate: 2026-05-15
+tags: ["Filosofía", "Joseph Ratzinger", "Benedicto XVI"]
+heroImage: "https://substackcdn.com/image/fetch/$s_!ihn3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef6b4527-7ffb-43d6-9d34-8bf1cc9ff93c_1021x580.png"
+canonical: "https://lotrives.substack.com/p/libertad-de-conciencia-y-verdad"
+---
+
+![Martha C. Nussbaum en 2008](https://substackcdn.com/image/fetch/$s_!ihn3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef6b4527-7ffb-43d6-9d34-8bf1cc9ff93c_1021x580.png)
+
+<p class="pie-foto">Martha C. Nussbaum en 2008. Foto: © <a href="https://commons.wikimedia.org/wiki/File:Martha_Nussbaum_wikipedia_10-10.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+
+La declaración *Dignitatis humanae* sobre la **libertad religiosa** (Concilio Vaticano II) afirma que, en virtud de la **dignidad humana**, la conciencia religiosa de la persona debe quedar inmune de cualquier tipo de coacción, tanto por parte del Estado como por parte de otras estructuras sociales. «No se dice con esto que todas las religiones tengan la misma **verdad**, ni tampoco que la persona no tenga la grave obligación moral de **buscar la verdad en materia religiosa**, sino simplemente que las **convicciones religiosas** quedan fuera del ámbito en el que el Estado puede emplear legítimamente la coacción».[^1]
+
+Pero los **poderes**, día sí y día también, emplean la coacción en materia religiosa (y no solo religiosa) como resulta evidente; también los de la civilización occidental. Supongamos que un **ruso** dice: **«No a la guerra**, no me alisto». O supongamos que un **ucraniano** afirma lo mismo. Admitamos que se comportan así por ser **radicalmente pacifistas**, como me parece que era **Jesucristo** (¿lo interpreto mal?),[^2] no por cobardía o buscando ventajas personales. ¿Cuánto tiempo se tardaría en detenerlos y mandarlos a Siberia o el equivalente a Siberia?[^3]
+
+En *[Nueva Revista](https://www.nuevarevista.net/martha-c-nussbaum-sobre-la-libertad-de-conciencia/)* publicamos hoy un artículo sobre la libertad de conciencia vista por la filósofa estadounidense **Martha C. Nussbaum**, en la que sale la frase de arriba, del subtítulo, sobre las monjas. La **objeción de conciencia** es un asunto peliagudo en la teoría y en la práctica. Nussbaum argumenta que si se parte de que la religión no es importante [como ocurre en todos los Estados occidentales, añado yo], «difícilmente se hará alguna modificación para otorgar a las personas dispensas de leyes por motivos de conciencia». Pero, sobre todo, «en lo que se refiere a la objeción de conciencia, la delimitación entre aquellas que merecen **respaldo jurídico** y las que no es extremadamente complicada». ¿Qué hacemos con los **médicos** que se oponen al **aborto**?
+
+Obsérvese que Rodríguez Luño, uniéndose a la tradición católica de pensadores, **apela a la verdad**, cuando hoy el poder estatal y la inmensa mayoría de juristas y «sabios de este mundo» se mofan, como Pilatos, cuando se recurre a la verdad. Pero sin la verdad, una religión con sacrificios humanos valdría lo mismo que otra sin ellos, y una **sin** **monjas** lo mismo que otra **con monjas**.
+
+Quizás no venga mal recordar en qué consiste la **dignidad humana**: «El hombre tiene una **ley escrita por Dios en su corazón**, en cuya **obediencia** **consiste la dignidad humana** y por la cual será juzgado personalmente. La **conciencia** es el núcleo más secreto y el sagrario del hombre […]. Es la conciencia la que de modo admirable da a conocer esa ley, cuyo cumplimiento consiste en el amor de Dios y del prójimo. La **fidelidad a esta conciencia une** a los cristianos con los demás hombres para **buscar la verdad** y resolver con acierto **los numerosos problemas morales** que se presentan al individuo y a la sociedad» (*Constitución sobre la Iglesia en el mundo actual*, n. 16).[^4]
+
+[^1]: Ángel Rodríguez Luño: *Ética general*. Eunsa, 2010, p. 266 (nota 12 a pie de página).
+
+[^2]: «Cristo exige en muchos sentidos más de lo que la Iglesia se atreve a exigir, […] con el radicalismo de sus palabras solo se corresponde verdaderamente el radicalismo de decisiones como las que tomaron el eremita Antonio o Francisco de Asís, que aceptaron el Evangelio en su integridad. Si no se hace así, tiene lugar invariablemente el recurso en la casuística. Pero con ello no desaparece el lacerante desasosiego de saber que se ha retrocedido, como retrocedió el joven rico, cuando debiera haberse tomado verdaderamente en serio el Evangelio» (**Joseph Ratzinger**: *Cooperadores de la verdad*. Rialp, 2021, pp. 163-4).
+
+[^3]: Del caso concreto sobre pacifismo, guerra y libertad de conciencia, se pasa fácilmente al del **origen del (turbio) poder**. Escribe **René Girard** (1923-2015): «Pedro (en Hech 4, 26) aplica una versículo de los Salmos a la pasión de Cristo: "Se alían los reyes de la tierra, los príncipes conspiran, contra el Señor y contra su Mesías" (Sal 2, 2). De esa cita no concluimos que Pedro literalmente afirma la participación de "todos los reyes de la tierra" en la crucifixión. Sabía perfectamente que la pasión de Cristo no llamó la atención al mundo entero. No exagera la importancia del suceso desde el punto de vista estrictamente histórico. Lo que la cita quiere decir es que, más allá de un incidente ciertamente menor para el Imperio romano, Pedro detecta una conexión especial entre la cruz y los poderes en general, porque **los poderes se originan en crímenes colectivos** de **forma similar a lo que le pasó a Jesús**» (René Girard, cita tomada de *The Word on Fire Bible. Acts, Letters, and Revelation*. Word on Fire, 2022, p. 60 (comentario a Hech 3, 26, titulado «La cruz y los poderes»; la traducción es nuestra).
+
+[^4]: *Concilio Vaticano II. Constituciones. Decretos. Declaraciones. Legislación posconciliar.* BAC, 1965, p. 279.
