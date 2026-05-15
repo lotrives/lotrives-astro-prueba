@@ -55,12 +55,12 @@ export async function GET() {
 			const body = stripMarkdown(note.body || '');
 			return {
 				id: noteUrl(note),
-				title: body.slice(0, 60) + (body.length > 60 ? '…' : ''),
+				title: note.data.title || body.slice(0, 60) + (body.length > 60 ? '…' : ''),
 				url: noteUrl(note),
 				date: note.data.pubDate || '',
-				excerpt: body.slice(0, 160),
+				excerpt: note.data.description || body.slice(0, 160),
 				content: body,
-				tags: '',
+				tags: Array.isArray(note.data.tags) ? note.data.tags.join(', ') : '',
 				type: 'nota',
 			};
 		});
