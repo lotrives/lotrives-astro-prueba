@@ -43,7 +43,7 @@ const description = note.data.description ?? note.body.replace(/[#*`>\-]/g, '').
 					<div class="nota-cuerpo">
 						<Content />
 					</div>
-					{note.data.heroImage && <img src={note.data.heroImage} alt="" class="nota-imagen" />}
+					
 					<p class="nota-fecha"><FormattedDate date={pubDate} /></p>
 					{note.data.tags && note.data.tags.length > 0 && (
 						<div class="nota-tags">
