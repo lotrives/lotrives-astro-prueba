@@ -10,7 +10,7 @@ canonical: "https://lotrives.substack.com/p/las-verdades-primitivas-y-santas"
 
 ![Monumento a la tolerancia (Jerusalén)](https://substackcdn.com/image/fetch/$s_!dB56!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2772c4e9-e8e1-414c-b1f0-05805592d30a_2042x1160.webp)
 
-<p class="pie-foto">Monumento a la tolerancia (Jerusalén). Foto: © <a href="https://commons.wikimedia.org" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+<p class="pie-foto">Monumento a la tolerancia (Jerusalén). Foto: © <a href="https://commons.wikimedia.org/wiki/File:Monument_of_Tolerance_in_Jerusalem.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
 
 Publicó **Juan Donoso Cortés**: «La intolerancia doctrinal de la Iglesia ha salvado el mundo del caos. Su intolerancia doctrinal ha puesto fuera de cuestión la verdad política, la verdad doméstica, la verdad social y la verdad religiosa; verdades primitivas y santas, que no están sujetas a discusión, porque son el fundamento de todas las discusiones; verdades que no pueden ponerse en duda un momento, sin que en ese momento mismo el entendimiento oscile, perdido entre la verdad y el error, y se obscurezca y enturbie el clarísimo espejo de la razón humana».[^1]
 
@@ -30,7 +30,7 @@ Más sobre Ratzinger: <https://www.nuevarevista.net/ratzinger-a-debate/>
 
 ![Juan Donoso Cortés (óleo de Federico Madrazo)](https://substackcdn.com/image/fetch/$s_!SUF7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd523bd27-9cfe-4a79-9d0f-6e2f571bacbd_2133x2667.jpeg)
 
-<p class="pie-foto">Juan Donoso Cortés (óleo de Federico Madrazo). Foto: © <a href="https://commons.wikimedia.org" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+<p class="pie-foto">Juan Donoso Cortés (óleo de Federico Madrazo). Foto: © <a href="https://commons.wikimedia.org/wiki/File:Juan_Donoso_Cort%C3%A9s,_por_Federico_Madrazo.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
 
 [^1]: Juan Donoso Cortés: *Ensayo sobre el catolicismo, el liberalismo y el socialismo*. Editorial Comares, 2006 (edición a cargo de José Luis Monereo Pérez), p. 26.
 
