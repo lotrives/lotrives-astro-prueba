@@ -10,7 +10,7 @@ canonical: "https://lotrives.substack.com/p/democracia-y-mentiras"
 
 ![El personaje de Pinocho, emblema de la mentira](https://substackcdn.com/image/fetch/$s_!T-bg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb86d76b-cf30-4f02-a73e-bf9efb6f0528_2560x1707.jpeg)
 
-<p class="pie-foto">El personaje de Pinocho, emblema de la mentira. Foto: © <a href="https://commons.wikimedia.org/wiki/File:Pinocchio.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+<p class="pie-foto">El personaje de Pinocho, emblema de la mentira. Foto: © <a href="https://commons.wikimedia.org/wiki/File:Pinokkio_Efteling.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
 
 Un requisito fundamental para el progreso de la sociedad es que sus gobernantes y todas sus instituciones digan la **verdad**. La **sinceridad de la comunicación** impide «la acción del mayor enemigo del buen gobierno: la de aquellos que quieren hacer algo que no se puede decir o, más exactamente, que no se puede decir al gran público, el que está fuera de los cenáculos reducidos en que se elabora la comunicación política». Los mensajes falsos o distorsionados por la demagogia «privan al cuerpo social de la facultad de decidir libremente sobre su propia vida y su propio destino. Los mensajes falsos son mucho más perniciosos que la moneda falsa».[^1]
 
