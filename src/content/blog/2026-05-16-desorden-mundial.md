@@ -3,7 +3,7 @@ title: "Desorden mundial"
 description: "Una barra de pan, el bitcoin y Anne Applebaum"
 pubDate: 2026-05-16
 tags: ["Bitcoin", "Anne Applebaum", "Europa", "Inflación", "Rusia"]
-heroImage: "/assets/images/desorden-mundial.webp"
+heroImage: "/assets/images/anne-applebaum.webp"
 canonical: "https://lotrives.substack.com/p/desorden-mundial"
 ---
 
@@ -11,7 +11,7 @@ Cuando cayó el Muro de Berlín (1989) y se derrumbó el comunismo en el Este de
 
 Una barra de pan en un supermercado de Madrid vale 0,5 euros (unas 83 pesetas), a 15 de mayo de 2026. En 1980 se podía adquirir por [15 pesetas](https://elpais.com/diario/1980/09/23/madrid/338556262_850215.html). La subida es del 453,33 %. No tendría por qué ser así. Podría costar hoy lo mismo o menos. Igual con otras mercancías.
 
-La manipulación del dinero por parte de los gobiernos y de los bancos centrales es una constante desde tiempos inmemoriales, pero los últimos decenios se llevan la palma. Es una de las causas más importantes del malestar en el mundo. El segundo artículo de esta semana, las memorias de CZ, uno de los hombres más ricos del planeta, fundador de la plataforma Binance, da ocasión para fijarse en ello, en otro artículo, porque apuesta por las criptomonedas.
+La manipulación del dinero por parte de los gobiernos y de los bancos centrales es una constante desde tiempos inmemoriales, pero los últimos decenios se llevan la palma. Es una de las causas más importantes del malestar en el mundo. El segundo artículo de esta semana, las memorias de CZ, uno de los hombres más ricos del mundo, fundador de la plataforma Binance, da ocasión para fijarse en ello, en otro artículo.
 
 En Madrid, hoy, 15 de mayo, es fiesta. Celebramos a san Isidro. Tiene mérito que un labrador llegara a los altares. Pero la fiesta en Madrid no es como la fiesta de los pueblos. En una gran ciudad se pierde el sentido de la hermandad y de la ciudadanía, al menos no termina de hallarlo Lotrives.
 
@@ -31,7 +31,7 @@ En teoría, si todo el mundo adoptara el bitcoin, sería maravilloso porque borr
 
 ## «Ya no existe un orden mundial liberal», según Anne Applebaum
 
-![Anne Applebaum en 2024. Foto: Mateusz Skwarczek.](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/MS241015_304_%28cropped%29.jpg/1200px-MS241015_304_%28cropped%29.jpg)
+![Anne Applebaum en 2024.](/assets/images/anne-applebaum.webp)
 
 <p class="pie-foto">Anne Applebaum en 2024. Foto: Mateusz Skwarczek. CC. <a href="https://commons.wikimedia.org/wiki/File:MS241015_304_(cropped).jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
 
