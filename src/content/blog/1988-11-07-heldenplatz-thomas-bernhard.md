@@ -16,10 +16,8 @@ Otros prominentes espectadores, […].[^1]
 
 <p class="pie-foto">Heldenplatz (Plaza de los Héroes) es una explanada de Viena y a su vez el título de la obra de Thomas Bernhard. <a href="https://lotrives.com/2015/04/13/dama-de-oro-anexion-austria-hitler/">Desde la Heldenplatz Hitler proclamó el Anschluss, la anexión de Austria a Alemania, en 1938</a>. Foto: <a href="https://commons.wikimedia.org/wiki/File:IMG_0169_-_Wien_-_Hofburg.JPG" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Thomas_Bernhard_1987.jpg" alt="Thomas Bernhard en 1987" style="float: right; width: 260px; margin: 0 0 1rem 1.5rem;" />
+![Thomas Bernhard en 1987](https://upload.wikimedia.org/wikipedia/commons/f/fa/Thomas_Bernhard_1987.jpg)
 
-<p class="pie-foto" style="float: right; width: 260px; margin: -1rem 0 1.5rem 1.5rem;">Thomas Bernhard en 1987. Foto: <a href="https://commons.wikimedia.org/wiki/File:Thomas_Bernhard_1987.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
+<p class="pie-foto">Thomas Bernhard en 1987. Foto: <a href="https://commons.wikimedia.org/wiki/File:Thomas_Bernhard_1987.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
 
-<div style="clear: both;"></div>
-
-[^1]: Artículo completo en: José Manuel Navarro: «*Heldenplatz* decepcionó a la crítica, pero fue aclamada por el público en su estreno en Viena» (*[La Vanguardia](https://hemeroteca.lavanguardia.com/preview/1988/11/07/pagina-19/33045874/pdf.html)*, 7/11/1988, p. 19). (José Manuel Navarro es como José Manuel Grau Navarro firmaba en *La Vanguardia*).
+[^1]: Artículo completo en: José Manuel Navarro: ««*Heldenplatz*» decepcionó a la crítica, pero fue aclamada por el público en su estreno en Viena» (*La Vanguardia*, 7/11/1988, p. 19). Véase <https://hemeroteca.lavanguardia.com/preview/1988/11/07/pagina-19/33045874/pdf.html> [José Manuel Navarro es como José Manuel Grau Navarro firmaba en *La Vanguardia*].
