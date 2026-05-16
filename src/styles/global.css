@@ -225,10 +225,13 @@ h3#bibliografía ~ p {
 
 .pie-foto a,
 .credito-imagen a {
-	color: inherit;
+	color: var(--accent);
+	text-decoration: none;
+}
+.pie-foto a:hover,
+.credito-imagen a:hover {
 	text-decoration: underline;
 	text-underline-offset: 3px;
-	text-decoration-color: rgb(var(--gray-light));
 }
 
 /* Sin subrayado en enlaces del cuerpo del texto */
