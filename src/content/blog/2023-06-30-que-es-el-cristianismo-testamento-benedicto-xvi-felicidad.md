@@ -24,4 +24,4 @@ La tolerancia está anclada en la propia naturaleza de la verdad. Una sociedad q
 
 Occidente está atrapado en los dos primeros niveles de felicidad (la gratificación inmediata y el logro comparativo: riqueza, poder, honores), por su dependencia del mito del materialismo y del mito del éxito como timón de la felicidad. [Leer más](https://www.nuevarevista.net/los-cuatro-niveles-de-la-felicidad/)
 
-<p class="credito-imagen">Crédito de la imagen: niña riendo en Francia. <a href="https://commons.wikimedia.org/wiki/File:Little_girl_laughing_with_excitement_in_France.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+<p class="credito-imagen">Crédito de la segunda imagen: niña riendo en Francia. <a href="https://commons.wikimedia.org/wiki/File:Little_girl_laughing_with_excitement_in_France.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
