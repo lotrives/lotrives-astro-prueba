@@ -244,3 +244,30 @@ h3#bibliografía ~ p {
 	text-decoration-color: rgb(var(--gray-light));
 }
 :target { scroll-margin-top: 6rem; }
+
+/* Anclas en headings */
+h2 a[aria-hidden="true"],
+h3 a[aria-hidden="true"] {
+  opacity: 0;
+  margin-left: 0.4em;
+  text-decoration: none;
+  color: var(--accent);
+  transition: opacity 0.2s;
+}
+h2:hover a[aria-hidden="true"],
+h3:hover a[aria-hidden="true"] {
+  opacity: 1;
+}
+
+h2 > a[aria-hidden="true"],
+h3 > a[aria-hidden="true"] {
+  opacity: 0;
+  margin-left: 0.4em;
+  text-decoration: none;
+  color: var(--accent);
+  transition: opacity 0.2s;
+}
+h2:hover > a[aria-hidden="true"],
+h3:hover > a[aria-hidden="true"] {
+  opacity: 1;
+}

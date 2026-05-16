@@ -4,6 +4,8 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig, fontProviders } from 'astro/config';
 import rehypeExternalLinks from 'rehype-external-links';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeSlug from 'rehype-slug';
 import { visit } from 'unist-util-visit';
 
 const SITE = 'https://lotrives.com';
@@ -31,6 +33,8 @@ export default defineConfig({
 		rehypePlugins: [
 			[rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],
 			rehypeFixExternalLinks,
+			rehypeSlug,
+			[rehypeAutolinkHeadings, { behavior: 'append', content: { type: 'text', value: ' #' } }],
 		],
 	},
 	fonts: [
