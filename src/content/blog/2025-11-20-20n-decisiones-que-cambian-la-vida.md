@@ -3,7 +3,7 @@ title: "Decisiones que cambian la vida"
 description: "Memoria del 20 de noviembre de 1975, entre Madrid y Bigastro, cincuenta años después, con ocasión del 50.º aniversario de la muerte de Franco "
 canonical_url: "https://lotrives.github.io/2025/11/20/20n-decisiones-que-cambian-la-vida/"
 pubDate: 2025-11-20
-tags: [Memorias, Madrid, Colegio Mayor Moncloa, Bigastro, "Opus Dei", "Francisco Franco"]
+tags: ["Memorias", "Madrid", "Colegio Mayor Moncloa", "Bigastro", "Opus Dei", "Francisco Franco"]
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Madrid_Atocha_1981.jpg/960px-Madrid_Atocha_1981.jpg
 ---
 

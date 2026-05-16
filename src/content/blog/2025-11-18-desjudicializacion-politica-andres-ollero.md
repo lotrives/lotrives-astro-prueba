@@ -3,7 +3,7 @@ title: "¿Qué es la judicialización de la política?"
 description: "Contra el intento de que los políticos actúen fuera de la ley. Ciertos políticos prefieren cobijarse en la presunción de inocencia y convertir a los magistrados en jueces de su labor política, según Andrés Ollero."
 canonical_url: "https://lotrives.github.io/2025/11/18/desjudicializacion-politica-andres-ollero/"
 pubDate: 2025-11-18
-tags: ["Andrés Ollero", Judicialización de la política]
+tags: ["Andrés Ollero", "Judicialización de la política"]
 ---
 
 *Guerra jurídica*, *instrumentalización de la justicia*, *judicialización de la política* o *acoso judicial*, según [Wikipedia](https://es.wikipedia.org/w/index.php?title=Guerra_jurídica&oldid=169166255), son términos que aluden a «la utilización abusiva o ilegal de las instancias judiciales nacionales e internacionales, manteniendo una apariencia de legalidad, para inhabilitar o provocar el repudio popular contra un oponente». Tanto en la entrada de Wikipedia como en [*The Oxford Handbook of Law and Politics*](https://doi.org/10.1093/oxfordhb/9780199208425.003.0008) se pone el acento en la desconfianza en los tribunales «para abordar dilemas morales fundamentales, cuestiones de política pública y controversias políticas».

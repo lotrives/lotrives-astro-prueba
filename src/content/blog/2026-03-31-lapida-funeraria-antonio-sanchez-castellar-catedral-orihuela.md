@@ -1,7 +1,7 @@
 ---
 title: "La lápida funeraria de Antonio Sánchez del Castellar"
 pubDate: 2026-03-31
-tags: [Catedral de Orihuela, Orihuela]
+tags: ["Catedral de Orihuela", "Orihuela"]
 description: Visita a la Santa Iglesia Catedral de El Salvador y Santa María de Orihuela. Transcripción y traducción de la lápida de Antonio Sánchez del Castellar. Su trabajo a favor del dogma de la Inmaculada Concepción de María.
 ---
 

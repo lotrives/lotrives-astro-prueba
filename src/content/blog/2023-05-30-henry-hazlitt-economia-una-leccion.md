@@ -1,7 +1,7 @@
 ---
 title: "Henry Hazlitt: «La economía en una lección»"
 pubDate: 2023-05-30
-tags: ["Henry Hazlitt", Lecturas, "Javier Miley", "Friédéric Bastiat", "William Graham Sumner", "Juan Ramón Rallo", Ahorro, Impuestos, "Crédito estatal", Trabajo, "Pleno empleo", "Adam Smith", Aranceles, "Paridad de precios", Precios, "Salario mínimo", Inflación, Exportación, Beneficios, "Intervencionismo estatal", Economía]
+tags: ["Henry Hazlitt", "Lecturas", "Javier Miley", "Friédéric Bastiat", "William Graham Sumner", "Juan Ramón Rallo", "Ahorro", "Impuestos", "Crédito estatal", "Trabajo", "Pleno empleo", "Adam Smith", "Aranceles", "Paridad de precios", "Precios", "Salario mínimo", "Inflación", "Exportación", "Beneficios", "Intervencionismo estatal", "Economía"]
 description: "Extractos de «La economía en una lección», obra de Henry Hazlitt"
 ---
 

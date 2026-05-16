@@ -3,7 +3,7 @@ title: "Las fuentes de la conducta soviética"
 description: "Cuando a Vladímir Putin le dio por invadir Ucrania, en 2022, muchos nos preguntamos: «Pero estos rusos, ¿de qué van?» Contesta aquí Sergey Radchenko."
 canonical_url: "https://lotrives.github.io/2025/10/20/fuentes-conducta-sovietica-sergey-radchenko/"
 pubDate: 2025-10-20
-tags: [Lecturas, URSS, "Sergey Radchenko", "Rodric Braithwaite"]
+tags: ["Lecturas", "URSS", "Sergey Radchenko", "Rodric Braithwaite"]
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Stamp_of_USSR_0914.jpg/960px-Stamp_of_USSR_0914.jpg
 ---
 

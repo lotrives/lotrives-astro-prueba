@@ -2,7 +2,7 @@
 title: "Jaime Balmes sobre la tolerancia"
 pubDate: 2023-04-05
 description: "Extractos de «El protestantismo comparado con el catolicismo», donde el autor, Jaime Balmes, habla de la tolerancia."
-tags: ["Jaime Balmes", Tolerancia, Protestantismo, Catolicismo, Voltaire, Lecturas, Iglesia, "San Francisco de Sales", "Miguel Servet", Calvino, "Enrique VIII", Lutero, Verdad, Mentira, Error, Respeto, Credulidad, Mal, "Jean-Jacques Rousseau", "Santa Teresa de Jesús", Gobierno, "Libre albedrío", "Poder público", Religión, Inquisición]
+tags: ["Jaime Balmes", "Tolerancia", "Protestantismo", "Catolicismo", "Voltaire", "Lecturas", "Iglesia", "San Francisco de Sales", "Miguel Servet", "Calvino", "Enrique VIII", "Lutero", "Verdad", "Mentira", "Error", "Respeto", "Credulidad", "Mal", "Jean-Jacques Rousseau", "Santa Teresa de Jesús", "Gobierno", "Libre albedrío", "Poder público", "Religión", "Inquisición"]
 ---
 
 **Jaime Balmes** (1810-1848) es uno de los filósofos más importantes y originales españoles. Destacó desde su niñez por su afición a la lectura y por su prodigiosa memoria. Viajó a París y a Londres. A pesar de su corta vida, ha dejado una obra de una importancia capital.

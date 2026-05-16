@@ -1,7 +1,7 @@
 ---
 title: "Viena, septiembre de 2025"
 pubDate: 2025-09-16
-tags: [Viena]
+tags: ["Viena"]
 heroImage: /assets/images/viena-miron-pulpito-portada.webp
 description: "Viaje a Viena en septiembre de 2025. Visita turística de la ciudad"
 ---

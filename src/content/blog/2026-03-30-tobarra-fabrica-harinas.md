@@ -1,7 +1,7 @@
 ---
 title: "Tobarra, su fábrica de harinas y su antigua estación de ferrocarril. Recuerdos de dos generaciones"
 pubDate: 2026-03-30
-tags: [Tobarra, Niños, Recuerdos, Memorias]
+tags: ["Tobarra", "Niños", "Recuerdos", "Memorias"]
 description: "El edificio de la fábrica de harinas, en la zona donde estaba la estación de ferrocarril de Tobarra, en el recuerdo de viajeros, padres e hijos"
 heroImage: "/assets/images/tobarra-fabrica-harinas-portada.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Ricardo Estarriol y Viktor Meier"
 pubDate: 2026-03-29
-tags: [Opus Dei]
+tags: ["Opus Dei"]
 description: "El Opus Dei y el espíritu protestante del trabajo. Una anécdota sobre Viktor Meier y Ricardo Estarriol"
 ---
 

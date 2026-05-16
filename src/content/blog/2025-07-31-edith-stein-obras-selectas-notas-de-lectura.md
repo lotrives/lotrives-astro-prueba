@@ -1,7 +1,7 @@
 ---
 title: "Edith Stein: Obras Selectas — Notas de lectura"
 pubDate: 2025-07-31
-tags: [Bibliografía, Edith Stein, Lecturas]
+tags: ["Bibliografía", "Edith Stein", "Lecturas"]
 description: "Notas y citas de la edición española de las Obras Selectas de Edith Stein, editadas por Francisco Javier Sancho Fermín."
 ---
 

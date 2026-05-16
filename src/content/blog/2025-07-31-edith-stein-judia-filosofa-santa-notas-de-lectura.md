@@ -1,7 +1,7 @@
 ---
 title: "Edith Stein: judía, filósofa, santa — Notas de lectura"
 pubDate: 2025-07-31
-tags: [Bibliografía, Edith Stein, Lecturas]
+tags: ["Bibliografía", "Edith Stein", "Lecturas"]
 description: "Notas y citas de la biografía Edith Stein, judía, filósofa y santa, de Irene Chirriar Bauer."
 ---
 

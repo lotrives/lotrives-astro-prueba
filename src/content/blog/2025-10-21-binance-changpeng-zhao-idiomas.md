@@ -2,7 +2,7 @@
 title: "Binance, Changpeng Zhao y los idiomas"
 pubDate: 2025-10-21
 last_modified_at: 2025-11-15
-tags: [Binance, Changpeng Zhao, Criptomonedas, Cartera de valores]
+tags: ["Binance", "Changpeng Zhao", "Criptomonedas", "Cartera de valores"]
 description: "Las memorias de Changpeng Zhao (CZ), su dominio o no dominio de idiomas y el proceso de verificación de usuarios en Binance."
 canonical_url: "https://lotrives.github.io/2025/10/21/binance-changpeng-zhao-idiomas/"
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/2022_-_Press_Conferences_BE6_1595_%2852471628042%29.jpg/960px-2022_-_Press_Conferences_BE6_1595_%2852471628042%29.jpg

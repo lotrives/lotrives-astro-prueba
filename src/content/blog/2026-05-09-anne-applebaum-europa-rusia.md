@@ -2,7 +2,7 @@
 title: "«Ya no existe un orden mundial liberal», según Anne Applebaum"
 description: "Sin orden mundial liberal, sin capacidad para crearlo. Así estamos, según Applebaum. Además, Europa atraviesa un momento de ruptura comparable a 1989"
 pubDate: 2026-05-09 
-tags: [Europa, Rusia]
+tags: ["Europa", "Rusia"]
 heroImage: "/assets/images/anne-applebaum.webp"
 ---
 

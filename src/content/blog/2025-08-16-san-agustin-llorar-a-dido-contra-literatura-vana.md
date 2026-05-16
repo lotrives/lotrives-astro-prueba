@@ -2,7 +2,7 @@
 title: "San Agustín: llorar a Dido y no llorarse a uno mismo. Contra la literatura vana"
 pubDate: 2025-08-16
 last_modified_at: 2026-04-26
-tags: [Lecturas, San Agustín, Literatura]
+tags: ["Lecturas", "San Agustín", "Literatura"]
 description: "Tres pasajes de las Confesiones de san Agustín sobre la vanidad en la literatura, con algunas reflexiones."
 ---
 

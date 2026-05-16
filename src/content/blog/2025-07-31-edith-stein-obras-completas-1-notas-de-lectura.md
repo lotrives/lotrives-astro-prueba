@@ -1,7 +1,7 @@
 ---
 title: "Edith Stein: Obras Completas I — Notas de lectura"
 pubDate: 2025-07-31
-tags: [Bibliografía, Edith Stein, Lecturas]
+tags: ["Bibliografía", "Edith Stein", "Lecturas"]
 description: "Notas y citas de la edición española de las Obras Completas de Edith Stein, con introducción de Francisco Javier Sancho y Ezequiel García."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Cartera de valores permanente"
 pubDate: 2025-11-23
-tags: [Inversión, Cartera de valores, ETF, "Bitcoin", Finanzas personales]
+tags: ["Inversión", "Cartera de valores", "ETF", "Bitcoin", "Finanzas personales"]
 description: "Relato práctico de la cartera de valores permanente de Lotrives: advertencias, inversión inicial en ETF, seguimiento de resultados y actualización con bitcoines"
 canonical_url: "https://lotrives.github.io/2025/11/23/cartera-permanente-valores-lotrives/"
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Coca_Cola_1929.JPG/960px-Coca_Cola_1929.JPG

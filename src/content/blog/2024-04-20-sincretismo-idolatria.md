@@ -1,7 +1,7 @@
 ---
 title: "Sincretismo e idolatría: los peligros máximos"
 pubDate: 2024-04-20
-tags: [Sincretismo, Idolatría, "Luis Alonso Schökel", Biblia, Lecturas]
+tags: ["Sincretismo", "Idolatría", "Luis Alonso Schökel", "Biblia", "Lecturas"]
 description: "El sincretismo y la idolatría son los mayores peligros para el ser humano, según Luis Alonso Schökel"
 ---
 

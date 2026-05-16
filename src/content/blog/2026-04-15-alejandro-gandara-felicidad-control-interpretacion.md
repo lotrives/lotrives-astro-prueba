@@ -1,7 +1,7 @@
 ---
 title: "Alejandro Gándara: «Se confunde 'felicidad' con 'control', con querer tener todo controlado»"
 pubDate: 2026-04-15
-tags: ["Alejandro Gándara", Felicidad, Interpretación, "George Steiner", "Sigmund Freud", Biblia]
+tags: ["Alejandro Gándara", "Felicidad", "Interpretación", "George Steiner", "Sigmund Freud", "Biblia"]
 description: "Alejandro Gándara ha explicado el trasunto de su libro «Los textos robados a la felicidad» en el Foro Nueva Revista."
 heroImage: "/assets/images/alejandro-gandara-portada.webp"
 last_modified_at: 2026-04-21

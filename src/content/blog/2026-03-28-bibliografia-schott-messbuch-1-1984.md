@@ -1,7 +1,7 @@
 ---
 title: "Bibliografía citada en Schott-Messbuch für die Wochentage (1984), I"
 pubDate: 2026-03-28
-tags: [Bibliografía, Lecturas, Schott]
+tags: ["Bibliografía", "Lecturas", "Schott"]
 description: "Bibliografía citada en Schott-Messbuch für die Wochentage (1984), tomo I, ordenada alfabéticamente y con referencia de página del volumen en la que se cita cada obra."
 ---
 

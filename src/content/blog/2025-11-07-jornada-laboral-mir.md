@@ -5,7 +5,7 @@ canonical_url: "https://lotrives.github.io/2025/11/07/jornada-laboral-mir/"
 pubDate: 2025-11-07
 last_modified_at: 2025-11-15
 heroImage: "/assets/images/jornada-laboral-mir-portada.webp"
-tags: ["Mónica García (ministra de Sanidad)", Abusos, Sanidad, "Médicos internos residentes (mir)"]
+tags: ["Mónica García (ministra de Sanidad)", "Abusos", "Sanidad", "Médicos internos residentes (mir)"]
 ---
 
 ![Mónica García, ministra de Sanidad, en 2023](/assets/images/jornada-laboral-mir-portada.webp)

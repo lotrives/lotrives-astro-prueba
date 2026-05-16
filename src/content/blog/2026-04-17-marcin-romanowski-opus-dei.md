@@ -1,7 +1,7 @@
 ---
 title: "Marcin Romanowski, un político polaco, numerario del Opus Dei y refugiado en Hungría"
 pubDate: 2026-04-17
-tags: ["Marcin Romanowski", "Opus Dei", "Numerario", "San Josemaría Escrivá de Balaguer", Lecturas, "Eugenio Trías"]
+tags: ["Marcin Romanowski", "Opus Dei", "Numerario", "San Josemaría Escrivá de Balaguer", "Lecturas", "Eugenio Trías"]
 description: "Marcin Romanowski se encuentra refugiado en Hungría y la prensa polaca se pregunta si con el cambio de Gobierno en Budapest será extraditado y cómo actuará el Opus Dei"
 heroImage: "/assets/images/marcin-romanowski.webp"
 canonical_url: "https://lotrives.github.io/2026/04/17/marcin-romanowski-opus-dei/"

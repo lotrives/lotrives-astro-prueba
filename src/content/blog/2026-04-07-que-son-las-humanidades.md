@@ -1,7 +1,7 @@
 ---
 title: "¿Qué son las humanidades?"
 pubDate: 2026-04-07
-tags: ["San Agustín", "Mark Van Doren", Humanismo, Lecturas]
+tags: ["San Agustín", "Mark Van Doren", "Humanismo", "Lecturas"]
 heroImage: /assets/images/og-default.webp
 description: "Puntos de vista de Mark Van Doren y de san Agustín sobre las humanidades, con un complemento del Catecismo de la Iglesia Católica."
 ---
