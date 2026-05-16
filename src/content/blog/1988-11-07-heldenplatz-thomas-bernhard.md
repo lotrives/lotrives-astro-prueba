@@ -16,7 +16,7 @@ Otros prominentes espectadores, […].[^1]
 
 <p class="pie-foto">Heldenplatz (Plaza de los Héroes) es una explanada de Viena y a su vez el título de la obra de Thomas Bernhard. <a href="https://lotrives.com/2015/04/13/dama-de-oro-anexion-austria-hitler/">Desde la Heldenplatz Hitler proclamó el Anschluss, la anexión de Austria a Alemania, en 1938</a>. Foto: <a href="https://commons.wikimedia.org/wiki/File:IMG_0169_-_Wien_-_Hofburg.JPG" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
 
-![Thomas Bernhard en 1987](https://upload.wikimedia.org/wikipedia/commons/f/fa/Thomas_Bernhard_1987.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Thomas_Bernhard_1987.jpg" alt="Thomas Bernhard en 1987" style="display: block; margin: 0 auto; width: 300px;" />
 
 <p class="pie-foto">Thomas Bernhard en 1987. Foto: <a href="https://commons.wikimedia.org/wiki/File:Thomas_Bernhard_1987.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
 
