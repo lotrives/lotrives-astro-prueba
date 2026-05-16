@@ -8,7 +8,7 @@ heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Caspar_Dav
 canonical: "https://lotrives.substack.com/p/distraccion-capitalismo-digital-soledad"
 ---
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/960px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg" alt="El caminante sobre el mar de niebla, de Caspar David Friedrich" style="float: right; margin: 0 0 1em 1.5em; width: 600px;" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/960px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg" alt="El caminante sobre el mar de niebla, de Caspar David Friedrich" style="float: right; margin: 0 0 1em 1.5em; width: 300px;" />
 
 Supongamos que un estudiante de Periodismo se abre una cuenta en Twitter (ahora X) para estar al corriente de la sociedad estadounidense. Le interesa para su trabajo de máster. Empieza a seguir al *New York Times*, al *Wall Street Journal*, al *New Yorker* y al *Atlantic*. Cada vez hay más diarios, revistas y cuentas de particulares que le saltan recomendados cuando navega. En poco tiempo, a no ser que se autoimponga una disciplina de uso, el estudiante puede descontrolarse y dispersarse. Llegará un momento en que ya no sabrá si ese recurso le beneficia o le perjudica.
 
