@@ -243,3 +243,4 @@ h3#bibliografía ~ p {
 	text-underline-offset: 3px;
 	text-decoration-color: rgb(var(--gray-light));
 }
+:target { scroll-margin-top: 6rem; }
