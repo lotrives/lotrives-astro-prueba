@@ -18,6 +18,6 @@ Otros prominentes espectadores, […].[^1]
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Thomas_Bernhard_1987.jpg" alt="Thomas Bernhard en 1987" style="display: block; margin: 0 auto; width: 300px;" />
 
-<p class="pie-foto" style="margin-top: 0.5em;">Thomas Bernhard en 1987. Foto: <a href="https://commons.wikimedia.org/wiki/File:Thomas_Bernhard_1987.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
+<p class="pie-foto" style="margin-top: 0.5em; text-align: center;">Thomas Bernhard en 1987. Foto: <a href="https://commons.wikimedia.org/wiki/File:Thomas_Bernhard_1987.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
 
 [^1]: Artículo completo en: José Manuel Navarro: ««*Heldenplatz*» decepcionó a la crítica, pero fue aclamada por el público en su estreno en Viena» (*La Vanguardia*, 7/11/1988, p. 19). Véase <https://hemeroteca.lavanguardia.com/preview/1988/11/07/pagina-19/33045874/pdf.html> [José Manuel Navarro es como José Manuel Grau Navarro firmaba en *La Vanguardia*].
