@@ -1,0 +1,30 @@
+---
+title: "¿Es la cultura de la cancelación una grave amenaza a la cultura del debate?"
+description: "Las respuestas de Tomás de Aquino y de Robert Barron"
+pubDate: 2023-06-20
+updatedDate: 2026-05-16
+tags: ["Tomás de Aquino", "Robert Barron", "Sociedad", "Cultura"]
+canonical: "https://lotrives.substack.com/p/cultura-de-la-cancelacion-debate-aquino-barron"
+---
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Marcia_Fudge_with_Stay_Woke_Vote_t-shirt_in_2018.jpg/400px-Marcia_Fudge_with_Stay_Woke_Vote_t-shirt_in_2018.jpg" alt="Cultura woke" style="float: right; margin: 0 0 1em 1.5em; width: 220px;" />
+
+Un artículo de la *Suma de Teología* de Tomás de Aquino responde a una pregunta muy concreta, por ejemplo: «¿Existe o no existe Dios?». Para acometer la tarea, el Aquinate procede enumerando **Objeciones**, los argumentos más duros y relevantes que halla, de toda la gama ideológica de su tiempo. Conocía muchos reparos por ser profesor en la mejor universidad de la época, la Universidad de París. En el caso de la existencia de Dios, la dificultad primera que aduce es demoledora: «Si uno de los contrarios es infinito, el otro queda totalmente anulado. Esto es lo que sucede con el nombre *Dios* al darle el significado de bien absoluto. Pues si existiese Dios, no existiría ningún mal. Pero el mal se da en el mundo. Por lo tanto, Dios no existe». Al finalizar las objeciones, santo Tomás introduce una cita de autoridad que da que pensar. Es el **En cambio**: «En cambio está lo que se dice en *Éxodo* 3,14 de la persona de Dios: *Yo existo*». Luego viene la **Solución**, donde el Doctor Angélico brinda sus propios razonamientos. Termina con **Respuesta a las objeciones**. A la objeción antes aludida, contesta: «Escribe Agustín en el *Enchiridio*: *Dios, por ser el bien sumo, de ninguna manera permitiría que hubiera algún tipo de mal en sus obras, a no ser que, por ser omnipotente y bueno, del mal sacara un bien*. Esto pertenece a la infinita bondad de Dios, que puede permitir el mal para sacar de él un bien».[^1]
+
+Un **debate** que se precie debería tener una estructura parecida. Habría que exponer todos los argumentos que suponen una objeción a lo que se defiende. Si se busca la verdad, **no hay derecho a silenciar nada relevante.** ¿Se hace eso en política? ¿En ciencia? ¿Se actúa así en campaña electoral? Esa forma de proceder implica un ataque radical a lo que se denomina hoy **la cultura de la cancelación,** que apunta a privar de voz a alguien arbitrariamente, porque no está en nuestro partido, en nuestra posición ideológica, porque no piensa como nosotros, independientemente de si tiene razón o no.
+
+**Robert Barron** se ha pronunciado hace unos días al respecto y ha añadido un **tono teológico** al polémico tema de la **cultura de la cancelación**. Afirma Barron: «Los relatos de la resurrección del Señor revelan lo contrario de la cultura de la cancelación. A las mismas personas que lo habían negado, traicionado y abandonado, a esas mismas personas pronuncia Jesucristo la incomparablemente bella palabra *shalom* («paz», en hebreo). En cualquier narración convencional de una historia como esta, el personaje ofendido, que regresa del reino de los muertos, sin duda intentaría vengarse. Pero en la historia de los evangelios, aquel hombre herido tan en profundidad como se pueda ofender a una persona, regresa con un amor que perdona. Si hay alguien en la historia de la humanidad que merezca ser cancelado, es quien contribuyera a la muerte de Jesús. Pero en lugar de cancelación, Jesucristo concede el perdón. Lo cual implica que todo pecado se puede perdonar. **Dios no cancela a nadie**. Así que la cultura de la cancelación, que dice que todo está permitido pero que nada es perdonado, ha de ser contrarrestada por los cristianos. **A la luz de la cruz, sabemos que muchas cosas no han de ser permitidas, pero a la luz de la resurrección, en principio todo puede ser perdonado**. Dándole la vuelta así a la ortodoxia presente, encontramos un mensaje que verdaderamente salva».[^2]
+
+El fin de semana pasado se ha celebrado un seminario en Alemania sobre la cultura de la cancelación. Siguiendo la recomendación de santo Tomás, referimos el punto de vista de **Adrian Daub**, profesor de Literatura en la Universidad de Stanford y autor del ensayo *Cancel Culture Transfer*. Daub relativiza el fenómeno de la cultura de la cancelación puesto que según él se exagera con casos extremos. Se ha hecho así a la cultura de la cancelación mayor de lo que es con un objetivo: «Que pierdan influencia las voces de la izquierda, jóvenes y *woke*», se persigue difamarlas como propagadoras de «terror para la virtud». La lucha contra la cultura de la cancelación, en teoría tan fuerte, es para Daub una lucha contra fantasmas y «dolores fantasmales». El fondo de la cuestión: los **intelectuales con la soberanía interpretativa durante décadas**, se resisten a dejar espacio a una generación más joven y diversa. **Julian Nida-Rümelin**, filósofo, vicepresidente del Consejo de Ética de Alemania, defiende, sin embargo, que el asunto de la cultura de la cancelación no es marginal, sino **«una grave amenaza a la cultura del debate»**.[^3]
+
+En *Nueva Revista* tratamos estas dos cuestiones con amplitud:
+
+Cultura de cancelación: <https://www.nuevarevista.net/cultura-de-la-cancelacion/>
+
+Cultura woke: <https://www.nuevarevista.net/cultura-woke/>
+
+[^1]: Suma de Teología, I, cuestión 2, artículo 3; citada por: Santo Tomás de Aquino: *Suma de Teología*, Tomo I, BAC, 2001, pp. 110-13.
+
+[^2]: [God Cancels no One](https://www.youtube.com/watch?v=GPvA2CXBXIY)
+
+[^3]: [«Cancel Culture ist der Normalfall»](https://www.faz.net/aktuell/rhein-main/frankfurt/bei-den-roemerberggespraechen-in-frankfurt-wird-ueber-cancel-culture-gestritten-18973114.html)
