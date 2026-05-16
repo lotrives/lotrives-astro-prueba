@@ -10,8 +10,6 @@ canonical: "https://lotrives.substack.com/p/dignidad-humana-derechos-pactos-nuev
 
 ![Nueva Revista n.º 185. Pactos](/assets/images/pactos-nueva-revista-185.webp)
 
-<p class="pie-foto">Foto: © José Manuel Grau Navarro.</p>
-
 ## Dignidad
 
 Si se pregunta directamente al vecino qué es la **dignidad humana**, seguramente tendrá problemas para definirla. Si se pregunta a un filósofo o a un experto en la filosofía del derecho, se comprobará que tiene tantos problemas o más que el vecino, porque responder la cuestión es casi misión imposible a no ser que se parta de una concepción religiosa de la vida. Quien desee comprobarlo, que vea esta [sesión](https://unir.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2edcced5-077b-490d-a56a-b00c00c9c209).
