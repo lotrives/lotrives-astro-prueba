@@ -243,7 +243,7 @@ h3#bibliografía ~ p {
 html {
 	scroll-padding-top: 6rem;
 }
-:target { scroll-margin-top: 6rem; }
+
 
 /* Anclas en headings */
 h2 a[aria-hidden="true"],
