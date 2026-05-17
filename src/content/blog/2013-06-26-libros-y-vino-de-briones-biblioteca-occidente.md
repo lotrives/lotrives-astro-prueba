@@ -36,4 +36,4 @@ Continúa la gira y para los menos avezados explica la diferencia entre un **vin
 
 El profesor **Francisco Javier Rabassó** (Université de Rouen, Francia) está más interesado por lo práctico. Pregunta por la última cosecha que haya sido calificada de excelente. «La de 2010-11 —contesta Díez—; y la última que se ha podido consumir y de la que todavía quizá queden botellas en alguna tienda es de 2005».
 
-El Congreso de la Biblioteca de Occidente queda emplazado otro día para visitar el Museo. No ha dado tiempo a recorrer más que la bodega.
+El [Congreso de la Biblioteca de Occidente](https://www.nuevarevista.net/michel-zink-sobre-el-libro-digital-y-el-libro-impreso/) queda emplazado otro día para visitar el Museo. No ha dado tiempo a recorrer más que la bodega.
