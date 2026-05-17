@@ -16,7 +16,7 @@ canonical: "https://lotrives.substack.com/p/libros-y-vino-de-briones-biblioteca-
 
 «A las seis la tienda estará cerrada, aprovechen si quieren para comprar ahora». La advertencia es de **Javier Díez de la Concepción**. Estamos en Briones, en La Rioja, en las bodegas Dinastía Vivanco. El aviso es a los participantes en el Congreso sobre la Biblioteca de Occidente.
 
-La profesora **María Fernanda Abreu**, de la Universidade Nova de Lisboa, pregunta por el arquitecto de este imponente complejo, del que ella ya tenía noticia por la labor del Instituto Cervantes de Lisboa. «Jesús Marino Pascual —contesta Díez, representante de **Rafael Vivanco**—. La familia Vivanco es la propietaria de los viñedos, de la bodega y del [Museo de la Cultura del Vino](https://vivancoculturadevino.es/es/fundacion/museo-vivanco-de-la-cultura-del-vino/exposicion-permanente/), uno de los mejores del mundo en opinión de la Unesco», añade Díez. Un gran centro de documentación, un restaurante y una tienda forman parte del centro.
+La profesora **María Fernanda Abreu**, de la Universidade Nova de Lisboa, pregunta por el arquitecto de este imponente complejo, del que ella ya tenía noticia por la labor del Instituto Cervantes de Lisboa. «Jesús Marino Pascual —contesta Díez, representante de **Rafael Vivanco**—. La familia Vivanco es la propietaria de los viñedos, de la bodega y del [Museo de la Cultura del Vino](https://vivancoculturadevino.es/es/fundacion/museo-vivanco/), uno de los mejores del mundo en opinión de la Unesco», añade Díez. Un gran centro de documentación, un restaurante y una tienda forman parte del centro.
 
 Llueve. De camino a la bodega, algunos hablan de libros. Pero enseguida Díez nos introduce en los secretos de la fabricación del vino. Expone, en primer lugar, las causas sobre por qué un Rioja es un Rioja: «Clima, orografía y suelo han hecho de esta tierra una tierra privilegiada. El clima mediterráneo se nos cuela un poquito por el Ebro para suavizar las temperaturas, que tendrían que ser más severas porque estamos ya muy al norte. Y el factor humano. El saber hacer».
 
@@ -36,4 +36,4 @@ Continúa la gira y para los menos avezados explica la diferencia entre un **vin
 
 El profesor **Francisco Javier Rabassó** (Université de Rouen, Francia) está más interesado por lo práctico. Pregunta por la última cosecha que haya sido calificada de excelente. «La de 2010-11 —contesta Díez—; y la última que se ha podido consumir y de la que todavía quizá queden botellas en alguna tienda es de 2005».
 
-El [Congreso de la Biblioteca de Occidente](https://www.nuevarevista.net/producto/nueva-revista-no-144/) queda emplazado otro día para visitar el Museo. No ha dado tiempo a recorrer más que la bodega.
+El Congreso de la Biblioteca de Occidente queda emplazado otro día para visitar el Museo. No ha dado tiempo a recorrer más que la bodega.
