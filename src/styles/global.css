@@ -240,6 +240,9 @@ h3#bibliografía ~ p {
 	text-underline-offset: 3px;
 	text-decoration-color: rgb(var(--gray-light));
 }
+html {
+	scroll-padding-top: 6rem;
+}
 :target { scroll-margin-top: 6rem; }
 
 /* Anclas en headings */
