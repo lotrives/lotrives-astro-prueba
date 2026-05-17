@@ -24,7 +24,9 @@ Si hay lío con la acepción de «dignidad humana», la controversia es igual de
 
 ## Pactos
 
-<img src="/assets/images/pactos-nueva-revista-185-2.webp" alt="Portada Nueva Revista n.º 185" style="float: right; margin: 0 0 1em 1.5em; width: 220px;" />
+<div class="img-float-right" style="width: 220px;">
+<img src="/assets/images/pactos-nueva-revista-185-2.webp" alt="Portada Nueva Revista n.º 185" style="width: 100%;" />
+</div>
 
 La figura jurídica del contrato funda la convivencia y fomenta el progreso de la sociedad. Sin respeto al contrato (justo) se cae en la ley de la selva. El pasado lunes presentamos en Madrid «Pactos», el último número impreso de *Nueva Revista*, en colaboración con la Fundación Felipe González. Fue un acontecimiento muy mediático[^1] porque el expresidente, en su artículo para *Nueva Revista*, defiende que gobierne la lista más votada, en contra de la línea actual del PSOE. Contexto: las próximas elecciones generales en España (23 de julio de 2023). El artículo de Felipe González se puede leer aquí:
 

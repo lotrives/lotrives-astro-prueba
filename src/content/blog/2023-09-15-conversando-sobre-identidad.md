@@ -16,7 +16,9 @@ La **identidad** no está por encima de los grandes valores (verdad, justicia y 
 
 El **principio de identidad** («toda entidad es idéntica a sí misma») es la raíz de la **filosofía**. Las **matemáticas** no son más que igualdades de expresiones algebraicas (identidades). De la identidad filosófica y matemática se pasa a la **identidad personal**: el conjunto de caracteres que individualizan y diferencian a una persona o a una colectividad. Por una supuesta defensa de esos caracteres ha habido matanzas y crímenes de todo tipo. Un ejemplo prominente es el Holocausto. Pero hay casos de ahora mismo y que se traducen en una fórmula como la que sigue: el ucraniano *debe ser* ruso, por imperio de la fuerza.
 
-<img src="/assets/images/identidad-2.webp" alt="Portada Nueva Revista número 186" style="float: right; margin: 0 0 1em 1.5em; width: 220px;" />
+<div class="img-float-right" style="width: 220px;">
+<img src="/assets/images/identidad-2.webp" alt="Portada Nueva Revista número 186" style="width: 100%;" />
+</div>
 
 Además de reflejarse en el nacionalismo, el problema de la identidad reaparece hoy con nuevos ropajes. El más destacado es el de la **identidad de género**. Otra mutación se relaciona con la igualdad. **Igualdad e identidad** son sinónimos, como se aprecia bien en las matemáticas. El prestigio de una determinada concepción de la identidad y de la igualdad explican la condena de lo desigual, que se relaciona con lo injusto. Baste citar el conflicto entre China y Taiwán.
 

@@ -8,7 +8,9 @@ heroImage: "/assets/images/europa-nueva-revista.webp"
 canonical: "https://lotrives.substack.com/p/sobre-europa-nueva-revista-187"
 ---
 
-<img src="/assets/images/europa-nueva-revista.webp" alt="Nueva Revista número 187" style="float: right; margin: 0 0 1em 1.5em; width: 220px;" />
+<div class="img-float-right" style="width: 220px;">
+<img src="/assets/images/europa-nueva-revista.webp" alt="Nueva Revista número 187" style="width: 100%;" />
+</div>
 
 ### [Nueva Revista número 187](https://www.nuevarevista.net/producto/nueva-revista-numero-187/)
 

@@ -16,11 +16,15 @@ El filósofo francés **Rémi Brague** (París, 1947) ve ante todo en el islam �
 
 Con motivo de la publicación de *Sur l'islam* [Sobre el islam],[^1] y de *La colère et l'oubli* [La ira y el olvido],[^2] el periodista Alexandre Devecchio ha reunido a los autores de esos libros, **Rémi Brague** y **Hugo Micheron**, para preguntarles en el programa de radio [En toute vérité](https://www.sudradio.fr/programme/en-toute-verite) (De verdad) si había pasado la amenaza yihadista y si los poderes estatales nos estaban ocultando su realidad.
 
-<img src="https://substackcdn.com/image/fetch/$s_!mVJ6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe76dbaf7-3112-4841-a971-4d5fb9796780_1772x2598.jpeg" alt="Portada de Sur l'islam, de Rémi Brague" style="float: right; width: 150px; margin: 0 0 1rem 1.5rem;" />
+<div class="img-float-right" style="width: 150px;">
+<img src="https://substackcdn.com/image/fetch/$s_!mVJ6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe76dbaf7-3112-4841-a971-4d5fb9796780_1772x2598.jpeg" alt="Portada de Sur l'islam, de Rémi Brague" style="width: 100%;" />
+</div>
 
 El profesor **Hugo Micheron** considera equivocada la actitud de las democracias ante el yihadismo. A la ola de cólera sucede el olvido, cuando en realidad el yihadismo sigue tejiendo sus hilos con multitud de recursos, también desde las cárceles. Y los ataques llegarán otra vez, cuando menos lo esperemos.
 
-<img src="https://substackcdn.com/image/fetch/$s_!pdID!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe6fb9cf8-0648-4c9a-abdd-363abc1a1390_1798x2598.jpeg" alt="Portada de La colère et l'oubli, de Hugo Micheron" style="float: left; width: 150px; margin: 0 1.5rem 1rem 0;" />
+<div class="img-float-left" style="width: 150px;">
+<img src="https://substackcdn.com/image/fetch/$s_!pdID!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe6fb9cf8-0648-4c9a-abdd-363abc1a1390_1798x2598.jpeg" alt="Portada de La colère et l'oubli, de Hugo Micheron" style="width: 100%;" />
+</div>
 
 En *Sur l'islam*, Brague trata de responder a estas preguntas: ¿es el islam una forma de estar frente a Dios?, ¿una religión con sus dogmas y normas?, ¿una civilización? ¿personas y pueblos?, ¿qué quiere lograr y por qué medios?, ¿violentos o pacíficos?
 

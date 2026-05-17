@@ -32,7 +32,9 @@ Más sobre bienestar emocional en *Nueva Revista*:
 
 <https://www.nuevarevista.net/bienestar-emocional/>
 
-<img src="https://substackcdn.com/image/fetch/$s_!yjGq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d7cc3f0-c8f8-4a0f-b7ca-60ab4419b3ec_2000x3071.jpeg" alt="Portada del libro Una buena vida" style="float: right; width: 180px; margin: 0 0 1rem 1.5rem;" />
+<div class="img-float-right" style="width: 180px;">
+<img src="https://substackcdn.com/image/fetch/$s_!yjGq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d7cc3f0-c8f8-4a0f-b7ca-60ab4419b3ec_2000x3071.jpeg" alt="Portada del libro Una buena vida" style="width: 100%;" />
+</div>
 
 [^1]: Robert Waldinger, Marc Schulz: *Una buena vida. El mayor estudio mundial para responder a la pregunta más importante de todas: ¿qué nos hace felices?* Planeta, 2023. Traducción del inglés de Gema Moraleda Díaz. Título original: *The Good Life. Lessons from the World's Longest Scientific Study of Happiness.*
 

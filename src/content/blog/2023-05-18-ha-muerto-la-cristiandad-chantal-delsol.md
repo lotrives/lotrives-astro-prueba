@@ -14,7 +14,9 @@ canonical: "https://lotrives.substack.com/p/ha-muerto-la-cristiandad-chantal-del
 
 «Pero, cuando el Hijo del hombre venga, ¿encontrará la fe sobre la tierra?» (Lc 18:8). **Chantal** **Delsol** (nacida en 1947) pronostica, respondiendo a la pregunta de Jesucristo, que por lo menos quedará un grupo reducido con esa virtud teologal de la fe. Lo que da por muerta es la cristiandad, en su libro *[La fin de la chrétienté](https://www.nuevarevista.net/chantal-delsol-el-fin-de-la-cristiandad-la-inversion-normativa-y-la-edad-nueva/)*.
 
-<img src="https://substackcdn.com/image/fetch/$s_!5-i1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed748675-66f6-4b18-8b35-214d0c671fbd_321x500.jpeg" alt="Portada de La fin de la chrétienté, de Chantal Delsol" style="float: right; width: 160px; margin: 0 0 1rem 1.5rem;" />
+<div class="img-float-right" style="width: 160px;">
+<img src="https://substackcdn.com/image/fetch/$s_!5-i1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed748675-66f6-4b18-8b35-214d0c671fbd_321x500.jpeg" alt="Portada de La fin de la chrétienté, de Chantal Delsol" style="width: 100%;" />
+</div>
 
 Por **cristiandad** entiende el conjunto de países de religión cristiana y la civilización que la Iglesia ha inspirado, ordenado y guiado desde la batalla del río Frígido (394) hasta la segunda mitad del siglo XX, con el triunfo de los partidarios del aborto. En ese sentido, cristiandad y Occidente, o cristiandad y civilización occidental, son sinónimos.
 

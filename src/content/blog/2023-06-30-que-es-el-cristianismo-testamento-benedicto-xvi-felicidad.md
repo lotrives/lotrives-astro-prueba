@@ -20,7 +20,9 @@ La tolerancia está anclada en la propia naturaleza de la verdad. Una sociedad q
 
 #### [Los cuatro niveles de la felicidad](https://www.nuevarevista.net/los-cuatro-niveles-de-la-felicidad/)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Little_girl_laughing_with_excitement_in_France.jpg/1280px-Little_girl_laughing_with_excitement_in_France.jpg" alt="Niña riendo" style="float: right; margin: 0 0 1em 1.5em; width: 220px;" />
+<div class="img-float-right" style="width: 220px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Little_girl_laughing_with_excitement_in_France.jpg/1280px-Little_girl_laughing_with_excitement_in_France.jpg" alt="Niña riendo" style="width: 100%;" />
+</div>
 
 Occidente está atrapado en los dos primeros niveles de felicidad (la gratificación inmediata y el logro comparativo: riqueza, poder, honores), por su dependencia del mito del materialismo y del mito del éxito como timón de la felicidad. [Leer más](https://www.nuevarevista.net/los-cuatro-niveles-de-la-felicidad/)
 

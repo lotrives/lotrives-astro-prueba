@@ -209,13 +209,8 @@ h3#bibliografía ~ p {
 	font-size: 0.82em;
 	line-height: 1.45;
 	color: rgb(var(--gray));
-	margin-top: 0.4em;
-	margin-bottom: 1em;
-}
-
-.pie-foto,
-.credito-imagen {
 	margin-top: -0.8em;
+	margin-bottom: 1em;
 }
 
 /* Imagen pegada al pie de foto */
@@ -303,4 +298,24 @@ h3:hover > a[aria-hidden="true"] {
 .img-centrada img {
   display: block;
   margin: 0 auto;
+}
+
+/* Imagen flotante izquierda con recorrido de texto */
+.img-float-left {
+  float: left;
+  width: 350px;
+  margin: 0 1.5rem 1rem 0;
+}
+
+@media (max-width: 560px) {
+  .img-float-left {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+}
+
+.img-float-left .credito-imagen,
+.img-float-left .pie-foto {
+  margin-top: -0.3em;
 }

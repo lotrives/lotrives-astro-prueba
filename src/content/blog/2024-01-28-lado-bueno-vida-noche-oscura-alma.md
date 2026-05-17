@@ -8,7 +8,9 @@ heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Chartres_R
 canonical: "https://lotrives.substack.com/p/lado-bueno-vida-noche-oscura-del-alma"
 ---
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Chartres_RosetteNord_121_DSC08241.jpg/960px-Chartres_RosetteNord_121_DSC08241.jpg" alt="Catedral de Chartres" style="float: right; margin: 0 0 1em 1.5em; width: 300px;" />
+<div class="img-float-right" style="width: 300px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Chartres_RosetteNord_121_DSC08241.jpg/960px-Chartres_RosetteNord_121_DSC08241.jpg" alt="Catedral de Chartres" style="width: 100%;" />
+</div>
 
 ¿Estamos bien cuando decimos que estamos bien? ¿Aceptamos sin más el *[Always look on the bright side of life](https://open.spotify.com/track/4DEcdqqKokU7UAE4wCGQEy?si=ijiKnsL_Q5m1EUp-QRZ2zA)* («Mira siempre el lado bueno de la vida»), la canción de Monty Python? En nosotros hay fuerzas destructoras que con las circunstancias adecuadas pueden producir monstruosidades. El pecado original es una evidencia y la felicidad es solo un producto derivado: nunca se logra directamente. Por eso cabe mantener la esperanza en situaciones duras y sucede también que aquel que aparentemente *goza* de *todo* (salud, sexo, poder, riqueza, honor y fama) pueda ser un verdadero desgraciado.
 

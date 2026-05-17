@@ -8,7 +8,9 @@ heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Gustav_Kli
 canonical: "https://lotrives.substack.com/p/la-dama-de-oro-y-la-anexion-de-austria"
 ---
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Gustav_Klimt_046.jpg/1280px-Gustav_Klimt_046.jpg" alt="Adele Bloch-Bauer I, de Gustav Klimt" style="float: right; margin: 0 0 1em 1.5em; width: 325px;" />
+<div class="img-float-right" style="width: 325px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Gustav_Klimt_046.jpg/1280px-Gustav_Klimt_046.jpg" alt="Adele Bloch-Bauer I, de Gustav Klimt" style="width: 100%;" />
+</div>
 
 *[La dama de oro](https://youtu.be/TBHpJClSCFk?feature=shared)*, la película recién estrenada con **Helen Mirren** de protagonista, supone una gran ocasión para interesarse por la historia partiendo del cine. En este caso, el tema es la anexión (Anschluss) de Austria a Alemania, en 1938, con el consiguiente expolio de bienes judíos por los nazis. Parte del arte robado por los nazis de 1933 a 1945 pasó, tras la Segunda Guerra Mundial, a ser propiedad de los nuevos Estados (austriaco o alemán), en ocasiones lesionando los derechos de los legítimos herederos.
 

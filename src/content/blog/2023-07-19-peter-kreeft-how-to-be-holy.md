@@ -12,7 +12,9 @@ canonical: "https://lotrives.substack.com/p/peter-kreeft-y-su-how-to-be-holy"
 
 <p class="pie-foto">Iglesia del Salvador sobre la Sangre Derramada (San Petersburgo). <a href="https://commons.wikimedia.org/wiki/File:%D0%A5%D1%80%D0%B0%D0%BC_%D0%A1%D0%BF%D0%B0%D1%81%D0%B0_%D0%BD%D0%B0_%D0%9A%D1%80%D0%BE%D0%B2%D0%B8_2018.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
 
-<img src="/assets/images/how-to-be-holy.webp" alt="Peter Kreeft: How to be Holy" style="float: right; margin: 0 0 1em 1.5em; width: 220px;" />
+<div class="img-float-right" style="width: 220px;">
+<img src="/assets/images/how-to-be-holy.webp" alt="Peter Kreeft: How to be Holy" style="width: 100%;" />
+</div>
 
 Tras la lectura de *[How to be Holy](https://ignatius.com/how-to-be-holy-htbhp/)*, uno de los últimos libros de [Peter Kreeft](https://en.wikipedia.org/wiki/Peter_Kreeft),[^1] extracto a continuación ideas de los pasajes que más me han llamado la atención. Se trata de una obra muy recomendable, como todas las de Kreeft, con el potencial para cambiar la vida a mejor. Lástima que todavía no haya sido traducida al castellano. La numeración corresponde a los capítulos de su libro en la versión Kindle, con la que he trabajado.
 

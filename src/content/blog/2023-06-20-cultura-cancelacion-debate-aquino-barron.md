@@ -7,7 +7,9 @@ tags: ["Tomás de Aquino", "Robert Barron", "Sociedad", "Cultura"]
 canonical: "https://lotrives.substack.com/p/cultura-de-la-cancelacion-debate-aquino-barron"
 ---
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Marcia_Fudge_with_Stay_Woke_Vote_t-shirt_in_2018.jpg/960px-Marcia_Fudge_with_Stay_Woke_Vote_t-shirt_in_2018.jpg" alt="Cultura woke" style="float: right; margin: 0 0 1em 1.5em; width: 220px;" />
+<div class="img-float-right" style="width: 220px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Marcia_Fudge_with_Stay_Woke_Vote_t-shirt_in_2018.jpg/960px-Marcia_Fudge_with_Stay_Woke_Vote_t-shirt_in_2018.jpg" alt="Cultura woke" style="width: 100%;" />
+</div>
 
 Un artículo de la *Suma de Teología* de Tomás de Aquino responde a una pregunta muy concreta, por ejemplo: «¿Existe o no existe Dios?». Para acometer la tarea, el Aquinate procede enumerando **Objeciones**, los argumentos más duros y relevantes que halla, de toda la gama ideológica de su tiempo. Conocía muchos reparos por ser profesor en la mejor universidad de la época, la Universidad de París. En el caso de la existencia de Dios, la dificultad primera que aduce es demoledora: «Si uno de los contrarios es infinito, el otro queda totalmente anulado. Esto es lo que sucede con el nombre *Dios* al darle el significado de bien absoluto. Pues si existiese Dios, no existiría ningún mal. Pero el mal se da en el mundo. Por lo tanto, Dios no existe». Al finalizar las objeciones, santo Tomás introduce una cita de autoridad que da que pensar. Es el **En cambio**: «En cambio está lo que se dice en *Éxodo* 3,14 de la persona de Dios: *Yo existo*». Luego viene la **Solución**, donde el Doctor Angélico brinda sus propios razonamientos. Termina con **Respuesta a las objeciones**. A la objeción antes aludida, contesta: «Escribe Agustín en el *Enchiridio*: *Dios, por ser el bien sumo, de ninguna manera permitiría que hubiera algún tipo de mal en sus obras, a no ser que, por ser omnipotente y bueno, del mal sacara un bien*. Esto pertenece a la infinita bondad de Dios, que puede permitir el mal para sacar de él un bien».[^1]
 
