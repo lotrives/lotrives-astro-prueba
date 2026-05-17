@@ -52,6 +52,10 @@ Grau, J. (1991, 24 de noviembre). «Partie to nie wszystko». *Ład*, nr. 47/48 
 
 Grau, J. (1991, 22 de diciembre). «Wspólnota Europejska powinna uznać niepodległość Chorwacji i Słowenii». *Ład*, nr. 51/52 (377–378), p. 4.
 
+## *El Mercurio* (Chile)
+
+Grau, J. (1992, 14 de julio). La difícil misión de Hanna Suchocka. *El Mercurio*. Chile, p. A10.
+
 ---
 
 *José Grau es el nombre con el que firmó José Manuel Grau Navarro en esta etapa. Desde 2013 utiliza su nombre completo.*
