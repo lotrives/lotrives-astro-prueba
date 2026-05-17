@@ -296,7 +296,7 @@ h3:hover > a[aria-hidden="true"] {
 /* Margen pie de foto en imágenes centradas */
 .img-centrada .credito-imagen,
 .img-centrada .pie-foto {
-  margin-top: -0.3em;
+  margin-top: 0.3em;
   text-align: center;
 }
 
