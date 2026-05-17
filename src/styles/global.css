@@ -286,3 +286,21 @@ h3:hover > a[aria-hidden="true"] {
     margin: 0 0 1rem 0;
   }
 }
+
+/* Margen pie de foto en imágenes con recorrido */
+.img-float-right .credito-imagen,
+.img-float-right .pie-foto {
+  margin-top: -0.3em;
+}
+
+/* Margen pie de foto en imágenes centradas */
+.img-centrada .credito-imagen,
+.img-centrada .pie-foto {
+  margin-top: -0.3em;
+  text-align: center;
+}
+
+.img-centrada img {
+  display: block;
+  margin: 0 auto;
+}

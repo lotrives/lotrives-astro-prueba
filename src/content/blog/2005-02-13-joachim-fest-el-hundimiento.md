@@ -10,7 +10,7 @@ canonical: "https://lotrives.substack.com/p/joachim-fest-el-hundimiento"
 
 <div class="img-float-right">
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Joachim_Fest_002_headcrop.jpg" alt="Joachim Fest en 2004" style="width: 100%;" />
-<p class="credito-imagen" style="margin-top: 0.1em;">Joachim Fest en 2004. Foto: <a href="https://commons.wikimedia.org/wiki/File:Joachim_Fest_002_headcrop.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
+<p class="credito-imagen">Joachim Fest en 2004. Foto: <a href="https://commons.wikimedia.org/wiki/File:Joachim_Fest_002_headcrop.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
 </div>
 
 Kronberg (Alemania). Desde hace muchos años es difícil pasearse por una buena librería de Alemania y no ver varios libros de Joachim Fest (Berlín, 1926) en los lugares destacados de los estantes. Ahora está especialmente de moda porque una de sus últimas obras, *El hundimiento*, ha servido de base para elaborar el guión de la película homónima, protagonizada por Bruno Ganz, y que compite con *Mar adentro*, de Amenábar, por el Oscar a la mejor película extranjera.

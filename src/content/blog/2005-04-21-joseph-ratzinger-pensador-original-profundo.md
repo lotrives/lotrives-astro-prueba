@@ -12,7 +12,7 @@ canonical: "https://lotrives.substack.com/p/joseph-ratzinger-pensador-original-p
 
 <div class="img-float-right">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Pope_Benedictus_XVI_january%2C20_2006_%282%29_mod.jpg/960px-Pope_Benedictus_XVI_january%2C20_2006_%282%29_mod.jpg" alt="Benedicto XVI en 2006" style="width: 100%;" />
-<p class="credito-imagen" style="margin-top: 0.7em;">Benedicto XVI en 2006. Foto: <a href="https://commons.wikimedia.org/wiki/File:Pope_Benedictus_XVI_january,20_2006_(2)_mod.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
+<p class="credito-imagen">Benedicto XVI en 2006. Foto: <a href="https://commons.wikimedia.org/wiki/File:Pope_Benedictus_XVI_january,20_2006_(2)_mod.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
 </div>
 
 A Joseph Ratzinger se le vienen colgando una serie de sambenitos sorprendentes: inquisidor, inflexible, retrógrado, azote de los teólogos innovadores... ¡hasta cierta debilidad por lo nazi! En pocas personas como sobre el nuevo Papa se dan errores de juicio tan clamorosos. […][^1]
