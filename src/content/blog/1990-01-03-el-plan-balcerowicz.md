@@ -10,7 +10,7 @@ canonical: "https://lotrives.substack.com/p/el-plan-balcerowicz"
 
 **Varsovia, domingo, 17/12/1989**. El Gobierno de Polonia, presidido por **Tadeusz Mazowiecki**, presenta hoy en el Parlamento (Sejm) el **Plan Balcerowicz**. Se llama así por **Leszek Balcerowicz**, el ministro de Finanzas. Consiste en una serie de reformas económicas destinadas a estabilizar la economía y controlar la hiperinflación. Incluye la liberalización de precios, la reducción del gasto público y la apertura al mercado internacional. Hay duras medidas de austeridad para la burocracia e ineficiencia estatales, impuestas por el Fondo Monetario Internacional (FMI) como condición a la asignación de cualquier crédito.
 
-<div style="float: right; width: 325px; margin: 0 0 1rem 1.5rem;">
+<div class="img-float-right">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/21._Internationales_Management-Gespräch-Leszek_Balcerowicz-HSGN_028-00876.jpg/960px-21._Internationales_Management-Gespräch-Leszek_Balcerowicz-HSGN_028-00876.jpg" alt="Leszek Balcerowicz en 1991" style="width: 100%;" />
 <p class="credito-imagen" style="margin-top: 0.2em;">Leszek Balcerowicz en 1991. Foto: <a href="https://commons.wikimedia.org/wiki/File:21._Internationales_Management-Gespr%C3%A4ch-Leszek_Balcerowicz-HSGN_028-00876.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
 </div>

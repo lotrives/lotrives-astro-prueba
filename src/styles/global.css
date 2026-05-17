@@ -271,3 +271,18 @@ h2:hover > a[aria-hidden="true"],
 h3:hover > a[aria-hidden="true"] {
   opacity: 1;
 }
+
+/* Imagen flotante derecha con recorrido de texto */
+.img-float-right {
+  float: right;
+  width: 350px;
+  margin: 0 0 1rem 1.5rem;
+}
+
+@media (max-width: 560px) {
+  .img-float-right {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+}

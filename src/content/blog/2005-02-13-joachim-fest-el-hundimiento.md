@@ -8,7 +8,7 @@ heroImage: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Joachim_Fest_002
 canonical: "https://lotrives.substack.com/p/joachim-fest-el-hundimiento"
 ---
 
-<div style="float: right; width: 350px; margin: 0 0 1rem 1.5rem;">
+<div class="img-float-right">
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Joachim_Fest_002_headcrop.jpg" alt="Joachim Fest en 2004" style="width: 100%;" />
 <p class="credito-imagen" style="margin-top: 0.1em;">Joachim Fest en 2004. Foto: <a href="https://commons.wikimedia.org/wiki/File:Joachim_Fest_002_headcrop.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
 </div>
