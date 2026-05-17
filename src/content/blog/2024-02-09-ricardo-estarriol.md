@@ -8,7 +8,7 @@ canonical: "https://lotrives.substack.com/p/ricardo-estarriol"
 ---
 
 <div class="img-float-right" style="width:350px">
-![Ricardo Estarriol](/assets/images/ricardo-estarriol.webp)
+<img src="/assets/images/ricardo-estarriol.webp" alt="Ricardo Estarriol" />
 <p class="pie-foto">Ricardo Estarriol. La foto me la envió él en 2018.</p>
 </div>
 
