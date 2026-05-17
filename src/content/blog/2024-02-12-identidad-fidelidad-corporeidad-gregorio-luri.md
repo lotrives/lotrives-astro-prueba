@@ -12,7 +12,8 @@ Escribe **Gregorio Luri**:
 
 **«Sin fidelidad no hay identidad personal y sin identidad personal no hay lazos de copertenencia**. Pero con la fidelidad, como ocurre con el perdón, lo meritorio es no entregarse a lo fácil. Así como el perdón es tanto más valioso cuanto más imperdonable es aquello que debemos perdonar, la fidelidad es tanto más valiosa cuanto más conscientes somos de las imperfecciones de la persona o de la causa con la que nos comprometemos».[^1]
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/II_Simposio_religion_en_la_escuela_-_38007929131.jpg/1280px-II_Simposio_religion_en_la_escuela_-_38007929131.jpg" alt="Gregorio Luri" style="width:100%" />
+![Gregorio Luri](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/II_Simposio_religion_en_la_escuela_-_38007929131.jpg/1280px-II_Simposio_religion_en_la_escuela_-_38007929131.jpg)
+
 <p class="pie-foto">Gregorio Luri. Foto: <a href="https://commons.wikimedia.org/wiki/File:II_Simposio_religion_en_la_escuela_-_38007929131.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p>
 
 El pasado 7 de febrero tuvimos un seminario con Gregorio Luri en UNIR (Diálogos de Nueva Revista) y le pregunté si no le parecía demasiado arriesgado afirmar que «sin fidelidad no hay identidad personal».[^2] Al fin y al cabo la infidelidad, por ejemplo la infidelidad matrimonial, campa a sus anchas sin que un adúltero pierda su identidad.
