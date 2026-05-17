@@ -35,7 +35,7 @@ Extracto a continuación las ideas que en mi opinión avalan lo dicho. Provienen
 
 ![Epistolario completo Ortega-Unamuno](/assets/images/epistolario-ortega-unamuno.webp)
 
-<p class="pie-foto">*Epistolario completo Ortega-Unamuno*. Ed. Laureano Robles. El Arquero, 1987. Foto: © José Manuel Grau Navarro.</p>
+<p class="pie-foto">«Epistolario completo Ortega-Unamuno». Ed. Laureano Robles. El Arquero, 1987. Foto: © José Manuel Grau Navarro.</p>
 
 *2. Miguel Unamuno, carta fechada en Salamanca, el 17/5/1906, dirigida a Ortega:*
 
