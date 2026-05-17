@@ -34,7 +34,7 @@ export default defineConfig({
 			[rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],
 			rehypeFixExternalLinks,
 			rehypeSlug,
-			[rehypeAutolinkHeadings, { behavior: 'append', content: { type: 'text', value: ' #' } }],
+			[rehypeAutolinkHeadings, { behavior: 'append', content: { type: 'text', value: ' #' }, test: ['h2', 'h3'] }],
 		],
 	},
 	fonts: [

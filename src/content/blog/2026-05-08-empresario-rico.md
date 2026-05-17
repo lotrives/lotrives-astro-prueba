@@ -6,7 +6,7 @@ tags: ["Economía y mercado", "Empresarios"]
 heroImage: "/assets/images/empresario-rico.webp"
 ---
 
-#### Creó una empresa, se ha hecho multimillonario y da trabajo a cientos de personas. ¿Hay que medirlo por lo que gana o por lo que hace y hace posible?
+*Creó una empresa, se ha hecho multimillonario y da trabajo a cientos de personas. ¿Hay que medirlo por lo que gana o por lo que hace y hace posible?*
 
  ![Un Golf GTI ante la puerta de un restaurante. Imagen ficticia generada con ChatGPT](/assets/images/empresario-rico.webp)
 
