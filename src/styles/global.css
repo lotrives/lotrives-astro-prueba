@@ -324,3 +324,22 @@ h3:hover > a[aria-hidden="true"] {
 .img-float-left .pie-foto {
   margin-top: -0.3em;
 }
+
+/* Nav letras bibliografía */
+.nav-letras {
+display: grid;
+grid-template-columns: repeat(9, auto);
+gap: 0.4em;
+margin-bottom: 2em;
+width: fit-content;
+}
+.nav-letras a {
+text-decoration: underline;
+text-underline-offset: 3px;
+padding: 0.2em 0.5em;
+color: inherit;
+font-size: 0.95em;
+}
+.nav-letras a:hover {
+text-decoration: underline;
+}
