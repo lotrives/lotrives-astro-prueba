@@ -112,7 +112,11 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 		font-size: 0.75em;
 		color: rgb(var(--gray));
 		margin-right: 0.4em;
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		text-decoration-color: rgb(var(--gray-light));
 	}
+	.nota-tag:hover { color: var(--accent); }
 
 	.nota-separador { margin: 1.5rem 0; }
 	.rss-pie { margin-top: 1rem; font-size: 0.8em; color: rgb(var(--gray)); }
