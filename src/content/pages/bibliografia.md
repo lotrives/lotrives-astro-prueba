@@ -10,7 +10,7 @@ tags: ["Bibliografía"]
 <a href="#a">A</a> <a href="#b">B</a> <a href="#c">C</a> <a href="#d">D</a> <a href="#e">E</a> <a href="#f">F</a> <a href="#g">G</a> <a href="#h">H</a> <a href="#k">K</a> <a href="#l">L</a> <a href="#m">M</a> <a href="#n">N</a> <a href="#o">O</a> <a href="#p">P</a> <a href="#r">R</a> <a href="#s">S</a> <a href="#t">T</a> <a href="#v">V</a> <a href="#w">W</a>
 </div>
 
-## A <a href="#nav-letras">↑</a>
+<h2 id="a">A <a href="#nav-letras">↑</a></h2>
 
 Adler, Mortimer J. (ed.)/Gorman, William (ed.). (1952). *The Great Ideas. A Syntopicon of Great Books of the Western World*. *Volume I*. *Volume II*. Chicago, Londres, Toronto: William Benton/Encyclopaedia Britannica.
 
@@ -26,7 +26,7 @@ Agustín, San. (1964) [354-430]. *Enarraciones sobre los Salmos.* En *Obras de S
 
 Aquino, Santo Tomás de. *Suma Teológica*. Texto latino de la ed. crít. Leonina. Trad. y anotaciones por una comisión de padres dominicos presidida por Francisco Barbado Viejo. Intr. general de Santiago Ramírez. *Tomo II-III* (1 q. 27-74). (1959). Tratado de la Santísima Trinidad. Trad. de Raimundo Suárez. Intrs. de Manuel Cuervo. Tratado de la creación en general. Trad. e intrs. de Jesús Valbuena. Tratado de los ángeles. Trad. de Raimundo Suárez. Intrs. y aps. de Aureliano Martínez. Tratado de la creación corpórea. Trad. e intrs. de Alberto Colunga. 3.ª ed. Madrid: BAC. [=Suma BAC].
 
-## B <a href="#nav-letras">↑</a>
+<h2 id="b">B <a href="#nav-letras">↑</a></h2>
 
 Baños Baños, José Miguel (coordinador edit.). (2021). *Sintaxis Latina.* Manuales y Anejos de «Emérita» LVI. *Volumen I. Introducción. Sintaxis de la oración simple. Volumen II. Sintaxis de la oración compleja. Orden de palabras*. Madrid: CSIC. ISBN: 987-84-00-10825-0. [= Baños *Sintaxis*].
 
@@ -40,7 +40,7 @@ Blánquez Fraile, Agustín. (1975) [1946]. *Diccionario latino-español A-J* (I)
 
 Bonhoeffer, Dietrich. (1968). *Bonhoeffer-Brevier*. Múnich: Chr. Kaiser Verlag.
 
-## C <a href="#nav-letras">↑</a>
+<h2 id="c">C <a href="#nav-letras">↑</a></h2>
 
 Catalina de Siena. (1960) [1378]. *El Diálogo*. En *Obras de Santa Catalina de Siena.* Introducción, traducción y notas de Ángel Morta. Prólogo de Francisco Barbado Viejo. Madrid: Biblioteca de Autores Cristianos.
 
@@ -58,7 +58,7 @@ Corominas, Joan/Pascual, José A. (1980) (I-III). (1981) (IV). (1983) (V). (1991
 
 —. (1987) [1961]. *Breve diccionario etimológico de la lengua castellana*. 3.ª ed. 4.ª reimpresión. Madrid: Gredos.
 
-## D <a href="#nav-letras">↑</a>
+<h2 id="d">D <a href="#nav-letras">↑</a></h2>
 
 *Der Große Brockhaus. Handbuch des Wissens in zwanzig Bänden.* (1928). 15.ª ed. Leipzig: F. A. Brockhaus. [= Brockhaus].
 
@@ -78,7 +78,7 @@ Doren, Mark Van. (1943). *Liberal Education*. Nueva York: Henry Holt & Company.
 
 D'ors, Álvaro. (1989). *Una introducción al estudio del Derecho*. 8.ª ed. Madrid: Rialp. [ISBN: 84-321-0292-X]. [=d'Ors *Introducción*].
 
-## E <a href="#nav-letras">↑</a>
+<h2 id="e">E <a href="#nav-letras">↑</a></h2>
 
 Ecker, Jakob. (1903). *Porta Sion. Lexikon zum lateinischen Psalter (Psalterium Gallicanum) unter genauer Vergleichung der Septuaginta und des hebräischen Textes*. Trier: Druck und Kommissionsverlag der Paulinus-Druckerei. [= Ecker *Porta*].
 
@@ -94,11 +94,11 @@ Ecker, Jakob. (1903). *Porta Sion. Lexikon zum lateinischen Psalter (Psalterium 
 
 —. (1987). (2.ª ed., T. 4: R–Z). Varsovia: Państwowe Wydawnictwo Naukowe. ISBN 83-01-00004-X.
 
-## F <a href="#nav-letras">↑</a>
+<h2 id="f">F <a href="#nav-letras">↑</a></h2>
 
 Fernández Sebastián, Javier/Fuentes, Juan Francisco (dirs). (2002). *Diccionario político y social del siglo XIX español*. Madrid: Alianza Editorial. [ISBN: 978-84-206-8603-5]. [=*DiccpolsocXIX*].
 
-## G <a href="#nav-letras">↑</a>
+<h2 id="g">G <a href="#nav-letras">↑</a></h2>
 
 Gambra Ciudad, Rafael. (2016) [1961]. *Historia sencilla de la filosofía*. 30.ª ed. Madrid: Rialp. [ISBN: 978-84-321-4428-8]. [=Gambra *Historia*].
 
@@ -112,13 +112,13 @@ Grau Navarro, José Manuel. (1989). *Las enfermeras de la muerte.* Madrid: Edici
 
 Grau Navarro, María Jesús. (2010). *Cuentos de Lo Trives*. [ISBN: 978-84-614-1973-9]. [=GNMJ *Trives*].
 
-## H <a href="#nav-letras">↑</a>
+<h2 id="h">H <a href="#nav-letras">↑</a></h2>
 
 Handke, Peter. (1989). *Das Spiel vom Fragen oder die Reise zum sonoren Land*. Fráncfort: Suhrkamp.
 
 Hoberg, Gottfried. (1906) [1892]. *Die Psalmen der Vulgata. Übersetzt und nach dem literalsinn erklärt von Gottfried Hoberg*. Freiburg im Breisgau: Herdersche Verlagshandlung. [= Hoberg *Psalmen*].
 
-## K <a href="#nav-letras">↑</a>
+<h2 id="k">K <a href="#nav-letras">↑</a></h2>
 
 Kahl, Rodrigo H. (2021). *Die Liturgischen Psalmen der Lateinischen Kirche. Lateinisch-Deutsch. Textfassung der Vulgata. Wörtliche Übersetzung. Traditionelle geistliche Deutungen.* Kulmbach (Alemania): Verlagsbuchhandlung Sabat. [= Kahl *Psalmen*].
 
@@ -130,7 +130,7 @@ Kreeft, Peter. (2016). *Cristianismo para paganos modernos. Los* Pensamientos *d
 
 — . (2024) [2020]. *Ethics for Beginners. Big Ideas from 32 Great Minds*. Illinois: Word on Fire. [ISBN: 978-1-68578-076-0]. [Kreeft *Ethics*].
 
-## L <a href="#nav-letras">↑</a>
+<h2 id="l">L <a href="#nav-letras">↑</a></h2>
 
 *Le petit Robert 1. Dictionnaire alphabétique et analogique de la langue française*. (1984) [1977]. Par Paul Robert. Rédaction dirigée par A. Rey et J. Rey-Debove. 9.ª ed. París: Le Robert.
 
@@ -142,7 +142,7 @@ Löffler, Martin. (1955). Presserecht. Múnich-Berlín: Beck.
 
 Lustiger, Jean-Marie. (1989). *La elección de Dios. Entrevistas realizadas por Jean-Louis Missika y Dominique Wolton*. Trad. María Teresa Arbó. Barcelona: Planeta. Versión original: 1987. *Le Choix de Dieu: Entretiens avec Jean-Louis Missika et Dominique Wolton*. Paris: Éditions de Fallois.
 
-## M <a href="#nav-letras">↑</a>
+<h2 id="m">M <a href="#nav-letras">↑</a></h2>
 
 Mann, Thomas. (1901). *Buddenbrooks. Verfall einer Familie*. Berlín: S. Fischer.
 
@@ -180,19 +180,19 @@ Mises, Ludwig von. (2011) [1949]. *La acción humana. Tratado de Economía.* 10.
 
 Moeller, Jürgen (ed.). (1988). *Historische Augenblicke. Deutsche Briefe des XX. Jahrhunderts*. Múnich: C. H. Beck.
 
-## N <a href="#nav-letras">↑</a>
+<h2 id="n">N <a href="#nav-letras">↑</a></h2>
 
 *Nueva gramática de la lengua española*. (2009). *Morfología. Sintaxis 1* (vol. 1). *Sintaxis II* (vol. 2). Real Academia Española. Madrid: Espasa Libros. ISBN: 978-84-670-3207-9. [= NGLE].
 
-## O <a href="#nav-letras">↑</a>
+<h2 id="o">O <a href="#nav-letras">↑</a></h2>
 
 Ortega y Gasset, José. (1968) [1929]. *La rebelión de las masas*. 40.ª ed. Madrid: Ediciones de la Revista de Occidente.
 
-## P <a href="#nav-letras">↑</a>
+<h2 id="p">P <a href="#nav-letras">↑</a></h2>
 
 Polo, Leonardo. (2007) [1991]. *Quién es el hombre. Un espíritu en el tiempo*. 6.ª ed. Madrid: Rialp. ISBN: 978-84-321-2773-1. [Polo *hombre*].
 
-## R <a href="#nav-letras">↑</a>
+<h2 id="r">R <a href="#nav-letras">↑</a></h2>
 
 Randall, David. (1999) [1996]. *El periodista universal*. Prólogo de Joaquín Estefanía. Traducción de María Corniero. Madrid: Siglo XXI de España editores. Tít. orig. Randall, David. (1996). *The Universal Journalist.* Londres: Pluto Press. [ISBN: 84-323-0993-1]. [= Randall *periodista*].
 
@@ -200,7 +200,7 @@ Ratzinger, Joseph. (2022) [1991]. *Cooperadores de la verdad. Reflexiones para c
 
 Reich-Ranicki, Marcel (ed.). (1989). *Romane von gestern heute gelesen*. *1900-1918*. Fráncfort: S. Fischer.
 
-## S <a href="#nav-letras">↑</a>
+<h2 id="s">S <a href="#nav-letras">↑</a></h2>
 
 Schökel, Luis Alonso. (2003) [1996]. *Biblia del Peregrino. Antiguo Testamento. Prosa. Edición de Estudio. Tomo I.* (2005) [1997]. *Biblia del Peregrino. Antiguo Testamento. Poesía. Edición de Estudio. Tomo II.* (2002) [1996]. *Biblia del Peregrino. Nuevo Testamento. Edición de Estudio. Tomo III.* Ed. preparada por Luis Manuel de la Encina. Bilbao/Estella: Ediciones Mensajero/Editorial Verbo Divino. [ISBN: 84-271-2009-5]. [ISBN: 84-8169-142-9]. [=BiblPereg].
 
@@ -218,7 +218,7 @@ Stein, Edith (Santa Teresa Benedicta de la Cruz). (2019: 2ª reimpresión) [2002
 
 Strack, Hermann L./Billerbeck, Paul. (1974) [1926]. *Kommentar zum neuen Testament aus Talmund und Midrasch. Das Evangelium nach Matthäus erläutert aus Talmund und Midrasch*. Erster (Doppel-)Band. 6.ª ed. Múnich: C. H. Beck'sche Verlagsbuchhandlung München. [ISBN 3 406 02723 7]. [=Strack/Billerbeck *Kommentar* I].
 
-## T <a href="#nav-letras">↑</a>
+<h2 id="t">T <a href="#nav-letras">↑</a></h2>
 
 *The Shorter Oxford English Dictionary on Historical Principles*. (1968) [1933]. Prepared by William Little, H. W. Fowler, J. Coulson. Revised and Edited by C. T. Onions. Third Edition. Revised with Addenda. Oxford: Clarendon Press.
 
@@ -232,10 +232,10 @@ Strack, Hermann L./Billerbeck, Paul. (1974) [1926]. *Kommentar zum neuen Testame
 
 Tweedale, Michael (edit.). (2015) (2008) [1609] [1582] [383-387]. *The Holy Bible. Douay-Rheims Version. The Old Testament first published by the English College at Douay, A. D. 1609, and The New Testament first published by the English College at Rheims, A. D. 1582. With Annotations and References by bishop Richard Challoner. Biblia Sacra juxta Vulgatam Clementinam. Plurimis Consultis Editionibus Diligentes Praeparata a Michaele Tvveedale*. Londres: Baronius Press. [ISBN: 978-1-905574-44-5]. [= DouayRheimsVulg].
 
-## V <a href="#nav-letras">↑</a>
+<h2 id="v">V <a href="#nav-letras">↑</a></h2>
 
 Voegelin, Eric. (2024). *Hitler y los alemanes*. Ed. José María Carabante. Madrid: Trotta. Tít. orig. Voegelin, Eric. (2003). *Hitler and the Germans*. *The Collected Works of Eric Voegelin*. *Vol 31*. Ed. Detlev Clemens y Brendan Purcell. University of Missouri Press. Voegelin, Eric. (2006) (1964 conferencias originales). *Hitler und die Deutschen*. Ed. Manfred Henningsen. Múnich: Wilhelm Fink Verlag.
 
-## W <a href="#nav-letras">↑</a>
+<h2 id="w">W <a href="#nav-letras">↑</a></h2>
 
 Weber, Robert/Gryson, Roger. (2007) [1969] [383-387]. *Biblia Sacra juxta Vulgatam Versionem*. Editio Quinta. Stuttgart: Deutsche Bibelgesellschaft. [ISBN: 978-3-438-05303-9]. [= Vulg].
