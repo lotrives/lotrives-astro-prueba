@@ -6,13 +6,13 @@ tags: ["Opus Dei", "Austria", "Enrique Herrando Prat de la Riba", "Juan Bautista
 heroImage: "/assets/images/og-default.webp"
 ---
 
-Esta mañana me ha llegado un WhatsApp de un gran amigo austriaco, Bernhard Weber. Dice: «Querido Pepe: hoy, a las 4:00, nuestro Enrique, bien preparado y en paz, ha fallecido. Descanse en paz. Un abrazo, Bernhard». Enrique es [Enrique Herrando Prat de la Riba](https://www.imabe.org/enriqueprat), que nació un 6 de noviembre de 1945 y ha muerto en Viena un 20 de mayo de 2026. 
-
 <div class="img-float-right" style="width: 325px;">
 <img src="/assets/images/enrique-herrando.webp" style="width: 100%;" alt="Enrique Herrando Prat de la Riba" />
 
 <p class="pie-foto">Enrique Herrando Prat de la Riba. Foto: © Lotrives.</p>
 </div>
+
+Esta mañana me ha llegado un WhatsApp de un gran amigo austriaco, Bernhard Weber. Dice: «Querido Pepe: hoy, a las 4:00, nuestro Enrique, bien preparado y en paz, ha fallecido. Descanse en paz. Un abrazo, Bernhard». Enrique es [Enrique Herrando Prat de la Riba](https://www.imabe.org/enriqueprat), que nació un 6 de noviembre de 1945 y ha muerto en Viena un 20 de mayo de 2026. 
 
 No sé ya si no es políticamente correcto publicar la causa de la muerte. La comunico aquí y la retiraré si alguien me convence de que debo quitarla. Hace unos años a Enrique le diagnosticaron un cáncer de próstata. Hasta ese momento, unos cinco años atrás, Enrique estuvo sano y pletórico de energía humana y espiritual. Después, sus fuerzas físicas fueron decreciendo muy paulatinamente. Enrique ha sido uno de mis mejores amigos. Yo soy algo más joven que él, pero me parece que aunque no estuviera en su círculo estrecho de elegidos, me tenía gran afecto.
 
