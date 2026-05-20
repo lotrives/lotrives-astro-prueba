@@ -333,3 +333,51 @@ font-size: 0.95em;
 .nav-letras a:hover {
 text-decoration: underline;
 }
+
+/* Anclas de heading */
+h2,
+h3 {
+  position: relative;
+}
+h2 .heading-anchor,
+h3 .heading-anchor {
+  position: absolute;
+  left: -1.5em;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  opacity: 0;
+  color: rgb(var(--gray));
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+h2 .heading-anchor svg,
+h3 .heading-anchor svg {
+  width: 20px;
+  height: 20px;
+}
+h2:hover .heading-anchor,
+h3:hover .heading-anchor {
+  opacity: 1;
+}
+#copy-toast {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(0.5rem);
+  background: rgb(var(--black));
+  color: #fff;
+  padding: 0.35em 0.9em;
+  border-radius: 4px;
+  font-size: 0.82em;
+  letter-spacing: 0.01em;
+  opacity: 0;
+  transition: opacity 0.2s, transform 0.2s;
+  pointer-events: none;
+  z-index: 9999;
+}
+#copy-toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
