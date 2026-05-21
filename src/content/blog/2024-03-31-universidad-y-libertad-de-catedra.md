@@ -14,7 +14,7 @@ canonical: "https://lotrives.substack.com/p/universidad-libertad-catedra-alvaro-
 >
 > »A diferencia de esas otras Facultades sobrevenidas, aquellas tres primeras y fundamentales se caracterizan por servir a la formación profesional sobre un cuerpo doctrinal estable y sistemáticamente expuesto en “l i b r o s d e t e x t o”; y por lo que toca al derecho, principalmente en los mismos Códigos. De ahí que para esas tres Facultades la “libertad de cátedra”, que consiste precisamente en no tener que explicar unos libros de texto,[^1] resulta no sólo innecesaria, sino incluso inconveniente. ¿Cómo va un profesor de Derecho civil, por ejemplo, a dejar de explicar todo el Código Civil?» (d’Ors *Introducción* § 8).[^2]
 
-## Comentarios
+## Comentario
 
 Quizá la crisis actual de la universidad[^3] tenga que ver con que ha olvidado su origen y su sentido. Debiera ser una institución que forma en la búsqueda de la verdad, y por lo tanto investiga, en tres ámbitos: Dios y la salud del alma (teología), el bienestar anímico y corporal (medicina), y la convivencia (derecho). Las demás materias complementan esos pilares. Al contrario que en el caso de España, las facultades de Teología son desde hace siglos parte de las grandes universidades de Alemania, Gran Bretaña y los Estados Unidos.
 
