@@ -42,7 +42,6 @@ En agosto de aquel 1989, pasé con él también unos días en Salzburgo. Luego m
 
 Enrique hablaba alemán perfectamente, con un fuerte acento español. Todavía resuenan en mis oídos sus típicos *Ach so!* ('¡claro!') y *Wirklich?* ('¿de verdad?'). Enrique era nieto del célebre político y escritor catalán Enric Prat de la Riba.
 
-Estoy seguro de que el Señor lo tendrá ya en su gloria. ¡Ojalá me siga ayudando desde el Cielo!
-
+Que el Señor lo tenga ya en su gloria.
 
 
