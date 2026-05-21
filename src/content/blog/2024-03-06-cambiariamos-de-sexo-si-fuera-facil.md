@@ -18,6 +18,6 @@ Esa argumentación se parece a la de **Paul Cullen** en su artículo [¿Qué es 
 
 ¿Pero y si las predicciones tanto de Benigno Blanco como de Paul Cullen fallan?
 
-Me parece que solo aceptando al Dios bíblico, al del Antiguo y el del Nuevo Testamento, se puede aducir una razón profunda y convincente para no cambiar de sexo aun cuando fuera facilísimo hacerlo. Dios nos ha creado y nos quiere como hombres y mujeres. Él es el que nos da la identidad, porque conoce a cada uno. El camino no es la rebelión sino la aceptación. Etc., etc. Es decir, **la respuesta última y convincente solo puede ser teológica.**
+Me parece que solo aceptando al Dios bíblico, al del Antiguo y el del Nuevo Testamento, se puede aducir una razón profunda y convincente para no cambiar de sexo aun cuando fuera facilísimo hacerlo. Dios nos ha creado y nos quiere como hombres y mujeres. Él es el que nos da la identidad, porque conoce a cada uno. El camino no es la rebelión sino la aceptación. Etc., etc. Es decir, la respuesta última y convincente solo puede ser teológica.
 
-[Más sobre identidad](https://www.nuevarevista.net/identidad/)
+[Más sobre identidad](https://www.nuevarevista.net/tag/identidad/)
