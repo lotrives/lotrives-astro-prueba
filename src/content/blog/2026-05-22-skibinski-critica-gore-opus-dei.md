@@ -20,7 +20,7 @@ Según Skibiński,
 
 >«La polémica con estos contenidos [de Gore] es prácticamente imposible: aquí no hay simplemente errores, ni siquiera tergiversaciones derivadas de una sutil manipulación de los hechos. Aquí tenemos un libre flujo de conciencia y una descripción de los fenómenos que supuestamente analiza Gore, absolutamente libre de cualquier restricción impuesta por la realidad».
 
-Entra finalmente en algunos aspectos del libro de Gore, ampliamente rebatidos aquí: [Algunas aclaraciones adicionales sobre el libro Opus de Gareth Gore](https://opusdei.org/es-es/article/aclaraciones-libro-gareth-gore/). 
+Entra, sin embargo, a preguntas del periodista polaco, en algunas críticas del libro de Gore al Opus Dei, más ampliamente rebatidas en [«Algunas aclaraciones adicionales sobre el libro Opus de Gareth Gore»](https://opusdei.org/es-es/article/aclaraciones-libro-gareth-gore/). 
 
 Si alguien tiene interés en conocer la versión de Gore, la puede leer aquí: [Opus](https://garethgore.substack.com/). 
 
