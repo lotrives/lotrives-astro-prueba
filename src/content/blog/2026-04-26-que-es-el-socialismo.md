@@ -8,12 +8,14 @@ description: "Qué significa 'socialismo' según los grandes diccionarios europe
 ### Índice
 
 <div id="toc">
-
-- [Etimología y definiciones](#etimología-y-definiciones)
-- [Historia](#historia)
-  - [Observaciones críticas](#observaciones-críticas)
-- [Bibliografía](#bibliografía)
-
+<ul>
+<li><a href="#etimología-y-definiciones">Etimología y definiciones</a></li>
+<li><a href="#historia">Historia</a>
+<ul>
+<li><a href="#observaciones-críticas">Observaciones críticas</a></li>
+</ul></li>
+<li><a href="#bibliografía">Bibliografía</a></li>
+</ul>
 </div>
 
 ---

@@ -9,19 +9,25 @@ updatedDate: 2026-05-23
 ### Índice
 
 <div id="toc">
-
-- [Justicia](#justicia)
-- [Justicia social](#justicia-social)
-  - [Origen](#origen)
-    - [Luigi Taparelli d'Azeglio](#luigi-taparelli-dazeglio)
-    - [John Stuart Mill](#john-stuart-mill)
-    - [Quadragesimo anno](#quadragesimo-anno)
-  - [Desarrollo de la justicia social](#desarrollo-de-la-justicia-social)
-    - [Crítica de Friedrich August von Hayek](#crítica-de-friedrich-august-von-hayek)
-    - [Crítica de Michael Novak](#crítica-de-michael-novak)
-    - [Crítica de Ludwig von Mises](#crítica-de-ludwig-von-mises)
-    - [Bibliografía](#bibliografía)
-
+<ul>
+<li><a href="#justicia">Justicia</a></li>
+<li><a href="#justicia-social">Justicia social</a>
+<ul>
+<li><a href="#origen">Origen</a>
+<ul>
+<li><a href="#luigi-taparelli-dazeglio">Luigi Taparelli d'Azeglio</a></li>
+<li><a href="#john-stuart-mill">John Stuart Mill</a></li>
+<li><a href="#quadragesimo-anno">Quadragesimo anno</a></li>
+</ul></li>
+<li><a href="#desarrollo-de-la-justicia-social">Desarrollo de la justicia social</a>
+<ul>
+<li><a href="#crítica-de-friedrich-august-von-hayek">Crítica de Friedrich August von Hayek</a></li>
+<li><a href="#crítica-de-michael-novak">Crítica de Michael Novak</a></li>
+<li><a href="#crítica-de-ludwig-von-mises">Crítica de Ludwig von Mises</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#bibliografía">Bibliografía</a></li>
+</ul>
 </div>
 
 ---
