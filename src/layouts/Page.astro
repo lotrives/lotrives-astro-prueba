@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import FloatingTOC from '../components/FloatingTOC.astro';
 
 const { title, description, wide } = Astro.props;
 ---
@@ -21,6 +22,7 @@ const { title, description, wide } = Astro.props;
 				<slot />
 			</section>
 		</main>
+		<FloatingTOC />
 		<Footer />
 	</body>
 </html>

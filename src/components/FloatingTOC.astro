@@ -1,0 +1,205 @@
+---
+// FloatingTOC.astro
+// Se activa solo si la página contiene <div id="toc"> con enlaces.
+---
+
+<button
+  id="ftoc-btn"
+  aria-label="Tabla de contenidos"
+  aria-expanded="false"
+  aria-controls="ftoc-panel"
+>
+  <svg width="18" height="14" viewBox="0 0 18 14" aria-hidden="true" fill="currentColor">
+    <rect y="0"  width="18" height="2" rx="1"/>
+    <rect y="6"  width="18" height="2" rx="1"/>
+    <rect y="12" width="18" height="2" rx="1"/>
+  </svg>
+</button>
+
+<div id="ftoc-panel" role="dialog" aria-label="Tabla de contenidos">
+  <div id="ftoc-header">
+    <span>
+      <svg width="13" height="15" viewBox="0 0 13 15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <rect x="1" y="1" width="11" height="13" rx="1.5"/>
+        <line x1="3.5" y1="4.5" x2="9.5" y2="4.5"/>
+        <line x1="3.5" y1="7.5" x2="9.5" y2="7.5"/>
+        <line x1="3.5" y1="10.5" x2="7"   y2="10.5"/>
+      </svg>
+      En esta página
+    </span>
+    <button id="ftoc-close" aria-label="Cerrar tabla de contenidos">
+      <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="1" y1="1"  x2="13" y2="13"/>
+        <line x1="13" y1="1" x2="1"  y2="13"/>
+      </svg>
+    </button>
+  </div>
+  <nav id="ftoc-links" aria-label="Índice de secciones"></nav>
+</div>
+
+<div id="ftoc-overlay" aria-hidden="true"></div>
+
+<script>
+  const btn     = document.getElementById('ftoc-btn');
+  const panel   = document.getElementById('ftoc-panel');
+  const closeBtn= document.getElementById('ftoc-close');
+  const overlay = document.getElementById('ftoc-overlay');
+  const nav     = document.getElementById('ftoc-links');
+  const toc     = document.getElementById('toc');
+
+  if (toc) {
+    const links = toc.querySelectorAll('a');
+    if (links.length > 0) {
+      btn.style.display = 'flex';
+      links.forEach(src => {
+        const a = document.createElement('a');
+        a.href = src.getAttribute('href');
+        a.textContent = src.textContent.trim();
+        a.addEventListener('click', close);
+        nav.appendChild(a);
+      });
+      btn.addEventListener('click', toggle);
+      closeBtn.addEventListener('click', close);
+      overlay.addEventListener('click', close);
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && panel.classList.contains('open')) close();
+      });
+    }
+  }
+
+  function toggle() {
+    panel.classList.contains('open') ? close() : open();
+  }
+  function open() {
+    panel.classList.add('open');
+    overlay.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  }
+  function close() {
+    panel.classList.remove('open');
+    overlay.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+</script>
+
+<style is:global>
+  #ftoc-btn {
+    display: none;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 1001;
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid rgb(var(--gray-light));
+    background: #fff;
+    color: rgb(var(--gray-dark));
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(var(--gray), 25%);
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+  #ftoc-btn:hover,
+  #ftoc-btn[aria-expanded="true"] {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  #ftoc-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: min(280px, 90vw);
+    height: 100vh;
+    height: 100dvh;
+    background: #fff;
+    border-left: 1px solid rgb(var(--gray-light));
+    box-shadow: -4px 0 24px rgba(var(--gray), 20%);
+    overflow-y: auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    z-index: 1000;
+    transform: translateX(100%);
+    visibility: hidden;
+    transition: transform 0.25s ease, visibility 0.25s;
+  }
+  #ftoc-panel.open {
+    transform: translateX(0);
+    visibility: visible;
+  }
+
+  #ftoc-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+  #ftoc-overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  #ftoc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgb(var(--gray-light));
+  }
+  #ftoc-header > span {
+    display: flex;
+    align-items: center;
+    gap: 0.45em;
+    font-size: 0.78em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: rgb(var(--gray));
+  }
+
+  #ftoc-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(var(--gray));
+    padding: 0.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: color 0.12s;
+    line-height: 1;
+  }
+  #ftoc-close:hover {
+    color: rgb(var(--black));
+  }
+
+  #ftoc-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  #ftoc-links a {
+    font-size: 0.9em;
+    color: rgb(var(--gray-dark));
+    text-decoration: none;
+    line-height: 1.4;
+    padding: 0.35em 0.5em;
+    border-radius: 4px;
+    display: block;
+    transition: background 0.12s, color 0.12s;
+  }
+  #ftoc-links a:hover {
+    background: rgb(var(--gray-light));
+    color: var(--accent);
+  }
+</style>
