@@ -8,11 +8,9 @@ canonical: "https://lotrives.substack.com/p/plan-de-accion-trastorno-especto-aut
 updatedDate: 2026-05-23
 ---
 
-<div class="img-centrada">
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Alexander_Mann_-_The_Lonely_Road.jpg" style="width: 100%;" alt="The Lonely Road (El camino solitario), óleo de Alexander Mann (1853-1908)" />
+![The Lonely Road (El camino solitario), óleo de Alexander Mann (1853-1908)](https://upload.wikimedia.org/wikipedia/commons/d/d5/Alexander_Mann_-_The_Lonely_Road.jpg)
 
 <p class="pie-foto"><em>The Lonely Road</em> ('El camino solitario'). Óleo de Alexander Mann (1853-1908). Dominio público, vía <a href="https://commons.wikimedia.org/w/index.php?title=File:Alexander_Mann_-_The_Lonely_Road.jpg&oldid=972827071" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
-</div>
 
 Pau Alemany publica en *El País* (2/4/2024, ed. Madrid, p. 33) un artículo que titula *Acoso y desempleo, las luchas de las personas con autismo*. De antetítulo: «Derechos Sociales presenta un plan contra la discriminación hacia el colectivo que contará con 40 millones de euros» [en línea, [aquí](https://elpais.com/sociedad/2024-04-02/acoso-escolar-y-desempleo-las-luchas-pendientes-de-las-personas-con-autismo.html)]. Alemany cita el caso de Mariona López Corominas, de 29 años, diagnosticada de [Asperger](https://es.wikipedia.org/wiki/S%C3%ADndrome_de_Asperger), y el de Álvaro de la Guardia, de 25 años. Mariona ha conseguido terminar la carrera de Historia del Arte. Álvaro, acaba de aprobar la ESO, relata Alemany.
 
