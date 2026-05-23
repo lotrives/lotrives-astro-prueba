@@ -3,7 +3,7 @@ title: "Ratzinger descarta todo tipo de represalias contra los teólogos crític
 description: "El prefecto de la Congregación para la Doctrina de la Fe se muestra conciliador y dialogante."
 pubDate: 1989-05-06
 updatedDate: 2026-05-16
-tags: ["Joseph Ratzinger", "Benedicto XVI"]
+tags: ["Joseph Ratzinger"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/8/84/Ratzinger-Rom88.JPG"
 canonical: "https://lotrives.substack.com/p/ratzinger-represalias-teologos-criticos"
 ---

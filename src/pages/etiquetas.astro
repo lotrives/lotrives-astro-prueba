@@ -59,6 +59,8 @@ for (const page of pages) {
 
 const tagsPorLetra = new Map();
 for (const [tagName, { posts: tagPosts, notes: tagNotes }] of tagsMap.entries()) {
+	const tagPages = tagsMap.get(tagName)?.pages ?? [];
+	if (tagPosts.length + tagNotes.length + tagPages.length < 3) continue;
 	const letra = letraDeTag(tagName);
 	if (!tagsPorLetra.has(letra)) tagsPorLetra.set(letra, []);
 	tagsPorLetra.get(letra).push({

@@ -3,7 +3,7 @@ title: "¿Fueron unos fanáticos los primeros cristianos?"
 description: "La respuesta de Joseph Ratzinger en su «Testamento espiritual»"
 pubDate: 2023-06-23
 updatedDate: 2026-05-16
-tags: ["Joseph Ratzinger", "Benedicto XVI", "Iglesia", "Sociedad"]
+tags: ["Joseph Ratzinger", "Iglesia", "Sociedad"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Eug%C3%A8ne_Delacroix_-_The_Fanatics_of_Tangier_-_WGA06195.jpg/1280px-Eug%C3%A8ne_Delacroix_-_The_Fanatics_of_Tangier_-_WGA06195.jpg"
 canonical: "https://lotrives.substack.com/p/fueron-unos-fanaticos-los-primeros-cristianos"
 ---

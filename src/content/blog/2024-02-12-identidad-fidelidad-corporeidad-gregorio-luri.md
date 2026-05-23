@@ -3,7 +3,7 @@ title: "Identidad, fidelidad y corporeidad"
 description: "A propósito de un seminario de Nueva Revista con Gregorio Luri"
 pubDate: 2024-02-12
 updatedDate: 2026-05-17
-tags: ["Nueva Revista", "Joseph Ratzinger", "Benedicto XVI", "Identidad"]
+tags: ["Nueva Revista", "Joseph Ratzinger", "Identidad"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/II_Simposio_religion_en_la_escuela_-_38007929131.jpg/1280px-II_Simposio_religion_en_la_escuela_-_38007929131.jpg"
 canonical: "https://lotrives.substack.com/p/identidad-fidelidad-y-corporeidad-gregorio-luri"
 ---

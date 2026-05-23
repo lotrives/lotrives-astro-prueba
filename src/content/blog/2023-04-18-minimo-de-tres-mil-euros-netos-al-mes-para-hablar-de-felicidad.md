@@ -3,7 +3,7 @@ title: "¿Mínimo de tres mil euros netos al mes para hablar de felicidad?"
 description: "La respuesta de Tomás de Aquino"
 pubDate: 2023-04-18
 updatedDate: 2026-05-15
-tags: ["Tomás de Aquino", "Robert Barron"]
+tags: ["Santo Tomás de Aquino", "Robert Barron"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!s5B6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fce3241fa-2e16-422e-af9b-33b849d1092c_1182x1024.jpeg"
 canonical: "https://lotrives.substack.com/p/minimo-de-tres-mil-euros-netos-al"
 ---

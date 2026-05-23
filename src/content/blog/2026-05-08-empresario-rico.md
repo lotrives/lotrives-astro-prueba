@@ -2,7 +2,7 @@
 title: "Sobre un empresario rico llamado Martín"
 pubDate: 2026-05-08
 description: "Creó una empresa, se ha hecho multimillonario y da trabajo a cientos de personas. ¿Hay que medirlo por lo que gana o por lo que hace y hace posible?"
-tags: ["Economía y mercado", "Empresarios"]
+tags: ["Economía", "Empresarios"]
 heroImage: "/assets/images/empresario-rico.webp"
 ---
 

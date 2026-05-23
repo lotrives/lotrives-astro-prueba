@@ -3,7 +3,7 @@ title: "¿Tiene sentido el sufrimiento?"
 description: "Teoría y realidad del dolor: Luis Rojas Marcos frente a Joseph Ratzinger"
 pubDate: 2023-04-13
 updatedDate: 2026-05-15
-tags: ["Joseph Ratzinger", "Benedicto XVI", "Filosofía"]
+tags: ["Joseph Ratzinger", "Filosofía"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!g0pF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c626e61-c333-461e-965c-ab4630e9d66b_2560x1556.jpeg"
 canonical: "https://lotrives.substack.com/p/tiene-sentido-el-sufrimiento"
 ---

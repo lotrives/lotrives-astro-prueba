@@ -1,7 +1,7 @@
 ---
 title: "Cuatro escenas sobre «La Obra», de Marina Pereda"
 pubDate: 2026-04-29
-tags: ["Opus Dei", "Lecturas", "Iglesia católica"]
+tags: ["Opus Dei", "Lecturas", "Iglesia"]
 description: "Reflexiones en cuatro escenas sobre el libro de memorias de Marina Pereda, la diferencia entre vida religiosa y vida de cristianos corrientes en el Opus Dei, y por qué volví."
 ---
 

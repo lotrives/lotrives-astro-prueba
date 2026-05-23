@@ -3,7 +3,7 @@ title: "Salmo 2. Quare fremuérunt gentes. Texto latino de la Vulgata con traduc
 description: "Texto latino del Salmo 2 en la Vulgata, con traducción literal nueva al español, introducción y notas léxicas y exegéticas."
 pubDate: 2024-03-03
 updatedDate: 2026-05-21
-tags: ["Biblia", "Salmos", "Tomás de Aquino"]
+tags: ["Biblia", "Salmos", "Santo Tomás de Aquino"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/salmo-2-vulgata-latin-espanol-nueva-traduccion"
 ---
