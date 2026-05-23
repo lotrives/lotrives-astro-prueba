@@ -397,3 +397,8 @@ h3:hover .heading-anchor {
   height: 100%;
   border: 0;
 }
+
+/* Separación entre secciones de letra en la lista de abreviaturas */
+.nav-letras ~ h3[id] {
+  margin-top: 2em;
+}
