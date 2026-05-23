@@ -8,6 +8,8 @@ updatedDate: 2026-05-23
 
 ### Índice
 
+<div id="toc">
+
 - [Justicia](#justicia)
 - [Justicia social](#justicia-social)
   - [Origen](#origen)
@@ -19,6 +21,8 @@ updatedDate: 2026-05-23
     - [Crítica de Michael Novak](#crítica-de-michael-novak)
     - [Crítica de Ludwig von Mises](#crítica-de-ludwig-von-mises)
     - [Bibliografía](#bibliografía)
+
+</div>
 
 ---
 
