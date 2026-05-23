@@ -1,7 +1,7 @@
 ---
 title: "¿Ha fracasado el liberalismo?"
 pubDate: 2020-05-18
-tags: ["Patrick J. Deneen", "Liberalismo", "Lecturas"]
+tags: ["Patrick J. Deneen", "Liberalismo"]
 description: "El liberalismo, difuntos ya el fascismo y el comunismo, es la única ideología que reclama viabilidad. ¿Ha fracasado precisamente por haber triunfado?"
 ---
 

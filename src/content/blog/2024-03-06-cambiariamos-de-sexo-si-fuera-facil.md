@@ -3,7 +3,7 @@ title: "¿Cambiaríamos de sexo si fuera fácil, rápido, gratis, indoloro y sin
 description: "Reflexión sobre si habría una razón convincente para no cambiar de sexo aunque fuera fácil y sin efectos secundarios. Identidad de género y respuesta teológica."
 pubDate: 2024-03-06
 updatedDate: 2026-05-21
-tags: ["Identidad", "Nueva Revista"]
+tags: ["Identidad"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/cambiariamos-de-sexo-si-fuera-facil"
 ---

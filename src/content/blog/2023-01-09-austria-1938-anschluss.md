@@ -3,7 +3,7 @@ title: "Austria, 1938. La anexión (Anschluss), Hitler y Neue Freie Presse"
 description: "Uno de los momentos centrales del siglo XX es el Anschluss, la anexión de Austria a Alemania en marzo de 1938."
 pubDate: 2023-01-09
 updatedDate: 2026-05-17
-tags: ["Anschluss", "Austria", "Lecturas"]
+tags: ["Anschluss", "Austria"]
 heroImage: "/assets/images/austria-anschluss.webp"
 canonical: "https://lotrives.substack.com/p/austria-1938-la-anexion-anschluss"
 ---

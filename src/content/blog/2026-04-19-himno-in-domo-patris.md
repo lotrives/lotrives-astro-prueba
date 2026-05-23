@@ -1,7 +1,7 @@
 ---
 title: "El himno «In domo Patris» («En la casa del Padre»)"
 pubDate: 2026-04-19
-tags: ["John Mason Neale", "Salmos", "Lecturas"]
+tags: ["John Mason Neale", "Salmos"]
 description: "Texto latino del himno «In domo Patris» y traducción al español."
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Psalm_XV_im_Salzburger_Dom.JPG/960px-Psalm_XV_im_Salzburger_Dom.JPG
 ---

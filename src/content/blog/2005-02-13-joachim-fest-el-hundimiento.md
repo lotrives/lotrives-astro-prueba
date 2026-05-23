@@ -3,7 +3,7 @@ title: "Joachim Fest: «Los líderes de Europa son hombres sin formación histó
 description: "Joachim Fest es un historiador y periodista alemán, autor de «El hundimiento», un libro sobre los últimos días de Hitler. «Hitler» es otro libro de Fest, de 1973, una monumental biografía."
 pubDate: 2005-02-13
 updatedDate: 2026-05-17
-tags: ["Segunda Guerra Mundial", "Adolf Hitler", "Memorias", "ABC", "Cine"]
+tags: ["Segunda Guerra Mundial", "Adolf Hitler", "Memorias", "Cine"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Joachim_Fest_002_headcrop.jpg"
 canonical: "https://lotrives.substack.com/p/joachim-fest-el-hundimiento"
 ---

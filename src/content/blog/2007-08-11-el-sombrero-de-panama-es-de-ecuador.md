@@ -3,7 +3,7 @@ title: "El sombrero de Panamá es... de Ecuador"
 description: "Lo llevaba Julia Roberts en «Pretty Woman». Y Winston Churchill, Audrey Hepburn o Truman Capote. El sombrero de Panamá es un símbolo de la elegancia bajo el sol. He aquí un viaje a la cuna de esta prenda, Ecuador, a su vez el país de las rosas."
 pubDate: 2007-08-11
 updatedDate: 2026-05-17
-tags: ["ABC", "Memorias", "Ecuador"]
+tags: ["Memorias", "Ecuador"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Monticristi_Straw_Hat_Optimo.jpg/1280px-Monticristi_Straw_Hat_Optimo.jpg"
 canonical: "https://lotrives.substack.com/p/el-sombrero-de-panama-es-de-ecuador"
 ---

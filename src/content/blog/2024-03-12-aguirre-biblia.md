@@ -4,7 +4,7 @@ description: "Notas de lectura sobre Biblia, política, sionismo e Israel a part
 pubDate: 2024-03-12
 updatedDate: 2026-05-10
 heroImage: ""
-tags: ["Biblia", "Lecturas", "Religión", "Política", "Cristianismo", "Dios"]
+tags: ["Biblia", "Política", "Cristianismo", "Dios"]
 ---
 
 Rafael Aguirre Monasterio, Rafael. (2024). *[La utilización política de la Biblia](https://www.nuevarevista.net/rafael-aguirre-monasterio-la-utilizacion-politica-de-la-biblia/)*. Epílogo de Julio Trebolle. Estella (Navarra, España): Editorial Verbo Divino.

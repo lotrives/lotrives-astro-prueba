@@ -3,7 +3,7 @@ title: "La visión de España en el epistolario de Ortega con Unamuno"
 description: "Unamuno: «No me importa lo que usted me dice; me importa usted»; Ortega: «Ciencia no son los resultados, sino el método: el método de la honradez espiritual»"
 pubDate: 2024-02-13
 updatedDate: 2026-05-17
-tags: ["José Ortega y Gasset", "Miguel de Unamuno", "España", "Lecturas"]
+tags: ["José Ortega y Gasset", "Miguel de Unamuno", "España"]
 heroImage: "/assets/images/epistolario-ortega-unamuno.webp"
 canonical: "https://lotrives.substack.com/p/epistolario-ortega-unamuno"
 ---

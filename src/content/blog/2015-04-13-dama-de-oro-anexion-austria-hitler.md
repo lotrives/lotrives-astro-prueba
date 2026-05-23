@@ -3,7 +3,7 @@ title: "«La dama de oro» y la anexión de Austria por Hitler en 1938"
 description: "Las vicisitudes de dos cuadros de Gustav Klimt reflejan la historia contemporánea del país alpino"
 pubDate: 2015-04-13
 updatedDate: 2026-05-16
-tags: ["Anschluss", "Adolf Hitler", "Segunda Guerra Mundial", "Austria", "Lecturas", "Cine"]
+tags: ["Anschluss", "Adolf Hitler", "Segunda Guerra Mundial", "Austria", "Cine"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Gustav_Klimt_046.jpg/1280px-Gustav_Klimt_046.jpg"
 canonical: "https://lotrives.substack.com/p/la-dama-de-oro-y-la-anexion-de-austria"
 ---

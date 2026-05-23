@@ -3,7 +3,7 @@ title: "Universidad y libertad de cátedra"
 description: "Álvaro d'Ors explica el origen de la universidad, sus facultades fundamentales y el sentido de la libertad de cátedra."
 pubDate: 2024-03-31
 updatedDate: 2026-05-21
-tags: ["Lecturas", "Universidad"]
+tags: ["Universidad"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/universidad-libertad-catedra-alvaro-dors"
 ---

@@ -3,7 +3,7 @@ title: "Sobre firmas"
 description: "Nombres largos, dos apellidos. Sobre la firma de José Manuel Grau Navarro"
 pubDate: 2023-11-05
 updatedDate: 2026-05-16
-tags: ["Memorias", "ABC"]
+tags: ["Memorias"]
 canonical: "https://lotrives.substack.com/p/sobre-firmas-jose-grau"
 ---
 

@@ -3,7 +3,7 @@ title: "Juan Bautista Torelló: «La represión freudiana no tiene nada que ver 
 description: "El sábado se cumplió el 150.º aniversario del nacimiento de Sigmund Freud. Juan Bautista Torelló, un gran conocedor de su obra, sintetiza lo efímero y lo permanente del psiquiatra vienés."
 pubDate: 2006-05-08
 updatedDate: 2026-05-17
-tags: ["Juan Bautista Torelló", "Sigmund Freud", "Memorias", "Viena", "ABC"]
+tags: ["Juan Bautista Torelló", "Sigmund Freud", "Memorias", "Viena"]
 heroImage: "/assets/images/juan-bautista-torello.webp"
 canonical: "https://lotrives.substack.com/p/juan-bautista-torello-la-represion-freud"
 ---

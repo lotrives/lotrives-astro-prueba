@@ -3,7 +3,7 @@ title: "Ricardo Estarriol"
 description: "Homenaje póstumo a Ricardo Estarriol, corresponsal de La Vanguardia en Viena durante cuarenta años."
 pubDate: 2024-02-09
 updatedDate: 2026-05-17
-tags: ["Ricardo Estarriol", "Austria", "ABC", "La Vanguardia", "Birkbrunn", "Memorias", "Juan Bautista Torelló"]
+tags: ["Ricardo Estarriol", "Austria", "La Vanguardia", "Birkbrunn", "Memorias", "Juan Bautista Torelló"]
 canonical: "https://lotrives.substack.com/p/ricardo-estarriol"
 ---
 

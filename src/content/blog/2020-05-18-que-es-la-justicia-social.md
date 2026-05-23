@@ -1,7 +1,7 @@
 ---
 title: "¿Qué es la justicia social?"
 pubDate: 2020-05-18
-tags: ["Ulpiano", "Santo Tomás de Aquino", "Luigi Taparelli d'Azeglio", "John Stuart Mill", "Pío XI", "John Rawls", "Emile Guerry", "Friedrich August von Hayek", "Michael Novak", "Ludwig von Mises", "Justicia social", "Lecturas"]
+tags: ["Ulpiano", "Santo Tomás de Aquino", "Luigi Taparelli d'Azeglio", "John Stuart Mill", "Pío XI", "John Rawls", "Emile Guerry", "Friedrich August von Hayek", "Michael Novak", "Ludwig von Mises", "Justicia social"]
 description: "Un recorrido por la idea de «justicia social» desde su origen, y lo que opinan de ella destacados pensadores" 
 ---
 

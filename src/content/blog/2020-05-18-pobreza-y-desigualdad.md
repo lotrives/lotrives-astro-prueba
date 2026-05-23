@@ -1,7 +1,7 @@
 ---
 title: "Pobreza y desigualdad"
 pubDate: 2020-05-18
-tags: ["Adam Smith", "Karl Marx", "Amartya Sen", "Anthony Atkinson", "Robert Walker", "Abhijit V. Banerjee", "Esther Duflo", "Thomas Piketty", "Alejandro A. Chafuen", "Daniel Lacalle", "Lecturas", "Justicia social", "Capitalismo", "Socialismo"]
+tags: ["Adam Smith", "Karl Marx", "Amartya Sen", "Anthony Atkinson", "Robert Walker", "Abhijit V. Banerjee", "Esther Duflo", "Thomas Piketty", "Alejandro A. Chafuen", "Daniel Lacalle", "Justicia social", "Capitalismo", "Socialismo"]
 description: "Qué es la pobreza, cómo se mide, y cómo responden el capitalismo y el socialismo al problema de la desigualdad"
 ---
 
