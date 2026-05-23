@@ -221,11 +221,13 @@ h3#bibliografía ~ p {
 
 /* Sin subrayado en enlaces del cuerpo del texto */
 .prose a,
-.nota a {
+.nota a,
+.page a {
 	text-decoration: none;
 }
 .prose a:hover,
-.nota a:hover {
+.nota a:hover,
+.page a:hover {
 	text-decoration: underline;
 	text-underline-offset: 3px;
 	text-decoration-color: rgb(var(--gray-light));
