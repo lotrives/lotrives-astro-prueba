@@ -2,7 +2,8 @@
 title: "¿Qué es la justicia social?"
 pubDate: 2020-05-18
 tags: ["Ulpiano", "Santo Tomás de Aquino", "Luigi Taparelli d'Azeglio", "John Stuart Mill", "Pío XI", "John Rawls", "Emile Guerry", "Friedrich August von Hayek", "Michael Novak", "Ludwig von Mises", "Justicia social"]
-description: "Un recorrido por la idea de «justicia social» desde su origen, y lo que opinan de ella destacados pensadores" 
+description: "Un recorrido por la idea de «justicia social» desde su origen, y lo que opinan de ella destacados pensadores"
+updatedDate: 2026-05-23 
 ---
 
 ### Índice
@@ -17,7 +18,7 @@ description: "Un recorrido por la idea de «justicia social» desde su origen, y
     - [Crítica de Friedrich August von Hayek](#crítica-de-friedrich-august-von-hayek)
     - [Crítica de Michael Novak](#crítica-de-michael-novak)
     - [Crítica de Ludwig von Mises](#crítica-de-ludwig-von-mises)
-- [Más información](#más-información)
+    - [Bibliografía](#bibliografía)
 
 ---
 
@@ -26,13 +27,13 @@ description: "Un recorrido por la idea de «justicia social» desde su origen, y
 
 La **justicia**, desde **Ulpiano** (siglo II-III), se define como «la constante y perpetua voluntad de dar a cada uno su derecho (lo que le corresponde, lo suyo)» (*Iustitia est constans et perpetua voluntas ius suum cuique tribuendi*). 
 
-Fuente: Justinianus. (1870). *Digesta Iustiniani Augusti* (T. Mommsen & P. Krueger, Eds.), 1.1.10 pr. [https://droitromain.univ-grenoble-alpes.fr/Corpus/digest.htm](https://droitromain.univ-grenoble-alpes.fr/Corpus/digest.htm)
+Fuente: Justinianus. (1870). [*Digesta Iustiniani Augusti*](https://droitromain.univ-grenoble-alpes.fr/Corpus/digest.htm) (T. Mommsen & P. Krueger, Eds.), 1.1.10 pr.
 
 Quien cumple lo que las leyes mandan, quien cumple con los contratos y los pactos y reconoce los derechos del prójimo, y lo hace con decisión firme, habitual, cumple con dar a cada uno lo suyo. La omisión de este deber de justicia reclama una restitución. La justicia tiene por medida de la obligación el derecho del prójimo, mientras que la caridad, o la solidaridad, es mensurada tanto por la necesidad del prójimo como por los recursos de que se disponga.  
   
 **Tomás de Aquino** (1225-1274), en su tratado sobre la justicia,[^1] la divide en **justicia general**, **justicia conmutativa** y **justicia distributiva**, lo que se corresponde con el orden tripartito de exigencias de la justicia: de las partes con el todo (justicia general), del todo con las partes (justicia distributiva) y de la parte con la parte (justicia conmutativa). La justicia conmutativa regula las relaciones de las personas privadas entre sí en los contratos y de acuerdo con el principio de la igualdad en los cambios. La justicia distributiva, que parte de la comunidad, regula las relaciones de esta y de los ciudadanos, según el principio de un reparto de las ventajas sociales y de las cargas. La justicia general, a la que también se llama justicia legal, concierne a las normas y por ella se promulgan leyes favorables al bien común y se impone a los ciudadanos que las obedezcan.
 
-# Justicia social
+## Justicia social
 
 ### Origen
 
@@ -46,7 +47,7 @@ Fuente: Taparelli d'Azeglio, L. *Saggio teoretico di dritto naturale appoggiato 
 
 Trece años después, lo empleó **John Stuart Mill**, quien imagina que las sociedades pueden ser virtuosas de la misma manera que los individuos.
 
-Fuente: Mill, J. S. (1865). *Principles of political economy: With some of their applications to social philosophy*. Longmans, Green. [https://archive.org/details/principlesofpoli00mill_3](https://archive.org/details/principlesofpoli00mill_3). 
+Fuente: Mill, J. S. (1865). [*Principles of political economy: With some of their applications to social philosophy*](https://archive.org/details/principlesofpoli00mill_3). Longmans, Green.
 
 El texto aparece en la p. 493 del volumen arriba citado, dentro de Book V, Chapter II, § 5, bajo el epígrafe «General Principles of Taxation». Dice: «El progreso ordinario de una sociedad que aumenta en riqueza tiende en todo momento a aumentar los ingresos de los terratenientes; a darles tanto una cantidad mayor como una proporción mayor de la riqueza de la comunidad, independientemente de cualquier molestia o desembolso en que incurran ellos mismos. Se hacen más ricos, por así decirlo, mientras duermen, sin trabajar, arriesgar ni economizar. ¿Qué derecho tienen, según el principio general de justicia social, a este incremento de riquezas?».
 
@@ -56,7 +57,7 @@ Fuente: Fabian Society. (1895). *Fabian Municipal Program. No. 1. The Unearned I
 
 En 1919, lo copió en 1919 la Organización Internacional del Trabajo:
 
-Fuente: International Labour Organization. (1919/2024). *ILO Constitution*. [https://www.ilo.org/resource/other/ilo-constitution](https://www.ilo.org/resource/other/ilo-constitution).
+Fuente: International Labour Organization. (1919/2024). [*ILO Constitution*](https://www.ilo.org/resource/other/ilo-constitution).
 
 ### Quadragesimo anno
 
@@ -119,19 +120,19 @@ Y un poco más adelante, en ese mismo capítulo que dedica a la justicia social:
      
 En otra de sus obras, Hayek afirma que la discusión sobre el socialismo se ha convertido principalmente «en una discusión sobre los medios y no sobre los fines; aunque vaya envuelta también la cuestión de saber si los diferentes fines del socialismo pueden alcanzarse simultáneamente».[^8] 
  
-Ya al margen de la polémica sobre el concepto de justicia social, queda reflexionar sobre los problemas sociales de la [pobreza y la desigualdad](https://lotrives.github.io/2020/05/18/pobreza-y-desigualdad/) y sobre los medios propuestos para resolverlos.   
+Ya al margen de la polémica sobre el concepto de justicia social, queda reflexionar sobre los problemas sociales de la [pobreza y la desigualdad](https://lotrives.com/2020/05/18/pobreza-y-desigualdad/) y sobre los medios propuestos para resolverlos.   
   
-### Más información
+### Bibliografía
 
-Llano, Alejandro. (2015, 14 de marzo). Riqueza y desigualdad. *Nueva Revista*. [https://www.nuevarevista.net/riqueza-y-desigualdad/](https://www.nuevarevista.net/riqueza-y-desigualdad/)
+Llano, Alejandro. (2015, 14 de marzo). [Riqueza y desigualdad](https://www.nuevarevista.net/riqueza-y-desigualdad/). *Nueva Revista*.
 
-Sevilla, Jordi. (2020, 4 de marzo). Las propuestas de Thomas Piketty contra la desigualdad. *Nueva Revista*. [https://www.nuevarevista.net/las-propuestas-de-thomas-piketty-contra-la-desigualdad/](https://www.nuevarevista.net/las-propuestas-de-thomas-piketty-contra-la-desigualdad/)
+Sevilla, Jordi. (2020, 4 de marzo). [Las propuestas de Thomas Piketty contra la desigualdad](https://www.nuevarevista.net/las-propuestas-de-thomas-piketty-contra-la-desigualdad/). *Nueva Revista*.
 
-Grau Navarro, J. M. (2017, 10 de marzo). Entrevista a Mario Negre. De 1.900 a 800 millones de pobres extremos en las dos últimas décadas. *Nueva Revista*. [https://www.nuevarevista.net/de-1-900-a-800-millones-de-pobres-extremos-en-las-dos-ultimas-decadas/](https://www.nuevarevista.net/de-1-900-a-800-millones-de-pobres-extremos-en-las-dos-ultimas-decadas/)
+Grau Navarro, J. M. (2017, 10 de marzo). [De 1.900 a 800 millones de pobres extremos en las dos últimas décadas](https://www.nuevarevista.net/de-1-900-a-800-millones-de-pobres-extremos-en-las-dos-ultimas-decadas/). *Nueva Revista*.
 
-¿Qué se merece cada cual? Antología de Sandel. (2019, 21 de febrero). Nueva Revista. [https://www.nuevarevista.net/que-se-merece-cada-cual-asi-interpreta-sandel-la-justicia-segun-aristoteles/](https://www.nuevarevista.net/que-se-merece-cada-cual-asi-interpreta-sandel-la-justicia-segun-aristoteles/)
+[¿Qué se merece cada cual? Antología de Sandel](https://www.nuevarevista.net/que-se-merece-cada-cual-asi-interpreta-sandel-la-justicia-segun-aristoteles/). (2019, 21 de febrero). *Nueva Revista*.
 
-Grau Navarro, J. M. (2018, 6 de junio). Martin Schlag: ««Somos seres imperfectos en un mundo imperfecto, hacen falta instituciones». *Nueva Revista*. [https://www.nuevarevista.net/martin-schlag-somos-seres-imperfectos-en-un-mundo-imperfecto-por-eso-hacen-falta-tambien-las-instituciones/](https://www.nuevarevista.net/martin-schlag-somos-seres-imperfectos-en-un-mundo-imperfecto-por-eso-hacen-falta-tambien-las-instituciones/)
+Grau Navarro, J. M. (2018, 6 de junio). [Martin Schlag: ««Somos seres imperfectos en un mundo imperfecto, hacen falta instituciones»](https://www.nuevarevista.net/martin-schlag-somos-seres-imperfectos-en-un-mundo-imperfecto-por-eso-hacen-falta-tambien-las-instituciones/). *Nueva Revista*.
 
 
 
@@ -145,7 +146,7 @@ Grau Navarro, J. M. (2018, 6 de junio). Martin Schlag: ««Somos seres imperfect
 
 [^5]: Friedrich A. Hayek, *Derecho, legislación y libertad*, Unión Editorial, Madrid, 2014. Esta es la versión en español de la obra original inglesa, *Law, Legislation and Liberty*, que fue publicada en tres volúmenes: *Rules and Order* (1973), *The Mirage of Social Justice* (1976) y *The Political Order of a Free People* (1979).
 
-[^6]: Michael Novak. (2000, diciembre). Defining Social Justice. *First Things First*. [https://firstthings.com/defining-social-justice/](https://firstthings.com/defining-social-justice/).
+[^6]: Michael Novak. (2000, diciembre). [Defining Social Justice](https://firstthings.com/defining-social-justice/). *First Things*.
 
 [^7]: Ludwig von Mises. (2011). *La acción humana*. Madrid: Unión Editorial, p. 1008.
 
