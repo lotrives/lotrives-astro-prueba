@@ -25,7 +25,7 @@
         <line x1="3.5" y1="7.5" x2="9.5" y2="7.5"/>
         <line x1="3.5" y1="10.5" x2="7"   y2="10.5"/>
       </svg>
-      En esta página
+      Índice
     </span>
     <button id="ftoc-close" aria-label="Cerrar tabla de contenidos">
       <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
@@ -56,6 +56,13 @@
         a.href = src.getAttribute('href');
         a.textContent = src.textContent.trim();
         a.addEventListener('click', close);
+        let level = 0;
+        let parent = src.parentElement;
+        while (parent && parent.id !== 'toc') {
+          if (parent.tagName === 'UL') level++;
+          parent = parent.parentElement;
+        }
+        a.dataset.level = level;
         nav.appendChild(a);
       });
       btn.addEventListener('click', toggle);
@@ -190,7 +197,7 @@
   }
   #ftoc-links a {
     font-size: 0.9em;
-    color: rgb(var(--gray-dark));
+    color: var(--accent);
     text-decoration: none;
     line-height: 1.4;
     padding: 0.35em 0.5em;
@@ -200,6 +207,12 @@
   }
   #ftoc-links a:hover {
     background: rgb(var(--gray-light));
-    color: var(--accent);
+    color: var(--accent-dark);
+  }
+  #ftoc-links a[data-level="2"] {
+    padding-left: 1.5em;
+  }
+  #ftoc-links a[data-level="3"] {
+    padding-left: 2.5em;
   }
 </style>
