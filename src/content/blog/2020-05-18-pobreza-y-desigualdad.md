@@ -11,9 +11,9 @@ description: "Qué es la pobreza, cómo se mide, y cómo responden el capitalism
 
 - [Pobreza](#pobreza)
 - [Desigualdad](#desigualdad)
-  - [Respuestas del capitalismo y del socialismo](#respuestas-del-capitalismo-y-del-socialismo)
-    - [Capitalismo](#capitalismo)
-    - [Socialismo](#socialismo)
+- [Respuestas del capitalismo y del socialismo](#respuestas-del-capitalismo-y-del-socialismo)
+  - [Capitalismo](#capitalismo)
+  - [Socialismo](#socialismo)
 - [Más información](#más-información)
 
 </div>
@@ -61,12 +61,10 @@ La desigualdad de rentas y patrimonios es una nota típica de la econo­mía de 
    
 **Thomas Piketty** publicó en 2013 *El capital en el siglo XXI*,[^5] un libro que suscitó un importante debate sobre la desigualdad. El mismo Chafuen, en la «Introducción» arriba citada, afirma (p. 13): «Una de las consecuencias positivas del mencionado libro de Piketty es que concienció a los economistas de que el análisis de la igualdad tenía que matizarse más en lo tocante a su planteamiento de nuevas situaciones y desafíos».  
   
-#### Respuestas del capitalismo y del socialismo
-
+## Respuestas del capitalismo y del socialismo
 Los diferentes enfoques de los sistemas socialista y capitalista para solventar las desigualdades económicas se deducen a partir de algunas de sus características, que sintetizamos a continuación.   
   
-#### Capitalismo  
-  
+### Capitalismo
 * Defensa del derecho a la propiedad privada.  
 * La competencia es una fuerza rectora de la vida humana y del mundo natural.   
 * El recurso fundamental para la creación de la riqueza y el crecimiento económico son los individuos, no la sociedad.   
@@ -82,8 +80,7 @@ Sanidad privada.
 * Todo lo anterior, aplicado a casos prácticos, significaría, por ejemplo, «sí» a la escuela privada, a las universidades privadas, a los hospitales privados… «Sí» también a no gravar el dinero heredado.  
   
   
-#### Socialismo  
-  
+### Socialismo
 * Pone más el acento en el bien común. El problema está en delimitar lo que se entiende, en un caso concreto, por bien común.  
 * Pone más el acento en la cooperación que en la competencia.  
 * Pone más el acento en lo falso de la autonomía personal y en lo falso del individualismo. Todos dependemos y somos responsables de los demás.  
@@ -100,8 +97,7 @@ Sanidad pública.
   
 Para las opciones concretas del socialismo y del capitalismo al problema de la pobreza, conviene tener en cuenta lo que afirman Abhijit V. Banerjee y Esther Duflo. No hay varita mágica para erradicar la pobreza, ninguna medicina para todo: «Puede que no tengamos mucho que decir sobre políticas macroeconómicas o sobre reformas institucionales», pero no hay que confundirse por la aparente modestia de la empresa: «Los cambios pequeños pueden tener efectos grandes» (p. 333).  
 
-### Más información
-
+## Más información
 Llano, Alejandro. (2015, 14 de marzo). [Riqueza y desigualdad](https://www.nuevarevista.net/riqueza-y-desigualdad/). *Nueva Revista*.
 
 Sevilla, Jordi. (2020, 4 de marzo). [Las propuestas de Thomas Piketty contra la desigualdad](https://www.nuevarevista.net/las-propuestas-de-thomas-piketty-contra-la-desigualdad/). *Nueva Revista*.
