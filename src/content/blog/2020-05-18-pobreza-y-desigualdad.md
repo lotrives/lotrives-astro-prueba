@@ -5,12 +5,16 @@ tags: ["Adam Smith", "Karl Marx", "Amartya Sen", "Anthony Atkinson", "Robert Wal
 description: "Qué es la pobreza, cómo se mide, y cómo responden el capitalismo y el socialismo al problema de la desigualdad"
 ---
 
-### Índice
+<div id="toc">
+
+<p class="indice-titulo">Índice</p>
 
 - [Pobreza](#pobreza)
 - [Desigualdad](#desigualdad)
   - [Respuestas del capitalismo y del socialismo](#respuestas-del-capitalismo-y-del-socialismo)
 - [Más información](#más-información)
+
+</div>
 
 ---
 
@@ -96,19 +100,19 @@ Para las opciones concretas del socialismo y del capitalismo al problema de la p
 
 ### Más información
 
-Llano, Alejandro. (2015, 14 de marzo). Riqueza y desigualdad. *Nueva Revista*. [https://www.nuevarevista.net/riqueza-y-desigualdad/](https://www.nuevarevista.net/riqueza-y-desigualdad/)
+Llano, Alejandro. (2015, 14 de marzo). [Riqueza y desigualdad](https://www.nuevarevista.net/riqueza-y-desigualdad/). *Nueva Revista*.
 
-Sevilla, Jordi. (2020, 4 de marzo). Las propuestas de Thomas Piketty contra la desigualdad. *Nueva Revista*. [https://www.nuevarevista.net/las-propuestas-de-thomas-piketty-contra-la-desigualdad/](https://www.nuevarevista.net/las-propuestas-de-thomas-piketty-contra-la-desigualdad/)
+Sevilla, Jordi. (2020, 4 de marzo). [Las propuestas de Thomas Piketty contra la desigualdad](https://www.nuevarevista.net/las-propuestas-de-thomas-piketty-contra-la-desigualdad/). *Nueva Revista*.
 
-Grau Navarro, J. M. (2017, 10 de marzo). Entrevista a Mario Negre. De 1.900 a 800 millones de pobres extremos en las dos últimas décadas. *Nueva Revista*. [https://www.nuevarevista.net/de-1-900-a-800-millones-de-pobres-extremos-en-las-dos-ultimas-decadas/](https://www.nuevarevista.net/de-1-900-a-800-millones-de-pobres-extremos-en-las-dos-ultimas-decadas/)
+Grau Navarro, J. M. (2017, 10 de marzo). Entrevista a Mario Negre. [De 1.900 a 800 millones de pobres extremos en las dos últimas décadas](https://www.nuevarevista.net/de-1-900-a-800-millones-de-pobres-extremos-en-las-dos-ultimas-decadas/). *Nueva Revista*.
 
-Grau Navarro, J. M. (2020, 18 de febrero). Pau Marí-Klose: «No es verdad lo de pobres pero felices». *Nueva Revista*. [https://www.nuevarevista.net/pau-mari-klose-no-es-verdad-lo-de-pobres-pero-felices/](https://www.nuevarevista.net/pau-mari-klose-no-es-verdad-lo-de-pobres-pero-felices/)
+Grau Navarro, J. M. (2020, 18 de febrero). [Pau Marí-Klose: «No es verdad lo de pobres pero felices»](https://www.nuevarevista.net/pau-mari-klose-no-es-verdad-lo-de-pobres-pero-felices/). *Nueva Revista*.
 
 
 
 [^1]: Rosling, Hans / Rosling, Ola / Rosling Rönnlund, Anna. (2018). *Factfulness. Diez razones por las que estamos equivocados sobre el mundo. Y por qué las cosas están mejor de lo que piensas*. Barcelona: Editorial Deusto.
 
-[^2]: Grau Navarro, J. M. (2020, 18 de febrero). Pau Marí-Klose: «No es verdad lo de pobres pero felices». *Nueva Revista*. [https://www.nuevarevista.net/pau-mari-klose-no-es-verdad-lo-de-pobres-pero-felices/](https://www.nuevarevista.net/pau-mari-klose-no-es-verdad-lo-de-pobres-pero-felices/)
+[^2]: Grau Navarro, J. M. (2020, 18 de febrero). [Pau Marí-Klose: «No es verdad lo de pobres pero felices»](https://www.nuevarevista.net/pau-mari-klose-no-es-verdad-lo-de-pobres-pero-felices/). *Nueva Revista*.
 
 [^3]: Abhijit V. Banerjee, Esther Duflo. (2016). *Repensar la pobreza*. Madrid: Taurus.
 
