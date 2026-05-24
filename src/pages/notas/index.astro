@@ -70,9 +70,9 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 						<p class="nota-fecha">
 							{formatDateTime(note.data.pubDate)}
 						</p>
-						{note.data.tags && note.data.tags.length > 0 && (
+						{visibleTags.length > 0 && (
 							<div class="nota-tags">
-								{note.data.tags.map((tag) => (
+								{visibleTags.map((tag) => (
 									<a href={`${base}/etiquetas/#tag-${slugify(tag)}`} class="nota-tag">{tag}</a>
 								))}
 							</div>
