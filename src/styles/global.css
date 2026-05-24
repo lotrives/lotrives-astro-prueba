@@ -157,6 +157,12 @@ sup {
 	margin-bottom: 0.4em;
 }
 
+/* Párrafos dentro de bullets sin margen: bullets compactos aunque la lista sea loose */
+.prose li p,
+.nota-cuerpo li p {
+	margin: 0;
+}
+
 /* Notas al pie comprimidas */
 .footnotes {
 	margin-top: 2em;
