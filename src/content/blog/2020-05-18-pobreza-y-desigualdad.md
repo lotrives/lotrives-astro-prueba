@@ -12,6 +12,8 @@ description: "Qué es la pobreza, cómo se mide, y cómo responden el capitalism
 - [Pobreza](#pobreza)
 - [Desigualdad](#desigualdad)
   - [Respuestas del capitalismo y del socialismo](#respuestas-del-capitalismo-y-del-socialismo)
+    - [Capitalismo](#capitalismo)
+    - [Socialismo](#socialismo)
 - [Más información](#más-información)
 
 </div>
