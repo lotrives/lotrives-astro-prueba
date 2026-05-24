@@ -408,7 +408,7 @@ h3:hover .heading-anchor {
 
 /* Índice inline en posts y páginas */
 #toc {
-  margin: 1.5em 0 2em;
+  margin: 1.5em 0 0.5em;
 }
 #toc .indice-titulo {
   font-size: 0.85em;
