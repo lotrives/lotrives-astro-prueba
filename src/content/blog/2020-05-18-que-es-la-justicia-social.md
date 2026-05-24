@@ -41,13 +41,13 @@ Quien cumple lo que las leyes mandan, quien cumple con los contratos y los pacto
 
 ### Origen
 
-### Luigi Taparelli d'Azeglio
+#### Luigi Taparelli d'Azeglio
 
 El término **justicia social** como tal fue usado por primera vez por el jesuita italiano **Luigi Taparelli d'Azeglio** en 1840.
 
 Fuente: Taparelli d'Azeglio, L. *Saggio teoretico di dritto naturale appoggiato sul fatto* (ed. [digitalizada](https://archive.org/stream/bub_gb_Ph_Woi2g5bwC/bub_gb_Ph_Woi2g5bwC_djvu.txt) con fecha de 1841). Pasaje «La giustizia sociale è per noi giustizia fra uomo e uomo»: 'La justicia social es para nosotros justicia entre hombre y hombre'. 
 
-### John Stuart Mill
+#### John Stuart Mill
 
 Trece años después, lo empleó **John Stuart Mill**, quien imagina que las sociedades pueden ser virtuosas de la misma manera que los individuos.
 
@@ -63,12 +63,12 @@ En 1919, lo copió en 1919 la Organización Internacional del Trabajo:
 
 Fuente: International Labour Organization. (1919/2024). [*ILO Constitution*](https://www.ilo.org/resource/other/ilo-constitution).
 
-### Quadragesimo anno
+#### Quadragesimo anno
 
 En 1931, el papa **Pío XI** lo introdujo en su encíclica *Quadragesimo anno*.[^2]
 
 
-## Desarrollo de la justicia social
+### Desarrollo de la justicia social
 
 La justicia social impregna la obra más importante de **John Rawls** (1921-2002)[^3] y llega a nuestros días asociada a las ideas de lucha contra la distribución desigual de bienes, la solicitud y preocupación por el bien común y el desarrollo humano de la sociedad. 
 
@@ -84,7 +84,7 @@ Concluye Guerry: la justicia social requiere el establecimiento de instituciones
 
 Al menos tres notas pueden ser identificadas en las teorías contemporáneas sobre la justicia social: el Estado debe distribuir ciertos medios mínimos vitales (derechos económicos, sociales y culturales), se ha de proteger la dignidad humana y se ha de promover activamente la igualdad de oportunidades.   
   
-### Crítica de Friedrich August von Hayek
+#### Crítica de Friedrich August von Hayek
   
 Por una parte se impugna la necesidad de emplear una nueva expresión, justicia social, si se tienen en cuenta las tres clases de justicia clásicamente en juego: conmutativa, distributiva y legal. Esas, para algunos autores, cubren todo lo que podría aportar la justicia social, que a veces se emplea como sinónimo de justicia legal o general y otras (más frecuente) como sinónimo de justicia distributiva. Por otra, se cuestionan los medios que algunos aducen para conseguir los fines a los que apunta la justicia social.  
 
@@ -102,7 +102,7 @@ Hayek confiesa que «no es nada agradable tener que argumentar contra una supers
 
 Lamentando, pues, que pueda herir algunos sentimientos de personas «cuyos vigorosos sentimientos morales respeto», Hayek se adentra a demostrar que «el término "justicia social" es una expresión totalmente vacía y carente de significado» (p. 183). Su deber, en definitiva, lo ve en denunciar el hecho de que aunque esta creencia (la justicia social) «sea compartida universalmente no demuestra la realidad de su objeto más de lo que podría demostrarlo la creencia en las brujas o en la piedra filosofal» (p. 184).  
 
-### Crítica de Michael Novak
+#### Crítica de Michael Novak
    
 La justicia es una virtud (algo personal), es decir un hábito de actuación que persigue el bien y hace el bien a quien lo ejecuta. Pero la justicia social siempre alude a un estado de cosas impersonal: alto paro, desigualdad de ingresos, carencia de un salario digno, etc. El concepto de justicia social, afirma **Michael Novak**[^6] comentando el tratado de Hayek, en la mayoría de los casos se convierte en un grupo nominal práctico cuyo significado operativo es: «Necesitamos una ley en contra de esto». Es decir, «se convierte en un instrumento de intimidación ideológica con el objetivo de conseguir el poder de la coerción legal». O la justicia social es una virtud o no lo es. Si lo es, solo puede adscribirse a actos deliberados de las personas individuales. Pero la mayoría de los que usan el término no lo adscriben a individuos sino a sistemas sociales. Utilizan la justicia social para apuntar a un principio regulador de orden. No están centrados en la virtud sino en el poder.
 
@@ -112,7 +112,7 @@ Calificar de «injusticias sociales» determinados resultados desafortunados en 
    
 A finales del siglo XIX el sintagma «justicia social» ganó prominencia porque se empleó como un llamamiento a las clases dirigentes para que atendieran las necesidades de las nuevas masas de desarraigados. A eso, Hayek nada objetaba, concluye Novak. Pero sí combatía el pensamiento chapucero: la justicia, por definición, es social. Semejante descuido se vuelve positivamente destructivo, subraya Novak, cuando el término «social» ya no describe el producto de las virtuosas acciones de muchos individuos, sino más bien el objetivo utópico hacia el que todas las instituciones y todos los individuos «deberían ser llevados a converger en el mayor grado posible», mediante la coerción. En ese caso, el «social» de la «justicia social» se refiere a algo que no emerge orgánica y espontáneamente del comportamiento respetuoso a la leyes de individuos libres, sino que más bien procede de un ideal abstracto impuesto desde arriba. 
 
-### Crítica de Ludwig von Mises
+#### Crítica de Ludwig von Mises
  
 La crítica a cierta confusión en torno a la justicia social es también muy dura en el caso de **Ludwig von Mises** (1881-1973): 
 
@@ -126,7 +126,7 @@ En otra de sus obras, Hayek afirma que la discusión sobre el socialismo se ha c
  
 Ya al margen de la polémica sobre el concepto de justicia social, queda reflexionar sobre los problemas sociales de la [pobreza y la desigualdad](https://lotrives.com/2020/05/18/pobreza-y-desigualdad/) y sobre los medios propuestos para resolverlos.   
   
-### Bibliografía
+## Bibliografía
 
 Llano, Alejandro. (2015, 14 de marzo). [Riqueza y desigualdad](https://www.nuevarevista.net/riqueza-y-desigualdad/). *Nueva Revista*.
 
