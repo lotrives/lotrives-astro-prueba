@@ -73,8 +73,8 @@ Los diferentes enfoques de los sistemas socialista y capitalista para solventar 
 * El trabajo exigente y el ingenio se premian, y eso motiva.  
 * Las personas con más éxito en la sociedad no pueden ser usadas como una red de seguridad para los fracasos de otros. A los más exitosos se les debe permitir vivir en paz y disfrutar de la propiedad que han trabajado, sin interferencias estatales.   
 * No hay nada en el mercado que sea intrínsecamente explotador. Los mercados son simplemente medios eficientes para distribuir bienes a las personas. El peligro es el así llamado capitalismo clientelar.  
-* La gente merece tanto por sus cualidades innatas como por las elecciones que haga.   
-Sanidad privada.  
+* La gente merece tanto por sus cualidades innatas como por las elecciones que haga.  
+* Sanidad privada.  
 * Educación privada.  
   
 * Todo lo anterior, aplicado a casos prácticos, significaría, por ejemplo, «sí» a la escuela privada, a las universidades privadas, a los hospitales privados… «Sí» también a no gravar el dinero heredado.  
@@ -89,8 +89,8 @@ Sanidad privada.
 * Tiende a que el Estado provea.  
 * Pone el acento en combatir la desigualdad, porque, razona, las sociedades con menos desigualdad casi siempre funcionan mejor por lo que se refiere al bienestar: disminución del estrés, mayor cohesión social, mayor esperanza de vida, disminución de la criminalidad, etc.   
 * Tiende a percibir el mercado libre como intrínsecamente desigual y explotador. En cualquier caso, como un mecanismo que otorga beneficios excesivos a quienes controlan el capital. Los trabajadores se convierten en esclavos de un salario.   
-* Algunas ventajas sociales, como la educación o la herencia, no son elegidas, y con las cualidades naturales, como la inteligencia y la energía, se nace y, por tanto, no se merece tener ninguna ventaja gracias a ellas. La propensión al trabajo duro puede verse también como un rasgo arbitrario de nacimiento, más que una fuente de valía moral.   
-Sanidad pública.  
+* Algunas ventajas sociales, como la educación o la herencia, no son elegidas, y con las cualidades naturales, como la inteligencia y la energía, se nace y, por tanto, no se merece tener ninguna ventaja gracias a ellas. La propensión al trabajo duro puede verse también como un rasgo arbitrario de nacimiento, más que una fuente de valía moral.  
+* Sanidad pública.  
 * Educación pública.  
   
 * Lo anterior, aplicado a casos prácticos, significaría asignación por parte del Estado de un colegio local para todos los alumnos, preferentemente por sorteo, como único modo de afrontar la desigualdad educativa. Significaría que no deberíamos caer en un completo fatalismo sobre la desigualdad y que, por lo tanto, la guardería gratuita, por ejemplo, haría algo para reajustar el equilibrio.  Y también: mejor escuelas públicas y hospitales públicos. Finalmente, para terminar el paralelismo con los ejemplos de arriba (capitalismo): el dinero heredado agrava las desigualdades. Más impuestos, pues, al dinero heredado.  
