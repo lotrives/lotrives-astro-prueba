@@ -28,7 +28,8 @@ const sortedNotes = notes.sort(
 const renderedNotes = await Promise.all(
 	sortedNotes.map(async (note) => {
 		const { Content } = await render(note);
-		return { note, Content };
+		const visibleTags = (note.data.tags ?? []).filter(t => (_tagCount.get(t) ?? 0) >= 3);
+		return { note, Content, visibleTags };
 	})
 );
 
