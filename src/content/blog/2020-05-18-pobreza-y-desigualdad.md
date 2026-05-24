@@ -63,7 +63,7 @@ La desigualdad de rentas y patrimonios es una nota típica de la econo­mía de 
 
 Los diferentes enfoques de los sistemas socialista y capitalista para solventar las desigualdades económicas se deducen a partir de algunas de sus características, que sintetizamos a continuación.   
   
-**Capitalismo**  
+#### Capitalismo  
   
 * Defensa del derecho a la propiedad privada.  
 * La competencia es una fuerza rectora de la vida humana y del mundo natural.   
@@ -80,7 +80,7 @@ Sanidad privada.
 * Todo lo anterior, aplicado a casos prácticos, significaría, por ejemplo, «sí» a la escuela privada, a las universidades privadas, a los hospitales privados… «Sí» también a no gravar el dinero heredado.  
   
   
-**Socialismo**  
+#### Socialismo  
   
 * Pone más el acento en el bien común. El problema está en delimitar lo que se entiende, en un caso concreto, por bien común.  
 * Pone más el acento en la cooperación que en la competencia.  
