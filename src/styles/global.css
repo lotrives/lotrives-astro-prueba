@@ -404,3 +404,38 @@ h3:hover .heading-anchor {
 .nav-letras ~ h3[id] {
   margin-top: 2em;
 }
+
+
+/* Índice inline en posts y páginas */
+#toc {
+  margin: 1.5em 0 2em;
+}
+#toc .indice-titulo {
+  font-size: 0.85em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: rgb(var(--gray));
+  margin: 0 0 0.6em;
+}
+#toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+#toc ul ul {
+  padding-left: 1.2em;
+}
+#toc li {
+  margin: 0;
+  padding: 0.15em 0;
+  line-height: 1.4;
+}
+#toc a {
+  color: var(--accent);
+  text-decoration: none;
+}
+#toc a:hover {
+  color: var(--accent-dark);
+  text-decoration: underline;
+}

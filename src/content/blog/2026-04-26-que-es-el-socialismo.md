@@ -5,9 +5,9 @@ tags: ["Socialismo", "Política", "Economía", "Diccionarios"]
 description: "Qué significa 'socialismo' según los grandes diccionarios europeos: etimología, definiciones en francés, alemán, inglés y español, y una mirada crítica al concepto."
 ---
 
-### Índice
-
 <div id="toc">
+
+<p class="indice-titulo">Índice</p>
 
 - [Etimología y definiciones](#etimología-y-definiciones)
 - [Historia](#historia)

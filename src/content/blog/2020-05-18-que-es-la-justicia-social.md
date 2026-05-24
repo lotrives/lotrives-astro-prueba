@@ -6,9 +6,9 @@ description: "Un recorrido por la idea de «justicia social» desde su origen, y
 updatedDate: 2026-05-23 
 ---
 
-### Índice
-
 <div id="toc">
+
+<p class="indice-titulo">Índice</p>
 
 - [Justicia](#justicia)
 - [Justicia social](#justicia-social)
