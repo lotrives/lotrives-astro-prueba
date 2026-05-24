@@ -8,7 +8,7 @@ heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/ideologias"
 ---
 
-### ¿Buenas? ¿Malas? ¿Indiferentes? ¿Al alza? ¿En horas bajas?
+<p class="entradilla">¿Buenas? ¿Malas? ¿Indiferentes? ¿Al alza? ¿En horas bajas?</p>
 
 Las ideologías, los sistemas de principios, resultan a veces impopulares. Pero no toda ideología es errónea ni para obrar racionalmente es preciso abandonarla, según **Friedrich A. Hayek**. Al contrario que el pensador austriaco, **Gonzalo Fernández de la Mora** subrayó que «toda ideología, por el hecho de serlo, resulta un instrumento inadecuado para resolver las especializadas cuestiones políticas de nuestro tiempo».
 
