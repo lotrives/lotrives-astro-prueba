@@ -10,6 +10,17 @@ const slugify = (text) =>
 
 const notes = await getCollection('notes');
 
+const _allPosts = await getCollection('blog');
+const _allPages = await getCollection('pages');
+const _tagCount = new Map();
+for (const items of [_allPosts, notes, _allPages]) {
+for (const item of items) {
+for (const t of (item.data.tags ?? [])) {
+_tagCount.set(t, (_tagCount.get(t) ?? 0) + 1);
+}
+}
+}
+
 const sortedNotes = notes.sort(
 	(a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
 );
@@ -47,7 +58,7 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 			<section class="notas-wrap">
 				<h1>Notas</h1>
 
-				{renderedNotes.map(({ note, Content }) => (
+				{renderedNotes.map(({ note, Content, visibleTags }) => (
 					<article class="nota">
 						<h2 class="nota-titulo">
 							<a href={`/notas/${noteSlug(note)}`}>{note.data.title}</a>

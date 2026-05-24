@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import FloatingTOC from '../components/FloatingTOC.astro';
 import { SITE_TITLE } from '../consts';
 
 const posts = await getCollection('blog');
@@ -155,6 +156,7 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 				)}
 			</section>
 		</main>
+		<FloatingTOC />
 		<Footer />
 	</body>
 </html>
