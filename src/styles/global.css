@@ -338,11 +338,13 @@ text-decoration: underline;
 
 /* Anclas de heading */
 h2,
-h3 {
+h3,
+h4 {
   position: relative;
 }
 h2 .heading-anchor,
-h3 .heading-anchor {
+h3 .heading-anchor,
+h4 .heading-anchor {
   position: absolute;
   left: -1.5em;
   top: 50%;
@@ -355,12 +357,14 @@ h3 .heading-anchor {
   transition: opacity 0.15s;
 }
 h2 .heading-anchor svg,
-h3 .heading-anchor svg {
+h3 .heading-anchor svg,
+h4 .heading-anchor svg {
   width: 20px;
   height: 20px;
 }
 h2:hover .heading-anchor,
-h3:hover .heading-anchor {
+h3:hover .heading-anchor,
+h4:hover .heading-anchor {
   opacity: 1;
 }
 #copy-toast {
