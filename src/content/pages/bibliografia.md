@@ -202,6 +202,8 @@ Reich-Ranicki, Marcel (ed.). (1989). *Romane von gestern heute gelesen*. *1900-1
 
 <h2 id="s">S <a href="#nav-letras">↑</a></h2>
 
+Salinas, Pedro. (2002). *El defensor*. Introducción de Juan Marichal. Madrid: Alianza Editorial. ISBN: 84-206-4532-X. La primera edición de la obra es de 1948.
+
 Schökel, Luis Alonso. (2003) [1996]. *Biblia del Peregrino. Antiguo Testamento. Prosa. Edición de Estudio. Tomo I.* (2005) [1997]. *Biblia del Peregrino. Antiguo Testamento. Poesía. Edición de Estudio. Tomo II.* (2002) [1996]. *Biblia del Peregrino. Nuevo Testamento. Edición de Estudio. Tomo III.* Ed. preparada por Luis Manuel de la Encina. Bilbao/Estella: Ediciones Mensajero/Editorial Verbo Divino. [ISBN: 84-271-2009-5]. [ISBN: 84-8169-142-9]. [=BiblPereg].
 
 — (1987) [1966]. *Salmos y cánticos del Breviario*. Trad. de Luis Alonso Schökel y Juan Mateos. Con la colaboración de José María Valverde. Comentarios de Luis Alonso Schökel. Madrid: Cristiandad. [=SalCant].
