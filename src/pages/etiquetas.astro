@@ -94,7 +94,7 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 					<p>Todavía no hay etiquetas disponibles.</p>
 				) : (
 					<>
-						<div id="nav-letras" class="nav-letras">
+						<div id="toc" class="nav-letras">
 							{letrasConTags.map((letra) => (
 								<a href={`#letra-${slugify(letra)}`}>{letra}</a>
 							))}
@@ -106,7 +106,7 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 								<>
 									<div class="letra-header">
 										<h2 id={`letra-${slugify(letra)}`}>{letra}</h2>
-										<a href="#nav-letras">↑</a>
+										<a href="#toc">↑</a>
 									</div>
 
 									<div class="tags-columnas">

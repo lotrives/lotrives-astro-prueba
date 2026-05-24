@@ -23,6 +23,19 @@ const slugify = (text) =>
 
 const pubDate = new Date(note.data.pubDate);
 const description = note.data.description ?? note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 160);
+
+const _allPosts = await getCollection('blog');
+const _allNotes = await getCollection('notes');
+const _allPages = await getCollection('pages');
+const _tagCount = new Map();
+for (const items of [_allPosts, _allNotes, _allPages]) {
+for (const item of items) {
+for (const t of (item.data.tags ?? [])) {
+_tagCount.set(t, (_tagCount.get(t) ?? 0) + 1);
+}
+}
+}
+const visibleTags = (note.data.tags ?? []).filter(t => (_tagCount.get(t) ?? 0) >= 3);
 ---
 
 <!doctype html>
@@ -45,9 +58,9 @@ const description = note.data.description ?? note.body.replace(/[#*`>\-]/g, '').
 					</div>
 					
 					<p class="nota-fecha"><FormattedDate date={pubDate} /></p>
-					{note.data.tags && note.data.tags.length > 0 && (
+					{visibleTags.length > 0 && (
 						<div class="nota-tags">
-							{note.data.tags.map((tag, i) => (
+							{visibleTags.map((tag, i) => (
 								<>
 									{i > 0 && ' · '}
 									<a href={`${base}/etiquetas/#tag-${slugify(tag)}`} class="nota-tag">{tag}</a>
