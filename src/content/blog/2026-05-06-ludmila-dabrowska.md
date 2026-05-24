@@ -1,12 +1,12 @@
 ---
 title: "Ludmiła Dąbrowska: «No olvidemos que los campos de concentración siguen existiendo»"
 pubDate: 2026-05-06
-description: "Carta de 1965 de Ludmiła Dąbrowska (1917-2012), polaca, prisionera del campo de concrentración de Auschwitz"
+description: "Carta de 1965 de Ludmiła Dąbrowska (1917-2012), polaca, prisionera del campo de concentración de Auschwitz"
 tags: ["Ludmiła Dąbrowska", "Stefan Moszoro-Dąbrowski", "Auschwitz", "Polonia"]
 heroImage: "/assets/images/ludmila-dabrowska.webp"
 ---
 
-<p class="entradilla">Ludmiła Dąbrowska (1917-2012), polaca, prisionera del campo de concrentración de Auschwitz, expone a la posteridad en esta carta de 1965 su lucha exitosa para volver a confiar en las personas y advierte contra la repetición de errores.</p>
+<p class="entradilla">Ludmiła Dąbrowska (1917-2012), polaca, prisionera del campo de concentración de Auschwitz, expone a la posteridad en esta carta de 1965 su lucha exitosa para volver a confiar en las personas y advierte contra la repetición de errores.</p>
 
  ![Ludmiła Dąbrowska](/assets/images/ludmila-dabrowska.webp)
 
