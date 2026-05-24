@@ -8,7 +8,7 @@ heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Aerial_vie
 canonical: "https://lotrives.substack.com/p/apple-privacidad-icloud"
 ---
 
-### Las paradojas de iCloud+
+<p class="entradilla">Las paradojas de iCloud+</p>
 
 Supongamos que XYZ es un cliente de Apple y ha contratado el servicio [iCloud+](https://www.apple.com/es/icloud/). XYZ activa la *Protección de Datos Avanzada*. En la web de [información jurídica de Apple](https://www.apple.com/es/legal/internet-services/icloud/es/terms.html) se lee: «Con Protección de Datos Avanzada, puede habilitar la encriptación de punto a punto para proteger aún más categorías adicionales de sus datos en iCloud, incluidos copia de seguridad de iCloud, Fotos, Notas y archivos almacenados en iCloud Drive» (II. J). Una vez activada *Protección de Datos Avanzada*, «Apple no podrá ayudarle a recuperar los datos protegidos […], por ello, será responsabilidad suya mantener la clave de seguridad a salvo… Apple no asumirá responsabilidad alguna si no puede acceder a su cuenta o datos» (II. J.).
 
