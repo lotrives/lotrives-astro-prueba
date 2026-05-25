@@ -1,6 +1,6 @@
 ---
 title: "Desorden mundial"
-description: "Una barra de pan, el bitcoin y Anne Applebaum"
+description: "Una barra de pan, el bitcoin y Anne Applebaum."
 pubDate: 2026-05-16
 tags: ["Bitcoin", "Anne Applebaum", "Europa", "Inflación", "Rusia"]
 heroImage: "/assets/images/anne-applebaum.webp"
