@@ -18,13 +18,24 @@ const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
     <style>
+      .intro {
+        margin-top: 0;
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+        font-size: 1.25em;
+        font-style: normal;
+        font-weight: 400;
+        color: rgb(var(--gray));
+        line-height: 1.5;
+        border-bottom: 1px solid rgb(var(--gray-light));
+      }
       .post-list {
         list-style: none;
         padding: 0;
         margin: 0;
       }
       .post-list li {
-        margin-bottom: 1.2em;
+        margin-bottom: 1.8em;
       }
       .post-list .date {
         display: block;
@@ -35,28 +46,35 @@ const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{
       .post-list a {
         font-size: 1em;
         color: rgb(var(--gray-dark));
-        text-decoration: underline;
-        text-underline-offset: 3px;
-        text-decoration-color: rgb(var(--gray-light));
+        text-decoration: none;
       }
       .post-list a:hover {
         color: var(--accent);
+        text-decoration: underline;
+        text-underline-offset: 3px;
         text-decoration-color: var(--accent);
       }
-          .intro {
-        font-size: 0.95em;
-        font-style: italic;
-        color: rgb(var(--gray-dark));
-        line-height: 1.6;
-        margin-bottom: 2rem;
-        padding-bottom: 1.5rem;
-        border-bottom: 1px solid rgb(var(--gray-light));
+      .post-list .excerpt {
+        margin: 0.4em 0 0;
+        font-size: 0.92em;
+        color: rgb(var(--gray));
+        line-height: 1.5;
+      }
+      .ver-todos a {
+        color: rgb(var(--gray));
+        text-decoration: none;
+      }
+      .ver-todos a:hover {
+        color: var(--accent);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        text-decoration-color: var(--accent);
       }
     </style>
   </head>
   <body>
     <Header />
-    <main style="max-width: 700px; margin: 0 auto; padding: 1.5rem;">
+    <main style="max-width: 700px; margin: 0 auto; padding: 0.5rem 1.5rem 1.5rem;">
       <p class="intro">
         Artículos y notas de trabajo de José Manuel Grau Navarro, donde ofrece su mirada al mundo que somos para comprender mejor a las personas, la sociedad y la Iglesia.
       </p>
@@ -65,11 +83,14 @@ const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{
           <li>
             <span class="date">{post.data.pubDate.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
             <a href={postUrl(post)}>{post.data.title}</a>
+            {post.data.description && (
+              <p class="excerpt">{post.data.description}</p>
+            )}
           </li>
         ))}
       </ul>
       <hr />
-      <p><a href={`${base}/archivo/`}>Ver todos los artículos →</a></p>
+      <p class="ver-todos"><a href={`${base}/archivo/`}>Ver todos los artículos →</a></p>
     </main>
     <Footer />
   </body>
