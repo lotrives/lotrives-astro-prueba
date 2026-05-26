@@ -12,13 +12,13 @@ heroImage: "/assets/enrique-herrando.webp"
 <p class="pie-foto">Enrique Herrando Prat de la Riba. Foto: © Lotrives.</p>
 </div>
 
-Esta mañana me ha llegado un WhatsApp de un gran amigo austriaco, Bernhard Weber. Dice: «Querido Pepe: hoy, a las 4:00, nuestro Enrique, bien preparado y en paz, ha fallecido. RIP. Un abrazo, Bernhard». Enrique es [Enrique Herrando Prat de la Riba](https://www.imabe.org/enriqueprat), que nació un 6 de noviembre de 1945 y ha muerto en Viena un 20 de mayo de 2026. 
+Esta mañana me ha llegado un WhatsApp de un gran amigo austriaco, Bernhard Weber. Dice: «Querido Pepe: hoy, a las 4:00, nuestro Enrique, bien preparado y en paz, ha fallecido. RIP. Un abrazo, Bernhard». Enrique es [Enrique Herrando Prat de la Riba](https://www.imabe.org/enriqueprat), que nació en Barcelona un 6 de noviembre de 1943 y ha muerto en Viena un 20 de mayo de 2026. 
 
 No sé ya si no es políticamente correcto publicar la causa de la muerte. La comunico aquí y la retiraré si alguien me convence de que debo quitarla. Hace unos cinco años, a Enrique le diagnosticaron un cáncer de próstata. Hasta ese momento, Enrique estuvo sano y pletórico de energía humana y espiritual. Después, sus fuerzas físicas fueron decreciendo muy paulatinamente. Enrique ha sido uno de mis mejores amigos. Yo soy algo más joven que él, pero me parece que aunque no estuviera en su círculo estrecho de elegidos, me tenía gran afecto.
 
 Conocí a Enrique un 5 de septiembre de 1982. Ese día [aterricé en Viena](https://lotrives.com/2024/02/09/ricardo-estarriol/) procedente de Madrid. Yo era un joven numerario del Opus Dei español que iba a realizar la tesis doctoral en Físicas en la Universidad de Viena y de paso (intentar) ayudar a la labor del Opus Dei en Austria, menos desarrollada que en España. Enrique me recibió en el aeropuerto y me llevó a la Residencia de Estudiantes [Birkbrunn](https://lotrives.com/2024/02/09/ricardo-estarriol/#residencia-de-estudiantes-birkbrunn-studentenhaus-birkbrunn). 
 
-Enrique había estudiado Económicas en España, había llegado a Austria unos años antes que yo, me parece que en los setenta, y conocía el camino de adaptación a un nuevo país, que yo empezaba ese 5 de septiembre de 1982.
+Enrique había estudiado Económicas en España, había llegado a Austria unos años antes que yo, en 1967, y conocía el camino de adaptación a un nuevo país, que yo empezaba ese 5 de septiembre de 1982.
 
 Una de las muchas diferencias entre Enrique y yo (siempre a su favor) es la siguiente. Mientras él habría podido realizar una brillantísima carrera profesional en multitud de empresas que se lo habrían rifado, en Austria y en España, su trabajo interno en el Opus Dei y para el Opus Dei era tan valioso que tuvo que dedicarse a él cien por cien toda la vida, hasta la muerte. Y lo hizo con pasión. En 1982 era ya un director regional clave y lo ha sido hasta que la enfermedad lo apartó de esa tarea.
 
