@@ -1,6 +1,6 @@
 ---
 title: "Por qué la imagen pública del Opus Dei es mala y qué se intenta hacer para mejorarla"
-pubDate: 2026-05-10
+pubDate: 2026-05-26
 description: "Cómo se ha construido el relato histórico del Opus Dei en cien años: análisis del libro editado por F. M. Requena de cara al centenario de 2028."
 tags: ["Opus Dei", "Juan Bautista Torelló"]
 heroImage: "/assets/images/historia-opus-dei.webp"
