@@ -1,5 +1,5 @@
 ---
-title: "Por qué la imagen pública del Opus Dei es mala y qué se intenta hacer para mejorarla"
+title: "Sobre la deficiente imagen pública del Opus Dei y qué se intenta hacer para mejorarla"
 pubDate: 2026-05-26
 description: "Cómo se ha construido el relato histórico del Opus Dei en cien años: análisis del libro editado por F. M. Requena de cara al centenario de 2028."
 tags: ["Opus Dei", "Juan Bautista Torelló"]
@@ -14,7 +14,7 @@ heroImage: "/assets/images/historia-opus-dei.webp"
 
 En cierta ocasión, conversando con [Juan Bautista Torelló](https://lotrives.com/etiquetas/#tag-juan-bautista-torello) (Barcelona, 1920-Viena, 2011), un destacado y fiel sacerdote numerario del Opus Dei, me comentó: «No conozco a otra institución de la Iglesia que tenga una imagen pública tan mala como la del Opus Dei». Y luego, más o menos añadió esta idea: algo habrá que hacer o algo habrá que cambiar en el departamento de comunicación del Opus Dei. 
 
-*Historia del Opus Dei. Cien años de vida a través de su historiografía*, el libro que se presenta este próximo jueves en Madrid y que se ha puesto recientemente a la venta, de alguna manera es un primer intento de encauzar lo que Torelló y otros han detectado como política errónea de comunicación en la prelatura. Es fácil decirlo y difícil cambiarlo, porque no todo depende de ella. Pero ahí queda la meta, de cara al centenario de la fundación del Opus Dei, que se celebrará el próximo 2 de octubre de 2028.
+*Historia del Opus Dei. Cien años de vida a través de su historiografía*, el libro que se presenta este próximo jueves en Madrid y que se ha puesto recientemente a la venta, de alguna manera es un intento de encauzar lo que Torelló y otros han detectado como política errónea de comunicación en la prelatura. Es fácil decirlo y difícil realizarlo, porque no todo depende de ella. Pero ahí queda la meta, ante el centenario de la fundación del Opus Dei, que se celebrará el próximo 2 de octubre de 2028.
 
 En lo que sigue, aprovecho la magnífica introducción al tomo escrita por el editor, **Federico M. Requena**, director de *Studia et Documenta*, una publicación científica del Istituto Storico San Josemaría Escrivá, porque me parece la mejor manera de explicar qué es este libro de una forma relativamente concisa. 
 
