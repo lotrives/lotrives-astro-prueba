@@ -44,6 +44,8 @@ Bonhoeffer, Dietrich. (1968). *Bonhoeffer-Brevier*. Múnich: Chr. Kaiser Verlag.
 
 Catalina de Siena. (1960) [1378]. *El Diálogo*. En *Obras de Santa Catalina de Siena.* Introducción, traducción y notas de Ángel Morta. Prólogo de Francisco Barbado Viejo. Madrid: Biblioteca de Autores Cristianos.
 
+Casares, Julio. (1981). *Diccionario ideológico de la lengua española. ‘Desde la idea a la palabra; desde la palabra a la idea’*. (2.ª ed). Barcelona: Editorial Gustavo Gili. ISBN: 84-252-0126-8.
+
 Chikiar Bauer, Irene. (2025). *Edith Stein. Judía. Filósofa. Santa*. Barcelona: Taurus.
 
 Cicerón. (2000). *Sobre la República*. Intr. general de Antonio Fontán. Trad., ap. y n. de Álvaro d'Ors. Biblioteca Básica Gredos. Madrid: Gredos. ISBN: 84-249-2510-6. [=Cicerón *República*].
@@ -199,6 +201,8 @@ Randall, David. (1999) [1996]. *El periodista universal*. Prólogo de Joaquín E
 Ratzinger, Joseph. (2022) [1991]. *Cooperadores de la verdad. Reflexiones para cada día del año*. Introducción, trad. y notas de José Luis del Barco. Madrid: Rialp. Tít. orig. Ratzinger, Joseph. (1990) [1979]. *Mitarbeiter der Wahrheit: Gedanken für jeden Tag*. Würzburg: Naumann. [= Ratzinger *Cooperadores*].
 
 Reich-Ranicki, Marcel (ed.). (1989). *Romane von gestern heute gelesen*. *1900-1918*. Fráncfort: S. Fischer.
+
+Requena, Federico M. (ed.). (2026). *Historia del Opus Dei. Cien años de vida a través de su historiografía*. Autores: Jaume Aurell, Pablo Pérez López, Santiago Casas Rabasa y Julio Montero-Díaz. Córdoba: Almuzara Universidad. ISBN: ISBN: 979-13-70200-00-8
 
 <h2 id="s">S <a href="#nav-letras">↑</a></h2>
 
