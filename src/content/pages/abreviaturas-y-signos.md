@@ -1,18 +1,12 @@
 ---
 title: "Abreviaturas y signos empleados en Lotrives"
-description: "Abreviaturas y signos empleados en Lotrives, con tablas de libros bíblicos según Schökel, Colunga/Turrado y Weber/Gryson, y enlaces a fuentes externas."
+description: "Abreviaturas y signos empleados en Lotrives, con tablas de libros bíblicos según Schökel, Colunga/Turrado y Weber/Gryson."
 tags: ["Referencias"]
 ---
 
 Lista alfabética tomada de Martínez (*Ortotipografía*, 497-503). Tablas de libros bíblicos según Schökel (*BiblPereg*), Colunga/Turrado (*Vulg*) y Weber/Gryson (*Vulg*) y *Salve* (15-24). Referencias completas en la [bibliografía](https://lotrives.com/bibliografia/).
 
-<div id="toc">
-
-[Criterios tipográficos](#criterios-tipográficos) · [Abreviaturas](#abreviaturas) · [Libros bíblicos](#libros-bíblicos) · [Fuentes de referencia externas](#fuentes-de-referencia-externas)
-
-</div>
-
-<h2 id="criterios-tipográficos">Criterios tipográficos <a href="#toc">↑</a></h2>
+<h2 id="criterios-tipográficos">Criterios tipográficos <a href="#">↑</a></h2>
 
 Esta página sigue los criterios de la [*Ortografía de la lengua española*](https://www.rae.es/ortografía/) (*OLE*, RAE/ASALE, 2010) y el [*Diccionario panhispánico de dudas*](https://www.rae.es/dpd/) (*DPD*, RAE/ASALE, 2.ª ed.).
 
@@ -40,7 +34,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 
 </div>
 
-<h3 id="a">A <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="a">A <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -73,7 +67,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | art. cit. | artículo citado |
 | AT | Antiguo Testamento |
 
-<h3 id="b">B <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="b">B <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -81,7 +75,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | Bar | Baruc |
 | bol. | boletín |
 
-<h3 id="c">C <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="c">C <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -109,7 +103,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | Crón | Crónicas |
 | CSIC | Consejo Superior de Investigaciones Científicas |
 
-<h3 id="d">D <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="d">D <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -123,7 +117,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | Dt | Deuteronomio |
 | dupl. | duplicado |
 
-<h3 id="e">E <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="e">E <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -170,7 +164,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | extr. | extractado; extracto |
 | Ez | Ezequiel |
 
-<h3 id="f">F <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="f">F <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -184,7 +178,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | Flp | Filipenses |
 | fut | futuro |
 
-<h3 id="g">G <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="g">G <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -195,7 +189,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | glos. | glosario |
 | gráf. | gráfico |
 
-<h3 id="h">H <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="h">H <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -207,7 +201,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | hol. | holandesa |
 | hom. | homilía |
 
-<h3 id="i">I <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="i">I <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -233,7 +227,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | irreg | irregular |
 | Is | Isaías |
 
-<h3 id="j">J <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="j">J <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -247,7 +241,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | Jos | Josué |
 | Jue | Jueces |
 
-<h3 id="l">L <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="l">L <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -258,7 +252,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | Lev | Levítico |
 | LXX | Septuaginta, los «Setenta» |
 
-<h3 id="m">M <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="m">M <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -272,7 +266,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | Mt | Mateo |
 | mx | mixta |
 
-<h3 id="n">N <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="n">N <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -297,7 +291,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | núm. | número |
 | Núm | Números |
 
-<h3 id="o">O <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="o">O <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -312,7 +306,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | orig. | original |
 | Os | Oseas |
 
-<h3 id="p">P <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="p">P <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -338,7 +332,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | Prov | Proverbios |
 | publ. | publicación; publicado |
 
-<h3 id="r">R <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="r">R <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -358,7 +352,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | Rom | Romanos |
 | rúst. | rústica |
 
-<h3 id="s">S <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="s">S <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -388,7 +382,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | sum. | sumario |
 | supl. | suplemento |
 
-<h3 id="t">T <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="t">T <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -406,7 +400,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | transcr. | transcriptor |
 | trat. | tratado |
 
-<h3 id="v">V <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="v">V <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -421,7 +415,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 | vol. | volumen |
 | VV. AA. | varios autores |
 
-<h3 id="z">Z <a href="#nav-letras">↑</a></h3>
+<p class="letra-titulo" id="z">Z <a href="#nav-letras">↑</a></p>
 
 | Abreviatura | Definición |
 |---|---|
@@ -429,7 +423,7 @@ Esta página sigue los criterios de la [*Ortografía de la lengua española*](ht
 
 ---
 
-<h2 id="libros-bíblicos">Libros bíblicos <a href="#toc">↑</a></h2>
+<h2 id="libros-bíblicos">Libros bíblicos <a href="#">↑</a></h2>
 
 ### Schökel (BiblPereg)
 
@@ -667,38 +661,4 @@ Siglas de la *Biblia Sacra iuxta Vulgatam Versionem* (Deutsche Bibelgesellschaft
 
 ---
 
-<h2 id="fuentes-de-referencia-externas">Fuentes de referencia externas <a href="#toc">↑</a></h2>
-
-### En español
-
-- [*El buen uso del español*: Lista de abreviaturas](https://www.rae.es/buen-uso-espa%C3%B1ol/lista-de-abreviaturas) (RAE/ASALE)
-
-- [*Diccionario panhispánico de dudas*: Abreviaturas](https://www.rae.es/dpd/ayuda/abreviaturas) (RAE/ASALE)
-
-- [*Diccionario de la lengua española*: Abreviaturas y signos empleados](https://dle.rae.es/contenido/abreviaturas-y-signos-empleados) (RAE)
-
-- [*Libro de estilo de la lengua española*: Lista de abreviaturas](https://www.rae.es/libro-estilo-lengua-española/3-lista-de-abreviaturas) (RAE)
-
-- [*Libro de estilo interinstitucional*, Anexo A3: Abreviaturas, signos y símbolos](https://style-guide.europa.eu/es/content/-/isg/topic?identifier=annex-a3-abbreviations-symbols) (Oficina de Publicaciones de la UE)
-
-### Filología clásica y bíblica
-
-- [Listas bibliográficas del *DGE*](http://dge.cchs.csic.es/lst/lst-int.htm) (CSIC). Página de entrada a las listas de ediciones de referencia y abreviaturas del *Diccionario Griego-Español* (listas I-IV con sus suplementos; última actualización: 4 de febrero de 2019).
-
-- [*Thesaurus Linguae Latinae*: Index of Sources](https://thesaurus.badw.de/en/tll-digital/index-of-sources.html) (Bayerische Akademie der Wissenschaften)
-
-- [Abreviaturas del *LSJ*](https://logeion.uchicago.edu/abbreviations/lsj) (University of Chicago, Logeion)
-
-- [*Oxford Classical Dictionary*: Abbreviations List](https://academic.oup.com/edited-volume/61673/chapter/560372924) (Oxford University Press)
-
-- [*SBL Handbook of Style*](https://www.sbl-site.org/sbl-press/browse-books/sbl-handbook-of-style/) (Society of Biblical Literature)
-
-### Manuales de estilo
-
-- [*The Chicago Manual of Style*, cap. 10: «Abbreviations»](https://www.chicagomanualofstyle.org/book/ed17/part2/ch10/toc.html) (17.ª ed.)
-
-- [*Oxford English Dictionary*: Abbreviations](https://www.oed.com/information/understanding-entries/abbreviations/)
-
-- [MLA Abbreviations](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_abbreviations.html) (Purdue OWL). También con *Cite your source automatically in MLA*
-
-- [*Reference guide for APA 7th edition*](https://libguides.lub.lu.se/apa_short) (Lunds Universitet). Guía de referencia en inglés para APA 7.ª edición elaborada por la biblioteca de la Universidad de Lund (Suecia). Cubre citas en el texto, lista de referencias, abreviaturas y acrónimos.
+Para fuentes externas sobre abreviaturas (RAE/ASALE, Chicago, Oxford, MLA, APA, filología clásica y bíblica), ver [Recursos externos sobre abreviaturas](/recursos-abreviaturas/).

@@ -471,3 +471,11 @@ p.entradilla {
   line-height: 1.4;
   margin: 0 0 1.2em;
 }
+
+.letra-titulo {
+	font-size: 1.2em;
+	font-weight: 700;
+	color: rgb(var(--black));
+	line-height: 1.2;
+	margin: 0 0 0.5rem 0;
+}

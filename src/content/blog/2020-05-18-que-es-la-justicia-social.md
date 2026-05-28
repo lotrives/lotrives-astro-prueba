@@ -6,27 +6,6 @@ description: "Un recorrido por la idea de «justicia social» desde su origen, y
 updatedDate: 2026-05-23 
 ---
 
-<div id="toc">
-
-<p class="indice-titulo">Índice</p>
-
-- [Justicia](#justicia)
-- [Justicia social](#justicia-social)
-  - [Origen](#origen)
-    - [Luigi Taparelli d'Azeglio](#luigi-taparelli-dazeglio)
-    - [John Stuart Mill](#john-stuart-mill)
-    - [Quadragesimo anno](#quadragesimo-anno)
-  - [Desarrollo de la justicia social](#desarrollo-de-la-justicia-social)
-    - [Crítica de Friedrich August von Hayek](#crítica-de-friedrich-august-von-hayek)
-    - [Crítica de Michael Novak](#crítica-de-michael-novak)
-    - [Crítica de Ludwig von Mises](#crítica-de-ludwig-von-mises)
-- [Bibliografía](#bibliografía)
-
-</div>
-
----
-
-
 ## Justicia
 
 La **justicia**, desde **Ulpiano** (siglo II-III), se define como «la constante y perpetua voluntad de dar a cada uno su derecho (lo que le corresponde, lo suyo)» (*Iustitia est constans et perpetua voluntas ius suum cuique tribuendi*). 

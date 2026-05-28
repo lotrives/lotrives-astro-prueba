@@ -5,21 +5,6 @@ tags: ["Adam Smith", "Karl Marx", "Amartya Sen", "Anthony Atkinson", "Robert Wal
 description: "Qué es la pobreza, cómo se mide, y cómo responden el capitalismo y el socialismo al problema de la desigualdad"
 ---
 
-<div id="toc">
-
-<p class="indice-titulo">Índice</p>
-
-- [Pobreza](#pobreza)
-- [Desigualdad](#desigualdad)
-- [Respuestas del capitalismo y del socialismo](#respuestas-del-capitalismo-y-del-socialismo)
-  - [Capitalismo](#capitalismo)
-  - [Socialismo](#socialismo)
-- [Más información](#más-información)
-
-</div>
-
----
-
 ## Pobreza  
 
 La percepción común de la pobreza es la de carencia de bienes materiales básicos para subsistir, y a eso a veces se le pone alguna medida, como, por ejemplo, «tener que pasar con menos de dos dólares al día».

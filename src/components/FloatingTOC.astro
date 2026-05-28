@@ -1,6 +1,8 @@
 ---
 // FloatingTOC.astro
-// Se activa solo si la página contiene <div id="toc"> con enlaces.
+// Se autogenera leyendo h2, h3 y h4 con id dentro de <main>.
+// Aparece si hay 3 o más elementos navegables (umbral mínimo).
+// Ignora headings ocultos (display: none) y los de la sección de notas al pie.
 ---
 
 <button
@@ -40,38 +42,48 @@
 <div id="ftoc-overlay" aria-hidden="true"></div>
 
 <script>
-  const btn     = document.getElementById('ftoc-btn');
-  const panel   = document.getElementById('ftoc-panel');
-  const closeBtn= document.getElementById('ftoc-close');
-  const overlay = document.getElementById('ftoc-overlay');
-  const nav     = document.getElementById('ftoc-links');
-  const toc     = document.getElementById('toc');
+  const btn      = document.getElementById('ftoc-btn');
+  const panel    = document.getElementById('ftoc-panel');
+  const closeBtn = document.getElementById('ftoc-close');
+  const overlay  = document.getElementById('ftoc-overlay');
+  const nav      = document.getElementById('ftoc-links');
 
-  if (toc) {
-    const links = toc.querySelectorAll('a');
-    if (links.length > 0) {
-      btn.style.display = 'flex';
-      links.forEach(src => {
-        const a = document.createElement('a');
-        a.href = src.getAttribute('href');
-        a.textContent = src.textContent.trim();
-        a.addEventListener('click', close);
-        let level = 0;
-        let parent = src.parentElement;
-        while (parent && parent.id !== 'toc') {
-          if (parent.tagName === 'UL') level++;
-          parent = parent.parentElement;
-        }
-        a.dataset.level = level;
-        nav.appendChild(a);
-      });
-      btn.addEventListener('click', toggle);
-      closeBtn.addEventListener('click', close);
-      overlay.addEventListener('click', close);
-      document.addEventListener('keydown', e => {
-        if (e.key === 'Escape' && panel.classList.contains('open')) close();
-      });
-    }
+  // Recoger h2, h3 y h4 con id dentro de <main>, ignorando los ocultos
+  // y los que estén dentro de la sección de notas al pie
+  const headings = Array.from(
+    document.querySelectorAll('main h2[id], main h3[id], main h4[id]')
+  ).filter(h =>
+    window.getComputedStyle(h).display !== 'none' &&
+    !h.closest('.footnotes')
+  );
+
+  // Umbral mínimo: solo aparece si hay 3 o más elementos navegables
+  if (headings.length >= 3) {
+    btn.style.display = 'flex';
+
+    const tagToLevel = { H2: 1, H3: 2, H4: 3 };
+
+    headings.forEach(h => {
+      // Extraer texto del heading sin enlaces internos (cadenita, ↑, etc.)
+      const clone = h.cloneNode(true);
+      clone.querySelectorAll('a').forEach(a => a.remove());
+      const text = clone.textContent.trim();
+      if (!text) return;
+
+      const a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.textContent = text;
+      a.dataset.level = tagToLevel[h.tagName];
+      a.addEventListener('click', close);
+      nav.appendChild(a);
+    });
+
+    btn.addEventListener('click', toggle);
+    closeBtn.addEventListener('click', close);
+    overlay.addEventListener('click', close);
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && panel.classList.contains('open')) close();
+    });
   }
 
   function toggle() {

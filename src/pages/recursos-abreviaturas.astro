@@ -2,10 +2,10 @@
 import { getEntry, render } from 'astro:content';
 import Page from '../layouts/Page.astro';
 
-const entry = await getEntry('pages', 'abreviaturas-y-signos');
+const entry = await getEntry('pages', 'recursos-abreviaturas');
 const { Content } = await render(entry);
 ---
 <Page title={entry.data.title} description={entry.data.description}>
-<h1>Abreviaturas y signos empleados en Lotrives</h1>
+<h1>Recursos externos sobre abreviaturas</h1>
 <Content />
 </Page>
