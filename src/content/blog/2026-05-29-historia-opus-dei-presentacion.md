@@ -73,6 +73,6 @@ Coautor del libro. Catedrático de Historia (emérito) de la Universidad Complut
 
 >«Yo, personalmente, no he tenido ninguna dificultad en consultar los fondos del Archivo General del Opus Dei. Ninguna es ninguna». 
 
->«Sobre los archivos privados: a mí me parece que los propietarios de los archivos son quienes han de decidir cuándo se abren, cómo se abren y a quién se abren. Porque no todos los archivos privados son públicos. No es la norma general, ni muchísimo menos. Normal es lo contrario. Si quieren te dejan, y te dejan lo que quieren. Y se acabó. O sea que en este sentido yo creo que hay que ser normales también [se refiere al Opus Dei], me parece».
+>«Sobre los archivos privados: a mí me parece que los propietarios de los archivos son quienes han de decidir cuándo se abren, cómo se abren y a quiénes se abren. Porque no todos los archivos privados son públicos. No es la norma general, ni muchísimo menos. Normal es lo contrario. Si quieren te dejan, y te dejan lo que quieren. Y se acabó. O sea que en este sentido yo creo que hay que ser normales también [se refiere a la política del Opus Dei sobre su archivo], me parece».
 
-Al final, a todos los presentes se nos invitó a tomar un vino español, lo cual no estuvo nada mal, dada la hora.
+Al final, a todos los presentes se nos invitó a tomar un vino español, lo cual no estuvo nada mal dada la hora.
