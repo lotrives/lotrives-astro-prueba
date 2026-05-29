@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts
+    .filter((p) => !p.data.draft)
+    .map((post) => {
+      const id = post.id.replace(/\.md$/, '');
+      const [year, month, day, ...rest] = id.split('-');
+      return {
+        params: { slug: id },
+        props: { target: `/${year}/${month}/${day}/${rest.join('-')}/` },
+      };
+    });
+}
+
+const { target } = Astro.props as { target: string };
+const base = Astro.site?.href.replace(/\/$/, '') ?? 'https://lotrives.com';
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={base + target} />
+    <title>Página movida</title>
+  </head>
+  <body>
+    <p>Esta página se ha movido a <a href={target}>{target}</a>.</p>
+  </body>
+</html>
