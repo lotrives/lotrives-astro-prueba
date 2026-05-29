@@ -24,7 +24,7 @@ Sobre la base de los últimos datos científicos, Brooks ofrece estrategias para
 >—Arthur Brooks
 
 
-#### Observaciones
+## Observaciones
 
 * Se dice *[terapia junguiana](https://www.psychologytoday.com/es/tipos-de-terapia/terapia-junguiana)* en castellano, pero también *psicología analítica*, *análisis junguiano* y *psicoterapia analítica*. 
 * Jung entiende que «la neurosis es siempre un sustituto del sufrimiento legítimo» (Jung, 1958, §129) y que «la tarea de la psicoterapia consiste en **corregir la actitud consciente** y no en perseguir recuerdos infantiles» (Jung, 2006, p. 35).
@@ -34,25 +34,34 @@ Sobre la base de los últimos datos científicos, Brooks ofrece estrategias para
 * Jung vincula la cura al hallazgo de significado.
 * Información sobre el C.G. Jung-Institut: [aquí](https://junginstitut.ch).
 
-#### Libros de C. G. Jung. Selección 
+## Libros de C. G. Jung. Selección
 
-**En español**:
+<div>
+<h3 id="bibliografía" style="display:none">Bibliografía</h3>
 
+### En español
 
-* Jung, C. G. (2006). [*La práctica de la psicoterapia: Contribuciones al problema de la psicoterapia y a la psicología de la transferencia*](https://www.trotta.es/libros/la-practica-de-la-psicoterapia/9788481648119/) (J. Navarro Pérez, Trad.; Obra completa, Vol. 16). Editorial Trotta.
-* Jung, C. G. (2007). [*Dos escritos sobre psicología analítica*](https://www.trotta.es/libros/dos-escritos-sobre-psicologia-analitica/9788481647600/) (R. Fernández de Maruri, Trad.; Obra completa, Vol. 7). Editorial Trotta.
-* Jung, C. G. (2009). [*Acerca de la psicología de la religión occidental y de la religión oriental*](https://www.trotta.es/libros/acerca-de-la-psicologia-de-la-religion-occidental-y-de-la-religion-oriental/9788481649024/) (R. Fernández de Maruri, Trad.; 2.ª ed.; Obra completa, Vol. 11). Editorial Trotta.
+Jung, C. G. (2006). [*La práctica de la psicoterapia: Contribuciones al problema de la psicoterapia y a la psicología de la transferencia*](https://www.trotta.es/libros/la-practica-de-la-psicoterapia/9788481648119/) (J. Navarro Pérez, Trad.; Obra completa, Vol. 16). Editorial Trotta.
 
-**En alemán**
+Jung, C. G. (2007). [*Dos escritos sobre psicología analítica*](https://www.trotta.es/libros/dos-escritos-sobre-psicologia-analitica/9788481647600/) (R. Fernández de Maruri, Trad.; Obra completa, Vol. 7). Editorial Trotta.
 
-* Jung, C. G. (1943). [*Über die Psychologie des Unbewussten*](https://archive.org/details/UberDiePsychologieDesUnbewuC.G.Jung). Rascher Verlag.
-* Jung, C. G. (1972). [*Die Beziehungen zwischen dem Ich und dem Unbewussten*](https://archive.org/details/diebeziehungenzw00jung). Walter-Verl.
-* Jung, C. G. (2011). [*Zwei Schriften über Analytische Psychologie*](https://www.deutsche-digitale-bibliothek.de/item/QH43OO4G2LK4IGJ7VKPARG2BNEORT25L) (Gesammelte Werke, Bd. 7). Patmos-Verl. der Schwabenverl. AG.
+Jung, C. G. (2009). [*Acerca de la psicología de la religión occidental y de la religión oriental*](https://www.trotta.es/libros/acerca-de-la-psicologia-de-la-religion-occidental-y-de-la-religion-oriental/9788481649024/) (R. Fernández de Maruri, Trad.; 2.ª ed.; Obra completa, Vol. 11). Editorial Trotta.
 
-**En inglés**
+### En alemán
 
-* Jung, C. G. (1953). [*Two essays on analytical psychology*](https://archive.org/details/twoessaysonanaly0007jung_d4t3) (Trad. R. F. C. Hull). Pantheon Books.
-* Jung, C. G. (1958). [*Psychology and religion: West and East*](https://archive.org/details/psychologyreligi11jung) (Trad. R. F. C. Hull). Pantheon Books.
+Jung, C. G. (1943). [*Über die Psychologie des Unbewussten*](https://archive.org/details/UberDiePsychologieDesUnbewuC.G.Jung). Rascher Verlag.
+
+Jung, C. G. (1972). [*Die Beziehungen zwischen dem Ich und dem Unbewussten*](https://archive.org/details/diebeziehungenzw00jung). Walter-Verl.
+
+Jung, C. G. (2011). [*Zwei Schriften über Analytische Psychologie*](https://www.deutsche-digitale-bibliothek.de/item/QH43OO4G2LK4IGJ7VKPARG2BNEORT25L) (Gesammelte Werke, Bd. 7). Patmos-Verl. der Schwabenverl. AG.
+
+### En inglés
+
+Jung, C. G. (1953). [*Two essays on analytical psychology*](https://archive.org/details/twoessaysonanaly0007jung_d4t3) (Trad. R. F. C. Hull). Pantheon Books.
+
+Jung, C. G. (1958). [*Psychology and religion: West and East*](https://archive.org/details/psychologyreligi11jung) (Trad. R. F. C. Hull). Pantheon Books.
+
+</div>
 
 ---
 
