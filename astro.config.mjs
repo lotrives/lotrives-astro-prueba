@@ -28,7 +28,7 @@ const rehypeFixExternalLinks = () => (tree) => {
 export default defineConfig({
 	site: SITE,
 	base: '/',
-	integrations: [mdx(), sitemap()],
+	integrations: [mdx(), sitemap({ filter: (page) => !page.includes("/blog/") })],
 	markdown: {
 		rehypePlugins: [
 			[rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],
