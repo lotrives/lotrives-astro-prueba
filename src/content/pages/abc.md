@@ -318,9 +318,9 @@ Grau Navarro, José Manuel. (1988, 28 de enero). [Thomas Mann contra Hitler: un 
 
 —. (1988, 31 de julio). [Belgrado reconoce en el problema del Kosovo un riesgo para la unidad del país](https://www.abc.es/archivo/periodicos/abc-madrid-19880731-32.html). *ABC*, Madrid, p. 32.
 
-—. (1988, 2 de agosto). [Violento aniversario de la ocupación nazi de Varsovia](www.abc.es/archivo/periodicos/abc-madrid-19880802-22.html). *ABC*, Madrid, p. 22. 
+—. (1988, 2 de agosto). [Violento aniversario de la ocupación nazi de Varsovia](https://www.abc.es/archivo/periodicos/abc-madrid-19880802-22.html). *ABC*, Madrid, p. 22. 
 
-—. (1988, 5 de agosto). [Autorizan al PEN polaco para reanudar sus actividades](https://www.abc.es/archivo/periodicos/abc-madrid-19880805-24.html%0A). *ABC*, Madrid, p. 24.
+—. (1988, 5 de agosto). [Autorizan al PEN polaco para reanudar sus actividades](https://www.abc.es/archivo/periodicos/abc-madrid-19880805-24.html). *ABC*, Madrid, p. 24.
 
 —. (1988, 6 de agosto). [Ceaucescu comienza a destruir pueblos en Transilvania](https://www.abc.es/archivo/periodicos/abc-madrid-19880806-23.html). *ABC*, Madrid, p. 23.
 
