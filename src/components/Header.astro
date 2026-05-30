@@ -6,133 +6,213 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <header>
-	<nav>
-		<h2><a href={`${base}/`}>{SITE_TITLE}</a></h2>
-		<button class="hamburger" id="menu-toggle" aria-label="Abrir menú">
-			<span></span>
-			<span></span>
-			<span></span>
-		</button>
-		<div class="internal-links" id="menu">
-			<HeaderLink href={`${base}/acerca/`}>Acerca</HeaderLink>
-			<HeaderLink href={`${base}/notas/`}>Notas</HeaderLink>
-			<HeaderLink href={`${base}/etiquetas/`}>Etiquetas</HeaderLink>
-			<HeaderLink href={`${base}/buscar/`}>Buscar</HeaderLink>
-		</div>
-	</nav>
+<nav>
+<h2><a href={`${base}/`}>{SITE_TITLE}</a></h2>
+<button class="hamburger" id="menu-toggle" aria-label="Abrir menú">
+<span></span>
+<span></span>
+<span></span>
+</button>
+<div class="internal-links" id="menu">
+<HeaderLink href={`${base}/acerca/`}>Acerca</HeaderLink>
+<HeaderLink href={`${base}/notas/`}>Notas</HeaderLink>
+<HeaderLink href={`${base}/etiquetas/`}>Etiquetas</HeaderLink>
+<details class="nav-more">
+<summary>Más ▾</summary>
+<div class="dropdown-panel">
+<HeaderLink href={`${base}/archivo/`}>Archivo</HeaderLink>
+<HeaderLink href={`${base}/publicaciones/`}>Publicaciones</HeaderLink>
+<HeaderLink href={`${base}/libros/`}>Libros</HeaderLink>
+<HeaderLink href={`${base}/bibliografia/`}>Fuentes</HeaderLink>
+</div>
+</details>
+<HeaderLink href={`${base}/buscar/`}>Buscar</HeaderLink>
+</div>
+</nav>
 </header>
 
 <style>
-	header {
-		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-		position: sticky;
-		top: 0;
-		z-index: 100;
-	}
+header {
+margin: 0;
+padding: 0 1em;
+background: white;
+box-shadow: 0 2px 8px rgba(var(--black), 5%);
+position: sticky;
+top: 0;
+z-index: 100;
+}
 
-	h2 {
-		margin: 0;
-		font-size: 1.6rem;
-		font-weight: 400;
-	}
+h2 {
+margin: 0;
+font-size: 1.6rem;
+font-weight: 400;
+}
 
-	h2 a,
-	h2 a.active {
-		color: var(--black);
-		text-decoration: none;
-	}
+h2 a,
+h2 a.active {
+color: var(--black);
+text-decoration: none;
+}
 
-	nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 2rem;
-		max-width: 1200px;
-		margin: 0 auto;
-	}
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 2rem;
+max-width: 1200px;
+margin: 0 auto;
+}
 
-	nav a {
-		display: inline-block;
-		padding: 1.2rem 0;
-		color: var(--black);
-		text-decoration: none;
-		border-bottom: 3px solid transparent;
-	}
+nav a {
+display: inline-block;
+padding: 1.2rem 0;
+color: var(--black);
+text-decoration: none;
+border-bottom: 3px solid transparent;
+}
 
-	nav a.active {
-		border-bottom-color: var(--accent);
-	}
+nav a.active {
+border-bottom-color: var(--accent);
+}
 
-	.internal-links {
-		display: flex;
-		align-items: center;
-		gap: 1.5rem;
-		font-size: 1.1rem;
-		white-space: nowrap;
-	}
+.internal-links {
+display: flex;
+align-items: center;
+gap: 1.5rem;
+font-size: 1.1rem;
+white-space: nowrap;
+}
 
-	.hamburger {
-		display: none;
-		flex-direction: column;
-		justify-content: center;
-		gap: 5px;
-		background: none;
-		border: none;
-		cursor: pointer;
-		padding: 0.5rem;
-	}
+/* Desplegable "Más" (escritorio) con <details> */
+.nav-more {
+position: relative;
+}
+.nav-more > summary {
+list-style: none;
+cursor: pointer;
+color: var(--black);
+padding: 1.2rem 0;
+border-bottom: 3px solid transparent;
+white-space: nowrap;
+}
+.nav-more > summary::-webkit-details-marker {
+display: none;
+}
+.dropdown-panel {
+position: absolute;
+top: 100%;
+right: 0;
+min-width: 170px;
+background: white;
+box-shadow: 0 4px 12px rgba(var(--black), 10%);
+padding: 0.4rem 0;
+z-index: 100;
+}
+.nav-more[open] > .dropdown-panel {
+display: flex;
+flex-direction: column;
+}
+.dropdown-panel a {
+padding: 0.5rem 1.1rem;
+border-bottom: none;
+white-space: nowrap;
+}
+.dropdown-panel a:hover {
+background: rgb(var(--gray-light));
+}
 
-	.hamburger span {
-		display: block;
-		width: 24px;
-		height: 2px;
-		background: rgb(var(--black));
-		transition: all 0.2s;
-	}
+.hamburger {
+display: none;
+flex-direction: column;
+justify-content: center;
+gap: 5px;
+background: none;
+border: none;
+cursor: pointer;
+padding: 0.5rem;
+}
 
-	@media (max-width: 640px) {
-		.hamburger {
-			display: flex;
-		}
+.hamburger span {
+display: block;
+width: 24px;
+height: 2px;
+background: rgb(var(--black));
+transition: all 0.2s;
+}
 
-		.internal-links {
-			display: none;
-			position: absolute;
-			top: 100%;
-			left: 0;
-			right: 0;
-			background: white;
-			flex-direction: column;
-			align-items: flex-start;
-			gap: 0;
-			font-size: 1rem;
-			box-shadow: 0 4px 12px rgba(var(--black), 10%);
-			padding: 0.5rem 1.5rem 1rem;
-		}
+@media (max-width: 640px) {
+.hamburger {
+display: flex;
+}
 
-		.internal-links.open {
-			display: flex;
-		}
+.internal-links {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+background: white;
+flex-direction: column;
+align-items: flex-start;
+gap: 0;
+font-size: 1rem;
+box-shadow: 0 4px 12px rgba(var(--black), 10%);
+padding: 0.5rem 1.5rem 1rem;
+}
 
-		.internal-links a {
-			padding: 0.6rem 0;
-			width: 100%;
-			border-bottom: 1px solid rgb(var(--gray-light));
-		}
+.internal-links.open {
+display: flex;
+}
 
-		.internal-links a:last-child {
-			border-bottom: none;
-		}
-	}
+.internal-links a {
+padding: 0.6rem 0;
+width: 100%;
+border-bottom: 1px solid rgb(var(--gray-light));
+}
+
+.internal-links > a:last-child {
+border-bottom: none;
+}
+
+/* En móvil se aplana "Más": se oculta el botón y se muestran sus enlaces */
+.nav-more {
+width: 100%;
+}
+.nav-more > summary {
+display: none;
+}
+.dropdown-panel {
+display: flex;
+flex-direction: column;
+position: static;
+box-shadow: none;
+background: none;
+padding: 0;
+min-width: 0;
+}
+}
 </style>
 
 <script>
-	const toggle = document.getElementById('menu-toggle');
-	const menu = document.getElementById('menu');
-	toggle?.addEventListener('click', () => {
-		menu?.classList.toggle('open');
-	});
+const toggle = document.getElementById('menu-toggle');
+const menu = document.getElementById('menu');
+toggle?.addEventListener('click', () => {
+menu?.classList.toggle('open');
+});
+
+// "Mas": abierto en movil (lista plana), desplegable en escritorio.
+const more = document.querySelector('.nav-more');
+const mq = window.matchMedia('(max-width: 640px)');
+function syncMore() { if (more) more.open = mq.matches; }
+syncMore();
+mq.addEventListener('change', syncMore);
+
+// En escritorio, cerrar "Mas" al pulsar fuera o con Escape.
+document.addEventListener('click', (e) => {
+if (!more || mq.matches) return;
+if (more.open && !more.contains(e.target)) more.open = false;
+});
+document.addEventListener('keydown', (e) => {
+if (more && !mq.matches && e.key === 'Escape') more.open = false;
+});
 </script>
