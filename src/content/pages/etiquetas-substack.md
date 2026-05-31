@@ -1,5 +1,6 @@
 ---
 title: "Etiquetas de Lotrives (Substack)"
+tags: ["Referencias"]
 description: "Índice alfabético de todos los temas tratados en Lotrives en Substack."
 ---
 

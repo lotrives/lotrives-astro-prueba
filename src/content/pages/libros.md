@@ -1,7 +1,7 @@
 ---
 title: "Libros"
 description: "Libros de José Manuel Grau Navarro."
-tags: ["Anschluss"]
+tags: ["Anschluss", "Referencias"]
 ---
 
 Libros de **José Manuel Grau Navarro**.

@@ -1,5 +1,6 @@
 ---
 title: "La Vanguardia"
+tags: ["Referencias"]
 description: "Artículos de José Manuel Grau Navarro publicados en La Vanguardia, firmados como José Manuel Navarro."
 ---
 

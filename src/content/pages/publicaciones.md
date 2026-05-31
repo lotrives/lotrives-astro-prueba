@@ -1,5 +1,6 @@
 ---
 title: "Publicaciones"
+tags: ["Referencias"]
 description: "Artículos y colaboraciones de José Manuel Grau Navarro en otros medios, firmados en distintas etapas como José Grau o José Manuel Navarro."
 ---
 

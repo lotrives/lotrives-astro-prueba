@@ -1,7 +1,7 @@
 ---
 title: "Bibliografía"
 description: "Catálogo bibliográfico de las fuentes empleadas en Lotrives."
-tags: []
+tags: ["Referencias"]
 ---
 
 <h2 id="bibliografía" style="display:none">Bibliografía</h2>

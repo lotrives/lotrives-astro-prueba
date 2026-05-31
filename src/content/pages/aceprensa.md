@@ -1,5 +1,6 @@
 ---
 title: "Aceprensa"
+tags: ["Referencias"]
 description: "Artículos de José Manuel Grau Navarro publicados en Aceprensa, firmados como José Grau."
 ---
 
