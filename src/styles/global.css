@@ -480,5 +480,27 @@ p.entradilla {
 	margin: 0 0 0.5rem 0;
 }
 
-/* Flecha Libros */
-.libros h3 a:not(.heading-anchor)::after { font-size: 0.65em; }
+/* Pagina de Libros */
+.libros h3 {
+  margin-top: 1.8em;
+}
+.libros h3 a:not(.heading-anchor) {
+  color: rgb(var(--black));
+  text-decoration: none;
+}
+.libros h3 a:not(.heading-anchor):hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+.libros h3 a:not(.heading-anchor)::after {
+  content: " \2197";
+  font-size: 0.7em;
+  color: rgb(var(--gray));
+  font-weight: 400;
+}
+.libros h3 + p {
+  margin-top: 0.2em;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+  color: rgb(var(--gray));
+}
