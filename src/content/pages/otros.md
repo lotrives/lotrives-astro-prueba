@@ -1,6 +1,7 @@
 ---
 title: "Otros medios"
 description: "Artículos y colaboraciones de José Manuel Grau Navarro en otros medios, firmados en distintas etapas como José Grau."
+tags: ["Referencias"]
 ---
 
 Artículos y colaboraciones de **José Manuel Grau Navarro** publicados en otros medios. Archivo en curso: se irán añadiendo entradas progresivamente.
@@ -34,7 +35,13 @@ Grau, J. (1988, agosto–septiembre). Juan Pablo II en Austria. *Palabra*, n.º 
 
 ## *Época* (Madrid)
 
-Grau, J. (1985, 19-25 de agosto). Clan Ceausescu: el nepotismo al poder. *Época*, pp. 74-6.
+Grau, J. (1985, 19-25 de agosto). Clan Ceausescu: el nepotismo al poder. *Época*, pp. 74-76.
+
+Grau, J. (1985, 16-22 de septiembre). Gorbachov: guerra al vodka. *Época*, pp. 73-75.
+
+Grau, J. (1985, 14-20 de octubre). El chantaje de Jaruzelski. Farsa electoral en Polonia. *Época*, pp. 97-100.
+
+
 
 ## *Panorama* (Milán)
 

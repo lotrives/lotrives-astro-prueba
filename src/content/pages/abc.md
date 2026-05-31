@@ -1,6 +1,6 @@
 ---
 title: "Artículos en ABC"
-tags: []
+tags: ["ABC", "Referencias"]
 description: "Artículos publicados por José Manuel Grau Navarro (firmados como José Grau) en ABC entre 1985 y 2013."
 ---
 
@@ -118,6 +118,43 @@ Grau Navarro, José Manuel. (1985, 25 de abril). [Los nuevos nombramientos en el
 —. (1985, 5 de septiembre). [Ceausescu pretende que los rumanos trabajen gratis.](https://www.abc.es/archivo/periodicos/abc-madrid-19850905-26.html) *ABC*. Madrid, p. 26.
 
 —. (1985, 6 de septiembre). [Condenado a prisión el presidente del Comité de católicos ucranios.](https://www.abc.es/archivo/periodicos/abc-madrid-19850906-36.html) *ABC*. Madrid, p. 36.
+
+—. (1985, 8 de septiembre). [Dos novicios jesuitas condenados en Yugoslavia.](https://www.abc.es/archivo/periodicos/abc-madrid-19850908-43.html) *ABC*. Madrid, p. 43.
+
+—. (1985, 9 de septiembre). [Las autoridades polacas «preparan» las elecciones.](https://www.abc.es/archivo/periodicos/abc-madrid-19850909-26.html) *ABC*. Madrid, p. 26.
+
+—. (1985, 9 de septiembre). [Organización de las Fuerzas de Seguridad en otros países. Austria: las competencias, enmarcadas en la Constitución.](https://www.abc.es/archivo/periodicos/abc-madrid-19850909-23.html) *ABC*. Madrid, p. 23.
+
+—. (1985, 12 de septiembre). [Primer tratado ecológico entre países del Este y el Oeste.](https://www.abc.es/archivo/periodicos/abc-madrid-19850912-45.html) *ABC*. Madrid, p. 45.
+
+
+—. (1985, 18 de septiembre). [Juan Pablo II acepta la dimisión del cardenal König.](https://www.abc.es/archivo/periodicos/abc-madrid-19850918-47.html) *ABC*. Madrid, p. 47.
+
+
+—. (1985, 18 de septiembre). [El novelista austriaco Bernhard critica al ministro de Finanzas.](https://www.abc.es/archivo/periodicos/abc-madrid-19850918-46.html) *ABC*. Madrid, p. 46.
+
+
+—. (1985, 27 de septiembre). [Moscú prepara la sucesión de János Kádár en Hungría.](https://www.abc.es/archivo/periodicos/abc-madrid-19850927-32.html) *ABC*. Madrid, p. 32.
+
+
+—. (1985, 27 de septiembre). [«Oni» (Ellos), libro prohibido, éxito de ventas en Polonia. Siete ex dirigentes comunistas analizan el pasado.](https://www.abc.es/archivo/periodicos/abc-madrid-19850927-47.html) *ABC*. Madrid, p. 47.
+
+—. (1985, 4 de octubre). [Nuevo fracaso de la OPEP en la asignación de cuotas.](https://www.abc.es/archivo/periodicos/abc-madrid-19851004-60.html) *ABC*. Madrid, p. 60.
+
+
+—. (1985, 6 de octubre). [Insistentes rumores sobre la delicada salud de Ceausescu.](https://www.abc.es/archivo/periodicos/abc-madrid-19851006-38.html) *ABC*. Madrid, p. 38.
+
+—. (1985, 8 de octubre). Los países del Este controlan artificialmente el desempleo. *ABC*, p. 62.
+
+—. (1985, 10 de octubre). [Hafez el Assad ofreció su ayuda en la negociación](https://www.abc.es/archivo/periodicos/abc-madrid-19851010-30.html) [secuestro del Achille Lauro]. *ABC*, p. 30.
+
+—. (1985, 12 de octubre). [Elecciones en Polonia bajo el símbolo comunista.](https://www.abc.es/archivo/periodicos/abc-madrid-19851012-33.html) *ABC*. Madrid, p. 33.
+
+—. (1985, 13 de octubre). [El mariscal Kulikov prepara la próxima «cumbre» del Este.](https://www.abc.es/archivo/periodicos/abc-madrid-19851013-35.html) *ABC*. Madrid, p. 35.
+
+
+—. (1985, 14 de octubre). La abstención, único «test» en la votación de ayer, en Polonia (1.ª ed.) [Detenciones y abstención en la votación de ayer de Polonia](https://www.abc.es/archivo/periodicos/abc-madrid-19851014-32.html). *ABC*. Madrid, p. 32.
+
 
 
 ---
