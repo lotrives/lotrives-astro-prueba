@@ -4,7 +4,7 @@ description: "Libros de José Manuel Grau Navarro."
 tags: ["Anschluss", "Referencias"]
 ---
 
-Libros de **José Manuel Grau Navarro**.
+Libros de José Manuel Grau Navarro.
 
 ---
 
@@ -58,9 +58,8 @@ El ciudadano español Miguel Ribes llega a Varsovia en enero de 1990, en un mome
 
 Crónica del descubrimiento e investigación de los asesinatos cometidos hasta 1989 en el Hospital de Lainz (Viena) por las enfermeras auxiliares Waltraud Wagner, Irene Leidolf, Maria Gruber y Stefanie Mayer. Presenta la obra el catedrático Gonzalo Herranz, médico y profesor de Bioética en la Universidad de Navarra. Afirma: «Este libro interesará y hará reflexionar a muchos. En especial, los médicos, las enfermeras y quienes trabajan en instituciones de salud deberán leerlo a fondo y luego comentarlo y discutirlo. La historia contada en estas páginas pone de relieve el riesgo de brutalización de la medicina que es inherente a la idea de eutanasia».
 
-**Edición original**
-
-*Las enfermeras de la muerte*. José Grau. Barcelona: Ediciones del Drac, 1989. 140 pp. (Serie Contrastes, 7). Presentación de Gonzalo Herranz; epílogo de Rafael Gómez Pérez. ISBN 84-86532-22-1. [Catálogo BNE ↗](https://catalogo.bne.es/permalink/34BNE_INST/95vni4/alma991016612429708606)
+#### Las enfermeras de la muerte (1989)
+*Edición original.* José Grau. Barcelona: Ediciones del Drac, 1989. 140 pp. (Serie Contrastes, 7). Presentación de Gonzalo Herranz; epílogo de Rafael Gómez Pérez. ISBN 84-86532-22-1. [Catálogo BNE ↗](https://catalogo.bne.es/permalink/34BNE_INST/95vni4/alma991016612429708606)
 
 ---
 
@@ -69,6 +68,5 @@ Crónica del descubrimiento e investigación de los asesinatos cometidos hasta 1
 
 En marzo de 1938 Alemania se anexionó Austria. El 15 de ese mes, Hitler se dirigió en Viena a la población, que llenaba la Heldenplatz y estaba entusiasmada por la unión con Berlín. Poco después Pablo Ribes tiene conocimiento de un plan nacionalsocialista para eliminar a la oposición intelectual vienesa. Los universitarios Gerhard, Ilse y Juan serán testigos de los acontecimientos.
 
-**Novela original**
-
-*Semestre de invierno*. José Grau. Madrid: Cyan (Incipit Editores), 1994. 219 pp. ISBN 84-8198-022-6. [Catálogo BNE ↗](https://catalogo.bne.es/permalink/34BNE_INST/95vni4/alma991021993119708606)
+#### Semestre de invierno
+*Novela original.* José Grau. Madrid: Cyan (Incipit Editores), 1994. 219 pp. ISBN 84-8198-022-6. [Catálogo BNE ↗](https://catalogo.bne.es/permalink/34BNE_INST/95vni4/alma991021993119708606)

@@ -479,3 +479,6 @@ p.entradilla {
 	line-height: 1.2;
 	margin: 0 0 0.5rem 0;
 }
+
+/* Flecha Libros */
+.libros h3 a:not(.heading-anchor)::after { font-size: 0.65em; }
