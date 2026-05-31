@@ -155,6 +155,17 @@ Grau Navarro, José Manuel. (1985, 25 de abril). [Los nuevos nombramientos en el
 
 —. (1985, 14 de octubre). La abstención, único «test» en la votación de ayer, en Polonia (1.ª ed.) [Detenciones y abstención en la votación de ayer de Polonia](https://www.abc.es/archivo/periodicos/abc-madrid-19851014-32.html). *ABC*. Madrid, p. 32.
 
+—. (1985, 15 de octubre). [Varsovia trata de ocultar el elevado índice de abstención.](https://www.abc.es/archivo/periodicos/abc-madrid-19851015-39.html) *ABC*. Madrid, p. 39.
+
+—. (1985, 16 de octubre). [Reunión en Viena de la Internacional Socialista.](https://www.abc.es/archivo/periodicos/abc-madrid-19851016-44.html) *ABC*. Madrid, p. 44.
+
+—. (1985, 19 de octubre). [Declarado el estado de emergencia en todo el sector energético de Rumania](https://www.abc.es/archivo/periodicos/abc-madrid-19851019-35.html). *ABC*, p. 35.
+
+—. (1985, 19 de octubre). Controversia en la reunión de Viena sobre Oriente Medio. *ABC*, p. 36.
+
+—. (1985, 22 de octubre). [Gorbachov preside en Sofía la reunión del Pacto de Varsovia](https://www.abc.es/archivo/periodicos/abc-madrid-19851022-37.html). *ABC*, p. 37.
+
+—. (1985, 23 de octubre). [Gorbachov busca en Sofía el apoyo a sus planes bélicos](https://www.abc.es/archivo/periodicos/abc-madrid-19851023-36.html). *ABC*, p. 36.
 
 
 ---
