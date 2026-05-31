@@ -83,16 +83,16 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 <!doctype html>
 <html lang="es">
 	<head>
-		<BaseHead title={`Etiquetas | ${SITE_TITLE}`} description="Índice de etiquetas de Lotrives." />
+		<BaseHead title={`Temas | ${SITE_TITLE}`} description="Índice de temas de Lotrives." />
 	</head>
 	<body>
 		<Header />
 		<main>
 			<section class="page">
-				<h1>Etiquetas</h1>
+				<h1>Temas</h1>
 
 				{letrasConTags.length === 0 ? (
-					<p>Todavía no hay etiquetas disponibles.</p>
+					<p>Todavía no hay temas disponibles.</p>
 				) : (
 					<>
 						<div id="toc" class="nav-letras">
