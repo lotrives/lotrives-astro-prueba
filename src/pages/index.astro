@@ -9,8 +9,13 @@ const posts = (await getCollection('blog')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 ).slice(0, 8);
 
+const notes = (await getCollection('notes')).sort(
+  (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+).slice(0, 6);
+
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/, '$1/$2/$3/$4')}/`;
+const noteSlug = (note) => note.id.replace(/\.md$/, '');
 ---
 
 <!doctype html>
@@ -75,6 +80,50 @@ const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{
         text-underline-offset: 3px;
         text-decoration-color: var(--accent);
       }
+
+      /* Bloque de notas recientes */
+      .seccion-titulo {
+        font-size: 0.75em;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: rgb(var(--gray));
+        margin: 0 0 1.2rem;
+      }
+      .notas-recientes {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .notas-recientes li {
+        display: flex;
+        align-items: baseline;
+        gap: 0.9em;
+        margin-bottom: 0.65em;
+      }
+      .notas-recientes .date {
+        font-size: 0.78em;
+        color: rgb(var(--gray));
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+      .notas-recientes a {
+        font-size: 0.95em;
+        color: rgb(var(--gray-dark));
+        text-decoration: none;
+        line-height: 1.4;
+      }
+      .notas-recientes a:hover {
+        color: var(--accent);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        text-decoration-color: var(--accent);
+      }
+      .bloque-notas {
+        margin-top: 2.5rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgb(var(--gray-light));
+      }
     </style>
   </head>
   <body>
@@ -83,6 +132,8 @@ const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{
       <p class="intro">
         Artículos y notas de trabajo de José Manuel Grau Navarro, donde ofrece su mirada al mundo que somos para comprender mejor a las personas, la sociedad y la Iglesia.
       </p>
+
+      <p class="seccion-titulo">Últimos artículos</p>
       <ul class="post-list">
         {posts.map((post) => (
           <li>
@@ -94,8 +145,20 @@ const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{
           </li>
         ))}
       </ul>
-      <hr />
       <p class="ver-todos"><a href={`${base}/archivo/`}>Ver todos los artículos →</a></p>
+
+      <div class="bloque-notas">
+        <p class="seccion-titulo">Notas recientes</p>
+        <ul class="notas-recientes">
+          {notes.map((note) => (
+            <li>
+              <span class="date">{new Date(note.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+              <a href={`${base}/notas/${noteSlug(note)}`}>{note.data.title}</a>
+            </li>
+          ))}
+        </ul>
+        <p class="ver-todos" style="margin-top: 1rem;"><a href={`${base}/notas/`}>Ver todas las notas →</a></p>
+      </div>
     </main>
     <Footer />
   </body>
