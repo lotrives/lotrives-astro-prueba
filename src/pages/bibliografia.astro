@@ -6,5 +6,6 @@ const entry = await getEntry('pages', 'bibliografia');
 const { Content } = await render(entry);
 ---
 <Page title={entry.data.title} description={entry.data.description}>
+<h1>Bibliografía</h1>
 <Content />
 </Page>

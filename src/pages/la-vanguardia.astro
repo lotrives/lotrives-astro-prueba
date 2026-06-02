@@ -6,5 +6,6 @@ const entry = await getEntry('pages', 'la-vanguardia');
 const { Content } = await render(entry);
 ---
 <Page title={entry.data.title} description={entry.data.description} wide>
-	<Content />
+	<h1>La Vanguardia</h1>
+<Content />
 </Page>
