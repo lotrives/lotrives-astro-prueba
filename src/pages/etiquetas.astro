@@ -112,25 +112,25 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 
 									<div class="tags-columnas">
 										{tags.map((tag) => (
-											<div>
-												<a href={`#${tag.id}`}>{tag.name}</a>{' '}
-												<span class="post-fecha">({tag.posts.length + tag.notes.length + (tag.pages?.length ?? 0)})</span>
-											</div>
+										<div>
+										<a href={`#${tag.id}`}>{tag.name}</a>{' '}
+										<span class="post-fecha">({tag.posts.length + tag.notes.length + (tag.pages?.length ?? 0)})</span>
+										</div>
 										))}
 									</div>
 
 									{tags.map((tag) => (
 										<div class="tag-posts">
-											<h4 id={tag.id}>{tag.name}</h4>
-											<ul>
-												{tag.posts.map((post) => (
-													<li>
-														<a href={postUrl(post)}>{post.data.title}</a>
-														<span class="post-fecha">
-															{new Date(post.data.pubDate).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' })}
-														</span>
-													</li>
-												))}
+										<h4 id={tag.id}>{tag.name}</h4>
+										<ul>
+										{tag.posts.map((post) => (
+										<li>
+										<a href={postUrl(post)}>{post.data.title}</a>
+										<span class="post-fecha">
+										{new Date(post.data.pubDate).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' })}
+										</span>
+										</li>
+										))}
 									{tag.notes.map((note) => (
 									<li>
 									<a href={noteUrl(note)}>{note.data.title}</a>
@@ -146,7 +146,7 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 					<span class="post-fecha"> · página</span>
 					</li>
 					))}
-											</ul>
+										</ul>
 										</div>
 									))}
 								</>
@@ -180,8 +180,6 @@ h1 {
 	width: fit-content;
 }
 .nav-letras a {
-	text-decoration: underline;
-	text-underline-offset: 3px;
 	text-decoration: underline;
 	text-underline-offset: 3px;
 	padding: 0.2em 0.5em;
@@ -221,25 +219,20 @@ h1 {
 	margin-bottom: 0.3em;
 }
 .tag-posts ul {
+	list-style: none;
 	margin: 0;
-	padding-left: 1.2em;
+	padding-left: 0;
 }
 .tag-posts li {
-	margin-bottom: 0.2em;
+	margin-bottom: 0.5em;
+	font-size: 1.05rem;
+	line-height: 1.6;
 }
 .post-fecha {
-	font-size: 0.85em;
+	font-size: 0.75em;
 	color: #999;
 	margin-left: 0.4em;
-}
-.nota-badge {
-	font-size: 0.75em;
-	color: #fff;
-	background: rgb(var(--gray));
-	border-radius: 3px;
-	padding: 0.1em 0.4em;
-	margin-left: 0.4em;
-	vertical-align: middle;
+	letter-spacing: 0.04em;
 }
 @media (max-width: 600px) {
 	.tags-columnas {
