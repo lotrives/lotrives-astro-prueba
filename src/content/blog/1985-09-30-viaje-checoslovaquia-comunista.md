@@ -7,9 +7,9 @@ heroImage: "/assets/images/visado-checo.webp"
 updatedDate: 2026-06-02
 ---
 
-<p class="entradilla">Del 27 al 29 de septiembre de 1985, un grupo de amigos realizamos un viaje a Checoslovaquia. Salimos de Viena, pasamos la frontera por <a href="https://cs.wikipedia.org/w/index.php?title=Hraniční_přechod_Nová_Bystřice_–_Grametten&oldid=25278596" target="_blank" rel="noopener">Grametten-Nová Bystřice</a> y regresamos a Austria por <a href="https://cs.wikipedia.org/w/index.php?title=Hraniční_přechod_Mikulov–Drasenhofen&oldid=25438472" target="_blank" rel="noopener">Mikulov-Drasenhofen</a>. Las impresiones de ese viaje las publiqué en <em>ABC[^1]</em>. Aquí las reproduzco ligeramente editadas.</p>
+<p class="entradilla">Del 27 al 29 de septiembre de 1985, un grupo de amigos realizamos un viaje a Checoslovaquia. Salimos de Viena, pasamos la frontera por <a href="https://cs.wikipedia.org/w/index.php?title=Hraniční_přechod_Nová_Bystřice_–_Grametten&oldid=25278596" target="_blank" rel="noopener">Grametten-Nová Bystřice</a> y regresamos a Austria por <a href="https://cs.wikipedia.org/w/index.php?title=Hraniční_přechod_Mikulov–Drasenhofen&oldid=25438472" target="_blank" rel="noopener">Mikulov-Drasenhofen.</a></p>
 
-El 28 de septiembre del 935 moría, asesinado por su propio hermano Boleslav, el duque Wenceslao de Bohemia, modelo de príncipe cristiano y paradigma para generaciones y generaciones de ciudadanos checoslovacos. ¿Hasta qué punto, sin embargo, se puede hablar de su presencia, hoy, en un país dominado por el imperio del comunismo?
+El 28 de septiembre del 935 moría, asesinado por su propio hermano Boleslav, el duque Wenceslao de Bohemia, modelo de príncipe cristiano y paradigma para generaciones y generaciones de ciudadanos checoslovacos. ¿Hasta qué punto, sin embargo, se puede hablar de su presencia, hoy, en un país dominado por el imperio del comunismo?[^1]
 
 Este año la fiesta de **San Wenceslao**, 28 de septiembre de 1985, cayó en sábado. Por una coincidencia acaso intencionada, las autoridades checas habían declarado anteriormente el día como «día de trabajo». Las tiendas, pues, tuvieron horario normal.
 
@@ -72,4 +72,4 @@ La relación de los católicos checos con el resto de fieles es escasísima. La 
 
 Cuando Tomášek no pueda seguir adelante, las dificultades, probablemente, se acentuarán. La represión, en Checoslovaquia, va para largo.
 
-[^1]: Grau Navarro, J. M. (1985, 23 de octubre). [El régimen checo ha impuesto el desarraigo de las viejas tradiciones](https://www.abc.es/archivo/periodicos/abc-madrid-19851023-38.html). *ABC*, Madrid, p. 38. Grau Navarro, J. M. (1985, 24 de octubre). [Se endurece la presión del régimen sobre la figura del cardenal Tomášek](https://www.abc.es/archivo/periodicos/abc-madrid-19851024-32.html). *ABC*, Madrid, p. 32.
+[^1]: Las impresiones de ese viaje las publiqué en *ABC*. Aquí las reproduzco ligeramente editadas. *Vid*. Grau Navarro, J. M. (1985, 23 de octubre). <a href="https://www.abc.es/archivo/periodicos/abc-madrid-19851023-38.html" target="_blank" rel="noopener noreferrer">El régimen checo ha impuesto el desarraigo de las viejas tradiciones</a>. *ABC*, Madrid, p. 38. Grau Navarro, J. M. (1985, 24 de octubre). <a href="https://www.abc.es/archivo/periodicos/abc-madrid-19851024-32.html" target="_blank" rel="noopener noreferrer">Se endurece la presión del régimen sobre la figura del cardenal Tomášek</a>. *ABC*, Madrid, p. 32.
