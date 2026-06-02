@@ -6,5 +6,6 @@ const entry = await getEntry('pages', 'libros');
 const { Content } = await render(entry);
 ---
 <Page title={entry.data.title} description={entry.data.description}>
-	<div class="libros"><Content /></div>
+	<h1>Libros</h1>
+<div class="libros"><Content /></div>
 </Page>

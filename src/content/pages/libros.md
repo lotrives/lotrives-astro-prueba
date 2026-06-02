@@ -4,7 +4,6 @@ description: "Libros de José Manuel Grau Navarro."
 tags: ["Anschluss", "Referencias"]
 ---
 
-# Libros
 
 Libros de José Manuel Grau Navarro.
 
