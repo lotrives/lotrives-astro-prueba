@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import FloatingTOC from '../components/FloatingTOC.astro';
 
 const posts = await getCollection('blog');
 
@@ -12,11 +13,7 @@ const sortedPosts = posts
 
 const postsByYear = sortedPosts.reduce((groups, post) => {
 	const year = new Date(post.data.pubDate).getFullYear();
-
-	if (!groups[year]) {
-		groups[year] = [];
-	}
-
+	if (!groups[year]) groups[year] = [];
 	groups[year].push(post);
 	return groups;
 }, {});
@@ -31,7 +28,8 @@ const formatDate = (date) =>
 	}).format(new Date(date));
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/, '$1/$2/$3/$4')}/`;
+const postUrl = (post) =>
+	`${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/, '$1/$2/$3/$4')}/`;
 ---
 
 <!doctype html>
@@ -48,23 +46,22 @@ const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{
 			<section class="page">
 				<h1>Archivo</h1>
 
-				{
-					years.map((year) => (
-						<section>
-							<h2 class="archivo-anio">{year}</h2>
-							<ul class="archivo-lista">
-								{postsByYear[year].map((post) => (
-									<li>
-										<a href={postUrl(post)}>{post.data.title}</a>
-										<span class="archivo-fecha">{formatDate(post.data.pubDate)}</span>
-									</li>
-								))}
-							</ul>
-						</section>
-					))
-				}
+				{years.map((year) => (
+					<section>
+						<h2 class="archivo-anio" id={`year-${year}`}>{year}</h2>
+						<ul class="archivo-lista">
+							{postsByYear[year].map((post) => (
+								<li>
+									<a href={postUrl(post)}>{post.data.title}</a>
+									<span class="archivo-fecha">{formatDate(post.data.pubDate)}</span>
+								</li>
+							))}
+						</ul>
+					</section>
+				))}
 			</section>
 		</main>
+		<FloatingTOC />
 		<Footer />
 	</body>
 </html>

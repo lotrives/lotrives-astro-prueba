@@ -1,43 +1,30 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import FloatingTOC from '../../components/FloatingTOC.astro';
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const slugify = (text) =>
-	text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-const notes = await getCollection('notes');
+const notes = (await getCollection('notes'))
+	.filter((note) => !note.data.draft)
+	.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
 
-const _allPosts = await getCollection('blog');
-const _allPages = await getCollection('pages');
-const _tagCount = new Map();
-for (const items of [_allPosts, notes, _allPages]) {
-for (const item of items) {
-for (const t of (item.data.tags ?? [])) {
-_tagCount.set(t, (_tagCount.get(t) ?? 0) + 1);
-}
-}
-}
+const notesByYear = notes.reduce((groups, note) => {
+	const year = new Date(note.data.pubDate).getFullYear();
+	if (!groups[year]) groups[year] = [];
+	groups[year].push(note);
+	return groups;
+}, {});
 
-const sortedNotes = notes.sort(
-	(a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
-);
+const years = Object.keys(notesByYear).sort((a, b) => Number(b) - Number(a));
 
-const renderedNotes = await Promise.all(
-	sortedNotes.map(async (note) => {
-		const { Content } = await render(note);
-		const visibleTags = (note.data.tags ?? []).filter(t => (_tagCount.get(t) ?? 0) >= 3);
-		return { note, Content, visibleTags };
-	})
-);
-
-const formatDateTime = (input) => {
+const formatDate = (input) => {
 	const str = input instanceof Date ? input.toISOString() : input;
-	const parts = str.split('T');
-	const [y, m, d] = parts[0].split('-');
-	const [h, min] = (parts[1] || '00:00').split(':');
+	const [datePart, timePart] = str.split('T');
+	const [y, m, d] = datePart.split('-');
+	const [h, min] = (timePart || '00:00').split(':');
 	return `${d}/${m}/${y}, ${h}:${min}`;
 };
 
@@ -56,89 +43,78 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 	<body>
 		<Header />
 		<main>
-			<section class="notas-wrap">
+			<section class="page">
 				<h1>Notas</h1>
 
-				{renderedNotes.map(({ note, Content, visibleTags }) => (
-					<article class="nota">
-						<h2 class="nota-titulo">
-							<a href={`/notas/${noteSlug(note)}`}>{note.data.title}</a>
-						</h2>
-						<div class="nota-cuerpo">
-							<Content />
-						</div>
-						{note.data.image && <img src={note.data.image} alt="" class="nota-imagen" />}
-						<p class="nota-fecha">
-							{formatDateTime(note.data.pubDate)}
-						</p>
-						{visibleTags.length > 0 && (
-							<div class="nota-tags">
-								{visibleTags.map((tag) => (
-									<a href={`${base}/etiquetas/#tag-${slugify(tag)}`} class="nota-tag">{tag}</a>
-								))}
-							</div>
-						)}
-						<hr class="nota-separador" />
-					</article>
+				{years.map((year) => (
+					<section>
+						<h2 class="notas-anio" id={`year-${year}`}>{year}</h2>
+						<ul class="notas-lista">
+							{notesByYear[year].map((note) => (
+								<li>
+									<a href={`${base}/notas/${noteSlug(note)}`}>{note.data.title}</a>
+									<span class="notas-fecha">{formatDate(note.data.pubDate)}</span>
+								</li>
+							))}
+						</ul>
+					</section>
 				))}
 
 				<p class="rss-pie"><a href="/notas-feed.xml">Feed RSS de notas</a></p>
 			</section>
 		</main>
+		<FloatingTOC />
 		<Footer />
 	</body>
 </html>
 
 <style>
-	.notas-wrap {
+	.page {
 		max-width: 700px;
 		margin: 0 auto;
+		padding: 1.5rem 1.5rem;
 	}
-	h1 { margin: 0 0 2rem; font-size: 2.5rem; line-height: 1; }
-	.nota { margin-bottom: 0; }
-	.nota-titulo {
-		margin: 0 0 0.6rem;
-		font-size: 1.15em;
-		line-height: 1.25;
+
+	h1 {
+		margin: 0 0 2rem;
+		font-size: 2.5rem;
+		line-height: 1;
 	}
-	.nota-titulo a {
-		color: rgb(var(--black));
-		text-decoration: underline;
-		text-underline-offset: 3px;
-		text-decoration-color: rgb(var(--gray-light));
+
+	.notas-anio {
+		margin-top: 1.5em;
+		margin-bottom: 0.5em;
+		font-size: 1.75rem;
+		line-height: 1.2;
 	}
-	.nota-titulo a:hover {
-		color: var(--accent);
+
+	.notas-lista {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
 	}
-	.nota-cuerpo { font-size: inherit; line-height: 1.7; }
-	.nota-imagen { margin: 0.8em 0; max-width: 100%; border-radius: 8px; }
-	.nota-fecha {
-		margin: 0.6em 0 0;
+
+	.notas-lista li {
+		margin-bottom: 0.5em;
+		font-size: 1.05rem;
+		line-height: 1.6;
+	}
+
+	.notas-fecha {
+		font-size: 0.75em;
+		color: #999;
+		margin-left: 0.4em;
+		letter-spacing: 0.04em;
+	}
+
+	a {
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.15em;
+	}
+
+	.rss-pie {
+		margin-top: 2rem;
 		font-size: 0.8em;
 		color: rgb(var(--gray));
-		letter-spacing: 0.03em;
 	}
-	.nota-tags { margin-top: 0.4em; }
-	.nota-tag {
-		display: inline-block;
-		font-size: 0.75em;
-		color: rgb(var(--gray));
-		margin-right: 0.4em;
-		text-decoration: underline;
-		text-underline-offset: 3px;
-		text-decoration-color: rgb(var(--gray-light));
-	}
-	.nota-tag:hover { color: var(--accent); }
-
-	.nota-separador { margin: 1.5rem 0; }
-	.rss-pie { margin-top: 1rem; font-size: 0.8em; color: rgb(var(--gray)); }
 </style>
-<script>
-document.querySelectorAll(".nota-cuerpo a[href]").forEach((a) => {
-  const href = a.getAttribute("href") ?? "";
-  if (/^https?:\/\//.test(href) && !href.startsWith("https://lotrives.com")) {
-    a.setAttribute("target", "_blank");
-    a.setAttribute("rel", "noopener noreferrer");
-  }
-});
-</script>
