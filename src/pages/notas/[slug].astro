@@ -4,22 +4,31 @@ import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
+import FloatingTOC from '../../components/FloatingTOC.astro';
 
 export async function getStaticPaths() {
-	const notes = await getCollection('notes');
-	return notes.map((note) => ({
+	const notes = (await getCollection('notes')).filter(n => !n.data.draft);
+	const sorted = notes.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
+	return sorted.map((note, i) => ({
 		params: { slug: note.id.replace(/\.md$/, '') },
-		props: { note },
+		props: {
+			note,
+			next: sorted[i + 1] ? { title: sorted[i + 1].data.title, url: `/notas/${sorted[i + 1].id.replace(/\.md$/, '')}` } : null,
+			prev: sorted[i - 1] ? { title: sorted[i - 1].data.title, url: `/notas/${sorted[i - 1].id.replace(/\.md$/, '')}` } : null,
+		},
 	}));
 }
 
-const { note } = Astro.props;
+const { note, prev, next } = Astro.props;
 const { Content } = await render(note);
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const slugify = (text) =>
 	text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+const truncate = (str, max) =>
+	str.length > max ? str.slice(0, max).trimEnd() + '…' : str;
 
 const pubDate = new Date(note.data.pubDate);
 const description = note.data.description ?? note.body.replace(/[#*`>\-]/g, '').trim().slice(0, 160);
@@ -29,11 +38,11 @@ const _allNotes = await getCollection('notes');
 const _allPages = await getCollection('pages');
 const _tagCount = new Map();
 for (const items of [_allPosts, _allNotes, _allPages]) {
-for (const item of items) {
-for (const t of (item.data.tags ?? [])) {
-_tagCount.set(t, (_tagCount.get(t) ?? 0) + 1);
-}
-}
+	for (const item of items) {
+		for (const t of (item.data.tags ?? [])) {
+			_tagCount.set(t, (_tagCount.get(t) ?? 0) + 1);
+		}
+	}
 }
 const visibleTags = (note.data.tags ?? []).filter(t => (_tagCount.get(t) ?? 0) >= 3);
 ---
@@ -46,61 +55,136 @@ const visibleTags = (note.data.tags ?? []).filter(t => (_tagCount.get(t) ?? 0) >
 			description={description}
 			image={note.data.heroImage}
 		/>
+		<style>
+	main {
+		width: calc(100% - 2em);
+		max-width: 100%;
+		margin: 0;
+		padding-top: 0.5em;
+	}
+	.prose {
+		width: 700px;
+		max-width: calc(100% - 2em);
+		margin: auto;
+		padding: 1em;
+		color: rgb(var(--gray-dark));
+	}
+	.title {
+		margin-bottom: 1em;
+		padding: 0;
+		text-align: left;
+		line-height: 1;
+	}
+	.title h1 {
+		margin: 0 0 0.4em 0;
+		font-size: 2rem;
+		font-weight: 600;
+		line-height: 1.2;
+	}
+	.date {
+		margin-top: 0.4em;
+		margin-bottom: 0.5em;
+		color: rgb(140, 155, 185);
+		font-size: 0.9em;
+	}
+	.last-updated-on {
+		font-style: italic;
+	}
+	.tags {
+		margin-top: 2em;
+		padding-top: 1em;
+		border-top: 1px solid rgb(var(--gray-light));
+		font-size: 0.85em;
+		color: rgb(var(--gray));
+	}
+	.tags a {
+		color: rgb(var(--gray));
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		text-decoration-color: rgb(var(--gray-light));
+	}
+	.tags a:hover {
+		color: var(--accent);
+	}
+	.nav-posts {
+		margin-top: 2em;
+		padding-top: 1em;
+		border-top: 1px solid rgb(var(--gray-light));
+		display: flex;
+		justify-content: space-between;
+		gap: 1em;
+		font-size: 0.85em;
+		color: rgb(var(--gray));
+	}
+	.nav-posts a {
+		color: rgb(var(--gray));
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		text-decoration-color: rgb(var(--gray-light));
+	}
+	.nav-posts a:hover {
+		color: var(--accent);
+	}
+	.nav-prev { text-align: left; }
+	.nav-next { text-align: right; margin-left: auto; }
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<section class="notas-wrap">
-				<article class="nota">
-					{note.data.title && <h1 class="nota-titulo">{note.data.title}</h1>}
-					<div class="nota-cuerpo">
-						<Content />
+			<article>
+				<div class="prose">
+					<div class="title">
+						<h1>{note.data.title}</h1>
+						<div class="date">
+							<FormattedDate date={pubDate} />
+							{note.data.updatedDate && (
+								<div class="last-updated-on">
+									Actualizado el <FormattedDate date={note.data.updatedDate} />
+								</div>
+							)}
+						</div>
+						<hr />
 					</div>
-					
-					<p class="nota-fecha"><FormattedDate date={pubDate} /></p>
+					<Content />
 					{visibleTags.length > 0 && (
-						<div class="nota-tags">
+						<div class="tags">
 							{visibleTags.map((tag, i) => (
 								<>
 									{i > 0 && ' · '}
-									<a href={`${base}/etiquetas/#tag-${slugify(tag)}`} class="nota-tag">{tag}</a>
+									<a href={`${base}/etiquetas/#tag-${slugify(tag)}`}>{tag}</a>
 								</>
 							))}
 						</div>
 					)}
-				</article>
-				<p class="volver"><a href="/notas">← Todas las notas</a></p>
-			</section>
+					<nav class="nav-posts">
+						{prev && (
+							<span class="nav-prev">
+								<a href={prev.url}>← {truncate(prev.title, 50)}</a>
+							</span>
+						)}
+						{next && (
+							<span class="nav-next">
+								<a href={next.url}>{truncate(next.title, 50)} →</a>
+							</span>
+						)}
+					</nav>
+				</div>
+			</article>
 		</main>
+		<FloatingTOC />
 		<Footer />
 	</body>
 </html>
 
-<style>
-	.notas-wrap { max-width: 700px; margin: 0 auto; }
-	.nota-titulo {
-		font-size: 1.35rem;
-		line-height: 1.25;
-		margin: 0 0 0.9rem;
-		font-weight: 600;
-	}
-	.nota-cuerpo { font-size: inherit; line-height: 1.7; }
-	.nota-imagen { margin: 0.8em 0; max-width: 100%; border-radius: 8px; }
-	.nota-fecha { margin-top: 1em; font-size: 0.8em; color: rgb(var(--gray)); letter-spacing: 0.03em; }
-	.nota-tags { margin-top: 0.4em; font-size: 0.85em; color: rgb(var(--gray)); }
-	.nota-tag { color: rgb(var(--gray)); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgb(var(--gray-light)); }
-	.nota-tag:hover { color: var(--accent); }
-	.volver { margin-top: 2rem; font-size: 0.9em; }
-</style>
-
 <script>
-  document.querySelectorAll('.nota-cuerpo a[href]').forEach((a) => {
-    const href = a.getAttribute('href') ?? '';
-    if (/^https?:\/\//.test(href) && !href.startsWith('https://lotrives.com')) {
-      a.setAttribute('target', '_blank');
-      a.setAttribute('rel', 'noopener noreferrer');
-    }
-  });
+document.querySelectorAll("a[href]").forEach((a) => {
+  const href = a.getAttribute("href") ?? "";
+  if (/^https?:\/\//.test(href) && !href.startsWith("https://lotrives.com")) {
+    a.setAttribute("target", "_blank");
+    a.setAttribute("rel", "noopener noreferrer");
+  }
+});
 
 (function () {
   const toast = document.createElement('div');
