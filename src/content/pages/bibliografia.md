@@ -46,6 +46,8 @@ Catalina de Siena. (1960) [1378]. *El Diálogo*. En *Obras de Santa Catalina de 
 
 Casares, Julio. (1981). *Diccionario ideológico de la lengua española. ‘Desde la idea a la palabra; desde la palabra a la idea’*. (2.ª ed). Barcelona: Editorial Gustavo Gili. ISBN: 84-252-0126-8.
 
+*Catecismo de la Iglesia Católica*. (1992). Asociación de Editores del Catecismo. ISBN: 8428811024 (=*CIC*).
+
 Chikiar Bauer, Irene. (2025). *Edith Stein. Judía. Filósofa. Santa*. Barcelona: Taurus.
 
 Cicerón. (2000). *Sobre la República*. Intr. general de Antonio Fontán. Trad., ap. y n. de Álvaro d'Ors. Biblioteca Básica Gredos. Madrid: Gredos. ISBN: 84-249-2510-6. [=Cicerón *República*].
