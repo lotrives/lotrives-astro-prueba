@@ -466,9 +466,10 @@ h3 + h4 {
 }
 
 p.entradilla {
-  font-size: 1.05em;
+  font-size: 1.15em;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.35;
+  color: rgb(80, 95, 130);
   margin: 0 0 1.2em;
 }
 
