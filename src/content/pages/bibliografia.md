@@ -36,6 +36,8 @@ Bentchev, Ivan / Leszczyńska, Dorota/ Marek, Michaela / Vetter, Reinhold. (1990
 
 Bernhard, Thomas. (1988). *Heldenplatz*. Fráncfort: Suhrkamp.
 
+*Biblia de Jerusalén*. (1975). Bilbao: Desclée de Brouwer. ISBN: 8433000225. Los textos bíblicos, títulos, subtítulos, introducciones, notas, notas marginales y apéndices de la versión en español son traducción directa de la publicación original en francés, *La Bible de Jérusalem*, Éditions du Cerf, París, 1973, bajo la Dirección de la Escuela Bíblica de Jerusalén (= *BJ*). 
+
 Blánquez Fraile, Agustín. (1975) [1946]. *Diccionario latino-español A-J* (I)*.* *Diccionario latino-español K-Z* (II)*.* *Diccionario español-latino* (III, prólogo de Felipe Mateu Llopis)*.* Barcelona: Editorial Ramón Sopena. ISBN 84-303-0151-8. [= Blánquez *Diccionario*].
 
 Bonhoeffer, Dietrich. (1968). *Bonhoeffer-Brevier*. Múnich: Chr. Kaiser Verlag.
