@@ -2,11 +2,11 @@
 title: "La torre de Babel y la inteligencia artificial"
 pubDate: 2026-06-05
 description: "La interpretación de Babel en tres exégesis clásicas y en «Magnifica humanitas» como clave para pensar la IA."
-tags: ["Biblia", "Inteligencia artificial", "Magnifica humanitas"]
+tags: ["Biblia", "Inteligencia artificial", "Magnifica humanitas", "León XIV"]
 heroImage: "/assets/images/zigurat-ur.webp"
 ---
 
-<p class="entradilla">Un hilo conductor de la encíclica «Magnifica humanitas» es el episodio de la torre de Babel. Vemos aquí la interpretación de León XIV precedida de otras tres clásicas, y sacamos una conclusión.</p>
+<p class="entradilla">Un hilo conductor de la encíclica «Magnifica humanitas» es el episodio de la torre de Babel. Ofrecemos aquí la interpretación de León XIV sobre ese relato, precedida de otras tres clásicas, y sacamos una conclusión.</p>
 
 ![Zigurat de Ur (Irak)](/assets/images/zigurat-ur.webp)
 
@@ -36,11 +36,11 @@ Según Schökel, las lenguas se multiplican como consecuencia de un castigo de D
 
 ### En la Biblia Hebrea
 
-«La historia de la torre de Babel transforma el zigurat mesopotámico, construido con ladrillos (a diferencia de las estructuras de piedra cananeas) y una de las maravillas de la tecnología antigua, en una fábula monoteísta. Aunque existe una larga tradición exegética que imagina la construcción de la torre como un intento de alcanzar las alturas del cielo, el texto en realidad no sugiere eso. Su "cúspide en los cielos" es una hipérbole que se encuentra en inscripciones mesopotámicas para celebrar torres altas, y forjarse un "nombre" mediante la erección de un monumento perdurable es una noción recurrente en la antigua cultura hebrea. El mensaje polémico de este relato se dirige contra el urbanismo y la excesiva confianza de la humanidad en los avances tecnológicos. Esta polémica, a su vez, se relaciona con las historias del árbol de la vida (Gn 3, 4 y ss.) y con los [nefilim](https://es.wikipedia.org/w/index.php?title=Nefilim&oldid=173222826), en las que se observa a la humanidad aspirando a trascender los límites de su condición de criatura. Como en aquellos momentos anteriores, se vislumbran aquí los vestigios de un trasfondo mitológico en el que Dios se dirige a un séquito celestial no especificado en primera persona del plural mientras considera cómo responder a la presunción del hombre» (Alter, Robert. (2019). *The Hebrew Bible. The five books of Moses Torah. Volumen 1*. A translation with commentary. W. W. Norton, epub, nota a Gn 11, 1-9; traducción del inglés de Lotrives).
+«La historia de la torre de Babel transforma el zigurat mesopotámico, construido con ladrillos (a diferencia de las estructuras de piedra cananeas) y una de las maravillas de la tecnología antigua, en una fábula monoteísta. Aunque existe una larga tradición exegética que imagina la construcción de la torre como un intento de alcanzar las alturas del cielo, el texto en realidad no sugiere eso. Su "cúspide en los cielos" es una hipérbole que se encuentra en inscripciones mesopotámicas para celebrar torres altas, y forjarse un "nombre" mediante la erección de un monumento perdurable es una noción recurrente en la antigua cultura hebrea. El mensaje polémico de este relato se dirige contra el urbanismo y la excesiva confianza de la humanidad en los avances tecnológicos. Esta polémica, a su vez, se relaciona con los relatos del árbol de la vida (Gn 3, 4 y ss.) y con los [nefilim](https://es.wikipedia.org/w/index.php?title=Nefilim&oldid=173222826), en los que se observa a la humanidad aspirando a trascender los límites de su condición de criatura. Como en aquellos momentos anteriores, se vislumbran aquí los vestigios de un trasfondo mitológico en el que Dios se dirige a un séquito celestial no especificado en primera persona del plural mientras considera cómo responder a la presunción del hombre» (Alter, Robert. (2019). *The Hebrew Bible. The five books of Moses Torah. Volumen 1*. A translation with commentary. W. W. Norton, epub, nota a Gn 11, 1-9; traducción del inglés de Lotrives).
 
 Alter corrige la lectura demasiado literal de «alcanzar el cielo», y lo centra, como Schökel, en la crítica al urbanismo, al monumento y a la confianza tecnológica. 
 
-Lo que hay detrás del término *urbanismo* en Babel, en los albores de la humanidad, se parece, quizás, a la pretensión de vivir en el cosmos, de algunos multimillonarios estadounidenses en nuestros días, o a determinadas metas bélicas inconfesables con la IA de determinados gobiernos.
+Lo que hay detrás del término *urbanismo* en Babel, en los albores de la humanidad, se parece, quizás, a la pretensión actual de vivir en el cosmos, alentada por algunos multimillonarios estadounidenses, o a determinadas metas bélicas inconfesables asociadas a la IA.
 
 ## «Magnifica humanitas»
 
@@ -59,4 +59,4 @@ León XIV da un paso más con esta triple interpretación teológica del episodi
 
 >«La Babel moderna no es solo el paradigma tecnocrático globalizado, sino también el enfrentamiento a distancia entre imperialismos contrapuestos, entre potencias que quieren conservar su primacía y potencias que aspiran a conquistarla, con una multiplicidad de conflictos locales. Es, además, la carrera por desarrollar tecnologías cada vez más poderosas, o por asegurarse su control, según una dinámica deshumanizante que parece no conocer límites»  (*Magnifica humanitas*, n. 185).
 
-Babel no es simplemente el origen doloroso de la diversidad lingüística. Es, más bien, el fracaso de una falsa unidad. Pentecostés no revierte la diversidad de lenguas, sino la incomunicación. No impone una lengua única: posibilita la comprensión. Pentecostés ha sucedido ya. Se trata de hacerlo presente.
+Babel no es simplemente el origen doloroso de la diversidad lingüística. Es, más bien, el fracaso de una unidad ya amenazada de muerte. Pentecostés no revierte la diversidad de lenguas, sino la incomunicación. No impone una lengua única: posibilita la comprensión. Pentecostés ha sucedido. Se trata de crear las condiciones para hacerlo presente.
