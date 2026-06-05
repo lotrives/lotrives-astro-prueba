@@ -1,7 +1,7 @@
 ---
 title: "La torre de Babel y la inteligencia artificial"
 pubDate: 2026-06-05
-description: "La interpretación de Babel en tres exégesis clásicas y en «Magnifica humanitas» como clave para pensar la IA."
+description: "Leído desde la tradición y en la «Magnifica humanitas» de León XIV, Babel ayuda a pensar sobre la técnica, el poder y la inteligencia artificial."
 tags: ["Biblia", "Inteligencia artificial", "Magnifica humanitas", "León XIV"]
 heroImage: "/assets/images/zigurat-ur.webp"
 ---
