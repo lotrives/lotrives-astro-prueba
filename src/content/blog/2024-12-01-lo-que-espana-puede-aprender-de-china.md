@@ -3,7 +3,7 @@ title: "Lo que España puede aprender de China"
 description: "CATL, Pan Jian y los coches eléctricos"
 pubDate: 2024-12-01
 updatedDate: 2026-06-05
-tags: ["Economía", "Europa", "Sociedad", "Política"]
+tags: ["Economía", "Europa", "Sociedad", "Política", "China"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!pF6o!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57feacf3-ff33-44a2-a655-3b1e8dd0da5a_2560x1390.jpeg"
 canonical: "https://lotrives.substack.com/p/lo-que-espana-puede-aprender-de-china"
 ---
