@@ -13,7 +13,7 @@ canonical: "https://lotrives.substack.com/p/sobre-el-aumento-del-gasto-en-defens
 <div class="img-float-right" style="width: 300px;">
 <img src="https://substackcdn.com/image/fetch/$s_!aO8k!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb59f4372-2e87-42e1-b41d-f0f01f5b54f4_2304x1792.png" style="width: 100%;" alt="Foto generada con Adobe Firefly. Sobre el gasto en defensa en la UE" />
 
-<p class="pie-foto"><em>Foto generada con Adobe Firefly</em></p>
+<p class="pie-foto">Foto generada con Adobe Firefly</p>
 </div>
 
 Querida **[Tania](/2025/03/01/carta-de-una-madre-ucraniana/)**:
