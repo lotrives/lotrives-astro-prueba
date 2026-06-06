@@ -3,7 +3,7 @@ title: "El Plan Balcerowicz"
 description: "El Gobierno de Polonia presenta en el Sejm el Plan Balcerowicz, un conjunto de reformas económicas para estabilizar la economía y controlar la hiperinflación."
 pubDate: 1990-01-03
 updatedDate: 2026-05-16
-tags: ["Polonia", "Economía", "Comunismo", "Memorias"]
+tags: ["Polonia", "Comunismo", "Memorias"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/21._Internationales_Management-Gespräch-Leszek_Balcerowicz-HSGN_028-00876.jpg/960px-21._Internationales_Management-Gespräch-Leszek_Balcerowicz-HSGN_028-00876.jpg"
 canonical: "https://lotrives.substack.com/p/el-plan-balcerowicz"
 ---

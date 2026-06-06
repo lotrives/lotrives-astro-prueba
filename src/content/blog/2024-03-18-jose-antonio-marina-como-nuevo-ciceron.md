@@ -3,7 +3,7 @@ title: "José Antonio Marina como nuevo Cicerón"
 description: "«Historia universal de las soluciones», el libro recién publicado de José Antonio Marina, denuncia los males que se derivan de separar la «sociedad civil» de la «sociedad política»"
 pubDate: 2024-03-18
 updatedDate: 2026-05-21
-tags: ["Política", "Filosofía"]
+tags: []
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/jose-antonio-marina-como-nuevo-ciceron"
 ---

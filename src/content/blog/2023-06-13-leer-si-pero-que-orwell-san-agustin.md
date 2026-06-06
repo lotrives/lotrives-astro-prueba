@@ -3,7 +3,7 @@ title: "Leer, sí. ¿Pero qué?"
 description: "La respuesta de George Orwell y un apunte de San Agustín"
 pubDate: 2023-06-13
 updatedDate: 2026-05-15
-tags: ["Cultura", "San Agustín"]
+tags: ["San Agustín"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Austria_-_Heiligenkreuz_Abbey_-_1726.jpg/1280px-Austria_-_Heiligenkreuz_Abbey_-_1726.jpg"
 canonical: "https://lotrives.substack.com/p/leer-si-pero-que-orwell-san-agustin"
 ---

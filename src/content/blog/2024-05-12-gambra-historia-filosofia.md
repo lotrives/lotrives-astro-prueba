@@ -1,7 +1,7 @@
 ---
 title: "Rafael Gambra: «Historia sencilla de la filosofía"
 pubDate: 2024-05-12
-tags: ["Rafael Gambra", "Filosofía"]
+tags: ["Rafael Gambra"]
 description: "Explicación de por qué se filosofa. El ejemplo del hombre que pierde la conciencia y trata de buscar el sentido de lo que ve cuando la recupera sin memoria."
 ---
 

@@ -3,7 +3,7 @@ title: "El islam: un mundo que excluye al no creyente, según Rémi Brague"
 description: "La amenaza yihadista no ha pasado, advierte Hugo Micheron"
 pubDate: 2023-06-02
 updatedDate: 2026-05-15
-tags: ["Filosofía", "Islam"]
+tags: ["Islam"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Kaaba_during_Hajj_-_edited.jpg/1280px-The_Kaaba_during_Hajj_-_edited.jpg"
 canonical: "https://lotrives.substack.com/p/el-islam-remi-brague-hugo-micheron"
 ---

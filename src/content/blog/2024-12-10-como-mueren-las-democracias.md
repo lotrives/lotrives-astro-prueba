@@ -3,7 +3,7 @@ title: "¿Cómo mueren las democracias?"
 description: "Mintiendo sobre las finanzas públicas y la naturaleza del dinero"
 pubDate: 2024-12-10
 updatedDate: 2026-06-05
-tags: ["Política", "Economía", "Europa", "Filosofía", "Ludwig von Mises"]
+tags: ["Ludwig von Mises"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!hQDe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c905a21-a02c-4294-b011-e6e2cef471da_512x512.png"
 canonical: "https://lotrives.substack.com/p/como-mueren-las-democracias"
 ---

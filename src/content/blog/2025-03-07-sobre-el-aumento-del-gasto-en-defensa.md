@@ -3,7 +3,7 @@ title: "Sobre el aumento del gasto en Defensa"
 description: "Carta a mi amiga Tania (Kiev): la UE se rearma, sus ciudadanos se empobrecen y los únicos que mueren son los soldados."
 pubDate: 2025-03-07
 updatedDate: 2026-06-06
-tags: ["Rusia", "Europa", "Donald Trump", "Ucrania"]
+tags: ["Rusia", "Donald Trump", "Ucrania"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!aO8k!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb59f4372-2e87-42e1-b41d-f0f01f5b54f4_2304x1792.png"
 canonical: "https://lotrives.substack.com/p/sobre-el-aumento-del-gasto-en-defensa-carta-tania"
 ---

@@ -3,7 +3,7 @@ title: "¿Tendría que pedirnos perdón el Gobierno por la inflación?"
 description: "En el improbable caso de que lo hiciera, por el enorme empobrecimiento que nos causa, serviría de poco hasta que no se corrija lo que se entiende por «dinero», y se actúe en consecuencia"
 pubDate: 2023-05-01
 updatedDate: 2026-05-15
-tags: ["Economía", "Ludwig von Mises", "Joseph Ratzinger"]
+tags: ["Ludwig von Mises", "Joseph Ratzinger"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/United_States_one_dollar_bill%2C_obverse.jpg/1280px-United_States_one_dollar_bill%2C_obverse.jpg"
 canonical: "https://lotrives.substack.com/p/tendria-que-pedirnos-perdon-el-gobierno"
 ---

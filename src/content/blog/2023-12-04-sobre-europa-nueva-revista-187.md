@@ -3,7 +3,7 @@ title: "Sobre Europa"
 description: "Nueva Revista número 187, nuevo número impreso"
 pubDate: 2023-12-04
 updatedDate: 2026-05-16
-tags: ["Europa", "Joseph Ratzinger", "Derechos humanos", "Filosofía"]
+tags: ["Joseph Ratzinger", "Derechos humanos"]
 heroImage: "/assets/images/europa-nueva-revista.webp"
 canonical: "https://lotrives.substack.com/p/sobre-europa-nueva-revista-187"
 ---

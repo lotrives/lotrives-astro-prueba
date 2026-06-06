@@ -3,7 +3,7 @@ title: "¿Qué es la dignidad humana?"
 description: "Dignidad humana, derechos y «Pactos», lecturas de «Nueva Revista»"
 pubDate: 2023-07-07
 updatedDate: 2026-05-16
-tags: ["Derechos humanos", "Filosofía", "Política", "Concilio Vaticano II", "Santo Tomás de Aquino"]
+tags: ["Derechos humanos", "Concilio Vaticano II", "Santo Tomás de Aquino"]
 heroImage: "/assets/images/pactos-nueva-revista-185.webp"
 canonical: "https://lotrives.substack.com/p/dignidad-humana-derechos-pactos-nueva-revista"
 ---

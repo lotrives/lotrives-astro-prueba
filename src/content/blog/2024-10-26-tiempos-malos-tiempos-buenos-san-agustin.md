@@ -3,7 +3,7 @@ title: "¿Hay tiempos malos y tiempos buenos?"
 description: "La respuesta de san Agustín: «Los tiempos somos nosotros; cuales somos nosotros, así son los tiempos»."
 pubDate: 2024-10-26
 updatedDate: 2026-06-05
-tags: ["San Agustín", "Filosofía", "Cristianismo"]
+tags: ["San Agustín"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!rJEy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f75f593-1ae1-4b20-bb9a-76baa9a98ec0_629x924.jpeg"
 canonical: "https://lotrives.substack.com/p/tiempos-malos-tiempos-buenos-san-agustin"
 ---

@@ -3,7 +3,7 @@ title: "Ideologías"
 description: "Reflexión sobre las ideologías a partir de Hayek, Gonzalo Fernández de la Mora, José Ferrater Mora y Karl Mannheim."
 pubDate: 2024-09-26
 updatedDate: 2026-05-24
-tags: ["Filosofía", "Política", "Ideología", "Friedrich A. Hayek", "Karl Marx"]
+tags: ["Ideología", "Friedrich A. Hayek", "Karl Marx"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/ideologias"
 ---

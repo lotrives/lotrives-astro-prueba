@@ -1,7 +1,7 @@
 ---
 title: "Qué es el socialismo"
 pubDate: 2026-04-26
-tags: ["Socialismo", "Política", "Economía", "Diccionarios"]
+tags: ["Socialismo", "Diccionarios"]
 description: "Qué significa 'socialismo' según los grandes diccionarios europeos: etimología, definiciones en francés, alemán, inglés y español, y una mirada crítica al concepto."
 ---
 

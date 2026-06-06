@@ -3,7 +3,7 @@ title: "¿Ha muerto la cristiandad?"
 description: "Chantal Delsol y el desencanto con una Iglesia que no brilla por lo propiamente suyo"
 pubDate: 2023-05-18
 updatedDate: 2026-05-15
-tags: ["Cultura"]
+tags: []
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/3/36/Sacre_de_Charlemagne.jpg"
 canonical: "https://lotrives.substack.com/p/ha-muerto-la-cristiandad-chantal-delsol"
 ---

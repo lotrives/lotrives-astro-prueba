@@ -3,7 +3,7 @@ title: "La felicidad, según Immanuel Kant"
 description: "«El problema de determinar con seguridad y universalidad qué acción fomenta la felicidad de un ser racional es totalmente irresoluble», afirma Kant."
 pubDate: 2024-03-07
 updatedDate: 2026-05-21
-tags: ["Immanuel Kant", "Filosofía", "Felicidad"]
+tags: ["Immanuel Kant", "Felicidad"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/la-felicidad-segun-immanuel-kant"
 ---

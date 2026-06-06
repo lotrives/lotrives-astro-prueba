@@ -3,7 +3,7 @@ title: "Ortega y Gasset sobre las «minorías selectas»"
 description: "Citas de «La rebelión de las masas» sobre las minorías selectas, la masa, la exigencia personal y el carácter aristocrático de la sociedad."
 pubDate: 2024-03-28
 updatedDate: 2026-05-21
-tags: ["José Ortega y Gasset", "Filosofía"]
+tags: ["José Ortega y Gasset"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/ortega-y-gasset-sobre-las-minorias"
 ---
