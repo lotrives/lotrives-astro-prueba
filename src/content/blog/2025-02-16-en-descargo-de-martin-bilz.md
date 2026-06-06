@@ -3,7 +3,7 @@ title: "En descargo de Martín Bilz"
 description: "Una ficción sobre la discapacidad y el sentido de la vida, con cuatro citas de la novela."
 pubDate: 2025-02-16
 updatedDate: 2026-06-06
-tags: ["Autismo", "Discapacidad", "Memorias", "Martín Bilz"]
+tags: ["Autismo", "Discapacidad", "Memorias", "Martín Bilz", "Pablo Bilz", "Hugo Bilz", "Nadia Bilz"]
 heroImage: "/assets/images/descargo-martin-bilz.webp"
 canonical: "https://lotrives.substack.com/p/en-descargo-de-martin-bilz"
 ---
