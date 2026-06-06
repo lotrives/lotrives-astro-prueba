@@ -2,7 +2,7 @@
 title: "«No es periodismo de investigación, sino un flujo de conciencia sin ataduras a la realidad», afirma Skibiński sobre el libro de Gore sobre el Opus Dei"
 description: "Skibiński, historiador polaco, desmonta el libro de Gore sobre el Opus Dei: no es periodismo de investigación, sino un flujo de conciencia sin ataduras."
 pubDate: 2026-05-22
-tags: ["Opus Dei", "Iglesia"]
+tags: ["Opus Dei"]
 heroImage: "/assets/images/og-default.webp"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "El Opus Dei ante la Iglesia: cien años buscando encaje"
 pubDate: 2026-04-26
-tags: ["Opus Dei", "San Josemaría Escrivá de Balaguer", "Iglesia"]
+tags: ["Opus Dei", "San Josemaría Escrivá de Balaguer"]
 description: "Del carisma fundacional de Escrivá de Balaguer a la prelatura personal y los decretos del papa Francisco: el itinerario jurídico del Opus Dei en sus documentos."
 last_modified_at: 2026-04-27
 ---

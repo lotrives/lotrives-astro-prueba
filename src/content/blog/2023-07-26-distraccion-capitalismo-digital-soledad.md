@@ -3,7 +3,7 @@ title: "Distracción, capitalismo digital y soledad"
 description: "Todos somos dependientes, al contrario del paradigma de la autosuficiencia que se pregona. Una sociedad en la que ya no se necesita ni pareja, ni hijos, ni amigos se dirige al precipicio"
 pubDate: 2023-07-26
 updatedDate: 2026-05-16
-tags: ["Sociedad", "Cultura", "Economía", "Inteligencia artificial"]
+tags: ["Cultura", "Economía", "Inteligencia artificial"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/960px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg"
 canonical: "https://lotrives.substack.com/p/distraccion-capitalismo-digital-soledad"
 ---

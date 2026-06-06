@@ -3,7 +3,7 @@ title: "El lado bueno de la vida y la noche oscura del alma"
 description: "La paradoja de abrir los ojos cerrándolos"
 pubDate: 2024-01-28
 updatedDate: 2026-05-16
-tags: ["Felicidad", "Filosofía", "Sociedad"]
+tags: ["Felicidad", "Filosofía"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Chartres_RosetteNord_121_DSC08241.jpg/960px-Chartres_RosetteNord_121_DSC08241.jpg"
 canonical: "https://lotrives.substack.com/p/lado-bueno-vida-noche-oscura-del-alma"
 ---

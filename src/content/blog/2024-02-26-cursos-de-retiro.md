@@ -3,7 +3,7 @@ title: "Cursos de retiro"
 description: "Sobre las bondades de una práctica olvidada"
 pubDate: 2024-02-26
 updatedDate: 2026-05-18
-tags: ["Iglesia", "Santo Tomás de Aquino", "Edith Stein"]
+tags: ["Santo Tomás de Aquino", "Edith Stein"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/1_montserrat_Santa_Maria_de_Montserrat_Abbey_Funicular_de_Sant_Joan_2014.jpg/960px-1_montserrat_Santa_Maria_de_Montserrat_Abbey_Funicular_de_Sant_Joan_2014.jpg"
 canonical: "https://lotrives.substack.com/p/cursos-de-retiro"
 ---

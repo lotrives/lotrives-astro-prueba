@@ -3,7 +3,7 @@ title: "«Qué es el cristianismo»"
 description: "El «Testamento espiritual» de Benedicto XVI y «Los cuatro niveles de la felicidad»"
 pubDate: 2023-06-30
 updatedDate: 2026-05-16
-tags: ["Joseph Ratzinger", "Iglesia", "Felicidad"]
+tags: ["Joseph Ratzinger", "Felicidad"]
 heroImage: "/assets/images/catedral-san-esteban-viena.webp"
 canonical: "https://lotrives.substack.com/p/lotrives-testamento-benedicto-xvi-felicidad"
 ---

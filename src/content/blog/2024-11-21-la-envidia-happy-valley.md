@@ -3,7 +3,7 @@ title: "La envidia"
 description: "A propósito de Kevin Weatherill en la serie Happy Valley"
 pubDate: 2024-11-21
 updatedDate: 2026-06-05
-tags: ["Filosofía", "Sociedad", "Cine", "Cristianismo"]
+tags: ["Filosofía", "Cine", "Cristianismo"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!mV8r!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd0629700-f0da-4d86-a0c7-1dfe8e58365b_2049x2048.jpeg"
 canonical: "https://lotrives.substack.com/p/la-envidia-happy-valley"
 ---
