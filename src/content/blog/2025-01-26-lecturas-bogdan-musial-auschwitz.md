@@ -8,8 +8,6 @@ heroImage: "https://substackcdn.com/image/fetch/$s_!VKbu!,w_1200,h_675,c_fill,f_
 canonical: "https://lotrives.substack.com/p/lecturas-bogdan-musial-auschwitz"
 ---
 
-«Lagermedizin» in Auschwitz
-
 <div class="img-float-right" style="width: 200px;">
 <img src="https://substackcdn.com/image/fetch/$s_!VKbu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f9cd10e-571b-4bfc-b226-66b963f89ea3_330x502.jpeg" style="width: 100%;" alt="Portada de «Lagermedizin» in Auschwitz, de Bogdan Musiał" />
 
