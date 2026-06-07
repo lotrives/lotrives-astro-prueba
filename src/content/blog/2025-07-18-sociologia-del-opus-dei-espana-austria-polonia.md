@@ -75,7 +75,7 @@ En 1982, en Austria, forman parte del Opus Dei muy pocas personas. El núcleo so
 
 ### 1985
 
-Consigo empezar a ganar dinero escribiendo para *ABC* desde Viena, como corresponsal. La historia, [aquí](https://lotrives.com/2025/02/06/el-minuto-heroico-y-el-opus-dei/).
+Consigo empezar a ganar dinero escribiendo para *ABC* desde Viena, como corresponsal. La historia, [aquí](https://lotrives.com/2024/02/09/ricardo-estarriol/).
 
 A pesar de los pesares, también en Austria el grado de perseverancia de numerarios y agregados ha sido muy bajo. Realizo un repaso mental y certifico la desbandada.
 
