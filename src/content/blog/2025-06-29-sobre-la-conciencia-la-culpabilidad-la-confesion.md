@@ -8,7 +8,7 @@ heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Edvard_Mun
 canonical: "https://lotrives.substack.com/p/sobre-la-conciencia-la-culpabilidad-la-confesion"
 ---
 
-<p class="entradilla">«Una pesadilla y un debate sobre la confesión y el psicoanálisis. Relato epistolar de Pablo Bilz»</p>
+<p class="entradilla">Una pesadilla y un debate sobre la confesión y el psicoanálisis. Relato epistolar de Pablo Bilz</p>
 
 <div class="img-float-right" style="width: 300px;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Edvard_Munch_-_The_Kiss_-_Google_Art_Project.jpg/500px-Edvard_Munch_-_The_Kiss_-_Google_Art_Project.jpg" style="width: 100%;" alt="El beso, óleo de Edvard Munch" />
