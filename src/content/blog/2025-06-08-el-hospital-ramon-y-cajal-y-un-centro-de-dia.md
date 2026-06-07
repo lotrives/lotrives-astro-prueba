@@ -1,6 +1,6 @@
 ---
 title: "El Hospital Ramón y Cajal y un centro de día"
-description: "Urgencias colapsadas y salas sin luz natural. En el Ramón y Cajal, con una enferma que pierde la vista repentinamente y ella con un hijo discapacitado a cargo."
+description: "Urgencias colapsadas y salas sin luz natural. En el Ramón y Cajal, con una enferma que pierde la vista repentinamente y ella, con un hijo discapacitado a cargo."
 pubDate: 2025-06-08
 tags: ["Autismo", "Sanidad pública", "Medicina", "MIR", "Pablo Bilz", "Nadia Bilz"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Hospital_Ramón_y_Cajal.jpg/1280px-Hospital_Ramón_y_Cajal.jpg"
@@ -8,7 +8,7 @@ updatedDate: 2026-06-07
 canonical: "https://lotrives.substack.com/p/critica-hospital-ramon-y-cajal"
 ---
 
-<p class="entradilla">Urgencias colapsadas y salas sin luz natural. En el Ramón y Cajal con una enferma que pierde la vista repentinamente y ella con un hijo discapacitado a cargo.</p>
+<p class="entradilla">Urgencias colapsadas y salas sin luz natural. En el Ramón y Cajal, con una enferma que pierde la vista repentinamente y ella, con un hijo discapacitado a cargo.</p>
 
 <div class="img-float-right" style="width: 300px;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Hospital_Ramón_y_Cajal.jpg/1280px-Hospital_Ramón_y_Cajal.jpg" style="width: 100%;" alt="Hospital Ramón y Cajal, Madrid" />
