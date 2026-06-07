@@ -2,7 +2,7 @@
 title: "Relaciones Iglesia-Opus Dei"
 description: "Una fábula sobre el encuentro entre un alto dignatario de la Iglesia y un dirigente del Opus Dei, para tratar sobre los nuevos estatutos."
 pubDate: 2025-04-18
-tags: ["Opus Dei", "Juan Pablo II", "Francisco", "Joseph Ratzinger", "Pablo Bilz", "Ad charisma tuendum"]
+tags: ["Opus Dei", "Juan Pablo II", "Papa Francisco", "Joseph Ratzinger", "Pablo Bilz", "Ad charisma tuendum"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!mgMh!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d64346f-aa4e-48c1-99ec-ebd035929a7c_1536x1024.png"
 updatedDate: 2026-06-07
 canonical: "https://lotrives.substack.com/p/relaciones-iglesia-opus-dei"
@@ -32,7 +32,7 @@ Un alto dignatario de la Iglesia católica se entrevista con un dirigente plenip
 
 —(*Iglesia*) Sabe usted, han llegado muchas quejas al Vaticano todos estos años sobre experiencias muy desafortunadas de muchos exmiembros del Opus Dei cuando eran miembros del Opus Dei, de prácticas proselitistas inadecuadas dentro del Opus Dei —de tal manera que hasta hemos prohibido la palabra *proselitismo—,* de ambición de riqueza material por parte del Opus Dei, de su preferencia por las clases altas, de que subordina a las mujeres y de que practica una dirección espiritual no acorde con la libertad de conciencia. Los últimos coletazos de todo eso son el documental *[El minuto heroico. Yo también salí del Opus Dei](https://lotrives.com/2025/02/06/el-minuto-heroico-y-el-opus-dei/)*, el contencioso por el [santuario de Torreciudad](https://opusdei.org/es-es/article/comunicado-torreciudad-diocesis-barbastro/) y el caso **José María Martínez,** [numerario](https://opusdei.org/es-es/article/solteros-casados-numerarios-agregados-supernumerarios-opus-dei/) del [Colegio Gaztelueta](https://www.omnesmag.com/actualidad/sentencia-del-caso-gaztelueta-el-profesor-es-expulsado-del-opus-dei/). ¿Piensa usted que se trata de maniobras para que los estatutos del Opus Dei no se aprueben según el borrador que ustedes han presentado?
 
-—(*Opus Dei*) El Opus Dei reconoce que en ocasiones no ha estado a la altura de lo que entiende como su misión, pero desea aprender de sus errores, pedir perdón caso a caso cuando haya actuado mal, compensar el daño hecho espiritual y económicamente, y continuar sirviendo a la Iglesia. Nos parece que **José María Martínez** es inocente, aunque se nos pida que se le expulse como [numerario](https://opusdei.org/es-es/article/solteros-casados-numerarios-agregados-supernumerarios-opus-dei/) tras una sentencia en segunda instancia que fue exculpatoria de los supuestos abusos sexuales por los que se le había condenado en primera.
+—(*Opus Dei*) El Opus Dei reconoce que en ocasiones no ha estado a la altura de lo que entiende como su misión, pero desea aprender de sus errores, pedir perdón caso a caso cuando haya actuado mal, compensar el daño hecho espiritual y económicamente, y continuar sirviendo a la Iglesia. Nos parece que **José María Martínez** es inocente, aunque se nos pida que se le expulse como numerario tras una sentencia en segunda instancia que fue exculpatoria de los supuestos abusos sexuales por los que se le había condenado en primera.
 
 —(*Iglesia*) No entro en el caso **José María Martínez**. Repito la pregunta: ¿Piensa usted que lo mencionado son maniobras para que los estatutos del Opus Dei no se aprueben según el borrador que ustedes han presentado?
 
