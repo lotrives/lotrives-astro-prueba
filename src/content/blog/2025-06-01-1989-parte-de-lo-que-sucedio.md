@@ -21,6 +21,12 @@ En enero de 1989 vivía en Viena, en la Residencia de Estudiantes Birkbrunn, y d
 
 Petersplatz 6, enfrente de la Iglesia de San Pedro, en el distrito I de Viena, es un edificio estrecho y alto, barroco, reconstruido, pensado desde el origen como casa parroquial. En la fachada sobresale una escultura de san Pedro, de aspecto forzudo y con las llaves del reino de los cielos. El bloque consta de cuatro pisos estrechos pero con mucho fondo, y de tres plantas de sótano. Todo estaba muy limpio y muy bien puesto. Todo funcionaba a la perfección.
 
+<div class="img-float-left" style="width: 300px;">
+<img src="/assets/images/memorias-3.webp" style="width: 100%;" alt="Portada del libro de José Manuel Grau Navarro titulado 1989. Parte de lo que sucedió" />
+
+<p class="pie-foto">Portada de <em>1989. Parte de lo que sucedió</em>. Foto: © Lotrives.</p>
+</div>
+
 En Petersplatz 6 vivía, entre otros, [Ricardo Estarriol](https://lotrives.com/2024/02/09/ricardo-estarriol/), corresponsal de *La Vanguardia* (Barcelona) y numerario del Opus Dei. Allí iba yo muchas veces a almorzar. El comedor estaba en la última planta y se servía la vianda acompañada de una copa de vino blanco marca Riesling. En Petersplatz 6 ocupaba plaza también don **Juan Bautista Torelló**, médico, psiquiatra, sacerdote, poeta, catalán y rector de Peterskirche. Alguna vez escribí crónicas en las plantas subterráneas de esa casa y muchas veces me retiraba a la última habitación del sótano, a leer en un espacio de suma tranquilidad y aislamiento. La calefacción era buena y el silencio, imponente.
 
 Mi tercera dirección de referencia en Viena era la ya mencionada Residencia de Estudiantes Birkbrunn, donde me albergué cuando llegué a la capital de Austria, en septiembre de 1982. Estaba en el distrito XIX de Viena. La Residencia de Estudiantes Birkbrunn era un chalé modernista de principios del siglo XX, con una vidriera desde donde se divisaba el parque de la Linnéplatz (la plaza de Lineo).
