@@ -41,5 +41,6 @@ A finales de 1989, por iniciativa de **Luis María Anson**, director de *ABC*, a
 
 En enero de 1989, Alemania estaba dividida en dos y Europa partida en la Europa del Este, oficialmente comunista, y en la Europa occidental. Todos creían, incluidos los más expertos, que así sería por años sin cuenta. En el transcurso de 1989 el comunismo se derrumbó en Europa como un castillo de naipes, al igual que su símbolo más conocido: el Muro de Berlín. […].
 
+---
 
-(El texto anterior procede de: Grau Navarro, J. M. (2025). *1989. Parte de lo que sucedió. Memorias. De Austria a Polonia*, pp. 3-7. El libro se puede adquirir [aquí.](https://amzn.eu/d/0tPHzgS))
+El texto anterior procede de: Grau Navarro, J. M. (2025). *1989. Parte de lo que sucedió. Memorias. De Austria a Polonia*, pp. 3-7. El libro se puede adquirir [aquí.](https://amzn.eu/d/0tPHzgS)
