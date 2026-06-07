@@ -24,7 +24,7 @@ Viena, martes, 20/6/1989. El personal técnico auxiliar y administrativo contrat
 
 [Me pidieron algunos conocidos de la Embajada de España en Austria que tratara de difundir la noticia de la huelga en *ABC*, y lo hice y se publicó. Sin buscarlo, tuvo su recompensa cuando en una ocasión me quedé sin hojas para el sello de visados en mi pasaporte y necesitaba viajar urgentemente a Polonia. Era necesario renovarlo. Los funcionarios de la Embajada de España en Austria me entregaron uno nuevo en un santiamén, en señal de agradecimiento por la noticia mencionada, según me comentó en una ocasión Javier Sellés].[^3]
 
-<div class="img-float-right" style="width: 600px;">
+<div class="img-float-right" style="width: 400px;">
 <img src="/assets/images/selles-2.webp" style="width: 100%;" alt="Lista del jurado en el concurso de lenguas. Viena, 24/4/1989" />
 
 <p class="pie-foto">Lista del jurado en el concurso de lenguas. Viena, 24/4/1989. Foto: © Lotrives</p>
@@ -46,7 +46,7 @@ A continuación, en esa misma *Perlentaucher*, hay una reseña del libro de Sell
 
 >«El autor de este ensayo posee un profundo conocimiento de la materia también por razones biográficas. Xavier Selles-Ferrando, nacido en España, reside en Austria desde hace décadas y ha sido agregado Cultural y de Prensa de la Embajada de España en Viena. Lo que une a ambos países —y los distingue de Alemania— es, según Selles-Ferrando, en particular la mayor conciencia del *estilo y maneras* que emanan del *ceremonial cortesano*. El autor busca *lo español en Austria* y lo descubre a lo largo de los siglos: soldados españoles defendiendo Viena contra los turcos, la Escuela Española de Equitación, la política matrimonial, los jesuitas, los dominicos y, sobre todo, el *ceremonial cortesano español* en el Hofburg [Palacio Imperial] de Viena.[^4]
 
-<div class="img-float-left" style="width: 600px;">
+<div class="img-float-left" style="width: 400px;">
 <img src="/assets/images/selles-3.webp" style="width: 100%;" alt="Carta de Javier Sellés a José Manuel Grau Navarro, del 21/2/1991" />
 
 <p class="pie-foto">Carta de Javier Sellés a José Manuel Grau Navarro, del 21/2/1991. Foto: © Lotrives</p>
