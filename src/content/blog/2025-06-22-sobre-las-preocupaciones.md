@@ -24,13 +24,13 @@ canonical: "https://lotrives.substack.com/p/sobre-las-preocupaciones"
 
 —(Pablo Bilz) Las palabras del Mesías tienen tanto más valor si reflexionas sobre su estilo de vida: era el jefe de un grupo itinerante expuesto a menudo a necesidades de supervivencia.
 
-—(Lotrives) Hoy he dado con el pasaje de un libro que no me he resistido a anotarme en una ficha. La llevo en el bolsillo trasero del pantalón a ver si me la aprendo de memoria. El libro es un comentario al evangelio de san Mateo, escrito por Curtis Mitch y Edward Sri. Te leo el pasaje: «La palabra 'preocupación' [o 'agobio'] se usa cinco veces en esta breve sección [del Sermón de la Montaña]. La preocupación denota una inquietud y ansiedad excesivas que monopolizan la atención del corazón. Jesús dice que no se preocupen ni por su vida ni por su cuerpo, y luego enumera tres áreas específicas de inquietud que representan necesidades básicas: comer, beber y vestirse. Aunque son muy importantes, no son el objetivo final de la vida: "¿No vale más la vida que el alimento, y el cuerpo que el vestido?" (Mt 6: 25). Debemos atender las necesidades básicas, pero centrarnos en lo que es más importante».
+—(Lotrives) Hoy he dado con el pasaje de un libro que no me he resistido a anotarme en una ficha. La llevo en el bolsillo trasero del pantalón a ver si me la aprendo de memoria. El libro es un comentario al evangelio de san Mateo, escrito por Curtis Mitch y Edward Sri. Te leo el pasaje: 
+
+>«La palabra 'preocupación' [o 'agobio'] se usa cinco veces en esta breve sección [del Sermón de la Montaña]. La preocupación denota una inquietud y ansiedad excesivas que monopolizan la atención del corazón. Jesús dice que no se preocupen ni por su vida ni por su cuerpo, y luego enumera tres áreas específicas de inquietud que representan necesidades básicas: comer, beber y vestirse. Aunque son muy importantes, no son el objetivo final de la vida: "¿No vale más la vida que el alimento, y el cuerpo que el vestido?" (Mt 6: 25). Debemos atender las necesidades básicas, pero centrarnos en lo que es más importante».[^1]
 
 —(Pablo Bilz) Ya que vas de citas, te recomiendo esta, que me apunté en una cartulina blanca y me saco del bolsillo de mi niqui. Maravíllate, Lotrives, este polo blanco de algodón de piqué, con rayas azul marino, que me he puesto hoy, me lo regaló mi madre, Carmen, hace ya 40 años. Leo yo también:
 
-«—(El Mesías a Catalina de Siena) ¿Por qué te has hecho como un animal irracional, no viendo que todo cambia menos mi gracia? ¿Por qué no confías en mí, que soy tu Creador? Porque confías en ti. ¿Es que acaso yo no soy fiel y leal contigo? Lo soy sin duda alguna, y lo sabes muy bien, porque lo experimentas a cada paso. [...].
-
-Parece que siguen creyendo que no soy suficientemente poderoso para poderles socorrer, ni suficientemente fuerte para ayudarlos y defenderlos de sus enemigos, sabio para iluminarles los ojos de su inteligencia, ni clemente para ofrecerles todo lo que necesitan para su salud, ni rico para enriquecerlos, bello para darles belleza, ni que tengan en mí alimento con que darles de comer, ni vestido para vestirlos. Sus obras me dicen claramente que no lo creen. Si lo creyesen, sus buenas y santas obras lo darían fácilmente a entender.
+>«—(El Mesías a Catalina de Siena) ¿Por qué te has hecho como un animal irracional, no viendo que todo cambia menos mi gracia? ¿Por qué no confías en mí, que soy tu Creador? Porque confías en ti. ¿Es que acaso yo no soy fiel y leal contigo? Lo soy sin duda alguna, y lo sabes muy bien, porque lo experimentas a cada paso. [...]. Parece que siguen creyendo que no soy suficientemente poderoso para poderles socorrer, ni suficientemente fuerte para ayudarlos y defenderlos de sus enemigos, sabio para iluminarles los ojos de su inteligencia, ni clemente para ofrecerles todo lo que necesitan para su salud, ni rico para enriquecerlos, bello para darles belleza, ni que tengan en mí alimento con que darles de comer, ni vestido para vestirlos. Sus obras me dicen claramente que no lo creen. Si lo creyesen, sus buenas y santas obras lo darían fácilmente a entender».[^2]
 
 —(Lotrives) Al final todo se reduce a creer o no creer en el Mesías y actuar en consecuencia.
 
@@ -43,8 +43,6 @@ Parece que siguen creyendo que no soy suficientemente poderoso para poderles soc
 —(Lotrives) Vamos a tomarnos un aperitivo al Bar Conde, amigo. ¿Qué te parecen unos mejillones con patatas fritas y una buena cerveza para combatir el calor? Estoy seguro de que el Mesías lo aprobaría como receta frecuente para un pupas como tú.
 
 
-## Bibliografía
+[^1]:Mitch, Curtis & Sri, Edward. (2010). *The Gospel of Matthew* [Kindle ed.]. Ignatius Press. «Reflection and Application (6:19-34)», p. 112.
 
-Mitch, Curtis & Sri, Edward. (2010). *The Gospel of Matthew* [Kindle ed.]. Ignatius Press. «Reflection and Application (6:19-34)», p. 112. [Amazon](https://amzn.eu/d/4TmmC0v).
-
-Catalina de Siena. (1960) [1378]. *El Diálogo*. En *Obras de Santa Catalina de Siena*. Introducción, traducción y notas de Ángel Morta. Prólogo de Francisco Barbado Viejo. Madrid: Biblioteca de Autores Cristianos, capítulo 140, p. 476.
+[^2]:Catalina de Siena. (1960) [1378]. *El Diálogo*. En *Obras de Santa Catalina de Siena*. Introducción, traducción y notas de Ángel Morta. Prólogo de Francisco Barbado Viejo. Madrid: Biblioteca de Autores Cristianos, capítulo 140, p. 476.
