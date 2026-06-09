@@ -5,7 +5,7 @@ description: "¿Entiende la IA lo que dice? El nominalismo y la opción que los 
 tags: ["Rafael Gambra", "Inteligencia artificial", "Universales", "Nominalismo"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/The_Turk.jpg/1280px-The_Turk.jpg"
 ---
-<p class="entradilla">Los realistas y los nominalistas discrepan en si un universal (un nombre común) como  <em>perro</em>, es decir, la naturaleza específica que comparten todos los perros, existe de verdad o es solo un nombre. La inteligencia artificial añade una tercera vía de complicación al clásico problema, aún no resuelto</p>
+<p class="entradilla">Los realistas y los nominalistas discrepan en si un universal (un nombre común) como  <em>perro</em>, es decir, la naturaleza específica que comparten todos los perros, existe de verdad o es solo un nombre. La inteligencia artificial añade una tercera vía de complicación al clásico problema, aún no resuelto.</p>
 
 ![Turco mecánico o jugador de ajedrez autómata](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/The_Turk.jpg/1280px-The_Turk.jpg)
 
