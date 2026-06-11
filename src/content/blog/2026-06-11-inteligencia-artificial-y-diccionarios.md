@@ -14,7 +14,7 @@ En la mesa de mi escritorio, junto al ordenador, tengo este venerable volumen:
 
 Bosque, Ignacio (director). (2004). *Redes. Diccionario combinatorio del español contemporáneo. Las palabras en su contexto*. Madrid: Ediciones SM. ISBN: 8467502762.
 
-Se ve también en la fotografía de arriba.
+Se ve en la fotografía de arriba.
 
 ## *Redes*, de Ignacio Bosque
 
@@ -26,7 +26,7 @@ Según Bosque, sí, *necesitamos* los diccionarios combinatorios tanto o más qu
 
 >«Las palabras no significan algo y *además* se combinan de cierta manera, sino que en gran medida se combinan de cierta manera *porque* expresan precisamente esos significados» (Bosque, 2004, pp. XVIII-XIX).
 
-*Redes*, publicado en 2004, se confeccionó ya con ordenadores y bases de datos consultables mediante [SQL](https://es.wikipedia.org/w/index.php?title=SQL&oldid=173654734), y un gran equipo de lingüistas dirigido por Bosque, que trabajaba sobre un gran corpus de textos periodísticos. 
+*Redes*, publicado en 2004, se confeccionó ya con ordenadores y bases de datos consultables mediante [SQL](https://es.wikipedia.org/w/index.php?title=SQL&oldid=173654734), y un gran equipo de lingüistas dirigido por Bosque, que trabajaba sobre un vasto corpus de textos periodísticos. 
 
 ## *Atenuante*, una entrada al azar
 
