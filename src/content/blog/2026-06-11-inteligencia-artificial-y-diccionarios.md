@@ -18,7 +18,7 @@ Se ve en la fotografía de arriba.
 
 ## *Redes*, de Ignacio Bosque
 
-Ignacio Bosque escribía en la «Presentación» de *Redes* que «casi todas las informaciones que proporciona están ausentes de los demás diccionarios, pero constituyen una parte fundamental del conocimiento del idioma». Añadía:
+Ignacio Bosque escribía en la «Presentación» de *Redes* que «casi todas las informaciones que proporciona están ausentes de los demás diccionarios, pero constituyen una parte fundamental del conocimiento del idioma» (Bosque, 2004, p. XVIII). Añadía:
 
 >«El concepto mismo de diccionario combinatorio resultará extraño a más de un lector. Ya tenemos diccionarios que nos definen las palabras con detalle, y también tenemos gramáticas que nos dan pautas para combinarlas. ¿Qué es entonces un diccionario combinatorio? Si el diccionario de siempre nos da los ladrillos y la gramática de siempre nos da el armazón, ¿qué más necesitamos para usar, analizar y entender el edificio del idioma, por gigantesco que sea?» (Bosque, 2004, p. XVIII).
 
