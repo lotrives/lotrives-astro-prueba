@@ -456,13 +456,13 @@ hr + h2 {
 /* Margen superior propio de h2 y h3 en prose (2026-06-11)
    Hace que el espacio sea consistente tras párrafo, tabla, blockquote o cualquier otro elemento */
 .prose h2 {
-  margin-top: 2em;
+  margin-top: 0.8em;
 }
 .prose hr + h2 {
   margin-top: 1em;
 }
 .prose h3 {
-  margin-top: 1.8em;
+  margin-top: 1em;
 }
 
 
