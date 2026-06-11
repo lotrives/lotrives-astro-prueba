@@ -4,8 +4,10 @@ pubDate: "2026-06-09"
 description: "¿Entiende la IA lo que dice? El nominalismo y la opción que los medievales no contemplaron."
 tags: ["Rafael Gambra", "Inteligencia artificial", "Universales", "Nominalismo"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/The_Turk.jpg/1280px-The_Turk.jpg"
+updatedDate: 2026-06-11
 ---
-<p class="entradilla">Los realistas y los nominalistas discrepan en si un universal (un nombre común) como  <em>perro</em>, es decir, la naturaleza específica que comparten todos los perros, existe de verdad o es solo un nombre. La inteligencia artificial añade una tercera vía de complicación al clásico problema, aún no resuelto.</p>
+
+<p class="entradilla">Un universal (un nombre común) como  <em>perro</em>, es decir, la naturaleza específica que comparten todos los perros, ¿existe de verdad o es solo un nombre? Los realistas y los nominalistas discrepan en la contestación a esa pregunta. La inteligencia artificial añade una tercera vía de complicación al clásico problema.</p>
 
 ![Turco mecánico o jugador de ajedrez autómata](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/The_Turk.jpg/1280px-The_Turk.jpg)
 
@@ -27,4 +29,10 @@ Cuando usa la palabra *perro*, un nominalista medieval como [Roscelino](https://
 
 El modelo de IA no tiene ante sí ningún individuo, no produce ningún acto de referencia, no sabe que *perro* se aplica a algo. Produce la marca *perro* porque las marcas anteriores del contexto hacen que esa sea la continuación más probable. Es una máquina de completar secuencias que da respuestas correctas sin que haya nadie dentro que entienda nada, que es exactamente lo que [John Searle](https://www.nuevarevista.net/john-searle-habitacion-china-ia-obituario/) describía en 1980 con la [habitación china](https://plato.stanford.edu/entries/chinese-room/).
 
-Imagínense un hombre encerrado en una habitación que no sabe chino. Unos chinos le preguntan algo en chino desde fuera por escrito y se lo pasan por una ranura. La persona dentro busca en un inmenso manual *ad hoc* a su disposición la combinación de símbolos que ha recibido, encuentra la regla correspondiente, copia los símbolos de respuesta indicados y los devuelve por otra ranura. No sabe chino, no entiende lo que le han preguntado y da con la respuesta sin entenderla. Otro asunto es que tarde un siglo en realizar esa operación y la IA ahora la resuelva en milésimas de segundo. 
+Imagínense un hombre encerrado en una habitación que no sabe chino. Unos chinos le preguntan algo en chino desde fuera por escrito y se lo pasan por una ranura. La persona dentro busca en un inmenso manual *ad hoc* a su disposición la combinación de símbolos que ha recibido, encuentra la regla correspondiente, copia los símbolos de respuesta indicados y los devuelve por otra ranura. No sabe chino, no entiende lo que le han preguntado y da con la respuesta sin entenderla. Otro asunto es que tarde un siglo en realizar esa operación y la IA ahora la resuelva en milésimas de segundo.
+
+[Demis Hassabis](https://es.wikipedia.org/w/index.php?title=Demis_Hassabis&oldid=173869563) (Londres, 1976), uno de los genios de nuestro tiempo,  Nobel de Química, creador de [DeepMind](https://es.wikipedia.org/w/index.php?title=Google_DeepMind&oldid=171625382) y supergurú de la IA, [declaraba recientemente](https://www.nuevarevista.net/demis-hassabis-ia-singularidad/):
+
+>«Sería mejor si pudiéramos aplicar el método científico con más rigor. Sería preferible comprender mejor los sistemas que estamos construyendo, en lugar de tratarlos como cajas negras. Hay gente trabajando en ello, pero la comprensión científica avanza más lentamente que el rendimiento de los sistemas» (Demis Hassabis).
+
+Decir «cajas negras», como **Demis Hassabis**, es parecido a señalar la «habitación china» de **John Searle**.
