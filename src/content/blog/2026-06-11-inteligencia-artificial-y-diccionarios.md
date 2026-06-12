@@ -8,21 +8,19 @@ heroImage: "/assets/images/redes.webp"
 
 ![Diccionario Redes de Ignacio Bosque, con la cubierta y una página abierta por la entrada «atenuante»](/assets/images/redes.webp)
 
-<p class="pie-foto">Foto: © José Manuel Grau Navarro.</p>
+<p class="pie-foto">Foto: Portada de «Redes» y páginas 338-9. Foto: © José Manuel Grau Navarro.</p>
 
 En la mesa de mi escritorio, junto al ordenador, tengo este venerable volumen:
 
 Bosque, Ignacio (director). (2004). *Redes. Diccionario combinatorio del español contemporáneo. Las palabras en su contexto*. Madrid: Ediciones SM. ISBN: 8467502762.
 
-Se ve en la fotografía de arriba.
-
 ## *Redes*, de Ignacio Bosque
 
-Ignacio Bosque escribía en la «Presentación» de *Redes* que «casi todas las informaciones que proporciona están ausentes de los demás diccionarios, pero constituyen una parte fundamental del conocimiento del idioma» (Bosque, 2004, p. XVIII). Añadía:
+Ignacio Bosque, catedrático de Gramática y miembro de la Real Academia, escribía en la «Presentación» de *Redes* que «casi todas las informaciones que proporciona están ausentes de los demás diccionarios, pero constituyen una parte fundamental del conocimiento del idioma» (Bosque, 2004, p. XVIII). Añadía:
 
 >«El concepto mismo de diccionario combinatorio resultará extraño a más de un lector. Ya tenemos diccionarios que nos definen las palabras con detalle, y también tenemos gramáticas que nos dan pautas para combinarlas. ¿Qué es entonces un diccionario combinatorio? Si el diccionario de siempre nos da los ladrillos y la gramática de siempre nos da el armazón, ¿qué más necesitamos para usar, analizar y entender el edificio del idioma, por gigantesco que sea?» (Bosque, 2004, p. XVIII).
 
-Según Bosque, sí, *necesitamos* los diccionarios combinatorios tanto o más que los convencionales. Este era su argumento central: 
+Según Bosque, *necesitamos* los diccionarios combinatorios tanto o más que los convencionales. Este era su argumento central: 
 
 >«Las palabras no significan algo y *además* se combinan de cierta manera, sino que en gran medida se combinan de cierta manera *porque* expresan precisamente esos significados» (Bosque, 2004, pp. XVIII-XIX).
 
@@ -32,21 +30,25 @@ Según Bosque, sí, *necesitamos* los diccionarios combinatorios tanto o más qu
 
 Abro *Redes* al azar. La entrada en que me fijo es *atenuante*, así descrita en *Redes* y reproducida aquí con total exactitud:
 
->«**atenuante** ■ *(adj.)* ♦ **acción, causa, circunstancia, factor**
+>**atenuante** ■ *(adj.)* ♦ **acción, causa, circunstancia, factor**
 ■ *(sust. fem.)* ♦ **grave, moral, serio** ♦ **admitir,**
 **alegar, aplicar, apreciar, concurrir**<sup>16</sup>**, confluir,**
 **considerar, encontrar, exponer, incluir, presentar(se), reconocer, servir (de), solicitar, tener en cuenta**
-□ Véase también: **apaciguar, calmar(se), disminuir, rebajar, reducir(se)**» (Bosque, 2004, p. 338).
+□ Véase también: **apaciguar, calmar(se), disminuir, rebajar, reducir(se)** (Bosque, 2004, p. 338).
 
 ## IA Claude en acción
 
-Ahora le pido a la IA, a Claude en concreto, un mapa de colocaciones de *atenuante* segmentado por categorías gramaticales, y me responde en cuestión de segundos: 
+Ahora le pido a la IA, a Claude en concreto, un mapa de colocaciones de *atenuante* segmentado por categorías gramaticales.
+
+Me responde en cuestión de segundos: 
 
 >Mapa de colocación de  _atenuante_. _Atenuante_ funciona como adjetivo y como sustantivo (femenino: _la atenuante_; masculino admitido: _el atenuante_). Las colocaciones cambian según la función.
 
+Continúa así:
+
 ### 1. *Atenuante* como adjetivo
 
-#### Sustantivos que lo acompañan
+#### Sustantivos con *atenuante* como adjetivo
 
 |Sustantivo|Ejemplo|
 |---|---|
@@ -62,7 +64,7 @@ Ahora le pido a la IA, a Claude en concreto, un mapa de colocaciones de *atenuan
 |_marcador_ (lingüística)|«"Como que" opera como marcador atenuante.»|
 
 
-#### Adverbios que lo modifican
+#### Adverbios con *atenuante* como adjetivo
 
 |Adverbio|Ejemplo|
 |---|---|
@@ -75,7 +77,7 @@ Ahora le pido a la IA, a Claude en concreto, un mapa de colocaciones de *atenuan
 
 ### 2. _Atenuante_ como sustantivo (_la atenuante_)
 
-#### Adjetivos que lo modifican
+#### Adjetivos con *atenuante* como sustantivo
 |Adjetivo|Ejemplo|
 |---|---|
 |_muy cualificada_|«Apreciaron la atenuante de reparación como muy cualificada.»|
@@ -86,7 +88,7 @@ Ahora le pido a la IA, a Claude en concreto, un mapa de colocaciones de *atenuan
 |_incompleta_ (eximente)|«Se apreció una eximente incompleta con valor atenuante.»|
 |_simple_|«Una atenuante simple reduce la pena a la mitad inferior.»|
 
-#### Verbos que lo rigen como objeto directo
+#### Verbos con *la atenuante* como objeto directo
 |Verbo|Ejemplo|
 |---|---|
 |_apreciar_|«El tribunal apreció la atenuante de arrepentimiento.»|
@@ -101,7 +103,7 @@ Ahora le pido a la IA, a Claude en concreto, un mapa de colocaciones de *atenuan
 |_ponderar_|«El juez ponderó las atenuantes frente a las agravantes.»|
 |_compensar_|«Las atenuantes no compensaron la gravedad del delito.»|
 
-#### Verbos que lo rigen como sujeto
+#### Verbos con *la atenuante* como sujeto
 
 |Verbo|Ejemplo|
 |---|---|
@@ -128,20 +130,26 @@ El esquema colocativo se traslada íntegro a otros dominios:
 
 ## Comparación *Redes*-IA Claude en *atenuante*
 
-Bosque da cuatro sustantivos para combinar con el adjetivo *atenuante*: _acción_, _causa_, _circunstancia_, _factor_. Claude brinda diez. 
-
-Claude ofrece ejemplos de uso, no así *Redes*.
+Bosque da cuatro sustantivos para combinar con el adjetivo *atenuante:* _acción_, _causa_, _circunstancia_, _factor_. Claude brinda diez, y con ejemplos de uso. 
  
-Claude ofrece adverbios que se combinan con *atenuante* como adjetivo, no *Redes*.
+Claude ofrece adverbios, y con ejemplo de uso, que se combinan con *atenuante* como adjetivo; *Redes* ni una cosa ni la otra.
  
-_Redes_ lista quince verbos que se combinan con *atenuante*. (El número 16 que Redes anota junto a *concurrir* como superíndice es remisión estructural a la entrada analítica de *concurrir*). Claude lista 16 verbos también que se combinan con *atenuante*, pero organizados según si el sustantivo funciona como objeto o como sujeto.
+_Redes_ lista quince verbos que se combinan con *atenuante*. (El número 16 que Redes anota junto a *concurrir* como superíndice es remisión estructural a la entrada analítica de *concurrir*). Claude lista 16 verbos también que se combinan con *atenuante*, pero organizados según si el sustantivo funciona como objeto o como sujeto, y con ejemplos de uso.
 
-En un punto vence *Redes*: en la lista de «véase también» *apaciguar*, *calmar*, *disminuir*, *rebajar*, *reducir*, donde remite a campos semánticos relacionados que Claude no brinda.
+Solo en un asunto secundario vence *Redes*: en la lista de «véase también» *apaciguar*, *calmar*, *disminuir*, *rebajar*, *reducir*, donde remite a campos semánticos relacionados que Claude no brinda.
 
 
 ## Observaciones finales
 
-Claude me pregunta: «¿Quieres que amplíe alguna sección o añada ejemplos literarios o de prensa?», a lo que me ha ofrecido arriba. Le contesto: «No. Solo cita sus fuentes». De nuevo, su respuesta:
+La IA Claude me pregunta: 
+
+—¿Quieres que amplíe alguna sección o añada ejemplos literarios o de prensa?».
+
+Le contesto:
+
+—«No. Solo cita tus fuentes».
+
+ Su respuesta:
 
 >Las búsquedas que lancé devolvieron principalmente fuentes jurídicas: el *Diccionario panhispánico del español jurídico* de la RAE, el *Código Penal* español (artículo 21), el Wikcionario y varios despachos de abogados. De ahí extraje las colocaciones más claramente jurídicas: _circunstancia atenuante_, _apreciar / aplicar / alegar / invocar / estimar / desestimar la atenuante_, el par _atenuantes y agravantes_, y los adjetivos _muy cualificada_, _analógica_, _genérica_, _específica_.
 
@@ -156,6 +164,6 @@ Claude me pregunta: «¿Quieres que amplíe alguna sección o añada ejemplos li
 
 Era suficiente para mi propósito: demostrar que *Redes* se puede haber convertido en una venerable reliquia, como se desprende de este ejemplo, o al menos que la IA desplaza el uso cotidiano de obras como *Redes*. Porque Claude produce al instante un mapa combinatorio más amplio, más organizado y más útil para un primer uso práctico que *Redes*. Para un escritor, periodista, traductor o profesor que busca rápidamente combinaciones posibles, la IA proporciona una respuesta más rica, ordenada y útil.
 
-No se puede afirmar todavía, sin embargo, que Claude supere a *Redes* lexicográficamente, porque habría que pedirle lo mismo con condiciones estrictas: corpus consultado, ejemplos reales, frecuencias, procedencia textual, datación, marcas de registro y separación entre colocación fuerte, combinación posible y ejemplo construido. Si se le hubiera pedido a Claude trabajar con CORPES XXI o CREA, el experimento habría cambiado de naturaleza: ya no mediríamos solo su memoria lingüística, sino su capacidad para apoyarse en corpus verificables.
+No se puede afirmar todavía, sin embargo, que Claude supere a *Redes* lexicográficamente, porque habría que pedirle lo mismo con condiciones estrictamente iguales de origen. Es decir, a partir de un mismo corpus consultado, producir ejemplos reales, frecuencias de uso, procedencia textual, datación, marcas de registro y separación entre colocación fuerte, combinación posible y ejemplo construido. Pero con una situación de partida igual y una prueba total, todo hace pensar que Claude habría batido más ampliamente aún a *Redes*.
 
-_Redes_ costó años de trabajo, gozó de financiación extra del Ministerio de Ciencia y Tecnología, de un equipo y de un corpus de millones de palabras a su disposición. Claude mejoró a *Redes* al menos en la voz consultada con una respuesta inmediata y con solo su base de datos.
+_Redes_ costó años de trabajo, gozó de financiación extra del Ministerio de Ciencia y Tecnología, de un gran equipo de especialistas en lengua y de un corpus de millones de palabras a su disposición. Claude mejoró a *Redes* al menos en la voz consultada con una respuesta inmediata y con solo su modesta base de datos en español.
