@@ -8,7 +8,7 @@ heroImage: "/assets/images/redes.webp"
 
 ![Diccionario Redes de Ignacio Bosque, con la cubierta y una página abierta por la entrada «atenuante»](/assets/images/redes.webp)
 
-<p class="pie-foto">Foto: Portada de «Redes» y páginas 338-9. Foto: © José Manuel Grau Navarro.</p>
+<p class="pie-foto">Portada de «Redes» y páginas 338-9. Foto: © José Manuel Grau Navarro.</p>
 
 En la mesa de mi escritorio, junto al ordenador, tengo este venerable volumen:
 
@@ -42,7 +42,7 @@ Ahora le pido a la IA, a Claude en concreto, un mapa de colocaciones de *atenuan
 
 Me responde en cuestión de segundos: 
 
->Mapa de colocación de  _atenuante_. _Atenuante_ funciona como adjetivo y como sustantivo (femenino: _la atenuante_; masculino admitido: _el atenuante_). Las colocaciones cambian según la función.
+>Mapa de colocación de  _atenuante_. _Atenuante_ funciona como adjetivo y como sustantivo (femenino: *la atenuante;* masculino admitido: _el atenuante_). Las colocaciones cambian según la función.
 
 Continúa así:
 
@@ -134,7 +134,7 @@ Bosque da cuatro sustantivos para combinar con el adjetivo *atenuante:* _acción
  
 Claude ofrece adverbios, y con ejemplo de uso, que se combinan con *atenuante* como adjetivo; *Redes* ni una cosa ni la otra.
  
-_Redes_ lista quince verbos que se combinan con *atenuante*. (El número 16 que Redes anota junto a *concurrir* como superíndice es remisión estructural a la entrada analítica de *concurrir*). Claude lista 16 verbos también que se combinan con *atenuante*, pero organizados según si el sustantivo funciona como objeto o como sujeto, y con ejemplos de uso.
+_Redes_ lista quince verbos que se combinan con *atenuante*. (El número 16 como superíndice que *Redes* anota junto a *concurrir* es remisión estructural a la entrada analítica de *concurrir*). Claude lista 16 verbos también que se combinan con *atenuante*, pero organizados según si el sustantivo funciona como objeto o como sujeto, y con ejemplos de uso.
 
 Solo en un asunto secundario vence *Redes*: en la lista de «véase también» *apaciguar*, *calmar*, *disminuir*, *rebajar*, *reducir*, donde remite a campos semánticos relacionados que Claude no brinda.
 
@@ -162,8 +162,8 @@ Le contesto:
 
 «No», le contesté. 
 
-Era suficiente para mi propósito: demostrar que *Redes* se puede haber convertido en una venerable reliquia, como se desprende de este ejemplo, o al menos que la IA desplaza el uso cotidiano de obras como *Redes*. Porque Claude produce al instante un mapa combinatorio más amplio, más organizado y más útil para un primer uso práctico que *Redes*. Para un escritor, periodista, traductor o profesor que busca rápidamente combinaciones posibles, la IA proporciona una respuesta más rica, ordenada y útil.
+Era suficiente para mi propósito: demostrar que *Redes* se puede haber convertido en una reliquia, como se desprende de este ejemplo, o al menos que la IA desplaza el uso cotidiano de obras como *Redes*. Porque Claude produce al instante un mapa combinatorio más amplio, más organizado y más útil para un primer uso práctico que *Redes*. Para un escritor, periodista, traductor o profesor que busca rápidamente combinaciones posibles, la IA proporciona una respuesta más rica, ordenada y útil.
 
-No se puede afirmar todavía, sin embargo, que Claude supere a *Redes* lexicográficamente, porque habría que pedirle lo mismo con condiciones estrictamente iguales de origen. Es decir, a partir de un mismo corpus consultado, producir ejemplos reales, frecuencias de uso, procedencia textual, datación, marcas de registro y separación entre colocación fuerte, combinación posible y ejemplo construido. Pero con una situación de partida igual y una prueba total, todo hace pensar que Claude habría batido más ampliamente aún a *Redes*.
+No se puede afirmar todavía, sin embargo, que Claude supere a *Redes* lexicográficamente, porque habría que solicitarle lo mismo con condiciones estrictamente iguales de origen. Es decir, a partir de un mismo corpus consultado, que estableciera ejemplos reales, frecuencias de uso, procedencia textual, datación, marcas de registro y separación entre colocación fuerte, combinación posible y ejemplo construido. Pero con una situación de partida igual y una prueba global, todo hace pensar que Claude habría batido más ampliamente aún a *Redes*.
 
-_Redes_ costó años de trabajo, gozó de financiación extra del Ministerio de Ciencia y Tecnología, de un gran equipo de especialistas en lengua y de un corpus de millones de palabras a su disposición. Claude mejoró a *Redes* al menos en la voz consultada con una respuesta inmediata y con solo su modesta base de datos en español.
+El diccionario _Redes_ costó años de trabajo, gozó de financiación extra del Ministerio de Ciencia y Tecnología, de un gran equipo de especialistas en lengua y de un corpus de millones de palabras a su disposición. Claude mejoró a *Redes* al menos en la voz consultada con una respuesta inmediata y con solo su modesta base de datos en español y una búsqueda en internet. Para esta tarea, ni siquiera utilicé el modelo más avanzado de Claude, sino uno intermedio y con esfuerzo medio.
