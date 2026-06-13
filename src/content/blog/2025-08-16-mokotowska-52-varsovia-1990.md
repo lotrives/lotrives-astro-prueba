@@ -22,7 +22,7 @@ De mi diario de aquellos días, reproduzco lo siguiente:
 
 *Varsovia, viernes, 12/1/1990*. En la *calle* Mokotowska, *ulica* Mokotowska en polaco, en un barrio central de Varsovia, han instalado uno de los comedores gratuitos de la capital, en donde se sirve una sopa para la gente sin medios. Popularmente, a ese caldo se le llama *kuroniówka,* por el apellido del ministro de Trabajo, **Jacek Kuroń**.
 
-[Era época de gran estrechez económica, tras la caída del comunismo y el paso a la economía de mercado. Véase esta entrada sobre el [Plan Balcerowicz](https://lotrives.com/1990/01/03/el-plan-balcerowicz/), donde se explica, y [artículos de *ABC*](https://lotrives.com/abc/) al respecto para quien tenga más interés].
+[Era época de gran estrechez económica, tras la caída del comunismo y el paso a la economía de mercado. Véase esta entrada sobre el [Plan Balcerowicz](https://lotrives.com/1990/01/03/el-plan-balcerowicz/), donde se explica, y [artículos de *ABC*](https://lotrives.com/abc/#1989) al respecto para quien tenga más interés].
 
 ### Robert Malicki y Rafał Wąworek
 
@@ -70,13 +70,13 @@ Por la tarde, paso la crónica para *ABC* y me voy con Stefan Moszoro a la Igles
 
 ![Stefan Moszoro y José Manuel Grau Navarro en el balcón de Mokotowska 52, apartamento 9, Varsovia, 1990](/assets/images/mokotowska-1-grau-moszoro.webp)
 
-<p class="pie-foto">Stefan Moszoro y José Manuel Grau Navarro en el balcón de Mokotowska 52, apartamento 9 (abreviado *m. 9*, en polaco), en la última planta del edificio. Varsovia, 1990. Foto: © José Manuel Grau Navarro.</p>
+<p class="pie-foto">Stefan Moszoro y José Manuel Grau Navarro en el balcón de Mokotowska 52, apartamento 9 (abreviado <em>m. 9</em>, en polaco), en la última planta del edificio. Varsovia, 1990. Foto: © José Manuel Grau Navarro.</p>
 
 ### Antonio Romero Castillo
 
 ![Rafael Mora, Antonio Romero Castillo, Stefan Moszoro y José Manuel Grau Navarro en la sala de estar de Mokotowska 52, Varsovia, 1990](/assets/images/mokotowska-2-romero-grau.webp)
 
-<p class="pie-foto">Rafael Mora, Antonio Romero Castillo, Stefan Moszoro y José Manuel Grau Navarro, de derecha a izquierda, en la sala de estar-dormitorio de Mokotowska 52 m. 9, Varsovia, en 1990. Estamos sentado sobre el sofá plegable-cama mencionado en el artículo. **Antonio Romero** era un empresario que residía en Valencia capital, amigo mío, que tuve la gran suerte de que me visitara muchas veces en Mokotowska, cuando por negocios venía a Varsovia. Foto: © José Manuel Grau Navarro.</p>
+<p class="pie-foto">Rafael Mora, Antonio Romero Castillo, Stefan Moszoro y José Manuel Grau Navarro, de derecha a izquierda, en la sala de estar-dormitorio de Mokotowska 52 m. 9, Varsovia, en 1990. Estamos sentado sobre el sofá plegable-cama mencionado en el artículo. Antonio Romero era un empresario que residía en Valencia capital, amigo mío, que tuve la gran suerte de que me visitara muchas veces en Mokotowska, cuando por negocios venía a Varsovia. Foto: © José Manuel Grau Navarro.</p>
 
 ![José Manuel Grau Navarro en la cocina de Mokotowska 52, Varsovia, 1990](/assets/images/mokotowska-3-grau.webp)
 
@@ -86,21 +86,21 @@ Por la tarde, paso la crónica para *ABC* y me voy con Stefan Moszoro a la Igles
 
 ![Recibo del pago del alquiler de abril de 1990 de Mokotowska 52, firmado por Anna Sartowska](/assets/images/mokotowska-4-sartowska.webp)
 
-<p class="pie-foto">Recibí de Anna Sartowska, la dueña del piso, del pago del alquiler de abril de 1990, de Mokotowska 52 m. 9. La cifra está en eslotis, 1.425.000, pero en realidad le pagaba en dólares, por la inflación, y eran 150 dólares USD al mes. Foto: © José Manuel Grau Navarro.</p>
+<p class="pie-foto">Recibí de Anna Sartowska, la dueña del piso, del pago del alquiler de abril de 1990, de Mokotowska 52 m. 9. La cifra está en eslotis, 1.425.000, pero en realidad le pagaba en dólares, por la inflación, y eran 150 dólares (USD) al mes. Foto: © José Manuel Grau Navarro.</p>
 
 ![Faja de suscripción con la que llegaba el periódico ABC en papel a Mokotowska 52](/assets/images/mokotowska-5-abc-cinta.webp)
 
-<p class="pie-foto">Faja de suscripción o faja postal con la que me llegaba a Mokotowska 52 m. 9 el periódico *ABC* en papel. Foto: © José Manuel Grau Navarro.</p>
+<p class="pie-foto">Faja de suscripción o faja postal con la que me llegaba a Mokotowska 52 m. 9 el periódico ABC en papel. Foto: © José Manuel Grau Navarro.</p>
 
 ### Fachada de Mokotowska 52
 
 ![Edificio de Mokotowska 52, entrada, en una imagen de 2001](/assets/images/mokotowska-6-fachada.webp)
 
-<p class="pie-foto">Edificio de Mokotowska 52, entrada, en una imagen que tomé en 2001, en un viaje de trabajo (*ABC*), cuando ya residía en Madrid. Foto: © José Manuel Grau Navarro.</p>
+<p class="pie-foto">Edificio de Mokotowska 52, entrada, en una imagen que tomé en 2001, en un viaje de trabajo (ABC), cuando ya residía en Madrid. Foto: © José Manuel Grau Navarro.</p>
 
 ![Edificio de Mokotowska 52, fachada, en una imagen de 2001](/assets/images/mokotowska-7-fachada.webp)
 
-<p class="pie-foto">Edificio de Mokotowska 52, fachada, en una imagen que tomé en 2001, en un viaje de trabajo (*ABC*), cuando ya residía en Madrid. El apartamento 9 estaba arriba del todo, a modo de ático, a la izquierda. Foto: © José Manuel Grau Navarro.</p>
+<p class="pie-foto">Edificio de Mokotowska 52, fachada, en una imagen que tomé en 2001, en un viaje de trabajo (ABC), cuando ya residía en Madrid. El apartamento 9 estaba arriba del todo, a modo de ático, a la izquierda. Foto: © José Manuel Grau Navarro.</p>
 
 #### Enrique Herrando Prat de la Riba y Martin Wagner
 
