@@ -12,6 +12,7 @@ canonical: "https://lotrives.substack.com/p/austria-1938-anexion-anschluss"
 <img src="/assets/images/anschluss-1.webp" style="width: 100%;" alt="Exposición «Un siglo en imágenes. Austria, 1925-2025», en la Prunksaal de Viena" />
 
 <p class="pie-foto">Exposición «Un siglo en imágenes. Austria, 1925-2025», en la Prunksaal de Viena. Foto: © Österreichische Nationalbibliothek (Biblioteca Nacional de Austria).</p>
+</div>
 
 *Viena, septiembre de 2025*. Hasta el 2 de noviembre de 2025 se puede visitar en la Prunksaal (Sala Espléndida o Suntuosa) de la Biblioteca Nacional de Austria, en Viena, la exposición [«Un siglo en imágenes. Austria, 1925-2025»](https://www.onb.ac.at/museen/prunksaal/programm/vergangene-ausstellungen/ein-jahrhundert-in-bildern-oesterreich-1925-2025).
 
