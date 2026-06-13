@@ -59,7 +59,6 @@ El Aquinate (1224/1225-1274) precisa un siglo después que san **Bernardo**:
 
 *Amar* no es ‘experimentar sensaciones’. Es «querer el bien para alguien». Además, «la dilección no está en el concupiscible [en lo que se desea], sino solo en la voluntad, y se encuentra únicamente en la naturaleza racional». De ahí que amar sea conminatorio.[^5]
 
-
 [^1]: Nietzsche, Friedrich. (s. f.). *Das Nachtwandler-Lied* [La canción del noctámbulo]. En *Also sprach Zarathustra. Ein Buch für Alle und Keinen* [*Así habló Zaratustra. Un libro para todos y para nadie*]. Projekt Gutenberg-DE. Recuperado el 1 de septiembre de 2025, de <a href="https://www.projekt-gutenberg.org/nietzsch/zara/chap080.html" target="_blank" rel="noopener">Projekt Gutenberg-DE</a>. Obra original publicada en 1883–1884. Traducción de Lotrives.
 
 [^2]: Ratzinger, Joseph. (2022). *Cooperadores de la verdad. Reflexiones para cada día del año* (2.ª ed.). Introducción, trad. y notas de José Luis del Barco. Madrid: Rialp. Obra original publicada en 1979, p. 335.
@@ -69,4 +68,3 @@ El Aquinate (1224/1225-1274) precisa un siglo después que san **Bernardo**:
 [^4]: S. Th. I-II, q. 16, a. 4, c., en: Santo Tomás de Aquino. (1984). *Suma de Teología. II. Parte I-II* (2.ª ed. Edición dirigida por los Regentes de Estudios de las Provincias Dominicanas en España). Madrid: BAC. Obra original publicada ca. 1265–1274, pp. 246-247.
 
 [^5]: S. Th. I-II, q. 16, a. 3, c. en: Santo Tomás de Aquino. (1984). *Suma de Teología. II. Parte I-II* (2.ª ed. Edición dirigida por los Regentes de Estudios de las Provincias Dominicanas en España). Madrid: BAC. Obra original publicada ca. 1265–1274, p. 246.
-```
