@@ -8,12 +8,12 @@ heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Days_of_Wi
 canonical: "https://lotrives.substack.com/p/el-vino-bulgaro-y-las-adicciones"
 ---
 
-<p class="entradilla">Cuando los hilos se transforman en cadenas</p>
+<p class="entradilla">Cuando los hilos se transforman en cadenas.</p>
 
-<div class="img-float-right" style="width: 300px;">
+<div class="img-float-right" style="width: 350px;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Days_of_Wine_and_Roses_%281962_poster%29.jpg/960px-Days_of_Wine_and_Roses_%281962_poster%29.jpg" style="width: 100%;" alt="Cartel de la película Días de vino y rosas (1962)" />
 
-<p class="pie-foto">Cartel recortado de la película <em>Días de vino y rosas</em>. Licencia de <a href="https://commons.wikimedia.org/w/index.php?title=File:Days_of_Wine_and_Roses_(1962_poster).jpg&oldid=1052067508" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+<p class="pie-foto">Cartel de la película <em>Días de vino y rosas</em>. Licencia de <a href="https://commons.wikimedia.org/w/index.php?title=File:Days_of_Wine_and_Roses_(1962_poster).jpg&oldid=1052067508" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
 </div>
 
 El restaurante Paraíso dispone de una terraza desde donde se divisa una pista de tenis de tierra batida. Ayer, viernes, 17 de octubre de 2025, un día soleado y agradable, quedé allí con mi amigo Pablo Bilz y con mi amiga **Martina Draft**, una mujer con apellido inglés pero que lleva ya muchos años en Madrid y domina el castellano mejor que yo. Martina se pidió un emperador a la plancha y una copa de Rioja. Tras el almuerzo, cuando estábamos tomando el café, entablamos la conversación que sigue.
