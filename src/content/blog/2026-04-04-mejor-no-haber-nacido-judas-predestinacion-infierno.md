@@ -13,7 +13,7 @@ canonical: "https://lotrives.substack.com/p/mejor-no-haber-nacido-judas-predesti
 <div class="img-float-right" style="width: 400px;">
 <img src="https://res.cloudinary.com/tne/image/authenticated/s--ATs8Med6--/q_60/artworks/PETER-PAUL-RUBENS-1577_DER-HOELLENSTURZ-DER-VERDAMMTEN-320_911165_CC-BY-SA_BSTGS.jpg" style="width: 100%;" alt="La caída de los condenados, óleo de Pedro Pablo Rubens" />
 
-<p class="pie-foto">Crédito de la imagen: <em>La caída de los condenados</em> (<em>circa</em> 1620). Óleo de Pedro Pablo Rubens (1577-1640). Bayerische Staatsgemäldesammlungen-<a href="https://www.sammlung.pinakothek.de/de/artwork/7yxYmWNxYm" target="_blank" rel="noopener">Alte Pinakothek</a> (Múnich). CC BY-SA 4.0.</p>
+<p class="pie-foto"><em>La caída de los condenados</em> (<em>circa</em> 1620). Óleo de Pedro Pablo Rubens (1577-1640). Bayerische Staatsgemäldesammlungen-<a href="https://www.sammlung.pinakothek.de/de/artwork/7yxYmWNxYm" target="_blank" rel="noopener">Alte Pinakothek</a> (Múnich). CC BY-SA 4.0.</p>
 </div>
 
 Martina: hoy es Viernes Santo. Por eso te voy a confesar un asunto de los que desde siempre más me han intrigado. Lo esbozo con brevedad. Dos versículos bastan para plantear el problema:
@@ -34,7 +34,7 @@ Martina, acepto la doctrina católica y deseo ser fiel a la enseñanza de la Igl
 
 Jesucristo es Dios. Jesucristo sabía que Judas le traicionaría. Si era mejor que ese hombre no hubiera nacido, ¿por qué nació? ¿Es preferible nacer e ir al infierno que no existir en absoluto? Entonces, ¿el infierno no es tan malo como lo describe la doctrina católica? ¿Hay algo peor que el infierno como <em>no haber nacido</em>?
 
-> «Jesús dio testimonio de su traición para revelarla como parte del plan de Dios, pues la misión de Jesús es “dar testimonio de la verdad” (Jn 18,37)» (Martin &amp; Wright, 2015, sección Jn 13, 21–30, traducción de Lotrives).
+> «Jesús dio testimonio de su traición para revelarla como parte del plan de Dios, pues la misión de Jesús es “dar testimonio de la verdad” (Jn 18,37)» (Martin &amp; Wright, 2015, sección Jn 13, 21–30, traducción de Lotrives).[^1]
 
 ## Autoridades
 
@@ -72,6 +72,6 @@ En mi opinión, los puntos 1-3, de las solventes autoridades arriba citadas, con
 
 Lotrives, Madrid, Viernes Santo, 3 de abril de 2026
 
----
 
-—Texto citado: Martin, F., &amp; Wright, W. M., IV. (2015). <em>The Gospel of John</em>. Baker Academic.
+
+[^1]:Martin, F., &amp; Wright, W. M., IV. (2015). <em>The Gospel of John</em>. Baker Academic.
