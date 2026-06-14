@@ -11,6 +11,83 @@ import Header from '../components/Header.astro';
 			title="Buscar | Lotrives"
 			description="Buscar en Lotrives."
 		/>
+	
+<style is:global>
+	.page {
+		max-width: 700px;
+		margin: 0 auto;
+		padding: 4rem 1.5rem;
+	}
+	h1 {
+		margin: 0 0 2rem;
+		font-size: 2.5rem;
+		line-height: 1;
+	}
+	.b-card {
+		border: 1px solid #e0e0e0;
+		border-radius: 4px;
+		padding: 1rem 1.2rem;
+		margin-bottom: 0.8rem;
+	}
+	.b-card:hover { border-color: #aaa; }
+	.b-card-header {
+		display: flex;
+		align-items: baseline;
+		gap: 0.5em;
+		margin-bottom: 0.25rem;
+	}
+	.b-card-header a {
+		font-size: 1.05rem;
+		font-weight: 600;
+		color: #3273dc;
+		text-decoration: none;
+	}
+	.b-card-header a:hover { text-decoration: underline; }
+	.b-type {
+		font-size: 0.7em;
+		color: #fff;
+		background: #888;
+		border-radius: 3px;
+		padding: 1px 6px;
+		white-space: nowrap;
+	}
+	.b-date {
+		font-size: 0.75rem;
+		color: #aaa;
+		margin-bottom: 0.5rem;
+	}
+	.b-excerpt {
+		font-size: 0.875rem;
+		color: #555;
+		line-height: 1.55;
+		margin-bottom: 0.6rem;
+	}
+	.b-excerpt mark {
+		background: #ffeaa0;
+		border-radius: 2px;
+		padding: 0 2px;
+	}
+	.b-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.35rem;
+		margin-top: 0.25rem;
+	}
+	.b-tag {
+		font-size: 0.72rem;
+		color: #555;
+		background: #f0f0f0;
+		border-radius: 3px;
+		padding: 2px 7px;
+		white-space: nowrap;
+	}
+	.b-tag mark {
+		background: #ffeaa0;
+		border-radius: 2px;
+		padding: 0 1px;
+	}
+	.b-nada { font-style: italic; color: #888; }
+</style>
 	</head>
 	<body>
 		<Header />
@@ -37,56 +114,70 @@ import Header from '../components/Header.astro';
 		    return (str||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 		  }
 
-		  function normalizeEs(str) {
-		    if (!str) return '';
-		    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-		  }
-
-		  function normalizeFull(str) {
+		  function normalize(str) {
 		    if (!str) return '';
 		    return str
-		      .replace(/ł/g, 'l').replace(/Ł/g, 'l')
-		      .replace(/ą/g, 'a').replace(/Ą/g, 'a')
-		      .replace(/ę/g, 'e').replace(/Ę/g, 'e')
-		      .replace(/ś/g, 's').replace(/Ś/g, 's')
-		      .replace(/ź/g, 'z').replace(/Ź/g, 'z')
-		      .replace(/ż/g, 'z').replace(/Ż/g, 'z')
-		      .replace(/ć/g, 'c').replace(/Ć/g, 'c')
-		      .replace(/ń/g, 'n').replace(/Ń/g, 'n')
+		      .replace(/[łŁ]/g, 'l')
+		      .replace(/[ąĄ]/g, 'a')
+		      .replace(/[ęĘ]/g, 'e')
+		      .replace(/[ěĚ]/g, 'e')
+		      .replace(/[śŚšŠ]/g, 's')
+		      .replace(/[źŹżŻžŽ]/g, 'z')
+		      .replace(/[ćĆčČ]/g, 'c')
+		      .replace(/[ńŃ]/g, 'n')
+		      .replace(/[řŘ]/g, 'r')
+		      .replace(/[ůŮ]/g, 'u')
+		      .replace(/[ýÝ]/g, 'y')
 		      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 		      .toLowerCase();
 		  }
 
-		  function matchEs(p, qn) {
-		    return normalizeEs(p.title).indexOf(qn) !== -1 ||
-		           normalizeEs(p.content).indexOf(qn) !== -1 ||
-		           normalizeEs(p.excerpt).indexOf(qn) !== -1 ||
-		           normalizeEs(p.tags).indexOf(qn) !== -1;
+		  function queryToRegex(q) {
+		    var map = {
+		      'a': '[aąáàâä]',
+		      'e': '[eęěéèêë]',
+		      'i': '[iíîï]',
+		      'o': '[oóôö]',
+		      'u': '[uůúûü]',
+		      'n': '[nń]',
+		      'l': '[lł]',
+		      's': '[sśš]',
+		      'z': '[zźżž]',
+		      'c': '[cćč]',
+		      'r': '[rř]',
+		      'y': '[yý]'
+		    };
+		    return q.split('').map(function(ch) {
+		      var low = ch.toLowerCase();
+		      var pat = map[low] || ch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+		      return pat;
+		    }).join('');
 		  }
 
-		  function matchFull(p, qn) {
-		    return normalizeFull(p.title).indexOf(qn) !== -1 ||
-		           normalizeFull(p.content).indexOf(qn) !== -1 ||
-		           normalizeFull(p.excerpt).indexOf(qn) !== -1 ||
-		           normalizeFull(p.tags).indexOf(qn) !== -1;
+		  function match(p, qn) {
+		    return normalize(p.title).indexOf(qn) !== -1 ||
+		           normalize(p.content).indexOf(qn) !== -1 ||
+		           normalize(p.excerpt).indexOf(qn) !== -1 ||
+		           normalize(p.tags).indexOf(qn) !== -1;
 		  }
 
 		  function hl(text, q) {
-		    if (!q) return esc(text);
-		    var safe = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-		    return esc(text).replace(new RegExp('(' + esc(safe) + ')', 'gi'), '<mark>$1</mark>');
+		    if (!q || !text) return esc(text||'');
+		    var re = new RegExp('(' + queryToRegex(q) + ')', 'gi');
+		    return esc(text).replace(re, function(m) {
+		      return '<mark>' + m + '</mark>';
+		    });
 		  }
 
-		  function excerpt(text, q, normFn) {
+		  function excerpt(text, qn) {
 		    var src = text || '';
-		    var srcNorm = normFn(src);
-		    var qNorm = normFn(q);
-		    var idx = q ? srcNorm.indexOf(qNorm) : -1;
+		    var srcNorm = normalize(src);
+		    var idx = qn ? srcNorm.indexOf(qn) : -1;
 		    var s = idx > 60 ? idx - 60 : 0;
 		    var chunk = src.slice(s, s + 220);
 		    if (s > 0) chunk = '…' + chunk;
 		    if (s + 220 < src.length) chunk += '…';
-		    return hl(chunk, q);
+		    return chunk;
 		  }
 
 		  function fmtDate(raw) {
@@ -95,16 +186,21 @@ import Header from '../components/Header.astro';
 		    return isNaN(d) ? raw : d.toLocaleDateString('es-ES', { year:'numeric', month:'long', day:'numeric' });
 		  }
 
-		  function renderCards(matched, q, normFn) {
+		  function renderCards(matched, q, qn) {
 		    return matched.map(function(p) {
 		      var typeTag = (p.type === 'nota' || p.type === 'página')
 		        ? '<span class="b-type">' + esc(p.type) + '</span>'
 		        : '';
+		      var tagsHtml = p.tags
+		        ? p.tags.split(', ').map(function(t) {
+		            return '<span class="b-tag">' + hl(t.trim(), q) + '</span>';
+		          }).join('')
+		        : '';
 		      return '<div class="b-card">' +
-		        '<div class="b-card-header"><a href="' + esc(p.url) + '">' + hl(p.title||'', q) + '</a> ' + typeTag + '</div>' +
-		        '<div class="b-date">' + fmtDate(p.date) + '</div>' +
-		        '<div class="b-excerpt">' + excerpt(p.content||p.excerpt||'', q, normFn) + '</div>' +
-		        (p.tags ? '<div class="b-tags">' + (p.tags).split(', ').map(function(t){ return '#' + esc(t.trim()); }).join(' ') + '</div>' : '') +
+		        '<div class="b-card-header"><a href="' + esc(p.url) + '">' + hl(p.title||'', q) + '</a>' + (typeTag ? ' ' + typeTag : '') + '</div>' +
+		        (p.date ? '<div class="b-date">' + fmtDate(p.date) + '</div>' : '') +
+		        '<div class="b-excerpt">' + hl(excerpt(p.content||p.excerpt||'', qn), q) + '</div>' +
+		        (tagsHtml ? '<div class="b-tags">' + tagsHtml + '</div>' : '') +
 		        '</div>';
 		    }).join('');
 		  }
@@ -117,25 +213,13 @@ import Header from '../components/Header.astro';
 		      return;
 		    }
 
-		    var qEs = normalizeEs(q);
-		    var matched = posts.filter(function(p) { return matchEs(p, qEs); });
+		    var qn = normalize(q);
+		    var matched = posts.filter(function(p) { return match(p, qn); });
+		    var n = matched.length;
 
-		    if (matched.length > 0) {
-		      var n = matched.length;
+		    if (n > 0) {
 		      status.innerHTML = n + ' resultado' + (n !== 1 ? 's' : '') + ' para "<strong>' + esc(q) + '</strong>"';
-		      results.innerHTML = renderCards(matched, q, normalizeEs);
-		      return;
-		    }
-
-		    var qFull = normalizeFull(q);
-		    var matchedFull = posts.filter(function(p) { return matchFull(p, qFull); });
-
-		    var nFull = matchedFull.length;
-		    if (nFull > 0) {
-		      status.innerHTML = nFull + ' resultado' + (nFull !== 1 ? 's' : '') + ' aproximado' + (nFull !== 1 ? 's' : '') + ' para "<strong>' + esc(q) + '</strong>"';
-		      results.innerHTML =
-		        '<div class="b-aproximado">No se encontraron resultados exactos. Se muestran resultados aproximados.</div>' +
-		        renderCards(matchedFull, q, normalizeFull);
+		      results.innerHTML = renderCards(matched, q, qn);
 		    } else {
 		      status.innerHTML = '0 resultados para "<strong>' + esc(q) + '</strong>"';
 		      results.innerHTML = '<p class="b-nada">No se encontró nada.</p>';
@@ -148,6 +232,7 @@ import Header from '../components/Header.astro';
 		      posts = data;
 		      input.disabled = false;
 		      input.focus();
+		      status.length + ' entradas indexadas';
 		      status.innerHTML = posts.length + ' entradas indexadas';
 		    })
 		    .catch(function() {
@@ -164,27 +249,3 @@ import Header from '../components/Header.astro';
 	</body>
 </html>
 
-<style>
-	.page {
-		max-width: 700px;
-		margin: 0 auto;
-		padding: 4rem 1.5rem;
-	}
-	h1 {
-		margin: 0 0 2rem;
-		font-size: 2.5rem;
-		line-height: 1;
-	}
-	.b-card { border:1px solid #e0e0e0; border-radius:4px; padding:1rem 1.2rem; margin-bottom:0.8rem; }
-	.b-card:hover { border-color:#aaa; }
-	.b-card-header { display:flex; align-items:baseline; gap:0.5em; margin-bottom:0.2rem; }
-	.b-card-header a { font-weight:bold; color:#3273dc; text-decoration:none; }
-	.b-card-header a:hover { text-decoration:underline; }
-	.b-type { font-size:0.7em; color:#fff; background:#888; border-radius:3px; padding:1px 6px; white-space:nowrap; }
-	.b-date { font-size:0.75rem; color:#888; margin-bottom:0.4rem; }
-	.b-excerpt { font-size:0.9rem; color:#555; line-height:1.5; }
-	.b-excerpt mark { background:#ffeaa0; border-radius:2px; padding:0 2px; }
-	.b-tags { margin-top:0.5rem; font-size:0.75rem; color:#888; }
-	.b-nada { font-style:italic; color:#888; }
-	.b-aproximado { font-size:0.85rem; color:#888; font-style:italic; margin-bottom:1rem; padding:0.5rem 0.75rem; border-left:3px solid #e0e0e0; }
-</style>
