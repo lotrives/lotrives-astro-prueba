@@ -1,7 +1,7 @@
 ---
 title: "Himno del Colegio Santo Domingo de Orihuela"
 pubDate: 2026-03-31
-tags: ["Colegio Santo Domingo de Orihuela", "Orihuela"]
+tags: ["Colegio Santo Domingo", "Orihuela"]
 description: Letra y música del himno del Colegio Santo Domingo de Orihuela.
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Orihuela_-_Colegio_Diocesano_de_Santo_Domingo%2C_Claustro_renacentista_de_la_Universidad_05.jpg/960px-Orihuela_-_Colegio_Diocesano_de_Santo_Domingo%2C_Claustro_renacentista_de_la_Universidad_05.jpg
 ---
