@@ -3,7 +3,7 @@ title: "Esencias españolas"
 description: "De Ignacio de Loyola a Escrivá de Balaguer"
 pubDate: 2026-01-24
 updatedDate: 2026-06-13
-tags: ["Opus Dei", "Memorias", "Austria", "Marcel Reich-Ranicki", "Christoph Tölg", "Thomas Mann"]
+tags: ["Opus Dei", "Memorias", "Austria", "Marcel Reich-Ranicki", "Christoph Tölg", "Thomas Mann", "San Josemaría Escrivá de Balaguer", "San Ignacio de Loyola"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Zuloaga_en_MNCARS_1.jpg/1280px-Zuloaga_en_MNCARS_1.jpg"
 canonical: "https://lotrives.substack.com/p/esencias-espanolas"
 ---
