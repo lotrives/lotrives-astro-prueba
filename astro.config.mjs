@@ -7,6 +7,7 @@ import rehypeExternalLinks from 'rehype-external-links';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeSlug from 'rehype-slug';
 import { visit } from 'unist-util-visit';
+import { unified } from '@astrojs/markdown-remark';
 
 const SITE = 'https://lotrives.com';
 
@@ -30,6 +31,7 @@ export default defineConfig({
 	base: '/',
 	integrations: [mdx(), sitemap({ filter: (page) => !page.includes("/blog/") })],
 	markdown: {
+		processor: unified({
 		rehypePlugins: [
 			[rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],
 			rehypeFixExternalLinks,
@@ -60,6 +62,7 @@ export default defineConfig({
 				test: ['h2', 'h3', 'h4'],
 			}],
 		],
+		}),
 	},
 	fonts: [
 		{
