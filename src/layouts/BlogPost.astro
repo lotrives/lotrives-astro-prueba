@@ -6,6 +6,7 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import FloatingTOC from '../components/FloatingTOC.astro';
+import PageScripts from '../components/PageScripts.astro';
 
 type Props = CollectionEntry<'blog'>['data'] & {
 	prev?: { title: string; url: string } | null;
@@ -161,33 +162,4 @@ color: rgb(140, 155, 185);
 		<Footer />
 	</body>
 </html>
-<script>
-document.querySelectorAll("a[href]").forEach((a) => {
-  const href = a.getAttribute("href") ?? "";
-  if (/^https?:\/\//.test(href) && !href.startsWith("https://lotrives.com")) {
-    a.setAttribute("target", "_blank");
-    a.setAttribute("rel", "noopener noreferrer");
-  }
-});
-
-(function () {
-  const toast = document.createElement('div');
-  toast.id = 'copy-toast';
-  toast.textContent = 'Enlace copiado';
-  document.body.appendChild(toast);
-  let timer;
-  document.querySelectorAll('.heading-anchor').forEach((a) => {
-    a.addEventListener('click', (e) => {
-      e.preventDefault();
-      const id = a.getAttribute('href');
-      const url = window.location.origin + window.location.pathname + id;
-      navigator.clipboard.writeText(url).catch(() => {});
-      clearTimeout(timer);
-      toast.classList.add('visible');
-      timer = setTimeout(() => toast.classList.remove('visible'), 1800);
-      history.pushState(null, '', id);
-      document.querySelector(id)?.scrollIntoView({ behavior: 'smooth' });
-    });
-  });
-})();
-</script>
+<PageScripts />
