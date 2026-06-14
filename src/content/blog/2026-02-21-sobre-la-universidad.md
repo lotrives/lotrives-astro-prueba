@@ -26,7 +26,7 @@ La tesis que defendió **Inger Enkvist** es que los problemas en la universidad 
 
 Una catedrática de Derecho en una universidad pequeña francesa, contó Enkvist, espantada porque sus estudiantes no manejaban la lengua francesa como debían, empezó a ponerles dictados en la primera semana de su curso, como si estuvieran en primaria. Les situaba ante la evidencia de que necesitaban reforzar su conocimiento de la lengua francesa, y así, y con una serie de lecturas adecuadas, los cambiaba a mejor. Enkvist la puso como ejemplo de lo que se puede hacer. La catedrática francesa mencionada es Aude Denizot, profesora de Derecho en Le Mans Université.
 
-[Artículo completo](https://www.nuevarevista.net/pensar-leer-comparar-inger-enkvist/)
+[Más →](https://www.nuevarevista.net/pensar-leer-comparar-inger-enkvist/)
 
 ---
 
