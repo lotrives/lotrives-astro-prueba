@@ -18,7 +18,7 @@ canonical: "https://lotrives.substack.com/p/sobre-la-vocacion"
 
 La vocación profesional, defiende [Edith Stein](https://lotrives.com/etiquetas/#tag-edith-stein), es esencialmente llamada que se corresponde con la formación y el talento personales. «En la formación de todo ser humano han colaborado él mismo y muchos otros, voluntaria o involuntariamente, pero esa formación ha crecido sobre la base del <em>talento</em>», en el sentido de dones recibidos. En la naturaleza del ser humano se encuentra: «pretrazada su vocación y su vocación profesional», pero en última instancia: «es Dios mismo» quien llama: «a cada <em>ser humano individual</em> para algo», de forma: «completamente personal».
 
-Stéphane Robert relata una experiencia de [Lorenzo de la Resurrección](https://lotrives.com/etiquetas/#tag-lorenzo-de-la-resurreccion) cuando este maestro de espiritualidad tenía 18 años:
+Stéphane Robert relata una experiencia de Lorenzo de la Resurrección cuando este maestro de espiritualidad tenía 18 años:
 
 > «La visión de un árbol desnudo durante el invierno le hizo imaginar cómo sería en primavera; tuvo la certeza de que cambiaría por completo de aspecto en muy poco tiempo, y entendió que ese árbol representaba su propia transformación interior. Más aún, si la fuerza de Dios, así manifestada en la creación, llega a maravillarnos de ese modo», debe tener, sin ninguna duda, «un proyecto mucho mayor para cada ser humano, creado a su imagen y semejanza».
 
