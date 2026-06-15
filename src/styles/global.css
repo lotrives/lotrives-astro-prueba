@@ -194,6 +194,12 @@ h3#bibliografía ~ p {
 	margin-bottom: 0.6em;
 }
 
+/* Seguridad: ninguna imagen se desborda del contenedor */
+.prose img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Pies de foto y créditos de imagen */
 
 /* En prose, quitar margen inferior del párrafo que contiene la imagen */
