@@ -280,6 +280,7 @@ h3:hover > a[aria-hidden="true"] {
 .img-float-right {
   float: right;
   width: 350px;
+  max-width: 100%;
   margin: 0 0 1rem 1.5rem;
 }
 
@@ -313,6 +314,7 @@ h3:hover > a[aria-hidden="true"] {
 .img-float-left {
   float: left;
   width: 350px;
+  max-width: 100%;
   margin: 0 1.5rem 1rem 0;
 }
 
