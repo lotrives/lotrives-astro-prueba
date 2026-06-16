@@ -41,6 +41,7 @@ Grau, J. (1985, 16-22 de septiembre). Gorbachov: guerra al vodka. *Época*, pp. 
 
 Grau, J. (1985, 14-20 de octubre). El chantaje de Jaruzelski. Farsa electoral en Polonia. *Época*, pp. 97-100.
 
+Grau, J. (1985, 11-17 de noviembre). Economías del Este: irremediable catástrofe. *Época*, pp. 106-108.
 
 
 ## *Panorama* (Milán)

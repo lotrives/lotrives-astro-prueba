@@ -167,6 +167,22 @@ Grau Navarro, José Manuel. (1985, 25 de abril). [Los nuevos nombramientos en el
 
 —. (1985, 23 de octubre). [Gorbachov busca en Sofía el apoyo a sus planes bélicos](https://www.abc.es/archivo/periodicos/abc-madrid-19851023-36.html). *ABC*, p. 36.
 
+—. (1985, 23 de octubre). [El régimen checo ha impuesto el desarraigo de las viejas tradiciones](https://www.abc.es/archivo/periodicos/abc-madrid-19851023-38.html). *ABC*, Madrid, p. 38. 
+
+—. (1985, 24 de octubre). [Se endurece la presión del régimen sobre la figura del cardenal Tomášek](https://www.abc.es/archivo/periodicos/abc-madrid-19851024-32.html). *ABC*, Madrid, p. 32.
+
+—. (1985, 24 de octubre). [Gorbachov consigue pleno apoyo en la reunión de Sofía](https://www.abc.es/archivo/periodicos/abc-madrid-19851024-29.html). *ABC*, Madrid, p. 29.
+
+—. (1985, 25 de octubre). [Un golpe efectivo contra la campaña publicitaria de Moscú](https://www.abc.es/archivo/periodicos/abc-madrid-19851025-53.html). *ABC*, Madrid, p. 53.
+
+—. (1985, 26 de octubre). [Gorbachov exige en Sofía más unidad en la Europa del Este](https://www.abc.es/archivo/periodicos/abc-madrid-19851026-28.html). *ABC*, Madrid, p. 28.
+
+—. (1985, 30 de octubre). [Cracovia: clausuradas unas jornadas de Filología Hispánica](https://www.abc.es/archivo/periodicos/abc-madrid-19851030-49.html). *ABC*, Madrid, p. 49.
+
+
+—. (1985, 6 de noviembre). [Rumania militariza las centrales eléctricas para aumentar la producción](https://www.abc.es/archivo/periodicos/abc-madrid-19851106-35.html). *ABC*, Madrid, p. 35.
+
+—. (1985, 7 de noviembre). [Messner, nuevo presidente del Gobierno polaco](https://www.abc.es/archivo/periodicos/abc-madrid-19851107-31.html). *ABC*, Madrid, p. 31.
 
 ---
 
