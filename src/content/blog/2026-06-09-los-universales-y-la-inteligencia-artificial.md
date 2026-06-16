@@ -21,6 +21,8 @@ La disputa entre nominalistas y realistas siempre está ahí y siempre con grave
 
 La IA añade una novedad a este respecto. 
 
+## Patrones probabilísticos
+
 *Marcas* son los tokens —trozos de texto— que un modelo de IA procesa. No letras sueltas ni palabras enteras necesariamente. Fragmentos como «per», «ro», «-», «can», «ino» pueden ser tokens distintos según el sistema. Los modelos de IA no han visto nunca perros, sino textos. Durante el entrenamiento procesan miles de frases donde aparece la cadena *perro*: «El perro ladra», «el perro mueve la cola», «llevé al perro al veterinario». Lo que aprende una IA es que después de *el perro* viene con alta frecuencia un verbo de acción, que *perro* aparece cerca de *correa*, *veterinario*, *pelaje*, *ladrar*. Aprende la geometría de esas co-ocurrencias en el texto, no la naturaleza del animal, como haría un ser humano.
 
 Si se le pregunta a la IA si los perros pueden volar responde «no», correctamente. Pero no porque haya comprendido qué es un perro y qué es volar. Sino porque en los textos de entrenamiento la combinación *perros + volar* aparece casi siempre negada, corregida o usada en sentido figurado. La respuesta correcta emerge de la distribución estadística de las marcas, no de concepto alguno.
@@ -28,6 +30,8 @@ Si se le pregunta a la IA si los perros pueden volar responde «no», correctame
 Cuando usa la palabra *perro*, un nominalista medieval como [Roscelino](https://encyclopaedia.herdereditorial.com/wiki/Autor:Roscelino) la aplica a individuos concretos que existen: este animal que tengo delante, aquel otro que vi ayer. Para él, el nombre *perro* no representa ninguna naturaleza universal, pero sí apunta a individuos reales, y en cualquier caso hay un sujeto que mira, reconoce y nombra.
 
 El modelo de IA no tiene ante sí ningún individuo, no produce ningún acto de referencia, no sabe que *perro* se aplica a algo. Produce la marca *perro* porque las marcas anteriores del contexto hacen que esa sea la continuación más probable. Es una máquina de completar secuencias que da respuestas correctas sin que haya nadie dentro que entienda nada, que es exactamente lo que [John Searle](https://www.nuevarevista.net/john-searle-habitacion-china-ia-obituario/) describía en 1980 con la [habitación china](https://plato.stanford.edu/entries/chinese-room/).
+
+## La habitación china
 
 Imagínense un hombre encerrado en una habitación que no sabe chino. Unos chinos le preguntan algo en chino desde fuera por escrito y se lo pasan por una ranura. La persona dentro busca en un inmenso manual *ad hoc* a su disposición la combinación de símbolos que ha recibido, encuentra la regla correspondiente, copia los símbolos de respuesta indicados y los devuelve por otra ranura. No sabe chino, no entiende lo que le han preguntado y da con la respuesta sin entenderla. Otro asunto es que tarde un siglo en realizar esa operación y la IA ahora la resuelva en milésimas de segundo.
 
