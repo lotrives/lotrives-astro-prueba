@@ -9,7 +9,7 @@ heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Royal_Cask
 
 ![Cofre Real, en una imagen de antes de 1930](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Royal_Casket.JPG/1280px-Royal_Casket.JPG)
 
-<p class="pie-foto">Cofre Real, en una imagen anterior a 1930. Fue robado por los nazis y sigue en paradero desaparecido. Foto de Jannasch (Varsovia). Dominio público vía <a href="https://commons.wikimedia.org/w/index.php?title=File:Royal_Casket.JPG&oldid=976954811" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+<p class="pie-foto">Cofre Real, en una imagen anterior a 1930. Fue robado por los nazis y sigue en paradero desconocido. Foto de Jannasch (Varsovia). Dominio público vía <a href="https://commons.wikimedia.org/w/index.php?title=File:Royal_Casket.JPG&oldid=976954811" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
 
 La Segunda Guerra Mundial terminó en 1945. Pues bien: en este mes de junio de 2026 todavía se producen devoluciones a Polonia de bienes robados por la Alemania nazi al país del Vístula en los años de 1939 a 1945. 
 
