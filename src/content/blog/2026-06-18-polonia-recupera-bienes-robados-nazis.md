@@ -1,7 +1,7 @@
 ---
 title: "Polonia recupera un manuscrito medieval, un anillo del siglo XVI y once piezas de un museo ferroviario, todo robado por los nazis"
 pubDate: "2026-06-18"
-description: "En el 35.º aniversario del Tratado de Buena Vecindad, Berlín restituye a Varsovia un manuscrito medieval, un anillo del siglo XVI, probablemente del rey Segismundo I, y piezas de un museo ferroviario de Varsovia."
+description: "En el 35.º aniversario del Tratado de Buena Vecindad, Berlín restituye a Varsovia un manuscrito medieval, un anillo del siglo XVI, probablemente del rey Segismundo I, y piezas de un antiguo museo ferroviario de Varsovia."
 tags: ["Polonia", "Segunda Guerra Mundial", "Alemania", "Radosław Sikorski", "Familia Czartoryski"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Royal_Casket.JPG/1280px-Royal_Casket.JPG"  
 ---
