@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { SITE_TITLE } from '../consts';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { Font } from 'astro:assets';
 
 interface Props {
@@ -10,6 +10,24 @@ interface Props {
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const jsonLdGlobal = {
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "WebSite",
+			"name": SITE_TITLE,
+			"description": SITE_DESCRIPTION,
+			"url": String(Astro.site),
+			"author": { "@type": "Person", "name": "José Manuel Grau Navarro" }
+		},
+		{
+			"@type": "Person",
+			"name": "José Manuel Grau Navarro",
+			"url": new URL('/acerca/', Astro.site).toString()
+		}
+	]
+};
 
 const { title, description, image = '/assets/images/og-default.webp' } = Astro.props;
 ---
@@ -30,6 +48,7 @@ const { title, description, image = '/assets/images/og-default.webp' } = Astro.p
 	href="/rss.xml"
 />
 <meta name="generator" content={Astro.generator} />
+<script type="application/ld+json" set:html={JSON.stringify(jsonLdGlobal)} />
 
 <Font cssVariable="--font-atkinson" preload />
 
