@@ -6,6 +6,7 @@ updatedDate: 2026-05-21
 tags: ["Universidad"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/universidad-libertad-catedra-alvaro-dors"
+author: "José Manuel Grau Navarro"
 ---
 
 *La explicación de Álvaro d'Ors*.

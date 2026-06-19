@@ -5,6 +5,7 @@ pubDate: 2026-05-16
 tags: ["Bitcoin", "Anne Applebaum", "Inflación", "Rusia"]
 heroImage: "/assets/images/anne-applebaum.webp"
 canonical: "https://lotrives.substack.com/p/desorden-mundial"
+author: "José Manuel Grau Navarro"
 ---
 
 Cuando cayó el Muro de Berlín (1989) y se derrumbó el comunismo en el Este de Europa, parecía que entrábamos en una época de paz mundial y principios sanos de justicia y de derecho internacional. Era un espejismo. Por muchas razones, el mundo que vivimos hoy me parece más peligroso, y el artículo sobre Anne Applebaum, debajo, lo describe en parte.

@@ -6,6 +6,7 @@ updatedDate: 2026-05-17
 tags: ["Memorias"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Briones_-_Museo_del_Vino.JPG/1280px-Briones_-_Museo_del_Vino.JPG"
 canonical: "https://lotrives.substack.com/p/libros-y-vino-de-briones-biblioteca-occidente"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Museo de la Cultura del Vino, Briones (La Rioja)](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Briones_-_Museo_del_Vino.JPG/1280px-Briones_-_Museo_del_Vino.JPG)

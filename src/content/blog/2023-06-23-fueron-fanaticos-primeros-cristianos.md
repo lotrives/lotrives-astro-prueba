@@ -6,6 +6,7 @@ updatedDate: 2026-05-16
 tags: ["Joseph Ratzinger"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Eug%C3%A8ne_Delacroix_-_The_Fanatics_of_Tangier_-_WGA06195.jpg/1280px-Eug%C3%A8ne_Delacroix_-_The_Fanatics_of_Tangier_-_WGA06195.jpg"
 canonical: "https://lotrives.substack.com/p/fueron-unos-fanaticos-los-primeros-cristianos"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Los convulsionarios de Tánger, de Eugène Delacroix](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Eug%C3%A8ne_Delacroix_-_The_Fanatics_of_Tangier_-_WGA06195.jpg/1280px-Eug%C3%A8ne_Delacroix_-_The_Fanatics_of_Tangier_-_WGA06195.jpg)

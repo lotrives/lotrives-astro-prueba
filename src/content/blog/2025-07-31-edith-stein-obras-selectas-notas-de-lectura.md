@@ -3,6 +3,7 @@ title: "Edith Stein: Obras Selectas — Notas de lectura"
 pubDate: 2025-07-31
 tags: ["Edith Stein"]
 description: "Notas y citas de la edición española de las Obras Selectas de Edith Stein, editadas por Francisco Javier Sancho Fermín."
+author: "José Manuel Grau Navarro"
 ---
 
 Stein, Edith. (2012) [1998]. *Obras selectas*. Ed. Francisco Javier Sancho Fermín. 2.ª ed. Serie: Maestros Espirituales Cristianos 12. Burgos: Monte Carmelo.

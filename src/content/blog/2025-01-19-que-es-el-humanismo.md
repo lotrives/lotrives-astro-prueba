@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Mark Van Doren", "Educación", "Humanismo"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!G6U5!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e95d5de-a1d3-4e6f-b281-02b738de79b6_2304x1792.jpeg"
 canonical: "https://lotrives.substack.com/p/que-es-el-humanismo"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">«Limpia ese rostro de ángel y vuelve al instituto, jovencita»</p>

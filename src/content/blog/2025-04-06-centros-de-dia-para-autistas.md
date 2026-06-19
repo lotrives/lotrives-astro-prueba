@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Autismo", "Discapacidad", "Martín Bilz", "Madrid"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!G3n_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F542765f4-6e86-4d3a-bff7-9cb31e275f17_1024x768.jpeg"
 canonical: "https://lotrives.substack.com/p/centros-de-dia-para-autistas"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Carta abierta a la Consejería de Familia de la Comunidad de Madrid</p>

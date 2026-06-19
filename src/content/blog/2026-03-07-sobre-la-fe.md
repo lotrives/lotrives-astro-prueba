@@ -6,6 +6,7 @@ updatedDate: 2026-06-14
 tags: ["Martina Draft", "Fe", "Juan Bautista Torelló", "Opus Dei", "Orihuela", "Conferencia Episcopal Española", "Colegio Santo Domingo", "Manuel Espinosa Aguilar", "Ramón María Torelló"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Incredulity_of_Saint_Thomas_%28cropped%29.jpg/1280px-The_Incredulity_of_Saint_Thomas_%28cropped%29.jpg"
 canonical: "https://lotrives.substack.com/p/sobre-la-fe"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">A propósito de la nota doctrinal de la Conferencia Episcopal Española sobre el papel de las emociones en el acto de fe</p>

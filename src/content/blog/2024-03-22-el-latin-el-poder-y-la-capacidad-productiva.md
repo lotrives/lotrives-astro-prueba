@@ -6,6 +6,7 @@ updatedDate: 2026-05-21
 tags: ["Joseph Ratzinger", "Latín"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/el-latin-el-poder-y-la-capacidad-productiva"
+author: "José Manuel Grau Navarro"
 ---
 
 *Cuando solo cuenta el saber que se justifica por lo que se puede hacer con él*

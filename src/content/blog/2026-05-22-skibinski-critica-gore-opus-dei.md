@@ -4,6 +4,7 @@ description: "Skibiński, historiador polaco, desmonta el libro de Gore sobre el
 pubDate: 2026-05-22
 tags: ["Opus Dei"]
 heroImage: "/assets/images/og-default.webp"
+author: "José Manuel Grau Navarro"
 ---
 
 **Paweł Skibiński** es historiador, docente en la Universidad de Varsovia, profesor de Humanidades. Es autor de libros dedicados a la historia reciente de la Iglesia, como *[Kościół wobec totalitaryzmów 1917-1989](https://www.sklepinstytutpileckiego.pl/kosciol-wobec-totalitaryzmow)* ('La Iglesia frente a los totalitarismos, 1917-1989'), publicado en 2022, y también de la historia de España, como *[Między ołtarzem a tronem. Państwo i Kościół w Hiszpanii w latach 1931–1953](https://www.empik.com/miedzy-oltarzem-a-tronem-panstwo-i-kosciol-w-hiszpanii-w-latach-1931-1953-skibinski-pawel,p1091539369,ksiazka-p)* ('Entre el altar y el trono. El Estado y la Iglesia en España en los años 1931-1953'), publicado en 2014.

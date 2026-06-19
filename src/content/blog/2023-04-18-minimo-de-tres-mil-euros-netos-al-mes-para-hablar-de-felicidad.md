@@ -6,6 +6,7 @@ updatedDate: 2026-05-15
 tags: ["Santo Tomás de Aquino", "Robert Barron"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!s5B6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fce3241fa-2e16-422e-af9b-33b849d1092c_1182x1024.jpeg"
 canonical: "https://lotrives.substack.com/p/minimo-de-tres-mil-euros-netos-al"
+author: "José Manuel Grau Navarro"
 ---
 
 ![La diosa Fortuna con la rueda de la fortuna. Ilustración del Siege of Troy de John Lydgate (siglo XV)](https://substackcdn.com/image/fetch/$s_!s5B6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fce3241fa-2e16-422e-af9b-33b849d1092c_1182x1024.jpeg)

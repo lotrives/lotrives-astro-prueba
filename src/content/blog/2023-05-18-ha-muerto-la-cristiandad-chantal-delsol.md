@@ -6,6 +6,7 @@ updatedDate: 2026-05-15
 tags: []
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/3/36/Sacre_de_Charlemagne.jpg"
 canonical: "https://lotrives.substack.com/p/ha-muerto-la-cristiandad-chantal-delsol"
+author: "José Manuel Grau Navarro"
 ---
 
 ![La coronación de Carlomagno](https://upload.wikimedia.org/wikipedia/commons/3/36/Sacre_de_Charlemagne.jpg)

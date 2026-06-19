@@ -3,6 +3,7 @@ title: "Cuatro escenas sobre «La Obra», de Marina Pereda"
 pubDate: 2026-04-29
 tags: ["Opus Dei"]
 description: "Por qué volví al Opus Dei como supernumerario: una reflexión a partir del libro «La Obra», de Marina Pereda."
+author: "José Manuel Grau Navarro"
 ---
 
 **Escena 1**

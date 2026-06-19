@@ -6,6 +6,7 @@ updatedDate: 2026-05-16
 tags: []
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/%D0%A5%D1%80%D0%B0%D0%BC_%D0%A1%D0%BF%D0%B0%D1%81%D0%B0_%D0%BD%D0%B0_%D0%9A%D1%80%D0%BE%D0%B2%D0%B8_2018.jpg/1280px-%D0%A5%D1%80%D0%B0%D0%BC_%D0%A1%D0%BF%D0%B0%D1%81%D0%B0_%D0%BD%D0%B0_%D0%9A%D1%80%D0%BE%D0%B2%D0%B8_2018.jpg"
 canonical: "https://lotrives.substack.com/p/peter-kreeft-y-su-how-to-be-holy"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Iglesia del Salvador sobre la Sangre Derramada (San Petersburgo)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/%D0%A5%D1%80%D0%B0%D0%BC_%D0%A1%D0%BF%D0%B0%D1%81%D0%B0_%D0%BD%D0%B0_%D0%9A%D1%80%D0%BE%D0%B2%D0%B8_2018.jpg/1280px-%D0%A5%D1%80%D0%B0%D0%BC_%D0%A1%D0%BF%D0%B0%D1%81%D0%B0_%D0%BD%D0%B0_%D0%9A%D1%80%D0%BE%D0%B2%D0%B8_2018.jpg)

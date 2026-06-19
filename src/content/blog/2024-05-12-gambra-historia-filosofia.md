@@ -3,6 +3,7 @@ title: "Rafael Gambra: «Historia sencilla de la filosofía"
 pubDate: 2024-05-12
 tags: ["Rafael Gambra"]
 description: "Explicación de por qué se filosofa. El ejemplo del hombre que pierde la conciencia y trata de buscar el sentido de lo que ve cuando la recupera sin memoria."
+author: "José Manuel Grau Navarro"
 ---
 
 Gambra Ciudad, Rafael. (2016) [1961]. *Historia sencilla de la filosofía*. 30.ª ed. Madrid: Rialp.

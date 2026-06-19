@@ -6,6 +6,7 @@ updatedDate: 2026-06-07
 tags: ["Robert Barron", "Matrimonio", "Sexualidad", "Castidad"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/El_Beso_%28Pinacoteca_de_Brera%2C_Milán%2C_1859%29.jpg/960px-El_Beso_%28Pinacoteca_de_Brera%2C_Milán%2C_1859%29.jpg"
 canonical: "https://lotrives.substack.com/p/la-sexualidad-en-el-matrimonio"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Guerra de sexos en perspectiva católica</p>

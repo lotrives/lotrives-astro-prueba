@@ -4,6 +4,7 @@ pubDate: 2026-06-11
 description: "Una entrada al azar en el diccionario «Redes», de Ignacio Bosque, y una pregunta a Claude revelan hasta dónde ha llegado la IA en lexicografía."
 tags: ["Inteligencia artificial", "Ignacio Bosque", "Diccionarios"]
 heroImage: "/assets/images/redes.webp"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Diccionario Redes de Ignacio Bosque, con la cubierta y una página abierta por la entrada «atenuante»](/assets/images/redes.webp)

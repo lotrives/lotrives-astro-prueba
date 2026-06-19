@@ -6,6 +6,7 @@ pubDate: 2025-11-19
 last_modified_at: 2025-11-30
 heroImage: "/assets/images/sobre-pedro-garcia-cuartango-portada.webp"
 tags: ["Dios", "Jesucristo", "Bertrand Russell", "Frederick C. Copleston", "Isaías"]
+author: "José Manuel Grau Navarro"
 ---
 
 ![Pedro García Cuartango en el Foro Nueva Revista, Madrid, 19 de noviembre de 2025](/assets/images/sobre-pedro-garcia-cuartango-portada.webp)

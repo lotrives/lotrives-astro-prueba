@@ -6,6 +6,7 @@ updatedDate: 2026-05-15
 tags: ["Islam"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Kaaba_during_Hajj_-_edited.jpg/1280px-The_Kaaba_during_Hajj_-_edited.jpg"
 canonical: "https://lotrives.substack.com/p/el-islam-remi-brague-hugo-micheron"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Peregrinación a La Meca, 2018](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Kaaba_during_Hajj_-_edited.jpg/1280px-The_Kaaba_during_Hajj_-_edited.jpg)

@@ -6,6 +6,7 @@ tags: ["Sexualidad", "Pablo Bilz", "Jean-Marie Lustiger"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Joaquín_Sorolla_-_Chicos_en_la_playa.jpg/1280px-Joaquín_Sorolla_-_Chicos_en_la_playa.jpg"
 updatedDate: 2026-06-07
 canonical: "https://lotrives.substack.com/p/sexualidad-entretenida"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Lotrives: te paso el acta de la conversación que hemos mantenido esta mañana sobre la sexualidad. Destaco que cada uno es moralmente responsable de lo que dice, hace y escribe ante la mirada del otro. Por mí, la puedes difundir. Un fuerte abrazo, Pablo Bilz.</p>

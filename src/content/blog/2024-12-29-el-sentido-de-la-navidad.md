@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Joseph Ratzinger", "Dios", "Navidad", "Alfred Delp", "Jesuitas"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!Mccx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F280eec0e-2f32-4efd-9928-bdb50a42afdc_1726x2047.jpeg"
 canonical: "https://lotrives.substack.com/p/el-sentido-de-la-navidad"
+author: "José Manuel Grau Navarro"
 ---
 
 *«Cuando entre los hombres no se honra a Dios, deja de honrarse también al hombre»*

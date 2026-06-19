@@ -5,6 +5,7 @@ canonical_url: "https://lotrives.github.io/2025/11/16/barrio-prosperidad-madrid/
 pubDate: 2025-11-16
 heroImage: /assets/images/barrio-prosperidad-madrid-metro-portada.webp
 tags: ["Madrid", "Orihuela", "Metro", "Varsovia"]
+author: "José Manuel Grau Navarro"
 ---
 
 ![Metro del barrio Prosteridad de Madrid](/assets/images/barrio-prosperidad-madrid-metro-portada.webp)

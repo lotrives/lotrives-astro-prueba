@@ -6,6 +6,7 @@ description: "Marcin Romanowski se encuentra refugiado en Hungría y la prensa p
 heroImage: "/assets/images/marcin-romanowski.webp"
 canonical_url: "https://lotrives.github.io/2026/04/17/marcin-romanowski-opus-dei/"
 last_modified_at: 2026-04-24
+author: "José Manuel Grau Navarro"
 ---
 
 #### La prensa polaca se pregunta si con el cambio de Gobierno en Hungría, Romanowski será extraditado a Polonia y cómo actuará el Opus Dei al respecto

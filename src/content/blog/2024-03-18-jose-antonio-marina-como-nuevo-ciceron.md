@@ -6,6 +6,7 @@ updatedDate: 2026-05-21
 tags: []
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/jose-antonio-marina-como-nuevo-ciceron"
+author: "José Manuel Grau Navarro"
 ---
 
 *«Historia universal de las soluciones», el libro recién publicado de **José Antonio Marina**, denuncia los males que se derivan de separar la «sociedad civil» de la «sociedad política»*

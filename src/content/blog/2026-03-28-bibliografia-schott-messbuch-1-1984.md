@@ -3,6 +3,7 @@ title: "Bibliografía citada en Schott-Messbuch für die Wochentage (1984), I"
 pubDate: 2026-03-28
 tags: ["Schott"]
 description: "Bibliografía citada en Schott-Messbuch für die Wochentage (1984), tomo I, ordenada alfabéticamente y con referencia de página del volumen en la que se cita cada obra."
+author: "José Manuel Grau Navarro"
 ---
 
 Referencia de partida: Benediktiner der Erzabtei Beuron (Eds.). (1984). *Schott-Messbuch für die Wochentage: Teil I. Advent bis 13. Woche im Jahreskreis*. Verlag Herder.

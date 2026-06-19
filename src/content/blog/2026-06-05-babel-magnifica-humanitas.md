@@ -4,6 +4,7 @@ pubDate: 2026-06-05
 description: "Leído desde la tradición y en la «Magnifica humanitas» de León XIV, Babel ayuda a pensar sobre la técnica, el poder y la inteligencia artificial."
 tags: ["Biblia", "Inteligencia artificial", "Magnifica humanitas", "León XIV"]
 heroImage: "/assets/images/zigurat-ur.webp"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Un hilo conductor de la encíclica «Magnifica humanitas» es el episodio de la torre de Babel. Ofrecemos aquí la interpretación de León XIV sobre ese relato, precedida de otras tres clásicas, y sacamos una conclusión.</p>

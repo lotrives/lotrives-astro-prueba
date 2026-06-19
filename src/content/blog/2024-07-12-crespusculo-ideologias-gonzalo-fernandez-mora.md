@@ -3,6 +3,7 @@ title: "«El crepúsculo de las ideologías», de Gonzalo Fernández de la Mora"
 pubDate: 2024-07-12
 description: "Extractos de «El crepúsculo de las ideologías», de Gonzalo Fernández de la Mora."
 tags: ["Gonzalo Fernández de la Mora", "Francis Bacon", "Karl Marx"]
+author: "José Manuel Grau Navarro"
 ---
 
 Fernández de la Mora, Gonzalo. (1965). *El crepúsculo de las ideologías*. Ediciones Rialp.

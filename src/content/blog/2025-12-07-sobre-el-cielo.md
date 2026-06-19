@@ -6,6 +6,7 @@ updatedDate: 2026-06-13
 tags: ["Joseph Ratzinger", "Dios", "Biblia", "Graben", ]
 heroImage: "https://iiif.micr.io/EyRPxoD/full/max/0/default.jpg"
 canonical: "https://lotrives.substack.com/p/sobre-el-cielo"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">¿El lugar donde el leopardo se tumba en paz con el cabrito? ¿La memoria amorosa de Dios que otorga eternidad? ¿Ambos?</p>

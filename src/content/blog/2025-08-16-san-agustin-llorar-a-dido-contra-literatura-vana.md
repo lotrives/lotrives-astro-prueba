@@ -4,6 +4,7 @@ pubDate: 2025-08-16
 last_modified_at: 2026-04-26
 tags: ["San Agustín", "Literatura"]
 description: "Tres pasajes de las Confesiones de san Agustín sobre la vanidad en la literatura, con algunas reflexiones."
+author: "José Manuel Grau Navarro"
 ---
 
 Las *Confesiones* de san Agustín (397) contienen, entre sus reflexiones autobiográficas, una crítica a la literatura vana. Estas notas recogen tres pasajes.

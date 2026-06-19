@@ -5,6 +5,7 @@ canonical_url: "https://lotrives.github.io/2025/11/22/aznar-musk-autismo-confusi
 pubDate: 2025-11-22
 tags: ["Autismo", "José María Aznar", "Elon Musk", "Simon Baron-Cohen", "Leo Kanner", "Lorna Wing", "Síndrome de Asperger", "Eugenesia"]
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg/960px-Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg
+author: "José Manuel Grau Navarro"
 ---
 
 [<img width="960" alt="The Monk by the Sea (Der Mönch am Meer), before restoration" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg/960px-Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg">](https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg)

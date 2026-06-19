@@ -6,6 +6,7 @@ updatedDate: 2026-05-21
 tags: ["Biblia", "Salmos", "Santo Tomás de Aquino"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/salmo-2-vulgata-latin-espanol-nueva-traduccion"
+author: "José Manuel Grau Navarro"
 ---
 
 ## Texto latino y traducción

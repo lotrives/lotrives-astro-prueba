@@ -6,6 +6,7 @@ updatedDate: 2026-05-15
 tags: []
 heroImage: "https://substackcdn.com/image/fetch/$s_!FV1N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2660071-9502-47ac-a483-fb8258c9f6b0_1440x809.jpeg"
 canonical: "https://lotrives.substack.com/p/relaciones-buena-vida-waldinger-schulz"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Portada del libro Una buena vida](https://substackcdn.com/image/fetch/$s_!FV1N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2660071-9502-47ac-a483-fb8258c9f6b0_1440x809.jpeg)

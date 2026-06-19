@@ -5,6 +5,7 @@ pubDate: 2023-11-05
 updatedDate: 2026-05-16
 tags: ["Memorias"]
 canonical: "https://lotrives.substack.com/p/sobre-firmas-jose-grau"
+author: "José Manuel Grau Navarro"
 ---
 
 Al poco de [llegar a Austria](https://lotrives.substack.com/p/1989-parte-de-lo-que-sucedio), en 1982, siguiendo la costumbre de aquel país y de casi toda Europa, firmaba como José Grau en lugar de con mis dos nombres de pila (José Manuel) y con mis dos apellidos, de padre (Grau) y madre (Navarro): José Manuel Grau Navarro. Cuando empecé a publicar en [*ABC*](https://lotrives.com/abc/) y en otros medios utilizaba **José Grau** y lo mantuve mientras trabajé para *ABC* (1985-2013). En [*La Vanguardia*](https://lotrives.com/la-vanguardia/), para evitar una identificación con un colaborador de otro periódico de la competencia, empleé **José Manuel Navarro**.

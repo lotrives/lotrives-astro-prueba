@@ -3,6 +3,7 @@ title: "Joseph Ratzinger sobre los recuerdos personales, los magnos recuerdos de
 pubDate: 2025-01-05
 tags: ["Joseph Ratzinger", "Recuerdos", "Fe", "Fiestas"]
 description: "Los grandes recuerdos se conservan merced a su traducción en el ámbito de lo personal. La fe como realidad vivida."
+author: "José Manuel Grau Navarro"
 ---
 
 > «Los recuerdos personales se alimentan de los magnos recuerdos de la humanidad; los grandes recuerdos se conservan exclusivamente merced a su traducción en el ámbito de lo personal. El que los hombres puedan creer es algo que, sin excepción alguna, depende también de que la fe se torne una realidad amada en el curso de sus vidas, de que la humanidad de Dios se manifieste a través de la humanidad del hombre. No hay duda de que cada uno de nosotros podría contar su propia historia de lo que para su vida significan los recuerdos de las fiestas navideñas, pascuales o cualquiera otra».

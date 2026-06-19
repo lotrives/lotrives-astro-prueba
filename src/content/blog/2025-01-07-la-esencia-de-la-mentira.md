@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Dios", "Dietrich Bonhoeffer", "Biblia"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!-zyf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fac72e14f-eeb8-48fb-bacd-530e42812416_795x578.jpeg"
 canonical: "https://lotrives.substack.com/p/la-esencia-de-la-mentira"
+author: "José Manuel Grau Navarro"
 ---
 
 *«¿Quién es mentiroso sino el que niega que Jesús es el Cristo?» (1 Jn 2:22)*

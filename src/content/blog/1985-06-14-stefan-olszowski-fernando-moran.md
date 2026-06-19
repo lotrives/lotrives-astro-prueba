@@ -4,6 +4,7 @@ pubDate: 1985-06-14
 last_modified_at: 2026-04-20
 tags: ["Stefan Olszowski", "Fernando Morán"]
 description: "Olszwoski, ministro de Exteriores polaco, pone a Morán de ejemplo de ministro que acepta las condiciones del Gobierno comunista polaco para visitar polonia."
+author: "José Manuel Grau Navarro"
 ---
 
 [Stefan] Olszowski [ministro de Exteriores de Polonia] minimiza en Viena el proceso de Gdańsk [a tres disidentes polacos]

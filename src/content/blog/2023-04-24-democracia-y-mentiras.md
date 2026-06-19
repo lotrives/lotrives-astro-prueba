@@ -6,6 +6,7 @@ updatedDate: 2026-05-15
 tags: ["Diálogo"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!T-bg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb86d76b-cf30-4f02-a73e-bf9efb6f0528_2560x1707.jpeg"
 canonical: "https://lotrives.substack.com/p/democracia-y-mentiras"
+author: "José Manuel Grau Navarro"
 ---
 
 ![El personaje de Pinocho, emblema de la mentira](https://substackcdn.com/image/fetch/$s_!T-bg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb86d76b-cf30-4f02-a73e-bf9efb6f0528_2560x1707.jpeg)

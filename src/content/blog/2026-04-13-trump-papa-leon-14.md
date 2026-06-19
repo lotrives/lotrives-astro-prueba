@@ -4,6 +4,7 @@ pubDate: 2026-04-13
 tags: ["Donald Trump", "León XIV", "Robert McElroy"]
 description: "Según Donald Trump, León debería «enmendar su papel como papa», «usar el sentido común», y «dejar de complacer a la izquierda radical»."
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Vatican_Sunset_-_Rome%2C_Italy_-_Easter_2008.jpg/960px-Vatican_Sunset_-_Rome%2C_Italy_-_Easter_2008.jpg
+author: "José Manuel Grau Navarro"
 ---
 <a title="Giorgio Galeotti, CC BY 4.0 &lt;https://creativecommons.org/licenses/by/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Vatican_Sunset_-_Rome,_Italy_-_Easter_2008.jpg"><img width="960" alt="Vatican Sunset - Rome, Italy - Easter 2008" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Vatican_Sunset_-_Rome%2C_Italy_-_Easter_2008.jpg/960px-Vatican_Sunset_-_Rome%2C_Italy_-_Easter_2008.jpg"></a>
 

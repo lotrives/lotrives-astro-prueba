@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Igualdad", "Biblia", "Reinhard Mey", "Thomas Sowell", "Envidia"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!vlBl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b8bc945-8792-4c54-8171-be2bb6c52fcb_2000x1647.jpeg"
 canonical: "https://lotrives.substack.com/p/igualdad-de-resultados-envidia"
+author: "José Manuel Grau Navarro"
 ---
 
 *Sobre la envidia*

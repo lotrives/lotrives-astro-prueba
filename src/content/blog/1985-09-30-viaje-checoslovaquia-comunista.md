@@ -5,6 +5,7 @@ description: "Crónica de un viaje a la Checoslovaquia comunista en septiembre d
 tags: ["Checoslovaquia", "František Tomášek", "Praga", "Tabor", "Planá nad Lužnicí", "Husitas" ]
 heroImage: "/assets/images/visado-checo.webp"
 updatedDate: 2026-06-02
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Del 27 al 29 de septiembre de 1985, un grupo de amigos realizamos un viaje a Checoslovaquia. Salimos de Viena, pasamos la frontera por <a href="https://cs.wikipedia.org/w/index.php?title=Hraniční_přechod_Nová_Bystřice_–_Grametten&oldid=25278596" target="_blank" rel="noopener">Grametten-Nová Bystřice</a> y regresamos a Austria por <a href="https://cs.wikipedia.org/w/index.php?title=Hraniční_přechod_Mikulov–Drasenhofen&oldid=25438472" target="_blank" rel="noopener">Mikulov-Drasenhofen.</a></p>

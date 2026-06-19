@@ -4,6 +4,7 @@ pubDate: 2026-04-28
 tags: ["Cirilo y Metodio", "Juan Pablo II", "Comunismo", "Madrid", "Checoslovaquia", "František Tomášek"]
 description: "Un respostero en ruso en la Parroquia María Virgen Madre de Madrid y el eco de la multitudinaria peregrinación a Velehrad en 1985."
 heroImage: "/assets/images/cirilo-metodio-velehrad-respostero.webp"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Respostero con la inscripción КРЕЩЕНИЕ ГОСПОДНЕ en la Parroquia María Virgen Madre, Madrid, abril de 2026. Foto: © José Manuel Grau Navarro](/assets/images/cirilo-metodio-velehrad-respostero.webp)

@@ -6,6 +6,7 @@ tags: ["Madrid", "Discapacidad", "Autismo"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/como-conseguir-recursos-para-la-discapacidad"
 updatedDate: 2026-05-21
+author: "José Manuel Grau Navarro"
 ---
 
 Esta mañana, Juan José Martínez ha publicado en el diario *El País* un artículo que lleva este título: [La quiebra de dos centros concertados deja sin ubicación a 139 usuarios discapacitados](https://elpais.com/espana/madrid/2024-03-27/la-quiebra-de-dos-centros-concertados-deja-en-un-limbo-a-139-personas-con-discapacidad-intelectual-en-pozuelo-de-alarcon.html) (*El País*, 27/3/24, p. 23, ed. Madrid).

@@ -6,6 +6,7 @@ updatedDate: 2026-06-14
 tags: ["Martina Draft", "Pedro Sainz Rodríguez", "Esteticismo", "Audrey Hepburn", "Gabriel Miró", "Belleza", "Teresa de Calcuta", "Rafael Alvira"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Audrey_Hepburn_Tiffany%27s.jpg/1280px-Audrey_Hepburn_Tiffany%27s.jpg"
 canonical: "https://lotrives.substack.com/p/guapas-y-guapos-de-manual"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Sobre la belleza.</p>

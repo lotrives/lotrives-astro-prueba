@@ -3,6 +3,7 @@ title: "Edith Stein: Obras Completas I — Notas de lectura"
 pubDate: 2025-07-31
 tags: ["Edith Stein"]
 description: "Notas y citas de la edición española de las Obras Completas de Edith Stein, con introducción de Francisco Javier Sancho y Ezequiel García."
+author: "José Manuel Grau Navarro"
 ---
 
 Stein, Edith [Santa Teresa Benedicta de la Cruz]. (2019) [2002]. *Obras Completas I. Escritos autobiográficos y cartas*. Bajo la dirección de Julen Urkiza Francisco Javier Sancho. Traducidos del alemán por Jesús García Rojo, OCD, Ezequiel García Rojo, OCD, Francisco Javier Sancho Fermín, OCD, Constantino Ruiz-Garrido. Revisión desde los autógrafos: Julen Urkiza, OCD. Coeditores: Editorial Monte Carmelo (Burgos), Ediciones El Carmen (Vitoria), Editorial de Espiritualidad (Madrid). 2019: 2.ª reimpresión.

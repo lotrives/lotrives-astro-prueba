@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Martín Bilz", "Autismo", "Reinhard Mey", "Jubilación"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!twAK!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3966aa5a-63a2-480d-b8ae-fe14a65e5835_1024x1536.png"
 canonical: "https://lotrives.substack.com/p/sobre-la-jubilacion-y-el-sentido-de-la-vida"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Reinhard Mey y su canción «Buenas noches, amigos»</p>

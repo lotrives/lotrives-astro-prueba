@@ -6,6 +6,7 @@ updatedDate: 2026-05-17
 tags: ["Polonia", "Joseph Ratzinger", "Memorias", "Solidaridad"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/1/16/Strajk_sierpniowy_w_Stoczni_Gdańskiej_im._Lenina_22.jpg"
 canonical: "https://lotrives.substack.com/p/lech-walesa-ratzinger-ciudadania-polaca"
+author: "José Manuel Grau Navarro"
 ---
 
 *Lech Wałęsa, fundador del sindicato Solidaridad (1980), Nobel de la Paz (1983) y expresidente de Polonia (1990-1995), justifica el relativo clima antieuropeo polaco por el egoísmo de la UE.*

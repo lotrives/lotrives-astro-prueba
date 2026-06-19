@@ -6,6 +6,7 @@ updatedDate: 2026-06-13
 tags: ["Diálogo", "Norman Rockwell", "Sócrates"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Norman_Rockwell_-_Cousin_Reginald_Spells_Peloponnesus_%28Spelling_Bee%29_-_Google_Art_Project.jpg/1280px-Norman_Rockwell_-_Cousin_Reginald_Spells_Peloponnesus_%28Spelling_Bee%29_-_Google_Art_Project.jpg"
 canonical: "https://lotrives.substack.com/p/controversia-y-dialogo"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">La fotografía que sigue a este párrafo refleja un óleo de <strong>Norman Rockwell</strong> titulado <em>Cousin Reginald spells Peloponnesus</em> (1918) [El primo Reginald deletrea la palabra ‘Peloponeso’], reproducido aquí con licencia de <a href="https://commons.wikimedia.org/w/index.php?title=File:Norman_Rockwell_-_Cousin_Reginald_Spells_Peloponnesus_(Spelling_Bee)_-_Google_Art_Project.jpg&oldid=845835755" target="_blank" rel="noopener">Wikimedia Commons</a>. Es una escena escolar de un concurso de deletreo a los que tan aficionados son los estadounidenses.</p>

@@ -6,6 +6,7 @@ updatedDate: 2026-05-16
 tags: ["Joseph Ratzinger"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/8/84/Ratzinger-Rom88.JPG"
 canonical: "https://lotrives.substack.com/p/ratzinger-represalias-teologos-criticos"
+author: "José Manuel Grau Navarro"
 ---
 
 «Un acto colectivo nos interesa, naturalmente, porque también quiere ir dirigido a nosotros, pero no es el detonante para actuar contra algunos de sus participantes». Así respondió ayer el cardenal Ratzinger a una pregunta de *ABC* sobre si la Congregación que él dirige, la Congregación para la Doctrina de la Fe, tomará alguna medida contra los teólogos españoles por la reciente declaración que publicaron con críticas a Roma. […].[^1]

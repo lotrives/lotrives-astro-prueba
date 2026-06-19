@@ -6,6 +6,7 @@ updatedDate: 2026-05-17
 tags: ["Memorias", "Miguel Ángel Garrido Gallardo"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Miguel_Ángel_Garrido_Gallardo%2C_1965.jpg/960px-Miguel_Ángel_Garrido_Gallardo%2C_1965.jpg"
 canonical: "https://lotrives.substack.com/p/miguel-angel-garrido-gallardo-revisitado"
+author: "José Manuel Grau Navarro"
 ---
 
 En 2010, tras la aparición del número 129 de *[Nueva Revista](https://www.nuevarevista.net) de Política, Cultura y Arte*, comenzó un nuevo ciclo en la publicación fundada en 1990 por Antonio Fontán (1923-2010). El filólogo **Miguel Ángel Garrido Gallardo**, catedrático de universidad y profesor de investigación del Centro de Ciencias Humanas y Sociales del Consejo Superior de Investigaciones Científicas (CSIC), tomaba el timón como editor de esa publicación.

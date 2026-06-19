@@ -6,6 +6,7 @@ updatedDate: 2026-06-12
 tags: ["Polonia", "Prensa", "Adam Michnik", "Ryszard Kapuściński", "Gazeta Wyborcza", "Adam Michnik", "Ernest Skalski", "Jan M. Ruman"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/polonia-prensa-pap-gazeta-wyborcza"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Un recorrido sentimental por la prensa polaca hasta 1990</p>

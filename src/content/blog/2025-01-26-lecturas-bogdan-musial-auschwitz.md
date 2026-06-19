@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Auschwitz", "Polonia", "Segunda Guerra Mundial"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!VKbu!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f9cd10e-571b-4bfc-b226-66b963f89ea3_330x502.jpeg"
 canonical: "https://lotrives.substack.com/p/lecturas-bogdan-musial-auschwitz"
+author: "José Manuel Grau Navarro"
 ---
 
 <div class="img-float-right" style="width: 200px;">

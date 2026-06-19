@@ -4,6 +4,7 @@ pubDate: 2026-05-20
 description: "Enrique Herrando Prat de la Riba (1945-2026), economista, director del Opus Dei en Austria, fundador del IMABE, falleció en Viena el 20 de mayo de 2026."
 tags: ["Opus Dei", "Austria", "Enrique Herrando Prat de la Riba", "Juan Bautista Torelló", "Memorias", "Birkbrunn"]
 heroImage: "/assets/enrique-herrando.webp"
+author: "José Manuel Grau Navarro"
 ---
 
 <div class="img-float-right" style="width: 325px;">

@@ -3,6 +3,7 @@ title: "Henry Hazlitt: «La economía en una lección»"
 pubDate: 2023-05-30
 tags: ["Henry Hazlitt", "Javier Milei", "Friédéric Bastiat", "William Graham Sumner", "Juan Ramón Rallo", "Ahorro", "Impuestos", "Crédito estatal", "Trabajo", "Pleno empleo", "Adam Smith", "Aranceles", "Paridad de precios", "Precios", "Salario mínimo", "Inflación", "Exportación", "Beneficios", "Intervencionismo estatal"]
 description: "Extractos de «La economía en una lección», obra de Henry Hazlitt"
+author: "José Manuel Grau Navarro"
 ---
 
 Henry Hazlitt: *La economía en una lección*. Unión Editorial, 2018. (Prólogos de Javier Miley y Juan Ramón Rallo. Traducción de Marciano Villanueva Salas).  

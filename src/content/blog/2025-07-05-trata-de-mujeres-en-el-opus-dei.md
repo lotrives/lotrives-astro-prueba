@@ -6,6 +6,7 @@ updatedDate: 2026-06-07
 tags: ["Opus Dei", "Numerarias auxiliares", "Argentina"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/The_idle_servant.jpg/960px-The_idle_servant.jpg"
 canonical: "https://lotrives.substack.com/p/trata-de-mujeres-en-el-opus-dei"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Sobre las numerarias auxiliares</p>

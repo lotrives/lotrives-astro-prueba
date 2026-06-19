@@ -6,6 +6,7 @@ updatedDate: 2026-05-15
 tags: []
 heroImage: "https://substackcdn.com/image/fetch/$s_!w2z-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50429768-8eba-4bf1-972f-5407f9eb6172_1456x1048.png"
 canonical: "https://lotrives.substack.com/p/es-buena-la-persona-en-si-misma"
+author: "José Manuel Grau Navarro"
 ---
 
 ![¿Es buena la persona en sí misma?](https://substackcdn.com/image/fetch/$s_!w2z-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50429768-8eba-4bf1-972f-5407f9eb6172_1456x1048.png)

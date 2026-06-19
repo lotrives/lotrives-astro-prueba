@@ -3,6 +3,7 @@ title: "Una niña y la vitamina D de sus muñecas"
 pubDate: 2026-04-05
 description: "Conversación de una madre con su niña muy pequeña sobre la vitamina D."
 tags: ["Niños"]
+author: "José Manuel Grau Navarro"
 ---
 Madrid, 5 de abril de 2026. 
 

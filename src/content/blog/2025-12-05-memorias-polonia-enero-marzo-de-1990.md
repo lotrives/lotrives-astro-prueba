@@ -6,6 +6,7 @@ updatedDate: 2026-06-13
 tags: ["Memorias", "Polonia", "Opus Dei", "Luis María Anson"]
 heroImage: "/assets/images/memorias.webp"
 canonical: "https://lotrives.substack.com/p/memorias-polonia-enero-marzo-de-1990"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Del Plan Balcerowicz al miedo de la futura Alemania unida.</p>

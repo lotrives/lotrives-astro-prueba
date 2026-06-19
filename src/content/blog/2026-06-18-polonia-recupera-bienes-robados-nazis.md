@@ -4,6 +4,7 @@ pubDate: "2026-06-18"
 description: "En el 35.º aniversario del Tratado de Buena Vecindad, Berlín restituye a Varsovia un manuscrito medieval, un anillo del siglo XVI, probablemente del rey Segismundo I, y piezas de un antiguo museo ferroviario de Varsovia."
 tags: ["Polonia", "Segunda Guerra Mundial", "Alemania", "Radosław Sikorski", "Familia Czartoryski"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Royal_Casket.JPG/1280px-Royal_Casket.JPG"  
+author: "José Manuel Grau Navarro"
 ---
 <p class="entradilla">Ochenta y un años después del fin de la Segunda Guerra Mundial, Berlín sigue devolviendo a Varsovia lo que los nazis robaron, tal fue el destrozo que causaron y lo lenta que ha ido y va la restitución.</p>
 

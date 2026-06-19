@@ -6,6 +6,7 @@ updatedDate: 2026-06-05
 tags: ["Memorias", "Ricardo Estarriol"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!Jd4-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7d5d966-3489-4d54-8c5b-4f443988846d_1500x1259.jpeg"
 canonical: "https://lotrives.substack.com/p/sobre-la-escritura"
+author: "José Manuel Grau Navarro"
 ---
 
 *La importancia de releer y abreviar*

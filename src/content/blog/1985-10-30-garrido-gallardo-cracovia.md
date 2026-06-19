@@ -6,6 +6,7 @@ tags: ["Miguel Ángel Garrido Gallardo", "Cracovia", "Polonia", "Memorias"]
 heroImage: "/assets/images/og-default.webp"
 updatedDate: 2026-06-16
 canonical: "https://www.abc.es/archivo/periodicos/abc-madrid-19851030-49.html"
+author: "José Manuel Grau Navarro"
 ---
 
 *Viena. José Grau, octubre de 1985.* Se han clausurado en Cracovia unas jornadas de Filología Hispánica, dirigidas por el catedrático **Miguel Ángel Garrido Gallardo**, del Instituto de Filología del Consejo Superior de Investigaciones Científicas (CSIC), que fue invitado por el Instituto de la Lengua Polaca de la Academia de Ciencias de Polonia (PAN) en virtud del acuerdo actualmente suscrito entre el PAN y el CSIC.

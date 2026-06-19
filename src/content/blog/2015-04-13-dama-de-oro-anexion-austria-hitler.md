@@ -6,6 +6,7 @@ updatedDate: 2026-05-16
 tags: ["Anschluss", "Adolf Hitler", "Segunda Guerra Mundial", "Austria", "Cine"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Gustav_Klimt_046.jpg/1280px-Gustav_Klimt_046.jpg"
 canonical: "https://lotrives.substack.com/p/la-dama-de-oro-y-la-anexion-de-austria"
+author: "José Manuel Grau Navarro"
 ---
 
 <div class="img-float-right" style="width: 325px;">

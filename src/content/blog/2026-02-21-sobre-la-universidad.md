@@ -6,6 +6,7 @@ updatedDate: 2026-06-14
 tags: ["Universidad", "Higinio Marín", "Inger Enkvist", "Vicente Bellver", "José María Barrio Maestre"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Biblioteca_Antigua_2%2C_Escuelas_Mayores%2C_Universidad_de_Salamanca.jpg/1280px-Biblioteca_Antigua_2%2C_Escuelas_Mayores%2C_Universidad_de_Salamanca.jpg"
 canonical: "https://lotrives.substack.com/p/sobre-la-universidad"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Cuatro diagnósticos.</p>

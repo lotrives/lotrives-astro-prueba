@@ -6,6 +6,7 @@ updatedDate: 2026-06-14
 tags: ["Martina Draft", "Judas Iscariote", "Predestinación", "Catecismo de la Iglesia Católica", "Joseph Ratzinger", "Santo Tomás de Aquino"]
 heroImage: "https://res.cloudinary.com/tne/image/authenticated/s--ATs8Med6--/q_60/artworks/PETER-PAUL-RUBENS-1577_DER-HOELLENSTURZ-DER-VERDAMMTEN-320_911165_CC-BY-SA_BSTGS.jpg"
 canonical: "https://lotrives.substack.com/p/mejor-no-haber-nacido-judas-predestinacion-infierno"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Perplejidades de Viernes Santo</p>

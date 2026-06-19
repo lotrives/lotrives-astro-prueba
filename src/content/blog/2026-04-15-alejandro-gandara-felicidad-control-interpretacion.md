@@ -5,6 +5,7 @@ tags: ["Alejandro Gándara", "Felicidad", "Interpretación", "George Steiner", "
 description: "Alejandro Gándara ha explicado el trasunto de su libro «Los textos robados a la felicidad» en el Foro Nueva Revista."
 heroImage: "/assets/images/alejandro-gandara-portada.webp"
 last_modified_at: 2026-04-21
+author: "José Manuel Grau Navarro"
 ---
 
 ![Alejandro Gándara, el 15/4/2026, en el Foro Nueva Revista. Foto: © Federico Marín Ballón ](/assets/images/alejandro-gandara-portada.webp)

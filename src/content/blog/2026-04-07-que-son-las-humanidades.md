@@ -4,6 +4,7 @@ pubDate: 2026-04-07
 tags: ["San Agustín", "Mark Van Doren", "Humanismo"]
 heroImage: /assets/images/og-default.webp
 description: "Puntos de vista de Mark Van Doren y de san Agustín sobre las humanidades, con un complemento del Catecismo de la Iglesia Católica."
+author: "José Manuel Grau Navarro"
 ---
 
 El diccionario de la Real Academia ofrece cinco acepciones para la palabra [humanismo](https://dle.rae.es/humanismo?m=form):

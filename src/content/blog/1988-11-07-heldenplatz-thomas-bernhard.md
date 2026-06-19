@@ -6,6 +6,7 @@ updatedDate: 2026-05-16
 tags: ["Viena", "Thomas Bernhard", "Austria", "Anschluss"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/IMG_0169_-_Wien_-_Hofburg.JPG/1280px-IMG_0169_-_Wien_-_Hofburg.JPG"
 canonical: "https://lotrives.substack.com/p/heldenplatz-critica-thomas-bernhard"
+author: "José Manuel Grau Navarro"
 ---
 
 Viena. (De nuestro colaborador.) — «El *Burg* es de nuevo uno de los grandes e importantes teatros de Europa. Tantos aplausos cosechan solo los tenores de ópera». Este fue el comentario de Claus Peymann, el director del Burgtheater, tras el estreno el viernes por la noche [4/11/1988] de *Heldenplatz*, la última obra de Thomas Bernhard.

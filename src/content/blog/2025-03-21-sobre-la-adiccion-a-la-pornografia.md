@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Adicciones", "Martín Bilz", "Sexualidad", "Pornografía", "Hugo Bilz"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!kV0D!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bf50072-c239-4fdd-b9fd-a24a5afa7c9b_1024x768.jpeg"
 canonical: "https://lotrives.substack.com/p/sobre-la-adiccion-a-la-pornografia"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Hugo Bilz y sus dudas</p>

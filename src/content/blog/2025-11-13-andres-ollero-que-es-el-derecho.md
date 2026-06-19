@@ -5,6 +5,7 @@ canonical_url: "https://lotrives.github.io/2025/11/13/andres-ollero-que-es-el-de
 pubDate: 2025-11-13
 last_modified_at: 2025-11-28
 tags: ["Andrés Ollero", "Derecho", "Judicialización de la política", "Derechos humanos"]
+author: "José Manuel Grau Navarro"
 ---
 
 Ollero Tassara, Andrés. (2025). *¿Qué es el derecho?* Editorial Senderos.

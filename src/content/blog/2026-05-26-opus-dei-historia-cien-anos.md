@@ -4,6 +4,7 @@ pubDate: 2026-05-26
 description: "Cómo se ha construido el relato histórico del Opus Dei en cien años: análisis del libro editado por F. M. Requena de cara al centenario de 2028."
 tags: ["Opus Dei", "Juan Bautista Torelló"]
 heroImage: "/assets/images/historia-opus-dei.webp"
+author: "José Manuel Grau Navarro"
 ---
 
 <div class="img-float-right" style="width: 250px;">

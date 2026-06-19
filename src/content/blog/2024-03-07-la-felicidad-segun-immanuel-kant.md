@@ -6,6 +6,7 @@ updatedDate: 2026-05-21
 tags: ["Immanuel Kant", "Felicidad"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/la-felicidad-segun-immanuel-kant"
+author: "José Manuel Grau Navarro"
 ---
 
 *«El problema de determinar con seguridad y universalidad qué acción fomenta la felicidad de un ser racional es totalmente irresoluble», afirma Kant.*

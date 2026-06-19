@@ -6,6 +6,7 @@ updatedDate: 2026-05-21
 tags: ["Joseph Ratzinger", "Karl Marx", "Adolf Hitler"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/el-terrorismo-como-sustituto-de-dios"
+author: "José Manuel Grau Navarro"
 ---
 
 *«Si los medios son inhumanos, el fin no podrá ser, a la postre, sino expresión de inhumanidad»*

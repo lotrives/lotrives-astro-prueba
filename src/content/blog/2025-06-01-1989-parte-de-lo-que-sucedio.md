@@ -6,6 +6,7 @@ tags: ["Polonia", "Opus Dei", "Austria", "Memorias", "Ricardo Estarriol", "Luis 
 heroImage: "/assets/images/memorias-1.webp"
 updatedDate: 2026-06-07
 canonical: "https://lotrives.substack.com/p/1989-parte-de-lo-que-sucedio"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Lotrives ha publicado una obra que se titula <em>1989. Parte de lo que sucedió. Memorias. De Austria a Polonia</em>. Su autor es José Manuel Grau Navarro. Grau Navarro, un amigo y conocido mío, me ha permitido difundir lo que sigue, que es un fragmento de la «Introducción» a su escrito.</p>

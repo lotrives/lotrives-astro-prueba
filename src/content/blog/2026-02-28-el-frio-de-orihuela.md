@@ -6,6 +6,7 @@ updatedDate: 2026-06-14
 tags: ["Orihuela", "Salzburgo", "Colegio Santo Domingo", "Thomas Bernhard", "Bigastro"]
 heroImage: "/assets/images/santo-domingo.webp"
 canonical: "https://lotrives.substack.com/p/el-frio-de-orihuela"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Ascesis en climas extremos.</p>

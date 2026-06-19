@@ -4,6 +4,7 @@ pubDate: 2026-05-29
 description: "Presentación en Madrid del libro «Historia del Opus Dei», sobre su historiografía y la necesidad de una mirada académica, crítica y no conspirativa."
 tags: ["Opus Dei"]
 heroImage: "/assets/images/historia-opus-dei.webp" 
+author: "José Manuel Grau Navarro"
 ---
 <div class="img-float-right" style="width: 250px;">
 <img src="/assets/images/historia-opus-dei.webp" style="width: 100%;" alt="Portada del libro Historia del Opus Dei" />

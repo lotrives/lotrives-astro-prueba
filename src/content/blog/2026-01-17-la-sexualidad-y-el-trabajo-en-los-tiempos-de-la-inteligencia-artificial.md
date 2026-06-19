@@ -6,6 +6,7 @@ updatedDate: 2026-06-13
 tags: ["Inteligencia artificial", "Robert Barron", "Joe Rogan", "Bret Weinstein", "Sexualidad", "Pablo VI", "Humanae vitae", "Elon Musk"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Heinrich_Friedrich_Füger_-_Venus_in_the_forge_of_Vulcan_-_M.Ob.118_MNW_-_National_Museum_in_Warsaw.jpg/1280px-Heinrich_Friedrich_Füger_-_Venus_in_the_forge_of_Vulcan_-_M.Ob.118_MNW_-_National_Museum_in_Warsaw.jpg"
 canonical: "https://lotrives.substack.com/p/la-sexualidad-y-el-trabajo-en-los-tiempos-de-la-inteligencia-artificial"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">El obispo Robert Barron puntualiza al biólogo Bret Weinstein.</p>

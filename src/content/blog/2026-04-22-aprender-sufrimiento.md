@@ -4,6 +4,7 @@ pubDate: 2026-04-22
 tags: ["Arthur Brooks", "Carl Gustav Jung", "Sufrimiento", "Dolor"]
 description: "En la terapia junguiana se trata de aprender del dolor y de lo vivido para comprender hasta qué punto nos engaña, según Brooks."
 heroImage: "/assets/images/aprender-sufrimiento-portada.webp"
+author: "José Manuel Grau Navarro"
 ---
 
 ![El niño enfermo. Óleo de Edvard Munch. National Museum of Art, Architecture and Design. Dominio público. Vía Wikimedia Commons](/assets/images/aprender-sufrimiento-portada.webp)

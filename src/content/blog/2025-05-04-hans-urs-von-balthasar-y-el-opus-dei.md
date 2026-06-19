@@ -6,6 +6,7 @@ tags: ["Opus Dei", "Joseph Ratzinger", "Juan Pablo II", "Hans Urs von Balthasar"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/07HUvB_Wien.jpg/500px-07HUvB_Wien.jpg"
 updatedDate: 2026-06-07
 canonical: "https://lotrives.substack.com/p/hans-urs-von-balthasar-y-el-opus-dei"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">En 1984, cuatro años antes de morir, Hans Urs von Balthasar reafirmó su crítica al Opus Dei. ¿Qué podemos aprender hoy de eso?</p>

@@ -6,6 +6,7 @@ updatedDate: 2026-05-21
 tags: ["José Ortega y Gasset"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/ortega-y-gasset-sobre-las-minorias"
+author: "José Manuel Grau Navarro"
 ---
 
 Citas de *La rebelión de las masas*.

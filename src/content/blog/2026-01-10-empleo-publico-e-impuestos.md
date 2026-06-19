@@ -6,6 +6,7 @@ updatedDate: 2026-06-13
 tags: ["Liberalismo", "Estado de bienestar", "Murray N. Rothbard", "Martina Draft","Impuestos", "Paro"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/5/51/Votation_ifd_1918.jpg"
 canonical: "https://lotrives.substack.com/p/empleo-publico-e-impuestos"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">El límite más allá del cual toda sociedad colapsa</p>

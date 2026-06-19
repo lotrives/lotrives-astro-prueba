@@ -6,6 +6,7 @@ updatedDate: 2026-05-23
 tags: ["Fútbol", "España", "Alemania"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/toni-kroos"
+author: "José Manuel Grau Navarro"
 ---
 
 *Las contradicciones de un alemán en España*

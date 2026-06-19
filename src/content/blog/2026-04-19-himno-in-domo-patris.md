@@ -4,6 +4,7 @@ pubDate: 2026-04-19
 tags: ["John Mason Neale", "Salmos"]
 description: "Texto latino del himno «In domo Patris» y traducción al español."
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Psalm_XV_im_Salzburger_Dom.JPG/960px-Psalm_XV_im_Salzburger_Dom.JPG
+author: "José Manuel Grau Navarro"
 ---
 
 <a title="Burkhard Mücke, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Psalm_XV_im_Salzburger_Dom.JPG"><img width="960" alt="Psalm XV im Salzburger Dom" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Psalm_XV_im_Salzburger_Dom.JPG/960px-Psalm_XV_im_Salzburger_Dom.JPG"></a>

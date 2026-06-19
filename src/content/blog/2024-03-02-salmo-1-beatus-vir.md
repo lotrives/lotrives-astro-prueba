@@ -6,6 +6,7 @@ updatedDate: 2026-05-19
 tags: ["Biblia", "Salmos"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/salmo-1-vulgata-latin-espanol-nueva-traduccion"
+author: "José Manuel Grau Navarro"
 ---
 
 ## Texto latino y traducción

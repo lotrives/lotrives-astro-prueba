@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Opus Dei", "Memorias", "San Josemaría Escrivá de Balaguer", "Juan Bautista Torelló"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Josemaria_Escriva.jpg/960px-Josemaria_Escriva.jpg"
 canonical: "https://lotrives.substack.com/p/el-minuto-heroico-y-el-opus-dei"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Testimonio personal de Lotrives</p>

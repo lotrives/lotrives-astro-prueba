@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Autismo", "Derechos de autor", "Fraude"]
 heroImage: "/assets/images/el-cuchillo.webp"
 canonical: "https://lotrives.substack.com/p/el-fraude-con-el-copyright-de-fotos"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Historia de «El cuchillo»</p>

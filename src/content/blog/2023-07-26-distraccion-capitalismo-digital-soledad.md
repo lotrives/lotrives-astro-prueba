@@ -6,6 +6,7 @@ updatedDate: 2026-05-16
 tags: ["Inteligencia artificial"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/960px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg"
 canonical: "https://lotrives.substack.com/p/distraccion-capitalismo-digital-soledad"
+author: "José Manuel Grau Navarro"
 ---
 
 <div class="img-float-right" style="width: 300px;">

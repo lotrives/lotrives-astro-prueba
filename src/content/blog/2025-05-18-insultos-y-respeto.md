@@ -6,6 +6,7 @@ tags: ["Pablo Bilz", "Respeto"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg/500px-Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg"
 updatedDate: 2026-06-07
 canonical: "https://lotrives.substack.com/p/insultos-y-respeto"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">El WhatsApp de Pedro Sánchez como síntoma de época</p>

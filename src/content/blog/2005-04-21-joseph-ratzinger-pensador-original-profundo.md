@@ -6,6 +6,7 @@ updatedDate: 2026-05-17
 tags: ["Joseph Ratzinger"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Pope_Benedictus_XVI_january%2C20_2006_%282%29_mod.jpg/960px-Pope_Benedictus_XVI_january%2C20_2006_%282%29_mod.jpg"
 canonical: "https://lotrives.substack.com/p/joseph-ratzinger-pensador-original-profundo"
+author: "José Manuel Grau Navarro"
 ---
 
 *La búsqueda de la verdad es su pasión. «Se ha de estar siempre dispuesto a explicar por qué se cree. La fe no es puro "decisionismo"», escribió el nuevo Papa.*

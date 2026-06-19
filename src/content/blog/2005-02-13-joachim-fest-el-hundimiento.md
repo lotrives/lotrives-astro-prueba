@@ -6,6 +6,7 @@ updatedDate: 2026-05-17
 tags: ["Segunda Guerra Mundial", "Adolf Hitler", "Memorias", "Cine"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Joachim_Fest_002_headcrop.jpg"
 canonical: "https://lotrives.substack.com/p/joachim-fest-el-hundimiento"
+author: "José Manuel Grau Navarro"
 ---
 
 <div class="img-float-right">

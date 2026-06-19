@@ -5,6 +5,7 @@ pubDate: 2025-11-27
 tags: ["Opus Dei", "Jesuitas", "Gianfranco Ghirlanda"]
 canonical_url: "https://lotrives.github.io/2025/11/27/iglesia-ordenes-opus-dei-abolicion/"
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Edvard_Munch_-_Golgotha_%281900%29.jpg/960px-Edvard_Munch_-_Golgotha_%281900%29.jpg
+author: "José Manuel Grau Navarro"
 ---
 
 <a title="Edvard Munch, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_Golgotha_(1900).jpg"><img width="960" alt="Edvard Munch - Golgotha (1900)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Edvard_Munch_-_Golgotha_%281900%29.jpg/960px-Edvard_Munch_-_Golgotha_%281900%29.jpg"></a>

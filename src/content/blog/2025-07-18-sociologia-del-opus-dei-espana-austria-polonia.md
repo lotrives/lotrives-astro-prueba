@@ -6,6 +6,7 @@ updatedDate: 2026-06-07
 tags: ["Opus Dei", "Memorias", "Austria", "Polonia", "Stefan Moszoro-Dąbrowski", "Klaus Küng", "Colegio Mayor Santillana", "Colegio Mayor Moncloa", "Birkbrunn"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/sociologia-del-opus-dei-espana-austria-polonia"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Reflexiones a tres años del centenario de la Obra y con motivo de la reciente creación de su «Oficina de sanación y escucha»</p>

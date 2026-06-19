@@ -6,6 +6,7 @@ updatedDate: 2026-06-13
 tags: ["Dios", "Biblia", "León XIV", "Lorenzo de la Resurrección", "Erik Varden"]
 heroImage: "https://iiif.micr.io/VhCoypQ/full/max/0/default.jpg"
 canonical: "https://lotrives.substack.com/p/sobre-la-presencia-de-dios"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">¿Está él ido o somos nosotros los ausentes?</p>

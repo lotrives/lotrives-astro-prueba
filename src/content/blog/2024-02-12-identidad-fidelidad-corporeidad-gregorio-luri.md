@@ -6,6 +6,7 @@ updatedDate: 2026-05-17
 tags: ["Joseph Ratzinger", "Identidad"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/II_Simposio_religion_en_la_escuela_-_38007929131.jpg/1280px-II_Simposio_religion_en_la_escuela_-_38007929131.jpg"
 canonical: "https://lotrives.substack.com/p/identidad-fidelidad-y-corporeidad-gregorio-luri"
+author: "José Manuel Grau Navarro"
 ---
 
 Escribe **Gregorio Luri**:

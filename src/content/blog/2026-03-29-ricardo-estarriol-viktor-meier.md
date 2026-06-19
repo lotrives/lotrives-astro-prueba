@@ -3,6 +3,7 @@ title: "Ricardo Estarriol y Viktor Meier"
 pubDate: 2026-03-29
 tags: ["Opus Dei"]
 description: "El Opus Dei y el espíritu protestante del trabajo. Una anécdota sobre Viktor Meier y Ricardo Estarriol"
+author: "José Manuel Grau Navarro"
 ---
 
 Me refiero a este artículo: [El Opus Dei y el espíritu protestante del trabajo. A propósito de un texto de Friedrich Nietzsche](https://lotrives.substack.com/p/opus-dei-espiritu-protestante-trabajo).

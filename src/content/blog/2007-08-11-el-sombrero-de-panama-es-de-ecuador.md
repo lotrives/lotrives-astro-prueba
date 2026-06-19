@@ -6,6 +6,7 @@ updatedDate: 2026-05-17
 tags: ["Memorias", "Ecuador"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Monticristi_Straw_Hat_Optimo.jpg/1280px-Monticristi_Straw_Hat_Optimo.jpg"
 canonical: "https://lotrives.substack.com/p/el-sombrero-de-panama-es-de-ecuador"
+author: "José Manuel Grau Navarro"
 ---
 
 *En el país de las rosas.*

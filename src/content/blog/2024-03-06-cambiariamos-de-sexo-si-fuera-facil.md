@@ -6,6 +6,7 @@ updatedDate: 2026-05-21
 tags: ["Identidad"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/cambiariamos-de-sexo-si-fuera-facil"
+author: "José Manuel Grau Navarro"
 ---
 
 El pasado 22 de febrero de 2024 celebramos una nueva sesión de nuestros [Diálogos de *Nueva Revista*](https://www.unir.net/evento/seminarios/benigno-blanco-nuevas-politicas-identidad/). Debatimos sobre el texto [Claves para comprender las nuevas políticas de identidad](https://www.nuevarevista.net/claves-para-comprender-las-nuevas-politicas-de-identidad/), escrito por **Benigno Blanco**.

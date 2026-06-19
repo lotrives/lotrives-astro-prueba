@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Arrepentimiento", "Édith Piaf", "José Ortega y Gasset"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!W9h7!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f4630a2-ef69-485b-af42-b2eeed49f402_2560x1688.jpeg"
 canonical: "https://lotrives.substack.com/p/arrepentimiento-edith-piaf"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Édith Piaf y su «Non, je ne regrette rien» como pretexto</p>

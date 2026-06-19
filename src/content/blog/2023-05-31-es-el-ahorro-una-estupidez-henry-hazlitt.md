@@ -6,6 +6,7 @@ updatedDate: 2026-05-15
 tags: ["Finanzas personales"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Monnaie_de_Bactriane%2C_Eucratide_I%2C_2_faces.jpg/1280px-Monnaie_de_Bactriane%2C_Eucratide_I%2C_2_faces.jpg"
 canonical: "https://lotrives.substack.com/p/es-el-ahorro-una-estupidez-henry-hazlitt"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Monedas de oro](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Monnaie_de_Bactriane%2C_Eucratide_I%2C_2_faces.jpg/1280px-Monnaie_de_Bactriane%2C_Eucratide_I%2C_2_faces.jpg)

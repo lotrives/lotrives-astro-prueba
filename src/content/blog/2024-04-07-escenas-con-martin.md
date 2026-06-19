@@ -6,6 +6,7 @@ updatedDate: 2026-05-23
 tags: ["Autismo", "Pablo Bilz", "Hugo Bilz", "Nadia Bilz"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/escenas-con-martin-rutinas-autismo"
+author: "José Manuel Grau Navarro"
 ---
 
 *Personajes masculinos: Pablo, Hugo y Martín. Personajes femeninos: Ana y Nadia. [Los nombres son ficticios](https://lotrives.com/libros/#en-descargo-de-martín-bilz-).*

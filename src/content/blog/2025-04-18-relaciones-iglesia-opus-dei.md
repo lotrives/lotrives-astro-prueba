@@ -6,6 +6,7 @@ tags: ["Opus Dei", "Juan Pablo II", "Papa Francisco", "Joseph Ratzinger", "Pablo
 heroImage: "https://substackcdn.com/image/fetch/$s_!mgMh!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d64346f-aa4e-48c1-99ec-ebd035929a7c_1536x1024.png"
 updatedDate: 2026-06-07
 canonical: "https://lotrives.substack.com/p/relaciones-iglesia-opus-dei"
+author: "José Manuel Grau Navarro"
 ---
 
 *Una fábula*

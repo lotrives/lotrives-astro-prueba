@@ -3,6 +3,7 @@ title: "«Introducción a la ética política», de Ángel Rodríguez Luño"
 pubDate: 2022-06-13
 description: "Extractos de «Introducción a la ética política», de Ángel Rodríguez Luño."
 tags: ["Ángel Rodríguez Luño", "Solidaridad", "Justicia social", "Coacción", "Justicia", "Estado", "Karl Popper", "Wilhelm Röpke", "John Maynard Keynes", "Derechos fundamentales", "Libertad", "Dinero", "Mercado", "Subsidiariedad", "Desigualdad", "Pobreza", "Empresa", "Intervencionismo estatal", "Comunicación sincera"]
+author: "José Manuel Grau Navarro"
 ---
 
 Rodríguez Luño, Ángel. (2021). *Introducción a la ética política*. Rialp.

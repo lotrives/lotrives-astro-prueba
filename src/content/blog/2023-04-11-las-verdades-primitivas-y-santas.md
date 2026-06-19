@@ -6,6 +6,7 @@ updatedDate: 2026-05-15
 tags: ["Joseph Ratzinger"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!dB56!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2772c4e9-e8e1-414c-b1f0-05805592d30a_2042x1160.webp"
 canonical: "https://lotrives.substack.com/p/las-verdades-primitivas-y-santas"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Monumento a la tolerancia (Jerusalén)](https://substackcdn.com/image/fetch/$s_!dB56!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2772c4e9-e8e1-414c-b1f0-05805592d30a_2042x1160.webp)

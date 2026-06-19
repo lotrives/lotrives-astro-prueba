@@ -6,6 +6,7 @@ updatedDate: 2026-06-07
 tags: ["Javier Sellés", "Memorias", "Viena", "Austria", "Opus Dei", "Enrique Herrando Prat de la Riba", "Klaus Küng"]
 heroImage: "/assets/images/selles-1.webp"
 canonical: "https://lotrives.substack.com/p/javier-selles-o-xavier-selles-ferrando"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Una breve evocación</p>

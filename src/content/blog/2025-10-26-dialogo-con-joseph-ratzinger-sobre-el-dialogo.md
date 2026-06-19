@@ -6,6 +6,7 @@ updatedDate: 2026-06-13
 tags: ["Juan Bautista Torelló", "Joseph Ratzinger", "Diálogo", "Geor Gänswein"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zentralfriedhof_%28Wien%29_jüdischer_Teil.jpg/1280px-Zentralfriedhof_%28Wien%29_jüdischer_Teil.jpg"
 canonical: "https://lotrives.substack.com/p/dialogo-con-joseph-ratzinger-sobre-el-dialogo"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Sobre la revelación de sí mismo.</p>

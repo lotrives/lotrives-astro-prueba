@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Pablo Bilz", "Martín Bilz", "Joseph Ratzinger", "Valle de los Caídos"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!AjP9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F977d3622-bc2d-4f54-a4c8-1f0b9848fc0e_1024x768.jpeg"
 canonical: "https://lotrives.substack.com/p/parabola-sobre-las-relaciones-iglesia-estado-cuelgamuros-abusos-sexuales"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Más allá de los abusos sexuales y del Valle de los Caídos</p>

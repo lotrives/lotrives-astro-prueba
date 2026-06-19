@@ -6,6 +6,7 @@ updatedDate: 2026-05-18
 tags: ["Robert Barron"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/BishopBarron.jpg/960px-BishopBarron.jpg"
 canonical: "https://lotrives.substack.com/p/las-raices-filosoficas-woke-robert-barron"
+author: "José Manuel Grau Navarro"
 ---
 
 <div class="img-float-right" style="width:300px">

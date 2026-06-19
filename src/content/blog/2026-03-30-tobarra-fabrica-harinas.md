@@ -4,6 +4,7 @@ pubDate: 2026-03-30
 tags: ["Tobarra", "Niños", "Recuerdos", "Memorias"]
 description: "El edificio de la fábrica de harinas, en la zona donde estaba la estación de ferrocarril de Tobarra, en el recuerdo de viajeros, padres e hijos"
 heroImage: "/assets/images/tobarra-fabrica-harinas-portada.webp"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Antigua fábrica de harinas. Estación de ferrocarril de Tobarra. 30 de marzo de 2026](/assets/images/tobarra-fabrica-harinas-portada.webp)

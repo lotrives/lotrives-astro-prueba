@@ -4,6 +4,7 @@ description: "Leontxo García explica en una conferencia los valores educativos 
 pubDate: 2025-12-03
 heroImage: "/assets/images/ajedrez-humildad-leontxo-garcia-portada.webp"
 tags: ["Ajedrez", "Leontxo García", "Humildad"]
+author: "José Manuel Grau Navarro"
 ---
 
 ![Leontxo García en el Foro Nueva Revista, Universidad Villanueva (Madrid), el 3/12/2025. © José Manuel Grau Navarro](/assets/images/ajedrez-humildad-leontxo-garcia-portada.webp)

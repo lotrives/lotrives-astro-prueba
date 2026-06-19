@@ -6,6 +6,7 @@ updatedDate: 2026-06-13
 tags: ["Opus Dei", "Memorias", "Austria", "ABC", "Santiago Martín", "Klaus Küng", "Joaquín Vila", "Franciscanos de María"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Parroquia_María_Virgen_Madre.jpg/1280px-Parroquia_María_Virgen_Madre.jpg"
 canonical: "https://lotrives.substack.com/p/santiago-martin-de-abc-a-franciscanos"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Parroquia María Virgen Madre, en el barrio de Hortaleza (Madrid)](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Parroquia_María_Virgen_Madre.jpg/1280px-Parroquia_María_Virgen_Madre.jpg)

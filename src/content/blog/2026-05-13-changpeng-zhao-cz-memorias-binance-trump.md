@@ -5,6 +5,7 @@ description: "El fundador de Binance publica sus memorias. El FT las destruye. A
 tags: ["Binance", "Changpeng Zhao", "Criptomonedas", "Donald Trump", "Bitcoin"]
 heroImage: "/assets/images/changpeng-zhao-portada.webp"
 updatedDate: 2026-05-14
+author: "José Manuel Grau Navarro"
 ---
 
 ![Changpeng Zhao (CZ) en una conferencia en 2022](/assets/images/changpeng-zhao-portada.webp)

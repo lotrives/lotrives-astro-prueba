@@ -6,6 +6,7 @@ updatedDate: 2026-06-13
 tags: ["Joseph Ratzinger", "Matrimonio", "Santo Tomás de Aquino", "Friedrich Nietzsche", "San Bernardo de Claraval", "Paul Claudel"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Edvard_Munch_-_Separation_-_Google_Art_Project.jpg/1280px-Edvard_Munch_-_Separation_-_Google_Art_Project.jpg"
 canonical: "https://lotrives.substack.com/p/placer-eterno-y-promesa-incumplida"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Realicemos el ejercicio de aplicar al matrimonio ideas de cuatro importantes pensadores sobre el <em>amor</em>, la <em>dilección</em> y la <em>caridad</em>.</p>

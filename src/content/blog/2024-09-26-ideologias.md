@@ -6,6 +6,7 @@ updatedDate: 2026-05-24
 tags: ["Ideología", "Friedrich A. Hayek", "Karl Marx"]
 heroImage: "/assets/images/og-default.webp"
 canonical: "https://lotrives.substack.com/p/ideologias"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">¿Buenas? ¿Malas? ¿Indiferentes? ¿Al alza? ¿En horas bajas?</p>

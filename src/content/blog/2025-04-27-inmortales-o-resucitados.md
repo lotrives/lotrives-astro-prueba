@@ -6,6 +6,7 @@ tags: ["Transhumanismo", "Joseph Ratzinger", "Elon Musk"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!xFDl!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0dfbce48-1c8a-495c-91e2-9e22b9ca2956_1024x768.jpeg"
 updatedDate: 2026-06-07
 canonical: "https://lotrives.substack.com/p/inmortales-o-resucitados"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">¿Queremos vivir eternamente en este mundo caminando por la senda de Bryan Johnson, Peter Thiel y Elon Musk, al estilo del cíborg de la imagen, o resucitar a una «vida nueva»?</p>

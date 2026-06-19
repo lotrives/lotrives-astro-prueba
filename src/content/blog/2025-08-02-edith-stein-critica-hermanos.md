@@ -6,6 +6,7 @@ updatedDate: 2026-06-12
 tags: ["Edith Stein", "Josep Maria Ribes i Ardanuy", "Juan Pablo II"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Saint_Edith_Stein.jpg"
 canonical: "https://lotrives.substack.com/p/edith-stein-critica-autobiografia-vida-familia-judia-hermanos"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Sobre su «Autobiografía. Vida de una familia judía» y los daños colaterales de las autobiografías</p>

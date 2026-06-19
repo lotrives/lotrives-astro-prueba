@@ -6,6 +6,7 @@ updatedDate: 2026-06-07
 tags: ["Pablo Bilz", "Confesión", "Conciencia", "Psicoanálisis", "Culpabilidad"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Edvard_Munch_-_The_Kiss_-_Google_Art_Project.jpg/500px-Edvard_Munch_-_The_Kiss_-_Google_Art_Project.jpg"
 canonical: "https://lotrives.substack.com/p/sobre-la-conciencia-la-culpabilidad-la-confesion"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Una pesadilla y un debate sobre la confesión y el psicoanálisis. Relato epistolar de Pablo Bilz</p>

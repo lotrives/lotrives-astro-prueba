@@ -4,6 +4,7 @@ pubDate: 2026-04-26
 tags: ["Opus Dei", "San Josemaría Escrivá de Balaguer"]
 description: "Del carisma fundacional de Escrivá de Balaguer a la prelatura personal y los decretos del papa Francisco: el itinerario jurídico del Opus Dei en sus documentos."
 last_modified_at: 2026-04-27
+author: "José Manuel Grau Navarro"
 ---
 
 Lo que sigue son notas de lectura tomadas de *Historia del Opus Dei* de González Gullón y Coverdale (Rialp, 5.ª ed., 2025) y de *Cartas* de Escrivá de Balaguer (Rialp, 2020), centradas en un único hilo: el encaje jurídico del Opus Dei dentro de la Iglesia, desde la fundación hasta los decretos del papa Francisco. Se añaden al final algunas observaciones propias.

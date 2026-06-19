@@ -5,6 +5,7 @@ canonical_url: "https://lotrives.github.io/2025/11/20/20n-decisiones-que-cambian
 pubDate: 2025-11-20
 tags: ["Memorias", "Madrid", "Colegio Mayor Moncloa", "Bigastro", "Opus Dei", "Francisco Franco"]
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Madrid_Atocha_1981.jpg/960px-Madrid_Atocha_1981.jpg
+author: "José Manuel Grau Navarro"
 ---
 
 [<img width="960" alt="Madrid Atocha 1981" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Madrid_Atocha_1981.jpg/960px-Madrid_Atocha_1981.jpg">](https://commons.wikimedia.org/wiki/File:Madrid_Atocha_1981.jpg)

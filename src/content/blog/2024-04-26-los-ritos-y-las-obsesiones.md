@@ -6,6 +6,7 @@ updatedDate: 2026-05-23
 tags: ["Fiestas"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Ceres_-_Dominikus_Auliczek_um_1770-1.jpg/960px-Ceres_-_Dominikus_Auliczek_um_1770-1.jpg"
 canonical: "https://lotrives.substack.com/p/los-ritos-y-las-obsesiones"
+author: "José Manuel Grau Navarro"
 ---
 
 *Si a una ceremonia religiosa se le priva de su solemnidad, se contribuye a que se pierda el sentido trascendente de la persona.*

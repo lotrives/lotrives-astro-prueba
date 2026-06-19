@@ -3,6 +3,7 @@ title: "Edith Stein: judía, filósofa, santa — Notas de lectura"
 pubDate: 2025-07-31
 tags: ["Edith Stein"]
 description: "Notas y citas de la biografía Edith Stein, judía, filósofa y santa, de Irene Chirriar Bauer."
+author: "José Manuel Grau Navarro"
 ---
 
 Chirriar Bauer, Irene. (2025). *Edith Stein. Judía. Filósofa. Santa*. Barcelona: Taurus.

@@ -6,6 +6,7 @@ updatedDate: 2026-05-15
 tags: ["San Agustín"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Austria_-_Heiligenkreuz_Abbey_-_1726.jpg/1280px-Austria_-_Heiligenkreuz_Abbey_-_1726.jpg"
 canonical: "https://lotrives.substack.com/p/leer-si-pero-que-orwell-san-agustin"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Biblioteca de la abadía de Heiligenkreuz (Austria)](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Austria_-_Heiligenkreuz_Abbey_-_1726.jpg/1280px-Austria_-_Heiligenkreuz_Abbey_-_1726.jpg)

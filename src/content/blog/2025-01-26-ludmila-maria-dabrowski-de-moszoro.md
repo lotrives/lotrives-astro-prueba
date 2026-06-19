@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Polonia", "Segunda Guerra Mundial", "Auschwitz", "Stefan Moszoro-Dąbrowski"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!E6Y1!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa8e2894e-6381-40d6-9564-746779f004db_731x1058.jpeg"
 canonical: "https://lotrives.substack.com/p/ludmila-maria-dabrowski-de-moszoro"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Tras casi dos años de cautiverio en la cárcel de Montelupich (Cracovia), donde fue torturada, la llevaron al campo de concentración de Auschwitz, en 1942.</p>

@@ -6,6 +6,7 @@ tags: ["Autismo", "Sanidad pública", "Medicina", "MIR", "Pablo Bilz", "Nadia Bi
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Hospital_Ramón_y_Cajal.jpg/1280px-Hospital_Ramón_y_Cajal.jpg"
 updatedDate: 2026-06-07
 canonical: "https://lotrives.substack.com/p/critica-hospital-ramon-y-cajal"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Urgencias colapsadas y salas sin luz natural. En el Ramón y Cajal, con una enferma que pierde la vista repentinamente y ella, con un hijo discapacitado a cargo.</p>

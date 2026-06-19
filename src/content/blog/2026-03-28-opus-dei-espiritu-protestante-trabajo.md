@@ -6,6 +6,7 @@ updatedDate: 2026-06-14
 tags: ["Max Weber", "Viktor Meier", "Opus Dei", "Friedrich Nietzsche", "Ricardo Estarriol", "Opus Dei", "Martina Draft"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Adolph_Menzel_-_Das_Eisenwalzwerk_-_The_Iron-Rolling_Mill_-_1872-1875.JPG/1280px-Adolph_Menzel_-_Das_Eisenwalzwerk_-_The_Iron-Rolling_Mill_-_1872-1875.JPG"
 canonical: "https://lotrives.substack.com/p/opus-dei-espiritu-protestante-trabajo"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">A propósito de un texto de Friedrich Nietzsche.</p>

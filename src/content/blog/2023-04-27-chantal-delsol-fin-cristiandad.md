@@ -5,6 +5,7 @@ description: "Notas tomadas del libro de Chantal Delsol titulado «La fin de la 
 tags: ["Chantal Delsol", "Cristiandad", "Concilio Vaticano II", "Pío IX", "Syllabus", "Fascismo", "Revolución francesa", "Juan Donoso Cortés", "Adolf Hitler", "Friedrich Nietzsche", "Henri Massis", "Francisco Franco"]
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/School_of_Raphael%2C_Coronation_of_Charlemagne%2C_1516-17%3B_Vatican_Museums_%282%29_%2848759421056%29.jpg/960px-School_of_Raphael%2C_Coronation_of_Charlemagne%2C_1516-17%3B_Vatican_Museums_%282%29_%2848759421056%29.jpg
 last_modified_at: 2026-04-24
+author: "José Manuel Grau Navarro"
 ---
 
 <a title="Richard Mortel from Riyadh, Saudi Arabia, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:School_of_Raphael,_Coronation_of_Charlemagne,_1516-17;_Vatican_Museums_(2)_(48759421056).jpg"><img width="960" alt="School of Raphael, Coronation of Charlemagne, 1516-17; Vatican Museums (2) (48759421056)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/School_of_Raphael%2C_Coronation_of_Charlemagne%2C_1516-17%3B_Vatican_Museums_%282%29_%2848759421056%29.jpg/960px-School_of_Raphael%2C_Coronation_of_Charlemagne%2C_1516-17%3B_Vatican_Museums_%282%29_%2848759421056%29.jpg"></a>

@@ -6,6 +6,7 @@ updatedDate: 2026-06-13
 tags: ["Pablo Bilz", "Opus Dei", "Empatía", "Identidad"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_Willem_van_Gogh_022.jpg/960px-Vincent_Willem_van_Gogh_022.jpg"
 canonical: "https://lotrives.substack.com/p/es-buena-la-empatia-cero"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">El lado oscuro de la identificación.</p>

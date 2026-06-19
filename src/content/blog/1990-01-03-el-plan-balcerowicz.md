@@ -6,6 +6,7 @@ updatedDate: 2026-05-16
 tags: ["Polonia", "Comunismo", "Memorias"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/21._Internationales_Management-Gespräch-Leszek_Balcerowicz-HSGN_028-00876.jpg/960px-21._Internationales_Management-Gespräch-Leszek_Balcerowicz-HSGN_028-00876.jpg"
 canonical: "https://lotrives.substack.com/p/el-plan-balcerowicz"
+author: "José Manuel Grau Navarro"
 ---
 
 **Varsovia, domingo, 17/12/1989**. El Gobierno de Polonia, presidido por **Tadeusz Mazowiecki**, presenta hoy en el Parlamento (Sejm) el **Plan Balcerowicz**. Se llama así por **Leszek Balcerowicz**, el ministro de Finanzas. Consiste en una serie de reformas económicas destinadas a estabilizar la economía y controlar la hiperinflación. Incluye la liberalización de precios, la reducción del gasto público y la apertura al mercado internacional. Hay duras medidas de austeridad para la burocracia e ineficiencia estatales, impuestas por el Fondo Monetario Internacional (FMI) como condición a la asignación de cualquier crédito.

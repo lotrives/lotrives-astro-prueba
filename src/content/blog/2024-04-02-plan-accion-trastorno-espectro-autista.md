@@ -6,6 +6,7 @@ tags: ["Autismo", "Discapacidad"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Alexander_Mann_-_The_Lonely_Road.jpg"
 canonical: "https://lotrives.substack.com/p/plan-de-accion-trastorno-especto-autista"
 updatedDate: 2026-05-23
+author: "José Manuel Grau Navarro"
 ---
 
 ![The Lonely Road (El camino solitario), óleo de Alexander Mann (1853-1908)](https://upload.wikimedia.org/wikipedia/commons/d/d5/Alexander_Mann_-_The_Lonely_Road.jpg)

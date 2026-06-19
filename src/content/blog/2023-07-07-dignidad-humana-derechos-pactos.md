@@ -6,6 +6,7 @@ updatedDate: 2026-05-16
 tags: ["Derechos humanos", "Concilio Vaticano II", "Santo Tomás de Aquino"]
 heroImage: "/assets/images/pactos-nueva-revista-185.webp"
 canonical: "https://lotrives.substack.com/p/dignidad-humana-derechos-pactos-nueva-revista"
+author: "José Manuel Grau Navarro"
 ---
 
 ![Nueva Revista n.º 185. Pactos](/assets/images/pactos-nueva-revista-185.webp)

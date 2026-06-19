@@ -6,6 +6,7 @@ updatedDate: 2026-06-13
 tags: ["Pablo Bilz", "Polonia", "Adicciones", "Martina Draft", "Henry Mancini"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Days_of_Wine_and_Roses_%281962_poster%29.jpg/960px-Days_of_Wine_and_Roses_%281962_poster%29.jpg"
 canonical: "https://lotrives.substack.com/p/el-vino-bulgaro-y-las-adicciones"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Cuando los hilos se transforman en cadenas.</p>

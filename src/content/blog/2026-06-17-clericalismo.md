@@ -4,6 +4,7 @@ pubDate: 2026-06-17
 description: "Catorce ministros de Sánchez en la Sagrada Familia: una reflexión sobre el clericalismo político y cuatro propuestas radicales para la Iglesia."
 tags: ["León XIV", "Opus Dei", "Socialismo", "Barcelona", "Joseph Ratzinger", "Yves Congar", "Clericalismo", "Pedro Sánchez"]
 heroImage: "/assets/images/sagrada-familia.webp"
+author: "José Manuel Grau Navarro"
 ---
 
 [Catorce ministros](https://www.lamoncloa.gob.es/gobierno/agenda/paginas/agenda.aspx?d=20260610) del Gobierno de España asistieron a la misa de la Sagrada Familia y a la bendición de la Torre de Jesucristo el pasado 10 de junio de 2026 en Barcelona.

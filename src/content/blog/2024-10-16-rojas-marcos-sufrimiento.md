@@ -6,6 +6,7 @@ updatedDate: 2026-06-05
 tags: ["Felicidad", "Luis Rojas Marcos"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!g3xd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52d2a03d-f468-4429-ab76-4a097f4e01bc_1021x580.jpeg"
 canonical: "https://lotrives.substack.com/p/rojas-marcos-y-el-sufrimiento"
+author: "José Manuel Grau Navarro"
 ---
 
 *A propósito del Foro Nueva Revista: preguntas sin respuesta sobre el sufrimiento, la esperanza y los sintecho.*

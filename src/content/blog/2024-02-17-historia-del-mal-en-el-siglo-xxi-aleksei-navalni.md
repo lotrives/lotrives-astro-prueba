@@ -6,6 +6,7 @@ updatedDate: 2026-05-17
 tags: ["Rusia", "Joseph Ratzinger", "Santo Tomás de Aquino"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Alexey_Navalny_2_%28cropped%29_1.jpg/960px-Alexey_Navalny_2_%28cropped%29_1.jpg"
 canonical: "https://lotrives.substack.com/p/historia-del-mal-en-el-siglo-xxi-aleksei-navalni"
+author: "José Manuel Grau Navarro"
 ---
 
 ## Hecho

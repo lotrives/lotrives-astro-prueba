@@ -6,6 +6,7 @@ updatedDate: 2026-06-06
 tags: ["Autismo", "Discapacidad", "Martín Bilz"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!_cOX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53a06311-5333-4a58-9273-c133b63ba7dd_1024x768.jpeg"
 canonical: "https://lotrives.substack.com/p/tea-trastorno-del-espectro-autista-centros-de-dia-residencias"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Sobre la incapacidad para crear y mantener residencias para personas con trastorno del espectro autista</p>

@@ -4,6 +4,7 @@ description: "Sin orden mundial liberal, sin capacidad para crearlo. Así estamo
 pubDate: 2026-05-09 
 tags: ["Rusia"]
 heroImage: "/assets/images/anne-applebaum.webp"
+author: "José Manuel Grau Navarro"
 ---
 
 #### Sin orden mundial liberal, sin capacidad para crearlo. Así estamos, según Applebaum. Además, Europa atraviesa un momento de ruptura comparable a 1989.

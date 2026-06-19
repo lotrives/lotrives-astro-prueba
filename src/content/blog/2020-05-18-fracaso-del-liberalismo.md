@@ -3,6 +3,7 @@ title: "¿Ha fracasado el liberalismo?"
 pubDate: 2020-05-18
 tags: ["Patrick J. Deneen", "Liberalismo"]
 description: "El liberalismo, difuntos ya el fascismo y el comunismo, es la única ideología que reclama viabilidad. ¿Ha fracasado precisamente por haber triunfado?"
+author: "José Manuel Grau Navarro"
 ---
 
 El liberalismo, difuntos ya el fascismo y el comunismo, es la única ideología que reclama viabilidad. «El liberalismo ha fracasado porque ha triunfado», defiende **Patrick J. Deneen**.[^1] Pero cuidado, Deneen ve el liberalismo con elementos tanto del capitalismo como del socialismo.   

@@ -6,6 +6,7 @@ updatedDate: 2026-06-07
 tags: ["Santo Tomás de Aquino", "Josef Pieper", "Aristóteles", "Corrupción"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!XxOZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe284ce4f-ccde-45c5-826b-303a6993662d_1536x1024.png"
 canonical: "https://lotrives.substack.com/p/poder-poderosos-puteros-y-corruptos"
+author: "José Manuel Grau Navarro"
 ---
 
 <p class="entradilla">Todo en el mundo depende de que los gobernantes sean justos, pero se desatiende su formación</p>

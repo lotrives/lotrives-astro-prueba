@@ -6,6 +6,7 @@ updatedDate: 2026-05-18
 tags: ["Santo Tomás de Aquino", "Edith Stein"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/1_montserrat_Santa_Maria_de_Montserrat_Abbey_Funicular_de_Sant_Joan_2014.jpg/960px-1_montserrat_Santa_Maria_de_Montserrat_Abbey_Funicular_de_Sant_Joan_2014.jpg"
 canonical: "https://lotrives.substack.com/p/cursos-de-retiro"
+author: "José Manuel Grau Navarro"
 ---
 <div class="img-float-right" style="width:300px"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/1_montserrat_Santa_Maria_de_Montserrat_Abbey_Funicular_de_Sant_Joan_2014.jpg/960px-1_montserrat_Santa_Maria_de_Montserrat_Abbey_Funicular_de_Sant_Joan_2014.jpg" alt="Montserrat" /> <p class="pie-foto">Montserrat. Foto: <a href="https://commons.wikimedia.org/wiki/File:1_montserrat_Santa_Maria_de_Montserrat_Abbey_Funicular_de_Sant_Joan_2014.jpg" target="_blank" rel="noopener noreferrer">CC Wikimedia Commons</a>.</p> </div>
 
