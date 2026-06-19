@@ -15,7 +15,7 @@ La Segunda Guerra Mundial terminó en 1945. Pues bien: en este mes de junio de 2
 
 Las últimas se anunciaron el miércoles 17 de junio de 2026 en Berlín, en la sede del Ministerio Federal de Asuntos Exteriores alemán (Auswärtiges Amt), durante la celebración del Foro Polaco-Alemán y con la participación de **Radosław Sikorski**, ministro de Exteriores de Polonia, y **Johann Wadephul**, ministro de Exteriores de Alemania. El motivo de la cita fue el 35.º aniversario del Tratado de [Buena Vecindad](https://en.wikipedia.org/w/index.php?title=Treaty_of_Good_Neighbourship&oldid=1302805684) y Cooperación Amistosa entre Alemania y Polonia, que se firmó exactamente el 17 de junio de 1991.
 
-Este es el material entregado: un anillo del siglo XVI, miniaturas y accesorios ferroviarios (once) del antiguo Museo del Transporte de Varsovia y un manuscrito medieval compuesto por seis hojas de pergamino y con parte del texto del himno polaco *Gaude Mater Polonia*.
+Este es el material entregado: un anillo del siglo XVI, miniaturas y accesorios ferroviarios (once en total) del antiguo Museo del Transporte de Varsovia y un manuscrito medieval compuesto por seis hojas de pergamino y con parte del texto del himno polaco *Gaude Mater Polonia*.
 
 La Fundación del Patrimonio Cultural Prusiano (Stiftung Preußischer Kulturbesitz) comunicó que desconocía cómo el manuscrito había llegado a la Biblioteca Estatal de Berlín (Staatsbibliothek zu Berlin). Originalmente se hallaba en la Biblioteca del Seminario de [Płock](https://maps.app.goo.gl/DoKxgo4Sj4eeJNfV8) (Polonia). 
 
