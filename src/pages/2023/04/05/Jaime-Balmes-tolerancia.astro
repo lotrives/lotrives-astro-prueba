@@ -1,0 +1,16 @@
+---
+const target = '/2023/04/05/jaime-balmes-tolerancia/';
+const base = Astro.site?.href.replace(/\/$/, '') ?? 'https://lotrives.com';
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={base + target} />
+    <title>Página movida</title>
+  </head>
+  <body>
+    <p>Esta página se ha movido a <a href={target}>{target}</a>.</p>
+  </body>
+</html>
