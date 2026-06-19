@@ -13,7 +13,7 @@ type Props = CollectionEntry<'blog'>['data'] & {
 	next?: { title: string; url: string } | null;
 };
 
-const { title, description, pubDate, updatedDate, heroImage, tags, prev, next } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, tags, author, prev, next } = Astro.props;
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
@@ -35,11 +35,26 @@ for (const items of [_allPosts, _allNotes, _allPages]) {
 	}
 }
 const visibleTags = (tags ?? []).filter(t => (_tagCount.get(t) ?? 0) >= 3);
+
+const jsonLd = {
+	"@context": "https://schema.org",
+	"@type": "BlogPosting",
+	"headline": title,
+	"description": description,
+	"datePublished": new Date(pubDate).toISOString(),
+	...(updatedDate ? { "dateModified": new Date(updatedDate).toISOString() } : {}),
+	"author": {
+		"@type": "Person",
+		"name": author
+	},
+	"image": new URL(heroImage ?? '/assets/images/og-default.webp', Astro.site).toString(),
+};
 ---
 
 <html lang="es">
 	<head>
 		<BaseHead title={`${title} | Lotrives`} description={description} image={heroImage} />
+		<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 		<style>
 	main {
 		width: calc(100% - 2em);
