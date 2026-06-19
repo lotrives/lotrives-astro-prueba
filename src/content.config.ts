@@ -13,6 +13,7 @@ const blog = defineCollection({
 		draft: z.boolean().optional(),
 		canonical: z.string().optional(),
 		tags: z.array(z.string()).optional(),
+		author: z.string(),
 	}),
 });
 
@@ -27,6 +28,7 @@ const notes = defineCollection({
 		draft: z.boolean().optional(),
 		canonical: z.string().optional(),
 		tags: z.array(z.string()).optional(),
+		author: z.string(),
 	}),
 });
 
