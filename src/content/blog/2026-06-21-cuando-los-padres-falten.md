@@ -7,7 +7,7 @@ author: "José Manuel Grau Navarro"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Edvard_Munch_-_Melancholy_%281894-96%29_KODE.jpg/1280px-Edvard_Munch_-_Melancholy_%281894-96%29_KODE.jpg"
 ---
 
-Un grupo de seis padres ya con algunos años nos reunimos el pasado sábado, 20 de junio de 2026, en el restaurante Ocamiño de Madrid. Es un mesón gallego. Tomamos pulpo y arroz con pulpo, bebimos Albariño y de postre saboreamos un café con dos bolas de helado. Las mías fueron de limón. En la caía un sol sahariano. Nos acompañaba un joven interesado en nuestros problemas, por lo que se verá. En total, pues, éramos seis personas.
+Un grupo de seis padres ya con algunos años nos reunimos el pasado sábado, 20 de junio de 2026, en el restaurante Ocamiño de Madrid. Es un mesón gallego. Tomamos pulpo y arroz con pulpo, bebimos Albariño y de postre saboreamos un café con dos bolas de helado. Las mías fueron de limón. En la calle caía un sol sahariano. Nos acompañaba un joven interesado en nuestros problemas, por lo que se verá. En total, pues, éramos seis personas.
 
 Los seis padres mencionados tenemos un grave problema en común: un hijo o una hija con una alta discapacidad por autismo. En el caso del joven, el afectado por autismo es su hermano. Nos une también una espinosa preocupación: no sabemos qué pasará con nuestros hijos autistas cuando nosotros muramos. Mejor dicho, y eso es lo alarmante: sí sabemos que vivirán muy mal a no ser que un pariente que los quiera mucho (un hermano o una hermana) se preocupe continuamente de ellos.
 
