@@ -26,6 +26,18 @@ const rehypeFixExternalLinks = () => (tree) => {
 	});
 };
 
+const rehypeTranslateFootnoteLabel = () => (tree) => {
+	visit(tree, 'element', (node) => {
+		if (node.tagName === 'h2' && node.properties?.id === 'footnote-label') {
+			visit(node, 'text', (textNode) => {
+				if (textNode.value === 'Footnotes') {
+					textNode.value = 'Notas';
+				}
+			});
+		}
+	});
+};
+
 export default defineConfig({
 	site: SITE,
 	base: '/',
@@ -61,6 +73,7 @@ export default defineConfig({
 				},
 				test: ['h2', 'h3', 'h4'],
 			}],
+			rehypeTranslateFootnoteLabel,
 		],
 		}),
 	},
