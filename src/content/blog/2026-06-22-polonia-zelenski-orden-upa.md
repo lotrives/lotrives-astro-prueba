@@ -35,7 +35,7 @@ Fuente:
 
 Powstańcza Armia Ukraińska. (1987). En _Encyklopedia powszechna PWN_ (Wyd. 2, Vol. 4, p. 583). Państwowe Wydawnictwo Naukowe. ISBN 83-01-00004-X (T. 4).
 
-#### Texto original polaco
+### Texto original polaco
 
 > **UKRAIŃSKA POWSTAŃCZA ARMIA**  
 > (UPA), skrajnie nacjonalistyczna, faszyst. organizacja wojsk.-terrorystyczna, zał. 1940 na Polesiu i Wołyniu przez T. Borowca; od 1941 współpracowała z Niemcami; 1942 do UPA zaczęli wstępować czł. → Organizacji Ukraińskich Nacjonalistów (OUN); 1943 OUN (grupa S. Bandery) utworzyła własne oddziały wojsk., które przemocą podporządkowały sobie UPA i przyjęły jej nazwę; UPA działała gł. w zach. Ukrainie, walczyła z pol. i radz. partyzantką oraz prowadziła szeroką akcję terrorystyczną wśród ludności pol.; po wyzwoleniu działała gł. na pd.-wsch. obszarach Polski, mordując przedstawicieli władzy i działaczy partyjnych, dokonując masowych rzezi ludności; 1947 w walkach z UPA zginął m.in. gen. K. Świerczewski; na czele UPA w Polsce stali: M. Onyszkiewicz i J. Szpontak; w wyniku walk wojska i organów bezpieczeństwa z → podziemiem zbrojnym w Polsce 1944–48 UPA została zlikwidowana.
@@ -44,9 +44,7 @@ Notas: *powstańcza armia*: literalmente «ejército insurreccional» o «ejérc
 
 La _Encyklopedia powszechna PWN_ es una publicación polaca en cuatro volúmenes que vio la luz entre 1973 y 1976 en Varsovia, editada por el Państwowe Wydawnictwo Naukowe (PWN). Era la época de la Polonia comunista, dominada en última instancia por la Unión Soviética. La entrada sobre la UPA refleja la terminología típica comunista, con palabras como «faszystowska» y «terrorystyczna» aplicadas a la UPA.
 
-## Valoraciones actuales de la UPA
-
-### En Ucrania
+### Valoración actual de la UPA en Ucrania
 
 Tomemos una fuente representativa:
 
@@ -54,15 +52,15 @@ Sodol, Petro. (1993). [Ukrainian Insurgent Army](https://www.encyclopediaofukrai
 
 Esta entrada refleja la visión que predomina hoy en Ucrania y en buena parte de la historiografía ucraniana de posguerra: la UPA aparece descrita como una fuerza cuyo «propósito inmediato era proteger a la población ucraniana de la represión y explotación alemana y soviética» y cuyo «objetivo último era un Estado ucraniano independiente y unificado», es decir, en clave de resistencia patriótica frente a dos ocupaciones totalitarias simultáneas.
 
-El artículo detalla los enfrentamientos contra la Wehrmacht y, sobre todo, contra el NKVD soviético (el KGB de la época) —incluida la mención del general N. Vatutin, herido de muerte en una emboscada, y la gran batalla de Hurby, donde 30.000 efectivos del NKVD cercaron a 5.000 soldados de la UPA-Sur: una narrativa centrada en el heroísmo militar y el sacrificio frente a Moscú.
+El artículo detalla los enfrentamientos contra la Wehrmacht y, sobre todo, contra el NKVD soviético (el KGB de la época), incluida la mención del general N. Vatutin, herido de muerte en una emboscada, y la gran batalla de Hurby, donde 30.000 efectivos del NKVD cercaron a 5.000 soldados de la UPA-Sur: una narrativa centrada en el heroísmo militar y el sacrificio frente a Moscú.
 
-Sin embargo, no hay ninguna mención a las masacres de población polaca en Volinia y Galicia oriental (1943-44), el episodio que más controversia genera hoy entre Polonia y Ucrania, y el único conflicto polaco-ucraniano que se menciona se presenta en términos casi de cooperación táctica, señalando que la Sexta División (Sian) del UPA-Oeste, tras llegar a un entendimiento con el Ejército Nacional Polaco (Armia Krajowa), realizó varias operaciones conjuntas contra las fuerzas de seguridad polacas. Reducen el asesinato del general polaco Świerczewski (comunista) a una emboscada militar sin mayor contexto.
+Sin embargo, no hay ninguna mención a las masacres de población polaca en Volinia y Galicia oriental (1943-44), el episodio que más controversia genera hoy entre Polonia y Ucrania. El único conflicto polaco-ucraniano mencionado se presenta en términos casi de cooperación táctica. Señala que la Sexta División (Sian) del UPA-Oeste, tras llegar a un entendimiento con el Ejército Nacional Polaco (Armia Krajowa), realizó varias operaciones conjuntas contra las fuerzas de seguridad polacas. Reducen el asesinato del general polaco Świerczewski (comunista) a una emboscada militar, sin mayor contexto.
 
 Esta asimetría, es decir, una memoria detallada del enemigo soviético, y otra muy comprimida del conflicto con la población civil polaca, es el rasgo que distingue la visión ucraniana «patriótica» de la UPA, de la visión polaca dominante, mucho más centrada en Volinia como genocidio, y de la visión soviética, que históricamente la calificó de organización colaboracionista y terrorista, como se ha visto arriba en la enciclopedia PWN de 1987.
 
-La Ley de Ucrania n.º 314-VIII, _«Про правовий статус та вшанування пам'яті борців за незалежність України у XX столітті»_ («Sobre el estatus jurídico y la conmemoración de la memoria de los combatientes por la independencia de Ucrania en el siglo XX»), aprobada por la Verjovna Rada el 9 de abril de 2015, publicada en _Відомості Верховної Ради_ ([2015, n.º 25, art. 190](https://zakon.rada.gov.ua/laws/show/314-19#Text)), reconoce explícitamente como organización combatiente a la UPA y otras, y establece que la negación pública de la legitimidad de esa lucha constituye «ultraje a la memoria» de esos combatientes y es ilegal.
+La Ley de Ucrania n.º 314-VIII, _«Про правовий статус та вшанування пам'яті борців за незалежність України у XX столітті»_ («Sobre el estatus jurídico y la conmemoración de la memoria de los combatientes por la independencia de Ucrania en el siglo XX»), aprobada por la Verjovna Rada ((Верховна Рада, Verjovna Rada: el Parlamento de Ucrania) el [9 de abril de 2015](https://zakon.rada.gov.ua/laws/show/314-19#Text), reconoce explícitamente como organización combatiente a la UPA y otras, y establece que la negación pública de la legitimidad de esa lucha constituye «ultraje a la memoria» de esos combatientes y es ilegal.
 
-## En Polonia
+### Valoración actual de la UPA en Polonia
 
 Fuente representativa:
 
