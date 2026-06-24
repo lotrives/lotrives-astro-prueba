@@ -11,7 +11,7 @@ heroImage: "/assets/images/bondad-y-maldad-de-la-ia.webp"
 
 <p class="pie-foto">Imagen generada con ChatGPT.</p>
 
-Esta mañana me ha llegado un mensaje animándome a que pinchara en la siguiente URL:  `hxxps://agencia-tributariaa[.]eu[.]cc/es` (la reproduzco aquí desactivada) para atender una notificación de Hacienda. 
+Esta mañana me ha llegado un mensaje animándome a que pinchara en la siguiente URL:  `hxxps://agencia-tributariaa[.]eu[.]cc/es` (la reproduzco aquí desactivada), para atender una notificación de Hacienda. 
 
 Desde el primer momento he sospechado que era un fraude. Sin abrirla, he copiado la URL y le he preguntado a la IA Claude por ella. Me ha contestado: 
 
