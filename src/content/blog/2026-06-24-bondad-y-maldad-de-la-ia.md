@@ -17,7 +17,7 @@ Desde el primer momento he sospechado que era un fraude. Sin abrirla, he copiado
 
 ## Smishing
 
->No la visites ni introduzcas ningún dato personal o bancario si la recibes por correo, SMS o cualquier otro canal. Es phishing, sin ninguna duda. No entres en ese enlace.
+>No la visites ni introduzcas ningún dato personal o bancario si la recibes por correo, SMS o cualquier otro canal. Es *phishing*, sin ninguna duda. No entres en ese enlace.
 
 Me daba estas razones:
 
@@ -37,6 +37,6 @@ Aunque no he hecho sino presentar un caso mínimo, ilustra, me parece, por dónd
 ¿Hay ya indicios de eso en otros sistemas? Los hay. 
 
 ## La *maldad* de la IA
-En 2025, el [Pentágono](https://www.congress.gov/crs-product/IN12669) pidió a Anthropic, la empresa que entrena a Claude, acceso sin restricciones a su IA para «todo uso lícito», lo que habría incluido vigilancia masiva de ciudadanos estadounidenses. Anthropic se negó. Como represalia, el presidente Trump ordenó a las agencias federales que no usaran la tecnología de Anthropic, y el Pentágono estampó a la empresa como riesgo para la cadena de suministro. 
+En 2025, el [Pentágono](https://www.congress.gov/crs-product/IN12669) pidió a Anthropic, la empresa que entrena a Claude, acceso sin restricciones a su IA para «todo uso lícito», lo que habría incluido vigilancia masiva de ciudadanos estadounidenses. Anthropic se negó. Como represalia, en 2026 el presidente Trump ordenó a las agencias federales que no usaran la tecnología de Anthropic, y el Pentágono calificó a su IA como empresa de riesgo para la cadena de suministro. 
 
-Finalmente: un [estudio reciente de la Universidad de Stanford](https://www.science.org/doi/10.1126/science.aec8352) analizó once modelos de IA de última generación. Encontró que todos validaban las propuestas de los usuarios un 49% más que los humanos, incluso cuando las consultas implicaban engaño, ilegalidad u otros daños, porque ese comportamiento mantiene al usuario satisfecho y conectado al sistema.
+Finalmente: un [estudio de la Universidad de Stanford](https://www.science.org/doi/10.1126/science.aec8352), de marzo de 2026, analizó once modelos de IA de última generación. Encontró que todos validaban las propuestas de los usuarios un 49% más que los humanos, incluso cuando las consultas implicaban engaño, ilegalidad u otros perjuicios, porque ese comportamiento mantiene al usuario satisfecho y conectado al sistema.
