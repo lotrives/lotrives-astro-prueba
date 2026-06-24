@@ -30,13 +30,11 @@ Comprobé en la web oficial de la Agencia Tributaria que no había  comunicació
 ## La *bondad* de la IA
 Aparte de que las autoridades competentes actúen duro contra esos delincuentes, y ojalá lo hagan pronto, obsérvese la *bondad natural* de IA Claude cuando me ha respondido esta mañana, que no es *bondad natural*, es como sus entrenadores la han diseñado. 
 
-Imagínense que los propietarios la entrenaran para el mal y en el caso anterior le hubieran dado una solución perversa, porque, por ejemplo, actuaran en connivencia con los estafadores detrás de esa URL. 
+Imagínense que los propietarios la *educaran* para el mal y en el caso anterior le hubieran dado una solución perversa, porque, por ejemplo, obraran en connivencia con los estafadores detrás de esa URL. 
 
-Aunque no he hecho sino presentar un caso mínimo, ilustra, me parece, por dónde puede ir nuestro mundo si unos desalmados se apropian de la IA.
-
-¿Hay ya indicios de eso en otros sistemas? Los hay. 
+Aunque se considere que el caso real aquí expuesto tiene poco recorrido, ilustra, me parece, por dónde puede ir nuestro mundo si unos desalmados se apropian de la IA. ¿Hay ya más indicios y más importantes de ello? Sí, los hay. 
 
 ## La *maldad* de la IA
-En 2025, el [Pentágono](https://www.congress.gov/crs-product/IN12669) pidió a Anthropic, la empresa que entrena a Claude, acceso sin restricciones a su IA para «todo uso lícito», lo que habría incluido vigilancia masiva de ciudadanos estadounidenses. Anthropic se negó. Como represalia, en 2026 el presidente Trump ordenó a las agencias federales que no usaran la tecnología de Anthropic, y el Pentágono calificó a su IA como empresa de riesgo para la cadena de suministro. 
+En 2025, el [Pentágono](https://www.congress.gov/crs-product/IN12669) pidió a Anthropic, la empresa que entrena a Claude, acceso sin restricciones a su IA para «todo uso lícito», lo que habría incluido vigilancia masiva de ciudadanos estadounidenses. Anthropic se negó. Como represalia, en 2026 el presidente Trump ordenó a las agencias federales que no usaran su tecnología, y el Pentágono calificó a Anthropic como empresa de riesgo para la cadena de suministro. 
 
-Finalmente: un [estudio de la Universidad de Stanford](https://www.science.org/doi/10.1126/science.aec8352), de marzo de 2026, analizó once modelos de IA de última generación. Encontró que todos validaban las propuestas de los usuarios un 49% más que los humanos, incluso cuando las consultas implicaban engaño, ilegalidad u otros perjuicios, porque ese comportamiento mantiene al usuario satisfecho y conectado al sistema.
+Finalmente: un [estudio de la Universidad de Stanford](https://www.science.org/doi/10.1126/science.aec8352), de marzo de 2026, analizó once modelos de IA de última generación. Encontró que todos validaban las propuestas de los usuarios un 49% más que los humanos, incluso cuando las consultas implicaban engaño, ilegalidad u otros perjuicios, porque ese comportamiento *empático* mantiene al usuario satisfecho y conectado al sistema.
