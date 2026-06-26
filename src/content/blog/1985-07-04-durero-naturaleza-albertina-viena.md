@@ -9,7 +9,7 @@ updatedDate: 2026-06-26
 canonical: "https://www.abc.es/archivo/periodicos/abc-madrid-19850704-46.html"
 ---
 
-![Liebre joven, acuarela de Alberto Durero, 1502, Museo Albertina de Viena](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg/1200px-Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg)
+![Liebre joven, acuarela de Alberto Durero, 1502, Museo Albertina de Viena](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg/960px-Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg)
 
 <p class="pie-foto">Alberto Durero, <em>Liebre joven</em> (1502). <a href="https://sammlungenonline.albertina.at/objects/39222/feldhase" target="_blank" rel="noopener noreferrer">Museo Albertina</a>, Viena. Vía <a href="https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Hare,_1502_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
 
