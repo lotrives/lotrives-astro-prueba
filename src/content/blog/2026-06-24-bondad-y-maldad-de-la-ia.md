@@ -11,7 +11,7 @@ heroImage: "/assets/images/bondad-y-maldad-de-la-ia.webp"
 
 <p class="pie-foto">Imagen generada con ChatGPT.</p>
 
-Esta mañana me ha llegado un mensaje animándome a que pinchara en la siguiente URL:  `hxxps://agencia-tributariaa[.]eu[.]cc/es` (la reproduzco aquí desactivada), para atender una notificación de Hacienda. 
+Esta mañana me ha llegado un mensaje animándome a que pinchara una URL para atender una notificación de Hacienda. 
 
 Desde el primer momento he sospechado que era un fraude. Sin abrirla, he copiado la URL y le he preguntado a la IA Claude por ella. Me ha contestado: 
 
@@ -21,7 +21,7 @@ Desde el primer momento he sospechado que era un fraude. Sin abrirla, he copiado
 
 Me daba estas razones:
 
->El dominio es la prueba definitiva. `agencia-tributariaa.eu.cc` no tiene nada que ver con la Agencia Tributaria real.  `.eu.cc` es un dominio gratuito de segundo nivel que se puede registrar en minutos y de forma anónima, algo que ningún organismo público haría.
+>El dominio es la prueba definitiva. No tiene nada que ver con la Agencia Tributaria real. Es de un dominio gratuito de segundo nivel que se puede registrar en minutos y de forma anónima, algo que ningún organismo público haría.
 >El nombre está mal escrito a propósito: «tributariaa» con doble «a» es un truco típico para parecer oficial a primera vista y, a la vez, esquivar filtros antifraude que bloquean el dominio legítimo exacto.
 >Coincide con una campaña activa. Es prácticamente idéntico a una oleada de *smishing* detectada estos días.
 
