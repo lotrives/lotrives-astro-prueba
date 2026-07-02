@@ -1,7 +1,7 @@
 ---
 title: "La prensa, atrapada entre la IA y las plataformas"
-description: "Philipp Welte, al dejar el MVFP (Medienverband der freien Presse), denuncia el saqueo de contenidos por la IA y el dominio de las plataformas"
-pubDate: 2026-07-02
+description: "Philipp Welte, al dejar el MVFP, Medienverband der freien Presse, denuncia el saqueo de contenidos por la IA y el dominio de las plataformas"
+pubDate: "2026-07-02"
 tags: ["Inteligencia artificial", "Alemania", "Prensa"]
 heroImage: "/assets/images/prensa-ia-plataformas.webp"
 author: "José Manuel Grau Navarro"
