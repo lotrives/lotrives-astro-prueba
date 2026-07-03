@@ -150,7 +150,7 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
           {notes.map((note) => (
             <li>
               <span class="date">{new Date(note.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
-              <a href={`${base}/notas/${noteSlug(note)}`}>{note.data.title}</a>
+              <a href={`${base}/notas/${noteSlug(note)}/`}>{note.data.title}</a>
             </li>
           ))}
         </ul>

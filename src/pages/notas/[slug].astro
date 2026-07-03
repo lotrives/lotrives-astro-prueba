@@ -9,8 +9,8 @@ export async function getStaticPaths() {
 		params: { slug: note.id.replace(/\.md$/, '') },
 		props: {
 			note,
-			next: sorted[i + 1] ? { title: sorted[i + 1].data.title, url: `/notas/${sorted[i + 1].id.replace(/\.md$/, '')}` } : null,
-			prev: sorted[i - 1] ? { title: sorted[i - 1].data.title, url: `/notas/${sorted[i - 1].id.replace(/\.md$/, '')}` } : null,
+			next: sorted[i + 1] ? { title: sorted[i + 1].data.title, url: `/notas/${sorted[i + 1].id.replace(/\.md$/, '')}/` } : null,
+			prev: sorted[i - 1] ? { title: sorted[i - 1].data.title, url: `/notas/${sorted[i - 1].id.replace(/\.md$/, '')}/` } : null,
 		},
 	}));
 }

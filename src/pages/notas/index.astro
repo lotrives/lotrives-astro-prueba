@@ -52,7 +52,7 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
 						<ul class="notas-lista">
 							{notesByYear[year].map((note) => (
 								<li>
-									<a href={`${base}/notas/${noteSlug(note)}`}>{note.data.title}</a>
+									<a href={`${base}/notas/${noteSlug(note)}/`}>{note.data.title}</a>
 									<span class="notas-fecha">{formatDate(note.data.pubDate)}</span>
 								</li>
 							))}
