@@ -1,6 +1,6 @@
 ---
-title: "«El mejor hombre debería estar atado»: aguantar en el matrimonio a propósito de «Cinco horas con Mario»"
-description: "El monólogo de Carmen frente al cadáver de Mario, en la novela de Miguel Delibes, retrata cómo se sobrellevaba una pareja en los años sesenta."
+title: "«El mejor hombre debería estar atado». Aguantar en el matrimonio, a propósito de «Cinco horas con Mario»"
+description: "El monólogo de Carmen frente al cadáver de Mario, en la novela de Miguel Delibes, revela cómo se sobrellevaba una pareja en los años sesenta."
 pubDate: 2026-07-04
 author: "José Manuel Grau Navarro"
 tags: ["Miguel Delibes", "Matrimonio"]
@@ -23,29 +23,31 @@ Una de las muchas virtudes de **Miguel Delibes** en esta novela es la magistral 
 - «¿Pero es que crees que se me ha olvidado, adoquín, cómo se te arrimaba en el cine estando yo delante?» (Delibes, 1991, p. 41). 
 - «Me puso frita, te lo confieso» (Delibes, 1991, p. 41).
 
-El flujo de pensamiento de Carmen revela a un Mario que no debía ser un modelo masculino muy corriente en la España de 1966. Carmen menciona sin parar lo que ella considera que son malas cualidades de su marido y sin embargo Mario al final queda en la memoria del lector como espejo de virtudes y en especial de fidelidad matrimonial. 
+El flujo de pensamiento de Carmen revela a un Mario que no debía ser un tipo muy corriente en la España de 1966. Carmen menciona sin parar lo que ella considera que son malas cualidades de su marido y sin embargo Mario al final queda en la memoria del lector como espejo de virtudes y un dechado de fidelidad matrimonial. 
 
 Carmen es un producto típico de su tiempo. No Mario.
 
 Según la protagonista de esta novela, Mario ha tenido la suerte de dar con «una mujer de su casa, una mujer que de dos saca cuatro» (Delibes, 1991, p. 47). Se siente atractiva: los hombres todavía la miran por la calle, dice, tiene pretendientes y «lo que pasa es que una tiene principios» (Delibes, 1991, p. 44).
 
-Carmen fue señorita de familia bien, que se dejaba servir y que denuncia que «hoy en día, hasta las criadas quieren ser señoritas». Además, son criadas de costumbres dudosas para Carmen, porque «la que no fuma, se pinta las uñas o se pone pantalones» (Delibes, 1991, p. 42).
+Carmen fue señorita de familia bien, que se dejaba servir y que denuncia que «hoy en día, hasta las criadas quieren ser señoritas» (Delibes, 1991, p. 42). Además, son criadas de costumbres dudosas para Carmen, porque «la que no fuma, se pinta las uñas o se pone pantalones» (Delibes, 1991, p. 42).
 
-Una vez casada, su estatus ha bajado y de ello el principal sospechoso es Mario. Se halla «aperreada todo el día de Dios», si no entre pucheros, «lavando bragas», porque con una sola criada para siete de familia «a duras penas se puede ser señora». Pero de estas cosas, dice Carmen, los hombres no se dan cuenta, porque «el día que os casáis, compráis una esclava» (Delibes, 1991, p. 42).
+Una vez casada, su estatus ha bajado y de ello el principal sospechoso es Mario. Se halla «aperreada todo el día de Dios» (Delibes, 1991, p. 42), si no entre pucheros, «lavando bragas» (Delibes, 1991, p. 42), porque con una sola criada para siete de familia «a duras penas se puede ser señora» (Delibes, 1991, p. 42). Pero de estas cosas, dice Carmen, los hombres no se dan cuenta, porque «el día que os casáis, compráis una esclava» (Delibes, 1991, p. 42).
 
 Piensa que trabaja como una burra aunque no es así, y considera a otros hombres más delicados que a su marido, cuando no solo no es así sino más bien justo lo contrario (Delibes, 1991, p. 43).
 
 Piensa que Mario ha sido infiel con Encarna, la viuda de su hermano Elviro, cuando tampoco es así (Delibes, 1991, p. 43).
 
-Asegura que no le gusta realizar juicios temerarios, cuando prácticamente toda la novela es un ensamblaje permanente de maledicencias y malos pensamientos. 
+Asegura que no le gusta realizar juicios temerarios (Delibes, 1991, p. 43), cuando prácticamente toda la novela es un ensamblaje permanente de maledicencias y malos pensamientos. 
 
 Habla de su cuñada, Encarna, como una mujer que «tiene más conchas que un galápago» (Delibes, 1991, p. 46), pero es ella la tortuga.
 
-Se ríe de la afición de su marido a la escritura, y le reprocha que no le hiciera caso a su padre cuando le indicó que la dejara, que no era lo suyo, cuando su padre, el padre de Carmen, era un hombre «bien objetivo» (Delibes, 1991, p. 48).
+Se ríe de la afición de su marido a la escritura, y le reprocha que no le hiciera caso a su padre, al padre de Carmen, cuando le indicó que la dejara, que no era lo suyo. ¡Qué desobediencia temeraria! Su padre, el padre de Carmen, era un hombre «bien objetivo» (Delibes, 1991, p. 48).
 
-«¿Tú crees, Mario, que le puede interesar a alguien un libro que pasa en un país que no existe y cuyo protagonista es un sorche al que le duelen los pies?» (Delibes, 1991, p. 49), le pregunta Carmen a Mario de cuerpo presente. La incomprensión de Carmen por la obra de Mario es de magnitud semejante a la incomprensión de la bondad de su espíritu.
+«¿Tú crees, Mario, que le puede interesar a alguien un libro que pasa en un país que no existe y cuyo protagonista es un sorche al que le duelen los pies?» (Delibes, 1991, p. 49), le pregunta Carmen a Mario de cuerpo presente en ese soliloquio asfixiante.
 
-No sabemos si ese libro que menciona Carmen, que pasa «en un país que no existe», interesaría a alguien, pero sí que *Cinco horas con Mario* es una obra maestra de la narrativa española.
+Seguro que interesaba a alguien, pero la incomprensión de Carmen por la obra de Mario es de magnitud semejante a la incomprensión de la bondad de su espíritu.
+
+El libro que menciona Carmen, cuya acción transcurre «en un país que no existe» y con un sorche de protagonista, valía la pena, como *Cinco horas con Mario*, una obra maestra de la narrativa española.
 
 ## Bibliografía
 
