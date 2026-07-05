@@ -66,11 +66,14 @@ Corominas, Joan/Pascual, José A. (1980) (I-III). (1981) (IV). (1983) (V). (1991
 
 <h2 id="d">D <a href="#nav-letras">↑</a></h2>
 
+Delibes, Miguel. (1991). *Cinco horas con Mario*. Barcelona: Ediciones Destino. Colección Destinolibro. Vol. 144. (1.ª ed. 1966). ISBN: 8423311309.
+
+Delp, Alfred. (1958, 2.ª ed.). *Kämpfer-Beter-Zeuge. Letzte Briefe*. Berlín: Morus Verlag.
+
 *Der Große Brockhaus. Handbuch des Wissens in zwanzig Bänden.* (1928). 15.ª ed. Leipzig: F. A. Brockhaus. [= Brockhaus].
 
 *Der Grosse Sonntag-Schott. Für die Lesejahre A-B-C*. (1975). Freiburg/Basel/Wien: Verlag Herder.
 
-Delp, Alfred. (1958, 2.ª ed.). *Kämpfer-Beter-Zeuge. Letzte Briefe*. Berlín: Morus Verlag.
 
 *Deutsches Wörterbuch. Mit einem «Lexikon der deutschen Sprachlehre». Herausgegeben in Zusammenarbeit mit zahlreichen Wissenschaftlern und anderen Fachleuten. Völlig überarbeitete Neuausgabe.* (1980) [1966]. Gerhard Wahrig (ed.). Múnich: Mosaik Verlag.
 
