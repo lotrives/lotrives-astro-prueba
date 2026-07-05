@@ -44,3 +44,17 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+        continue-on-error: true
+
+      - name: Esperar antes de reintentar deploy
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 45
+
+      - name: Reintentar deploy a GitHub Pages
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+
+      - name: Fallar si también falla el reintento
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'
+        run: exit 1
