@@ -1,6 +1,7 @@
 ---
 title: "La enseñanza de Oseas para un matrimonio en crisis"
 pubDate: 2026-07-07
+author: "José Manuel Grau Navarro"
 description: "Oseas se reconcilió con su esposa infiel, algo solo posible quizás por su visión del amor de Dios a Israel."
 tags: ["Biblia", "Oseas", "Matrimonio", "Fidelidad", "Reconciliación"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Edvard_Munch_-_The_dance_of_life_%281899-1900%29.jpg/1280px-Edvard_Munch_-_The_dance_of_life_%281899-1900%29.jpg"
