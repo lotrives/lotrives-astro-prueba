@@ -49,7 +49,7 @@ En cualquier caso, la técnica de preguntas y respuetas es muy vieja y muy efica
 
 **P: ¿Cuál es la conclusión de la plataforma estadounidense de información Axios sobre todo este embrollo?** R: Que «la era del Salvaje Oeste del desarrollo de la IA ha terminado oficialmente» porque las personas con más dinero, más capacidad en el sector y más que perder por una desaceleración de la IA son las que presionan con más fuerza por la regulación.
 
-*Resulta notable que quienes compiten por llegar antes a la IAG sean también los que soliciten límites. Al margen de otras consideraciones ya vistas, una regulación técnicamente exigente y cara de cumplir es, además de una salvaguarda, la mejor manera de dejar fuera a cualquier competidor sin el tamaño ya de Google, OpenAI o Anthropic. Sin dudar de la sinceridad de la petición, no se puede descartar que termine sirviendo sobre todo a quien la realiza.*
+*Resulta notable que quienes compiten por llegar antes a la IAG sean también los que soliciten límites. Al margen de otras consideraciones ya vistas, una regulación técnicamente exigente y cara de cumplir es, además de una salvaguarda, la mejor manera de dejar fuera a cualquier competidor sin el tamaño ya de Google, OpenAI o Anthropic. Sin dudar de la rectitud de la petición, no se puede descartar que termine sirviendo sobre todo a quien la realiza.*
 
 ## Bibliografía
 
