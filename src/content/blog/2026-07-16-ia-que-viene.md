@@ -43,15 +43,15 @@ Me parece que el tema vale la pena. Empecemos.
 
 *¿Quiere usted decir, señor Hassabis, que ya no hará falta trabajar porque lo hará por nosotros y mejor la IGA?*
 
-**P: ¿Qué otros grandes prohombres de IA coinciden en pedir regulación?** R: Según una newsletter de Axios, **Sam Altman** (OpenAI) y **Dario Amodei** (Anthropic) coinciden con Hassabis en que la IA necesita regularse cuanto antes. Los tres compiten por construir la IA más de vanguardia y están al frente de las empresas rectoras del sector: Google DeepMind, OpenAI y Anthropic.
+**P: ¿Qué otros grandes prohombres de la IA coinciden en pedir regulación?** R: **Sam Altman** (OpenAI) y **Dario Amodei** (Anthropic) comparten con Hassabis el punto de vista de que la IA necesita regularse cuanto antes. Los tres compiten por construir la IA más de vanguardia y dirigen las empresas rectoras y punteras del sector: Google DeepMind, OpenAI y Anthropic.
 
-**P: ¿Cuál es la postura de la Administración Trump?** R: Ha defendido públicamente la desregulación y se ha resistido a cualquier cosa que se parezca a una Administración de Alimentos y Medicamentos para la IA, decidida a no asfixiar la innovación estadounidense en la carrera contra China. Pero en privado, admiten que «un enfoque de no intervención total es insostenible»: los temores cibernéticos ya los han forzado a una regulación improvisada dos veces este verano. Primero, por los modelos Fable y Mythos de Anthropic; después, por el GPT-5.6 de OpenAI.
+**P: ¿Cuál es la postura de la Administración Trump?** R: Ha defendido públicamente la desregulación y se ha resistido a cualquier cosa que se parezca a una Administración de Alimentos y Medicamentos para la IA. Está decidida, subrayan, a no asfixiar la innovación estadounidense en la carrera contra China. Pero en privado admiten que «un enfoque de no intervención total es insostenible»: los temores cibernéticos ya los han forzado a una regulación improvisada dos veces este verano. Primero, por los modelos Fable y Mythos de Anthropic; después, por el GPT-5.6 de OpenAI.
 
-**P: ¿Qué temen los críticos de las propuestas de Hassabis y otros?** R: Que las leyes redactadas para hacer la IA más segura puedan terminar afianzando a las mayores empresas de IA.
+**P: ¿Qué temen los críticos de las propuestas de Hassabis, Altman y Amodei?** R: Que las leyes redactadas para hacer la IA más segura puedan terminar afianzando a los grandes consorcios de IA.
 
-**P: ¿Cuál es la conclusión de la plataforma estadounidense de información Axios?** R: Que «la era del Salvaje Oeste del desarrollo de la IA ha terminado oficialmente». Las personas con más dinero, más capacidad en el sector y más que perder por una desaceleración de la IA son las que presionan con más fuerza por la regulación.
+**P: ¿Cuál es la conclusión de la plataforma estadounidense de información Axios sobre todo este embrollo?** R: Que «la era del Salvaje Oeste del desarrollo de la IA ha terminado oficialmente» porque las personas con más dinero, más capacidad en el sector y más que perder por una desaceleración de la IA son las que presionan con más fuerza por la regulación.
 
-*¿No resulta llamativo que quienes compiten por llegar antes a la IAG sean también los que piden que alguien les ponga límites? Una regulación técnicamente exigente y cara de cumplir es, además de una salvaguarda, la mejor manera de dejar fuera a cualquier competidor sin el tamaño ya de Google, OpenAI o Anthropic. Quizás la petición sea sincera, pero no se puede descartar que termine sirviendo sobre todo a quien la realiza.*
+*Resulta notable que quienes compiten por llegar antes a la IAG sean también los que soliciten límites. Al margen de otras consideraciones ya vistas, una regulación técnicamente exigente y cara de cumplir es, además de una salvaguarda, la mejor manera de dejar fuera a cualquier competidor sin el tamaño ya de Google, OpenAI o Anthropic. Sin dudar de la sinceridad de la petición, no se puede descartar que termine sirviendo sobre todo a quien la realiza.*
 
 ## Bibliografía
 
