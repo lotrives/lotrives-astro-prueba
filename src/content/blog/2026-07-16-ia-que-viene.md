@@ -4,7 +4,7 @@ description: "Promete avances médicos sin precedentes y liberación del trabajo
 pubDate: 2026-07-16
 author: "José Manuel Grau Navarro"
 tags: ["Inteligencia artificial", "Demis Hassabis"]
-heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Coral_Pink_Sand_Dunes_After_Rain_08.JPG/1280px-Coral_Pink_Sand_Dunes_After_Rain_08.JPG)"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Coral_Pink_Sand_Dunes_After_Rain_08.JPG/1280px-Coral_Pink_Sand_Dunes_After_Rain_08.JPG"
 ---
 
 ![Dunas de Coral Pink Sand Dunes tras la lluvia, Utah](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Coral_Pink_Sand_Dunes_After_Rain_08.JPG/1280px-Coral_Pink_Sand_Dunes_After_Rain_08.JPG)
