@@ -1,6 +1,6 @@
 ---
 title: "La casa natal de Hitler y la memoria histórica de Austria"
-description: "Braunau am Inn, la localidad natal de Hitler, ejemplifica cómo Austria gestiona su pasado: transforma el inmueble donde nació en un puesto de policía"
+description: "Braunau am Inn, la localidad natal de Hitler, ejemplifica cómo Austria gestiona su pasado: transforma el inmueble donde nació en un puesto de policía."
 pubDate: 2026-07-23
 author: "José Manuel Grau Navarro"
 tags: ["Adolf Hitler", "Austria", "Anschluss", "Memorias", "Viena"]

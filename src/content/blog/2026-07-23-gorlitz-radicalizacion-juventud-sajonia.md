@@ -1,6 +1,6 @@
 ---
 title: "Görlitz y el regreso de la esvástica: la juventud radicalizada de Sajonia"
-description: "Un recuerdo personal en Görlitz y las claves del libro de Manuela Müller sobre la radicalización neonazi juvenil en Sajonia"
+description: "Un recuerdo personal en Görlitz y las claves del libro de Manuela Müller sobre la radicalización neonazi juvenil en Sajonia."
 pubDate: 2026-07-23
 author: "José Manuel Grau Navarro"
 tags: ["Alemania", "Polonia", "Neonazismo", "RDA", "Extrema derecha", "Görlitz", "Zgorzelec"]
