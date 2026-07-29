@@ -9,7 +9,7 @@ heroImage: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Luke_Fildes_%281
 
 ![Multitud de personas, entre ellas niños, esperando de noche a la puerta de un asilo para pobres](https://upload.wikimedia.org/wikipedia/commons/1/1d/Luke_Fildes_%281843-1927%29_-_Applicants_for_Admission_to_a_Casual_Ward_-_THC0021_-_Royal_Holloway%2C_University_of_London.jpg)
 
-<p class="pie-foto">Luke Fildes, <em>Applicants for Admission to a Casual Ward</em> (Aspirantes a ser admitidos en un asilo nocturno), 1874. Óleo sobre lienzo, Royal Holloway, University of London. Dominio público, vía <a href="https://commons.wikimedia.org/w/index.php?title=File:Luke_Fildes_(1843-1927)_-_Applicants_for_Admission_to_a_Casual_Ward_-_THC0021_-_Royal_Holloway,_University_of_London.jpg&oldid=1181791048" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+<p class="pie-foto"><em>Applicants for Admission to a Casual Ward</em> (Aspirantes a ser admitidos en un asilo nocturno), 1874. Óleo sobre lienzo de Luke Fildes, Royal Holloway, University of London. Dominio público, vía <a href="https://commons.wikimedia.org/w/index.php?title=File:Luke_Fildes_(1843-1927)_-_Applicants_for_Admission_to_a_Casual_Ward_-_THC0021_-_Royal_Holloway,_University_of_London.jpg&oldid=1181791048" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
 
 
 [Leo](https://elpais.com/sociedad/2026-07-29/la-revolucion-de-los-cuidados-ya-esta-aqui-nos-adaptamos-a-lo-que-cada-uno-necesita.html) que Marina Prieto, delegada sindical de UGT, tiene un hijo de 22 años, llamado Adrián Monje, autista, con el máximo grado de dependencia. Viven en la localidad madrileña de Arroyomolinos. No ha tenido que dejar el trabajo pero cuenta con dos asistentes personales para atender a su hijo. 
@@ -20,7 +20,7 @@ Hay que solicitarlo. Es un trámite que dura unos seis meses. Una vez aprobado p
 
 Vale la pena que se mejore y se avance también por esa senda. No hay duda. Pero mientras tanto, se pierde de vista lo central: pocos centros de día y con pocos recursos para los autistas, personal mal pagado y desmotivado, y padres haciéndose mayores y sin soluciones residenciales medianamente dignas para sus hijos con gravísimas discapacidades. 
 
-Según el informe [Situación del Personal Técnico en Cuidados Auxiliares de Enfermería](https://www.sanidad.gob.es/areas/cuidadosEnSalud/investigacionDatos/informe.htm) (PTCAE) en España, el 38,09 % de las auxiliares de enfermería «se plantearía abandonar la profesión si dispusiera de circunstancias personales favorables para hacerlo» y el «37 % presenta sintomatología compatible con depresión, lo que requiere una atención prioritaria». 
+Según el informe [Situación del Personal Técnico en Cuidados Auxiliares de Enfermería](https://www.sanidad.gob.es/areas/cuidadosEnSalud/investigacionDatos/informe.htm) (PTCAE) en España, el 38,09 % de los auxiliares de enfermería «se plantearía abandonar la profesión si dispusiera de circunstancias personales favorables para hacerlo» y el «37 % presenta sintomatología compatible con depresión, lo que requiere una atención prioritaria». 
 
 Estas cifras son mucho mejores que las que arrojaría un estudio sobre el personal que atiende a personas del espectro autista, estoy convencido, por experiencia directa y diaria con ese sector.
 
