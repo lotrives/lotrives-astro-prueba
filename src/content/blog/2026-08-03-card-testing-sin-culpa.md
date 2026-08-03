@@ -50,7 +50,7 @@ El ataque no se dirige contra la persona: se dirige contra el propio sistema de 
 ---
 
 
-### Bibliografía citada
+### Bibliografía
 
 
 Emewulu, Tom-Chris. (2026, 9 de abril). [Card Testing Attacks: How They Work and How to Prevent Them](https://www.chargeflow.io/chargebacks-101/card-testing). Chargeflow.
