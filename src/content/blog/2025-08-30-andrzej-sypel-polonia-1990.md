@@ -3,7 +3,7 @@ title: "Andrzej Sypel y los comienzos del Opus Dei en Polonia"
 description: "Sobre los comienzos del Opus Dei en Polonia"
 pubDate: 2025-08-30
 updatedDate: 2026-06-13
-tags: ["Opus Dei", "Polonia", "Memorias", "Stefan Moszoro-Dąbrowski", "Andrzej Sypel", "Mokotowska", "José Escondrillas Wencel", "Erhard Garda", "Nicolás Ramírez", "Juan Luis O’Dogherty", "Rafael Mora", "Górnośląska 43"]
+tags: ["Opus Dei", "Polonia", "Memorias", "Stefan Moszoro-Dąbrowski", "Andrzej Sypel", "Mokotowska", "José Escondrillas Wencel", "Erhard Garda", "Nicolás Ramírez", "Juan Luis O’Dogherty", "Rafael Mora", "Górnośląska"]
 heroImage: "/assets/images/sypel-5.webp"
 canonical: "https://lotrives.substack.com/p/andrzej-sypel-polonia-1990"
 author: "José Manuel Grau Navarro"
