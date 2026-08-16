@@ -184,11 +184,84 @@ Grau Navarro, José Manuel. (1985, 25 de abril). [Los nuevos nombramientos en el
 
 —. (1985, 7 de noviembre). [Messner, nuevo presidente del Gobierno polaco](https://www.abc.es/archivo/periodicos/abc-madrid-19851107-31.html). *ABC*, Madrid, p. 31.
 
+—. (1985, 13 de noviembre). [Se suceden los cambios en los órganos de poder polacos](https://www.abc.es/archivo/periodicos/abc-madrid-19851113-36.html). *ABC*, Madrid, p. 36.
+
+—. (1985, 13 de noviembre). [Gran enrarecimiento del clima político en Rumanía](https://www.abc.es/archivo/periodicos/abc-madrid-19851113-36.html). *ABC*, Madrid, p. 36.
+
+—. (1985, 14 de noviembre). [Ceaușescu remodela el Comité Central del PC de Rumania](https://www.abc.es/archivo/periodicos/abc-madrid-19851114-29.html). *ABC*, Madrid, p. 29.
+
+
+—. (1985, 16 de noviembre). [Famoso escritor soviético condenado por convertirse al cristianismo. Felix Svetov ha sido detenido y puede ser sometido a trato psiquiátrico](https://www.abc.es/archivo/periodicos/abc-madrid-19851116-44.html). *ABC*, Madrid, p. 44.
+
+—. (1985, 21 de noviembre). [La cumbre de Ginebra. Nueva etapa en la escena internacional. Europa del Este. Se confía en recuperar el proceso de distensión](https://www.abc.es/archivo/periodicos/abc-madrid-19851121-58.html). *ABC*, Madrid, p. 58.
+
+—. (1985, 21 de noviembre). [Aumenta el interés en Austria por ingresar en la CEE](https://www.abc.es/archivo/periodicos/abc-madrid-19851121-67.html). *ABC*, Madrid, p. 85.
+
+
+—. (1985, 22 de noviembre). [Tras la cumbre de Ginebra. Gorbachov se reunió en Praga con sus aliados del Este](https://www.abc.es/archivo/periodicos/abc-madrid-19851122-36.html). _ABC_, Madrid, p. 36.
+
+
+—. (1985, 23 de noviembre). [Satisfacción tras la cumbre de Ginebra. Gorbachov afianza su autoridad en el PCUS](https://www.abc.es/archivo/periodicos/abc-madrid-19851123-35.html). _ABC_, Madrid, p. 35.
+
+—. (1985, 27 de noviembre). [Concluyeron sin éxito en Budapest las reuniones del Foro Cultural Europeo](/assets/images/abc-1985-foro-cultural-budapest.webp). *ABC*, p. 60.
+
+—. (1985, 28 de noviembre). [Editada en Austria una importante obra de una disidente soviética](https://www.abc.es/archivo/periodicos/abc-madrid-19851128-48.html). *ABC*, p. 48. La disidente mencionada es [Raisa Orlova](https://de.wikipedia.org/w/index.php?title=Raissa_Dawydowna_Orlowa-Kopelewa&oldid=253572816).
+
+
+
+—. (1985, 29 de noviembre). [Duras críticas de un obispo yugoslavo contra el Papa](https://www.abc.es/archivo/periodicos/abc-madrid-19851129-53.html). *ABC*, p. 53. Ese obispo era [Vekoslav Grmič](https://en.wikipedia.org/w/index.php?title=Vekoslav_Grmič&oldid=1363724988).
+
+
+—. (1985, 1 de diciembre). [Importante purga en las principales universidades polacas](https://www.abc.es/archivo/periodicos/abc-madrid-19851201-35.html). *ABC*, p. 35.
+
+
+—. (1985, 3 de diciembre). [Sigue la represión contra los católicos en Checoslovaquia](https://www.abc.es/archivo/periodicos/abc-madrid-19851203-43.html). *ABC*, p. 43. Menciono a dos sacerdotes represaliados: [Rudolf Chudý](https://www.abu.sk/aktuality/zomrel-knaz-nitrianskej-diecezy-rudolf-chudy-pohreb-bude-v-stredu-v-biskupovej) y [Anton Srholec](https://en.wikipedia.org/w/index.php?title=Anton_Srholec&oldid=1338254894). 
+
+
+
+
+—. (1985, 5 de diciembre). [Prensa extranjera. Traducción del artículo de «Die Presse» (Viena) titulado «En torno a la OTAN»](https://www.abc.es/archivo/periodicos/abc-madrid-19851205-22.html). *ABC*, p. 22. Sobre el ingreso de España en la OTAN. 
+
+
+
+
+—. (1985, 6 de diciembre). [La gala de las estrellas, en la ópera de Viena](https://www.abc.es/archivo/periodicos/abc-madrid-19851206-75.html). *ABC*, p. 75.
+
+
+
+
+—. (1985, 7 de diciembre). [Internado en una clínica psiquiátrica uno de los líderes católicos ucranianos](https://www.abc.es/archivo/periodicos/abc-madrid-19851207-44.html). *ABC*, p. 44. Se trataba de [Josyp Mychajlovyč Terelja](https://resource.history.org.ua/cgi-bin/eiu/history.exe?&I21DBN=EIU&P21DBN=EIU&S21STN=1&S21REF=10&S21FMT=eiu_all&C21COM=S&S21CNR=20&S21P01=0&S21P02=0&S21P03=TRN=&S21COLORTERMS=0&S21STR=Terelia_J).
+
+
+—. (1985, 10 de diciembre). [Inquietud en Yugoslavia por la situación económica](https://www.abc.es/archivo/periodicos/abc-madrid-19851210-37.html). *ABC*, p. 37.
+
+
+—. (1985, 11 de diciembre). [George Shultz visita durante nueve días varios países de Europa oriental](https://www.abc.es/archivo/periodicos/abc-madrid-19851211-36.html). *ABC*, p. 36.
+
+—. (1985, 11 de diciembre). [Informe austriaco sobre los horrores en Afganistán](/assets/images/abc-1985-informe-austriaco-horrores-afganistan.webp). *ABC*, p. 37.
+
+
+—. (1985, 16 de diciembre). [EE. UU. podría suspender su ayuda económica a Rumania](https://www.abc.es/archivo/periodicos/abc-madrid-19851216-29.html). *ABC*, p. 29.
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 <h2 id="1986">1986 <a href="#inicio" title="Volver al índice" style="font-size:0.6em; font-weight:normal; text-decoration:none; margin-left:0.5em;">↑ inicio</a></h2>
 
-Grau Navarro, José Manuel. (1986, 7 de octubre). [Constante aumento de la capacidad de convocatoria de la Iglesia en Polonia.](https://www.abc.es/archivo/periodicos/abc-madrid-19861007-36.html) *ABC*. Madrid, p. 46.
+Grau Navarro, José Manuel. (1986, 14 de enero). [Detenido en Polonia el «número dos» de Solidaridad](https://www.abc.es/archivo/periodicos/abc-madrid-19860114-25.html). *ABC*, Madrid, p. 25.
+
+
+—. (1986, 7 de octubre). [Constante aumento de la capacidad de convocatoria de la Iglesia en Polonia.](https://www.abc.es/archivo/periodicos/abc-madrid-19861007-36.html) *ABC*. Madrid, p. 46.
 
 ---
 
