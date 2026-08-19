@@ -1,6 +1,6 @@
 ---
 title: "Invertir en valor cuando todo está caro"
-description: "¿Especulamos? ¿Invertimos? Jeremy Grantham advierte de una posible caída del 70 % en la Bolsa"
+description: "¿Especulamos? ¿Invertimos? Jeremy Grantham advierte de una posible caída del 70 % en la Bolsa."
 pubDate: 2026-08-19
 author: "José Manuel Grau Navarro"
 tags: ["Finanzas personales", "Bolsa", "Inversión", "Jeremy Grantham", "Seth Klarman", "Benjamin Graham"]
@@ -34,7 +34,7 @@ El entrevistador contraataca con que quizás ahora sea diferente, porque la tecn
 
 Grantham, Jeremy (con Edward Chancellor). (2026). [*The Making of a Permabear. The Perils of Long-term Investing in a Short-term World*](https://groveatlantic.com/book/the-making-of-a-permabear/) (La formación de un permabajista (bajista perpetuo). Los peligros de invertir a largo plazo en un mundo cortoplacista). Grove Atlantic.
 
-Klarman, Seth. (1991). *[Margin of Safety. Risk-averse Value Investing Strategies for the Thoughtful Investor](https://en.wikipedia.org/w/index.php?title=Margin_of_Safety_(book)&oldid=1352398443)* (Margen de seguridad: estrategias de inversión en valor con aversión al riesgo para el inversor reflexivo). HarperCollins.
+Klarman, Seth. (1991). *[Margin of Safety. Risk-averse Value Investing Strategies for the Thoughtful Investor](https://en.wikipedia.org/w/index.php?title=Margin_of_Safety_(book)&oldid=1352398443)* (Margen de seguridad. Estrategias de inversión en valor con aversión al riesgo para el inversor reflexivo). HarperCollins.
 
 Graham, Benjamin. (2006). *The intelligent investor. A book of practical counsel*. Preface and appendix by Warren E. Buffett. Revised edition. Updated with new commentary by Jason Zweig. Collins Business Essentials. ISBN: 978-0-06-055566-5. Primera edición: 1949.
 
