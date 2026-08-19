@@ -2,7 +2,7 @@
 title: "Jaime Balmes sobre la tolerancia"
 pubDate: 2023-04-05
 description: "Extractos de «El protestantismo comparado con el catolicismo», donde el autor, Jaime Balmes, habla de la tolerancia."
-tags: ["Jaime Balmes", "Tolerancia", "Protestantismo", "Catolicismo", "Voltaire", "San Francisco de Sales", "Miguel Servet", "Calvino", "Enrique VIII", "Lutero", "Verdad", "Mentira", "Error", "Respeto", "Credulidad", "Mal", "Jean-Jacques Rousseau", "Santa Teresa de Jesús", "Gobierno", "Libre albedrío", "Poder público", "Inquisición"]
+tags: ["Jaime Balmes", "Tolerancia", "Protestantismo", "Catolicismo", "Voltaire", "San Francisco de Sales", "Miguel Servet", "Calvino", "Enrique VIII", "Lutero", "Verdad", "Mentira", "Error", "Respeto", "Credulidad", "Mal", "Jean-Jacques Rousseau", "Santa Teresa de Jesús", "Gobierno", "Libre albedrío", "Poder", "Inquisición"]
 author: "José Manuel Grau Navarro"
 ---
 
