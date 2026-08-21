@@ -54,14 +54,17 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .brand-link.active {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    line-height: 1;
     color: var(--black);
     text-decoration: none;
   }
 
   .logo-mark {
-    width: 24px;
-    height: 24px;
+    width: 1.45em;
+    height: 1.45em;
+    flex: 0 0 auto;
+    margin-right: 0.38em;
+    transform: translateY(0.09em);
   }
 
   nav {
