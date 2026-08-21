@@ -84,8 +84,11 @@ const jsonLd = {
 	.date {
 		margin-top: 0.4em;
 		margin-bottom: 0.5em;
-color: rgb(140, 155, 185);
+		color: rgb(var(--gray));
 		font-size: 0.9em;
+	}
+	.date .autor {
+		color: rgb(var(--black));
 	}
 	.last-updated-on {
 		font-style: italic;
@@ -138,7 +141,7 @@ color: rgb(140, 155, 185);
 					<div class="title">
 						<h1>{title}</h1>
 						<div class="date">
-							José Manuel Grau Navarro · <FormattedDate date={pubDate} />
+							<span class="autor">José Manuel Grau Navarro</span> · <FormattedDate date={pubDate} />
 							{updatedDate && (
 								<div class="last-updated-on">
 									Actualizado el <FormattedDate date={updatedDate} />
