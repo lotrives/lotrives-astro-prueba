@@ -100,5 +100,45 @@ export default defineConfig({
 				],
 			},
 		},
+		{
+			provider: fontProviders.local(),
+			name: 'SourceSerif4',
+			cssVariable: '--font-source-serif',
+			fallbacks: ['serif'],
+			options: {
+				variants: [
+					{
+						src: ['./src/assets/fonts/sourceserif4-regular.ttf'],
+						weight: 400,
+						style: 'normal',
+						display: 'swap',
+					},
+					{
+						src: ['./src/assets/fonts/sourceserif4-bold.ttf'],
+						weight: 700,
+						style: 'normal',
+						display: 'swap',
+					},
+					{
+						src: ['./src/assets/fonts/sourceserif4-italic.ttf'],
+						weight: 400,
+						style: 'italic',
+						display: 'swap',
+					},
+					{
+						src: ['./src/assets/fonts/sourceserif4-semibold.ttf'],
+						weight: 600,
+						style: 'normal',
+						display: 'swap',
+					},
+					{
+						src: ['./src/assets/fonts/sourceserif4-medium.ttf'],
+						weight: 500,
+						style: 'normal',
+						display: 'swap',
+					},
+				],
+			},
+		},
 	],
 });
