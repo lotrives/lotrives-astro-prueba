@@ -5,17 +5,37 @@ import Header from '../components/Header.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { getCollection } from 'astro:content';
 
-const posts = (await getCollection('blog')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-).slice(0, 4);
-
-const notes = (await getCollection('notes')).sort(
-  (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
-).slice(0, 4);
-
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
 const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/, '$1/$2/$3/$4')}/`;
 const noteSlug = (note) => note.id.replace(/\.md$/, '');
+const noteUrl = (note) => `${base}/notas/${noteSlug(note)}/`;
+
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 4)
+  .map((post) => ({
+    type: 'post',
+    date: post.data.pubDate,
+    title: post.data.title,
+    description: post.data.description,
+    heroImage: post.data.heroImage,
+    href: postUrl(post),
+  }));
+
+const notes = (await getCollection('notes'))
+  .sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf())
+  .slice(0, 4)
+  .map((note) => ({
+    type: 'note',
+    date: new Date(note.data.pubDate),
+    title: note.data.title,
+    description: note.data.description,
+    heroImage: note.data.heroImage,
+    href: noteUrl(note),
+  }));
+
+const items = [...posts, ...notes].sort((a, b) => b.date.valueOf() - a.date.valueOf());
 ---
 
 <!doctype html>
@@ -27,31 +47,76 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
         margin-top: 0;
         margin-bottom: 2rem;
         padding-bottom: 1.5rem;
-        font-size: 1.25em;
-        font-style: normal;
-        font-weight: 400;
-        color: rgb(var(--gray));
-        line-height: 1.5;
         border-bottom: 1px solid rgb(var(--gray-light));
       }
+      .intro-linea1 {
+        margin: 0 0 0.2em;
+        font-size: 1.25em;
+        font-weight: 600;
+        color: rgb(var(--black));
+        line-height: 1.4;
+      }
+      .intro-linea2 {
+        margin: 0;
+        font-size: 1.25em;
+        font-weight: 400;
+        color: rgb(var(--gray));
+        line-height: 1.4;
+      }
       @media (max-width: 720px) {
-        .intro {
+        .intro-linea1, .intro-linea2 {
           font-size: 1.1em;
         }
+      }
+      .seccion-titulo {
+        font-size: 0.75em;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: rgb(var(--gray));
+        margin: 0 0 1.2rem;
       }
       .post-list {
         list-style: none;
         padding: 0;
         margin: 0;
       }
-      .post-list li {
-        margin-bottom: 1.8em;
+      .post-list-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.3rem;
+        padding: 1.1rem 0;
+        border-top: 1px solid rgb(var(--gray-light));
       }
-      .post-list .date {
+      .post-list-item:first-child {
+        border-top: none;
+      }
+      .post-list-content {
+        flex: 1;
+        min-width: 0;
+      }
+      .thumb {
+        flex-shrink: 0;
+        width: 160px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 4px;
+        background: rgb(var(--gray-light));
+      }
+      .tag-nota {
+        display: inline-block;
+        margin-right: 0.5em;
+        font-size: 0.78em;
+        font-weight: 700;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: rgb(var(--nota));
+      }
+      .date {
         display: block;
         font-size: 0.8em;
         color: rgb(var(--gray));
-        margin-bottom: 0.1em;
+        margin-bottom: 0.3em;
       }
       .post-list a {
         font-size: 1em;
@@ -64,11 +129,14 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
         text-underline-offset: 3px;
         text-decoration-color: var(--accent);
       }
-      .post-list .excerpt {
+      .excerpt {
         margin: 0.4em 0 0;
         font-size: 0.92em;
         color: rgb(var(--gray));
         line-height: 1.5;
+      }
+      .ver-todos {
+        margin-top: 1.5rem;
       }
       .ver-todos a {
         color: rgb(var(--gray));
@@ -80,82 +148,51 @@ const noteSlug = (note) => note.id.replace(/\.md$/, '');
         text-underline-offset: 3px;
         text-decoration-color: var(--accent);
       }
-
-      /* Bloque de notas recientes */
-      .seccion-titulo {
-        font-size: 0.75em;
-        font-weight: 600;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: rgb(var(--gray));
-        margin: 0 0 1.2rem;
-      }
-      .notas-recientes {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-      .notas-recientes li {
-        margin-bottom: 1.8em;
-      }
-      .notas-recientes .date {
-        display: block;
-        font-size: 0.8em;
-        color: rgb(var(--gray));
-        margin-bottom: 0.1em;
-      }
-      .notas-recientes a {
-        font-size: 1em;
-        color: rgb(var(--gray-dark));
-        text-decoration: none;
-        line-height: 1.4;
-      }
-      .notas-recientes a:hover {
-        color: var(--accent);
-        text-decoration: underline;
-        text-underline-offset: 3px;
-        text-decoration-color: var(--accent);
-      }
-      .bloque-notas {
-        margin-top: 2.5rem;
-        padding-top: 2rem;
-        border-top: 1px solid rgb(var(--gray-light));
+      @media (max-width: 560px) {
+        .post-list-item {
+          flex-direction: column;
+        }
+        .thumb {
+          width: 100%;
+          height: auto;
+          aspect-ratio: 16 / 9;
+        }
       }
     </style>
   </head>
   <body>
     <Header />
     <main style="max-width: 700px; margin: 0 auto; padding: 1.5rem;">
-      <p class="intro">
-        Artículos y notas de trabajo de José Manuel Grau Navarro, donde ofrece su mirada al mundo que somos para comprender mejor a las personas, la sociedad y la Iglesia.
-      </p>
+      <div class="intro">
+        <p class="intro-linea1">Artículos y notas de José Manuel Grau Navarro</p>
+        <p class="intro-linea2">Una mirada al mundo que somos</p>
+      </div>
 
-      <p class="seccion-titulo">Últimos artículos</p>
+      <p class="seccion-titulo">Lo último</p>
       <ul class="post-list">
-        {posts.map((post) => (
-          <li>
-            <span class="date">{post.data.pubDate.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
-            <a href={postUrl(post)}>{post.data.title}</a>
-            {post.data.description && (
-              <p class="excerpt">{post.data.description}</p>
+        {items.map((item) => (
+          <li class="post-list-item">
+            <div class="post-list-content">
+              <span class="date">
+                {item.type === 'note' && <span class="tag-nota">Nota</span>}
+                {item.date.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
+              </span>
+              <a href={item.href}>{item.title}</a>
+              {item.description && (
+                <p class="excerpt">{item.description}</p>
+              )}
+            </div>
+            {item.heroImage && (
+              <img class="thumb" src={item.heroImage} alt="" loading="lazy" width="160" height="90" />
             )}
           </li>
         ))}
       </ul>
-      <p class="ver-todos"><a href={`${base}/archivo/`}>Ver todos los artículos →</a></p>
-
-      <div class="bloque-notas">
-        <p class="seccion-titulo">Notas recientes</p>
-        <ul class="notas-recientes">
-          {notes.map((note) => (
-            <li>
-              <span class="date">{new Date(note.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
-              <a href={`${base}/notas/${noteSlug(note)}/`}>{note.data.title}</a>
-            </li>
-          ))}
-        </ul>
-        <p class="ver-todos" style="margin-top: 1rem;"><a href={`${base}/notas/`}>Ver todas las notas →</a></p>
-      </div>
+      <p class="ver-todos">
+        <a href={`${base}/archivo/`}>Todos los artículos →</a>
+        &nbsp;·&nbsp;
+        <a href={`${base}/notas/`}>Todas las notas →</a>
+      </p>
     </main>
     <Footer />
   </body>
