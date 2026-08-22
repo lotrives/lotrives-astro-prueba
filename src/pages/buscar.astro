@@ -55,6 +55,21 @@ import Header from '../components/Header.astro';
 		font-size: 0.75rem;
 		color: #aaa;
 		margin-bottom: 0.5rem;
+		white-space: nowrap;
+	}
+
+	.b-date-short {
+		display: none;
+	}
+
+	@media (max-width: 560px) {
+		.b-date-long {
+			display: none;
+		}
+
+		.b-date-short {
+			display: inline;
+		}
 	}
 	.b-excerpt {
 		font-size: 0.875rem;
@@ -180,10 +195,15 @@ import Header from '../components/Header.astro';
 		    return chunk;
 		  }
 
-		  function fmtDate(raw) {
+		  function fmtDate(raw, compact) {
 		    if (!raw) return '';
 		    var d = new Date(raw);
-		    return isNaN(d) ? raw : d.toLocaleDateString('es-ES', { year:'numeric', month:'long', day:'numeric' });
+		    if (isNaN(d)) return raw;
+		    return d.toLocaleDateString('es-ES', {
+		      year: 'numeric',
+		      month: compact ? 'short' : 'long',
+		      day: 'numeric'
+		    }).replace(/\./g, '').replace(/\bsept\b/, 'sep');
 		  }
 
 		  function renderCards(matched, q, qn) {
@@ -198,7 +218,7 @@ import Header from '../components/Header.astro';
 		        : '';
 		      return '<div class="b-card">' +
 		        '<div class="b-card-header"><a href="' + esc(p.url) + '">' + hl(p.title||'', q) + '</a>' + (typeTag ? ' ' + typeTag : '') + '</div>' +
-		        (p.date ? '<div class="b-date">' + fmtDate(p.date) + '</div>' : '') +
+		        (p.date ? '<div class="b-date"><span class="b-date-long">' + esc(fmtDate(p.date, false)) + '</span><span class="b-date-short">' + esc(fmtDate(p.date, true)) + '</span></div>' : '') +
 		        '<div class="b-excerpt">' + hl(excerpt(p.content||p.excerpt||'', qn), q) + '</div>' +
 		        (tagsHtml ? '<div class="b-tags">' + tagsHtml + '</div>' : '') +
 		        '</div>';

@@ -91,7 +91,29 @@ const jsonLd = {
 		color: rgb(var(--black));
 	}
 	.last-updated-on {
-		font-style: italic;
+		font-style: normal;
+	}
+
+	.updated-short {
+		display: none;
+	}
+
+	@media (max-width: 560px) {
+		.date-separator {
+			display: none;
+		}
+
+		.published-date {
+			display: block;
+		}
+
+		.updated-long {
+			display: none;
+		}
+
+		.updated-short {
+			display: inline;
+		}
 	}
 	.tags {
 		margin-top: 2em;
@@ -141,10 +163,18 @@ const jsonLd = {
 					<div class="title">
 						<h1>{title}</h1>
 						<div class="date">
-							<span class="autor">José Manuel Grau Navarro</span> · <FormattedDate date={pubDate} />
+							<div class="published-line">
+								<span class="autor">José Manuel Grau Navarro</span>
+								<span class="date-separator"> · </span>
+								<span class="published-date">
+									<FormattedDate date={pubDate} compactOnMobile />
+								</span>
+							</div>
 							{updatedDate && (
 								<div class="last-updated-on">
-									Actualizado el <FormattedDate date={updatedDate} />
+									<span class="updated-long">Actualizado el </span>
+									<span class="updated-short">Actualizado </span>
+									<FormattedDate date={updatedDate} compactOnMobile />
 								</div>
 							)}
 						</div>

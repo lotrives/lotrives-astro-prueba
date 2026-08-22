@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import FormattedDate from '../components/FormattedDate.astro';
 import FloatingTOC from '../components/FloatingTOC.astro';
 import PageScripts from '../components/PageScripts.astro';
 
@@ -20,13 +21,6 @@ const postsByYear = sortedPosts.reduce((groups, post) => {
 }, {});
 
 const years = Object.keys(postsByYear).sort((a, b) => Number(b) - Number(a));
-
-const formatDate = (date) =>
-	new Intl.DateTimeFormat('es-ES', {
-		day: '2-digit',
-		month: '2-digit',
-		year: 'numeric',
-	}).format(new Date(date));
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const postUrl = (post) =>
@@ -54,7 +48,7 @@ const postUrl = (post) =>
 							{postsByYear[year].map((post) => (
 								<li>
 									<a href={postUrl(post)}>{post.data.title}</a>
-									<span class="archivo-fecha">{formatDate(post.data.pubDate)}</span>
+									<span class="archivo-fecha"><FormattedDate date={new Date(post.data.pubDate)} compact /></span>
 								</li>
 							))}
 						</ul>

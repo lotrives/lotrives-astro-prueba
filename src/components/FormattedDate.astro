@@ -1,17 +1,59 @@
 ---
 interface Props {
 	date: Date;
+	compact?: boolean;
+	compactOnMobile?: boolean;
 }
 
-const { date } = Astro.props;
+const { date, compact = false, compactOnMobile = false } = Astro.props;
+
+const longDate = date.toLocaleDateString('es-ES', {
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric',
+});
+
+const shortDate = date
+	.toLocaleDateString('es-ES', {
+		year: 'numeric',
+		month: 'short',
+		day: 'numeric',
+	})
+	.replace(/\./g, '')
+	.replace(/\bsept\b/, 'sep');
 ---
 
-<time datetime={date.toISOString()}>
+<time datetime={date.toISOString()} class={compactOnMobile && !compact ? 'date-responsive' : undefined}>
 	{
-		date.toLocaleDateString('es-ES', {
-			year: 'numeric',
-			month: 'long',
-			day: 'numeric',
-		})
+		compact ? (
+			shortDate
+		) : compactOnMobile ? (
+			<>
+				<span class="date-long">{longDate}</span>
+				<span class="date-short">{shortDate}</span>
+			</>
+		) : (
+			longDate
+		)
 	}
 </time>
+
+<style>
+	time {
+		white-space: nowrap;
+	}
+
+	.date-short {
+		display: none;
+	}
+
+	@media (max-width: 560px) {
+		.date-responsive .date-long {
+			display: none;
+		}
+
+		.date-responsive .date-short {
+			display: inline;
+		}
+	}
+</style>

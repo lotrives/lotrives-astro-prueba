@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
+import FormattedDate from '../components/FormattedDate.astro';
 import Footer from '../components/Footer.astro';
 import FloatingTOC from '../components/FloatingTOC.astro';
 import { SITE_TITLE } from '../consts';
@@ -127,7 +128,7 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 										<li>
 										<a href={postUrl(post)}>{post.data.title}</a>
 										<span class="post-fecha">
-										{new Date(post.data.pubDate).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' })}
+										<FormattedDate date={new Date(post.data.pubDate)} compact />
 										</span>
 										</li>
 										))}
@@ -135,7 +136,7 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 									<li>
 									<a href={noteUrl(note)}>{note.data.title}</a>
 									<span class="post-fecha">
-									{new Date(note.data.pubDate).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' })}
+									<FormattedDate date={new Date(note.data.pubDate)} compact />
 									</span>
 									<span class="post-fecha"> · nota</span>
 									</li>

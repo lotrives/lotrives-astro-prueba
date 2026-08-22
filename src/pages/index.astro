@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { getCollection } from 'astro:content';
 
@@ -174,7 +175,7 @@ const items = [...posts, ...notes].sort((a, b) => b.date.valueOf() - a.date.valu
             <div class="post-list-content">
               <span class="date">
                 {item.type === 'note' && <span class="tag-nota">Nota</span>}
-                {item.date.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
+                <FormattedDate date={item.date} compactOnMobile />
               </span>
               <h2 class="post-list-title"><a href={item.href}>{item.title}</a></h2>
               {item.description && (
