@@ -118,152 +118,142 @@ import Header from '../components/Header.astro';
 		</main>
 		<Footer />
 
-		<script>
+		<script type="module" is:inline>
 		(function () {
-		  var posts = [];
-		  var input   = document.getElementById('buscador-q');
-		  var status  = document.getElementById('buscador-status');
-		  var results = document.getElementById('buscador-results');
+			var pagefind;
+			var searchVersion = 0;
 
-		  function esc(str) {
-		    return (str||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-		  }
+			var input = document.getElementById('buscador-q');
+			var status = document.getElementById('buscador-status');
+			var results = document.getElementById('buscador-results');
 
-		  function normalize(str) {
-		    if (!str) return '';
-		    return str
-		      .replace(/[łŁ]/g, 'l')
-		      .replace(/[ąĄ]/g, 'a')
-		      .replace(/[ęĘ]/g, 'e')
-		      .replace(/[ěĚ]/g, 'e')
-		      .replace(/[śŚšŠ]/g, 's')
-		      .replace(/[źŹżŻžŽ]/g, 'z')
-		      .replace(/[ćĆčČ]/g, 'c')
-		      .replace(/[ńŃ]/g, 'n')
-		      .replace(/[řŘ]/g, 'r')
-		      .replace(/[ůŮ]/g, 'u')
-		      .replace(/[ýÝ]/g, 'y')
-		      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-		      .toLowerCase();
-		  }
+			function esc(str) {
+				return String(str || '')
+					.replace(/&/g, '&amp;')
+					.replace(/</g, '&lt;')
+					.replace(/>/g, '&gt;')
+					.replace(/"/g, '&quot;');
+			}
 
-		  function queryToRegex(q) {
-		    var map = {
-		      'a': '[aąáàâä]',
-		      'e': '[eęěéèêë]',
-		      'i': '[iíîï]',
-		      'o': '[oóôö]',
-		      'u': '[uůúûü]',
-		      'n': '[nń]',
-		      'l': '[lł]',
-		      's': '[sśš]',
-		      'z': '[zźżž]',
-		      'c': '[cćč]',
-		      'r': '[rř]',
-		      'y': '[yý]'
-		    };
-		    return q.split('').map(function(ch) {
-		      var low = ch.toLowerCase();
-		      var pat = map[low] || ch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-		      return pat;
-		    }).join('');
-		  }
+			function fmtDate(raw, compact) {
+				if (!raw) return '';
 
-		  function match(p, qn) {
-		    return normalize(p.title).indexOf(qn) !== -1 ||
-		           normalize(p.content).indexOf(qn) !== -1 ||
-		           normalize(p.excerpt).indexOf(qn) !== -1 ||
-		           normalize(p.tags).indexOf(qn) !== -1;
-		  }
+				var d = new Date(raw);
+				if (Number.isNaN(d.getTime())) return raw;
 
-		  function hl(text, q) {
-		    if (!q || !text) return esc(text||'');
-		    var re = new RegExp('(' + queryToRegex(q) + ')', 'gi');
-		    return esc(text).replace(re, function(m) {
-		      return '<mark>' + m + '</mark>';
-		    });
-		  }
+				return d.toLocaleDateString('es-ES', {
+					year: 'numeric',
+					month: compact ? 'short' : 'long',
+					day: 'numeric'
+				})
+					.replace(/\./g, '')
+					.replace(/\bsept\b/, 'sep');
+			}
 
-		  function excerpt(text, qn) {
-		    var src = text || '';
-		    var srcNorm = normalize(src);
-		    var idx = qn ? srcNorm.indexOf(qn) : -1;
-		    var s = idx > 60 ? idx - 60 : 0;
-		    var chunk = src.slice(s, s + 220);
-		    if (s > 0) chunk = '…' + chunk;
-		    if (s + 220 < src.length) chunk += '…';
-		    return chunk;
-		  }
+			function renderCards(items) {
+				return items.map(function (p) {
+					var meta = p.meta || {};
+					var type = meta.type || '';
 
-		  function fmtDate(raw, compact) {
-		    if (!raw) return '';
-		    var d = new Date(raw);
-		    if (isNaN(d)) return raw;
-		    return d.toLocaleDateString('es-ES', {
-		      year: 'numeric',
-		      month: compact ? 'short' : 'long',
-		      day: 'numeric'
-		    }).replace(/\./g, '').replace(/\bsept\b/, 'sep');
-		  }
+					var typeTag = (type === 'nota' || type === 'página')
+						? '<span class="b-type">' + esc(type) + '</span>'
+						: '';
 
-		  function renderCards(matched, q, qn) {
-		    return matched.map(function(p) {
-		      var typeTag = (p.type === 'nota' || p.type === 'página')
-		        ? '<span class="b-type">' + esc(p.type) + '</span>'
-		        : '';
-		      var tagsHtml = p.tags
-		        ? p.tags.split(', ').map(function(t) {
-		            return '<span class="b-tag">' + hl(t.trim(), q) + '</span>';
-		          }).join('')
-		        : '';
-		      return '<div class="b-card">' +
-		        '<div class="b-card-header"><a href="' + esc(p.url) + '">' + hl(p.title||'', q) + '</a>' + (typeTag ? ' ' + typeTag : '') + '</div>' +
-		        (p.date ? '<div class="b-date"><span class="b-date-long">' + esc(fmtDate(p.date, false)) + '</span><span class="b-date-short">' + esc(fmtDate(p.date, true)) + '</span></div>' : '') +
-		        '<div class="b-excerpt">' + hl(excerpt(p.content||p.excerpt||'', qn), q) + '</div>' +
-		        (tagsHtml ? '<div class="b-tags">' + tagsHtml + '</div>' : '') +
-		        '</div>';
-		    }).join('');
-		  }
+					var tagsHtml = meta.tags
+						? String(meta.tags).split(', ').map(function (tag) {
+							return '<span class="b-tag">' + esc(tag.trim()) + '</span>';
+						}).join('')
+						: '';
 
-		  function search(query) {
-		    var q = query.trim();
-		    if (!q) {
-		      results.innerHTML = '';
-		      status.innerHTML = posts.length + ' entradas indexadas';
-		      return;
-		    }
+					var excerptHtml = p.excerpt || esc(meta.excerpt || '');
 
-		    var qn = normalize(q);
-		    var matched = posts.filter(function(p) { return match(p, qn); });
-		    var n = matched.length;
+					return '<div class="b-card">' +
+						'<div class="b-card-header"><a href="' + esc(p.url) + '">' +
+							esc(meta.title || '') +
+						'</a>' + (typeTag ? ' ' + typeTag : '') + '</div>' +
+						(meta.date_iso
+							? '<div class="b-date">' +
+								'<span class="b-date-long">' + esc(fmtDate(meta.date_iso, false)) + '</span>' +
+								'<span class="b-date-short">' + esc(fmtDate(meta.date_iso, true)) + '</span>' +
+							  '</div>'
+							: '') +
+						'<div class="b-excerpt">' + excerptHtml + '</div>' +
+						(tagsHtml ? '<div class="b-tags">' + tagsHtml + '</div>' : '') +
+					'</div>';
+				}).join('');
+			}
 
-		    if (n > 0) {
-		      status.innerHTML = n + ' resultado' + (n !== 1 ? 's' : '') + ' para "<strong>' + esc(q) + '</strong>"';
-		      results.innerHTML = renderCards(matched, q, qn);
-		    } else {
-		      status.innerHTML = '0 resultados para "<strong>' + esc(q) + '</strong>"';
-		      results.innerHTML = '<p class="b-nada">No se encontró nada.</p>';
-		    }
-		  }
+			async function search(query) {
+				var q = query.trim();
+				var version = ++searchVersion;
 
-		  fetch('/search.json')
-		    .then(function(r) { return r.json(); })
-		    .then(function(data) {
-		      posts = data;
-		      input.disabled = false;
-		      input.focus();
-		      status.length + ' entradas indexadas';
-		      status.innerHTML = posts.length + ' entradas indexadas';
-		    })
-		    .catch(function() {
-		      status.innerHTML = 'Error al cargar el índice.';
-		    });
+				if (!q) {
+					results.innerHTML = '';
+					status.innerHTML = '';
+					return;
+				}
 
-		  var timer;
-		  input.addEventListener('input', function(e) {
-		    clearTimeout(timer);
-		    timer = setTimeout(function() { search(e.target.value); }, 250);
-		  });
+				status.innerHTML = 'Buscando…';
+
+				try {
+					var response = await pagefind.search(q);
+
+					if (version !== searchVersion) return;
+
+					var n = response.results.length;
+
+					if (!n) {
+						status.innerHTML = '0 resultados para "<strong>' + esc(q) + '</strong>"';
+						results.innerHTML = '<p class="b-nada">No se encontró nada.</p>';
+						return;
+					}
+
+					var items = await Promise.all(
+						response.results.map(function (result) {
+							return result.data();
+						})
+					);
+
+					if (version !== searchVersion) return;
+
+					status.innerHTML = n + ' resultado' + (n !== 1 ? 's' : '') +
+						' para "<strong>' + esc(q) + '</strong>"';
+					results.innerHTML = renderCards(items);
+				} catch (error) {
+					console.error(error);
+
+					if (version !== searchVersion) return;
+
+					status.innerHTML = 'Error al realizar la búsqueda.';
+					results.innerHTML = '';
+				}
+			}
+
+			async function init() {
+				try {
+					pagefind = await import('/pagefind/pagefind.js');
+					await pagefind.init();
+
+					input.disabled = false;
+					input.focus();
+					status.innerHTML = '';
+				} catch (error) {
+					console.error(error);
+					status.innerHTML = 'Error al cargar el buscador.';
+				}
+			}
+
+			var timer;
+
+			input.addEventListener('input', function (e) {
+				clearTimeout(timer);
+
+				timer = setTimeout(function () {
+					search(e.target.value);
+				}, 250);
+			});
+
+			init();
 		})();
 		</script>
 	</body>
