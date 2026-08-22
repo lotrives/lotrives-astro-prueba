@@ -45,7 +45,7 @@ const items = [...posts, ...notes].sort((a, b) => b.date.valueOf() - a.date.valu
     <style>
       .intro {
         margin-top: 0;
-        margin-bottom: 2rem;
+        margin-bottom: 0;
         padding-bottom: 1.5rem;
         border-bottom: 1px solid rgb(var(--gray-light));
       }
@@ -67,14 +67,6 @@ const items = [...posts, ...notes].sort((a, b) => b.date.valueOf() - a.date.valu
         .intro-linea1, .intro-linea2 {
           font-size: 1.1em;
         }
-      }
-      .seccion-titulo {
-        font-size: 0.75em;
-        font-weight: 600;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: rgb(var(--gray));
-        margin: 0 0 1.2rem;
       }
       .post-list {
         list-style: none;
@@ -118,6 +110,13 @@ const items = [...posts, ...notes].sort((a, b) => b.date.valueOf() - a.date.valu
         color: rgb(var(--gray));
         margin-bottom: 0.3em;
       }
+      .post-list-title {
+        margin: 0;
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 1.5;
+      }
+
       .post-list a {
         font-size: 1em;
         font-weight: 600;
@@ -165,11 +164,10 @@ const items = [...posts, ...notes].sort((a, b) => b.date.valueOf() - a.date.valu
     <Header />
     <main style="max-width: 700px; margin: 0 auto; padding: 1.5rem;">
       <div class="intro">
-        <p class="intro-linea1">Artículos y notas de José Manuel Grau Navarro</p>
+        <h1 class="intro-linea1">Artículos y notas de José Manuel Grau Navarro</h1>
         <p class="intro-linea2">Una mirada al mundo que somos</p>
       </div>
 
-      <p class="seccion-titulo">Lo último</p>
       <ul class="post-list">
         {items.map((item) => (
           <li class="post-list-item">
@@ -178,7 +176,7 @@ const items = [...posts, ...notes].sort((a, b) => b.date.valueOf() - a.date.valu
                 {item.type === 'note' && <span class="tag-nota">Nota</span>}
                 {item.date.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
               </span>
-              <a href={item.href}>{item.title}</a>
+              <h2 class="post-list-title"><a href={item.href}>{item.title}</a></h2>
               {item.description && (
                 <p class="excerpt">{item.description}</p>
               )}
