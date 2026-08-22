@@ -240,6 +240,8 @@ try {
 	await pagefind.close();
 }
 
+await fs.rm(SEARCH_JSON, { force: true });
+
 console.log(`Registros indexados: ${records.length}`);
 console.log(`Alias adicionales generados: ${aliasCount}`);
 console.log('Índice Pagefind creado en dist/pagefind/');
