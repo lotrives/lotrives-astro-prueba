@@ -80,28 +80,6 @@ export default defineConfig({
 	fonts: [
 		{
 			provider: fontProviders.local(),
-			name: 'Atkinson',
-			cssVariable: '--font-atkinson',
-			fallbacks: ['sans-serif'],
-			options: {
-				variants: [
-					{
-						src: ['./src/assets/fonts/atkinson-regular.woff'],
-						weight: 400,
-						style: 'normal',
-						display: 'swap',
-					},
-					{
-						src: ['./src/assets/fonts/atkinson-bold.woff'],
-						weight: 700,
-						style: 'normal',
-						display: 'swap',
-					},
-				],
-			},
-		},
-		{
-			provider: fontProviders.local(),
 			name: 'SourceSerif4',
 			cssVariable: '--font-source-serif',
 			fallbacks: ['serif'],
@@ -128,12 +106,6 @@ export default defineConfig({
 					{
 						src: ['./src/assets/fonts/sourceserif4-semibold.ttf'],
 						weight: 600,
-						style: 'normal',
-						display: 'swap',
-					},
-					{
-						src: ['./src/assets/fonts/sourceserif4-medium.ttf'],
-						weight: 500,
 						style: 'normal',
 						display: 'swap',
 					},
