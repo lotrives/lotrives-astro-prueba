@@ -26,6 +26,9 @@ Agustín, San. (1964) [354-430]. *Enarraciones sobre los Salmos.* En *Obras de S
 
 Aquino, Santo Tomás de. *Suma Teológica*. Texto latino de la ed. crít. Leonina. Trad. y anotaciones por una comisión de padres dominicos presidida por Francisco Barbado Viejo. Intr. general de Santiago Ramírez. *Tomo II-III* (1 q. 27-74). (1959). Tratado de la Santísima Trinidad. Trad. de Raimundo Suárez. Intrs. de Manuel Cuervo. Tratado de la creación en general. Trad. e intrs. de Jesús Valbuena. Tratado de los ángeles. Trad. de Raimundo Suárez. Intrs. y aps. de Aureliano Martínez. Tratado de la creación corpórea. Trad. e intrs. de Alberto Colunga. 3.ª ed. Madrid: BAC. [=Suma BAC].
 
+—. (1984). *Suma de Teología. II. Parte I-II* (2.ª ed. Edición dirigida por los Regentes de Estudios de las Provincias Dominicanas en España).
+Madrid: BAC. Obra original publicada ca. 1265-1274. Citado así: S. Th. I-II, q. 16, a. 4, c.
+
 <h2 id="b">B <a href="#nav-letras">↑</a></h2>
 
 Baños Baños, José Miguel (coordinador edit.). (2021). *Sintaxis Latina.* Manuales y Anejos de «Emérita» LVI. *Volumen I. Introducción. Sintaxis de la oración simple. Volumen II. Sintaxis de la oración compleja. Orden de palabras*. Madrid: CSIC. ISBN: 987-84-00-10825-0. [= Baños *Sintaxis*].
