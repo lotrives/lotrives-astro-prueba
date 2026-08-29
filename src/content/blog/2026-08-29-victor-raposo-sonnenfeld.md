@@ -22,19 +22,19 @@ Al poco de aterrizar yo en Austria, [Ricardo Estarriol](https://lotrives.com/202
 
 ## Padre gallego, madre alemana
 
-El padre de Víctor era un célebre médico gallego. Se llamaba [Luis Raposo Montero](https://medicoshistoricos.ucm.es/s/medes/item/835279) (1911-2000). Se licenció en Medicina por la Universidad de Santiago de Compostela, se doctoró en Madrid y amplió estudios en Alemania. No sé dónde ni cuándo, pero sí que conoció a la alemana Lucie Sonnenfeld, con quien se casó: la madre de Víctor. 
+El padre de Víctor era un célebre médico gallego. Se llamaba [Luis Raposo Montero](https://medicoshistoricos.ucm.es/s/medes/item/835279) (1911-2009). Se licenció en Medicina por la Universidad de Santiago de Compostela, se doctoró en Madrid y amplió estudios en Alemania. No sé dónde ni cuándo, pero sí que conoció a la alemana Lucie Sonnenfeld, con quien se casó: la madre de Víctor. 
 
 Luis y Lucie se empeñaron en que Víctor aprendiera muy bien el alemán. Así resultó. Lo hablaba sin acento. Pasaba por nativo al cien por cien. Cursó Víctor además ingeniería industrial en Bilbao, se hizo numerario del Opus Dei allí, en Bilbao, en el Colegio Mayor [Abando](https://opusdei.org/es-es/article/guadalupe-ortiz-landazuri-bilbao-opus-dei/), entre 1970 y 1975, y se graduó como ingeniero. Víctor me contó que le invitó a que pidiera la admisión en el Opus Dei [Ramón Herrando Prat de la Riba](https://lotrives.com/2026/05/20/enrique-herrando-prat-de-la-riba/), que entonces era director de Abando.
 
-Poco antes o poco después de 1975, a Víctor le propusieron en el Opus Dei marcharse a Austria y aceptó. Y aquí viene lo memorable. Él no quería dedicarse a la ingeniería. Esto me lo confesó en varias ocasiones. Tenía claro que lo intentaría con el comercio, de tal manera que al día siguiente de deshacer la maleta en Birkbrunn, se paseó por el centro de Viena, vio que en Teich le encajaba, tocó el timbre, anunció que podía trabajar para ellos, demostró que sabía a la perfección alemán, español, inglés y francés, y lo contrataron sobre la marcha.
+Poco antes o poco después de 1975, a Víctor le propusieron en el Opus Dei marcharse a Austria y aceptó. Y aquí viene lo memorable. Él no quería dedicarse a la ingeniería. Tenía claro que lo intentaría con el comercio, de tal manera que al día siguiente de deshacer la maleta en Birkbrunn, se paseó por el centro de Viena, resolvió que Teich le encajaba, tocó el timbre, anunció que podía trabajar para ellos, demostró que sabía a la perfección alemán, español, inglés y francés, y lo contrataron sobre la marcha.
 
-En Birkbrunn, durante algún tiempo, en la planta segunda, nuestras habitaciones eran contiguas. Su mayor placer era comprarse el *The Economist*, leerlo en voz alta y traducir, apuntar y memorizar las palabras que no sabía. Podía pasarse así una mañana entera de vacaciones.
+En Birkbrunn, durante algún tiempo, en la planta segunda, nuestras habitaciones eran contiguas. Su mayor placer era comprarse el semanario británico *The Economist*, leerlo en voz alta y traducir, apuntar y memorizar las palabras que no sabía. Podía pasarse así una mañana entera de vacaciones.
 
-Durante la semana, normalmente Víctor no almorzaba con nosotros en Birkbrunn porque estaba trabajando para Teich. Los fines de semana, sin embargo, sin proponérselo, era un espectáculo en las tertulias. Sobre todo había dos residentes que se lo pasaban en grande con él. Uno era un estudiante de Arquitectura llamado Roberto Da Sois y otro un estudiante de Informática llamado Jorge Dueñas, también amigos míos. 
+Durante la semana, normalmente Víctor no almorzaba con nosotros en Birkbrunn porque estaba trabajando para Teich. Los fines de semana, sin embargo, sin proponérselo, era un espectáculo en las tertulias. Sobre todo había dos residentes que se lo pasaban en grande con él. Uno era un estudiante de Arquitectura llamado Roberto Da Sois y otro un estudiante de Informática llamado Jorge Dueñas. 
 
 ## La torre de marfil
 
-Víctor relataba sus aventuras con el coche de empresa, cómo había rayado sin querer un Porsche negro al aparcar y la cara que había puesto su dueño vienés. Hablaba de su tío Pepe, notario que había renunciado a todo para estudiar latín en su feudo gallego en una torre de cristal a propósito para ello construida, según Víctor. Otras veces se remontaba a historias más o menos hippies de los sesenta y principios de los setenta y los problemas con el autostop, siempre en un alemán seco entreverado de pensamiento y modos gallegos. Su discurso en lengua germana proporcionaba una atmósfera mágica a la sala de estar de Birkbrunn.
+Víctor relataba sus aventuras con el coche de empresa, cómo había rayado sin querer un Porsche negro al aparcar y la cara que había puesto su dueño vienés. Hablaba de su tío Pepe, notario que había renunciado a todo para estudiar latín en su feudo gallego y se encerró en una torre de cristal aislada a propósito para ello, según Víctor. Otras veces se remontaba a historias más o menos hippies de los sesenta y principios de los setenta y los problemas con el autostop, siempre en un alemán seco con ciertos modos gallegos. Su discurso en lengua germana proporcionaba una atmósfera mágica a la sala de estar de Birkbrunn.
 
 Víctor se alimentaba a mediodía muchas veces solo de helados de una heladería de la Schwedenplatz de Viena, que le gustaba especialmente. 
 
@@ -42,9 +42,7 @@ Cierto fin de semana, un sábado por la mañana, salió y no regresó a dormir, 
 
 ## Supermercados
 
-Coincidí con Víctor también en algún [curso anual](https://lotrives.com/2026/08/25/curso-anual-kroisegg/). En los días de excursión, cuando el resto solía pensar en si visitar tal o cual ciudad, monumento o museo, Víctor se desmarcaba. Prefería que lo dejaran solo para recorrer los supermercados, ver productos y apuntar precios. ¿Era porque sus padres quizás lo habían forzado mucho con la cultura, por ejemplo, insistiendo en oír música clásica la familia junta, y eso había desatado en él rechazo? Eso daba a entender Víctor, pero no lo creo.
+Coincidí con Víctor también en algún [curso anual](https://lotrives.com/2026/08/25/curso-anual-kroisegg/). En los días de excursión, cuando el resto solía pensar en visitar tal o cual ciudad, monumento o museo, Víctor se desmarcaba. Prefería que lo dejaran solo para recorrer supermercados, ver productos y apuntar precios. ¿Era porque sus padres lo habían forzado de pequeño con la cultura, insistiendo en oír música clásica la familia junta, y eso había desatado en él rechazo? No. Era porque era así.
 
 De mi diario: «Dreistetten-Viena. Domingo, 31 de diciembre de 1989. Durante el desayuno, Víctor Raposo Sonnenfeld me lanza la idea de vender aluminio en Polonia y ganarme hasta un 5 por ciento en las operaciones».
-
-Es de las personas que más echo de menos.
 
