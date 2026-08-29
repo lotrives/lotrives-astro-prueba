@@ -32,17 +32,17 @@ En Birkbrunn, durante algún tiempo, en la planta segunda, nuestras habitaciones
 
 Durante la semana, normalmente Víctor no almorzaba con nosotros en Birkbrunn porque estaba trabajando para Teich. Los fines de semana, sin embargo, sin proponérselo, era un espectáculo en las tertulias. Sobre todo había dos residentes que se lo pasaban en grande con él. Uno era un estudiante de Arquitectura llamado Roberto Da Sois y otro un estudiante de Informática llamado Jorge Dueñas. 
 
-## La torre de marfil
+## La torre de cristal
 
 Víctor relataba sus aventuras con el coche de empresa, cómo había rayado sin querer un Porsche negro al aparcar y la cara que había puesto su dueño vienés. Hablaba de su tío Pepe, notario que había renunciado a todo para estudiar latín en su feudo gallego y se encerró en una torre de cristal aislada a propósito para ello, según Víctor. Otras veces se remontaba a historias más o menos hippies de los sesenta y principios de los setenta y los problemas con el autostop, siempre en un alemán seco con ciertos modos gallegos. Su discurso en lengua germana proporcionaba una atmósfera mágica a la sala de estar de Birkbrunn.
 
 Víctor se alimentaba a mediodía muchas veces solo de helados de una heladería de la Schwedenplatz de Viena, que le gustaba especialmente. 
 
-Cierto fin de semana, un sábado por la mañana, salió y no regresó a dormir, tampoco el domingo. Nos preocupamos mucho y ya estábamos saliendo para denunciarlo a la policía cuando apareció. Había ido a su oficina, a Teich, el ascensor se estropeó, y ahí pasó casi dos días hasta que lo rescataron, con gran paz, nada alterado.
+Cierto fin de semana, un sábado por la mañana, salió y no regresó a dormir, tampoco el domingo. Nos preocupamos mucho. Habíamos decidido denunciarlo a la policía cuando apareció. Había ido a su oficina, a Teich, el ascensor se estropeó, y encerrado en un metro cuadrado pasó casi dos días hasta que lo rescataron, con gran paz.
 
 ## Supermercados
 
-Coincidí con Víctor también en algún [curso anual](https://lotrives.com/2026/08/25/curso-anual-kroisegg/). En los días de excursión, cuando el resto solía pensar en visitar tal o cual ciudad, monumento o museo, Víctor se desmarcaba. Prefería que lo dejaran solo para recorrer supermercados, ver productos y apuntar precios. ¿Era porque sus padres lo habían forzado de pequeño con la cultura, insistiendo en oír música clásica la familia junta, y eso había desatado en él rechazo? No. Era porque era así.
+Coincidí con Víctor también en algún [curso anual](https://lotrives.com/2026/08/25/curso-anual-kroisegg/). En los días de excursión, cuando el resto solía pensar en visitar tal o cual ciudad, monumento o museo, Víctor se desmarcaba. Prefería que lo dejaran solo para recorrer supermercados, estudiar nuevos productos y apuntar precios. ¿Era porque sus padres lo habían forzado de pequeño con la cultura, insistiendo en oír música clásica la familia junta, y eso había desatado en él rechazo? No. Era porque era así.
 
 De mi diario: «Dreistetten-Viena. Domingo, 31 de diciembre de 1989. Durante el desayuno, Víctor Raposo Sonnenfeld me lanza la idea de vender aluminio en Polonia y ganarme hasta un 5 por ciento en las operaciones».
 
