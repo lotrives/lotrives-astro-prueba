@@ -42,7 +42,7 @@ Cierto fin de semana, un sábado por la mañana, salió y no regresó a dormir, 
 
 ## Supermercados
 
-Coincidí con Víctor también en algún [curso anual](https://lotrives.com/2026/08/25/curso-anual-kroisegg/). En los días de excursión, cuando el resto solía pensar en visitar tal o cual ciudad, monumento o museo, Víctor se desmarcaba. Prefería que lo dejaran solo para recorrer supermercados, estudiar nuevos productos y apuntar precios. ¿Era porque sus padres lo habían forzado de pequeño con la cultura, insistiendo en oír música clásica la familia junta, y eso había desatado en él rechazo? No. Era porque era así.
+Coincidí con Víctor también en algún [curso anual](https://lotrives.com/2026/08/25/curso-anual-kroisegg/). En los días de excursión, cuando el resto solía pensar en visitar tal o cual ciudad, monumento o museo, Víctor se desmarcaba. Prefería que lo dejaran solo para recorrer supermercados, estudiar nuevos productos y apuntar precios. ¿Era porque sus padres le habían insistido demasiado en que oyera música clásica regularmente en familia, con sus hermanos? No. Era porque era así.
 
 De mi diario: «Dreistetten-Viena. Domingo, 31 de diciembre de 1989. Durante el desayuno, Víctor Raposo Sonnenfeld me lanza la idea de vender aluminio en Polonia y ganarme hasta un 5 por ciento en las operaciones».
 
