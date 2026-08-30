@@ -3,7 +3,7 @@ title: "Víctor Raposo Sonnenfeld"
 description: "Llegó a Viena hacia 1975 y encontró trabajo al día siguiente de instalarse. Homenaje a un amigo de la Residencia de Estudiantes Birkbrunn, fallecido en 2002 a los 52 años."
 pubDate: 2026-08-29
 author: "José Manuel Grau Navarro"
-tags: ["Opus Dei", "Victor Raposo Sonnenfeld", "Ricardo Estarriol", "Viena", "Austria", "Birkbrunn", "Ramón Herrando Prat de la Riba"]
+tags: ["Opus Dei", "Victor Raposo Sonnenfeld", "Ricardo Estarriol", "Viena", "Austria", "Birkbrunn", "Ramón Herrando Prat de la Riba", "Memorias"]
 heroImage: "/assets/images/postal-victor-raposo-sonnenfeld.webp"
 ---
 
