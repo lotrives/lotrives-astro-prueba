@@ -84,8 +84,8 @@ De mi diario: «Dreistetten-Viena. Domingo, 31 de diciembre de 1989. Durante el 
 *Un abrazo, Bernhard»*.
 
 
-[^1]: Como debajo explica Bernhard Weber, no era Teich, empresa para la que trabajó más adelante, sino Elsner Handelsgesellschaft, una filial del grupo Raiffeisen. Pero cambiando ese nombre, el hecho es cierto y real.
+[^1]: Como explica Bernhard Weber y reproduzco en la actualización, al final, no era Teich, empresa para la que trabajó más adelante, sino Elsner Handelsgesellschaft, una filial del grupo Raiffeisen. Pero cambiando ese nombre, el hecho es cierto y real.
 
-[^2]: Hay pequeñas imprecisiones aquí, que también corrige debajo Bernhard Weber. 
+[^2]: Hay pequeñas imprecisiones aquí, que también corrige Bernhard Weber. 
 
-[^3]: *Sonnenkind*: literalmente, 'hijo del sol', para significar a una persona 'alegre', 'optimista', 'llena de vitalidad', 'cálida'. Sonnenfeld, el apellido alemán de Víctor, se podría traducir por 'campo del sol' o 'campo soleado' en español.
+[^3]: *Sonnenkind*: literalmente, 'hijo del sol', para significar a una persona 'alegre', 'optimista', 'llena de vitalidad', 'cálida'. *Sonnenfeld*, el apellido alemán de Víctor, se podría traducir al español por 'campo de sol', 'campo del sol' o 'campo soleado'.
