@@ -47,13 +47,17 @@ Coincidí con Víctor también en algún [curso anual](https://lotrives.com/2026
 
 De mi diario: «Dreistetten-Viena. Domingo, 31 de diciembre de 1989. Durante el desayuno, Víctor Raposo Sonnenfeld me lanza la idea de vender aluminio en Polonia y ganarme hasta un 5 por ciento en las operaciones».
 
-## Actualización del 29 de agosto de 20026
+---
 
-Mi amigo **Roberto Da Sois** me escribe por WhatsApp hablándome de la fábrica de chocolate del abuelo de Víctor,  donde, dice Roberto, Víctor comió más chocolate del debido, y de su preferencia por un queso llamado Picotta, que es como el Arias tipo Burgos español. Pero sobre todo subraya que aquel tiempo fue para él también uno de los mejores en su vida y que con frecuencia, en pleno invierno, iba a tomar helado con Víctor.
+<h3 id="bibliografía" style="display:none">Bibliografía</h3>
 
-## Actualización del 6 de septiembre de 2026
+### Actualización del 29 de agosto de 20026
 
-**Bernhard Weber**, gran amigo austriaco que ya he mencionado en otras ocasiones en Lotrives, me envía hoy este WhatsApp:
+**Roberto Da Sois** me escribe por WhatsApp hablándome de la fábrica de chocolate del abuelo de Víctor,  donde, asegura Roberto, Víctor comió más chocolate del debido, y de su preferencia por un queso llamado [Picotta](https://www.produkt.at/produkt/picotta-landfrisch/), que es como el [Burgo de Arias](https://arias.es/productos/queso-fresco/burgo-de-arias-original-3x72-gramos/) español. Pero sobre todo subraya que aquel tiempo fue también para él uno de los mejores en su vida y que con frecuencia, en pleno invierno, iba a tomar helado con Víctor.
+
+### Actualización del 6 de septiembre de 2026
+
+**Bernhard Weber**, otro amigo austriaco que he mencionado en [otras ocasiones](https://lotrives.com/2026/05/20/enrique-herrando-prat-de-la-riba/), me envía hoy este WhatsApp:
 
 *«Querido Pepe: he leído con mucho gusto tu texto sobre Víctor. Se me han ocurrido algunas pequeñas correcciones y recuerdos que quizá te puedan servir:*
 
@@ -63,11 +67,11 @@ Mi amigo **Roberto Da Sois** me escribe por WhatsApp hablándome de la fábrica 
 
 *–La oficina de Elsner estaba cerca de Schwedenplatz, más bien por Morzinplatz/Maria am Gestade. De allí viene también la anécdota del ascensor: una vez quedó encerrado y Christof Tölg tuvo que sacarlo el domingo por la mañana, después de unas 24 horas.*
 
-*–Más que helado, yo lo recuerdo comiendo nueces. Y le encantaban las buenas naranjas. Se reía de mí porque yo decía «Orangen» y no «Orongen» a la vienesa.*
+*–Más que helado, yo lo recuerdo comiendo nueces. Y le encantaban las buenas naranjas. Se reía de mí porque yo decía «Orangen» y no «Orongen», a la vienesa.*
 
 *–En cuanto a su trabajo: no vendía simplemente aluminio, sino papel de aluminio de altísima calidad para embalajes, y además en mercados a los que casi nadie quería ir: Egipto, Siria, Argelia… Por su español y portugués también trabajaba con Brasil y Argentina.*
 
-*–En general dormía bastante mal. Cuando estaba de viaje y pasaba las noches en hoteles, le gustaba ver tenis o películas antiguas. Y cuando se quedaba despierto en la cama, muchas veces simplemente rezaba una y otra vez las [Preces de la Obra](https://opusdei.org/es-es/article/las-preces-del-opus-dei/).*
+*–[...].*
 
 *–Sobre su enfermedad: la llevó de una manera realmente heroica. Víctor tenía muchísimas ganas de vivir y disfrutaba mucho de la vida, pero al mismo tiempo estaba lleno de paz ante la muerte. Yo estaba con él cuando los médicos le comunicaron, en la práctica, que ya no había esperanza. Después hicimos juntos la oración, precisamente con algunos puntos de [Camino](https://escriva.org/es/camino/) sobre la muerte. Es un recuerdo que se me ha quedado muy grabado.*
 
@@ -77,7 +81,7 @@ Mi amigo **Roberto Da Sois** me escribe por WhatsApp hablándome de la fábrica 
 
 *Quizá alguna de estas cosas te sirva para completar o corregir el texto. En todo caso, me ha alegrado mucho leerlo y volver a recordar a Víctor.*
 
-*Un abrazo, Bernhard»*
+*Un abrazo, Bernhard»*.
 
 
 [^1]: Como debajo explica Bernhard Weber, no era Teich, empresa para la que trabajó más adelante, sino Elsner Handelsgesellschaft, una empresa del grupo Raiffeisen. Pero cambiando ese nombre, el hecho es cierto y real.
