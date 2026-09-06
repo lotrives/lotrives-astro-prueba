@@ -51,13 +51,13 @@ De mi diario: «Dreistetten-Viena. Domingo, 31 de diciembre de 1989. Durante el 
 
 <h3 id="bibliografía" style="display:none">Bibliografía</h3>
 
-### Actualización del 29 de agosto de 20026
+### Actualización del 29 de agosto de 2026
 
 **Roberto Da Sois** me escribe por WhatsApp hablándome de la fábrica de chocolate del abuelo de Víctor,  donde, asegura Roberto, Víctor comió más chocolate del debido, y de su preferencia por un queso llamado [Picotta](https://www.produkt.at/produkt/picotta-landfrisch/), que es como el [Burgo de Arias](https://arias.es/productos/queso-fresco/burgo-de-arias-original-3x72-gramos/) español. Pero sobre todo subraya que aquel tiempo fue también para él uno de los mejores en su vida y que con frecuencia, en pleno invierno, iba a tomar helado con Víctor.
 
 ### Actualización del 6 de septiembre de 2026
 
-**Bernhard Weber**, otro amigo austriaco que he mencionado en [otras ocasiones](https://lotrives.com/2026/05/20/enrique-herrando-prat-de-la-riba/), me envía hoy este WhatsApp:
+**Bernhard Weber**, otro gran amigo austriaco, me envía hoy este WhatsApp:
 
 *«Querido Pepe: he leído con mucho gusto tu texto sobre Víctor. Se me han ocurrido algunas pequeñas correcciones y recuerdos que quizá te puedan servir:*
 
@@ -84,8 +84,8 @@ De mi diario: «Dreistetten-Viena. Domingo, 31 de diciembre de 1989. Durante el 
 *Un abrazo, Bernhard»*.
 
 
-[^1]: Como debajo explica Bernhard Weber, no era Teich, empresa para la que trabajó más adelante, sino Elsner Handelsgesellschaft, una empresa del grupo Raiffeisen. Pero cambiando ese nombre, el hecho es cierto y real.
+[^1]: Como debajo explica Bernhard Weber, no era Teich, empresa para la que trabajó más adelante, sino Elsner Handelsgesellschaft, una filial del grupo Raiffeisen. Pero cambiando ese nombre, el hecho es cierto y real.
 
 [^2]: Hay pequeñas imprecisiones aquí, que también corrige debajo Bernhard Weber. 
 
-[^3]: *Sonnenkind*: literalmente, 'hijo del sol', para significar a una persona 'alegre', 'optimista', 'llena de vitalidad', 'cálida'.
+[^3]: *Sonnenkind*: literalmente, 'hijo del sol', para significar a una persona 'alegre', 'optimista', 'llena de vitalidad', 'cálida'. Sonnenfeld, el apellido alemán de Víctor, se podría traducir por 'campo del sol' o 'campo soleado' en español.
