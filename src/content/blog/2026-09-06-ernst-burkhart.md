@@ -1,13 +1,13 @@
 ---
 title: "Ernst Burkhart"
-description: "Semblanza de un sacerdote vienés del Opus De a quien Lotrives conoció en Birkbrunn en el verano de 1977: el violinista que no fue."
+description: "Semblanza de un sacerdote vienés del Opus Dei a quien Lotrives conoció en Birkbrunn en el verano de 1977: el violinista que no fue."
 pubDate: 2026-09-06
 author: "José Manuel Grau Navarro"
-tags: ["Ernst Burkhart", "Opus Dei", "Ricardo Estarrio", "Juan Bautista Torreló", "Memorias", "Viena", "Austria", "Paul Blecha", "Birkbrunn", "Klaus Küng"]
+tags: ["Ernst Burkhart", "Opus Dei", "Ricardo Estarriol", "Juan Bautista Torelló", "Memorias", "Viena", "Austria", "Paul Blecha", "Birkbrunn", "Klaus Küng"]
 heroImage: "/assets/images/birkbrunn-fachada-2010.webp"
 ---
 
-<p class="entradilla">Semblanza de un sacerdote vienés del Opus De a quien Lotrives conoció en Birkbrunn en el verano de 1977: el violinista que no fue.</p>
+<p class="entradilla">Semblanza de un sacerdote vienés del Opus Dei a quien Lotrives conoció en Birkbrunn en el verano de 1977: el violinista que no fue.</p>
 
 ![Fachada de la Residencia de Estudiantes Birkbrunn al anochecer, con una ventana iluminada en el centro y un árbol en primer término](/assets/images/birkbrunn-fachada-2010.webp)
 
