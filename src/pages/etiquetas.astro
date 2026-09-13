@@ -103,7 +103,7 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 					<p>Todavía no hay temas disponibles.</p>
 				) : (
 					<>
-						<div id="toc" class="nav-letras">
+						<div id="nav-letras" class="nav-letras">
 							{letrasConTags.map((letra) => (
 								<a href={`#letra-${slugify(letra)}`}>{letra}</a>
 							))}
@@ -114,8 +114,7 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 							return (
 								<>
 									<div class="letra-header">
-										<h2 id={`letra-${slugify(letra)}`}><a class="heading-anchor" aria-label="Copiar enlace" href={`#letra-${slugify(letra)}`}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>{letra}</h2>
-										<a href="#toc">↑</a>
+										<h2 id={`letra-${slugify(letra)}`}><a class="heading-anchor" aria-label="Copiar enlace" href={`#letra-${slugify(letra)}`}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>{letra} <a href="#nav-letras">↑</a></h2>
 									</div>
 
 									<div class="tags-columnas">
@@ -222,40 +221,6 @@ h1 {
 	font-size: 2.5rem;
 	line-height: 1;
 }
-.nav-letras {
-	display: grid;
-	grid-template-columns: repeat(9, auto);
-	gap: 0.4em;
-	margin-bottom: 2em;
-	width: fit-content;
-}
-.nav-letras a {
-	text-decoration: underline;
-	text-underline-offset: 3px;
-	padding: 0.2em 0.5em;
-	color: inherit;
-	font-size: 0.95em;
-}
-.nav-letras a:hover {
-	text-decoration: underline;
-}
-.letra-header {
-	display: flex;
-	align-items: baseline;
-	gap: 0.4em;
-	margin-top: 1.5em;
-}
-.letra-header h2 {
-	margin: 0;
-}
-.letra-header a {
-	font-size: 0.85em;
-	text-decoration: none;
-	color: #999;
-}
-.letra-header a:hover {
-	color: inherit;
-}
 .tags-columnas {
 	columns: 2;
 	column-gap: 2em;
@@ -280,16 +245,13 @@ h1 {
 }
 .post-fecha {
 	font-size: 0.75em;
-	color: #999;
+	color: rgb(var(--gray));
 	margin-left: 0.4em;
 	letter-spacing: 0.04em;
 }
 @media (max-width: 600px) {
 	.tags-columnas {
 		columns: 1;
-	}
-	.nav-letras {
-		grid-template-columns: repeat(6, auto);
 	}
 }
 </style>

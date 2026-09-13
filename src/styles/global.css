@@ -327,24 +327,40 @@ h3:hover > a[aria-hidden="true"] {
   margin-top: -0.3em;
 }
 
-/* Nav letras bibliografía */
+/* Nav letras: indice, bibliografia, abreviaturas */
 .nav-letras {
-display: grid;
-grid-template-columns: repeat(9, auto);
-gap: 0.4em;
-margin-bottom: 2em;
-width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+  gap: 0.4em;
+  margin-bottom: 2em;
+  width: fit-content;
 }
 .nav-letras a {
-text-decoration: underline;
-text-underline-offset: 3px;
-padding: 0.2em 0.5em;
-color: inherit;
-font-size: 0.95em;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  padding: 0.2em 0.5em;
+  color: var(--accent);
+  font-size: 0.95em;
 }
 .nav-letras a:hover {
-text-decoration: underline;
+  color: var(--accent-dark);
+  text-decoration: underline;
 }
+/* Flecha de volver arriba, en las tres paginas */
+.letra-header h2 a[href="#nav-letras"],
+h2 a[href="#nav-letras"],
+.letra-titulo a[href="#nav-letras"] {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: var(--accent);
+}
+.letra-header h2 a[href="#nav-letras"]:hover,
+h2 a[href="#nav-letras"]:hover,
+.letra-titulo a[href="#nav-letras"]:hover {
+  color: var(--accent-dark);
+}
+
+
 
 /* Anclas de heading */
 h2,
@@ -521,4 +537,27 @@ p.entradilla {
   margin-bottom: 1em;
   font-size: 0.9em;
   color: rgb(var(--gray));
+}
+
+
+/* Encabezado de letra: misma separacion en las tres paginas */
+.letra-header,
+.prose .nav-letras ~ h2,
+.nav-letras ~ h2,
+.prose .letra-titulo,
+.letra-titulo {
+  margin-top: 1.5em;
+}
+.letra-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4em;
+}
+.letra-header h2 {
+  margin: 0;
+}
+@media (max-width: 600px) {
+  .nav-letras {
+    grid-template-columns: repeat(6, auto);
+  }
 }
