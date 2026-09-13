@@ -44,7 +44,7 @@ const { title, description, image = '/assets/images/og-default.webp' } = Astro.p
 	rel="alternate"
 	type="application/rss+xml"
 	title={SITE_TITLE}
-	href="/rss.xml"
+	href={new URL('rss.xml', Astro.site)}
 />
 <meta name="generator" content={Astro.generator} />
 <script type="application/ld+json" set:html={JSON.stringify(jsonLdGlobal)} />
