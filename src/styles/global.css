@@ -360,6 +360,27 @@ h2 a[href="#nav-letras"]:hover,
   color: var(--accent-dark);
 }
 
+/* Encabezado de letra: misma separacion en las tres paginas.
+   El [id] da mas especificidad que .prose h2, asi que esta regla
+   no depende de su posicion en el archivo. */
+.letra-header,
+.nav-letras ~ h2[id] {
+  margin-top: 1.5em;
+}
+.letra-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4em;
+}
+.letra-header h2 {
+  margin: 0;
+}
+@media (max-width: 600px) {
+  .nav-letras {
+    grid-template-columns: repeat(6, auto);
+  }
+}
+
 
 
 /* Anclas de heading */
@@ -511,7 +532,7 @@ p.entradilla {
 	font-weight: 700;
 	color: rgb(var(--black));
 	line-height: 1.2;
-	margin: 0 0 0.5rem 0;
+	margin: 1.5em 0 0.5rem 0;
 }
 
 /* Pagina de Libros */
@@ -537,27 +558,4 @@ p.entradilla {
   margin-bottom: 1em;
   font-size: 0.9em;
   color: rgb(var(--gray));
-}
-
-
-/* Encabezado de letra: misma separacion en las tres paginas */
-.letra-header,
-.prose .nav-letras ~ h2,
-.nav-letras ~ h2,
-.prose .letra-titulo,
-.letra-titulo {
-  margin-top: 1.5em;
-}
-.letra-header {
-  display: flex;
-  align-items: baseline;
-  gap: 0.4em;
-}
-.letra-header h2 {
-  margin: 0;
-}
-@media (max-width: 600px) {
-  .nav-letras {
-    grid-template-columns: repeat(6, auto);
-  }
 }
