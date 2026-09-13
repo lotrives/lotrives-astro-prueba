@@ -70,7 +70,14 @@ for (const [tagName, { posts: tagPosts, notes: tagNotes }] of tagsMap.entries())
 		id: `tag-${slugify(tagName)}`,
 		posts: tagPosts.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()),
 		notes: tagNotes.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()),
-		pages: (tagsMap.get(tagName)?.pages ?? []),
+		pages: tagPages,
+        entradas: [
+          ...tagPages.map((pg) => ({ tipo: 'pagina', url: pageUrl2(pg), title: pg.data.title, fecha: null })),
+          ...[
+            ...tagPosts.map((po) => ({ tipo: 'post', url: postUrl(po), title: po.data.title, fecha: new Date(po.data.pubDate) })),
+            ...tagNotes.map((no) => ({ tipo: 'nota', url: noteUrl(no), title: no.data.title, fecha: new Date(no.data.pubDate) })),
+          ].sort((a, b) => b.fecha.valueOf() - a.fecha.valueOf()),
+        ],
 	});
 }
 
@@ -124,29 +131,18 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 										<div class="tag-posts">
 										<h4 id={tag.id}><a class="heading-anchor" aria-label="Copiar enlace" href={`#${tag.id}`}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>{tag.name}</h4>
 										<ul>
-										{tag.posts.map((post) => (
-										<li>
-										<a href={postUrl(post)}>{post.data.title}</a>
-										<span class="post-fecha">
-										<FormattedDate date={new Date(post.data.pubDate)} compact />
-										</span>
-										</li>
-										))}
-									{tag.notes.map((note) => (
-									<li>
-									<a href={noteUrl(note)}>{note.data.title}</a>
-									<span class="post-fecha">
-									<FormattedDate date={new Date(note.data.pubDate)} compact />
-									</span>
-									<span class="post-fecha"> · nota</span>
-									</li>
-									))}
-					{tag.pages?.map((page) => (
-					<li>
-					<a href={pageUrl2(page)}>{page.data.title}</a>
-					<span class="post-fecha"> · página</span>
-					</li>
-					))}
+										{tag.entradas.map((entrada) => (
+            <li>
+              <a href={entrada.url}>{entrada.title}</a>
+              {entrada.fecha && (
+                <span class="post-fecha">
+                  <FormattedDate date={entrada.fecha} compact />
+                </span>
+              )}
+              {entrada.tipo === 'nota' && <span class="post-fecha"> · nota</span>}
+              {entrada.tipo === 'pagina' && <span class="post-fecha"> · página</span>}
+            </li>
+          ))}
 										</ul>
 										</div>
 									))}
