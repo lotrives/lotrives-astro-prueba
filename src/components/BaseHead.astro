@@ -30,6 +30,10 @@ const jsonLdGlobal = {
 };
 
 const { title, description, image = '/assets/images/og-default.webp' } = Astro.props;
+
+// El nombre del sitio se anade aqui, en un unico lugar.
+// La portada llega ya como SITE_TITLE y no recibe sufijo.
+const tituloCompleto = title === SITE_TITLE ? SITE_TITLE : `${title} · ${SITE_TITLE}`;
 ---
 
 <!-- Global Metadata -->
@@ -55,21 +59,21 @@ const { title, description, image = '/assets/images/og-default.webp' } = Astro.p
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Primary Meta Tags -->
-<title>{title}</title>
-<meta name="title" content={title} />
+<title>{tituloCompleto}</title>
+<meta name="title" content={tituloCompleto} />
 <meta name="description" content={description} />
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content={Astro.url} />
-<meta property="og:title" content={title} />
+<meta property="og:title" content={tituloCompleto} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={new URL(image, Astro.site)} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
-<meta property="twitter:title" content={title} />
+<meta property="twitter:title" content={tituloCompleto} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.site)} />
 

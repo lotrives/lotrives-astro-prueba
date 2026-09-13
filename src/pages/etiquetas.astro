@@ -5,7 +5,6 @@ import Header from '../components/Header.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Footer from '../components/Footer.astro';
 import FloatingTOC from '../components/FloatingTOC.astro';
-import { SITE_TITLE } from '../consts';
 
 const posts = await getCollection('blog');
 const notes = await getCollection('notes');
@@ -91,7 +90,7 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
 <!doctype html>
 <html lang="es">
 	<head>
-		<BaseHead title={`Índice · ${SITE_TITLE}`} description="Índice de temas de Lotrives." />
+		<BaseHead title="Índice" description="Índice de temas de Lotrives." />
 	</head>
 	<body>
 		<Header />
