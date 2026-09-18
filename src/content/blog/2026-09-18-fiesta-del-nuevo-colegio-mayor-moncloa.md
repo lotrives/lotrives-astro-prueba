@@ -24,17 +24,17 @@ Veo a los universitarios trajeados, con la corbata bien anudada. Me parece que y
 
 En el oratorio, observo a los jóvenes yendo a comulgar. Algo bastante insólito para los tiempos que corren. Y también en octubre de 1975.
 
-Hay otra imagen en la que los nuevos visten monos integrales de protección de color gris verdoso. Juegan al *[paintball](https://es.wikipedia.org/w/index.php?title=Paintball&oldid=171546480)* (bolas de pintura). 
+Hay una imagen en la que los nuevos visten monos integrales de protección de color gris verdoso. Juegan al *[paintball](https://es.wikipedia.org/w/index.php?title=Paintball&oldid=171546480)* (bolas de pintura). 
 
 En otra, detecto luces y ambiente de fiesta en el polideportivo, junto al frontón.
 
 ## El frontón y la piscina
 
-En mi época, [Luis Manuel Calleja](https://www.ieem.edu.uy/noticias/in-memoriam-luis-manuel-calleja/374), Luisma Calleja, un residente de los mayores, designó para los nuevos, en ese mismo escenario donde jugábamos al fútbol o al baloncesto, el asalto al río Brahmaputra. No sé por qué eligió un caudal de agua de Asia. Podría haber sido el asalto al río Danubio o a cualquier otro. ¿Quizás le gustaban los nombres extraños? 
+En mi época, [Luis Manuel Calleja](https://www.ieem.edu.uy/noticias/in-memoriam-luis-manuel-calleja/374), Luisma Calleja, un residente de los mayores, diseñó para los nuevos, en ese mismo escenario donde jugábamos al fútbol o al baloncesto, el asalto al río Brahmaputra. No sé por qué eligió un caudal de agua de Asia. Podría haber sido el asalto al río Danubio o a cualquier otro. Pero le gustaban los nombres extraños. 
 
-La diversión consistía en que los nuevos teníamos que ir al Rastro de Madrid, comprar ropa militar y disfrazarnos con ella. En la fecha convenida, un sábado por la tarde, comandados por Calleja, tras unas maniobras en las escaleras laterales de la pared del frontón, bajábamos a la pista deportiva y caíamos a la piscina o nos tiraban durante el intento de cruzarla, con la ayuda de un andamiaje volante de cuerdas. Hacía bastante frío en aquel octubre de 1975. Era mediados o finales de mes y más de uno acabó resfriado aquella tarde-noche. En este artículo de Carmelo Herranz aparece Luisma Calleja [lanzándose a la piscina](https://cmmoncloa.org/el-colegial-luisma-calleja/) del Colegio Mayor Moncloa.
+La diversión consistía en que los nuevos teníamos que ir al Rastro de Madrid, comprar ropa militar y disfrazarnos con ella. En la fecha convenida, un sábado por la tarde, comandados por Calleja, tras unas maniobras en las escaleras laterales de la pared del frontón, bajamos a la pista deportiva y caímos a la piscina, o mejor, nos tiraron los viejos residentes, durante el intento de cruzarla con la ayuda de un andamiaje volante de cuerdas. Hacía bastante frío en aquella tarde-noche de octubre de 1975. Era mediados o finales de mes y más de uno acabó resfriado. En este artículo de Carmelo Herranz aparece Luisma Calleja [lanzándose a la piscina](https://cmmoncloa.org/el-colegial-luisma-calleja/) del Colegio Mayor Moncloa.
 
-Una vez bautizados en el Brahmaputra, ya escalábamos al nivel de casi residentes de pleno derecho. Nos quedaba aprobar el examen del nuevo, que se celebraba al día siguiente, un domingo por la mañana, en el salón de actos de Moncloa, y con Luisma Calleja, Carmelo Herranz, Willy Gefaell Chamochín (Guillermo Gefaell Chamochín) y Pedrilio (Pedro Emilio Martínez Alfaro) como principales examinadores. 
+Una vez bautizados en el Brahmaputra, ya escalábamos al nivel de casi residentes de pleno derecho. Nos quedaba aprobar el examen del nuevo, que se celebraba al día siguiente, un domingo por la mañana, en el salón de actos de Moncloa, con Luisma Calleja, Carmelo Herranz, Willy Gefaell Chamochín (Guillermo Gefaell Chamochín) y Pedrilio (Pedro Emilio Martínez Alfaro) como principales examinadores. 
 
 En la prueba, había que hablar en público y presentarse. Se producían escenas como esta:
 
@@ -42,17 +42,17 @@ En la prueba, había que hablar en público y presentarse. Se producían escenas
 —José García García.  
 —[Luisma Calleja] José García, ¿y qué más?  
 —García García —contestaba temeroso.  
-—[Luisma Calleja] García y ¿qué más?, le pregunto —le miraba con mirada feroz Calleja—. Va a suspender.  
-—Mi segundo apellido es igual que el primero. García García.  
-—[Luisma Calleja] Como no tiene segundo apellido y repite el primero, le llamaremos Pepe García Nada.
+—[Luisma Calleja] García y ¿qué más?, le pregunto —Calleja le miraba con mirada feroz—. Va a suspender.  
+—Mi segundo apellido es igual que el primero. García García —se atrevía a responder tras un largo silencio de confusión.  
+—[Luisma Calleja] Como no tiene segundo apellido y repite el primero, le llamaremos Pepe García Nada. A partir de ahora será usted Pepe García Nada.
 
 ## Un ser anormal
 
-En una foto más del *finde del nuevo* 2026, a las que me refería antes, aparece un grupo de jóvenes haciendo palmas o como empezando a bailar, en la sala de estar de Moncloa, frente a los magníficos cuadros de paisajes urbanos de [Fernando Delapuente](https://es.wikipedia.org/w/index.php?title=Fernando_Delapuente&oldid=174093517). Están en la tertulia tras el almuerzo, aproximadamente serán las 15:45.
+En una foto más del *finde del nuevo* 2026, a las que me refería antes, aparece un grupo de jóvenes en la sala de estar de Moncloa, frente a los magníficos cuadros de paisajes urbanos de [Fernando Delapuente](https://es.wikipedia.org/w/index.php?title=Fernando_Delapuente&oldid=174093517). Están en la tertulia tras el almuerzo, aproximadamente serán las 15:45.
 
-En esa y parecidas ocasiones, en la tertulia tras la comida, Luisma Calleja, con Carmelo Herranz, en el curso 1975-1976, interpretaban una versión de la canción *[Sixteen Tons](https://youtu.be/BSvORvIjZiU?si=EHS383x10uEuScMN)* (1947), de Merle Travis, en la interpretación de Tennessee Ernie Ford (1955).
+En esa y parecidas ocasiones, en la sobremesa tras la comida, Luisma Calleja, con Carmelo Herranz, en el curso 1975-1976, interpretaban una versión de la canción *[Sixteen Tons](https://youtu.be/BSvORvIjZiU?si=EHS383x10uEuScMN)* (1947), de Merle Travis, en la interpretación de Tennessee Ernie Ford (1955).
 
-Luisma Calleja se camuflaba de jorobado. Se desplazaba todo el tiempo mirando al suelo. Se movía por la sala de estar con una soltura asombrosa. Carmelo tocaba la guitarra y cantaba. En los momentos culminantes de la canción, resonaba este verso: 
+Luisma Calleja se camuflaba de jorobado. Se desplazaba todo el tiempo mirando al suelo. Se movía por la sala de estar con una soltura asombrosa. Carmelo tocaba la guitarra y cantaba. En los momentos culminantes de la melodía, resonaba este verso: 
 
 >«Pero al oíiirrrr, Radio Populaaaaar, yo me convierto en un ser anormal».
 
@@ -62,11 +62,11 @@ Sustituía así el [estribillo original](https://www.shazam.com/song/1443081331/
 
 ## Café, copa y puro
 
-En la última imagen de Facebook que comento, destaca un joven tocando el piano, en otra zona de la sala de estar, delante de la biblioteca, junto a aquellas estanterías donde alguna vez me pedí prestados libros de [Miguel Delibes](https://lotrives.com/2026/07/04/aguantar-matrimonio-cinco-horas-mario/), aconsejado por [Miguel Ángel Garrido Gallardo](https://lotrives.com/etiquetas/#tag-miguel-angel-garrido-gallardo). 
+En la última imagen de Facebook que comento, destaca un joven al piano, en otra zona de la sala de estar, delante de la biblioteca, aquella de donde alguna vez pedí prestados libros de [Miguel Delibes](https://lotrives.com/2026/07/04/aguantar-matrimonio-cinco-horas-mario/), aconsejado por [Miguel Ángel Garrido Gallardo](https://lotrives.com/etiquetas/#tag-miguel-angel-garrido-gallardo). 
 
 En 2026, todos escuchan atentos al pianista. Los nuevos de ahora parecen más sensibles y delicados que nosotros entonces.
 
-En 1975-1976, la sala de estar del Colegio Mayor Moncloa rebosaba humo. Casi todos fumaban. Las tazas de café y las copas de coñac cubrían las mesas. Café, copa y puro era lo normal en la España de aquellos años en esas ocasiones, grandes y no tan grandes. Con coñac, en general, no se estaba para piano. Se necesitaba más bullicio. Podía conseguirse cantando la tradicional habanera *[La bella Lola](https://youtu.be/JrDQgstUe84?si=_MSGo5Ai58Pr1buq)* o este popurrí que todos sabíamos de memoria. La letra parece provenir del [Cancionero de Bezas](https://bezas.es/cancionero-1/), con mutaciones considerables monclovitas: 
+En 1975-1976, la sala de estar del Colegio Mayor Moncloa rebosaba humo. Casi todos fumaban. Las tazas de café y las copas de coñac cubrían las mesas. Café, copa y puro era lo normal en la España de aquellos años en esas ocasiones, grandes y no tan grandes. Con coñac, en general, no se estaba para piano. Se necesitaba más bullicio. Podía conseguirse cantando la tradicional habanera *[La bella Lola](https://youtu.be/JrDQgstUe84?si=_MSGo5Ai58Pr1buq)* o este popurrí que todos terminamos sabiendo de memoria. Yo aún lo recuerdo y lo reproduzco debajo. He investigado y la letra parece provenir del [Cancionero de Bezas](https://bezas.es/cancionero-1/), con mutaciones considerables monclovitas: 
 
 >Ya se van los pastores  
 >A la Extremadura (bis).  
@@ -158,4 +158,6 @@ En 1975-1976, la sala de estar del Colegio Mayor Moncloa rebosaba humo. Casi tod
 
 ([Gloria Lasso. Eso es el amor](https://youtu.be/5PaHK1MUwqk?si=NDkd8G1-dKMYM5_H))
 
-Después, a recoger las mesas, limpiar los ceniceros de colillas, y muchos, quizás la mayoría, a la sala de estudio, a estudiar.
+¿Es eso el amor?, me pregunto en septiembre de 2026.
+
+Después, a recoger las mesas, limpiar los ceniceros de colillas, y muchos, quizás la mayoría, a la sala de estudio, a estudiar. No había tiempo que perder.
