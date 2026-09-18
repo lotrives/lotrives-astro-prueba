@@ -3,7 +3,7 @@ title: "Joaquín Pérez Navarro, ganador del concurso «Cesta y puntos»"
 description: "Un caso de deseo mimético"
 pubDate: 2026-02-14
 updatedDate: 2026-06-14
-tags: ["Joaquín Pérez Navarro", "Cesta y puntos", "Deseo mimético", "René Girard", "Colegio Mayor Pío XII", "Colegio Santo Domingo", "Bigastro", "Memorias", "Juan Antonio Galán Gamero", "Luisma Calleja", "Francisco Galera", "Léon Bloy", "Sira"]
+tags: ["Joaquín Pérez Navarro", "Cesta y puntos", "Deseo mimético", "René Girard", "Colegio Mayor Pío XII", "Colegio Santo Domingo", "Bigastro", "Memorias", "Juan Antonio Galán Gamero", "Luis Manuel Calleja", "Francisco Galera", "Léon Bloy", "Sira"]
 heroImage: "/assets/images/perez-navarro-1.webp"
 canonical: "https://lotrives.substack.com/p/joaquin-perez-navarro-cesta-puntos-mimesis"
 author: "José Manuel Grau Navarro"
@@ -37,7 +37,7 @@ Siendo Joaquín universitario, cuando viajaba a Bigastro, de forma cada vez más
 
 [Cuando empecé](https://lotrives.com/2025/11/20/20n-decisiones-que-cambian-la-vida/) el Curso de Orientación Universitaria (COU), 1975-76, y para poder estudiar la carrera en Madrid, mi primo Joaquín, ya profesor en la Complutense, que vivía con su mujer, **Sira**, en un piso de la calle María Auxiliadora de Madrid, me buscó plaza en su antiguo Colegio Mayor Pío XII, pero no admitían a chicos de COU y fui a parar al [Colegio Mayor Moncloa](https://lotrives.com/etiquetas/#tag-colegio-mayor-moncloa), que él validó con la frase: «Es del [Opus](https://lotrives.com/etiquetas/#tag-opus-dei) pero no pasa nada, está bien». Joaquín me matriculó de COU en el Instituto Cardenal Cisneros de Madrid y evitó así un viaje mío de Bigastro a la capital de España, siempre largo, costoso y duro, por los trenes o los autobuses de la época.
 
-En el Colegio Mayor Moncloa, preguntaba regularmente a dos amigos estudiantes de Matemáticas si mantenían algún contacto con mi primo. Uno era **Juan Antonio Galán Gamero**, subdirector, a quien llamábamos (y yo todavía llamo) **Yoni**, y a quien otro colegial, **Luisma Calleja**, describía como «el artista de más <em>peso</em> —en un doble sentido— del festival», de los festivales que se celebraban en el Colegio Mayor Moncloa por la Inmaculada y por San José. El otro estudiante de Matemáticas en el Colegio Mayor Moncloa era **Francisco Galera**, un auténtico prodigio de los números, quizás el residente más genio de aquella generación.
+En el Colegio Mayor Moncloa, preguntaba regularmente a dos amigos estudiantes de Matemáticas si mantenían algún contacto con mi primo. Uno era **Juan Antonio Galán Gamero**, subdirector, a quien llamábamos (y yo todavía llamo) **Yoni**, y a quien otro colegial, **Luisma Calleja** (Luis Manuel Calleja), describía como «el artista de más <em>peso</em> —en un doble sentido— del festival», de los festivales que se celebraban en el Colegio Mayor Moncloa por la Inmaculada y por San José. El otro estudiante de Matemáticas en el Colegio Mayor Moncloa era **Francisco Galera**, un auténtico prodigio de los números, quizás el residente más genio de aquella generación.
 
 En una ocasión, en el curso 1976-77, siendo yo estudiante de primero de Físicas, una profesora auxiliar de Cálculo, una profesora no numeraria se decía entonces, me preguntó si era primo de Joaquín Pérez Navarro. ¡Qué alegría me dio! En ese primero de Físicas estaba sacando tan buenas notas como él en su primero de Matemáticas y quizás por eso descubrió el parentesco: **Grau Navarro** frente a **Pérez Navarro**, primos por parte de madre.
 
