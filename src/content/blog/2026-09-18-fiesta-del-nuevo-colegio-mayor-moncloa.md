@@ -3,7 +3,7 @@ title: "La Fiesta del Nuevo"
 description: "Del asalto al río Brahmaputra al examen del nuevo, y de la bella Lola al café, copa y puro: el Colegio Mayor Moncloa de 1975 visto desde 2026."
 pubDate: 2026-09-18
 author: "José Manuel Grau Navarro"
-tags: ["Colegio Mayor Moncloa", "Luis Manuel Calleja", "Pedro Emilio Martínez Alfaro", "Carmelo Herranz", "Guillermo Gefaell Chamochín", "Memorias", "Miguel Ángel Garrido Gallardo", "Fernando Delapuente"]
+tags: ["Colegio Mayor Moncloa", "Luis Manuel Calleja", "Pedro Emilio Martínez Alfaro", "Carmelo Herranz", "Guillermo Gefaell Chamochín", "Memorias", "Miguel Ángel Garrido Gallardo", "Fernando Delapuente", "Miguel Delibes"]
 heroImage: "/assets/images/colegio-mayor-moncloa.webp"
 ---
 
