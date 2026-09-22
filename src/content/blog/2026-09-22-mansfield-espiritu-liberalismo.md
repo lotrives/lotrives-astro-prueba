@@ -14,9 +14,9 @@ heroImage: "/assets/images/thomas-jefferson-peale-1791.webp"
 
 <p class="credito-imagen">Charles Willson Peale, <em>Retrato de Thomas Jefferson</em> (1791). Óleo sobre lienzo. Independence National Historical Park, Filadelfia. Dominio público. <a href="https://commons.wikimedia.org/w/index.php?title=File:Thomas_Jefferson_by_Peale_(cropped).jpg&oldid=1072612179" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
 
-He leído el libro *The spirit of liberalism*, de Harvey C. Mansfield, Jr., que detallo en la bibliografía, y encuentro unas cuantas ideas útiles en nuestro 2026, cuando los extremos políticos se tocan, sobre el [liberalismo](https://lotrives.com/etiquetas/#tag-liberalismo) y el feminismo. Las señalo a continuación, con glosa cuando me parece conveniente.
+He leído el libro *The spirit of liberalism*, de Harvey C. Mansfield, Jr., que detallo en la bibliografía, y encuentro unas cuantas ideas útiles en nuestro 2026, cuando los extremos políticos se tocan, sobre el [liberalismo](https://lotrives.com/etiquetas/#tag-liberalismo) y el feminismo.
 
-Antes, una aclaración. *The spirit of liberalism* es una colección de ensayos que defiende el liberalismo clásico de John Locke y Thomas Jefferson frente a la marea creciente de la [Nueva Izquierda](https://www.britannica.com/topic/New-Left) (Hancock, 2026), con Herbert Marcuse como referente. El libro recorre los cambios de significado del liberalismo moderno en los Estados Unidos. Arranca con Aristóteles, su ruptura en Hobbes y Locke, y llega a su transformación en populismo y progresismo en los siglos XIX y XX ([Foundation for Constitutional Government, 2015](https://contemporarythinkers.org/harvey-mansfield/introduction/)). En uno de los ensayos, «Cucumber Liberalism» (algo así como "Liberalismo impasible"), Mansfield se burla de la neutralidad insípida de John Rawls (Hancock, 2026). Cuando Mansfield habla de «liberales», no identifica el liberalismo con la izquierda: pide a quienes se llaman liberales que vuelvan a defender el liberalismo originario.
+Antes, una aclaración. *The spirit of liberalism* es una colección de ensayos que defiende el liberalismo clásico de John Locke y Thomas Jefferson frente a la marea creciente de la [Nueva Izquierda](https://www.britannica.com/topic/New-Left), con Herbert Marcuse como principal referente. El libro recorre el cambio de significado del liberalismo en los Estados Unidos. Arranca con Aristóteles, sigue con Hobbes y Locke y llega a su transformación en populismo y progresismo en los siglos XIX y XX. En uno de los ensayos, «Cucumber Liberalism» (algo así como "Liberalismo impasible"), Mansfield se rebela contra la neutralidad de John Rawls. Cuando Mansfield habla de «liberales», no identifica el liberalismo con la izquierda. Pide a quienes se llaman liberales que vuelvan a defender el liberalismo primero.
 
 
 ## Liberalismo
@@ -33,11 +33,11 @@ Dicho de otra manera: cuando Aristóteles constituye un régimen mixto que integ
 
 >«Esta es la tarea de Aristóteles al construir el régimen mixto: encontrar un criterio que haga visible la virtud invisible, de modo que los hombres puedan ver la belleza del alma. La virtud invisible es la virtud intelectual que la mayoría de los hombres, incluidos la mayoría de los gobernantes, no pueden reconocer ni apreciar» (Mansfield, 1978, p. 5). 
 
-De nuevo: superar los problemas por elevación, con el espíritu. 
+Se trata de superar los problemas por elevación, con el espíritu. 
 
 >«No propongo un retorno al esplendor moral de Aristóteles, ni a la arrogancia ejemplar de la aristocracia británica, sino a la sabiduría de aquel demócrata liberal, Thomas Jefferson, que habló francamente de la necesidad que tiene la democracia de aristócratas naturales —aunque, ciertamente, en una carta privada—. El éxito del régimen mixto de la democracia liberal depende del reconocimiento de que es un régimen mixto, y de que, aunque los liberales pueden *contribuir* a la democracia, no pueden *convertirse* en demócratas y no deberían intentarlo» (Mansfield, 1978, p. 15).
 
-El argumento, aquí, es el siguiente: el liberal debe ponerse al servicio de la democracia, pero no debe identificarse por completo con el principio democrático de igualdad hasta el punto de negar aquello que distingue específicamente al liberalismo: el reconocimiento de que entre las personas existen diferencias reales de capacidad, virtud, educación o excelencia.
+El argumento, aquí, es el siguiente: el liberal debe ponerse al servicio de la democracia, pero no debe identificarse por completo con el principio democrático de igualdad hasta el punto de negar aquello que distingue específicamente al liberalismo en su origen: el reconocimiento de que entre las personas existen diferencias reales de capacidad, virtud, educación o excelencia.
 
 Dicho de otra manera: la democracia liberal funciona, según Mansfield, porque combina igualdad y diferencia. Pero si los liberales convierten la igualdad en el único principio legítimo, dejan de aportar al régimen aquello que precisamente lo hace *liberal* y no simplemente *democrático*.
 
@@ -47,15 +47,15 @@ Dicho de otra manera: la democracia liberal funciona, según Mansfield, porque c
 
 >«[El feminismo] se basa en la opinión de que ningún sentimiento o actividad es esencialmente femenino; aquellos sentimientos y actividades que hasta ahora han sido considerados femeninos simplemente han sido impuestos a las mujeres. Hay un cuerpo femenino, pero no un yo femenino, porque el yo (como hemos visto) tiene el poder de superar la separación de los cuerpos, incluida la distinción sexual. El yo, de hecho, revelaría mejor su poder cuando se libera de la debilidad del cuerpo femenino —una debilidad que debe tener algún fundamento de hecho si toda la opresión hasta ahora ha sido masculina y no femenina—» (Mansfield, 1978, p. 25).
 
-El razonamiento feminista es este, según Mansfield en 1978: habría un cuerpo femenino, pero no un «yo» esencialmente femenino. Con otras palabras, una mujer tiene un cuerpo sexuado, pero sus deseos, capacidades, actividades, carácter o papel social no tienen por qué venir determinados por ese cuerpo.
+El razonamiento feminista es este, según Mansfield en 1978: habría un cuerpo femenino, pero no un «yo» esencialmente femenino. Con otras palabras, una mujer tiene un cuerpo sexuado, pero sus deseos, capacidades, actividades, carácter o papel social no tendrían por qué venir determinados por ese cuerpo.
 
 La frase «liberarse de la debilidad del cuerpo femenino» significa emancipar el yo de aquello que el cuerpo sexuado parece imponerle como límite o destino.
 
-El autor presenta una objeción provocadora: si se afirma que los hombres han podido dominar históricamente a las mujeres, debe existir alguna diferencia corporal real que haya hecho posible esa dominación. 
+Mansfield presenta una objeción provocadora: si se afirma que los hombres han podido dominar históricamente a las mujeres, debe existir alguna diferencia corporal real que haya hecho posible esa dominación. 
 
 >«¿No guarda lo unisex cierto parecido con el sexo masculino, tanto en su egoísmo como en su independencia? Los hombres maltratan a las mujeres cuando consideran a las mujeres “objetos sexuales”, en el sentido de medios para el placer de otro, pero los hombres alcanzan la ternura y la fidelidad de que son capaces cuando consideran a las mujeres objetos sexuales en el sentido de fines a cuya felicidad pueden consagrarse. Así, lo unisex ni siquiera es el sexo masculino en su mejor sentido. Es la expresión del poder sin objeto, no es apetito en absoluto, sino una ira generalizada en defensa de un cuerpo común imposible e inhumano» (Mansfield, 1978, p. 26).
 
-El ideal unisex no libera a la mujer: la asimila al varón en lo peor que tiene, su egoísmo e independencia. Lo que Mansfield echa en falta es el amor que ve en el otro un fin y no un medio.
+Para Mansfield, el ideal unisex no libera a la mujer: la asimila al varón en lo peor que tiene, su egoísmo e independencia. Borrar la diferencia sexual no eleva a la mujer: la rebaja a lo peor del varón.
 
 ### Bibliografía
 
