@@ -28,7 +28,7 @@ No citaba fuentes, pero se puede mencionar ahora, como respaldo documental, el a
 
 Este otro artículo de *Le Monde* (28 de febrero de 2020), de Anne Chemin, titulado [Les années 1970-1980, âge d’or de l’apologie de la pédophilie en France](https://www.lemonde.fr/idees/article/2020/02/28/les-annees-1970-1980-age-d-or-de-l-apologie-de-la-pedophilie_6031113_3232.html) (Los años 1970-1980, edad de oro de la apología de la pedofilia en Francia), se explica aquella deriva.
 
-¿De aquellos polvos, estos lodos? Sí, según algunos. No según otros. Oigamos de nuevo a Joseph Ratzinger:
+¿De aquellos polvos, estos lodos? Sí, según algunos. No, según otros. Oigamos de nuevo a Joseph Ratzinger:
 
 >«En varios seminarios [de Alemania] se formaron "clubes" homosexuales que actuaban más o menos abiertamente y que transformaron de forma clara el clima de los seminarios. En un seminario del sur de Alemania, los aspirantes al sacerdocio y los aspirantes al oficio laico de referente pastoral vivían juntos. Durante las comidas en común, los seminaristas se reunían con los referentes pastorales casados, acompañados en parte por sus esposas e hijos y, en algunos casos, por sus novias. El clima del seminario no ayudaba desde luego a la formación sacerdotal» (Benedicto XVI, 2023, pp. 205-206).
 
