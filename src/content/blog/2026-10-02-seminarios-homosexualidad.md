@@ -15,7 +15,7 @@ heroImage: "/assets/images/schiele-sitzendes-kind.webp"
 
 Antes que nada: quiero querer a todas las personas, sean homosexuales o heterosexuales. Pero a la vez apartarme de lo que considero pecados sexuales, sean homosexuales o heterosexuales. Me refiero a los actos, no a los deseos. Sentir no es consentir. Lo moralmente bueno o malo son los actos fruto de una libre elección de la voluntad. A un homosexual le puede costar tanto dominar su impulso sexual como a un heterosexual. Pero ambos debieran dominarlo.
 
-Una vez expuesta esa declaración de principios, apunto un recuerdo. Hace ya bastantes años, mucho antes de la crisis de los abusos sexuales en la Iglesia, conversando con un amigo casado y agnóstico, me dijo que a los seminarios católicos iban sobre todo los homosexuales. Le pedí datos y fuentes con los que justificara su afirmación. No los tenía y la cosa quedó ahí.
+Una vez expuesta esa declaración de principios, apunto un recuerdo. Hace ya bastantes años, conversando con un amigo casado y agnóstico, opinó que a los seminarios católicos iban sobre todo los homosexuales. Le pedí datos y fuentes con los que justificara su afirmación. No los tenía y la cosa quedó ahí.
 
 
 ## La pedofilia y 1968
