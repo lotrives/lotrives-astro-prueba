@@ -1,21 +1,22 @@
 ---
 title: "Javier Sellés o Xavier Sellés Ferrando"
-description: "Una breve evocación"
+description: "Recuerdos de Javier o Xavier Sellés Ferrando (Barcelona, 28-11-1933/Viena, 12-1-2009), consejero de Cultura en la Embajada de España en Viena."
 pubDate: 2025-07-12
-updatedDate: 2026-06-07
 tags: ["Javier Sellés", "Memorias", "Viena", "Austria", "Opus Dei", "Enrique Herrando Prat de la Riba", "Klaus Küng"]
 heroImage: "/assets/images/selles-1.webp"
-canonical: "https://lotrives.substack.com/p/javier-selles-o-xavier-selles-ferrando"
+canonical: "https://lotrives.com/2025/07/12/javier-selles-o-xavier-selles-ferrando/"
 author: "José Manuel Grau Navarro"
+updatedDate: 2026-10-03
 ---
 
-<p class="entradilla">Una breve evocación</p>
+<p class="entradilla">Recuerdos de Javier o Xavier Sellés Ferrando (Barcelona, 28-11-1933 /Viena, 12-1-2009), consejero de Cultura en la Embajada de España en Viena.</p>
+
 
 ![Javier Sellés, el tercero por la derecha, y a su derecha, José Manuel Grau Navarro. Viena, 24/4/1989](/assets/images/selles-1.webp)
 
 <p class="pie-foto">Javier Sellés, el tercero por la derecha, y a su derecha, José Manuel Grau Navarro. Las señoras y el otro señor de la imagen eran miembros del jurado, a quienes JMGN no conocía. Viena, 24/4/1989. Foto: © Lotrives</p>
 
-**Javier Sellés**, Javier Sellés Ferrando (Xavier Selles o **Xavier Selles-Ferrando**, en Austria) era el agregado cultural de la Embajada de España en Viena, un hombre sumamente cordial, alegre y simpático, numerario del Opus Dei y uno de los primeros que comenzó el trabajo del Opus Dei en Austria. Falleció en Viena el 12 de enero de 2009, según he visto en una web que no me ofrece del todo confianza. Tampoco he podido adivinar aún su fecha de nacimiento. Me parece que cuando murió, [Ricardo Estarriol](https://lotrives.com/2024/02/09/ricardo-estarriol/) me envió su esquela. Pero no la hallo en mi archivo. En fin, una pena todo eso.
+**Javier Sellés**, Javier Sellés Ferrando (Xavier Selles o **Xavier Selles-Ferrando**, en Austria) era el agregado cultural de la Embajada de España en Viena, un hombre sumamente cordial, alegre y simpático, numerario del Opus Dei y uno de los primeros que comenzó el trabajo del Opus Dei en Austria. Falleció en Viena el 12 de enero de 2009, según he visto en una web que no me ofrece del todo confianza. Tampoco he podido adivinar aún su fecha de nacimiento. Me parece que cuando murió, [Ricardo Estarriol](https://lotrives.com/2024/02/09/ricardo-estarriol/) me envió su esquela. Pero no la hallo en mi archivo. En fin, una pena todo eso. [Ya está confirmado todo: véase la actualización, debajo, aquí mismo en este artículo].
 
 He aquí algunos de mis recuerdos de él. Los iré ampliando.
 
@@ -56,6 +57,63 @@ A continuación, en esa misma *Perlentaucher*, hay una reseña del libro de Sell
 El párrafo anterior descubre parte del mundo interior de Javier. Puedo añadir que disfrutaba con las victorias de la selección española de fútbol como he visto a pocas personas, era catalán de pura cepa y había cursado el bachillerato en el Colegio Alemán de Barcelona, por lo que lo hablaba especialmente bien. Congeniaba de maravilla con Ricardo Estarriol, tal vez por ser ambos catalanes listos de esos de inteligencia natural práctica. Ricardo sonreía cada vez que lo veía aparecer. Lo mismo que **Enrique Herrando Prat de la Riba**, economista y director regional del Opus Dei en Austria. **Klaus Küng**, muchos años el vicario del Opus Dei en Austria, obispo, me parece que lo apreciaba también de una forma muy especial, porque Sellés era capaz de poner paz en las situaciones más complejas.
 
 Más información: [1989. Parte de lo que sucedió](https://amzn.eu/d/hog1pv6)
+
+## Actualización del 3 de octubre de 2026
+
+He hallado hoy en mi archivo la carta que me envió Ricardo Estarriol con motivo del fallecimiento de Javier Sellés, que fue el 12 de enero de 2009, a la edad de 75 años. Tengo también su fecha de nacimiento exacta: [28 de noviembre de 1933](https://www.bestattungwien.at/bestattungskalender?name=Selles&cemetery=Alle+Friedhöfe&find=true&from=21.01.2009&till=22.01.2009&sort=Familienname&order=ascend).
+
+### Texto de la esquela en castellano:
+
+>«Yo soy la Resurrección y la Vida. El que cree en mí, aunque muera, vivirá  
+>(Joh 11, 25)
+>
+>Nuestro Señor, Dios de la vida y de la muerte, ha llamado a Su presencia al  
+>**Ilmo. Sr. Don Xavier Sellés Ferrando**  
+>**Ex Consejero de Cultura en la Embajada de España en Viena**
+>
+>Después de una prolongada enfermedad, que aceptó con serenidad y paciencia, Xavier falleció el lunes, 12 de enero de 2009, a la edad de 75 años, fortalecido por los Sacramentos de la Iglesia Católica y rodeado por el cariño de los suyos.
+>
+>Xavier nos ha ofrecido el modelo de una gozosa vida cristiana orientada según el ejemplo de san Josemaría Escrivá de Balaguer.
+>
+>Llevó a cabo en Austria durante cincuenta años y con gran competencia su trabajo profesional y se dedicó con esfuerzo a la cooperación cultural entre España y Austria. Al mismo tiempo fundó y sostuvo con generosidad diversas instituciones formativas.
+>
+>Rogamos un sufragio por nuestro querido difunto.
+>
+>El entierro tendrá lugar el jueves, 22 de enero a las 14.00 horas en el cementerio Ottakringer Friedhof, Wien XVI, Gallizinstraße 5.
+>
+>La Misa de Funeral se celebrará el mismo día a las 18.30 en la Peterskirche de Viena.
+>
+>Viena, enero de 2009
+>
+>Oriol Sellés Ferrando  
+>En nombre de sus hermanos Víctor y Glòria, así como de todos sus parientes [...]
+>
+>Ricardo Estarriol  
+>En nombre de todos sus amigos [...]
+>
+>De acuerdo con la voluntad del difunto se ruega renunciar a ofrendas florales y se sugiere apoyar el proyecto formativo “Birkbrunn neu [...]”».
+
+### Foto de la esquela, en castellano:
+
+![Esquela en español de Xavier Sellés Ferrando, Viena, enero de 2009](/assets/images/esquela-xavier-selles-es.webp)
+
+<p class="pie-foto">Esquela en español de Xavier Sellés Ferrando.</p>
+
+
+### Debajo, la misma esquela en alemán:
+
+![Esquela en alemán de Xavier Sellés Ferrando, Viena, enero de 2009](/assets/images/esquela-xavier-selles-de.webp)
+
+<p class="pie-foto">Esquela en alemán de Xavier Sellés Ferrando.</p>
+
+
+### Carta de Ricardo Estarriol:
+
+
+![Sobre en que llegó la esquela, remitido desde Viena](/assets/images/sobre-esquela-xavier-selles.webp)
+
+<p class="pie-foto">Sobre en el que me llegó la esquela. Carta de Ricardo Estarriol.</p>
+
 
 [^1]: Se celebraba en el Wirtschaftsförderungsinstitut der Wiener Handelskammer ('Instituto para la Promoción de la Economía de la Cámara de Comercio de Viena'), Großer Saal ('Salón de actos'). Währinger Gürtel 97. 1180 Viena. Austria. Véase el <a href="https://maps.app.goo.gl/eMW7Bdyr5bcteoML6" target="_blank" rel="noopener noreferrer">mapa</a>.
 
