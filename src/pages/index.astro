@@ -2,13 +2,16 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import FormattedDate from '../components/FormattedDate.astro';
+import TarjetaTexto from '../components/TarjetaTexto.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { getCollection } from 'astro:content';
 
 import { urlTexto, ordenarPublicados } from '../utils/url';
+import { etiquetasConPagina, pildorasDe } from '../utils/etiquetas';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const conPagina = await etiquetasConPagina();
 
 // Los 8 textos más recientes, sin distinguir tipos.
 const items = ordenarPublicados(await getCollection('blog'))
@@ -19,6 +22,7 @@ const items = ordenarPublicados(await getCollection('blog'))
     description: post.data.description,
     heroImage: post.data.heroImage,
     href: urlTexto(post),
+    etiquetas: pildorasDe(post.data.tags, conPagina),
   }));
 ---
 
@@ -52,63 +56,8 @@ const items = ordenarPublicados(await getCollection('blog'))
           font-size: 1.1em;
         }
       }
-      .post-list {
-        list-style: none;
-        padding: 0;
+      .lista-textos {
         margin: 0;
-      }
-      .post-list-item {
-        display: flex;
-        align-items: flex-start;
-        gap: 1.3rem;
-        padding: 1.1rem 0;
-        border-top: 1px solid rgb(var(--gray-light));
-      }
-      .post-list-item:first-child {
-        border-top: none;
-      }
-      .post-list-content {
-        flex: 1;
-        min-width: 0;
-      }
-      .thumb {
-        flex-shrink: 0;
-        width: 160px;
-        height: 90px;
-        object-fit: cover;
-        border-radius: 4px;
-        background: rgb(var(--gray-light));
-      }
-      .date {
-        display: block;
-        font-size: 0.8em;
-        color: rgb(var(--gray));
-        margin-bottom: 0.3em;
-      }
-      .post-list-title {
-        margin: 0;
-        font-size: 1em;
-        font-weight: 600;
-        line-height: 1.5;
-      }
-
-      .post-list a {
-        font-size: 1em;
-        font-weight: 600;
-        color: rgb(var(--black));
-        text-decoration: none;
-      }
-      .post-list a:hover {
-        color: var(--accent);
-        text-decoration: underline;
-        text-underline-offset: 3px;
-        text-decoration-color: var(--accent);
-      }
-      .excerpt {
-        margin: 0.4em 0 0;
-        font-size: 0.92em;
-        color: rgb(var(--gray));
-        line-height: 1.5;
       }
       .ver-todos {
         margin-top: 1.5rem;
@@ -123,16 +72,6 @@ const items = ordenarPublicados(await getCollection('blog'))
         text-underline-offset: 3px;
         text-decoration-color: var(--accent);
       }
-      @media (max-width: 560px) {
-        .post-list-item {
-          flex-direction: column;
-        }
-        .thumb {
-          width: 100%;
-          height: auto;
-          aspect-ratio: 16 / 9;
-        }
-      }
     </style>
   </head>
   <body>
@@ -143,24 +82,18 @@ const items = ordenarPublicados(await getCollection('blog'))
         <p class="intro-linea2">Una mirada al mundo que somos</p>
       </div>
 
-      <ul class="post-list">
+      <div class="lista-textos">
         {items.map((item) => (
-          <li class="post-list-item">
-            <div class="post-list-content">
-              <span class="date">
-                <FormattedDate date={item.date} compactOnMobile />
-              </span>
-              <h2 class="post-list-title"><a href={item.href}>{item.title}</a></h2>
-              {item.description && (
-                <p class="excerpt">{item.description}</p>
-              )}
-            </div>
-            {item.heroImage && (
-              <img class="thumb" src={item.heroImage} alt="" loading="lazy" width="160" height="90" />
-            )}
-          </li>
+          <TarjetaTexto
+            title={item.title}
+            description={item.description}
+            href={item.href}
+            date={item.date}
+            heroImage={item.heroImage}
+            etiquetas={item.etiquetas}
+          />
         ))}
-      </ul>
+      </div>
       <p class="ver-todos">
         <a href={`${base}/archivo/`}>Todos los textos →</a>
       </p>
