@@ -52,8 +52,15 @@ const jsonLd = {
 
 <html lang="es">
 	<head>
-		<BaseHead title={title} description={description} image={heroImage} />
-		<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+		<BaseHead
+			title={title}
+			description={description}
+			image={heroImage}
+			type="article"
+			publishedTime={new Date(pubDate)}
+			modifiedTime={updatedDate ? new Date(updatedDate) : undefined}
+			jsonLd={jsonLd}
+		/>
 		<style>
 	main {
 		width: calc(100% - 2em);

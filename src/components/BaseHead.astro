@@ -7,9 +7,29 @@ interface Props {
 	title: string;
 	description: string;
 	image?: string;
+	// Solo para textos (BlogPost): og:type article, fechas y JSON-LD propio.
+	type?: 'website' | 'article';
+	publishedTime?: Date;
+	modifiedTime?: Date;
+	jsonLd?: Record<string, unknown>;
 }
 
+const {
+	title,
+	description,
+	image = '/assets/images/og-default.webp',
+	type = 'website',
+	publishedTime,
+	modifiedTime,
+	jsonLd,
+} = Astro.props;
+
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const imageURL = new URL(image, Astro.site);
+
+// El nombre del sitio se anade aqui, en un unico lugar.
+// La portada llega ya como SITE_TITLE y no recibe sufijo.
+const tituloCompleto = title === SITE_TITLE ? SITE_TITLE : `${title} · ${SITE_TITLE}`;
 
 const jsonLdGlobal = {
 	"@context": "https://schema.org",
@@ -28,18 +48,38 @@ const jsonLdGlobal = {
 		}
 	]
 };
-
-const { title, description, image = '/assets/images/og-default.webp' } = Astro.props;
-
-// El nombre del sitio se anade aqui, en un unico lugar.
-// La portada llega ya como SITE_TITLE y no recibe sufijo.
-const tituloCompleto = title === SITE_TITLE ? SITE_TITLE : `${title} · ${SITE_TITLE}`;
 ---
 
-<!-- Global Metadata -->
+<!-- 1. Básicos -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>{tituloCompleto}</title>
+
+<!-- 2. SEO: descripción y canonical -->
+<meta name="title" content={tituloCompleto} />
+<meta name="description" content={description} />
 <meta name="language" content="es" />
+<link rel="canonical" href={canonicalURL} />
+
+<!-- 3. Open Graph -->
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={title} />
+<meta property="og:site_name" content={SITE_TITLE} />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={imageURL} />
+{publishedTime && <meta property="article:published_time" content={publishedTime.toISOString()} />}
+{modifiedTime && <meta property="article:modified_time" content={modifiedTime.toISOString()} />}
+
+<!-- 4. Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={canonicalURL} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageURL} />
+
+<!-- 5. Iconos, sitemap y feed -->
 <link rel="icon" href="/favicon.ico" sizes="32x32" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -51,34 +91,15 @@ const tituloCompleto = title === SITE_TITLE ? SITE_TITLE : `${title} · ${SITE_T
 	href={new URL('rss.xml', Astro.site)}
 />
 <meta name="generator" content={Astro.generator} />
-<script type="application/ld+json" set:html={JSON.stringify(jsonLdGlobal)} />
 
+<!-- 6. Datos estructurados (JSON-LD) -->
+<script type="application/ld+json" set:html={JSON.stringify(jsonLdGlobal)} />
+{jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+
+<!-- 7. Tipografías -->
 <Font cssVariable="--font-source-serif" preload={[{ weight: 400, style: "normal" }]} />
 
-<!-- Canonical URL -->
-<link rel="canonical" href={canonicalURL} />
-
-<!-- Primary Meta Tags -->
-<title>{tituloCompleto}</title>
-<meta name="title" content={tituloCompleto} />
-<meta name="description" content={description} />
-
-<!-- Open Graph -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content={Astro.url} />
-<meta property="og:title" content={title} />
-<meta property="og:site_name" content={SITE_TITLE} />
-<meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.site)} />
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image, Astro.site)} />
-
-<!-- Google Analytics -->
+<!-- 8. Analítica -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BT8CB5X306"></script>
 <script>
 	window.dataLayer = window.dataLayer || [];
