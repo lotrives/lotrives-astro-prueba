@@ -92,20 +92,19 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 	}
 	.pildora {
 		display: inline-block;
-		padding: 0.1em 0.75em;
+		padding: 0 0.85em;
 		border-radius: 999px;
-		background: rgb(var(--gray-light));
-		color: rgb(var(--black));
-		font-size: 0.72em;
-		letter-spacing: 0.04em;
+		background: rgba(var(--nota), 0.12);
+		color: rgb(var(--gray));
+		font-size: 0.63em;
+		letter-spacing: 0.05em;
 		text-transform: uppercase;
 		text-decoration: none;
 		line-height: 1.7;
-		transition: background 0.15s, color 0.15s;
+		transition: color 0.15s;
 	}
 	.pildora:hover {
-		background: var(--accent);
-		color: #fff;
+		color: var(--accent);
 		text-decoration: none;
 	}
 	.tarjeta-fecha {
