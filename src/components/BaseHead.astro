@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { Font } from 'astro:assets';
+import { ANCHO_MINIMO_GRANDE, anchoImagenLocal } from '../utils/imagen';
 
 interface Props {
 	title: string;
@@ -26,6 +27,11 @@ const {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const imageURL = new URL(image, Astro.site);
+
+// Vista previa grande en Google (Discover) solo si la imagen es local y mide 1200 px o más.
+// Las imágenes remotas o más pequeñas se quedan sin la etiqueta.
+const anchoImagen = anchoImagenLocal(image);
+const imagenGrande = anchoImagen !== null && anchoImagen >= ANCHO_MINIMO_GRANDE;
 
 // El nombre del sitio se anade aqui, en un unico lugar.
 // La portada llega ya como SITE_TITLE y no recibe sufijo.
@@ -58,6 +64,7 @@ const jsonLdGlobal = {
 <!-- 2. SEO: descripción y canonical -->
 <meta name="title" content={tituloCompleto} />
 <meta name="description" content={description} />
+{imagenGrande && <meta name="robots" content="max-image-preview:large" />}
 <meta name="language" content="es" />
 <link rel="canonical" href={canonicalURL} />
 

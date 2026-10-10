@@ -33,10 +33,14 @@ export function esFechado(entry: { id: string }): boolean {
 	return FECHADO.test(idLimpio(entry));
 }
 
+/** Quita los borradores (`draft: true`) de cualquier lista de entradas: textos o páginas. */
+export function sinBorradores<T extends { data: { draft?: boolean } }>(entradas: T[]): T[] {
+	return entradas.filter((e) => !e.data.draft);
+}
+
 /** Textos publicados (sin borradores), del más reciente al más antiguo. */
 export function ordenarPublicados<T extends { data: { draft?: boolean; pubDate: Date } }>(entradas: T[]): T[] {
-	return entradas
-		.filter((e) => !e.data.draft)
+	return sinBorradores(entradas)
 		.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
 }
 

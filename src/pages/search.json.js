@@ -1,5 +1,5 @@
 import { getCollection } from 'astro:content';
-import { urlTexto, ordenarPublicados } from '../utils/url';
+import { urlTexto, ordenarPublicados, sinBorradores } from '../utils/url';
 
 function stripMarkdown(value = '') {
 	return String(value)
@@ -42,7 +42,7 @@ export async function GET() {
 		};
 	});
 
-	const pagesData = pages.map((page) => ({
+	const pagesData = sinBorradores(pages).map((page) => ({
 		id: pageUrl(page),
 		title: page.data.title || '',
 		url: pageUrl(page),

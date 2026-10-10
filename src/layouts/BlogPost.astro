@@ -7,6 +7,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import FloatingTOC from '../components/FloatingTOC.astro';
 import PageScripts from '../components/PageScripts.astro';
+import { sinBorradores } from '../utils/url';
 
 type Props = CollectionEntry<'blog'>['data'] & {
 	prev?: { title: string; url: string } | null;
@@ -23,8 +24,8 @@ const slugify = (text: string) =>
 const truncate = (str: string, max: number) =>
 	str.length > max ? str.slice(0, max).trimEnd() + '…' : str;
 
-const _allPosts = await getCollection('blog');
-const _allPages = await getCollection('pages');
+const _allPosts = sinBorradores(await getCollection('blog'));
+const _allPages = sinBorradores(await getCollection('pages'));
 const _tagCount = new Map<string, number>();
 for (const items of [_allPosts, _allPages]) {
 	for (const item of items) {

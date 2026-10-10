@@ -5,10 +5,10 @@ import Header from '../components/Header.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Footer from '../components/Footer.astro';
 import FloatingTOC from '../components/FloatingTOC.astro';
-import { urlTexto } from '../utils/url';
+import { urlTexto, sinBorradores } from '../utils/url';
 
-const posts = await getCollection('blog');
-const pages = await getCollection('pages');
+const posts = sinBorradores(await getCollection('blog'));
+const pages = sinBorradores(await getCollection('pages'));
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const pageUrl2 = (page) => `${base}/${page.id.replace(/\.md$/, '')}/`;
