@@ -7,11 +7,10 @@ import FormattedDate from '../components/FormattedDate.astro';
 import FloatingTOC from '../components/FloatingTOC.astro';
 import PageScripts from '../components/PageScripts.astro';
 
-const posts = await getCollection('blog');
+import { urlTexto, ordenarPublicados } from '../utils/url';
 
-const sortedPosts = posts
-	.filter((post) => !post.data.draft)
-	.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
+// Todos los textos (antiguos artículos y notas) en una sola lista cronológica.
+const sortedPosts = ordenarPublicados(await getCollection('blog'));
 
 const postsByYear = sortedPosts.reduce((groups, post) => {
 	const year = new Date(post.data.pubDate).getFullYear();
@@ -22,9 +21,7 @@ const postsByYear = sortedPosts.reduce((groups, post) => {
 
 const years = Object.keys(postsByYear).sort((a, b) => Number(b) - Number(a));
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const postUrl = (post) =>
-	`${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/, '$1/$2/$3/$4')}/`;
+const postUrl = urlTexto;
 ---
 
 <!doctype html>
@@ -32,7 +29,7 @@ const postUrl = (post) =>
 	<head>
 		<BaseHead
 			title="Archivo"
-			description="Archivo cronológico de artículos publicados en Lotrives."
+			description="Archivo cronológico de todos los textos publicados en Lotrives."
 		/>
 	</head>
 	<body>

@@ -6,37 +6,20 @@ import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { getCollection } from 'astro:content';
 
+import { urlTexto, ordenarPublicados } from '../utils/url';
+
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/, '$1/$2/$3/$4')}/`;
-const noteSlug = (note) => note.id.replace(/\.md$/, '');
-const noteUrl = (note) => `${base}/notas/${noteSlug(note)}/`;
-
-const posts = (await getCollection('blog'))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 4)
+// Los 8 textos más recientes, sin distinguir tipos.
+const items = ordenarPublicados(await getCollection('blog'))
+  .slice(0, 8)
   .map((post) => ({
-    type: 'post',
-    date: post.data.pubDate,
+    date: new Date(post.data.pubDate),
     title: post.data.title,
     description: post.data.description,
     heroImage: post.data.heroImage,
-    href: postUrl(post),
+    href: urlTexto(post),
   }));
-
-const notes = (await getCollection('notes'))
-  .sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf())
-  .slice(0, 4)
-  .map((note) => ({
-    type: 'note',
-    date: new Date(note.data.pubDate),
-    title: note.data.title,
-    description: note.data.description,
-    heroImage: note.data.heroImage,
-    href: noteUrl(note),
-  }));
-
-const items = [...posts, ...notes].sort((a, b) => b.date.valueOf() - a.date.valueOf());
 ---
 
 <!doctype html>
@@ -95,15 +78,6 @@ const items = [...posts, ...notes].sort((a, b) => b.date.valueOf() - a.date.valu
         object-fit: cover;
         border-radius: 4px;
         background: rgb(var(--gray-light));
-      }
-      .tag-nota {
-        display: inline-block;
-        margin-right: 0.5em;
-        font-size: 0.78em;
-        font-weight: 700;
-        letter-spacing: 0.07em;
-        text-transform: uppercase;
-        color: rgb(var(--nota));
       }
       .date {
         display: block;
@@ -174,7 +148,6 @@ const items = [...posts, ...notes].sort((a, b) => b.date.valueOf() - a.date.valu
           <li class="post-list-item">
             <div class="post-list-content">
               <span class="date">
-                {item.type === 'note' && <span class="tag-nota">Nota</span>}
                 <FormattedDate date={item.date} compactOnMobile />
               </span>
               <h2 class="post-list-title"><a href={item.href}>{item.title}</a></h2>
@@ -189,9 +162,7 @@ const items = [...posts, ...notes].sort((a, b) => b.date.valueOf() - a.date.valu
         ))}
       </ul>
       <p class="ver-todos">
-        <a href={`${base}/archivo/`}>Todos los artículos →</a>
-        &nbsp;·&nbsp;
-        <a href={`${base}/notas/`}>Todas las notas →</a>
+        <a href={`${base}/archivo/`}>Todos los textos →</a>
       </p>
     </main>
     <Footer />
