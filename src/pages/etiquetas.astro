@@ -5,15 +5,14 @@ import Header from '../components/Header.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Footer from '../components/Footer.astro';
 import FloatingTOC from '../components/FloatingTOC.astro';
+import { urlTexto } from '../utils/url';
 
 const posts = await getCollection('blog');
-const notes = await getCollection('notes');
 const pages = await getCollection('pages');
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const pageUrl2 = (page) => `${base}/${page.id.replace(/\.md$/, '')}/`;
-const noteUrl = (note) => `${base}/notas/${note.id.replace(/\.md$/, '')}/`;
-const postUrl = (post) => `${base}/${post.id.replace(/\.md$/, '').replace(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/, '$1/$2/$3/$4')}/`;
+const postUrl = urlTexto;
 
 const slugify = (text) =>
 	text
@@ -41,14 +40,6 @@ function letraDeTag(tagName) {
 	return /[0-9]/.test(primera) ? '0-9' : primera;
 }
 
-for (const note of notes) {
-	const tags = note.data.tags ?? [];
-	for (const tag of tags) {
-		if (!tagsMap.has(tag)) tagsMap.set(tag, { posts: [], notes: [] });
-		tagsMap.get(tag).notes.push(note);
-	}
-}
-
 for (const page of pages) {
 	const tags = page.data.tags ?? [];
 	for (const tag of tags) {
@@ -74,7 +65,6 @@ for (const [tagName, { posts: tagPosts, notes: tagNotes }] of tagsMap.entries())
           ...tagPages.map((pg) => ({ tipo: 'pagina', url: pageUrl2(pg), title: pg.data.title, fecha: null })),
           ...[
             ...tagPosts.map((po) => ({ tipo: 'post', url: postUrl(po), title: po.data.title, fecha: new Date(po.data.pubDate) })),
-            ...tagNotes.map((no) => ({ tipo: 'nota', url: noteUrl(no), title: no.data.title, fecha: new Date(no.data.pubDate) })),
           ].sort((a, b) => b.fecha.valueOf() - a.fecha.valueOf()),
         ],
 	});
@@ -137,7 +127,6 @@ const letrasConTags = LETRAS.filter((l) => tagsPorLetra.has(l));
                   <FormattedDate date={entrada.fecha} compact />
                 </span>
               )}
-              {entrada.tipo === 'nota' && <span class="post-fecha"> · nota</span>}
               {entrada.tipo === 'pagina' && <span class="post-fecha"> · página</span>}
             </li>
           ))}

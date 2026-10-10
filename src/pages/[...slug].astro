@@ -1,35 +1,26 @@
 ---
 import { type CollectionEntry, getCollection, render } from 'astro:content';
 import BlogPost from '../layouts/BlogPost.astro';
+import { rutaTexto, urlTexto, ordenarPublicados, descripcionDe } from '../utils/url';
 
+// Todos los textos (antiguos artículos y notas) en una sola cronología.
+// La dirección sale del nombre del archivo: ver src/utils/url.ts.
 export async function getStaticPaths() {
-	const posts = await getCollection('blog');
-	const sorted = posts
-		.filter((p) => !p.data.draft)
-		.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
-
-	const postUrl = (p: CollectionEntry<'blog'>) => {
-		const pid = p.id.replace(/\.md$/, '');
-		const [y, m, d, ...r] = pid.split('-');
-		return `/${y}/${m}/${d}/${r.join('-')}/`;
-	};
+	const sorted = ordenarPublicados(await getCollection('blog'));
 
 	const truncate = (str: string, max: number) =>
 		str.length > max ? str.slice(0, max).trimEnd() + '…' : str;
 
 	return sorted.map((post, index) => {
-		const id = post.id.replace(/\.md$/, '');
-		const [year, month, day, ...rest] = id.split('-');
-
 		const newer = index > 0 ? sorted[index - 1] : null;
 		const older = index < sorted.length - 1 ? sorted[index + 1] : null;
 
 		return {
-			params: { slug: `${year}/${month}/${day}/${rest.join('-')}` },
+			params: { slug: rutaTexto(post) },
 			props: {
 				post,
-				prev: newer ? { title: truncate(newer.data.title, 70), url: postUrl(newer) } : null,
-				next: older ? { title: truncate(older.data.title, 70), url: postUrl(older) } : null,
+				prev: newer ? { title: truncate(newer.data.title, 70), url: urlTexto(newer) } : null,
+				next: older ? { title: truncate(older.data.title, 70), url: urlTexto(older) } : null,
 			},
 		};
 	});
@@ -45,6 +36,6 @@ const { post, prev, next } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<BlogPost {...post.data} prev={prev} next={next}>
+<BlogPost {...post.data} description={descripcionDe(post)} pubDate={new Date(post.data.pubDate)} prev={prev} next={next}>
 	<Content />
 </BlogPost>

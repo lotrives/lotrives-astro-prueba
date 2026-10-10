@@ -2,6 +2,7 @@ import { getCollection } from 'astro:content';
 import rss from '@astrojs/rss';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { marked } from 'marked';
+import { urlTexto, ordenarPublicados, descripcionDe } from '../utils/url';
 
 marked.use({ extensions: [
 	{
@@ -30,26 +31,21 @@ marked.use({ extensions: [
 	}
 ] });
 
+// Feed único con todos los textos (antiguos artículos y notas).
+// notas-feed.xml sirve exactamente lo mismo, para no dejar sin feed a quien lo tenía.
 export async function GET(context) {
-	const posts = await getCollection('blog');
+	const posts = ordenarPublicados(await getCollection('blog'));
 	return rss({
 		title: SITE_TITLE,
 		description: SITE_DESCRIPTION,
 		site: context.site,
-		items: posts
-			.filter((p) => !p.data.draft)
-			.sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
-			.map((post) => {
-				const pid = post.id.replace(/\.md$/, '');
-				const [y, m, d, ...r] = pid.split('-');
-				const link = `/${y}/${m}/${d}/${r.join('-')}/`;
-				return {
-					title: post.data.title,
-					pubDate: post.data.pubDate,
-					description: post.data.description,
-					content: marked(post.body),
-					link,
-				};
-			}),
+		items: posts.map((post) => ({
+			title: post.data.title,
+			pubDate: post.data.pubDate,
+			description: descripcionDe(post),
+			// Rutas locales («/assets/...») a absolutas, como hacía el feed de notas.
+			content: marked(post.body).replace(/(src|href)="\/(?!\/)/g, `$1="${new URL('/', context.site).href}`),
+			link: urlTexto(post),
+		})),
 	});
 }

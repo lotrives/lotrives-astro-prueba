@@ -24,10 +24,9 @@ const truncate = (str: string, max: number) =>
 	str.length > max ? str.slice(0, max).trimEnd() + '…' : str;
 
 const _allPosts = await getCollection('blog');
-const _allNotes = await getCollection('notes');
 const _allPages = await getCollection('pages');
 const _tagCount = new Map<string, number>();
-for (const items of [_allPosts, _allNotes, _allPages]) {
+for (const items of [_allPosts, _allPages]) {
 	for (const item of items) {
 		for (const t of (item.data.tags ?? [])) {
 			_tagCount.set(t, (_tagCount.get(t) ?? 0) + 1);

@@ -41,7 +41,7 @@ const rehypeTranslateFootnoteLabel = () => (tree) => {
 export default defineConfig({
 	site: SITE,
 	base: '/',
-	integrations: [mdx(), sitemap({ filter: (page) => !page.includes("/blog/") && !page.includes("/etiquetas-substack/") })],
+	integrations: [mdx(), sitemap({ filter: (page) => !page.includes("/blog/") && !page.includes("/etiquetas-substack/") && !page.endsWith("/notas/") })],
 	markdown: {
 		processor: unified({
 		rehypePlugins: [
