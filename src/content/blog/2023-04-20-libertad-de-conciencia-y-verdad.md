@@ -5,7 +5,6 @@ pubDate: 2023-04-20
 updatedDate: 2026-05-15
 tags: ["Joseph Ratzinger"]
 heroImage: "https://substackcdn.com/image/fetch/$s_!ihn3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef6b4527-7ffb-43d6-9d34-8bf1cc9ff93c_1021x580.png"
-canonical: "https://lotrives.substack.com/p/libertad-de-conciencia-y-verdad"
 author: "José Manuel Grau Navarro"
 ---
 

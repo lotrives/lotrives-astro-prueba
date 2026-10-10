@@ -1,7 +1,6 @@
 ---
 title: "Sobre los dividendos"
 description: "¿Cobrar dividendos o reinvertirlos? Para una cartera permanente, mejor reinvertirlos automáticamente."
-canonical_url: "https://lotrives.github.io/2025/12/02/dividendos-etf/"
 pubDate: 2025-12-02
 tags: ["Dividendos", "Volker Looman", "Cartera de valores", "Finanzas personales"]
 author: "José Manuel Grau Navarro"

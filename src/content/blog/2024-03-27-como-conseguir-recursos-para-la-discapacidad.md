@@ -4,7 +4,6 @@ description: "Reflexión sobre la quiebra de dos centros concertados para person
 pubDate: 2024-03-27
 tags: ["Madrid", "Discapacidad", "Autismo"]
 heroImage: "/assets/images/og-default.webp"
-canonical: "https://lotrives.substack.com/p/como-conseguir-recursos-para-la-discapacidad"
 updatedDate: 2026-05-21
 author: "José Manuel Grau Navarro"
 ---

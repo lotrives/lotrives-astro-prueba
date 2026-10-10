@@ -5,7 +5,6 @@ pubDate: 2025-10-04
 updatedDate: 2026-06-13
 tags: ["Opus Dei", "Birkbrunn", "Austria", "Memorias", "Javier Hernández-Pacheco", "Fernando Moreno Cea", "Colegio Mayor Moncloa", "Luis Manuel Calleja", "Carmelo Herranz", "Tomás Martínez de Anca", "Luis San Salvador", "Bigastro", "Joaquín Moya", "Hohewand", "Ricardo Estarriol", "Club Delphin", "Patrik Fiegl"]
 heroImage: "/assets/images/pacheco.webp"
-canonical: "https://lotrives.substack.com/p/javier-hernandez-pacheco"
 author: "José Manuel Grau Navarro"
 ---
 

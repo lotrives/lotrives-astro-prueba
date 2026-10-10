@@ -5,7 +5,6 @@ pubDate: 2025-09-20
 updatedDate: 2026-06-13
 tags: ["Anschluss", "Austria", "Adolf Hitler", "Heldenplatz"]
 heroImage: "/assets/images/anschluss-1.webp"
-canonical: "https://lotrives.substack.com/p/austria-1938-anexion-anschluss"
 author: "José Manuel Grau Navarro"
 ---
 

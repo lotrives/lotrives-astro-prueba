@@ -6,7 +6,6 @@ description: "Crónica de 1985 sobre la muestra de la Albertina dedicada a Durer
 tags: ["Alberto Durero", "Austria", "Viena", "Memorias"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg/1920px-Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg"
 updatedDate: 2026-06-26
-canonical: "https://www.abc.es/archivo/periodicos/abc-madrid-19850704-46.html"
 ---
 
 ![Liebre joven, acuarela de Alberto Durero, 1502, Museo Albertina de Viena](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg/960px-Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg)

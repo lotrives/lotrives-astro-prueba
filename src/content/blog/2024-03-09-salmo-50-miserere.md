@@ -5,7 +5,6 @@ pubDate: 2024-03-09
 updatedDate: 2026-05-21
 tags: ["Biblia", "Salmos", "David"]
 heroImage: "/assets/images/og-default.webp"
-canonical: "https://lotrives.substack.com/p/salmo-50-traduccion-notas-latin-espanol-vulgata"
 author: "José Manuel Grau Navarro"
 ---
 

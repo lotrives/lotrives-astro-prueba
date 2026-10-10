@@ -5,7 +5,6 @@ pubDate: 2024-03-10
 updatedDate: 2026-05-21
 tags: ["Joseph Ratzinger", "Karl Marx", "Adolf Hitler"]
 heroImage: "/assets/images/og-default.webp"
-canonical: "https://lotrives.substack.com/p/el-terrorismo-como-sustituto-de-dios"
 author: "José Manuel Grau Navarro"
 ---
 

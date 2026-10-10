@@ -5,7 +5,6 @@ pubDate: 2025-12-27
 updatedDate: 2026-06-14
 tags: ["Vocación", "Edith Stein", "Lorenzo de la Resurrección", "Opus Dei", "Caravaggio", "Ramón Herrando Prat de la Riba", "Los Rosales", "Erik Varden"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Caravaggio_—_The_Calling_of_Saint_Matthew.jpg/960px-Caravaggio_—_The_Calling_of_Saint_Matthew.jpg"
-canonical: "https://lotrives.substack.com/p/sobre-la-vocacion"
 author: "José Manuel Grau Navarro"
 ---
 

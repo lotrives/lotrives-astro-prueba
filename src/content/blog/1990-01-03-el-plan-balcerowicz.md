@@ -5,7 +5,6 @@ pubDate: 1990-01-03
 updatedDate: 2026-05-16
 tags: ["Polonia", "Comunismo", "Memorias"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/21._Internationales_Management-Gespräch-Leszek_Balcerowicz-HSGN_028-00876.jpg/960px-21._Internationales_Management-Gespräch-Leszek_Balcerowicz-HSGN_028-00876.jpg"
-canonical: "https://lotrives.substack.com/p/el-plan-balcerowicz"
 author: "José Manuel Grau Navarro"
 ---
 

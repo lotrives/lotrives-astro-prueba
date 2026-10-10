@@ -4,7 +4,6 @@ description: "Homenaje póstumo a Ricardo Estarriol, corresponsal de La Vanguard
 pubDate: 2024-02-09
 updatedDate: 2026-05-17
 tags: ["Ricardo Estarriol", "Austria", "La Vanguardia", "Birkbrunn", "Memorias", "Juan Bautista Torelló"]
-canonical: "https://lotrives.substack.com/p/ricardo-estarriol"
 author: "José Manuel Grau Navarro"
 ---
 

@@ -5,7 +5,6 @@ pubDate: 2025-07-18
 updatedDate: 2026-06-07
 tags: ["Opus Dei", "Memorias", "Austria", "Polonia", "Stefan Moszoro-Dąbrowski", "Klaus Küng", "Colegio Mayor Santillana", "Colegio Mayor Moncloa", "Birkbrunn", "Luis Manuel Calleja"]
 heroImage: "/assets/images/og-default.webp"
-canonical: "https://lotrives.substack.com/p/sociologia-del-opus-dei-espana-austria-polonia"
 author: "José Manuel Grau Navarro"
 ---
 

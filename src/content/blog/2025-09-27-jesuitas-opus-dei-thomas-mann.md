@@ -5,7 +5,6 @@ pubDate: 2025-09-27
 updatedDate: 2026-06-13
 tags: ["Thomas Mann", "Opus Dei", "Jesuitas", "La montaña mágica", "Gianfranco Ghirlanda"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Waldsanatorium_Arosa_Ans_05092-017.jpg/1280px-Waldsanatorium_Arosa_Ans_05092-017.jpg"
-canonical: "https://lotrives.substack.com/p/jesuitas-opus-dei-thomas-mann"
 author: "José Manuel Grau Navarro"
 ---
 

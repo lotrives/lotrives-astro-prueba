@@ -5,7 +5,6 @@ pubDate: 2024-07-06
 updatedDate: 2026-05-23
 tags: ["Fútbol", "España", "Alemania"]
 heroImage: "/assets/images/og-default.webp"
-canonical: "https://lotrives.substack.com/p/toni-kroos"
 author: "José Manuel Grau Navarro"
 ---
 

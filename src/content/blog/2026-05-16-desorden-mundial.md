@@ -4,7 +4,6 @@ description: "Una barra de pan, el bitcoin y Anne Applebaum."
 pubDate: 2026-05-16
 tags: ["Bitcoin", "Anne Applebaum", "Inflación", "Rusia"]
 heroImage: "/assets/images/anne-applebaum.webp"
-canonical: "https://lotrives.substack.com/p/desorden-mundial"
 author: "José Manuel Grau Navarro"
 ---
 

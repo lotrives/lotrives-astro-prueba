@@ -5,7 +5,6 @@ pubDate: 2025-12-07
 updatedDate: 2026-06-13
 tags: ["Joseph Ratzinger", "Dios", "Biblia", "Graben", ]
 heroImage: "https://iiif.micr.io/EyRPxoD/full/max/0/default.jpg"
-canonical: "https://lotrives.substack.com/p/sobre-el-cielo"
 author: "José Manuel Grau Navarro"
 ---
 

@@ -5,7 +5,6 @@ pubDate: 2005-04-21
 updatedDate: 2026-05-17
 tags: ["Joseph Ratzinger"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Pope_Benedictus_XVI_january%2C20_2006_%282%29_mod.jpg/960px-Pope_Benedictus_XVI_january%2C20_2006_%282%29_mod.jpg"
-canonical: "https://lotrives.substack.com/p/joseph-ratzinger-pensador-original-profundo"
 author: "José Manuel Grau Navarro"
 ---
 

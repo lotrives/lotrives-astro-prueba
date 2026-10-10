@@ -5,7 +5,6 @@ pubDate: 2024-03-18
 updatedDate: 2026-05-21
 tags: []
 heroImage: "/assets/images/og-default.webp"
-canonical: "https://lotrives.substack.com/p/jose-antonio-marina-como-nuevo-ciceron"
 author: "José Manuel Grau Navarro"
 ---
 

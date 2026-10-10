@@ -5,7 +5,6 @@ pubDate: 2026-02-14
 updatedDate: 2026-06-14
 tags: ["Joaquín Pérez Navarro", "Cesta y puntos", "Deseo mimético", "René Girard", "Colegio Mayor Pío XII", "Colegio Santo Domingo", "Bigastro", "Memorias", "Juan Antonio Galán Gamero", "Luis Manuel Calleja", "Francisco Galera", "Léon Bloy", "Sira"]
 heroImage: "/assets/images/perez-navarro-1.webp"
-canonical: "https://lotrives.substack.com/p/joaquin-perez-navarro-cesta-puntos-mimesis"
 author: "José Manuel Grau Navarro"
 ---
 

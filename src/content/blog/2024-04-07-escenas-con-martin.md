@@ -5,7 +5,6 @@ pubDate: 2024-04-07
 updatedDate: 2026-05-23
 tags: ["Autismo", "Pablo Bilz", "Hugo Bilz", "Nadia Bilz"]
 heroImage: "/assets/images/og-default.webp"
-canonical: "https://lotrives.substack.com/p/escenas-con-martin-rutinas-autismo"
 author: "José Manuel Grau Navarro"
 ---
 

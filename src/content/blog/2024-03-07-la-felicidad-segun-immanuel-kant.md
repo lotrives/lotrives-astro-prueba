@@ -5,7 +5,6 @@ pubDate: 2024-03-07
 updatedDate: 2026-05-21
 tags: ["Immanuel Kant", "Felicidad"]
 heroImage: "/assets/images/og-default.webp"
-canonical: "https://lotrives.substack.com/p/la-felicidad-segun-immanuel-kant"
 author: "José Manuel Grau Navarro"
 ---
 

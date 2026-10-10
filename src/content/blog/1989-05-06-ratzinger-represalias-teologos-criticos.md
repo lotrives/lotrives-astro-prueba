@@ -5,7 +5,6 @@ pubDate: 1989-05-06
 updatedDate: 2026-05-16
 tags: ["Joseph Ratzinger"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/8/84/Ratzinger-Rom88.JPG"
-canonical: "https://lotrives.substack.com/p/ratzinger-represalias-teologos-criticos"
 author: "José Manuel Grau Navarro"
 ---
 

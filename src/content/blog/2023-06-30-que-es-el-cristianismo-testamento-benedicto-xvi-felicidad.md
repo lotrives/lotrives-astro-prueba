@@ -5,7 +5,6 @@ pubDate: 2023-06-30
 updatedDate: 2026-05-16
 tags: ["Joseph Ratzinger", "Felicidad"]
 heroImage: "/assets/images/catedral-san-esteban-viena.webp"
-canonical: "https://lotrives.substack.com/p/lotrives-testamento-benedicto-xvi-felicidad"
 author: "José Manuel Grau Navarro"
 ---
 

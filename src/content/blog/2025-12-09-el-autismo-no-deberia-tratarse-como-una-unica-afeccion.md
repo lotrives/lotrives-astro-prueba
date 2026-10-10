@@ -5,7 +5,6 @@ pubDate: 2025-12-09
 updatedDate: 2026-06-13
 tags: ["Autismo", "Discapacidad", "Pablo Bilz", "Martín Bilz"]
 heroImage: "https://iiif.micr.io/KqQpouB/full/max/0/default.jpg"
-canonical: "https://lotrives.substack.com/p/el-autismo-no-deberia-tratarse-como-una-unica-afeccion"
 author: "José Manuel Grau Navarro"
 ---
 

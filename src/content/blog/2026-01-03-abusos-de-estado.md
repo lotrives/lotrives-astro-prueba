@@ -5,7 +5,6 @@ pubDate: 2026-01-03
 updatedDate: 2026-06-14
 tags: ["Abusos", "Impuestos", "Dinero", "Inflación", "Milton Friedman", "Ludwig von Mises"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/6/64/Marinus_van_Reymerswale_-_The_Tax_Collector_-_WGA19329.jpg"
-canonical: "https://lotrives.substack.com/p/abusos-de-estado"
 author: "José Manuel Grau Navarro"
 ---
 

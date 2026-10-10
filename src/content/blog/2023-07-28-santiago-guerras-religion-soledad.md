@@ -5,7 +5,6 @@ pubDate: 2023-07-28
 updatedDate: 2026-05-16
 tags: []
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Santiago_de_Compostela%2C_O_ap%C3%B3stolona_Catedral.jpg/1280px-Santiago_de_Compostela%2C_O_ap%C3%B3stolona_Catedral.jpg"
-canonical: "https://lotrives.substack.com/p/que-es-la-soledad"
 author: "José Manuel Grau Navarro"
 ---
 

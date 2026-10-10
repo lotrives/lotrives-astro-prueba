@@ -3,7 +3,7 @@ title: "Rafael Aguirre: «La utilización política de la Biblia»"
 description: "Notas de lectura sobre Biblia, política, sionismo e Israel a partir de Rafael Aguirre y el epílogo de Julio Trebolle."
 pubDate: 2024-03-12
 updatedDate: 2026-05-10
-heroImage: ""
+heroImage: "/assets/images/og-default.webp"
 tags: ["Biblia", "Dios"]
 author: "José Manuel Grau Navarro"
 ---

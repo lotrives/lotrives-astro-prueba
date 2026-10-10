@@ -5,7 +5,6 @@ pubDate: 2025-02-16
 updatedDate: 2026-06-06
 tags: ["Autismo", "Discapacidad", "Memorias", "Martín Bilz", "Pablo Bilz", "Hugo Bilz", "Nadia Bilz"]
 heroImage: "/assets/images/descargo-martin-bilz.webp"
-canonical: "https://lotrives.substack.com/p/en-descargo-de-martin-bilz"
 author: "José Manuel Grau Navarro"
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "La peligrosa e injusta jornada laboral de los médicos internos residentes"
 description: "Situación de los médicos internos residentes en España (MIR) y abusos estructurales en sus jornadas laborales."
-canonical_url: "https://lotrives.github.io/2025/11/07/jornada-laboral-mir/"
 pubDate: 2025-11-07
 last_modified_at: 2025-11-15
 heroImage: "/assets/images/jornada-laboral-mir-portada.webp"

@@ -13,7 +13,6 @@ const blog = defineCollection({
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
 		draft: z.boolean().optional(),
-		canonical: z.string().optional(),
 		tags: z.array(z.string()).optional(),
 		author: z.string(),
 	}),
@@ -27,7 +26,6 @@ const pages = defineCollection({
 		permalink: z.string().optional(),
 		layout: z.string().optional(),
 		tags: z.array(z.string()).optional(),
-		canonical: z.string().optional(),
 		draft: z.boolean().optional(),
 	}),
 });

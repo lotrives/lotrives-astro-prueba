@@ -5,7 +5,6 @@ pubDate: 2023-12-04
 updatedDate: 2026-05-16
 tags: ["Joseph Ratzinger", "Derechos humanos"]
 heroImage: "/assets/images/europa-nueva-revista.webp"
-canonical: "https://lotrives.substack.com/p/sobre-europa-nueva-revista-187"
 author: "José Manuel Grau Navarro"
 ---
 

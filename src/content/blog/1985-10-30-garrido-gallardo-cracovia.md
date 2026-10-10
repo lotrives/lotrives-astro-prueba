@@ -5,7 +5,6 @@ pubDate: 1985-10-30
 tags: ["Miguel Ángel Garrido Gallardo", "Cracovia", "Polonia", "Memorias"]
 heroImage: "/assets/images/og-default.webp"
 updatedDate: 2026-06-16
-canonical: "https://www.abc.es/archivo/periodicos/abc-madrid-19851030-49.html"
 author: "José Manuel Grau Navarro"
 ---
 

@@ -5,7 +5,6 @@ pubDate: 2025-05-11
 tags: ["Sexualidad", "Pablo Bilz", "Jean-Marie Lustiger"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Joaquín_Sorolla_-_Chicos_en_la_playa.jpg/1280px-Joaquín_Sorolla_-_Chicos_en_la_playa.jpg"
 updatedDate: 2026-06-07
-canonical: "https://lotrives.substack.com/p/sexualidad-entretenida"
 author: "José Manuel Grau Navarro"
 ---
 

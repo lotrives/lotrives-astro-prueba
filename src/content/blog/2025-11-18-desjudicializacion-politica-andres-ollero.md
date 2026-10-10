@@ -1,7 +1,6 @@
 ---
 title: "¿Qué es la judicialización de la política?"
 description: "Contra el intento de que los políticos actúen fuera de la ley. Ciertos políticos prefieren cobijarse en la presunción de inocencia y convertir a los magistrados en jueces de su labor política, según Andrés Ollero."
-canonical_url: "https://lotrives.github.io/2025/11/18/desjudicializacion-politica-andres-ollero/"
 pubDate: 2025-11-18
 tags: ["Andrés Ollero", "Judicialización de la política"]
 author: "José Manuel Grau Navarro"

@@ -5,7 +5,6 @@ pubDate: 2025-06-01
 tags: ["Polonia", "Opus Dei", "Austria", "Memorias", "Ricardo Estarriol", "Luis María Anson"]
 heroImage: "/assets/images/memorias-1.webp"
 updatedDate: 2026-06-07
-canonical: "https://lotrives.substack.com/p/1989-parte-de-lo-que-sucedio"
 author: "José Manuel Grau Navarro"
 ---
 

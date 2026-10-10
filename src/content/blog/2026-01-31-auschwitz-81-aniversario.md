@@ -5,7 +5,6 @@ pubDate: 2026-01-31
 updatedDate: 2026-06-14
 tags: ["Auschwitz", "Holocausto", "Polonia", "Memorias", "Rudolf Höß", "João Pereira de Freitas", "Birkbrunn", "Pszczyna"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Selection_on_the_ramp_at_Auschwitz-Birkenau%2C_1944_%28Auschwitz_Album%29_1b.jpg/1280px-Selection_on_the_ramp_at_Auschwitz-Birkenau%2C_1944_%28Auschwitz_Album%29_1b.jpg"
-canonical: "https://lotrives.substack.com/p/auschwitz-81-aniversario"
 author: "José Manuel Grau Navarro"
 ---
 

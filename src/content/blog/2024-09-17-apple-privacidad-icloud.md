@@ -5,7 +5,6 @@ pubDate: 2024-09-17
 updatedDate: 2026-05-24
 tags: ["Apple", "Privacidad", "iCloud"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Aerial_view_of_Apple_Park_dllu.jpg/1280px-Aerial_view_of_Apple_Park_dllu.jpg"
-canonical: "https://lotrives.substack.com/p/apple-privacidad-icloud"
 author: "José Manuel Grau Navarro"
 ---
 

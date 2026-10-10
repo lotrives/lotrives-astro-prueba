@@ -5,7 +5,6 @@ pubDate: 2025-12-06
 updatedDate: 2026-06-13
 tags: ["Memorias", "José Ortega y Gasset", "Austria", "Opus Dei", "Bigastro", "Miguel Ángel Garrido Gallardo", "Rafael Alvira", "Enrique Herrando Prat de la Riba", "Klosterneuburg", "Christian Spalek", "Scherrerwirt"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/RAlviraDominguez2006.jpg/960px-RAlviraDominguez2006.jpg"
-canonical: "https://lotrives.substack.com/p/dialogando-con-rafael-alvira"
 author: "José Manuel Grau Navarro"
 ---
 

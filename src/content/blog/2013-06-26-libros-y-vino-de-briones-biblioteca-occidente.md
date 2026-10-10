@@ -5,7 +5,6 @@ pubDate: 2013-06-26
 updatedDate: 2026-05-17
 tags: ["Memorias"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Briones_-_Museo_del_Vino.JPG/1280px-Briones_-_Museo_del_Vino.JPG"
-canonical: "https://lotrives.substack.com/p/libros-y-vino-de-briones-biblioteca-occidente"
 author: "José Manuel Grau Navarro"
 ---
 

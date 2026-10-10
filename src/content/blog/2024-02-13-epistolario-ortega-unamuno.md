@@ -5,7 +5,6 @@ pubDate: 2024-02-13
 updatedDate: 2026-05-17
 tags: ["José Ortega y Gasset", "Miguel de Unamuno", "España"]
 heroImage: "/assets/images/epistolario-ortega-unamuno.webp"
-canonical: "https://lotrives.substack.com/p/epistolario-ortega-unamuno"
 author: "José Manuel Grau Navarro"
 ---
 

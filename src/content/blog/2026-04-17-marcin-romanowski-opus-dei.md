@@ -4,7 +4,6 @@ pubDate: 2026-04-17
 tags: ["Marcin Romanowski", "Opus Dei", "Numerario", "San Josemaría Escrivá de Balaguer", "Eugenio Trías"]
 description: "Marcin Romanowski se encuentra refugiado en Hungría y la prensa polaca se pregunta si con el cambio de Gobierno en Budapest será extraditado y cómo actuará el Opus Dei"
 heroImage: "/assets/images/marcin-romanowski.webp"
-canonical_url: "https://lotrives.github.io/2026/04/17/marcin-romanowski-opus-dei/"
 last_modified_at: 2026-04-24
 author: "José Manuel Grau Navarro"
 ---

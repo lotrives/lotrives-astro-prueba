@@ -5,7 +5,6 @@ pubDate: 2006-05-08
 updatedDate: 2026-05-17
 tags: ["Juan Bautista Torelló", "Sigmund Freud", "Memorias", "Viena"]
 heroImage: "/assets/images/juan-bautista-torello.webp"
-canonical: "https://lotrives.substack.com/p/juan-bautista-torello-la-represion-freud"
 author: "José Manuel Grau Navarro"
 ---
 

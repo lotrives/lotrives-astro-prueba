@@ -4,7 +4,6 @@ description: "Recuerdos de Javier o Xavier Sellés Ferrando (Barcelona, 28-11-19
 pubDate: 2025-07-12
 tags: ["Javier Sellés", "Memorias", "Viena", "Austria", "Opus Dei", "Enrique Herrando Prat de la Riba", "Klaus Küng"]
 heroImage: "/assets/images/selles-1.webp"
-canonical: "https://lotrives.com/2025/07/12/javier-selles-o-xavier-selles-ferrando/"
 author: "José Manuel Grau Navarro"
 updatedDate: 2026-10-03
 ---

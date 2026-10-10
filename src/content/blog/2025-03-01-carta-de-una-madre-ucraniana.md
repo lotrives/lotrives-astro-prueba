@@ -5,7 +5,6 @@ pubDate: 2025-03-01
 updatedDate: 2026-06-06
 tags: ["Rusia", "Donald Trump", "Ucrania"]
 heroImage: "/assets/images/madre-ucraniana.webp"
-canonical: "https://lotrives.substack.com/p/carta-de-una-madre-ucraniana"
 author: "José Manuel Grau Navarro"
 ---
 

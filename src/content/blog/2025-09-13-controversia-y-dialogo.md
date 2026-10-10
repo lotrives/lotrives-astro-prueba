@@ -5,7 +5,6 @@ pubDate: 2025-09-13
 updatedDate: 2026-06-13
 tags: ["Diálogo", "Norman Rockwell", "Sócrates"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Norman_Rockwell_-_Cousin_Reginald_Spells_Peloponnesus_%28Spelling_Bee%29_-_Google_Art_Project.jpg/1280px-Norman_Rockwell_-_Cousin_Reginald_Spells_Peloponnesus_%28Spelling_Bee%29_-_Google_Art_Project.jpg"
-canonical: "https://lotrives.substack.com/p/controversia-y-dialogo"
 author: "José Manuel Grau Navarro"
 ---
 

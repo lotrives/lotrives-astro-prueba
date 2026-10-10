@@ -5,7 +5,6 @@ pubDate: 2025-06-08
 tags: ["Autismo", "Sanidad pública", "Medicina", "MIR", "Pablo Bilz", "Nadia Bilz"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Hospital_Ramón_y_Cajal.jpg/1280px-Hospital_Ramón_y_Cajal.jpg"
 updatedDate: 2026-06-07
-canonical: "https://lotrives.substack.com/p/critica-hospital-ramon-y-cajal"
 author: "José Manuel Grau Navarro"
 ---
 

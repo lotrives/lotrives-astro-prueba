@@ -4,7 +4,6 @@ description: "Las respuestas de Tomás de Aquino y de Robert Barron"
 pubDate: 2023-06-20
 updatedDate: 2026-05-16
 tags: ["Santo Tomás de Aquino", "Robert Barron"]
-canonical: "https://lotrives.substack.com/p/cultura-de-la-cancelacion-debate-aquino-barron"
 author: "José Manuel Grau Navarro"
 ---
 

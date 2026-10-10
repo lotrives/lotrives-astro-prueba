@@ -1,7 +1,6 @@
 ---
 title: "Sobre la muerte"
 description: "¿Es la muerte «un bien»? Solo la perspectiva de la vida eterna proporciona dignidad a la vida humana."
-canonical_url: "https://lotrives.github.io/2025/11/14/sobre-la-muerte/"
 pubDate: 2025-11-14
 heroImage: https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg/960px-Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg
 tags: ["Joseph Ratzinger", "Muerte", "San Buenaventura", "San Ambrosio", "Peter Thiel", "Pablo Bilz"]

@@ -5,7 +5,6 @@ pubDate: 2019-05-23
 updatedDate: 2026-05-17
 tags: ["Memorias", "Miguel Ángel Garrido Gallardo"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Miguel_Ángel_Garrido_Gallardo%2C_1965.jpg/960px-Miguel_Ángel_Garrido_Gallardo%2C_1965.jpg"
-canonical: "https://lotrives.substack.com/p/miguel-angel-garrido-gallardo-revisitado"
 author: "José Manuel Grau Navarro"
 ---
 

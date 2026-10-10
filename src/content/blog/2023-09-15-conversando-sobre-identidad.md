@@ -5,7 +5,6 @@ pubDate: 2023-09-15
 updatedDate: 2026-05-16
 tags: ["Identidad"]
 heroImage: "/assets/images/identidad-1.webp"
-canonical: "https://lotrives.substack.com/p/identidad-genero-religion-sexo-nacion-raza"
 author: "José Manuel Grau Navarro"
 ---
 

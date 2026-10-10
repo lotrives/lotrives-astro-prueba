@@ -4,7 +4,6 @@ description: "Resolución de la ONU sobre desarrollo sostenible, con las aclarac
 pubDate: 2024-03-27
 tags: ["Familia", "Francisco"]
 heroImage: "/assets/images/og-default.webp"
-canonical: "https://lotrives.substack.com/p/agenda-2030-onu-aclaraciones-observaciones"
 updatedDate: 2026-05-21
 author: "José Manuel Grau Navarro"
 ---

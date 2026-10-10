@@ -5,7 +5,6 @@ pubDate: 2024-03-06
 updatedDate: 2026-05-21
 tags: ["Identidad"]
 heroImage: "/assets/images/og-default.webp"
-canonical: "https://lotrives.substack.com/p/cambiariamos-de-sexo-si-fuera-facil"
 author: "José Manuel Grau Navarro"
 ---
 

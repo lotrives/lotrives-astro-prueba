@@ -5,7 +5,6 @@ pubDate: 2025-08-16
 updatedDate: 2026-06-13
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Ulica_Mokotowska_przy_Wilczej_przed_1939.jpg/960px-Ulica_Mokotowska_przy_Wilczej_przed_1939.jpg"
 tags: ["Opus Dei", "Polonia", "Memorias", "Stefan Moszoro-Dąbrowski", "Enrique Herrando Prat de la Riba", "ABC", "Robert Malicki", "Rafał Wąworek", "Rafael Mora", "Leszek Zgódka", "Antonio Romero Castillo", "Anna Sartowska", "Mokotowska", "Martin Wagner"]
-canonical: "https://lotrives.substack.com/p/comienzo-opus-dei-polonia-mokotowska-varsovia-1990"
 author: "José Manuel Grau Navarro"
 ---
 

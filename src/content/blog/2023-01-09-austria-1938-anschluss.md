@@ -5,7 +5,6 @@ pubDate: 2023-01-09
 updatedDate: 2026-05-17
 tags: ["Anschluss", "Austria"]
 heroImage: "/assets/images/austria-anschluss.webp"
-canonical: "https://lotrives.substack.com/p/austria-1938-la-anexion-anschluss"
 author: "José Manuel Grau Navarro"
 ---
 

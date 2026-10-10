@@ -5,7 +5,6 @@ pubDate: 2025-05-04
 tags: ["Opus Dei", "Joseph Ratzinger", "Juan Pablo II", "Hans Urs von Balthasar", "San Josemaría Escrivá de Balaguer"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/07HUvB_Wien.jpg/500px-07HUvB_Wien.jpg"
 updatedDate: 2026-06-07
-canonical: "https://lotrives.substack.com/p/hans-urs-von-balthasar-y-el-opus-dei"
 author: "José Manuel Grau Navarro"
 ---
 

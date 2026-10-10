@@ -5,7 +5,6 @@ pubDate: 2026-03-14
 updatedDate: 2026-06-14
 tags: ["Universidad", "Catherine L’Ecuyer", "Pablo Pérez López"]
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/University_Of_Oxford_The_Bridge_Of_Sighs.jpg/1280px-University_Of_Oxford_The_Bridge_Of_Sighs.jpg"
-canonical: "https://lotrives.substack.com/p/sobre-la-mision-de-la-universidad"
 author: "José Manuel Grau Navarro"
 ---
 

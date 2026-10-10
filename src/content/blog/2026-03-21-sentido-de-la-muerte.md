@@ -5,7 +5,6 @@ pubDate: 2026-03-21
 updatedDate: 2026-06-14
 tags: ["Martina Draft", "Hans Urs von Balthasar", "Muerte", "N. T. Wright", "C. S. Lewis"]
 heroImage: "/assets/images/muerte-v1.webp"
-canonical: "https://lotrives.substack.com/p/sentido-de-la-muerte"
 author: "José Manuel Grau Navarro"
 ---
 
