@@ -100,6 +100,7 @@ import equivalencias from '../data/equivalencias-buscador.json';
 				var tablaAlias = {}; // variante → palabra real (Hoss → Höß); scripts/build-pagefind.mjs
 				var etiquetas = []; // [{ n: nombre, s: slug, t: entradas }]; /buscar-etiquetas.json
 				var aniosTotales = {}; // año → número de entradas
+				var palabrasTitulos = {}; // palabra → entradas; /buscar-vocabulario.json
 
 				// ------------------------------------------------------------------
 				// Utilidades
@@ -344,7 +345,7 @@ import equivalencias from '../data/equivalencias-buscador.json';
 				// ------------------------------------------------------------------
 				// Sugerencias cuando no hay resultados
 
-				var vocabulario = null; // palabra plana → forma escrita, a partir de las etiquetas
+				var vocabulario = null; // palabra plana → { forma escrita, entradas }; títulos y etiquetas
 
 				// Cuando una palabra no existe en el índice, Pagefind busca por su comienzo
 				// («Ratsinger» acaba encontrando «rato»). Para no mostrar eso como resultados,
@@ -413,9 +414,14 @@ import equivalencias from '../data/equivalencias-buscador.json';
 				function palabraParecida(palabra) {
 					if (!vocabulario) {
 						vocabulario = {};
+						var anadir = function (w, n) {
+							var k = plano(w);
+							if (!vocabulario[k] || vocabulario[k].n < n) vocabulario[k] = { w: w, n: n };
+						};
+						Object.keys(palabrasTitulos).forEach(function (w) { anadir(w, palabrasTitulos[w]); });
 						etiquetas.forEach(function (e) {
 							(e.n.match(/[\p{L}]+/gu) || []).forEach(function (w) {
-								if (w.length >= 4) vocabulario[plano(w)] = w;
+								if (w.length >= 4) anadir(w, e.t);
 							});
 						});
 					}
@@ -424,11 +430,14 @@ import equivalencias from '../data/equivalencias-buscador.json';
 					var maximo = p.length <= 5 ? 1 : 2;
 					var mejor = null;
 					var mejorDistancia = maximo + 1;
+					var mejorEntradas = 0;
 					Object.keys(vocabulario).forEach(function (v) {
 						var d = distancia(p, v);
-						if (d < mejorDistancia) {
+						// La más parecida; a igual parecido, la más frecuente.
+						if (d < mejorDistancia || (d === mejorDistancia && d <= maximo && vocabulario[v].n > mejorEntradas)) {
 							mejorDistancia = d;
-							mejor = vocabulario[v];
+							mejor = vocabulario[v].w;
+							mejorEntradas = vocabulario[v].n;
 						}
 					});
 					return mejor;
@@ -617,7 +626,9 @@ import equivalencias from '../data/equivalencias-buscador.json';
 							pagefind.filters(),
 							fetch('/buscar-alias.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
 							fetch('/buscar-etiquetas.json').then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; }),
+							fetch('/buscar-vocabulario.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
 						]);
+						palabrasTitulos = cargas[3] || {};
 						aniosTotales = (cargas[0] && cargas[0].anio) || {};
 						tablaAlias = cargas[1] || {};
 						etiquetas = cargas[2] || [];
