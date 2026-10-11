@@ -42,9 +42,13 @@ function traditionalEuropeanVariant(word) {
 	return anyAscii(variant);
 }
 
+// Devuelve un Map alias → palabra original (Hoss → Höß).
 function buildAliases(text) {
 	const words = text.match(/\p{L}+(?:['’.-]\p{L}+)*/gu) || [];
-	const aliases = new Set();
+	const aliases = new Map();
+	const add = (alias, word) => {
+		if (!aliases.has(alias)) aliases.set(alias, word);
+	};
 
 	for (const word of new Set(words)) {
 		if (/^[\x00-\x7F]+$/.test(word)) continue;
@@ -59,7 +63,7 @@ function buildAliases(text) {
 			transliterated !== word &&
 			transliterated.toLowerCase() !== unicodeFolded.toLowerCase()
 		) {
-			aliases.add(transliterated);
+			add(transliterated, word);
 		}
 
 		if (transliterated) {
@@ -70,7 +74,7 @@ function buildAliases(text) {
 				simplified !== transliterated &&
 				simplified.toLowerCase() !== unicodeFolded.toLowerCase()
 			) {
-				aliases.add(simplified);
+				add(simplified, word);
 			}
 
 			// Variante occidental frecuente: Zelenskiy → Zelensky, Sofiya → Sofia.
@@ -80,7 +84,7 @@ function buildAliases(text) {
 				westernized !== simplified &&
 				westernized.toLowerCase() !== unicodeFolded.toLowerCase()
 			) {
-				aliases.add(westernized);
+				add(westernized, word);
 			}
 		}
 
@@ -91,11 +95,11 @@ function buildAliases(text) {
 			traditional !== word &&
 			traditional.toLowerCase() !== transliterated.toLowerCase()
 		) {
-			aliases.add(traditional);
+			add(traditional, word);
 		}
 	}
 
-	return [...aliases];
+	return aliases;
 }
 
 // ---------------------------------------------------------------------------
@@ -163,18 +167,32 @@ if (!index) throw new Error('Pagefind no pudo crear el índice.');
 let paginas = 0;
 let aliasCount = 0;
 
+// Tabla de equivalencias para la página de búsqueda: si alguien escribe «Hoss»,
+// /buscar/ busca «Höß», de modo que el fragmento y el resaltado marcan la palabra real.
+const TABLA_ALIAS = path.join(DIST, 'buscar-alias.json');
+const tablaAlias = {};
+// Palabras que sí aparecen escritas en algún texto: esas no se sustituyen nunca.
+const palabrasReales = new Set();
+
 try {
 	for await (const file of htmlFiles(DIST)) {
 		const html = await fs.readFile(file, 'utf8');
 		if (!/\bdata-pagefind-body\b/.test(html)) continue;
 
-		const aliases = buildAliases(textoVisible(html));
-		aliasCount += aliases.length;
+		const texto = textoVisible(html);
+		for (const p of texto.match(/\p{L}+/gu) || []) palabrasReales.add(foldDiacritics(p).toLowerCase());
+		const aliases = buildAliases(texto);
+		aliasCount += aliases.size;
+		for (const [alias, original] of aliases) {
+			const clave = alias.toLowerCase();
+			// Las variantes muy cortas («o») confundirían más que ayudarían.
+			if (clave.length >= 3 && !(clave in tablaAlias)) tablaAlias[clave] = original;
+		}
 
 		const content = HUECO_ALIAS.test(html)
 			? html.replace(
 					HUECO_ALIAS,
-					`<span data-pagefind-meta="alias">${escapeHtml(aliases.join(' '))}</span>`,
+					`<span data-pagefind-meta="alias">${escapeHtml([...aliases.keys()].join(' '))}</span>`,
 				)
 			: html;
 
@@ -190,10 +208,15 @@ try {
 
 	const { errors } = await index.writeFiles({ outputPath: OUTPUT_DIR });
 	if (errors?.length) throw new Error(`Error escribiendo el índice: ${errors.join('; ')}`);
+
+	for (const clave of Object.keys(tablaAlias)) {
+		if (palabrasReales.has(clave)) delete tablaAlias[clave];
+	}
+	await fs.writeFile(TABLA_ALIAS, JSON.stringify(tablaAlias));
 } finally {
 	await pagefind.close();
 }
 
 console.log(`Páginas indexadas: ${paginas}`);
-console.log(`Alias adicionales generados: ${aliasCount}`);
+console.log(`Alias adicionales generados: ${aliasCount} (tabla para /buscar/: ${Object.keys(tablaAlias).length})`);
 console.log('Índice Pagefind creado en dist/pagefind/');

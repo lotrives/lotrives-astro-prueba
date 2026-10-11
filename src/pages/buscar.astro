@@ -61,6 +61,15 @@ import Header from '../components/Header.astro';
 				var resultados = [];
 				var mostrados = 0;
 				var temporizador = 0;
+				// Variantes de transliteración → palabra real (Hoss → Höß); la genera
+				// scripts/build-pagefind.mjs. Si no carga, se busca tal cual.
+				var tablaAlias = {};
+
+				function conFormaReal(q) {
+					return q.replace(/[\p{L}'’]+/gu, function (palabra) {
+						return tablaAlias[palabra.toLowerCase()] || palabra;
+					});
+				}
 
 				// Igual que slugify en src/utils/etiquetas.ts: tiene que dar las mismas direcciones.
 				var LETRAS = { 'ł': 'l', 'Ł': 'l', 'ß': 'ss', 'ẞ': 'ss', 'ø': 'o', 'Ø': 'o', 'æ': 'ae', 'Æ': 'ae',
@@ -148,9 +157,10 @@ import Header from '../components/Header.astro';
 					});
 				}
 
-				function textoEstado(n, q) {
-					if (!n) return 'No se ha encontrado nada para «' + esc(q) + '».';
-					return n + (n === 1 ? ' resultado' : ' resultados') + ' para «' + esc(q) + '»';
+				function textoEstado(n, q, consulta) {
+					var lo = '«' + esc(q) + '»' + (consulta !== q ? ' (' + esc(consulta) + ')' : '');
+					if (!n) return 'No se ha encontrado nada para ' + lo + '.';
+					return n + (n === 1 ? ' resultado' : ' resultados') + ' para ' + lo;
 				}
 
 				async function mostrarMas(v) {
@@ -187,13 +197,14 @@ import Header from '../components/Header.astro';
 
 					estado.innerHTML = 'Buscando…';
 					try {
-						var respuesta = await pagefind.search(q);
+						var consulta = conFormaReal(q);
+						var respuesta = await pagefind.search(consulta);
 						if (v !== version) return;
 						resultados = respuesta.results;
 						mostrados = 0;
 						lista.innerHTML = '';
 						document.title = q + ' · Buscar';
-						estado.innerHTML = textoEstado(resultados.length, q);
+						estado.innerHTML = textoEstado(resultados.length, q, consulta);
 						botonMas.hidden = true;
 						if (resultados.length) await mostrarMas(v);
 					} catch (error) {
@@ -236,6 +247,12 @@ import Header from '../components/Header.astro';
 							},
 						});
 						await pagefind.init();
+						try {
+							var r = await fetch('/buscar-alias.json');
+							if (r.ok) tablaAlias = await r.json();
+						} catch (e) {
+							console.error(e);
+						}
 					} catch (error) {
 						console.error(error);
 						estado.innerHTML = 'No se ha podido cargar el buscador.';
