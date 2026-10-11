@@ -459,7 +459,8 @@ import equivalencias from '../data/equivalencias-buscador.json';
 							if (r.results.length && !siguenDudosas.length) partes.push('¿Quizá quisiste decir ' + enlaceBusqueda(cambiada) + '?');
 						}
 
-						var palabras = consulta.replace(/["“”]/g, '').split(/\s+/).filter(Boolean);
+						// Palabras de 3 o más letras: «y», «de»… no ayudan por separado.
+						var palabras = consulta.replace(/["“”]/g, '').split(/\s+/).filter(function (w) { return limpia(w).length >= 3; });
 						if (palabras.length > 1) {
 							var cuentas = await Promise.all(palabras.map(async function (w) {
 								var x = await pagefind.search(w, { filters: filtrosPara(true, true) });
