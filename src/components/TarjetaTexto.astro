@@ -32,7 +32,15 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 		<p class="tarjeta-fecha"><FormattedDate date={date} /></p>
 		{description && <p class="tarjeta-descripcion">{description}</p>}
 	</div>
-	{heroImage && <img class="tarjeta-miniatura" src={heroImage} alt="" loading="lazy" width="160" height="90" />}
+	{
+		heroImage && (
+			// La foto lleva al texto, como el título. Oculta para lectores de pantalla
+			// y teclado, que ya tienen el enlace del título.
+			<a class="tarjeta-foto" href={href} tabindex="-1" aria-hidden="true">
+				<img class="tarjeta-miniatura" src={heroImage} alt="" loading="lazy" width="160" height="90" />
+			</a>
+		)
+	}
 </article>
 
 <style>
@@ -126,7 +134,8 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 		color: rgb(var(--black));
 		text-decoration: none;
 	}
-	.tarjeta-titulo a:hover {
+	.tarjeta-titulo a:hover,
+	.tarjeta:has(.tarjeta-foto:hover) .tarjeta-titulo a {
 		color: var(--accent);
 		text-decoration: underline;
 		text-underline-offset: 3px;
@@ -143,8 +152,13 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 		color: rgb(var(--gray));
 		line-height: 1.5;
 	}
-	.tarjeta-miniatura {
+	.tarjeta-foto {
 		flex-shrink: 0;
+		display: block;
+		line-height: 0;
+	}
+	.tarjeta-miniatura {
+		display: block;
 		width: 160px;
 		height: 90px;
 		object-fit: cover;
@@ -157,8 +171,11 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 			gap: 0.9rem;
 		}
 		/* En el móvil la foto abre la tarjeta, para que no haya duda de a qué texto pertenece. */
-		.tarjeta-miniatura {
+		.tarjeta-foto {
 			order: -1;
+			width: 100%;
+		}
+		.tarjeta-miniatura {
 			width: 100%;
 			height: auto;
 			aspect-ratio: 16 / 9;
