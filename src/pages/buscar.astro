@@ -16,6 +16,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import equivalencias from '../data/equivalencias-buscador.json';
 ---
 
 <!doctype html>
@@ -68,6 +69,7 @@ import Header from '../components/Header.astro';
 				<div id="buscador-resultados" class="resultados"></div>
 				<button id="buscador-mas" class="ver-mas" type="button" hidden>Ver más</button>
 			</section>
+			<script type="application/json" id="buscador-equivalencias" set:html={JSON.stringify(equivalencias)} />
 		</main>
 		<Footer />
 
@@ -344,6 +346,70 @@ import Header from '../components/Header.astro';
 
 				var vocabulario = null; // palabra plana → forma escrita, a partir de las etiquetas
 
+				// Cuando una palabra no existe en el índice, Pagefind busca por su comienzo
+				// («Ratsinger» acaba encontrando «rato»). Para no mostrar eso como resultados,
+				// se exige que alguna coincidencia empiece de verdad como la palabra buscada.
+				// Las palabras de etiquetas, equivalencias y variantes conocidas valen siempre.
+				var confiables = null;
+
+				function limpia(w) {
+					return plano(w).replace(/[^\p{L}\p{N}]/gu, '');
+				}
+
+				function prefijoComun(a, b) {
+					var i = 0;
+					while (i < a.length && i < b.length && a[i] === b[i]) i++;
+					return i;
+				}
+
+				function palabrasConfiables() {
+					if (confiables) return confiables;
+					confiables = {};
+					var anadir = function (texto) {
+						(String(texto).match(/[\p{L}\p{N}]+/gu) || []).forEach(function (w) { confiables[limpia(w)] = true; });
+					};
+					etiquetas.forEach(function (e) { anadir(e.n); });
+					Object.keys(tablaAlias).forEach(function (k) { anadir(k); anadir(tablaAlias[k]); });
+					try {
+						JSON.parse(document.getElementById('buscador-equivalencias').textContent || '[]')
+							.forEach(function (grupo) { grupo.forEach(anadir); });
+					} catch (e) {
+						console.error(e);
+					}
+					return confiables;
+				}
+
+				// Palabras con las que coincidieron los primeros resultados: lo marcado en el
+				// fragmento y las palabras del título, las etiquetas, la entradilla y los alias.
+				function coincidenciasDe(datos) {
+					var lista = [];
+					datos.forEach(function (d) {
+						(d.excerpt.match(/<mark>[\s\S]*?<\/mark>/g) || []).forEach(function (m) {
+							lista.push(limpia(m.replace(/<\/?mark>/g, '')));
+						});
+						var meta = d.meta || {};
+						[meta.title, meta.etiquetas, meta.entradilla, meta.alias].forEach(function (t) {
+							(String(t || '').match(/[\p{L}\p{N}]+/gu) || []).forEach(function (w) { lista.push(limpia(w)); });
+						});
+					});
+					return lista;
+				}
+
+				function palabraConfirmada(palabra, coincidencias) {
+					var p = limpia(palabra);
+					if (!p || palabrasConfiables()[p]) return true;
+					var necesario = p.length <= 4 ? p.length : Math.max(4, p.length - 3);
+					return coincidencias.some(function (c) { return prefijoComun(p, c) >= necesario; });
+				}
+
+				/** Palabras de la consulta que ningún resultado contiene de verdad. */
+				async function palabrasSinCoincidencia(consulta, respuesta) {
+					if (/["“”]/.test(consulta) || !respuesta.results.length) return [];
+					var datos = await Promise.all(respuesta.results.slice(0, 5).map(function (r) { return r.data(); }));
+					var coincidencias = coincidenciasDe(datos);
+					return consulta.split(/\s+/).filter(function (w) { return !palabraConfirmada(w, coincidencias); });
+				}
+
 				function palabraParecida(palabra) {
 					if (!vocabulario) {
 						vocabulario = {};
@@ -380,13 +446,16 @@ import Header from '../components/Header.astro';
 						if (cambiada !== consulta) {
 							var r = await pagefind.search(cambiada, { filters: filtrosPara(true, true) });
 							if (v !== version) return;
-							if (r.results.length) partes.push('¿Quizá quisiste decir ' + enlaceBusqueda(cambiada) + '?');
+							var siguenDudosas = await palabrasSinCoincidencia(cambiada, r);
+							if (r.results.length && !siguenDudosas.length) partes.push('¿Quizá quisiste decir ' + enlaceBusqueda(cambiada) + '?');
 						}
 
 						var palabras = consulta.replace(/["“”]/g, '').split(/\s+/).filter(Boolean);
 						if (palabras.length > 1) {
-							var cuentas = await Promise.all(palabras.map(function (w) {
-								return pagefind.search(w, { filters: filtrosPara(true, true) }).then(function (x) { return x.results.length; });
+							var cuentas = await Promise.all(palabras.map(async function (w) {
+								var x = await pagefind.search(w, { filters: filtrosPara(true, true) });
+								var dudosas = await palabrasSinCoincidencia(w, x);
+								return dudosas.length ? 0 : x.results.length;
 							}));
 							if (v !== version) return;
 							var conAlgo = palabras
@@ -458,10 +527,14 @@ import Header from '../components/Header.astro';
 						]);
 						if (v !== version) return;
 
-						rellenarEtiquetas(respuestas[1]);
-						rellenarEpocas(respuestas[2]);
+						var sinCoincidencia = consulta ? await palabrasSinCoincidencia(consulta, respuestas[0]) : [];
+						if (v !== version) return;
+						var vacio = sinCoincidencia.length > 0;
 
-						resultados = respuestas[0].results;
+						rellenarEtiquetas(vacio ? {} : respuestas[1]);
+						rellenarEpocas(vacio ? {} : respuestas[2]);
+
+						resultados = vacio ? [] : respuestas[0].results;
 						mostrados = 0;
 						lista.innerHTML = '';
 						sugerencias.hidden = true;
