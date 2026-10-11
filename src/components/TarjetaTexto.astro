@@ -62,6 +62,28 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 		letter-spacing: 0.09em;
 		text-transform: uppercase;
 		line-height: 1.6;
+		/* Siempre una sola línea. Mientras carga, se recorta lo que salte;
+		   después, el script oculta del todo las etiquetas que no caben. */
+		max-height: 1.6em;
+		overflow: hidden;
+	}
+	.antetitulo.ajustado {
+		max-height: none;
+		overflow: visible;
+	}
+	.antetitulo li {
+		white-space: nowrap;
+		min-width: 0;
+	}
+	/* La primera nunca cae: si no cabe sola, se recorta con puntos suspensivos. */
+	.antetitulo li:first-child {
+		max-width: 100%;
+	}
+	.antetitulo li:first-child a {
+		max-width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		vertical-align: top;
 	}
 	.antetitulo li + li::before {
 		content: '·';
@@ -143,3 +165,34 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 		}
 	}
 </style>
+
+<script>
+	// Antetítulo en una sola línea: las etiquetas que saltarían a la segunda línea
+	// se ocultan del todo (también para lectores de pantalla y teclado),
+	// desde la primera que no cabe hasta el final. Se recalcula al cambiar el ancho.
+	function ajustarAntetitulos() {
+		document.querySelectorAll<HTMLUListElement>('.antetitulo').forEach((ul) => {
+			const items = Array.from(ul.children) as HTMLElement[];
+			items.forEach((li) => (li.hidden = false));
+			ul.classList.add('ajustado');
+			const primeraFila = items[0]?.offsetTop ?? 0;
+			let cae = false;
+			for (const li of items.slice(1)) {
+				if (cae || li.offsetTop > primeraFila) {
+					cae = true;
+					li.hidden = true;
+				}
+			}
+		});
+	}
+
+	let pendiente = 0;
+	const programar = () => {
+		cancelAnimationFrame(pendiente);
+		pendiente = requestAnimationFrame(ajustarAntetitulos);
+	};
+
+	ajustarAntetitulos();
+	window.addEventListener('resize', programar);
+	document.fonts?.ready.then(programar);
+</script>
