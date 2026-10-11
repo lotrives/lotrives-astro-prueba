@@ -29,7 +29,7 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 			)
 		}
 		<h2 class="tarjeta-titulo"><a href={href}>{title}</a></h2>
-		<p class="tarjeta-fecha"><FormattedDate date={date} compactOnMobile /></p>
+		<p class="tarjeta-fecha"><FormattedDate date={date} /></p>
 		{description && <p class="tarjeta-descripcion">{description}</p>}
 	</div>
 	{heroImage && <img class="tarjeta-miniatura" src={heroImage} alt="" loading="lazy" width="160" height="90" />}
@@ -132,8 +132,11 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 	@media (max-width: 560px) {
 		.tarjeta {
 			flex-direction: column;
+			gap: 0.9rem;
 		}
+		/* En el móvil la foto abre la tarjeta, para que no haya duda de a qué texto pertenece. */
 		.tarjeta-miniatura {
+			order: -1;
 			width: 100%;
 			height: auto;
 			aspect-ratio: 16 / 9;
