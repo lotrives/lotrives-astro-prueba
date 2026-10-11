@@ -1,32 +1,29 @@
+// Índice del buscador (/buscar/), construido con Pagefind sobre las páginas ya compiladas.
+//
+// Solo entran las páginas marcadas con data-pagefind-body: los textos (BlogPost.astro)
+// y las páginas estáticas de src/content/pages/ (Page.astro). En esas plantillas se
+// marca también qué se ignora (autor, fecha, pie de etiquetas, navegación), los datos
+// para filtrar y ordenar, y los metadatos que se buscan con peso propio: título,
+// etiquetas, entradilla y alias (los pesos se fijan al buscar, en buscar.astro).
+//
+// Este script añade a cada página, solo dentro del índice, variantes de los nombres con
+// letras no latinas o con convenciones de transliteración distintas (Zelenski/Zelensky,
+// Müller/Mueller), para que se encuentren se escriban como se escriban.
+
 import fs from 'node:fs/promises';
+import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as pagefind from 'pagefind';
 import anyAscii from 'any-ascii';
 
-const SEARCH_JSON = new URL('../dist/search.json', import.meta.url);
-const OUTPUT_DIR_URL = new URL('../dist/pagefind/', import.meta.url);
-const OUTPUT_DIR = fileURLToPath(OUTPUT_DIR_URL);
+const DIST = fileURLToPath(new URL('../dist/', import.meta.url));
+const OUTPUT_DIR = path.join(DIST, 'pagefind');
 
-const MONTHS = [
-	'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
-	'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre',
-];
-
-const MONTHS_SHORT = [
-	'ene', 'feb', 'mar', 'abr', 'may', 'jun',
-	'jul', 'ago', 'sep', 'oct', 'nov', 'dic',
-];
-
-const TYPE_LABELS = {
-	post: 'artículo',
-	nota: 'nota',
-	'página': 'página',
-};
+// ---------------------------------------------------------------------------
+// Alias de transliteración
 
 function foldDiacritics(value) {
-	return value
-		.normalize('NFD')
-		.replace(/\p{M}+/gu, '');
+	return value.normalize('NFD').replace(/\p{M}+/gu, '');
 }
 
 function traditionalEuropeanVariant(word) {
@@ -40,18 +37,12 @@ function traditionalEuropeanVariant(word) {
 	]);
 
 	let variant = word;
-
-	for (const [from, to] of replacements) {
-		variant = variant.replaceAll(from, to);
-	}
-
+	for (const [from, to] of replacements) variant = variant.replaceAll(from, to);
 	if (variant === word) return '';
-
 	return anyAscii(variant);
 }
 
-function buildAliases(values) {
-	const text = values.filter(Boolean).join(' ');
+function buildAliases(text) {
 	const words = text.match(/\p{L}+(?:['’.-]\p{L}+)*/gu) || [];
 	const aliases = new Set();
 
@@ -61,8 +52,8 @@ function buildAliases(values) {
 		const transliterated = anyAscii(word);
 		const unicodeFolded = foldDiacritics(word);
 
-		// Pagefind ya resuelve los diacríticos Unicode normales.
-		// Solo añadimos AnyAscii cuando aporta una equivalencia adicional.
+		// Pagefind ya resuelve los diacríticos normales (á, ñ, ü…).
+		// Solo se añade AnyAscii cuando aporta otra equivalencia (ł → l, ß → ss).
 		if (
 			transliterated &&
 			transliterated !== word &&
@@ -71,12 +62,9 @@ function buildAliases(values) {
 			aliases.add(transliterated);
 		}
 
-		// Variante sin apóstrofos de romanizaciones cirílicas.
 		if (transliterated) {
-			const simplified = transliterated
-				.replace(/['’`´]/g, '')
-				.trim();
-
+			// Sin apóstrofos de romanizaciones cirílicas.
+			const simplified = transliterated.replace(/['’`´]/g, '').trim();
 			if (
 				simplified &&
 				simplified !== transliterated &&
@@ -85,12 +73,8 @@ function buildAliases(values) {
 				aliases.add(simplified);
 			}
 
-			// Variante occidental frecuente: Dostoevskiy → Dostoevsky,
-			// Zelenskiy → Zelensky, Sofiya → Sofia.
-			const westernized = simplified
-				.replace(/iy\b/gi, 'y')
-				.replace(/iya\b/gi, 'ia');
-
+			// Variante occidental frecuente: Zelenskiy → Zelensky, Sofiya → Sofia.
+			const westernized = simplified.replace(/iy\b/gi, 'y').replace(/iya\b/gi, 'ia');
 			if (
 				westernized &&
 				westernized !== simplified &&
@@ -100,10 +84,8 @@ function buildAliases(values) {
 			}
 		}
 
-		// Algunas convenciones europeas admiten otra romanización habitual:
 		// Müller → Mueller, Đorđe → Djordje, Å… → Aa…
 		const traditional = traditionalEuropeanVariant(word);
-
 		if (
 			traditional &&
 			traditional !== word &&
@@ -116,132 +98,102 @@ function buildAliases(values) {
 	return [...aliases];
 }
 
-function formatDateForSearch(raw) {
-	if (!raw) {
-		return {
-			iso: '',
-			search: '',
-		};
+// ---------------------------------------------------------------------------
+// Utilidades
+
+async function* htmlFiles(dir) {
+	for (const entry of await fs.readdir(dir, { withFileTypes: true })) {
+		const full = path.join(dir, entry.name);
+		if (entry.isDirectory()) {
+			if (full === OUTPUT_DIR) continue;
+			yield* htmlFiles(full);
+		} else if (entry.name.endsWith('.html')) {
+			yield full;
+		}
 	}
-
-	const iso = String(raw);
-	const date = new Date(iso);
-
-	if (Number.isNaN(date.getTime())) {
-		return {
-			iso,
-			search: iso,
-		};
-	}
-
-	const day = date.getUTCDate();
-	const month = date.getUTCMonth();
-	const year = date.getUTCFullYear();
-
-	return {
-		iso,
-		search: [
-			`${day} de ${MONTHS[month]} de ${year}`,
-			`${day} ${MONTHS_SHORT[month]} ${year}`,
-			String(year),
-		].join(' '),
-	};
 }
 
-function splitTags(tags) {
-	if (!tags) return [];
-
-	return String(tags)
-		.split(', ')
-		.map((tag) => tag.trim())
-		.filter(Boolean);
+function urlDe(file) {
+	const rel = path.relative(DIST, file).split(path.sep).join('/');
+	if (rel === 'index.html') return '/';
+	if (rel.endsWith('/index.html')) return '/' + rel.slice(0, -'index.html'.length);
+	return '/' + rel;
 }
 
-const records = JSON.parse(
-	await fs.readFile(SEARCH_JSON, 'utf8')
-);
+const decodeEntities = (s) =>
+	s
+		.replace(/&nbsp;/g, ' ')
+		.replace(/&amp;/g, '&')
+		.replace(/&lt;/g, '<')
+		.replace(/&gt;/g, '>')
+		.replace(/&quot;/g, '"')
+		.replace(/&#39;/g, "'")
+		.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+		.replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
 
-await fs.rm(OUTPUT_DIR_URL, {
-	recursive: true,
-	force: true,
-});
+const escapeHtml = (s) =>
+	s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+function textoVisible(html) {
+	const body = html.match(/<body[\s\S]*<\/body>/i)?.[0] ?? html;
+	return decodeEntities(
+		body
+			.replace(/<script[\s\S]*?<\/script>/gi, ' ')
+			.replace(/<style[\s\S]*?<\/style>/gi, ' ')
+			.replace(/<[^>]+>/g, ' '),
+	);
+}
+
+// Hueco que dejan las plantillas para los alias: <span data-pagefind-alias></span>
+// (Astro puede añadirle otros atributos).
+const HUECO_ALIAS = /<span\b[^>]*\bdata-pagefind-alias\b[^>]*>\s*<\/span>/;
+
+// ---------------------------------------------------------------------------
+// Índice
+
+await fs.rm(OUTPUT_DIR, { recursive: true, force: true });
 
 const { index } = await pagefind.createIndex({
 	forceLanguage: 'es',
 	writePlayground: process.env.PAGEFIND_PLAYGROUND === '1',
 });
 
-if (!index) {
-	throw new Error('Pagefind no pudo crear el índice.');
-}
+if (!index) throw new Error('Pagefind no pudo crear el índice.');
 
+let paginas = 0;
 let aliasCount = 0;
 
 try {
-	for (const record of records) {
-		const aliases = buildAliases([
-			record.title,
-			record.excerpt,
-			record.content,
-			record.tags,
-		]);
+	for await (const file of htmlFiles(DIST)) {
+		const html = await fs.readFile(file, 'utf8');
+		if (!/\bdata-pagefind-body\b/.test(html)) continue;
 
+		const aliases = buildAliases(textoVisible(html));
 		aliasCount += aliases.length;
 
-		const type = TYPE_LABELS[record.type] || record.type || '';
-		const date = formatDateForSearch(record.date);
-		const tags = splitTags(record.tags);
+		const content = HUECO_ALIAS.test(html)
+			? html.replace(
+					HUECO_ALIAS,
+					`<span data-pagefind-meta="alias">${escapeHtml(aliases.join(' '))}</span>`,
+				)
+			: html;
 
-		const meta = {
-			title: record.title || '',
-			excerpt: record.excerpt || '',
-			tags: record.tags || '',
-			type,
-			date: date.search,
-			date_iso: date.iso,
-			alias: aliases.join(' '),
-		};
-
-		const filters = {
-			type: type ? [type] : [],
-			tags,
-		};
-
-		const sort = date.iso
-			? { date: date.iso }
-			: {};
-
-		const { errors } = await index.addCustomRecord({
-			url: record.url,
-			content: record.content || record.excerpt || '',
-			language: 'es',
-			meta,
-			filters,
-			sort,
-		});
-
-		if (errors?.length) {
-			throw new Error(
-				`Error indexando ${record.url}: ${errors.join('; ')}`
-			);
-		}
+		const url = urlDe(file);
+		const { errors } = await index.addHTMLFile({ url, content });
+		if (errors?.length) throw new Error(`Error indexando ${url}: ${errors.join('; ')}`);
+		paginas++;
 	}
 
-	const { errors } = await index.writeFiles({
-		outputPath: OUTPUT_DIR,
-	});
-
-	if (errors?.length) {
-		throw new Error(
-			`Error escribiendo el índice: ${errors.join('; ')}`
-		);
+	if (paginas === 0) {
+		throw new Error('No se encontró ninguna página con data-pagefind-body: el buscador quedaría vacío.');
 	}
+
+	const { errors } = await index.writeFiles({ outputPath: OUTPUT_DIR });
+	if (errors?.length) throw new Error(`Error escribiendo el índice: ${errors.join('; ')}`);
 } finally {
 	await pagefind.close();
 }
 
-await fs.rm(SEARCH_JSON, { force: true });
-
-console.log(`Registros indexados: ${records.length}`);
+console.log(`Páginas indexadas: ${paginas}`);
 console.log(`Alias adicionales generados: ${aliasCount}`);
 console.log('Índice Pagefind creado en dist/pagefind/');

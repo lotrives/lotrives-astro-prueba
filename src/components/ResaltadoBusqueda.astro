@@ -1,0 +1,50 @@
+---
+// Al llegar desde /buscar/, la dirección lleva ?resaltar=palabras.
+// Este componente resalta esas palabras en el texto y lleva a la primera
+// (salvo que la dirección ya apunte a un apartado con #).
+// Sin ?resaltar= no carga nada.
+---
+
+<script is:inline>
+	(function () {
+		if (!new URLSearchParams(location.search).has('resaltar')) return;
+		import('/pagefind/pagefind-highlight.js')
+			.then(function () {
+				new PagefindHighlight({ highlightParam: 'resaltar' });
+				if (location.hash) return;
+				var intentos = 0;
+				(function irALaPrimera() {
+					var marca = document.querySelector('mark.pagefind-highlight');
+					if (marca) {
+						marca.scrollIntoView({ block: 'center' });
+					} else if (++intentos < 20) {
+						setTimeout(irALaPrimera, 100);
+					}
+				})();
+			})
+			.catch(function (error) {
+				console.error(error);
+			});
+	})();
+</script>
+
+<style is:global>
+	mark.pagefind-highlight {
+		background: #ffeaa0;
+		color: inherit;
+		border-radius: 2px;
+		padding: 0 1px;
+	}
+	/* Bloque solo para el buscador: no se ve ni lo leen los lectores de pantalla. */
+	.solo-buscador {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		padding: 0;
+		overflow: hidden;
+		clip: rect(0 0 0 0);
+		white-space: nowrap;
+		border: 0;
+	}
+</style>

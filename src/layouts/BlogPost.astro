@@ -6,7 +6,8 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import FloatingTOC from '../components/FloatingTOC.astro';
 import PageScripts from '../components/PageScripts.astro';
-import { etiquetasConPagina, slugify, urlEtiqueta } from '../utils/etiquetas';
+import ResaltadoBusqueda from '../components/ResaltadoBusqueda.astro';
+import { etiquetasConPagina, pildorasDe, slugify, urlEtiqueta } from '../utils/etiquetas';
 
 type Props = CollectionEntry<'blog'>['data'] & {
 	prev?: { title: string; url: string } | null;
@@ -28,6 +29,13 @@ const visibleTags = (tags ?? []).filter((t) => {
 	_vistas.add(slug);
 	return true;
 });
+
+// Datos para el buscador (Pagefind; ver scripts/build-pagefind.mjs).
+// La fecha sirve para ordenar y filtrar; el antetítulo, para pintar la tarjeta del resultado.
+const fechaIso = new Date(pubDate).toISOString().slice(0, 10);
+// Solo nombres separados por «|»: los metadatos también se buscan, así que nada de palabras auxiliares.
+const antetitulo = pildorasDe(tags, _conPagina).map((e) => e.nombre).join('|');
+const todasLasEtiquetas = [...new Set(tags ?? [])];
 
 const jsonLd = {
 	"@context": "https://schema.org",
@@ -158,11 +166,19 @@ const jsonLd = {
 	<body>
 		<Header />
 		<main>
-			<article>
+			<article
+				data-pagefind-body
+				data-pagefind-meta="fecha[data-fecha], antetitulo[data-antetitulo]"
+				data-pagefind-sort="fecha[data-fecha]"
+				data-pagefind-filter="anio[data-anio], tipo:texto"
+				data-fecha={fechaIso}
+				data-anio={fechaIso.slice(0, 4)}
+				data-antetitulo={antetitulo}
+			>
 				<div class="prose">
 					<div class="title">
-						<h1>{title}</h1>
-						<div class="date">
+						<h1 data-pagefind-meta="title" data-pagefind-ignore>{title}</h1>
+						<div class="date" data-pagefind-ignore>
 							<div class="published-line">
 								<span class="autor">José Manuel Grau Navarro</span>
 								<span class="date-separator"> · </span>
@@ -180,9 +196,28 @@ const jsonLd = {
 						</div>
 						<hr />
 					</div>
+					{/*
+						Para el buscador: el título (arriba), las etiquetas, la entradilla y los alias
+						van como metadatos, que se buscan con su propio peso (ver buscar.astro) sin
+						ensuciar los fragmentos de los resultados, que salen del cuerpo del texto.
+					*/}
+					<div class="solo-buscador" aria-hidden="true" data-pagefind-ignore>
+						{todasLasEtiquetas.length > 0 && (
+							<p data-pagefind-meta="etiquetas">
+								{todasLasEtiquetas.map((tag, i) => (
+									<>
+										{i > 0 && ' · '}
+										<span data-pagefind-filter="etiqueta">{tag}</span>
+									</>
+								))}
+							</p>
+						)}
+						{description && <p data-pagefind-meta="entradilla">{description}</p>}
+						<span data-pagefind-alias></span>
+					</div>
 					<slot />
 					{visibleTags.length > 0 && (
-						<div class="tags">
+						<div class="tags" data-pagefind-ignore>
 							{visibleTags.map((tag, i) => (
 								<>
 									{i > 0 && ' · '}
@@ -191,7 +226,7 @@ const jsonLd = {
 							))}
 						</div>
 					)}
-					<nav class="nav-posts">
+					<nav class="nav-posts" data-pagefind-ignore>
 						{prev && (
 							<span class="nav-prev">
 								<a href={prev.url}>← {truncate(prev.title, 50)}</a>
@@ -208,6 +243,7 @@ const jsonLd = {
 		</main>
 		<FloatingTOC />
 		<Footer />
+		<ResaltadoBusqueda />
 	</body>
 </html>
 <PageScripts />

@@ -1,4 +1,14 @@
 ---
+// Buscador. El índice lo construye scripts/build-pagefind.mjs a partir de las páginas
+// compiladas (textos y páginas estáticas).
+//
+// - La búsqueda queda en la dirección (/buscar/?q=varsovia): se puede enlazar y
+//   el botón de volver atrás la conserva.
+// - Resultados en tarjetas, como la portada, con el fragmento donde aparece lo buscado
+//   y, si procede, los apartados del texto que coinciden.
+// - De 20 en 20, con «Ver más».
+// - Al abrir un resultado, el texto muestra resaltadas las palabras buscadas
+//   (?resaltar=…; ver src/components/ResaltadoBusqueda.astro).
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
@@ -7,255 +17,420 @@ import Header from '../components/Header.astro';
 <!doctype html>
 <html lang="es">
 	<head>
-		<BaseHead
-			title="Buscar"
-			description="Buscar en Lotrives."
-		/>
-	
-<style is:global>
-	.page {
-		max-width: 700px;
-		margin: 0 auto;
-		padding: 4rem 1.5rem;
-	}
-	h1 {
-		margin: 0 0 2rem;
-		font-size: 2.5rem;
-		line-height: 1;
-	}
-	.b-card {
-		border: 1px solid #e0e0e0;
-		border-radius: 4px;
-		padding: 1rem 1.2rem;
-		margin-bottom: 0.8rem;
-	}
-	.b-card:hover { border-color: #aaa; }
-	.b-card-header {
-		display: flex;
-		align-items: baseline;
-		gap: 0.5em;
-		margin-bottom: 0.25rem;
-	}
-	.b-card-header a {
-		font-size: 1.05rem;
-		font-weight: 600;
-		color: #3273dc;
-		text-decoration: none;
-	}
-	.b-card-header a:hover { text-decoration: underline; }
-	.b-type {
-		font-size: 0.7em;
-		color: #fff;
-		background: #888;
-		border-radius: 3px;
-		padding: 1px 6px;
-		white-space: nowrap;
-	}
-	.b-date {
-		font-size: 0.75rem;
-		color: #aaa;
-		margin-bottom: 0.5rem;
-		white-space: nowrap;
-	}
-
-	.b-date-short {
-		display: none;
-	}
-
-	@media (max-width: 560px) {
-		.b-date-long {
-			display: none;
-		}
-
-		.b-date-short {
-			display: inline;
-		}
-	}
-	.b-excerpt {
-		font-size: 0.875rem;
-		color: #555;
-		line-height: 1.55;
-		margin-bottom: 0.6rem;
-	}
-	.b-excerpt mark {
-		background: #ffeaa0;
-		border-radius: 2px;
-		padding: 0 2px;
-	}
-	.b-tags {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.35rem;
-		margin-top: 0.25rem;
-	}
-	.b-tag {
-		font-size: 0.72rem;
-		color: #555;
-		background: #f0f0f0;
-		border-radius: 3px;
-		padding: 2px 7px;
-		white-space: nowrap;
-	}
-	.b-tag mark {
-		background: #ffeaa0;
-		border-radius: 2px;
-		padding: 0 1px;
-	}
-	.b-nada { font-style: italic; color: #888; }
-</style>
+		<BaseHead title="Buscar" description="Buscar en Lotrives." />
 	</head>
 	<body>
 		<Header />
 		<main>
-			<section class="page">
+			<section class="buscar">
 				<h1>Buscar</h1>
 
-				<input type="search" id="buscador-q" placeholder="Busca títulos, textos, etiquetas…" autocomplete="off" disabled style="width:100%;max-width:480px;padding:0.75rem 1rem;font-size:1rem;box-sizing:border-box;margin-top:1rem;">
+				<form id="buscador-form" role="search" action="/buscar/" method="get">
+					<label for="buscador-q" class="visualmente-oculto">Buscar en Lotrives</label>
+					<input
+						type="search"
+						id="buscador-q"
+						name="q"
+						placeholder="Títulos, nombres, lugares, temas…"
+						autocomplete="off"
+						spellcheck="false"
+						disabled
+					/>
+				</form>
 
-				<div id="buscador-status" style="font-size:0.8rem;color:#888;margin:0.75rem 0 1rem;min-height:1.2em;"></div>
-				<div id="buscador-results"></div>
+				<p id="buscador-estado" class="estado" aria-live="polite"></p>
+				<div id="buscador-resultados" class="resultados"></div>
+				<button id="buscador-mas" class="ver-mas" type="button" hidden>Ver más</button>
 			</section>
 		</main>
 		<Footer />
 
-		<script type="module" is:inline>
-		(function () {
-			var pagefind;
-			var searchVersion = 0;
+		<script is:inline>
+			(function () {
+				var POR_PAGINA = 20;
+				var MAX_APARTADOS = 3;
 
-			var input = document.getElementById('buscador-q');
-			var status = document.getElementById('buscador-status');
-			var results = document.getElementById('buscador-results');
+				var form = document.getElementById('buscador-form');
+				var input = document.getElementById('buscador-q');
+				var estado = document.getElementById('buscador-estado');
+				var lista = document.getElementById('buscador-resultados');
+				var botonMas = document.getElementById('buscador-mas');
 
-			function esc(str) {
-				return String(str || '')
-					.replace(/&/g, '&amp;')
-					.replace(/</g, '&lt;')
-					.replace(/>/g, '&gt;')
-					.replace(/"/g, '&quot;');
-			}
+				var pagefind = null;
+				var version = 0;
+				var resultados = [];
+				var mostrados = 0;
+				var temporizador = 0;
 
-			function fmtDate(raw, compact) {
-				if (!raw) return '';
-
-				var d = new Date(raw);
-				if (Number.isNaN(d.getTime())) return raw;
-
-				return d.toLocaleDateString('es-ES', {
-					year: 'numeric',
-					month: compact ? 'short' : 'long',
-					day: 'numeric'
-				})
-					.replace(/\./g, '')
-					.replace(/\bsept\b/, 'sep');
-			}
-
-			function renderCards(items) {
-				return items.map(function (p) {
-					var meta = p.meta || {};
-					var type = meta.type || '';
-
-					var typeTag = (type === 'nota' || type === 'página')
-						? '<span class="b-type">' + esc(type) + '</span>'
-						: '';
-
-					var tagsHtml = meta.tags
-						? String(meta.tags).split(', ').map(function (tag) {
-							return '<span class="b-tag">' + esc(tag.trim()) + '</span>';
-						}).join('')
-						: '';
-
-					var excerptHtml = p.excerpt || esc(meta.excerpt || '');
-
-					return '<div class="b-card">' +
-						'<div class="b-card-header"><a href="' + esc(p.url) + '">' +
-							esc(meta.title || '') +
-						'</a>' + (typeTag ? ' ' + typeTag : '') + '</div>' +
-						(meta.date_iso
-							? '<div class="b-date">' +
-								'<span class="b-date-long">' + esc(fmtDate(meta.date_iso, false)) + '</span>' +
-								'<span class="b-date-short">' + esc(fmtDate(meta.date_iso, true)) + '</span>' +
-							  '</div>'
-							: '') +
-						'<div class="b-excerpt">' + excerptHtml + '</div>' +
-						(tagsHtml ? '<div class="b-tags">' + tagsHtml + '</div>' : '') +
-					'</div>';
-				}).join('');
-			}
-
-			async function search(query) {
-				var q = query.trim();
-				var version = ++searchVersion;
-
-				if (!q) {
-					results.innerHTML = '';
-					status.innerHTML = '';
-					return;
+				// Igual que slugify en src/utils/etiquetas.ts: tiene que dar las mismas direcciones.
+				var LETRAS = { 'ł': 'l', 'Ł': 'l', 'ß': 'ss', 'ẞ': 'ss', 'ø': 'o', 'Ø': 'o', 'æ': 'ae', 'Æ': 'ae',
+					'œ': 'oe', 'Œ': 'oe', 'đ': 'd', 'Đ': 'd', 'ð': 'd', 'Ð': 'd', 'þ': 'th', 'Þ': 'th', 'ı': 'i' };
+				function slugify(texto) {
+					return String(texto)
+						.replace(/[łŁßẞøØæÆœŒđĐðÐþÞı]/g, function (c) { return LETRAS[c]; })
+						.normalize('NFD')
+						.replace(/[̀-ͯ]/g, '')
+						.toLowerCase()
+						.trim()
+						.replace(/[^a-z0-9]+/g, '-')
+						.replace(/^-+|-+$/g, '');
 				}
 
-				status.innerHTML = 'Buscando…';
+				function esc(texto) {
+					return String(texto == null ? '' : texto)
+						.replace(/&/g, '&amp;')
+						.replace(/</g, '&lt;')
+						.replace(/>/g, '&gt;')
+						.replace(/"/g, '&quot;');
+				}
 
-				try {
-					var response = await pagefind.search(q);
+				function fechaLarga(iso) {
+					if (!iso) return '';
+					var d = new Date(iso + 'T00:00:00Z');
+					if (isNaN(d.getTime())) return '';
+					return d.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+				}
 
-					if (version !== searchVersion) return;
+				function tarjeta(r) {
+					var meta = r.meta || {};
+					var etiquetas = (meta.antetitulo || '').split('|').filter(Boolean);
+					var html = '<article class="tarjeta"><div class="tarjeta-contenido">';
 
-					var n = response.results.length;
+					if (etiquetas.length) {
+						html += '<ul class="antetitulo" aria-label="Etiquetas">' + etiquetas.map(function (nombre) {
+							return '<li><a href="/etiquetas/' + slugify(nombre) + '/">' + esc(nombre) + '</a></li>';
+						}).join('') + '</ul>';
+					}
 
-					if (!n) {
-						status.innerHTML = '0 resultados para "<strong>' + esc(q) + '</strong>"';
-						results.innerHTML = '<p class="b-nada">No se encontró nada.</p>';
+					html += '<h2 class="tarjeta-titulo"><a href="' + esc(r.url) + '">' + esc(meta.title || r.url) + '</a></h2>';
+
+					if (meta.fecha) {
+						html += '<p class="tarjeta-fecha"><time datetime="' + esc(meta.fecha) + '">' + esc(fechaLarga(meta.fecha)) + '</time></p>';
+					} else {
+						html += '<p class="tarjeta-fecha">Página</p>';
+					}
+
+					if (r.excerpt) {
+						// El fragmento lo da Pagefind ya escapado, con <mark> en lo buscado.
+						html += '<p class="tarjeta-fragmento">…' + r.excerpt + '…</p>';
+					}
+
+					// Apartados: solo los que llevan a una sección concreta (#ancla), no al principio del texto.
+					var apartados = (r.sub_results || []).filter(function (s) {
+						return s.url && s.url.indexOf('#') !== -1 && s.title && s.title !== meta.title;
+					}).slice(0, MAX_APARTADOS);
+
+					if (apartados.length) {
+						html += '<ul class="tarjeta-apartados" aria-label="Apartados donde aparece">' + apartados.map(function (s) {
+							return '<li><a href="' + esc(s.url) + '">' + esc(s.title) + '</a>' +
+								(s.excerpt ? '<span class="apartado-fragmento"> — …' + s.excerpt + '…</span>' : '') + '</li>';
+						}).join('') + '</ul>';
+					}
+
+					return html + '</div></article>';
+				}
+
+				// Antetítulo en una sola línea, como en TarjetaTexto.astro: las etiquetas que
+				// saltarían a la segunda línea se ocultan, desde la primera que no cabe.
+				function ajustarAntetitulos() {
+					lista.querySelectorAll('.antetitulo').forEach(function (ul) {
+						var items = Array.prototype.slice.call(ul.children);
+						items.forEach(function (li) { li.hidden = false; });
+						ul.classList.add('ajustado');
+						var primeraFila = items[0] ? items[0].offsetTop : 0;
+						var cae = false;
+						items.slice(1).forEach(function (li) {
+							if (cae || li.offsetTop > primeraFila) {
+								cae = true;
+								li.hidden = true;
+							}
+						});
+					});
+				}
+
+				function textoEstado(n, q) {
+					if (!n) return 'No se ha encontrado nada para «' + esc(q) + '».';
+					return n + (n === 1 ? ' resultado' : ' resultados') + ' para «' + esc(q) + '»';
+				}
+
+				async function mostrarMas(v) {
+					var lote = resultados.slice(mostrados, mostrados + POR_PAGINA);
+					botonMas.disabled = true;
+					var datos = await Promise.all(lote.map(function (r) { return r.data(); }));
+					if (v !== version) return;
+					lista.insertAdjacentHTML('beforeend', datos.map(tarjeta).join(''));
+					mostrados += lote.length;
+					botonMas.hidden = mostrados >= resultados.length;
+					botonMas.disabled = false;
+					ajustarAntetitulos();
+				}
+
+				function ponerEnLaDireccion(q) {
+					var url = q ? '/buscar/?q=' + encodeURIComponent(q) : '/buscar/';
+					if (location.pathname + location.search !== url) history.replaceState(null, '', url);
+				}
+
+				async function buscar(texto) {
+					var q = texto.trim();
+					var v = ++version;
+					ponerEnLaDireccion(q);
+
+					if (!q) {
+						resultados = [];
+						mostrados = 0;
+						lista.innerHTML = '';
+						estado.innerHTML = '';
+						botonMas.hidden = true;
+						document.title = 'Buscar';
 						return;
 					}
 
-					var items = await Promise.all(
-						response.results.map(function (result) {
-							return result.data();
-						})
-					);
-
-					if (version !== searchVersion) return;
-
-					status.innerHTML = n + ' resultado' + (n !== 1 ? 's' : '') +
-						' para "<strong>' + esc(q) + '</strong>"';
-					results.innerHTML = renderCards(items);
-				} catch (error) {
-					console.error(error);
-
-					if (version !== searchVersion) return;
-
-					status.innerHTML = 'Error al realizar la búsqueda.';
-					results.innerHTML = '';
+					estado.innerHTML = 'Buscando…';
+					try {
+						var respuesta = await pagefind.search(q);
+						if (v !== version) return;
+						resultados = respuesta.results;
+						mostrados = 0;
+						lista.innerHTML = '';
+						document.title = q + ' · Buscar';
+						estado.innerHTML = textoEstado(resultados.length, q);
+						botonMas.hidden = true;
+						if (resultados.length) await mostrarMas(v);
+					} catch (error) {
+						console.error(error);
+						if (v !== version) return;
+						estado.innerHTML = 'Error al buscar.';
+					}
 				}
-			}
 
-			async function init() {
-				try {
-					pagefind = await import('/pagefind/pagefind.js');
-					await pagefind.init();
+				input.addEventListener('input', function () {
+					clearTimeout(temporizador);
+					temporizador = setTimeout(function () { buscar(input.value); }, 250);
+				});
 
+				form.addEventListener('submit', function (e) {
+					e.preventDefault();
+					clearTimeout(temporizador);
+					buscar(input.value);
+					input.blur(); // en el móvil, cierra el teclado
+				});
+
+				botonMas.addEventListener('click', function () { mostrarMas(version); });
+
+				var pendiente = 0;
+				window.addEventListener('resize', function () {
+					cancelAnimationFrame(pendiente);
+					pendiente = requestAnimationFrame(ajustarAntetitulos);
+				});
+
+				(async function iniciar() {
+					try {
+						pagefind = await import('/pagefind/pagefind.js');
+						await pagefind.options({
+							highlightParam: 'resaltar',
+							excerptLength: 30,
+							// Peso de cada metadato (ver BlogPost.astro y Page.astro):
+							// título > etiquetas > entradilla > cuerpo del texto (1).
+							ranking: {
+								metaWeights: { title: 10, etiquetas: 4, entradilla: 2, alias: 1, fecha: 1, antetitulo: 0 },
+							},
+						});
+						await pagefind.init();
+					} catch (error) {
+						console.error(error);
+						estado.innerHTML = 'No se ha podido cargar el buscador.';
+						return;
+					}
 					input.disabled = false;
-					input.focus();
-					status.innerHTML = '';
-				} catch (error) {
-					console.error(error);
-					status.innerHTML = 'Error al cargar el buscador.';
-				}
-			}
-
-			var timer;
-
-			input.addEventListener('input', function (e) {
-				clearTimeout(timer);
-
-				timer = setTimeout(function () {
-					search(e.target.value);
-				}, 250);
-			});
-
-			init();
-		})();
+					var inicial = new URLSearchParams(location.search).get('q') || '';
+					if (inicial) {
+						input.value = inicial;
+						buscar(inicial);
+					} else {
+						input.focus();
+					}
+				})();
+			})();
 		</script>
 	</body>
 </html>
 
+<style is:global>
+	.buscar {
+		max-width: 700px;
+		margin: 0 auto;
+		padding: 2.5rem 1.5rem 4rem;
+	}
+	.buscar h1 {
+		margin: 0 0 1.2rem;
+		font-size: 2.25rem;
+		line-height: 1.1;
+	}
+	.visualmente-oculto {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0 0 0 0);
+		white-space: nowrap;
+	}
+	#buscador-q {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0.7rem 0.9rem;
+		font: inherit;
+		font-size: 1.05rem;
+		color: rgb(var(--black));
+		background: transparent;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 4px;
+	}
+	#buscador-q:focus {
+		outline: none;
+		border-color: var(--accent);
+	}
+	.buscar .estado {
+		margin: 0.8rem 0 0.4rem;
+		min-height: 1.2em;
+		font-size: 0.85em;
+		color: rgb(var(--gray));
+	}
+
+	/* Tarjetas: mismo aspecto que src/components/TarjetaTexto.astro (sin foto). */
+	.resultados .tarjeta {
+		padding: 1.4rem 0;
+		border-top: 1px solid rgb(var(--gray-light));
+	}
+	.resultados .tarjeta:first-child {
+		border-top: none;
+	}
+	.resultados .antetitulo {
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+		margin: 0 0 0.35rem;
+		padding: 0;
+		font-size: 0.63em;
+		letter-spacing: 0.09em;
+		text-transform: uppercase;
+		line-height: 1.6;
+		max-height: 1.6em;
+		overflow: hidden;
+	}
+	.resultados .antetitulo.ajustado {
+		max-height: none;
+		overflow: visible;
+	}
+	.resultados .antetitulo li {
+		white-space: nowrap;
+		min-width: 0;
+	}
+	.resultados .antetitulo li:first-child {
+		max-width: 100%;
+	}
+	.resultados .antetitulo li:first-child a {
+		max-width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		vertical-align: top;
+	}
+	.resultados .antetitulo li + li::before {
+		content: '·';
+		content: '·' / '';
+		margin: 0 0.6em;
+		color: rgb(var(--gray));
+	}
+	.resultados .antetitulo a {
+		display: inline-block;
+		padding: 0.45em 0;
+		margin: -0.45em 0;
+		color: rgb(var(--gray));
+		text-decoration: none;
+		transition: color 0.15s;
+	}
+	.resultados .antetitulo a:hover,
+	.resultados .antetitulo a:active,
+	.resultados .antetitulo a:focus-visible {
+		color: var(--accent);
+	}
+	@media (hover: none) {
+		.resultados .antetitulo a {
+			color: color-mix(in srgb, var(--accent) 55%, rgb(var(--gray)));
+		}
+	}
+	.resultados .tarjeta-titulo {
+		margin: 0;
+		font-size: 1.15em;
+		font-weight: 700;
+		line-height: 1.3;
+	}
+	.resultados .tarjeta-titulo a {
+		color: rgb(var(--black));
+		text-decoration: none;
+	}
+	.resultados .tarjeta-titulo a:hover {
+		color: var(--accent);
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
+	.resultados .tarjeta-fecha {
+		margin: 0.25em 0 0;
+		font-size: 0.78em;
+		color: rgb(var(--gray));
+	}
+	.resultados .tarjeta-fragmento {
+		margin: 0.45em 0 0;
+		font-size: 0.92em;
+		color: rgb(var(--gray));
+		line-height: 1.5;
+	}
+	.resultados mark {
+		background: #ffeaa0;
+		color: rgb(var(--black));
+		border-radius: 2px;
+		padding: 0 1px;
+	}
+	.resultados .tarjeta-apartados {
+		list-style: none;
+		margin: 0.6em 0 0;
+		padding: 0 0 0 0.8em;
+		border-left: 2px solid rgb(var(--gray-light));
+		font-size: 0.85em;
+		line-height: 1.45;
+	}
+	.resultados .tarjeta-apartados li + li {
+		margin-top: 0.35em;
+	}
+	.resultados .tarjeta-apartados a {
+		color: rgb(var(--black));
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		text-decoration-color: rgb(var(--gray-light));
+	}
+	.resultados .tarjeta-apartados a:hover {
+		color: var(--accent);
+		text-decoration-color: var(--accent);
+	}
+	.resultados .apartado-fragmento {
+		color: rgb(var(--gray));
+	}
+	.buscar .ver-mas {
+		display: block;
+		margin: 1.5rem auto 0;
+		padding: 0.6rem 1.4rem;
+		font: inherit;
+		font-size: 0.9em;
+		color: var(--accent);
+		background: transparent;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 4px;
+		cursor: pointer;
+	}
+	.buscar .ver-mas:hover {
+		border-color: var(--accent);
+	}
+	.buscar .ver-mas[hidden] {
+		display: none;
+	}
+</style>
