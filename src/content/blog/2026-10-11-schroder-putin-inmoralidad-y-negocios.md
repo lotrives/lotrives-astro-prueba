@@ -23,12 +23,13 @@ Vladímir Putin nació el 7 de octubre de 1952 en Leningrado, actual San Petersb
 
 El texto original distribuido por el Kremlin en Telegram, con ocasión del encuentro Putin-Schröder, traducido del ruso, dice: 
 
->«Vladímir Putin se enteró la víspera por la mañana, a través de informaciones de los medios de comunicación, de que Gerhard Schröder se encontraba en Moscú, adonde había llegado por asuntos de la empresa “Globus”.  
->»El presidente invitó a su viejo amigo a su casa. Gerhard Schröder estuvo con Vladímir Putin ayer, cuando el jefe del Estado celebraba su cumpleaños».[^1]
+>«Vladímir Putin se enteró la víspera por la mañana [7 de octubre de 2026], a través de informaciones de los medios de comunicación, de que Gerhard Schröder se encontraba en Moscú, a donde había llegado por asuntos de la empresa “Globus”.
+>
+>»El presidente invitó a su viejo amigo a su casa. Gerhard Schröder estuvo con Vladímir Putin ayer [7 de octubre de 2026], cuando el jefe del Estado celebraba su cumpleaños».[^1]
 
-Observemos esas fotos. Schröder y Putin sonríen, más el alemán que el ruso. Se dan un fuerte y significativo apretón de manos. Un samovar y un caballito adornan la estufa de la estancia donde se encontraban. Según Friedrich Schmidt, periodista del [*Frankfurter Allgemeine Zeitung* (*FAZ*)](https://www.faz.net/aktuell/politik/ukraine/schroeder-feiert-mit-putin-mehr-als-ein-treffen-alter-freunde-201302283.html), podría tratarse de la residencia de Putin en las colinas de Valdái, entre Moscú y San Petersburgo.  
+Observemos esas fotos. Schröder y Putin sonríen, más el alemán que el ruso. Se dan un fuerte y significativo apretón de manos. Un samovar y un caballito adornan la estufa de la estancia donde se encontraban. Según Friedrich Schmidt, periodista del [*Frankfurter Allgemeine Zeitung* (*FAZ*)](https://www.faz.net/aktuell/politik/ukraine/schroeder-feiert-mit-putin-mehr-als-ein-treffen-alter-freunde-201302283.html), podría tratarse de una residencia de Putin en las colinas de Valdái (Валдай), entre Moscú y San Petersburgo.  
 
-Cuando se reunieron, recordaba también Friedrich Schmidt, «ya se sabía que las fuerzas armadas rusas habían atacado de nuevo Ucrania con misiles y drones durante la noche del cumpleaños de Putin. Solo en [Priluki](https://www.president.gov.ua/en/news/u-prilukah-prezident-razom-iz-ministrom-zakordonnih-sprav-ve-106789), en la región de Chernígov, murieron, según las autoridades, 22 personas, entre ellas cinco niños, cuando misiles de crucero destruyeron un edificio de viviendas».
+Cuando se reunieron, recordaba también Friedrich Schmidt, «ya se sabía que las fuerzas armadas rusas habían atacado de nuevo Ucrania con misiles y drones». Fue en la noche del 6 al 7 de octubre de 2026. Solo en [Priluki](https://www.president.gov.ua/en/news/u-prilukah-prezident-razom-iz-ministrom-zakordonnih-sprav-ve-106789) (Прилуки), en la región de Chernígov (Чернигов), murieron, según las autoridades, 22 personas, entre ellas cinco niños, cuando un misil de crucero ruso destruyó un edificio de viviendas».
 
 ## Globus e Hyperglobus
 
@@ -42,17 +43,17 @@ Comenta Friedrich Schmidt: «Eso [la administración temporal] también debería
 
 Gerhard Schröder siempre ha mantenido una estrecha amistad con Putin, que se ha traducido en gestiones a favor de empresas energéticas rusas. Desde la invasión a gran escala de Ucrania, en febrero de 2022, se ha reunido con él en repetidas ocasiones.
 
-[Nord Stream](https://es.wikipedia.org/w/index.php?title=Nord_Stream&oldid=170061189) es un sistema de gasoductos submarinos construido para llevar gas de Rusia a Alemania por el mar Báltico. Nord Stream 1 comenzó a funcionar en 2011. Alemania suspendió la certificación de Nord Stream 2 en febrero de 2022 y, en septiembre de ese año, varios sabotajes dañaron gravemente ambos gasoductos, que desde entonces no transportan gas. Schröder impulsó Nord Stream 1 durante su etapa como canciller y después presidió el comité de accionistas de Nord Stream AG y el consejo de administración de Nord Stream 2 AG. Entre 2017 y 2022 presidió también el consejo de administración de la petrolera rusa Rosneft.
+[Nord Stream](https://es.wikipedia.org/w/index.php?title=Nord_Stream&oldid=170061189) es un sistema de gasoductos submarinos construido para llevar gas de Rusia a Alemania por el mar Báltico. Nord Stream 1 comenzó a funcionar en 2011. Alemania suspendió la certificación de Nord Stream 2 en febrero de 2022. En septiembre de ese año, varios sabotajes dañaron gravemente ambos gasoductos. Desde entonces no transportan gas. Schröder impulsó Nord Stream 1 durante su etapa como canciller y después presidió el comité de accionistas de Nord Stream AG y el consejo de administración de Nord Stream 2 AG. Entre 2017 y 2022 presidió también el consejo de administración de la petrolera rusa Rosneft.
 
-Reinhard Müller subraya en una columna de opinión en el [*FAZ*](https://www.faz.net/aktuell/politik/inland/gerhard-schroeder-nuetzlicher-idiot-moskaus-201302615.html): «Este juego indigno [la foto de Schröder con Putin] sucede en una época ya de por sí cargada de tensiones, en la que se descalifica globalmente a los políticos. Schröder se enriquece, pero daña el cargo institucional [de canciller de Alemania] y al país. Su lugar está en Moscú. Allí es donde debe estar». 
+Reinhard Müller subraya en una columna de opinión en el [*FAZ*](https://www.faz.net/aktuell/politik/inland/gerhard-schroeder-nuetzlicher-idiot-moskaus-201302615.html): «Este juego indigno [las fotos de Schröder con Putin] sucede en una época ya de por sí cargada de tensiones, en la que se descalifica globalmente a los políticos. Schröder se enriquece, pero daña el cargo institucional [de canciller de Alemania] y al país. Su lugar se sitúa en Moscú. Allí es donde debe estar». 
 
 ## «Terco, viejo y estrambótico»
 
 El enfado con Schröder en Alemania es grande, empezando por el actual canciller, Friedrich Merz. Como dice [Markus Söder](https://www.tagesschau.de/inland/innenpolitik/russland-altkanzler-schroeder-putin-geburtstag-kritik-100.html), líder de la [CSU](https://es.wikipedia.org/w/index.php?title=Unión_Social_Cristiana_de_Baviera&oldid=175502396) y ministro-presidente de Baviera, Gerhard Schröder es un «hombre terco, viejo y estrambótico, para quien su cuenta bancaria es más importante que el prestigio de Alemania».
 
-Entre las voces que lo defienden y he podido detectar está Ralf Stegner, del mismo partido que Schröder, el [SPD](https://es.wikipedia.org/w/index.php?title=Partido_Socialdemócrata_de_Alemania&oldid=175572124). Sostiene que el excanciller es uno de los pocos políticos con acceso a Putin y que, si la visita sirve para la paz, aunque sea muy poco, habrá sido un éxito.
+Entre las voces que defienden al excanciller y he podido detectar se cuenta Ralf Stegner, del mismo partido que Schröder, el [SPD](https://es.wikipedia.org/w/index.php?title=Partido_Socialdemócrata_de_Alemania&oldid=175572124). Stegner opina  que Gerhard Schröder es uno de los pocos políticos con acceso a Putin y que si la visita ha servido para la paz, aunque sea muy poco, se justifica.
 
-Es difícil pensar como Stegner a la vista de los acontecimientos, el último, los 22 muertos de Priluki la misma noche del cumpleaños, pero concedámosle el beneficio de la duda.
+Es difícil pensar como Stegner a la vista de los acontecimientos. El último, los 22 muertos de Priluki en la noche del 6 al 7 de octubre de 2026. ¿Le concedemos el beneficio de la duda y aceptamos que Schröder busca la paz en sus citas con Putin?
 
 [^1]: En el original ruso: «Владимир Путин накануне утром из сообщений СМИ узнал, что в Москве находится Герхард Шрёдер, который приехал по делам компании "Глобус".
 »Президент пригласил своего старого друга к себе домой. Герхард Шрёдер был вместе с Владимиром Путиным, когда глава государства отмечал вчера свой день рождения».
