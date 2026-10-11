@@ -9,6 +9,10 @@
 // Este script añade a cada página, solo dentro del índice, variantes de los nombres con
 // letras no latinas o con convenciones de transliteración distintas (Zelenski/Zelensky,
 // Müller/Mueller), para que se encuentren se escriban como se escriban.
+//
+// También aplica las equivalencias de src/data/equivalencias-buscador.json: si un texto
+// menciona «Ratzinger», se le añade «Benedicto XVI» (y al revés), de modo que buscar
+// cualquiera de las dos formas lo encuentra. Esa lista la puede ampliar el autor.
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -17,6 +21,7 @@ import * as pagefind from 'pagefind';
 import anyAscii from 'any-ascii';
 
 const DIST = fileURLToPath(new URL('../dist/', import.meta.url));
+const EQUIVALENCIAS = new URL('../src/data/equivalencias-buscador.json', import.meta.url);
 const OUTPUT_DIR = path.join(DIST, 'pagefind');
 
 // ---------------------------------------------------------------------------
@@ -103,6 +108,37 @@ function buildAliases(text) {
 }
 
 // ---------------------------------------------------------------------------
+// Equivalencias
+
+const normalizar = (s) => foldDiacritics(s).toLowerCase();
+const escaparRegex = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+// Cada grupo: [{ forma, patron }] — el patrón busca la forma como palabra o frase completa.
+const gruposEquivalencias = JSON.parse(await fs.readFile(EQUIVALENCIAS, 'utf8')).map((grupo) =>
+	grupo.map((forma) => ({
+		forma,
+		patron: new RegExp(
+			'(?<![\\p{L}\\p{N}])' +
+				normalizar(forma).trim().split(/\s+/).map(escaparRegex).join('\\s+') +
+				'(?![\\p{L}\\p{N}])',
+			'u',
+		),
+	})),
+);
+
+/** Formas equivalentes que el texto no contiene pero que deben encontrarlo. */
+function equivalenciasDe(texto) {
+	const t = normalizar(texto);
+	const extra = [];
+	for (const grupo of gruposEquivalencias) {
+		const presentes = grupo.filter((e) => e.patron.test(t));
+		if (presentes.length === 0) continue;
+		for (const e of grupo) if (!presentes.includes(e)) extra.push(e.forma);
+	}
+	return extra;
+}
+
+// ---------------------------------------------------------------------------
 // Utilidades
 
 async function* htmlFiles(dir) {
@@ -166,6 +202,7 @@ if (!index) throw new Error('Pagefind no pudo crear el índice.');
 
 let paginas = 0;
 let aliasCount = 0;
+let equivalenciasCount = 0;
 
 // Tabla de equivalencias para la página de búsqueda: si alguien escribe «Hoss»,
 // /buscar/ busca «Höß», de modo que el fragmento y el resaltado marcan la palabra real.
@@ -189,11 +226,12 @@ try {
 			if (clave.length >= 3 && !(clave in tablaAlias)) tablaAlias[clave] = original;
 		}
 
+		const equivalentes = equivalenciasDe(texto);
+		equivalenciasCount += equivalentes.length;
+		const extra = [...aliases.keys(), ...equivalentes].join(' ');
+
 		const content = HUECO_ALIAS.test(html)
-			? html.replace(
-					HUECO_ALIAS,
-					`<span data-pagefind-meta="alias">${escapeHtml([...aliases.keys()].join(' '))}</span>`,
-				)
+			? html.replace(HUECO_ALIAS, `<span data-pagefind-meta="alias">${escapeHtml(extra)}</span>`)
 			: html;
 
 		const url = urlDe(file);
@@ -219,4 +257,5 @@ try {
 
 console.log(`Páginas indexadas: ${paginas}`);
 console.log(`Alias adicionales generados: ${aliasCount} (tabla para /buscar/: ${Object.keys(tablaAlias).length})`);
+console.log(`Equivalencias añadidas: ${equivalenciasCount}`);
 console.log('Índice Pagefind creado en dist/pagefind/');

@@ -8,6 +8,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 <header>
   <nav>
     <div class="brand"><a href={`${base}/`} class="brand-link"><img src={`${base}/favicon.svg`} alt="" width="32" height="32" class="logo-mark" />{SITE_TITLE}</a></div>
+    <!-- Lupa siempre visible en el móvil, junto al menú. En el ordenador, la del menú. -->
+    <a href={`${base}/buscar/`} class="lupa-movil" aria-label="Buscar"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></a>
     <button class="hamburger" id="menu-toggle" aria-label="Abrir menú">
       <span></span>
       <span></span>
@@ -26,7 +28,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           <HeaderLink href={`${base}/contacto/`}>Contacto</HeaderLink>
         </div>
       </details>
-      <HeaderLink href={`${base}/buscar/`}>Buscar</HeaderLink>
+      <HeaderLink href={`${base}/buscar/`} class="enlace-buscar" aria-label="Buscar" title="Buscar (tecla /)"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><span class="texto-buscar">Buscar</span></HeaderLink>
     </div>
   </nav>
 </header>
@@ -134,6 +136,27 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     background: rgb(var(--gray-light));
   }
 
+  /* Buscar: en el ordenador, solo la lupa; en el menú del móvil, lupa y texto. */
+  .internal-links :global(.enlace-buscar) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+  }
+  .internal-links :global(.enlace-buscar svg) {
+    display: block;
+  }
+  .texto-buscar {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .lupa-movil {
+    display: none;
+  }
+
   .hamburger {
     display: none;
     flex-direction: column;
@@ -160,6 +183,23 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
     .hamburger {
       display: flex;
+    }
+
+    .lupa-movil {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      margin-right: 0.4rem;
+      padding: 0.5rem;
+      border-bottom: none;
+    }
+
+    .texto-buscar {
+      position: static;
+      width: auto;
+      height: auto;
+      overflow: visible;
+      clip: auto;
     }
 
     .internal-links {
@@ -231,5 +271,21 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   });
   document.addEventListener('keydown', (e) => {
     if (more && !mq.matches && e.key === 'Escape') more.open = false;
+  });
+
+  // Tecla «/»: abre el buscador (o pone el cursor en él si ya se está en /buscar/),
+  // salvo cuando se está escribiendo en un campo.
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+    const el = e.target as HTMLElement | null;
+    if (el && (el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName))) return;
+    e.preventDefault();
+    const campo = document.getElementById('buscador-q') as HTMLInputElement | null;
+    if (campo) {
+      campo.focus();
+      campo.select();
+    } else {
+      location.href = '/buscar/';
+    }
   });
 </script>

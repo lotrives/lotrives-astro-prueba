@@ -2,11 +2,15 @@
 // Buscador. El índice lo construye scripts/build-pagefind.mjs a partir de las páginas
 // compiladas (textos y páginas estáticas).
 //
-// - La búsqueda queda en la dirección (/buscar/?q=varsovia): se puede enlazar y
+// - La búsqueda y los filtros quedan en la dirección
+//   (/buscar/?q=varsovia&etiqueta=Polonia&epoca=1990&orden=asc): se puede enlazar y
 //   el botón de volver atrás la conserva.
+// - Filtros por etiqueta y por década; orden por relevancia o por fecha.
+// - Si lo buscado coincide con una etiqueta, se ofrece su página arriba.
+// - Frases exactas entre comillas: "estado de bienestar".
+// - Sin resultados: sugerencias (palabra parecida, cada palabra por separado, sin filtros).
 // - Resultados en tarjetas, como la portada, con el fragmento donde aparece lo buscado
-//   y, si procede, los apartados del texto que coinciden.
-// - De 20 en 20, con «Ver más».
+//   y los apartados del texto que coinciden. De 20 en 20, con «Ver más».
 // - Al abrir un resultado, el texto muestra resaltadas las palabras buscadas
 //   (?resaltar=…; ver src/components/ResaltadoBusqueda.astro).
 import BaseHead from '../components/BaseHead.astro';
@@ -36,9 +40,31 @@ import Header from '../components/Header.astro';
 						spellcheck="false"
 						disabled
 					/>
+					<p class="ayuda">Para una frase exacta, escríbela entre comillas: "estado de bienestar".</p>
+
+					<div id="buscador-controles" class="controles" hidden>
+						<label>
+							<span>Etiqueta</span>
+							<select id="f-etiqueta" name="etiqueta"><option value="">Todas</option></select>
+						</label>
+						<label>
+							<span>Época</span>
+							<select id="f-epoca" name="epoca"><option value="">Todas</option></select>
+						</label>
+						<label>
+							<span>Orden</span>
+							<select id="f-orden" name="orden">
+								<option value="">Relevancia</option>
+								<option value="desc">Más recientes</option>
+								<option value="asc">Más antiguos</option>
+							</select>
+						</label>
+					</div>
 				</form>
 
 				<p id="buscador-estado" class="estado" aria-live="polite"></p>
+				<div id="buscador-etiqueta" class="aviso-etiqueta" hidden></div>
+				<div id="buscador-sugerencias" class="sugerencias" hidden></div>
 				<div id="buscador-resultados" class="resultados"></div>
 				<button id="buscador-mas" class="ver-mas" type="button" hidden>Ver más</button>
 			</section>
@@ -52,7 +78,13 @@ import Header from '../components/Header.astro';
 
 				var form = document.getElementById('buscador-form');
 				var input = document.getElementById('buscador-q');
+				var controles = document.getElementById('buscador-controles');
+				var selEtiqueta = document.getElementById('f-etiqueta');
+				var selEpoca = document.getElementById('f-epoca');
+				var selOrden = document.getElementById('f-orden');
 				var estado = document.getElementById('buscador-estado');
+				var avisoEtiqueta = document.getElementById('buscador-etiqueta');
+				var sugerencias = document.getElementById('buscador-sugerencias');
 				var lista = document.getElementById('buscador-resultados');
 				var botonMas = document.getElementById('buscador-mas');
 
@@ -61,29 +93,14 @@ import Header from '../components/Header.astro';
 				var resultados = [];
 				var mostrados = 0;
 				var temporizador = 0;
-				// Variantes de transliteración → palabra real (Hoss → Höß); la genera
-				// scripts/build-pagefind.mjs. Si no carga, se busca tal cual.
-				var tablaAlias = {};
 
-				function conFormaReal(q) {
-					return q.replace(/[\p{L}'’]+/gu, function (palabra) {
-						return tablaAlias[palabra.toLowerCase()] || palabra;
-					});
-				}
+				// Cargados al iniciar.
+				var tablaAlias = {}; // variante → palabra real (Hoss → Höß); scripts/build-pagefind.mjs
+				var etiquetas = []; // [{ n: nombre, s: slug, t: entradas }]; /buscar-etiquetas.json
+				var aniosTotales = {}; // año → número de entradas
 
-				// Igual que slugify en src/utils/etiquetas.ts: tiene que dar las mismas direcciones.
-				var LETRAS = { 'ł': 'l', 'Ł': 'l', 'ß': 'ss', 'ẞ': 'ss', 'ø': 'o', 'Ø': 'o', 'æ': 'ae', 'Æ': 'ae',
-					'œ': 'oe', 'Œ': 'oe', 'đ': 'd', 'Đ': 'd', 'ð': 'd', 'Ð': 'd', 'þ': 'th', 'Þ': 'th', 'ı': 'i' };
-				function slugify(texto) {
-					return String(texto)
-						.replace(/[łŁßẞøØæÆœŒđĐðÐþÞı]/g, function (c) { return LETRAS[c]; })
-						.normalize('NFD')
-						.replace(/[̀-ͯ]/g, '')
-						.toLowerCase()
-						.trim()
-						.replace(/[^a-z0-9]+/g, '-')
-						.replace(/^-+|-+$/g, '');
-				}
+				// ------------------------------------------------------------------
+				// Utilidades
 
 				function esc(texto) {
 					return String(texto == null ? '' : texto)
@@ -93,6 +110,10 @@ import Header from '../components/Header.astro';
 						.replace(/"/g, '&quot;');
 				}
 
+				function plano(texto) {
+					return String(texto).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+				}
+
 				function fechaLarga(iso) {
 					if (!iso) return '';
 					var d = new Date(iso + 'T00:00:00Z');
@@ -100,16 +121,138 @@ import Header from '../components/Header.astro';
 					return d.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 				}
 
+				function urlEtiqueta(nombre) {
+					var e = etiquetas.find(function (x) { return x.n === nombre; });
+					return e ? '/etiquetas/' + e.s + '/' : null;
+				}
+
+				function conFormaReal(q) {
+					return q.replace(/[\p{L}'’]+/gu, function (palabra) {
+						return tablaAlias[palabra.toLowerCase()] || palabra;
+					});
+				}
+
+				function distancia(a, b) {
+					if (Math.abs(a.length - b.length) > 2) return 99;
+					var prev = [];
+					for (var j = 0; j <= b.length; j++) prev[j] = j;
+					for (var i = 1; i <= a.length; i++) {
+						var actual = [i];
+						for (var k = 1; k <= b.length; k++) {
+							actual[k] = Math.min(prev[k] + 1, actual[k - 1] + 1, prev[k - 1] + (a[i - 1] === b[k - 1] ? 0 : 1));
+						}
+						prev = actual;
+					}
+					return prev[b.length];
+				}
+
+				function decadaDe(anio) {
+					return String(Math.floor(Number(anio) / 10) * 10);
+				}
+
+				function etiquetaDecada(d) {
+					return d + '–' + (Number(d) + 9);
+				}
+
+				// ------------------------------------------------------------------
+				// Estado en la dirección
+
+				function leerDireccion() {
+					var p = new URLSearchParams(location.search);
+					input.value = p.get('q') || '';
+					ponerValor(selEtiqueta, p.get('etiqueta') || '');
+					ponerValor(selEpoca, p.get('epoca') || '');
+					selOrden.value = ['asc', 'desc'].indexOf(p.get('orden')) !== -1 ? p.get('orden') : '';
+				}
+
+				function escribirDireccion() {
+					var p = new URLSearchParams();
+					if (input.value.trim()) p.set('q', input.value.trim());
+					if (selEtiqueta.value) p.set('etiqueta', selEtiqueta.value);
+					if (selEpoca.value) p.set('epoca', selEpoca.value);
+					if (selOrden.value) p.set('orden', selOrden.value);
+					var url = '/buscar/' + (p.toString() ? '?' + p.toString() : '');
+					if (location.pathname + location.search !== url) history.replaceState(null, '', url);
+				}
+
+				// Un <select> solo acepta valores que tenga como opción: si aún no la tiene, se crea.
+				function ponerValor(sel, valor) {
+					if (valor && !Array.prototype.some.call(sel.options, function (o) { return o.value === valor; })) {
+						var o = document.createElement('option');
+						o.value = valor;
+						o.textContent = sel === selEpoca ? etiquetaDecada(valor) : valor;
+						sel.appendChild(o);
+					}
+					sel.value = valor;
+				}
+
+				// ------------------------------------------------------------------
+				// Filtros
+
+				function filtrosPara(conEtiqueta, conEpoca) {
+					var f = {};
+					if (conEtiqueta && selEtiqueta.value) f.etiqueta = selEtiqueta.value;
+					if (conEpoca && selEpoca.value) {
+						var anios = Object.keys(aniosTotales).filter(function (a) { return decadaDe(a) === selEpoca.value; });
+						f.anio = { any: anios.length ? anios : ['ninguno'] };
+					}
+					return f;
+				}
+
+				// Recuentos de cada opción para la búsqueda actual, sin contar el filtro de ese mismo campo
+				// (para que el desplegable diga cuántos habría al cambiar de etiqueta o de época).
+				async function recuentos(consulta, campo, filtrosSinCampo) {
+					if (!consulta && Object.keys(filtrosSinCampo).length === 0) {
+						if (campo === 'anio') return aniosTotales;
+						var tot = {};
+						etiquetas.forEach(function (e) { tot[e.n] = e.t; });
+						return tot;
+					}
+					var r = await pagefind.search(consulta, { filters: filtrosSinCampo });
+					return (r.filters && r.filters[campo]) || {};
+				}
+
+				function rellenarEtiquetas(cuentas) {
+					var actual = selEtiqueta.value;
+					var opciones = etiquetas
+						.map(function (e) { return { n: e.n, c: cuentas[e.n] || 0 }; })
+						.filter(function (e) { return e.c > 0 || e.n === actual; })
+						.sort(function (a, b) { return b.c - a.c || a.n.localeCompare(b.n, 'es'); });
+					selEtiqueta.innerHTML = '<option value="">Todas</option>' + opciones.map(function (e) {
+						return '<option value="' + esc(e.n) + '">' + esc(e.n) + ' (' + e.c + ')</option>';
+					}).join('');
+					selEtiqueta.value = actual;
+				}
+
+				function rellenarEpocas(cuentasAnio) {
+					var actual = selEpoca.value;
+					var porDecada = {};
+					Object.keys(cuentasAnio).forEach(function (a) {
+						var d = decadaDe(a);
+						porDecada[d] = (porDecada[d] || 0) + (cuentasAnio[a] || 0);
+					});
+					var decadas = Object.keys(porDecada)
+						.filter(function (d) { return porDecada[d] > 0 || d === actual; })
+						.sort();
+					selEpoca.innerHTML = '<option value="">Todas</option>' + decadas.map(function (d) {
+						return '<option value="' + d + '">' + etiquetaDecada(d) + ' (' + (porDecada[d] || 0) + ')</option>';
+					}).join('');
+					selEpoca.value = actual;
+				}
+
+				// ------------------------------------------------------------------
+				// Tarjetas
+
 				function tarjeta(r) {
 					var meta = r.meta || {};
-					var etiquetas = (meta.antetitulo || '').split('|').filter(Boolean);
+					var nombres = (meta.antetitulo || '').split('|').filter(Boolean);
 					var html = '<article class="tarjeta"><div class="tarjeta-contenido">';
 
-					if (etiquetas.length) {
-						html += '<ul class="antetitulo" aria-label="Etiquetas">' + etiquetas.map(function (nombre) {
-							return '<li><a href="/etiquetas/' + slugify(nombre) + '/">' + esc(nombre) + '</a></li>';
-						}).join('') + '</ul>';
-					}
+					var enlaces = nombres.map(function (nombre) {
+						var href = urlEtiqueta(nombre);
+						return href ? '<li><a href="' + href + '">' + esc(nombre) + '</a></li>' : '';
+					}).join('');
+					if (enlaces) html += '<ul class="antetitulo" aria-label="Etiquetas">' + enlaces + '</ul>';
 
 					html += '<h2 class="tarjeta-titulo"><a href="' + esc(r.url) + '">' + esc(meta.title || r.url) + '</a></h2>';
 
@@ -157,12 +300,6 @@ import Header from '../components/Header.astro';
 					});
 				}
 
-				function textoEstado(n, q, consulta) {
-					var lo = '«' + esc(q) + '»' + (consulta !== q ? ' (' + esc(consulta) + ')' : '');
-					if (!n) return 'No se ha encontrado nada para ' + lo + '.';
-					return n + (n === 1 ? ' resultado' : ' resultados') + ' para ' + lo;
-				}
-
 				async function mostrarMas(v) {
 					var lote = resultados.slice(mostrados, mostrados + POR_PAGINA);
 					botonMas.disabled = true;
@@ -175,38 +312,169 @@ import Header from '../components/Header.astro';
 					ajustarAntetitulos();
 				}
 
-				function ponerEnLaDireccion(q) {
-					var url = q ? '/buscar/?q=' + encodeURIComponent(q) : '/buscar/';
-					if (location.pathname + location.search !== url) history.replaceState(null, '', url);
+				// ------------------------------------------------------------------
+				// Etiqueta que coincide con lo buscado
+
+				function etiquetasCoincidentes(q) {
+					var nq = plano(q).replace(/["“”«»]/g, '').trim();
+					if (nq.length < 3) return [];
+					var exactas = etiquetas.filter(function (e) { return plano(e.n) === nq; });
+					if (exactas.length) return exactas;
+					var palabras = nq.split(/\s+/);
+					return etiquetas
+						.filter(function (e) {
+							var suyas = plano(e.n).split(/[^a-z0-9]+/);
+							return palabras.every(function (p) { return suyas.indexOf(p) !== -1; });
+						})
+						.sort(function (a, b) { return b.t - a.t; })
+						.slice(0, 3);
 				}
 
-				async function buscar(texto) {
-					var q = texto.trim();
-					var v = ++version;
-					ponerEnLaDireccion(q);
+				function mostrarAvisoEtiqueta(q) {
+					var coincidentes = q && !selEtiqueta.value ? etiquetasCoincidentes(q) : [];
+					avisoEtiqueta.hidden = coincidentes.length === 0;
+					avisoEtiqueta.innerHTML = coincidentes.map(function (e) {
+						return '<p>Etiqueta <a href="/etiquetas/' + e.s + '/">' + esc(e.n) + '</a> · ' +
+							e.t + (e.t === 1 ? ' entrada' : ' entradas') + '</p>';
+					}).join('');
+				}
 
-					if (!q) {
-						resultados = [];
-						mostrados = 0;
-						lista.innerHTML = '';
-						estado.innerHTML = '';
-						botonMas.hidden = true;
-						document.title = 'Buscar';
+				// ------------------------------------------------------------------
+				// Sugerencias cuando no hay resultados
+
+				var vocabulario = null; // palabra plana → forma escrita, a partir de las etiquetas
+
+				function palabraParecida(palabra) {
+					if (!vocabulario) {
+						vocabulario = {};
+						etiquetas.forEach(function (e) {
+							(e.n.match(/[\p{L}]+/gu) || []).forEach(function (w) {
+								if (w.length >= 4) vocabulario[plano(w)] = w;
+							});
+						});
+					}
+					var p = plano(palabra);
+					if (p.length < 4 || vocabulario[p]) return null;
+					var maximo = p.length <= 5 ? 1 : 2;
+					var mejor = null;
+					var mejorDistancia = maximo + 1;
+					Object.keys(vocabulario).forEach(function (v) {
+						var d = distancia(p, v);
+						if (d < mejorDistancia) {
+							mejorDistancia = d;
+							mejor = vocabulario[v];
+						}
+					});
+					return mejor;
+				}
+
+				function enlaceBusqueda(texto) {
+					return '<a href="/buscar/?q=' + encodeURIComponent(texto) + '" data-q="' + esc(texto) + '">' + esc(texto) + '</a>';
+				}
+
+				async function mostrarSugerencias(q, consulta, v) {
+					var partes = [];
+
+					if (consulta) {
+						var cambiada = consulta.replace(/[\p{L}]+/gu, function (w) { return palabraParecida(w) || w; });
+						if (cambiada !== consulta) {
+							var r = await pagefind.search(cambiada, { filters: filtrosPara(true, true) });
+							if (v !== version) return;
+							if (r.results.length) partes.push('¿Quizá quisiste decir ' + enlaceBusqueda(cambiada) + '?');
+						}
+
+						var palabras = consulta.replace(/["“”]/g, '').split(/\s+/).filter(Boolean);
+						if (palabras.length > 1) {
+							var cuentas = await Promise.all(palabras.map(function (w) {
+								return pagefind.search(w, { filters: filtrosPara(true, true) }).then(function (x) { return x.results.length; });
+							}));
+							if (v !== version) return;
+							var conAlgo = palabras
+								.map(function (w, i) { return cuentas[i] ? enlaceBusqueda(w) + ' (' + cuentas[i] + ')' : ''; })
+								.filter(Boolean);
+							if (conAlgo.length) partes.push('Por separado: ' + conAlgo.join(' · '));
+						}
+					}
+
+					if (selEtiqueta.value || selEpoca.value) {
+						partes.push('<button type="button" class="quitar-filtros">Buscar sin filtros</button>');
+					}
+
+					sugerencias.hidden = partes.length === 0;
+					sugerencias.innerHTML = partes.map(function (p) { return '<p>' + p + '</p>'; }).join('');
+				}
+
+				// ------------------------------------------------------------------
+				// Búsqueda
+
+				function textoEstado(n, q, consulta) {
+					var que = q ? '«' + esc(q) + '»' + (consulta !== q ? ' (' + esc(consulta) + ')' : '') : '';
+					var donde = [];
+					if (selEtiqueta.value) donde.push('etiqueta «' + esc(selEtiqueta.value) + '»');
+					if (selEpoca.value) donde.push(etiquetaDecada(selEpoca.value));
+					var filtro = donde.length ? (que ? ' · ' : '') + donde.join(', ') : '';
+					if (!n) return 'No se ha encontrado nada' + (que ? ' para ' + que : '') + filtro + '.';
+					return n + (n === 1 ? ' resultado' : ' resultados') + (que ? ' para ' + que : '') + filtro;
+				}
+
+				function limpiar() {
+					resultados = [];
+					mostrados = 0;
+					lista.innerHTML = '';
+					estado.innerHTML = '';
+					botonMas.hidden = true;
+					avisoEtiqueta.hidden = true;
+					sugerencias.hidden = true;
+				}
+
+				async function buscar() {
+					var q = input.value.trim();
+					var v = ++version;
+					escribirDireccion();
+
+					var consulta = q ? conFormaReal(q) : null;
+					var filtros = filtrosPara(true, true);
+					var hayFiltros = Object.keys(filtros).length > 0;
+
+					if (!consulta && !hayFiltros) {
+						limpiar();
+						rellenarEtiquetas(await recuentos(null, 'etiqueta', {}));
+						rellenarEpocas(aniosTotales);
+						document.title = 'Buscar · Lotrives';
 						return;
 					}
 
 					estado.innerHTML = 'Buscando…';
 					try {
-						var consulta = conFormaReal(q);
-						var respuesta = await pagefind.search(consulta);
+						// Sin texto (solo filtros) no hay relevancia: se ordena por fecha.
+						var orden = selOrden.value || (consulta ? '' : 'desc');
+						var opciones = { filters: filtros };
+						if (orden) opciones.sort = { fecha: orden };
+
+						var respuestas = await Promise.all([
+							pagefind.search(consulta, opciones),
+							recuentos(consulta, 'etiqueta', filtrosPara(false, true)),
+							recuentos(consulta, 'anio', filtrosPara(true, false)),
+						]);
 						if (v !== version) return;
-						resultados = respuesta.results;
+
+						rellenarEtiquetas(respuestas[1]);
+						rellenarEpocas(respuestas[2]);
+
+						resultados = respuestas[0].results;
 						mostrados = 0;
 						lista.innerHTML = '';
-						document.title = q + ' · Buscar';
+						sugerencias.hidden = true;
+						document.title = (q || selEtiqueta.value || 'Buscar') + ' · Buscar · Lotrives';
 						estado.innerHTML = textoEstado(resultados.length, q, consulta);
+						mostrarAvisoEtiqueta(q);
 						botonMas.hidden = true;
-						if (resultados.length) await mostrarMas(v);
+
+						if (resultados.length) {
+							await mostrarMas(v);
+						} else {
+							await mostrarSugerencias(q, consulta, v);
+						}
 					} catch (error) {
 						console.error(error);
 						if (v !== version) return;
@@ -214,25 +482,50 @@ import Header from '../components/Header.astro';
 					}
 				}
 
+				// ------------------------------------------------------------------
+				// Eventos
+
 				input.addEventListener('input', function () {
 					clearTimeout(temporizador);
-					temporizador = setTimeout(function () { buscar(input.value); }, 250);
+					temporizador = setTimeout(buscar, 250);
 				});
 
 				form.addEventListener('submit', function (e) {
 					e.preventDefault();
 					clearTimeout(temporizador);
-					buscar(input.value);
+					buscar();
 					input.blur(); // en el móvil, cierra el teclado
 				});
 
+				[selEtiqueta, selEpoca, selOrden].forEach(function (sel) {
+					sel.addEventListener('change', function () { buscar(); });
+				});
+
 				botonMas.addEventListener('click', function () { mostrarMas(version); });
+
+				sugerencias.addEventListener('click', function (e) {
+					var enlace = e.target.closest('a[data-q]');
+					if (enlace) {
+						e.preventDefault();
+						input.value = enlace.getAttribute('data-q');
+						buscar();
+						return;
+					}
+					if (e.target.closest('.quitar-filtros')) {
+						selEtiqueta.value = '';
+						selEpoca.value = '';
+						buscar();
+					}
+				});
 
 				var pendiente = 0;
 				window.addEventListener('resize', function () {
 					cancelAnimationFrame(pendiente);
 					pendiente = requestAnimationFrame(ajustarAntetitulos);
 				});
+
+				// ------------------------------------------------------------------
+				// Inicio
 
 				(async function iniciar() {
 					try {
@@ -247,25 +540,25 @@ import Header from '../components/Header.astro';
 							},
 						});
 						await pagefind.init();
-						try {
-							var r = await fetch('/buscar-alias.json');
-							if (r.ok) tablaAlias = await r.json();
-						} catch (e) {
-							console.error(e);
-						}
+						var cargas = await Promise.all([
+							pagefind.filters(),
+							fetch('/buscar-alias.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
+							fetch('/buscar-etiquetas.json').then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; }),
+						]);
+						aniosTotales = (cargas[0] && cargas[0].anio) || {};
+						tablaAlias = cargas[1] || {};
+						etiquetas = cargas[2] || [];
 					} catch (error) {
 						console.error(error);
 						estado.innerHTML = 'No se ha podido cargar el buscador.';
 						return;
 					}
+
 					input.disabled = false;
-					var inicial = new URLSearchParams(location.search).get('q') || '';
-					if (inicial) {
-						input.value = inicial;
-						buscar(inicial);
-					} else {
-						input.focus();
-					}
+					controles.hidden = false;
+					leerDireccion();
+					await buscar();
+					if (!input.value) input.focus();
 				})();
 			})();
 		</script>
@@ -307,11 +600,92 @@ import Header from '../components/Header.astro';
 		outline: none;
 		border-color: var(--accent);
 	}
+	.buscar .ayuda {
+		margin: 0.4rem 0 0;
+		font-size: 0.78em;
+		color: rgb(var(--gray));
+	}
+
+	/* Filtros y orden */
+	.buscar .controles {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.6rem 1.2rem;
+		margin-top: 0.9rem;
+		font-size: 0.85em;
+		color: rgb(var(--gray));
+	}
+	.buscar .controles[hidden] {
+		display: none;
+	}
+	.buscar .controles label {
+		display: flex;
+		align-items: center;
+		gap: 0.4em;
+	}
+	.buscar .controles select {
+		max-width: 14rem;
+		padding: 0.3rem 0.4rem;
+		font: inherit;
+		color: rgb(var(--black));
+		background: transparent;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 4px;
+	}
+	@media (max-width: 560px) {
+		.buscar .controles label {
+			width: 100%;
+			justify-content: space-between;
+		}
+		.buscar .controles select {
+			flex: 1;
+			max-width: 70%;
+		}
+	}
+
 	.buscar .estado {
-		margin: 0.8rem 0 0.4rem;
+		margin: 1rem 0 0.4rem;
 		min-height: 1.2em;
 		font-size: 0.85em;
 		color: rgb(var(--gray));
+	}
+
+	/* «Etiqueta Polonia · 19 entradas» y sugerencias */
+	.buscar .aviso-etiqueta,
+	.buscar .sugerencias {
+		margin: 0.6rem 0 0.4rem;
+		padding: 0.7rem 0.9rem;
+		font-size: 0.9em;
+		background: color-mix(in srgb, var(--accent) 6%, transparent);
+		border-left: 3px solid var(--accent);
+		border-radius: 0 4px 4px 0;
+	}
+	.buscar .aviso-etiqueta[hidden],
+	.buscar .sugerencias[hidden] {
+		display: none;
+	}
+	.buscar .aviso-etiqueta p,
+	.buscar .sugerencias p {
+		margin: 0;
+	}
+	.buscar .aviso-etiqueta p + p,
+	.buscar .sugerencias p + p {
+		margin-top: 0.35em;
+	}
+	.buscar .aviso-etiqueta a,
+	.buscar .sugerencias a {
+		font-weight: 600;
+		color: var(--accent);
+	}
+	.buscar .quitar-filtros {
+		padding: 0;
+		font: inherit;
+		font-weight: 600;
+		color: var(--accent);
+		background: none;
+		border: none;
+		text-decoration: underline;
+		cursor: pointer;
 	}
 
 	/* Tarjetas: mismo aspecto que src/components/TarjetaTexto.astro (sin foto). */
