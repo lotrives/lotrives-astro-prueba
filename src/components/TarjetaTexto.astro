@@ -1,13 +1,14 @@
 ---
 // Tarjeta de un texto, con jerarquía de antetítulo:
 // etiquetas (antetítulo) → título → fecha → descripción, y miniatura a la derecha.
+// Las páginas estáticas no tienen fecha: sin `date`, la línea de la fecha no aparece.
 import FormattedDate from './FormattedDate.astro';
 
 interface Props {
 	title: string;
 	description?: string;
 	href: string;
-	date: Date;
+	date?: Date;
 	heroImage?: string;
 	etiquetas?: { nombre: string; href: string }[];
 }
@@ -29,7 +30,7 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 			)
 		}
 		<h2 class="tarjeta-titulo"><a href={href}>{title}</a></h2>
-		<p class="tarjeta-fecha"><FormattedDate date={date} /></p>
+		{date && <p class="tarjeta-fecha"><FormattedDate date={date} /></p>}
 		{description && <p class="tarjeta-descripcion">{description}</p>}
 	</div>
 	{

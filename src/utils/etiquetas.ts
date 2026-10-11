@@ -59,16 +59,20 @@ export async function etiquetasConPagina(): Promise<Map<string, InfoEtiqueta>> {
 	return conPagina;
 }
 
-/** Hasta MAX_PILDORAS etiquetas de un texto que tengan página, en el orden del frontmatter. */
+/**
+ * Hasta MAX_PILDORAS etiquetas de un texto que tengan página, en el orden del frontmatter.
+ * `excluir` (un slug) quita una etiqueta: en la página de «Rusia» no se repite «Rusia».
+ */
 export function pildorasDe(
 	tags: string[] | undefined,
 	conPagina: Map<string, InfoEtiqueta>,
+	excluir?: string,
 ): { nombre: string; href: string }[] {
 	const vistas = new Set<string>();
 	const res: { nombre: string; href: string }[] = [];
 	for (const tag of tags ?? []) {
 		const slug = slugify(tag);
-		if (!conPagina.has(slug) || vistas.has(slug)) continue;
+		if (!conPagina.has(slug) || vistas.has(slug) || slug === excluir) continue;
 		vistas.add(slug);
 		res.push({ nombre: tag, href: urlEtiqueta(tag) });
 		if (res.length === MAX_PILDORAS) break;

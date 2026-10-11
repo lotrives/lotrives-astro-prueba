@@ -1,13 +1,12 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import FloatingTOC from '../components/FloatingTOC.astro';
 import PageScripts from '../components/PageScripts.astro';
-import { sinBorradores } from '../utils/url';
+import { etiquetasConPagina, slugify, urlEtiqueta } from '../utils/etiquetas';
 
 type Props = CollectionEntry<'blog'>['data'] & {
 	prev?: { title: string; url: string } | null;
@@ -16,25 +15,19 @@ type Props = CollectionEntry<'blog'>['data'] & {
 
 const { title, description, pubDate, updatedDate, heroImage, tags, author, prev, next } = Astro.props;
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-
-const slugify = (text: string) =>
-	text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-
 const truncate = (str: string, max: number) =>
 	str.length > max ? str.slice(0, max).trimEnd() + '…' : str;
 
-const _allPosts = sinBorradores(await getCollection('blog'));
-const _allPages = sinBorradores(await getCollection('pages'));
-const _tagCount = new Map<string, number>();
-for (const items of [_allPosts, _allPages]) {
-	for (const item of items) {
-		for (const t of (item.data.tags ?? [])) {
-			_tagCount.set(t, (_tagCount.get(t) ?? 0) + 1);
-		}
-	}
-}
-const visibleTags = (tags ?? []).filter(t => (_tagCount.get(t) ?? 0) >= 3);
+// Etiquetas del pie: solo las que tienen página propia (3 o más entradas),
+// con el mismo criterio que la portada y /etiquetas/.
+const _conPagina = await etiquetasConPagina();
+const _vistas = new Set<string>();
+const visibleTags = (tags ?? []).filter((t) => {
+	const slug = slugify(t);
+	if (!_conPagina.has(slug) || _vistas.has(slug)) return false;
+	_vistas.add(slug);
+	return true;
+});
 
 const jsonLd = {
 	"@context": "https://schema.org",
@@ -193,7 +186,7 @@ const jsonLd = {
 							{visibleTags.map((tag, i) => (
 								<>
 									{i > 0 && ' · '}
-									<a href={`${base}/etiquetas/#tag-${slugify(tag)}`}>{tag}</a>
+									<a href={urlEtiqueta(tag)}>{tag}</a>
 								</>
 							))}
 						</div>

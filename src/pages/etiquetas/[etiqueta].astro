@@ -1,12 +1,17 @@
 ---
 // Una página por etiqueta, generada sola a partir de los textos.
 // Solo existen para las etiquetas con 3 o más entradas (ver src/utils/etiquetas.ts).
+//
+// Mismo formato de tarjeta que la portada (TarjetaTexto):
+// - primero las páginas estáticas con esa etiqueta (sin fecha), en un bloque aparte;
+// - después los textos, del más reciente al más antiguo;
+// - en el antetítulo no se repite la etiqueta de la propia página.
 import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import FormattedDate from '../../components/FormattedDate.astro';
+import TarjetaTexto from '../../components/TarjetaTexto.astro';
 import { urlTexto } from '../../utils/url';
-import { etiquetasConPagina } from '../../utils/etiquetas';
+import { etiquetasConPagina, pildorasDe } from '../../utils/etiquetas';
 
 export async function getStaticPaths() {
 	const conPagina = await etiquetasConPagina();
@@ -18,24 +23,30 @@ export async function getStaticPaths() {
 
 const { info } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const conPagina = await etiquetasConPagina();
 
-const entradas = [
-	...info.paginas.map((pg) => ({
-		url: `${base}/${pg.id.replace(/\.mdx?$/, '')}/`,
+const paginas = [...info.paginas]
+	.sort((a, b) => a.data.title.localeCompare(b.data.title, 'es'))
+	.map((pg) => ({
+		href: `${base}/${pg.id.replace(/\.mdx?$/, '')}/`,
 		title: pg.data.title,
-		fecha: null as Date | null,
-		pagina: true,
-	})),
-	...info.textos.map((t) => ({
-		url: urlTexto(t),
-		title: t.data.title,
-		fecha: new Date(t.data.pubDate) as Date | null,
-		pagina: false,
-	})),
-];
+		description: pg.data.description,
+		etiquetas: pildorasDe(pg.data.tags, conPagina, info.slug),
+	}));
+
+// info.textos ya viene ordenado del más reciente al más antiguo.
+const textos = info.textos.map((t) => ({
+	href: urlTexto(t),
+	title: t.data.title,
+	description: t.data.description,
+	date: new Date(t.data.pubDate),
+	heroImage: t.data.heroImage,
+	etiquetas: pildorasDe(t.data.tags, conPagina, info.slug),
+}));
 
 const n = info.total;
 const descripcion = `${n} textos de Lotrives sobre ${info.nombre}.`;
+const dosBloques = paginas.length > 0 && textos.length > 0;
 ---
 
 <!doctype html>
@@ -50,21 +61,39 @@ const descripcion = `${n} textos de Lotrives sobre ${info.nombre}.`;
 				<p class="volver"><a href={`${base}/etiquetas/`}>← Índice</a></p>
 				<h1>{info.nombre}</h1>
 				<p class="resumen">{n} {n === 1 ? 'entrada' : 'entradas'}</p>
-				<ul class="entradas">
-					{
-						entradas.map((e) => (
-							<li>
-								<a href={e.url}>{e.title}</a>
-								{e.fecha && (
-									<span class="fecha">
-										<FormattedDate date={e.fecha} compact />
-									</span>
-								)}
-								{e.pagina && <span class="fecha"> · página</span>}
-							</li>
-						))
-					}
-				</ul>
+
+				{
+					paginas.length > 0 && (
+						<div class="bloque">
+							{dosBloques && <h2 class="bloque-titulo">{paginas.length === 1 ? 'Página' : 'Páginas'}</h2>}
+							<div class="lista">
+								{paginas.map((p) => (
+									<TarjetaTexto title={p.title} description={p.description} href={p.href} etiquetas={p.etiquetas} />
+								))}
+							</div>
+						</div>
+					)
+				}
+
+				{
+					textos.length > 0 && (
+						<div class="bloque">
+							{dosBloques && <h2 class="bloque-titulo">Textos</h2>}
+							<div class="lista">
+								{textos.map((t) => (
+									<TarjetaTexto
+										title={t.title}
+										description={t.description}
+										href={t.href}
+										date={t.date}
+										heroImage={t.heroImage}
+										etiquetas={t.etiquetas}
+									/>
+								))}
+							</div>
+						</div>
+					)
+				}
 			</section>
 		</main>
 		<Footer />
@@ -87,24 +116,22 @@ const descripcion = `${n} textos de Lotrives sobre ${info.nombre}.`;
 		line-height: 1.1;
 	}
 	.resumen {
-		margin: 0 0 1.5rem;
+		margin: 0;
+		padding-bottom: 1.2rem;
+		border-bottom: 1px solid rgb(var(--gray-light));
 		font-size: 0.9em;
 		color: rgb(var(--gray));
 	}
-	.entradas {
-		list-style: none;
-		margin: 0;
-		padding: 0;
+	.bloque + .bloque {
+		margin-top: 1.5rem;
 	}
-	.entradas li {
-		margin-bottom: 0.6em;
-		font-size: 1.05rem;
-		line-height: 1.5;
-	}
-	.fecha {
-		font-size: 0.75em;
+	/* Rótulo de bloque, en el mismo registro que el antetítulo de las tarjetas. */
+	.bloque-titulo {
+		margin: 1.4rem 0 0;
+		font-size: 0.7rem;
+		font-weight: 600;
+		letter-spacing: 0.09em;
+		text-transform: uppercase;
 		color: rgb(var(--gray));
-		margin-left: 0.4em;
-		letter-spacing: 0.04em;
 	}
 </style>
