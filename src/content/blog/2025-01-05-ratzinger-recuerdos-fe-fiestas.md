@@ -1,7 +1,7 @@
 ---
 title: "Joseph Ratzinger sobre los recuerdos personales, los magnos recuerdos de la humanidad y la fe"
 pubDate: 2025-01-05
-tags: ["Joseph Ratzinger", "Recuerdos", "Fe", "Fiestas"]
+tags: ["Joseph Ratzinger", "Memorias", "Fe", "Fiestas"]
 description: "Los grandes recuerdos se conservan merced a su traducción en el ámbito de lo personal. La fe como realidad vivida."
 author: "José Manuel Grau Navarro"
 ---

@@ -6,6 +6,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Footer from '../components/Footer.astro';
 import FloatingTOC from '../components/FloatingTOC.astro';
 import { urlTexto, sinBorradores } from '../utils/url';
+import { slugify } from '../utils/etiquetas';
 
 const posts = sinBorradores(await getCollection('blog'));
 const pages = sinBorradores(await getCollection('pages'));
@@ -13,16 +14,6 @@ const pages = sinBorradores(await getCollection('pages'));
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const pageUrl2 = (page) => `${base}/${page.id.replace(/\.md$/, '')}/`;
 const postUrl = urlTexto;
-
-const slugify = (text) =>
-	text
-		.toString()
-		.normalize('NFD')
-		.replace(/[\u0300-\u036f]/g, '')
-		.toLowerCase()
-		.trim()
-		.replace(/[^a-z0-9]+/g, '-')
-		.replace(/^-+|-+$/g, '');
 
 const tagsMap = new Map();
 for (const post of posts) {

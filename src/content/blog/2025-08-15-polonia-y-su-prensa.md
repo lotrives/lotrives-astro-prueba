@@ -3,7 +3,7 @@ title: "Polonia y su prensa"
 description: "Un recorrido sentimental por la prensa polaca hasta 1990"
 pubDate: 2025-08-15
 updatedDate: 2026-06-12
-tags: ["Polonia", "Prensa", "Adam Michnik", "Ryszard Kapuściński", "Gazeta Wyborcza", "Adam Michnik", "Ernest Skalski", "Jan M. Ruman"]
+tags: ["Polonia", "Prensa", "Adam Michnik", "Ryszard Kapuściński", "Gazeta Wyborcza", "Ernest Skalski", "Jan M. Ruman"]
 heroImage: "/assets/images/og-default.webp"
 author: "José Manuel Grau Navarro"
 ---

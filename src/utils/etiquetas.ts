@@ -14,11 +14,19 @@ export const MAX_PILDORAS = 3;
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
+// Letras que no se descomponen en letra + tilde y que, sin esto, se perderían
+// en la dirección (Radosław → rados-aw, Höß → ho).
+const LETRAS_ESPECIALES: Record<string, string> = {
+	ł: 'l', Ł: 'l', ß: 'ss', ẞ: 'ss', ø: 'o', Ø: 'o', æ: 'ae', Æ: 'ae',
+	œ: 'oe', Œ: 'oe', đ: 'd', Đ: 'd', ð: 'd', Ð: 'd', þ: 'th', Þ: 'th', ı: 'i',
+};
+
 export const slugify = (text: string): string =>
 	text
 		.toString()
+		.replace(/[łŁßẞøØæÆœŒđĐðÐþÞı]/g, (c) => LETRAS_ESPECIALES[c])
 		.normalize('NFD')
-		.replace(/[̀-ͯ]/g, '')
+		.replace(/[\u0300-\u036f]/g, '')
 		.toLowerCase()
 		.trim()
 		.replace(/[^a-z0-9]+/g, '-')

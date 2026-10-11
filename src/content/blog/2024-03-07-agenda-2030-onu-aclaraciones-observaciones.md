@@ -2,7 +2,7 @@
 title: "La Agenda 2030 de la ONU para el desarrollo sostenible. Aclaraciones y observaciones"
 description: "Resolución de la ONU sobre desarrollo sostenible, con las aclaraciones y reservas de la Santa Sede. Epígrafes y comentarios de Lotrives."
 pubDate: 2024-03-27
-tags: ["Familia", "Francisco"]
+tags: ["Familia", "Papa Francisco"]
 heroImage: "/assets/images/og-default.webp"
 updatedDate: 2026-05-21
 author: "José Manuel Grau Navarro"
