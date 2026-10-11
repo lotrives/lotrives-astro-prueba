@@ -46,14 +46,17 @@ const items = ordenarPublicados(await getCollection('blog'))
       }
       .intro-linea2 {
         margin: 0;
-        font-size: 1.25em;
+        font-size: 1.05em;
         font-weight: 400;
         color: rgb(var(--gray));
         line-height: 1.4;
       }
       @media (max-width: 720px) {
-        .intro-linea1, .intro-linea2 {
+        .intro-linea1 {
           font-size: 1.1em;
+        }
+        .intro-linea2 {
+          font-size: 0.95em;
         }
       }
       .lista-textos {

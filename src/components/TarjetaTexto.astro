@@ -1,5 +1,6 @@
 ---
-// Tarjeta de un texto: título, descripción, píldoras de etiquetas y fecha.
+// Tarjeta de un texto, con jerarquía de antetítulo:
+// etiquetas (antetítulo) → título → fecha → descripción, y miniatura a la derecha.
 import FormattedDate from './FormattedDate.astro';
 
 interface Props {
@@ -16,24 +17,20 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 
 <article class="tarjeta">
 	<div class="tarjeta-contenido">
+		{
+			etiquetas.length > 0 && (
+				<ul class="antetitulo" aria-label="Etiquetas">
+					{etiquetas.map((e) => (
+						<li>
+							<a href={e.href}>{e.nombre}</a>
+						</li>
+					))}
+				</ul>
+			)
+		}
 		<h2 class="tarjeta-titulo"><a href={href}>{title}</a></h2>
+		<p class="tarjeta-fecha"><FormattedDate date={date} compactOnMobile /></p>
 		{description && <p class="tarjeta-descripcion">{description}</p>}
-		<div class="tarjeta-pie">
-			{
-				etiquetas.length > 0 && (
-					<ul class="pildoras">
-						{etiquetas.map((e) => (
-							<li>
-								<a class="pildora" href={e.href}>
-									{e.nombre}
-								</a>
-							</li>
-						))}
-					</ul>
-				)
-			}
-			<span class="tarjeta-fecha"><FormattedDate date={date} compactOnMobile /></span>
-		</div>
 	</div>
 	{heroImage && <img class="tarjeta-miniatura" src={heroImage} alt="" loading="lazy" width="160" height="90" />}
 </article>
@@ -53,6 +50,50 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 		flex: 1;
 		min-width: 0;
 	}
+
+	/* Antetítulo: etiquetas en mayúsculas pequeñas, sin fondo, separadas por «·». */
+	.antetitulo {
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+		margin: 0 0 0.35rem;
+		padding: 0;
+		font-size: 0.63em;
+		letter-spacing: 0.09em;
+		text-transform: uppercase;
+		line-height: 1.6;
+	}
+	.antetitulo li + li::before {
+		content: '·';
+		content: '·' / ''; /* los lectores de pantalla no leen el punto */
+		margin: 0 0.6em;
+		color: rgb(var(--gray));
+	}
+	.antetitulo a {
+		/* Zona de toque más alta que el texto, sin cambiar lo que se ve. */
+		display: inline-block;
+		padding: 0.45em 0;
+		margin: -0.45em 0;
+		color: rgb(var(--gray));
+		text-decoration: none;
+		transition: color 0.15s;
+	}
+	.antetitulo a:hover,
+	.antetitulo a:active,
+	.antetitulo a:focus-visible {
+		color: var(--accent);
+		text-decoration: none;
+	}
+	/* Pantallas táctiles (sin ratón): azul apagado para que se intuya que son enlaces. */
+	@media (hover: none) {
+		.antetitulo a {
+			color: color-mix(in srgb, var(--accent) 55%, rgb(var(--gray)));
+		}
+		.antetitulo a:active {
+			color: var(--accent);
+		}
+	}
+
 	.tarjeta-titulo {
 		margin: 0;
 		font-size: 1.15em;
@@ -69,47 +110,16 @@ const { title, description, href, date, heroImage, etiquetas = [] } = Astro.prop
 		text-underline-offset: 3px;
 		text-decoration-color: var(--accent);
 	}
+	.tarjeta-fecha {
+		margin: 0.25em 0 0;
+		font-size: 0.78em;
+		color: rgb(var(--gray));
+	}
 	.tarjeta-descripcion {
 		margin: 0.45em 0 0;
 		font-size: 0.92em;
 		color: rgb(var(--gray));
 		line-height: 1.5;
-	}
-	.tarjeta-pie {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 0.5rem 0.8rem;
-		margin-top: 0.8rem;
-	}
-	.pildoras {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.4rem;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
-	.pildora {
-		display: inline-block;
-		padding: 0 0.85em;
-		border-radius: 999px;
-		background: rgba(var(--nota), 0.12);
-		color: rgb(var(--gray));
-		font-size: 0.63em;
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
-		text-decoration: none;
-		line-height: 1.7;
-		transition: color 0.15s;
-	}
-	.pildora:hover {
-		color: var(--accent);
-		text-decoration: none;
-	}
-	.tarjeta-fecha {
-		font-size: 0.8em;
-		color: rgb(var(--gray));
 	}
 	.tarjeta-miniatura {
 		flex-shrink: 0;
