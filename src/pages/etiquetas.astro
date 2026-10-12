@@ -225,9 +225,14 @@ h1 {
 	.temas-lista {
 		columns: 1;
 	}
-	/* En pantallas estrechas la cadenita de copiar enlace se sale por la izquierda. */
+	/* En pantallas estrechas la cadenita de copiar enlace se salía por la izquierda:
+	   se acerca a la letra y se reduce para que quepa en el margen de la página. */
 	.letra-header .heading-anchor {
-		display: none;
+		left: -20px;
+	}
+	.letra-header .heading-anchor :global(svg) {
+		width: 16px;
+		height: 16px;
 	}
 }
 </style>
