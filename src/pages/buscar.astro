@@ -35,16 +35,21 @@ import equivalencias from '../data/equivalencias-buscador.json';
 
 				<form id="buscador-form" role="search" action="/buscar/" method="get">
 					<label for="buscador-q" class="visualmente-oculto">Buscar en Lotrives</label>
-					<input
-						type="search"
-						id="buscador-q"
-						name="q"
-						placeholder="Títulos, nombres, lugares, temas…"
-						autocomplete="off"
-						spellcheck="false"
-						enterkeyhint="search"
-						disabled
-					/>
+					<div class="caja">
+						<input
+							type="search"
+							id="buscador-q"
+							name="q"
+							placeholder="Buscar en Lotrives…"
+							autocomplete="off"
+							spellcheck="false"
+							enterkeyhint="search"
+							disabled
+						/>
+						<button type="submit" class="enviar" aria-label="Buscar" title="Buscar (Intro)">
+							<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 5v6a3 3 0 0 1-3 3H5"></path><path d="m9 10-4 4 4 4"></path></svg>
+						</button>
+					</div>
 					<p class="ayuda">Para una frase exacta, escríbela entre comillas, por ejemplo: "estado de bienestar".</p>
 
 					<div id="buscador-controles" class="controles" hidden>
@@ -127,8 +132,8 @@ import equivalencias from '../data/equivalencias-buscador.json';
 				// Pagefind reduce las palabras a su raíz, de modo que "te quiero" encuentra
 				// también «te quiere». Para que las comillas cumplan lo que prometen, los
 				// resultados de una búsqueda con frase se comprueban contra el texto completo
-				// y solo quedan los que contienen la frase tal cual (sin distinguir mayúsculas
-				// ni tildes). El fragmento se construye alrededor de esa frase.
+				// y solo quedan los que contienen la frase tal cual (sin distinguir mayúsculas;
+				// una tilde escrita se exige, una omitida vale con y sin ella). El fragmento se construye alrededor de esa frase.
 
 				// El iPhone escribe “…” al teclear comillas; también valen «…» y „…".
 				function normalizarComillas(texto) {
@@ -150,29 +155,54 @@ import equivalencias from '../data/equivalencias-buscador.json';
 					return String(consulta || '').replace(/"[^"]*"/g, ' ').replace(/"/g, ' ').split(/\s+/).filter(Boolean);
 				}
 
-				// Pliega letra a letra (sin tildes, en minúscula) conservando la longitud,
-				// para que las posiciones del texto plegado sirvan en el original.
-				function plegar(texto) {
+				// Pasa a minúscula letra a letra conservando la longitud, para que las
+				// posiciones del texto transformado sirvan en el original.
+				function minusculas(texto) {
 					var s = String(texto || '');
 					var out = '';
 					for (var i = 0; i < s.length; i++) {
 						var c = s[i];
-						var f = c === '’' ? "'" : c.normalize('NFD').charAt(0).toLowerCase();
+						var f = c === '’' ? "'" : c.toLowerCase();
 						out += f.length === 1 ? f : c;
 					}
 					return out;
 				}
 
+				// Letra sin tilde → todas sus formas con tilde (o → oóòöô…; n → nñ).
+				var variantes = null;
+				function variantesDe(letra) {
+					if (!variantes) {
+						variantes = {};
+						for (var cp = 0xc0; cp <= 0x24f; cp++) {
+							var c = String.fromCharCode(cp).toLowerCase();
+							var base = c.normalize('NFD').charAt(0);
+							if (base !== c && /[a-z]/.test(base)) {
+								variantes[base] = variantes[base] || {};
+								variantes[base][c] = true;
+							}
+						}
+					}
+					return letra + Object.keys(variantes[letra] || {}).join('');
+				}
+
+				// Una tilde escrita se exige («le preguntó» solo encuentra «le preguntó»);
+				// una letra sin tilde vale con y sin ella («le pregunto» encuentra las dos).
 				function patronFrase(frase) {
-					var cuerpo = plegar(frase).split(/\s+/).filter(Boolean).map(function (w) {
-						return w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+					var cuerpo = minusculas(frase).split(/\s+/).filter(Boolean).map(function (w) {
+						var r = '';
+						for (var i = 0; i < w.length; i++) {
+							var c = w[i];
+							if (/[a-z]/.test(c)) r += '[' + variantesDe(c) + ']';
+							else r += c.replace(/[.*+?^${}()|[\]\\\-]/g, '\\$&');
+						}
+						return r;
 					}).join('\\s+');
 					return new RegExp('(^|[^\\p{L}\\p{N}])(' + cuerpo + ')(?![\\p{L}\\p{N}])', 'u');
 				}
 
 				// Posición de la frase en el texto: { i, n } o null.
 				function buscarFrase(texto, patron) {
-					var m = patron.exec(plegar(texto));
+					var m = patron.exec(minusculas(texto));
 					return m ? { i: m.index + m[1].length, n: m[2].length } : null;
 				}
 
@@ -648,10 +678,11 @@ import equivalencias from '../data/equivalencias-buscador.json';
 
 				function textoEstado(n, q, consulta) {
 					var que = q ? consultaLegible(q) + (consulta !== q ? ' (' + esc(consulta.replace(/"([^"]*)"/g, '“$1”')) + ')' : '') : '';
+					// «10 resultados con la etiqueta «Bigastro», de 2010–2019»
 					var donde = [];
-					if (selEtiqueta.value) donde.push('etiqueta «' + esc(selEtiqueta.value) + '»');
-					if (selEpoca.value) donde.push(etiquetaDecada(selEpoca.value));
-					var filtro = donde.length ? (que ? ' · ' : '') + donde.join(', ') : '';
+					if (selEtiqueta.value) donde.push('con la etiqueta «' + esc(selEtiqueta.value) + '»');
+					if (selEpoca.value) donde.push('de ' + etiquetaDecada(selEpoca.value));
+					var filtro = donde.length ? ' ' + donde.join(', ') : '';
 					if (!n) return 'No se ha encontrado nada' + (que ? ' para ' + que : '') + filtro + '.';
 					return n + (n === 1 ? ' resultado' : ' resultados') + (que ? ' para ' + que : '') + filtro;
 				}
@@ -842,10 +873,14 @@ import equivalencias from '../data/equivalencias-buscador.json';
 		clip: rect(0 0 0 0);
 		white-space: nowrap;
 	}
+	/* Caja con la tecla Intro dentro, a la derecha. */
+	.buscar .caja {
+		position: relative;
+	}
 	#buscador-q {
 		width: 100%;
 		box-sizing: border-box;
-		padding: 0.7rem 0.9rem;
+		padding: 0.7rem 3rem 0.7rem 0.9rem;
 		font: inherit;
 		font-size: 1.05rem;
 		color: rgb(var(--black));
@@ -856,6 +891,32 @@ import equivalencias from '../data/equivalencias-buscador.json';
 	#buscador-q:focus {
 		outline: none;
 		border-color: var(--accent);
+	}
+	/* Sin la «x» de borrar del navegador, que chocaría con la tecla Intro. */
+	#buscador-q::-webkit-search-cancel-button {
+		-webkit-appearance: none;
+		appearance: none;
+	}
+	.buscar .enviar {
+		position: absolute;
+		top: 50%;
+		right: 0.35rem;
+		transform: translateY(-50%);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2.4rem;
+		height: 2.4rem;
+		padding: 0;
+		color: rgb(var(--gray));
+		background: none;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+	.buscar .enviar:hover,
+	.buscar .enviar:focus-visible {
+		color: var(--accent);
 	}
 	.buscar .ayuda {
 		margin: 0.4rem 0 0;

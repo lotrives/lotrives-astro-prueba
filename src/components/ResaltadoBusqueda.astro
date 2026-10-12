@@ -15,9 +15,12 @@
 		var conFrase = params.getAll('resaltar').some(function (t) { return /\s/.test(t.trim()); });
 		var opciones = { highlightParam: 'resaltar' };
 		if (conFrase) {
+			// Como en el buscador: si la frase lleva tildes, se exigen.
+			var conTilde = params.getAll('resaltar').some(function (t) { return t.normalize('NFD') !== t; });
 			opciones.markOptions = {
 				className: 'pagefind-highlight',
 				acrossElements: true,
+				diacritics: !conTilde,
 				accuracy: {
 					value: 'exactly',
 					limiters: ',.;:¡!¿?«»“”"\'‘’()[]—–-…'.split(''),
