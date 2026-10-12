@@ -273,7 +273,11 @@ import equivalencias from '../data/equivalencias-buscador.json';
 										return Object.assign({}, s, { url: conResaltado(s.url, terminos), excerpt: '' });
 									}),
 							});
-							quedan.push({ r: lista[k + j], d: copia });
+							quedan.push({
+								r: lista[k + j],
+								d: copia,
+								enTitulo: patrones.some(function (p) { return buscarFrase(titulo, p); }),
+							});
 						});
 					}
 					return quedan;
@@ -581,6 +585,35 @@ import equivalencias from '../data/equivalencias-buscador.json';
 					return consulta.split(/\s+/).filter(function (w) { return !palabraConfirmada(w, coincidencias); });
 				}
 
+				// Lo mismo, texto por texto: cuando una palabra no existe tal cual, Pagefind trae
+				// también textos con palabras solo parecidas («Zelensky» encontraba el artículo
+				// sobre el autismo). Se quitan los resultados que no contienen cada palabra
+				// buscada (o una forma que empiece igual) en el fragmento, el título, las
+				// etiquetas, la entradilla o los alias y equivalencias. Solo con pocas
+				// coincidencias, que es cuando pasa, para no cargar cientos de textos.
+				var MAX_REVISAR = 100;
+
+				async function quitarCoincidenciasFalsas(consulta, lista) {
+					if (/"/.test(consulta) || lista.length > MAX_REVISAR) return lista;
+					var palabras = consulta.split(/\s+/).filter(function (w) { return limpia(w).length >= 3; });
+					if (!palabras.length) return lista;
+					var quedan = [];
+					for (var k = 0; k < lista.length; k += 25) {
+						var lote = lista.slice(k, k + 25);
+						var datos = await Promise.all(lote.map(function (r) { return r.data(); }));
+						datos.forEach(function (d, j) {
+							var coincidencias = coincidenciasDe([d]);
+							var vale = palabras.every(function (w) {
+								var p = limpia(w);
+								var necesario = p.length <= 4 ? p.length : Math.max(4, p.length - 3);
+								return coincidencias.some(function (c) { return prefijoComun(p, c) >= necesario; });
+							});
+							if (vale) quedan.push(lote[j]);
+						});
+					}
+					return quedan;
+				}
+
 				function palabraParecida(palabra) {
 					if (!vocabulario) {
 						vocabulario = {};
@@ -733,6 +766,12 @@ import equivalencias from '../data/equivalencias-buscador.json';
 						if (frases.length) {
 							var conFrase = await filtrarPorFrases(respuestas[0].results, frases, consulta);
 							if (v !== version) return;
+							// Por relevancia, primero los que llevan la frase en el título (Pagefind
+							// no da a las frases el peso del título). sort() conserva el orden en
+							// los empates.
+							if (!orden) {
+								conFrase.sort(function (a, b) { return (b.enTitulo ? 1 : 0) - (a.enTitulo ? 1 : 0); });
+							}
 							respuestas[0] = {
 								results: conFrase.map(function (x) {
 									return { data: function () { return Promise.resolve(x.d); } };
@@ -744,10 +783,31 @@ import equivalencias from '../data/equivalencias-buscador.json';
 						if (v !== version) return;
 						var vacio = sinCoincidencia.length > 0;
 
+						resultados = vacio ? [] : respuestas[0].results;
+						if (!vacio && consulta) {
+							var antes = resultados.length;
+							resultados = await quitarCoincidenciasFalsas(consulta, resultados);
+							if (v !== version) return;
+							// Si se ha quitado alguno y no hay filtros puestos, los recuentos de los
+							// desplegables se rehacen con los que quedan.
+							if (resultados.length < antes && !hayFiltros) {
+								var datosQuedan = await Promise.all(resultados.map(function (r) { return r.data(); }));
+								if (v !== version) return;
+								[1, 2].forEach(function (n) {
+									var campo = n === 1 ? 'etiqueta' : 'anio';
+									var cuentas = {};
+									datosQuedan.forEach(function (d) {
+										((d.filters && d.filters[campo]) || []).forEach(function (valor) {
+											cuentas[valor] = (cuentas[valor] || 0) + 1;
+										});
+									});
+									respuestas[n] = cuentas;
+								});
+							}
+						}
 						rellenarEtiquetas(vacio ? {} : respuestas[1]);
 						rellenarEpocas(vacio ? {} : respuestas[2]);
 
-						resultados = vacio ? [] : respuestas[0].results;
 						mostrados = 0;
 						lista.innerHTML = '';
 						sugerencias.hidden = true;
