@@ -5,9 +5,12 @@
 // - La búsqueda y los filtros quedan en la dirección
 //   (/buscar/?q=varsovia&etiqueta=Polonia&epoca=1990&orden=asc): se puede enlazar y
 //   el botón de volver atrás la conserva.
-// - Filtros por etiqueta y por década; orden por relevancia o por fecha.
+// - Filtros por etiqueta y por década (en la dirección sigue llamándose «epoca»);
+//   orden por relevancia o por fecha.
 // - Si lo buscado coincide con una etiqueta, se ofrece su página arriba.
-// - Frases exactas entre comillas: "estado de bienestar".
+// - Frases exactas entre comillas: "estado de bienestar" (también “…” y «…»). Pagefind
+//   busca por la raíz de las palabras, así que los resultados se comprueban contra el
+//   texto completo y solo quedan los que contienen la frase tal cual.
 // - Sin resultados: sugerencias (palabra parecida, cada palabra por separado, sin filtros).
 // - Resultados en tarjetas, como la portada, con el fragmento donde aparece lo buscado
 //   y los apartados del texto que coinciden. De 20 en 20, con «Ver más».
@@ -39,9 +42,10 @@ import equivalencias from '../data/equivalencias-buscador.json';
 						placeholder="Títulos, nombres, lugares, temas…"
 						autocomplete="off"
 						spellcheck="false"
+						enterkeyhint="search"
 						disabled
 					/>
-					<p class="ayuda">Para una frase exacta, escríbela entre comillas: "estado de bienestar".</p>
+					<p class="ayuda">Para una frase exacta, escríbela entre comillas, por ejemplo: "estado de bienestar".</p>
 
 					<div id="buscador-controles" class="controles" hidden>
 						<label>
@@ -49,7 +53,7 @@ import equivalencias from '../data/equivalencias-buscador.json';
 							<select id="f-etiqueta" name="etiqueta"><option value="">Todas</option></select>
 						</label>
 						<label>
-							<span>Época</span>
+							<span>Década</span>
 							<select id="f-epoca" name="epoca"><option value="">Todas</option></select>
 						</label>
 						<label>
@@ -115,6 +119,134 @@ import equivalencias from '../data/equivalencias-buscador.json';
 
 				function plano(texto) {
 					return String(texto).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+				}
+
+				// ------------------------------------------------------------------
+				// Frases exactas
+				//
+				// Pagefind reduce las palabras a su raíz, de modo que "te quiero" encuentra
+				// también «te quiere». Para que las comillas cumplan lo que prometen, los
+				// resultados de una búsqueda con frase se comprueban contra el texto completo
+				// y solo quedan los que contienen la frase tal cual (sin distinguir mayúsculas
+				// ni tildes). El fragmento se construye alrededor de esa frase.
+
+				// El iPhone escribe “…” al teclear comillas; también valen «…» y „…".
+				function normalizarComillas(texto) {
+					return String(texto).replace(/[“”„«»]/g, '"');
+				}
+
+				function frasesDe(consulta) {
+					var frases = [];
+					String(consulta || '').replace(/"([^"]+)"/g, function (_, f) {
+						f = f.trim();
+						if (f) frases.push(f);
+						return '';
+					});
+					return frases;
+				}
+
+				// Palabras de la consulta que no van entre comillas.
+				function palabrasSueltas(consulta) {
+					return String(consulta || '').replace(/"[^"]*"/g, ' ').replace(/"/g, ' ').split(/\s+/).filter(Boolean);
+				}
+
+				// Pliega letra a letra (sin tildes, en minúscula) conservando la longitud,
+				// para que las posiciones del texto plegado sirvan en el original.
+				function plegar(texto) {
+					var s = String(texto || '');
+					var out = '';
+					for (var i = 0; i < s.length; i++) {
+						var c = s[i];
+						var f = c === '’' ? "'" : c.normalize('NFD').charAt(0).toLowerCase();
+						out += f.length === 1 ? f : c;
+					}
+					return out;
+				}
+
+				function patronFrase(frase) {
+					var cuerpo = plegar(frase).split(/\s+/).filter(Boolean).map(function (w) {
+						return w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+					}).join('\\s+');
+					return new RegExp('(^|[^\\p{L}\\p{N}])(' + cuerpo + ')(?![\\p{L}\\p{N}])', 'u');
+				}
+
+				// Posición de la frase en el texto: { i, n } o null.
+				function buscarFrase(texto, patron) {
+					var m = patron.exec(plegar(texto));
+					return m ? { i: m.index + m[1].length, n: m[2].length } : null;
+				}
+
+				function fragmentoFrase(texto, pos) {
+					var ANTES = 110;
+					var DESPUES = 140;
+					var ini = Math.max(0, pos.i - ANTES);
+					var fin = Math.min(texto.length, pos.i + pos.n + DESPUES);
+					// Cortar en un espacio para no partir palabras.
+					if (ini > 0) {
+						var e1 = texto.indexOf(' ', ini);
+						if (e1 !== -1 && e1 < pos.i) ini = e1 + 1;
+					}
+					if (fin < texto.length) {
+						var e2 = texto.lastIndexOf(' ', fin);
+						if (e2 > pos.i + pos.n) fin = e2;
+					}
+					var limpio = function (t) { return esc(t.replace(/\s+/g, ' ')); };
+					return limpio(texto.slice(ini, pos.i)) +
+						'<mark>' + limpio(texto.slice(pos.i, pos.i + pos.n)) + '</mark>' +
+						limpio(texto.slice(pos.i + pos.n, fin));
+				}
+
+				// Al abrir el resultado se resalta la frase entera (y las palabras sueltas),
+				// no cada palabra por separado. Ver ResaltadoBusqueda.astro.
+				function conResaltado(url, terminos) {
+					if (!url) return url;
+					var almohadilla = url.indexOf('#');
+					var hash = almohadilla === -1 ? '' : url.slice(almohadilla);
+					var base = almohadilla === -1 ? url : url.slice(0, almohadilla);
+					var interrogacion = base.indexOf('?');
+					var ruta = interrogacion === -1 ? base : base.slice(0, interrogacion);
+					var p = new URLSearchParams(interrogacion === -1 ? '' : base.slice(interrogacion + 1));
+					p.delete('resaltar');
+					terminos.forEach(function (t) { p.append('resaltar', t); });
+					var qs = p.toString();
+					return ruta + (qs ? '?' + qs : '') + hash;
+				}
+
+				// Carga los datos de cada resultado (de 25 en 25) y deja solo los que
+				// contienen todas las frases. Devuelve [{ r, d }] con fragmento y enlace ya
+				// preparados.
+				async function filtrarPorFrases(lista, frases, consulta) {
+					var patrones = frases.map(patronFrase);
+					var terminos = frases.concat(palabrasSueltas(consulta));
+					var quedan = [];
+					for (var k = 0; k < lista.length; k += 25) {
+						var datos = await Promise.all(lista.slice(k, k + 25).map(function (r) { return r.data(); }));
+						datos.forEach(function (d, j) {
+							var meta = d.meta || {};
+							var contenido = d.content || '';
+							var titulo = meta.title || '';
+							var posiciones = patrones.map(function (p) { return buscarFrase(contenido, p); });
+							var todas = patrones.every(function (p, n) {
+								return posiciones[n] || buscarFrase(titulo, p);
+							});
+							if (!todas) return;
+							var primera = posiciones.filter(Boolean).sort(function (a, b) { return a.i - b.i; })[0];
+							var copia = Object.assign({}, d, {
+								url: conResaltado(d.url, terminos),
+								excerpt: primera ? fragmentoFrase(contenido, primera) : esc(contenido.slice(0, 200)),
+								sub_results: (d.sub_results || [])
+									.filter(function (s) {
+										var sinMarcas = (s.excerpt || '').replace(/<[^>]+>/g, '');
+										return patrones.some(function (p) { return buscarFrase(sinMarcas, p); });
+									})
+									.map(function (s) {
+										return Object.assign({}, s, { url: conResaltado(s.url, terminos), excerpt: '' });
+									}),
+							});
+							quedan.push({ r: lista[k + j], d: copia });
+						});
+					}
+					return quedan;
 				}
 
 				function fechaLarga(iso) {
@@ -204,7 +336,8 @@ import equivalencias from '../data/equivalencias-buscador.json';
 
 				// Recuentos de cada opción para la búsqueda actual, sin contar el filtro de ese mismo campo
 				// (para que el desplegable diga cuántos habría al cambiar de etiqueta o de época).
-				async function recuentos(consulta, campo, filtrosSinCampo) {
+				// Con frases exactas, se cuentan solo los resultados que de verdad las contienen.
+				async function recuentos(consulta, campo, filtrosSinCampo, frases) {
 					if (!consulta && Object.keys(filtrosSinCampo).length === 0) {
 						if (campo === 'anio') return aniosTotales;
 						var tot = {};
@@ -212,7 +345,14 @@ import equivalencias from '../data/equivalencias-buscador.json';
 						return tot;
 					}
 					var r = await pagefind.search(consulta, { filters: filtrosSinCampo });
-					return (r.filters && r.filters[campo]) || {};
+					if (!frases || !frases.length) return (r.filters && r.filters[campo]) || {};
+					var cuentas = {};
+					(await filtrarPorFrases(r.results, frases, consulta)).forEach(function (x) {
+						((x.d.filters && x.d.filters[campo]) || []).forEach(function (valor) {
+							cuentas[valor] = (cuentas[valor] || 0) + 1;
+						});
+					});
+					return cuentas;
 				}
 
 				function rellenarEtiquetas(cuentas) {
@@ -450,8 +590,20 @@ import equivalencias from '../data/equivalencias-buscador.json';
 				async function mostrarSugerencias(q, consulta, v) {
 					var partes = [];
 
+					// Una frase entre comillas que no aparece: se ofrece buscar sus palabras sin comillas.
+					if (consulta && /"/.test(consulta)) {
+						var sinComillas = consulta.replace(/"/g, ' ').replace(/\s+/g, ' ').trim();
+						var rs = await pagefind.search(sinComillas, { filters: filtrosPara(true, true) });
+						if (v !== version) return;
+						var dudosasSc = await palabrasSinCoincidencia(sinComillas, rs);
+						if (rs.results.length && !dudosasSc.length) {
+							partes.push('Sin comillas: ' + enlaceBusqueda(sinComillas) + ' (' + rs.results.length + ')');
+						}
+					}
+
 					if (consulta) {
-						var cambiada = consulta.replace(/[\p{L}]+/gu, function (w) { return palabraParecida(w) || w; });
+						// Las frases entre comillas no se corrigen: se buscan tal cual.
+						var cambiada = /"/.test(consulta) ? consulta : consulta.replace(/[\p{L}]+/gu, function (w) { return palabraParecida(w) || w; });
 						if (cambiada !== consulta) {
 							var r = await pagefind.search(cambiada, { filters: filtrosPara(true, true) });
 							if (v !== version) return;
@@ -486,8 +638,16 @@ import equivalencias from '../data/equivalencias-buscador.json';
 				// ------------------------------------------------------------------
 				// Búsqueda
 
+				// «Polonia», la frase «te quiero», «“te quiero” Ucrania»: comillas españolas por
+				// fuera y, dentro, las inglesas curvas.
+				function consultaLegible(texto) {
+					var unaFrase = /^"([^"]+)"$/.exec(texto);
+					if (unaFrase) return 'la frase «' + esc(unaFrase[1].trim()) + '»';
+					return '«' + esc(texto.replace(/"([^"]*)"/g, '“$1”')) + '»';
+				}
+
 				function textoEstado(n, q, consulta) {
-					var que = q ? '«' + esc(q) + '»' + (consulta !== q ? ' (' + esc(consulta) + ')' : '') : '';
+					var que = q ? consultaLegible(q) + (consulta !== q ? ' (' + esc(consulta.replace(/"([^"]*)"/g, '“$1”')) + ')' : '') : '';
 					var donde = [];
 					if (selEtiqueta.value) donde.push('etiqueta «' + esc(selEtiqueta.value) + '»');
 					if (selEpoca.value) donde.push(etiquetaDecada(selEpoca.value));
@@ -507,11 +667,12 @@ import equivalencias from '../data/equivalencias-buscador.json';
 				}
 
 				async function buscar() {
-					var q = input.value.trim();
+					var q = normalizarComillas(input.value.trim());
 					var v = ++version;
 					escribirDireccion();
 
 					var consulta = q ? conFormaReal(q) : null;
+					var frases = frasesDe(consulta);
 					var filtros = filtrosPara(true, true);
 					var hayFiltros = Object.keys(filtros).length > 0;
 
@@ -532,10 +693,21 @@ import equivalencias from '../data/equivalencias-buscador.json';
 
 						var respuestas = await Promise.all([
 							pagefind.search(consulta, opciones),
-							recuentos(consulta, 'etiqueta', filtrosPara(false, true)),
-							recuentos(consulta, 'anio', filtrosPara(true, false)),
+							recuentos(consulta, 'etiqueta', filtrosPara(false, true), frases),
+							recuentos(consulta, 'anio', filtrosPara(true, false), frases),
 						]);
 						if (v !== version) return;
+
+						// Frases exactas: solo los resultados que contienen la frase tal cual.
+						if (frases.length) {
+							var conFrase = await filtrarPorFrases(respuestas[0].results, frases, consulta);
+							if (v !== version) return;
+							respuestas[0] = {
+								results: conFrase.map(function (x) {
+									return { data: function () { return Promise.resolve(x.d); } };
+								}),
+							};
+						}
 
 						var sinCoincidencia = consulta ? await palabrasSinCoincidencia(consulta, respuestas[0]) : [];
 						if (v !== version) return;
@@ -692,11 +864,13 @@ import equivalencias from '../data/equivalencias-buscador.json';
 	}
 
 	/* Filtros y orden */
+	/* Tres columnas iguales, con el nombre encima: caben siempre en una línea, alineadas
+	   con la caja de búsqueda por los dos lados. En el móvil, uno debajo de otro. */
 	.buscar .controles {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.6rem 1.2rem;
-		margin-top: 0.9rem;
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 0.6rem 1rem;
+		margin-top: 1rem;
 		font-size: 0.85em;
 		color: rgb(var(--gray));
 	}
@@ -705,26 +879,33 @@ import equivalencias from '../data/equivalencias-buscador.json';
 	}
 	.buscar .controles label {
 		display: flex;
-		align-items: center;
-		gap: 0.4em;
+		flex-direction: column;
+		gap: 0.25em;
+		min-width: 0;
 	}
 	.buscar .controles select {
-		max-width: 14rem;
-		padding: 0.3rem 0.4rem;
+		width: 100%;
+		min-width: 0;
+		padding: 0.35rem 0.4rem;
 		font: inherit;
 		color: rgb(var(--black));
 		background: transparent;
 		border: 1px solid rgb(var(--gray-light));
 		border-radius: 4px;
+		text-overflow: ellipsis;
 	}
 	@media (max-width: 560px) {
+		.buscar .controles {
+			grid-template-columns: 1fr;
+		}
 		.buscar .controles label {
-			width: 100%;
+			flex-direction: row;
+			align-items: center;
 			justify-content: space-between;
+			gap: 0.6em;
 		}
 		.buscar .controles select {
-			flex: 1;
-			max-width: 70%;
+			width: 70%;
 		}
 	}
 

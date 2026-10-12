@@ -7,10 +7,26 @@
 
 <script is:inline>
 	(function () {
-		if (!new URLSearchParams(location.search).has('resaltar')) return;
+		var params = new URLSearchParams(location.search);
+		if (!params.has('resaltar')) return;
+		// Desde una búsqueda con frase exacta, el buscador manda la frase entera
+		// (?resaltar=te quiero): se resalta solo donde aparece completa y como palabras
+		// enteras, no «te» dentro de «este».
+		var conFrase = params.getAll('resaltar').some(function (t) { return /\s/.test(t.trim()); });
+		var opciones = { highlightParam: 'resaltar' };
+		if (conFrase) {
+			opciones.markOptions = {
+				className: 'pagefind-highlight',
+				acrossElements: true,
+				accuracy: {
+					value: 'exactly',
+					limiters: ',.;:¡!¿?«»“”"\'‘’()[]—–-…'.split(''),
+				},
+			};
+		}
 		import('/pagefind/pagefind-highlight.js')
 			.then(function () {
-				new PagefindHighlight({ highlightParam: 'resaltar' });
+				new PagefindHighlight(opciones);
 				if (location.hash) return;
 				var intentos = 0;
 				(function irALaPrimera() {
