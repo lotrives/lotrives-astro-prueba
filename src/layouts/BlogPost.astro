@@ -102,10 +102,6 @@ const jsonLd = {
 		font-style: normal;
 	}
 
-	.updated-short {
-		display: none;
-	}
-
 	@media (max-width: 560px) {
 		.date-separator {
 			display: none;
@@ -115,12 +111,8 @@ const jsonLd = {
 			display: block;
 		}
 
-		.updated-long {
+		.updated-el {
 			display: none;
-		}
-
-		.updated-short {
-			display: inline;
 		}
 	}
 	.tags {
@@ -188,8 +180,7 @@ const jsonLd = {
 							</div>
 							{updatedDate && (
 								<div class="last-updated-on">
-									<span class="updated-long">Actualizado el </span>
-									<span class="updated-short">Actualizado </span>
+									Actualizado<span class="updated-el"> el</span>{' '}
 									<FormattedDate date={updatedDate} compactOnMobile />
 								</div>
 							)}

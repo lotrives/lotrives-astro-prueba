@@ -195,6 +195,14 @@ h1 {
 .letra-header h2 {
 	scroll-margin-top: 6rem;
 }
+.letra-bloque {
+	margin-top: 1.75em;
+	padding-top: 0.6em;
+	border-top: 1px solid rgb(var(--gray-light));
+}
+.letra-bloque .letra-header {
+	margin-top: 0;
+}
 .temas-lista {
 	list-style: none;
 	margin: 0.4em 0 0;
@@ -224,13 +232,6 @@ h1 {
 @media (max-width: 600px) {
 	.temas-lista {
 		columns: 1;
-	}
-	/* En pantallas estrechas la cadenita de copiar enlace se salía por la izquierda:
-	   se acerca a la letra y se reduce para que quepa en el margen de la página. */
-	.letra-header .heading-anchor {
-		left: -20px;
-		transform: translateY(-50%) scale(0.8);
-		transform-origin: left center;
 	}
 }
 </style>

@@ -7,6 +7,10 @@ interface Props {
 
 const { date, compact = false, compactOnMobile = false } = Astro.props;
 
+// Una sola fecha en el HTML. Con compactOnMobile, en pantallas estrechas se ve la corta
+// mediante ::after (data-corta); las vistas de lectura, los buscadores y los lectores
+// de pantalla ven solo la larga, sin repetirla.
+
 const longDate = date.toLocaleDateString('es-ES', {
 	year: 'numeric',
 	month: 'long',
@@ -23,28 +27,24 @@ const shortDate = date
 	.replace(/\bsept\b/, 'sep');
 ---
 
-<time datetime={date.toISOString()} class={compactOnMobile && !compact ? 'date-responsive' : undefined}>
-	{
-		compact ? (
-			shortDate
-		) : compactOnMobile ? (
-			<>
-				<span class="date-long">{longDate}</span>
-				<span class="date-short">{shortDate}</span>
-			</>
-		) : (
-			longDate
-		)
-	}
-</time>
+<!--
+	Una sola fecha en el HTML. Con compactOnMobile, en pantallas estrechas se ve la corta
+	mediante ::after (data-corta); las vistas de lectura, los buscadores y los lectores
+	de pantalla solo ven la larga, sin repetirla.
+-->
+{
+	compact ? (
+		<time datetime={date.toISOString()}>{shortDate}</time>
+	) : compactOnMobile ? (
+		<time datetime={date.toISOString()} class="date-responsive" data-corta={shortDate}><span class="date-long">{longDate}</span></time>
+	) : (
+		<time datetime={date.toISOString()}>{longDate}</time>
+	)
+}
 
 <style>
 	time {
 		white-space: nowrap;
-	}
-
-	.date-short {
-		display: none;
 	}
 
 	@media (max-width: 560px) {
@@ -52,8 +52,8 @@ const shortDate = date
 			display: none;
 		}
 
-		.date-responsive .date-short {
-			display: inline;
+		.date-responsive::after {
+			content: attr(data-corta);
 		}
 	}
 </style>

@@ -8,36 +8,41 @@
 
 <button
   id="ftoc-btn"
-  aria-label="Tabla de contenidos"
+  aria-label="Contenido de la página"
   aria-expanded="false"
   aria-controls="ftoc-panel"
 >
   <svg width="18" height="14" viewBox="0 0 18 14" aria-hidden="true" fill="currentColor">
-    <rect y="0"  width="18" height="2" rx="1"/>
-    <rect y="6"  width="18" height="2" rx="1"/>
-    <rect y="12" width="18" height="2" rx="1"/>
+    <circle cx="1.6" cy="1.5"  r="1.6"/>
+    <circle cx="1.6" cy="7"    r="1.6"/>
+    <circle cx="1.6" cy="12.5" r="1.6"/>
+    <rect x="5.5" y="0.5"  width="12.5" height="2" rx="1"/>
+    <rect x="5.5" y="6"    width="12.5" height="2" rx="1"/>
+    <rect x="5.5" y="11.5" width="12.5" height="2" rx="1"/>
   </svg>
 </button>
 
-<div id="ftoc-panel" role="dialog" aria-label="Tabla de contenidos">
+<div id="ftoc-panel" role="dialog" aria-label="Contenido de la página">
   <div id="ftoc-header">
     <span>
-      <svg width="13" height="15" viewBox="0 0 13 15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
-        <rect x="1" y="1" width="11" height="13" rx="1.5"/>
-        <line x1="3.5" y1="4.5" x2="9.5" y2="4.5"/>
-        <line x1="3.5" y1="7.5" x2="9.5" y2="7.5"/>
-        <line x1="3.5" y1="10.5" x2="7"   y2="10.5"/>
+      <svg width="14" height="11" viewBox="0 0 18 14" aria-hidden="true" fill="currentColor">
+        <circle cx="1.6" cy="1.5"  r="1.6"/>
+        <circle cx="1.6" cy="7"    r="1.6"/>
+        <circle cx="1.6" cy="12.5" r="1.6"/>
+        <rect x="5.5" y="0.5"  width="12.5" height="2" rx="1"/>
+        <rect x="5.5" y="6"    width="12.5" height="2" rx="1"/>
+        <rect x="5.5" y="11.5" width="12.5" height="2" rx="1"/>
       </svg>
-      Índice
+      Contenido
     </span>
-    <button id="ftoc-close" aria-label="Cerrar tabla de contenidos">
+    <button id="ftoc-close" aria-label="Cerrar el contenido">
       <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
         <line x1="1" y1="1"  x2="13" y2="13"/>
         <line x1="13" y1="1" x2="1"  y2="13"/>
       </svg>
     </button>
   </div>
-  <nav id="ftoc-links" aria-label="Índice de secciones"></nav>
+  <nav id="ftoc-links" aria-label="Secciones de la página"></nav>
 </div>
 
 <div id="ftoc-overlay" aria-hidden="true"></div>
@@ -137,6 +142,13 @@
     box-shadow: 0 2px 8px rgba(var(--gray), 25%);
     transition: background 0.15s, color 0.15s, border-color 0.15s;
   }
+  /* En el móvil, más arriba: abajo a la derecha ponen sus botones
+     los navegadores de X, Facebook, Instagram, etc. */
+  @media (max-width: 600px) {
+    #ftoc-btn {
+      bottom: 5.5rem;
+    }
+  }
   #ftoc-btn:hover,
   #ftoc-btn[aria-expanded="true"] {
     background: var(--accent);
@@ -193,11 +205,9 @@
     display: flex;
     align-items: center;
     gap: 0.45em;
-    font-size: 0.78em;
+    font-size: 0.95em;
     font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.07em;
-    color: rgb(var(--gray));
+    color: rgb(var(--gray-dark));
   }
 
   #ftoc-close {

@@ -5,8 +5,8 @@
 */
 
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
+	--accent: #1f3a93;
+	--accent-dark: #142763;
 	--black: 0, 0, 0;
 	--gray: 90, 86, 82;
 	--gray-light: 229, 233, 240;
@@ -413,6 +413,17 @@ h2:hover .heading-anchor,
 h3:hover .heading-anchor,
 h4:hover .heading-anchor {
   opacity: 1;
+}
+/* En pantallas estrechas la cadenita se salía por la izquierda:
+   se acerca al título y se reduce para que quepa en el margen. */
+@media (max-width: 600px) {
+  h2 .heading-anchor,
+  h3 .heading-anchor,
+  h4 .heading-anchor {
+    left: -20px;
+    transform: translateY(-50%) scale(0.8);
+    transform-origin: left center;
+  }
 }
 #copy-toast {
   position: fixed;
