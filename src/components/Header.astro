@@ -212,6 +212,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       margin-right: -12px;
     }
 
+    /* Lupa y menú a la altura del centro del logotipo, que va algo bajado
+       (ver .logo-mark). */
+    .hamburger,
+    nav .lupa-movil {
+      transform: translateY(5px);
+    }
+
     nav .lupa-movil {
       display: flex;
       align-items: center;
@@ -246,7 +253,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       flex-direction: column;
       align-items: flex-start;
       gap: 0;
-      font-size: 1rem;
       box-shadow: 0 6px 12px -4px rgba(var(--black), 12%);
       /* Mismo margen que la cabecera: los enlaces empiezan donde el logotipo. */
       padding: 0.5rem 1em 1rem;
@@ -256,7 +262,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       display: flex;
     }
 
+    /* El tamaño va en los enlaces, no en el contenedor: así su 1em de margen es el
+       mismo que el de la cabecera. */
     .internal-links a {
+      font-size: 1rem;
       padding: 0.6rem 0;
       width: 100%;
       border-bottom: 1px solid rgb(var(--gray-light));
