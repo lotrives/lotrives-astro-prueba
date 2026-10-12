@@ -1,41 +1,67 @@
 <footer>
-	<p>
-		<a href="/acerca/">Acerca</a>
-		{' · '}
-		<a href="/archivo/">Archivo</a>
-		{' · '}
-		<a href="/etiquetas/">Temas</a>
-		{' · '}
-		<a href="/bibliografia/">Bibliografía</a>
-		{' · '}
-		<a href="/publicaciones/">Publicaciones</a>
-		{' · '}
-		<a href="/libros/">Libros</a>
-		{' · '}
-		<a href="/contacto/">Contacto</a>
-	</p>
-	<p>© 2026 José Manuel Grau Navarro</p>
-	<p>
-		<a href="https://x.com/jmgraunavarro" target="_blank" rel="noopener">X</a>
-		{' · '}
-		<a href="https://lotrives.substack.com/subscribe" target="_blank" rel="noopener">Newsletter</a>
-		{' · '}
-		<a href="/rss.xml">RSS</a>
-	</p>
+	<nav aria-label="Pie de página">
+		<p class="secciones">
+			<a href="/acerca/">Acerca</a>
+			{' · '}
+			<a href="/archivo/">Archivo</a>
+			{' · '}
+			<a href="/etiquetas/">Temas</a>
+			{' · '}
+			<a href="/bibliografia/">Bibliografía</a>
+			{' · '}
+			<a href="/publicaciones/">Publicaciones</a>
+			{' · '}
+			<a href="/libros/">Libros</a>
+			{' · '}
+			<a href="/contacto/">Contacto</a>
+		</p>
+		<p class="canales">
+			<a href="https://x.com/jmgraunavarro" target="_blank" rel="noopener">X</a>
+			{' · '}
+			<a href="https://lotrives.substack.com/subscribe" target="_blank" rel="noopener">Boletín</a>
+			{' · '}
+			<a href="/rss.xml">RSS</a>
+		</p>
+	</nav>
+	<p class="firma">© 2026 José Manuel Grau Navarro</p>
 </footer>
 <style>
 	footer {
-		padding: 2em 1em 6em 1em;
+		padding: 2em 1em 3em 1em;
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
 		text-align: center;
 	}
+	footer p {
+		margin: 0.6em 0;
+	}
+	/* Segunda y tercera línea, secundarias: algo más pequeñas, nunca por debajo de 14 px. */
+	.canales,
+	.firma {
+		font-size: max(0.9em, 14px);
+	}
+	/* La firma no se pulsa: más clara que los enlaces (contraste ≥ 4,5:1). */
+	.firma {
+		margin-top: 1.2em;
+		color: rgba(var(--gray), 0.85);
+	}
 	footer a {
+		display: inline-block;
+		/* Zona de pulsación cómoda en el móvil sin cambiar el aspecto. */
+		padding: 0.35em 0.1em;
 		color: rgb(var(--gray));
 		text-decoration: none;
 		white-space: nowrap;
 	}
-	footer a:hover {
+	footer a:hover,
+	footer a:focus-visible {
+		color: var(--accent);
 		text-decoration: underline;
+	}
+	/* En el móvil, sitio para que el botón flotante «Contenido» no tape el pie. */
+	@media (max-width: 640px) {
+		footer {
+			padding-bottom: 6em;
+		}
 	}
 </style>
