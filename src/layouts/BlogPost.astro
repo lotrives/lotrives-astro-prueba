@@ -110,10 +110,6 @@ const jsonLd = {
 		.published-date {
 			display: block;
 		}
-
-		.updated-el {
-			display: none;
-		}
 	}
 	.tags {
 		margin-top: 2em;
@@ -180,7 +176,7 @@ const jsonLd = {
 							</div>
 							{updatedDate && (
 								<div class="last-updated-on">
-									Actualizado<span class="updated-el"> el</span>{' '}
+									Actualizado el{' '}
 									<FormattedDate date={updatedDate} compactOnMobile />
 								</div>
 							)}
