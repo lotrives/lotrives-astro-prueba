@@ -50,7 +50,7 @@ import equivalencias from '../data/equivalencias-buscador.json';
 							<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 5v6a3 3 0 0 1-3 3H5"></path><path d="m9 10-4 4 4 4"></path></svg>
 						</button>
 					</div>
-					<p class="ayuda">Para una frase exacta, escríbela entre comillas, por ejemplo: "estado de bienestar".</p>
+					<p class="ayuda">Para una frase o una palabra exacta, escríbela entre comillas, por ejemplo: "estado de bienestar" o "preguntó".</p>
 
 					<div id="buscador-controles" class="controles" hidden>
 						<label>
@@ -668,11 +668,11 @@ import equivalencias from '../data/equivalencias-buscador.json';
 				// ------------------------------------------------------------------
 				// Búsqueda
 
-				// «Polonia», la frase «te quiero», «“te quiero” Ucrania»: comillas españolas por
+				// «Polonia», «te quiero» (entre comillas), «“te quiero” Ucrania»: comillas españolas por
 				// fuera y, dentro, las inglesas curvas.
 				function consultaLegible(texto) {
 					var unaFrase = /^"([^"]+)"$/.exec(texto);
-					if (unaFrase) return 'la frase «' + esc(unaFrase[1].trim()) + '»';
+					if (unaFrase) return '«' + esc(unaFrase[1].trim()) + '»';
 					return '«' + esc(texto.replace(/"([^"]*)"/g, '“$1”')) + '»';
 				}
 
