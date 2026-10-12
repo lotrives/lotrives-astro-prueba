@@ -44,6 +44,21 @@ export function ordenarPublicados<T extends { data: { draft?: boolean; pubDate: 
 		.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
 }
 
+/**
+ * Fecha de novedad: cuándo llegó el texto a la web.
+ * Es `webDate` si existe (textos antiguos subidos ahora) y, si no, `pubDate`.
+ * `updatedDate` no cuenta: corregir un texto no lo vuelve a presentar como nuevo.
+ */
+export function fechaNovedad(entry: { data: { pubDate: Date; webDate?: Date } }): Date {
+	return new Date(entry.data.webDate ?? entry.data.pubDate);
+}
+
+/** Textos publicados (sin borradores), por fecha de novedad: para la portada y el feed. */
+export function ordenarNovedades<T extends { data: { draft?: boolean; pubDate: Date; webDate?: Date } }>(entradas: T[]): T[] {
+	return sinBorradores(entradas)
+		.sort((a, b) => fechaNovedad(b).valueOf() - fechaNovedad(a).valueOf());
+}
+
 /** Descripción para SEO y listas: la del frontmatter o, si falta, el comienzo del texto. */
 export function descripcionDe(entry: { data: { description?: string }; body?: string }): string {
 	if (entry.data.description) return entry.data.description;

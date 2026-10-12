@@ -2,7 +2,7 @@
 title: "La peligrosa e injusta jornada laboral de los médicos internos residentes"
 description: "Situación de los médicos internos residentes en España (MIR) y abusos estructurales en sus jornadas laborales."
 pubDate: 2025-11-07
-last_modified_at: 2025-11-15
+updatedDate: 2025-11-15
 heroImage: "/assets/images/jornada-laboral-mir-portada.webp"
 tags: ["Mónica García (ministra de Sanidad)", "Abusos", "Sanidad", "Médico interno residente"]
 author: "José Manuel Grau Navarro"

@@ -1,7 +1,7 @@
 ---
 title: "Olszowski minimiza en Viena el juicio en Gdańsk a tres disidentes polacos"
 pubDate: 1985-06-14
-last_modified_at: 2026-04-20
+updatedDate: 2026-04-20
 tags: ["Stefan Olszowski", "Fernando Morán"]
 description: "Olszwoski, ministro de Exteriores polaco, pone a Morán de ejemplo de ministro que acepta las condiciones del Gobierno comunista polaco para visitar polonia."
 author: "José Manuel Grau Navarro"

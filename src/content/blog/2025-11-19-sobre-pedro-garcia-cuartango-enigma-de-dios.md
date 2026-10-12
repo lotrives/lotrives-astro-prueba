@@ -2,7 +2,7 @@
 title: "Sobre Pedro García Cuartango y «El enigma de Dios»"
 description: "Impresiones tras un encuentro con Pedro García Cuartango, por su libro «El enigma de Dios». De las dudas sobre Dios a las dudas sobre Jesucristo: otra forma más práctica del problema"
 pubDate: 2025-11-19
-last_modified_at: 2025-11-30
+updatedDate: 2025-11-30
 heroImage: "/assets/images/sobre-pedro-garcia-cuartango-portada.webp"
 tags: ["Dios", "Jesucristo", "Bertrand Russell", "Frederick C. Copleston", "Isaías"]
 author: "José Manuel Grau Navarro"

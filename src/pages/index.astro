@@ -6,15 +6,16 @@ import TarjetaTexto from '../components/TarjetaTexto.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { getCollection } from 'astro:content';
 
-import { urlTexto, ordenarPublicados } from '../utils/url';
+import { urlTexto, ordenarNovedades } from '../utils/url';
 import { etiquetasConPagina, pildorasDe } from '../utils/etiquetas';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const conPagina = await etiquetasConPagina();
 
-// Los 8 textos más recientes, sin distinguir tipos.
-const items = ordenarPublicados(await getCollection('blog'))
+// Los 8 textos que llegaron a la web más recientemente (webDate o pubDate),
+// sin distinguir tipos. Cada uno muestra su fecha original (pubDate).
+const items = ordenarNovedades(await getCollection('blog'))
   .slice(0, 8)
   .map((post) => ({
     date: new Date(post.data.pubDate),

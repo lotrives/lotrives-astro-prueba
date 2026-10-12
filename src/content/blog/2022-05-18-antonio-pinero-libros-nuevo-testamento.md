@@ -3,7 +3,7 @@ title: "«Los libros del Nuevo Testamento». Edición de Antonio Piñero"
 pubDate: 2022-05-18
 tags: ["Antonio Piñero", "Nuevo Testamento", "Novum Testamentum Graece 28.ª ed."]
 description: "Extractos de la introducción al Nuevo Testamento escrita por Antonio Piñero"
-last_modified_at: 2026-04-18
+updatedDate: 2026-04-18
 author: "José Manuel Grau Navarro"
 ---
 

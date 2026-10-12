@@ -8,8 +8,40 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeSlug from 'rehype-slug';
 import { visit } from 'unist-util-visit';
 import { unified } from '@astrojs/markdown-remark';
+import { readdirSync, readFileSync } from 'node:fs';
 
 const SITE = 'https://lotrives.com';
+
+// lastmod del sitemap para cada texto: updatedDate si existe; si no, webDate;
+// si no, pubDate. Se lee del frontmatter de src/content/blog/ con la misma
+// regla de direcciones que src/utils/url.ts. Las páginas sin fecha no llevan lastmod.
+const sinBarraFinal = (u) => u.replace(/\/+$/, '');
+const fechasSitemap = (() => {
+	const dir = new URL('./src/content/blog/', import.meta.url);
+	const mapa = new Map();
+	for (const archivo of readdirSync(dir)) {
+		if (!/\.mdx?$/.test(archivo)) continue;
+		const id = archivo.replace(/\.mdx?$/, '');
+		const fm = readFileSync(new URL(archivo, dir), 'utf8').match(/^---\r?\n([\s\S]*?)\r?\n---/);
+		if (!fm) continue;
+		const campo = (nombre) => {
+			const m = fm[1].match(new RegExp(`^${nombre}:\\s*["']?([^"'\\r\\n]+?)["']?\\s*$`, 'm'));
+			if (!m) return undefined;
+			const d = new Date(m[1]);
+			return isNaN(d.valueOf()) ? undefined : d;
+		};
+		if (/^draft:\s*true\s*$/m.test(fm[1])) continue;
+		const fecha = campo('updatedDate') ?? campo('webDate') ?? campo('pubDate');
+		if (!fecha) continue;
+		let ruta;
+		const fechado = id.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/);
+		if (/^\d{8}-\d{4}$/.test(id)) ruta = `notas/${id}`;
+		else if (fechado) ruta = `${fechado[1]}/${fechado[2]}/${fechado[3]}/${fechado[4]}`;
+		else continue;
+		mapa.set(sinBarraFinal(`${SITE}/${ruta}`), fecha.toISOString());
+	}
+	return mapa;
+})();
 
 const rehypeFixExternalLinks = () => (tree) => {
 	visit(tree, 'element', (node) => {
@@ -41,7 +73,13 @@ const rehypeTranslateFootnoteLabel = () => (tree) => {
 export default defineConfig({
 	site: SITE,
 	base: '/',
-	integrations: [mdx(), sitemap({ filter: (page) => !page.includes("/blog/") && !page.includes("/etiquetas-substack/") && !page.endsWith("/notas/") })],
+	integrations: [mdx(), sitemap({
+		filter: (page) => !page.includes("/blog/") && !page.includes("/etiquetas-substack/") && !page.endsWith("/notas/"),
+		serialize: (item) => {
+			const lastmod = fechasSitemap.get(sinBarraFinal(item.url));
+			return lastmod ? { ...item, lastmod } : item;
+		},
+	})],
 	markdown: {
 		processor: unified({
 		rehypePlugins: [
