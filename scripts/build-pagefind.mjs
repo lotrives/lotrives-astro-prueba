@@ -184,6 +184,47 @@ function textoVisible(html) {
 	);
 }
 
+// Fin del elemento que empieza en `inicio` (posición de su «<»), contando las
+// etiquetas del mismo nombre que se abren y cierran dentro.
+function finDelElemento(html, inicio) {
+	const apertura = html.slice(inicio).match(/^<([a-z][a-z0-9-]*)\b[^>]*>/i);
+	if (!apertura) return inicio;
+	const nombre = apertura[1];
+	const re = new RegExp(`<(/?)${nombre}\\b[^>]*>`, 'gi');
+	re.lastIndex = inicio + apertura[0].length;
+	let nivel = 1;
+	let m;
+	while ((m = re.exec(html))) {
+		if (m[0].endsWith('/>')) continue;
+		nivel += m[1] ? -1 : 1;
+		if (nivel === 0) return m.index + m[0].length;
+	}
+	return html.length;
+}
+
+// Solo el texto que Pagefind indexa de verdad: lo que está dentro de
+// data-pagefind-body, sin lo marcado con data-pagefind-ignore (pie de etiquetas,
+// enlaces al texto anterior y siguiente…). Se conservan el título y el bloque
+// .solo-buscador (etiquetas y entradilla), que se indexan como metadatos.
+// Antes se tomaba la página entera, y el título del texto vecino, enlazado al pie,
+// daba equivalencias falsas: «Zelensky» encontraba el texto sobre el autismo.
+function textoIndexado(html) {
+	const cuerpo = html.match(/<[a-z][a-z0-9-]*\b[^>]*\bdata-pagefind-body\b[^>]*>/i);
+	if (!cuerpo) return textoVisible(html);
+	let parte = html.slice(cuerpo.index, finDelElemento(html, cuerpo.index));
+	const ignorar = /<[a-z][a-z0-9-]*\b[^>]*\bdata-pagefind-ignore\b[^>]*>/gi;
+	let m;
+	const tramos = [];
+	while ((m = ignorar.exec(parte))) {
+		if (/\bdata-pagefind-meta=|\bclass="[^"]*\bsolo-buscador\b/.test(m[0])) continue;
+		const fin = finDelElemento(parte, m.index);
+		tramos.push([m.index, fin]);
+		ignorar.lastIndex = fin;
+	}
+	for (const [a, b] of tramos.reverse()) parte = parte.slice(0, a) + ' ' + parte.slice(b);
+	return textoVisible(parte);
+}
+
 // Hueco que dejan las plantillas para los alias: <span data-pagefind-alias></span>
 // (Astro puede añadirle otros atributos).
 const HUECO_ALIAS = /<span\b[^>]*\bdata-pagefind-alias\b[^>]*>\s*<\/span>/;
@@ -216,7 +257,7 @@ try {
 		const html = await fs.readFile(file, 'utf8');
 		if (!/\bdata-pagefind-body\b/.test(html)) continue;
 
-		const texto = textoVisible(html);
+		const texto = textoIndexado(html);
 		for (const p of texto.match(/\p{L}+/gu) || []) palabrasReales.add(foldDiacritics(p).toLowerCase());
 		const aliases = buildAliases(texto);
 		aliasCount += aliases.size;
