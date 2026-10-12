@@ -2,7 +2,8 @@
 // FloatingTOC.astro
 // Se autogenera leyendo h2, h3 y h4 con id dentro de <main>.
 // Aparece si hay 3 o más elementos navegables (umbral mínimo).
-// Ignora headings ocultos (display: none) y los de la sección de notas al pie.
+// Ignora headings ocultos (display: none), los de la sección de notas al pie
+// y los marcados con data-ftoc-ignore (por ejemplo, los meses del Archivo).
 ---
 
 <button
@@ -54,7 +55,8 @@
     document.querySelectorAll('main h2[id], main h3[id], main h4[id]')
   ).filter(h =>
     window.getComputedStyle(h).display !== 'none' &&
-    !h.closest('.footnotes')
+    !h.closest('.footnotes') &&
+    !h.hasAttribute('data-ftoc-ignore')
   );
 
   // Umbral mínimo: solo aparece si hay 3 o más elementos navegables

@@ -9,19 +9,37 @@ import PageScripts from '../components/PageScripts.astro';
 
 import { urlTexto, ordenarPublicados } from '../utils/url';
 
-// Todos los textos (antiguos artículos y notas) en una sola lista cronológica.
+// Todos los textos en una sola lista cronológica, agrupada por años.
+// Los años con más de MESES_DESDE textos se dividen por meses, de forma automática.
+const MESES_DESDE = 20;
+
+const MESES = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+
 const sortedPosts = ordenarPublicados(await getCollection('blog'));
 
-const postsByYear = sortedPosts.reduce((groups, post) => {
-	const year = new Date(post.data.pubDate).getFullYear();
-	if (!groups[year]) groups[year] = [];
-	groups[year].push(post);
-	return groups;
-}, {});
+type Texto = (typeof sortedPosts)[number];
+
+const postsByYear: Record<string, Texto[]> = {};
+for (const post of sortedPosts) {
+	const year = String(new Date(post.data.pubDate).getFullYear());
+	(postsByYear[year] ??= []).push(post);
+}
 
 const years = Object.keys(postsByYear).sort((a, b) => Number(b) - Number(a));
 
+// Para los años grandes: [mes, textos] en orden descendente (los textos ya vienen ordenados).
+function porMeses(posts: Texto[]) {
+	const meses = new Map<number, Texto[]>();
+	for (const post of posts) {
+		const mes = new Date(post.data.pubDate).getMonth();
+		if (!meses.has(mes)) meses.set(mes, []);
+		meses.get(mes)!.push(post);
+	}
+	return [...meses.entries()];
+}
+
 const postUrl = urlTexto;
+const dosCifras = (n: number) => String(n + 1).padStart(2, '0');
 ---
 
 <!doctype html>
@@ -38,19 +56,49 @@ const postUrl = urlTexto;
 			<section class="page">
 				<h1>Archivo</h1>
 
-				{years.map((year) => (
-					<section>
-						<h2 class="archivo-anio" id={`year-${year}`}>{year}</h2>
-						<ul class="archivo-lista">
-							{postsByYear[year].map((post) => (
-								<li>
-									<a href={postUrl(post)}>{post.data.title}</a>
-									<span class="archivo-fecha"><FormattedDate date={new Date(post.data.pubDate)} compact /></span>
-								</li>
-							))}
-						</ul>
-					</section>
-				))}
+				<nav id="nav-anios" class="nav-anios" aria-label="Años">
+					{years.map((year) => (
+						<a href={`#year-${year}`}>{year}</a>
+					))}
+				</nav>
+
+				{years.map((year) => {
+					const posts = postsByYear[year];
+					const conMeses = posts.length > MESES_DESDE;
+					return (
+						<section>
+							<h2 class="archivo-anio" id={`year-${year}`}>
+								{year} <a href="#nav-anios" class="volver-arriba" aria-label="Volver a los años">↑</a>
+							</h2>
+							{conMeses ? (
+								porMeses(posts).map(([mes, textos]) => (
+									<>
+										<h3 class="archivo-mes" id={`mes-${year}-${dosCifras(mes)}`} data-ftoc-ignore>
+											{MESES[mes]}
+										</h3>
+										<ul class="archivo-lista">
+											{textos.map((post) => (
+												<li>
+													<a href={postUrl(post)}>{post.data.title}</a>
+													<span class="archivo-fecha"><FormattedDate date={new Date(post.data.pubDate)} compact /></span>
+												</li>
+											))}
+										</ul>
+									</>
+								))
+							) : (
+								<ul class="archivo-lista">
+									{posts.map((post) => (
+										<li>
+											<a href={postUrl(post)}>{post.data.title}</a>
+											<span class="archivo-fecha"><FormattedDate date={new Date(post.data.pubDate)} compact /></span>
+										</li>
+									))}
+								</ul>
+							)}
+						</section>
+					);
+				})}
 			</section>
 		</main>
 		<PageScripts />
@@ -67,9 +115,22 @@ const postUrl = urlTexto;
 	}
 
 	h1 {
-		margin: 0 0 2rem;
+		margin: 0 0 1.5rem;
 		font-size: 2.5rem;
 		line-height: 1;
+	}
+
+	.nav-anios {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.3em 0.9em;
+		margin-bottom: 1.5em;
+		font-size: 0.95em;
+	}
+
+	.nav-anios a {
+		text-decoration: underline;
+		text-underline-offset: 3px;
 	}
 
 	.archivo-anio {
@@ -77,6 +138,20 @@ const postUrl = urlTexto;
 		margin-bottom: 0.5em;
 		font-size: 1.75rem;
 		line-height: 1.2;
+		scroll-margin-top: 6rem;
+	}
+
+	.volver-arriba {
+		font-size: 0.9em;
+		text-decoration: none;
+	}
+
+	.archivo-mes {
+		margin: 1.2em 0 0.4em;
+		font-size: 1.15rem;
+		line-height: 1.3;
+		color: rgb(var(--gray));
+		scroll-margin-top: 6rem;
 	}
 
 	.archivo-lista {
