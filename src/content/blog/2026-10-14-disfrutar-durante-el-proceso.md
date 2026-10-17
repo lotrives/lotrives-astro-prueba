@@ -7,7 +7,7 @@ tags: ["Televisión", "Series", "Trabajo", "Jorge Coira", "Pepe Coira", "Trabajo
 heroImage: "/assets/images/pepe-y-jorge-coira.webp"
 ---
 
-<p class="entradilla">Los hermanos Pepe y Jorge Coira, los creadores de la series <em>Hierro</em> y <em>Rapa</em>, contestan en un Foro Nueva Revista a preguntas sobre su trabajo, la incertidumbre del éxito profesional y la importancia de encontrar satisfacción en el propio proceso del oficio.</p>
+<p class="entradilla">Los hermanos Pepe y Jorge Coira, los creadores de las series <em>Hierro</em> y <em>Rapa</em>, contestan en un Foro Nueva Revista a preguntas sobre su trabajo, la incertidumbre del éxito profesional y la importancia de encontrar satisfacción en el propio proceso del oficio.</p>
 
 ![Los hermanos Pepe y Jorge Coira, sonrientes, sentados ante un photocall de Nueva Revista y la Universidad Villanueva](/assets/images/pepe-y-jorge-coira.webp)
 
